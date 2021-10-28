@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_configuring_system_manager_options.html 
+sidebar: sidebar 
+keywords: system, manager, configure, system, manager, option, online, help 
+summary: System Manager に対して、ロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。 
+---
+= System Manager オプションを設定
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager に対して、ロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。
+
+オプションは、 System Manager のログインウィンドウから設定できます。ただし、非アクティブ時のタイムアウト値を指定するには、アプリケーションにログインする必要があります。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. [*Setup*] ペインで、 [*General] をクリックします。
+. ログレベルを指定します。
+. 非アクティブ時のタイムアウト値を分単位で指定します。
++
+[NOTE]
+====
+Security Assertion Markup Language （ SAML ）認証を有効にしている場合は、このオプションを使用できません。
+
+====
+. [OK] をクリックします。
+

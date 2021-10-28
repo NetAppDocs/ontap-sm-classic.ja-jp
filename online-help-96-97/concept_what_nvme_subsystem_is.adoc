@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/concept_what_nvme_subsystem_is.html 
+sidebar: sidebar 
+keywords: nvme, subsystem, fc, rdma, transport, port, vserver, online, help 
+summary: NVMe サブシステムには、 1 つ以上のコントローラ、 1 つ以上のネームスペース、 1 つ以上の不揮発性メモリ（ NVM ）サブシステムポート（ FC-NVMe または RDMA トランスポートポート）、 NVM ストレージメディア、およびコントローラと NVM ストレージメディア間のインターフェイスが含まれます。コントローラのマッピングと管理のために、 NVM サブシステムは ONTAP の SVM にマッピングされます。 
+---
+= NVMe サブシステムとは
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe サブシステムには、 1 つ以上のコントローラ、 1 つ以上のネームスペース、 1 つ以上の不揮発性メモリ（ NVM ）サブシステムポート（ FC-NVMe または RDMA トランスポートポート）、 NVM ストレージメディア、およびコントローラと NVM ストレージメディア間のインターフェイスが含まれます。コントローラのマッピングと管理のために、 NVM サブシステムは ONTAP の SVM にマッピングされます。
+
+NVMe サブシステムは、 System Manager を使用して作成できます。SVM 内の異なるホストやネームスペースに NVMe サブシステムを関連付けることができます。また、 SVM ごとに複数の NVMe サブシステムをサポートできます。ただし、 NVMe サブシステムを複数の SVM で使用するように設定することはできません。
+
+NVMe over Fabric （ NVMeoF ）サブシステムは、 FreeBSD カーネルに属する独立したカーネルオブジェクトです。NVMeoF サブシステムは次のコンポーネントと連携します。
+
+* BCOMKA 、 FCT 、 VDOM などの SAN コンポーネント
+* WAFL
+* CM 、 ASUP 、 EMS などの RAS コンポーネント
+
+
+NVMeoF サブシステムとの連携は、いずれも ONTAP で検出された現在の定義とパターンに従います。

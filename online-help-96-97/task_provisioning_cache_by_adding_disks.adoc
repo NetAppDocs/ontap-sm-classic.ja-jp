@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_provisioning_cache_by_adding_disks.html 
+sidebar: sidebar 
+keywords: ssd, system, manager, storage, pool, root, aggregate, provision, cache, online, help 
+summary: System Manager を使用して、 SSD をストレージプールまたは専用 SSD として追加してキャッシュをプロビジョニングできます。SSD を追加することで、パーティショニングされたディスクを含まない非ルートアグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換したり、既存の Flash Pool アグリゲートのキャッシュサイズを拡張したりできます。 
+---
+= SSD の追加によるキャッシュのプロビジョニング
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 SSD をストレージプールまたは専用 SSD として追加してキャッシュをプロビジョニングできます。SSD を追加することで、パーティショニングされたディスクを含まない非ルートアグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換したり、既存の Flash Pool アグリゲートのキャッシュサイズを拡張したりできます。
+
+.このタスクについて
+* 追加された SSD キャッシュはアグリゲートのサイズには反映されず、アグリゲートが最大サイズのときでも SSD RAID グループを追加できます。
+* System Manager を使用してキャッシュを追加する場合、パーティショニングされた SSD は使用できません。
+
+
+* 関連情報 *
+
+xref:concept_how_storage_pool_works.adoc[ストレージプールの仕組み]

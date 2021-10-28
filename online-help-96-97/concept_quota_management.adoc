@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_quota_management.html 
+sidebar: sidebar 
+keywords: quota, management, system, manager, create, edit, delete, online help, user, group, tree 
+summary: System Manager には、クォータを作成、編集、または削除するいくつかの機能が用意されています。ユーザクォータ、グループクォータ、またはツリークォータを作成し、ディスクレベルおよびファイルレベルでクォータ制限を指定できます。すべてのクォータは、ボリューム単位で設定されます。 
+---
+= クォータ管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager には、クォータを作成、編集、または削除するいくつかの機能が用意されています。ユーザクォータ、グループクォータ、またはツリークォータを作成し、ディスクレベルおよびファイルレベルでクォータ制限を指定できます。すべてのクォータは、ボリューム単位で設定されます。
+
+クォータの作成後、次のタスクを実行できます。
+
+* クォータを有効または無効にします
+* クォータのサイズを変更
+

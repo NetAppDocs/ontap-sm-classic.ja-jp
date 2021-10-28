@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_configuring_managing_cloud_tiers.html 
+sidebar: sidebar 
+keywords: configure, manage, cloud, tier, online, help, fabricpool, aggregate, storage, system 
+summary: データを複数の階層に格納すると、ストレージシステムの効率を高めることができます。ストレージ階層の管理には、 FabricPool 対応アグリゲートを使用します。クラウド階層には、アクセス頻度に基づいてデータが格納されます。 
+---
+= クラウド階層を設定および管理する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+データを複数の階層に格納すると、ストレージシステムの効率を高めることができます。ストレージ階層の管理には、 FabricPool 対応アグリゲートを使用します。クラウド階層には、アクセス頻度に基づいてデータが格納されます。
+
+.作業を開始する前に
+* ONTAP 9.2 以降が実行されている必要があります。
+* オールフラッシュ（オール SSD ）アグリゲートが必要です
+
+
+image::../media/fabricpool_workflow.gif[FabricPool ワークフロー]

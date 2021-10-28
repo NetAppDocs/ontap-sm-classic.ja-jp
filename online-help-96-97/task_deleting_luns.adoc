@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_deleting_luns.html 
+sidebar: sidebar 
+keywords: delete, lun, system, manager, online, help, aggregate 
+summary: System Manager を使用して LUN を削除し、 LUN で使用されていたスペースを包含アグリゲートや包含ボリュームに戻すことができます。 
+---
+= LUN を削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して LUN を削除し、 LUN で使用されていたスペースを包含アグリゲートや包含ボリュームに戻すことができます。
+
+.作業を開始する前に
+* LUN をオフラインにする必要があります。
+* LUN をすべてのイニシエータホストからマッピング解除します。
+
+
+.手順
+. [ * ストレージ * > * LUNs * ] をクリックします。
+. [* LUN 管理 * ] タブで、削除する LUN を 1 つ以上選択し、 [ * 削除 * ] をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_luns_window.adoc[LUN ウィンドウ]

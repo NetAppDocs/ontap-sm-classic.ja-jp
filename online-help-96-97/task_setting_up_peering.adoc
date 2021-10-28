@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_setting_up_peering.html 
+sidebar: sidebar 
+keywords: set, up, peering, intercluster, logical, interfaces, lid, node, online, help, svm 
+summary: ピアリングのセットアップでは、各ノードでクラスタ間論理インターフェイス（ LIF ）を作成してから、クラスタピア関係を作成し、 SVM ピア関係を作成します。 
+---
+= ピアリングをセットアップしています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ピアリングのセットアップでは、各ノードでクラスタ間論理インターフェイス（ LIF ）を作成してから、クラスタピア関係を作成し、 SVM ピア関係を作成します。
+
+image::../media/peering_workflow.gif[ピア関係の作成ワークフロー]

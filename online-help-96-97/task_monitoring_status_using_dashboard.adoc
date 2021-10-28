@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/task_monitoring_status_using_dashboard.html 
+sidebar: sidebar 
+keywords: monitor, cluster, dashboard, system, manager, online, help 
+summary: System Manager のダッシュボードを使用すると、クラスタの健常性とパフォーマンスを監視できます。また、ハードウェアやストレージ構成の問題を特定することもできます。 
+---
+= ダッシュボードを使用したクラスタの監視
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager のダッシュボードを使用すると、クラスタの健常性とパフォーマンスを監視できます。また、ハードウェアやストレージ構成の問題を特定することもできます。
+
+.手順
+. ダッシュボード * タブをクリックすると、ヘルス / パフォーマンスダッシュボードパネルが表示されます。
+

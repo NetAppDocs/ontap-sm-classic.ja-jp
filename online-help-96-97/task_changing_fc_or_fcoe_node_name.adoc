@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_changing_fc_or_fcoe_node_name.html 
+sidebar: sidebar 
+keywords: online, help, change, fc, fcoe, node, name, fibre, channel, san 
+summary: ストレージシステムシャーシを交換し、同じファイバチャネル SAN で再利用した場合、状況によっては、交換したストレージシステムのノード名が重複することがあります。ストレージシステムのノード名は System Manager を使用して変更できます。 
+---
+= FC または FCoE のノード名を変更する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージシステムシャーシを交換し、同じファイバチャネル SAN で再利用した場合、状況によっては、交換したストレージシステムのノード名が重複することがあります。ストレージシステムのノード名は System Manager を使用して変更できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Protocols] ペインで、 [*FC/FCoE*] をクリックします。
+. [ 編集（ Edit ） ] をクリックします。
+. 新しい名前を入力し、「 * OK * 」をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_configurationprotocolsfcp.adoc[FC/FCoE ウィンドウ]

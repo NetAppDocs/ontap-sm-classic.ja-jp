@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_storage_pools.html 
+sidebar: sidebar 
+keywords: system, manager, storage, pools, ssd, flash, pool, aggregates, online, help 
+summary: System Manager を使用してストレージプールを作成すると、 SSD を複数の Flash Pool アグリゲートで共有できるようになります。 
+---
+= ストレージプール
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用してストレージプールを作成すると、 SSD を複数の Flash Pool アグリゲートで共有できるようになります。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["ディスクおよびアグリゲートの管理"]

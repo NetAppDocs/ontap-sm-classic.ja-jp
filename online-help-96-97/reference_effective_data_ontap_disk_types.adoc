@@ -1,0 +1,72 @@
+---
+permalink: online-help-96-97/reference_effective_data_ontap_disk_types.html 
+sidebar: sidebar 
+keywords: ontap, disk, type, online, help 
+summary: Data ONTAP 8.1 以降では、特定の ONTAP ディスクタイプは、アグリゲートの作成、アグリゲートへの追加、およびスペアの管理を行う目的において同じタイプとみなされます。ONTAP は、各ディスクタイプに実質的ディスクタイプを割り当てます。実質的ディスクタイプが同じ HDD を混在させることができます。 
+---
+= 実質的 ONTAP ディスクタイプを使用して HDD を混在させる方法
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Data ONTAP 8.1 以降では、特定の ONTAP ディスクタイプは、アグリゲートの作成、アグリゲートへの追加、およびスペアの管理を行う目的において同じタイプとみなされます。ONTAP は、各ディスクタイプに実質的ディスクタイプを割り当てます。実質的ディスクタイプが同じ HDD を混在させることができます。
+
+「 raid.disktype.enable 」オプションが「 off 」に設定されている場合、特定のタイプの HDD を同じアグリゲート内に混在させることができます。「 raid.disktype.enable 」オプションが「 on 」に設定されている場合、有効なディスクタイプは ONTAP ディスクタイプと同じです。アグリゲートの作成には、 1 つのディスクタイプしか使用できません。「 raid.disktype.enable 」オプションのデフォルト値は「 off 」です。
+
+Data ONTAP 8.2 以降では 'BSAS ' FSAS ' および ATA のディスクを混在させる場合 'Disk オプション raid.mix.hdd.disktype.capacity` を on に設定する必要がありますFCAL および SAS タイプのディスクを混在させるには 'raid.mix.hdd.disktype.performance オプションを on に設定する必要があります
+
+次の表に、ディスクタイプと実質的ディスクタイプの対応を示します。
+
+|===
+| ONTAP ディスクタイプ | 実質的ディスクタイプ 
+
+
+ a| 
+FCAL
+ a| 
+（ SAS ）。
+
+
+
+ a| 
+（ SAS ）。
+ a| 
+（ SAS ）。
+
+
+
+ a| 
+ATA の略
+ a| 
+FSA
+
+
+
+ a| 
+BSAS
+ a| 
+FSA
+
+
+
+ a| 
+FCAL および SAS
+ a| 
+（ SAS ）。
+
+
+
+ a| 
+mSATA （ mSATA
+ a| 
+mSATA （ mSATA
+
+
+
+ a| 
+FSA
+ a| 
+FSA
+
+|===

@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_deleting_broadcast_domains.html 
+sidebar: sidebar 
+keywords: delete, broadcast, domain, system, manager, online, help 
+summary: 不要になったブロードキャストドメインは、 System Manager を使用して削除できます。 
+---
+= ブロードキャストドメインを削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったブロードキャストドメインは、 System Manager を使用して削除できます。
+
+削除するブロードキャストドメインに関連付けられているサブネットがないようにします。
+
+.このタスクについて
+* ブロードキャストドメインを削除すると、ブロードキャストドメインに関連付けられているポートにはデフォルト IPspace が割り当てられ、ポートの MTU 設定は変更されません。
+* System Manager を使用して、クラスタ IPspace 内のブロードキャストドメインを削除することはできません。
++
+代わりにコマンドラインインターフェイス（ CLI ）を使用してください。
+
+
+
+.手順
+. [ ネットワーク *>] 、 [ ブロードキャストドメイン *] の順にクリックします。
+. 削除するブロードキャストドメインを選択し、「 * 削除 * 」をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

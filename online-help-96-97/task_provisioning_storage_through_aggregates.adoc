@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_through_aggregates.html 
+sidebar: sidebar 
+keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool 
+summary: ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じてストレージを手動で作成することもできます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。 
+---
+= アグリゲートを使用したストレージのプロビジョニング
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じてストレージを手動で作成することもできます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。
+
+アグリゲートを作成するための十分なスペアディスクが必要です。
+
+System Manager を使用して次の操作を実行することはできません。
+
+* サイズが異なるディスクを組み合わせる。これは、サイズが異なるスペアディスクが十分にある場合でも同様です。
++
+最初は同じサイズのディスクでアグリゲートを作成しておき、あとでサイズが異なるディスクを追加します。
+
+* チェックサムタイプが異なるディスクを組み合わせる。
++
+最初は単一のチェックサムタイプのアグリゲートを作成しておき、あとで別のチェックサムタイプのストレージを追加します。
+
+
+
+* 関連情報 *
+
+xref:reference_aggregates_window.adoc[アグリゲートウィンドウに戻ります]
+
+xref:reference_storage_tiers_window.adoc[ストレージ階層ウィンドウに戻ります]

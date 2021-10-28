@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_changing_export_policies.html 
+sidebar: sidebar 
+keywords: online, help, change, export, policy, smv, storage, virtual, machine, system, manager 
+summary: ボリュームの作成時には、 Storage Virtual Machine （ SVM ）のルートボリュームのデフォルトのエクスポートポリシーが自動的に継承されます。System Manager を使用して、ボリュームに関連付けられているデフォルトのエクスポートポリシーを変更して、データにアクセスするクライアントを再定義できます。 
+---
+= エクスポートポリシーを変更しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームの作成時には、 Storage Virtual Machine （ SVM ）のルートボリュームのデフォルトのエクスポートポリシーが自動的に継承されます。System Manager を使用して、ボリュームに関連付けられているデフォルトのエクスポートポリシーを変更して、データにアクセスするクライアントを再定義できます。
+
+.手順
+. Storage * > * Junction Path * をクリックします。
+. SVM * フィールドのドロップダウンメニューから、変更するボリュームが配置されている SVM を選択します。
+. ボリュームを選択し、 * エクスポートポリシーの変更 * をクリックします。
+. エクスポートポリシーを選択し、 * Change * をクリックします。
+. ジャンクションパス * ウィンドウの * エクスポートポリシー * 列に、ボリュームに適用したエクスポートポリシーが表示されていることを確認します。
+
+
+デフォルトのエクスポートポリシーが選択したエクスポートポリシーに置き換えられます。

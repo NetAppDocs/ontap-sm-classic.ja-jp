@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_editing_broadcast_domains.html 
+sidebar: sidebar 
+keywords: system, manager, edit, broadcast, domain, settings, online, help, port 
+summary: System Manager を使用して、名前、 MTU サイズ、ブロードキャストドメインに関連付けられているポートなどのブロードキャストドメインの属性を変更できます。 
+---
+= ブロードキャストドメインの設定を編集しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、名前、 MTU サイズ、ブロードキャストドメインに関連付けられているポートなどのブロードキャストドメインの属性を変更できます。
+
+.このタスクについて
+* 管理ポート e0M が割り当てられているブロードキャストドメインの MTU サイズは変更しないでください。
+* System Manager を使用して、クラスタ IPspace 内のブロードキャストドメインを編集することはできません。
++
+代わりにコマンドラインインターフェイス（ CLI ）を使用してください。
+
+
+
+.手順
+. [ ネットワーク *>] 、 [ ブロードキャストドメイン *] の順にクリックします。
+. 変更するブロードキャストドメインを選択し、 * 編集 * をクリックします。
+. ブロードキャストドメインの編集 * ダイアログボックスで、ブロードキャストドメインの属性を必要に応じて変更します。
+. [ 保存して閉じる ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

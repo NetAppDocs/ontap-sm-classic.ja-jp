@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_managing_physical_storage.html 
+sidebar: sidebar 
+keywords: manage, physical, storage, autosupport, system, manager, aggregate, pool, disks, array, lun, node, flash, cache, events, system alerts, statistics 
+summary: System Manager を使用して、アグリゲート、ストレージプール、ディスク、アレイ LUN 、ノード、 Flash Cache 、イベント、システムアラート、 AutoSupport 通知、ジョブ、 および Flash Pool の統計情報を表示します。 
+---
+= 物理ストレージの管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、アグリゲート、ストレージプール、ディスク、アレイ LUN 、ノード、 Flash Cache 、イベント、システムアラート、 AutoSupport 通知、ジョブ、 および Flash Pool の統計情報を表示します。

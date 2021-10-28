@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/task_setting_snmp_information.html 
+sidebar: sidebar 
+keywords: edit, snmp, information, edit, settings, system, manager, online, help 
+summary: System Manager の Edit SNMP Settings ダイアログボックスを使用して、ストレージシステムの場所と担当者に関する情報を更新したり、システムの SNMP コミュニティを指定したりできます。 
+---
+= SNMP 情報の編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の Edit SNMP Settings ダイアログボックスを使用して、ストレージシステムの場所と担当者に関する情報を更新したり、システムの SNMP コミュニティを指定したりできます。
+
+System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. [*Setup*] ペインで、 [*SNMP*] をクリックします。
+. [ 編集（ Edit ） ] をクリックします。
+. General （全般）タブで、ストレージ・システムおよび SNMP コミュニティの連絡先担当者情報と場所情報を指定します。
++
+コミュニティ名の最大文字数は 32 文字です。特殊文字、 / ： " ' | は使用できません。
+
+. **SNMPv3** タブで、次の手順を実行します。
++
+.. Add * をクリックして SNMPv3 ユーザーを追加します。
+.. ユーザ名を指定し、必要に応じてエンジン ID を変更します。
+.. 認証プロトコル * を選択し、クレデンシャルを入力します。
+.. [* Privacy Protocol] を選択し、クレデンシャルを入力します。
+.. [OK] をクリックして変更を保存します。
+
+
+. [OK] をクリックします。
+. [*SNMP*] ウィンドウで、 SNMP 設定に加えた変更を確認します。
+
+
+* 関連情報 *
+
+xref:reference_snmp_window.adoc[SNMP ウィンドウ]

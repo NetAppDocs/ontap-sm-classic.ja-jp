@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/reference_what_lag_time_is.html 
+sidebar: sidebar 
+keywords: lag, time, online, help, system, logs 
+summary: 遅延時間は、ソースシステムよりデスティネーションシステムが遅延している時間の長さです。 
+---
+= 遅延時間とは
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+遅延時間は、ソースシステムよりデスティネーションシステムが遅延している時間の長さです。
+
+遅延時間は、現在の時刻と、デスティネーションシステムに正常に転送された最後の Snapshot コピーのタイムスタンプとの差です。ソースシステムとデスティネーションシステムのクロックが同期されていないかぎり、遅延時間は常に、最後に成功した転送の時間以上になります。遅延時間の計算ではタイムゾーンの時差が自動的に含められます。

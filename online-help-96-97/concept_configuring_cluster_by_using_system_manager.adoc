@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_configuring_cluster_by_using_system_manager.html 
+sidebar: sidebar 
+keywords: configure, cluster, system, manager, online, help 
+summary: System Manager を使用してクラスタを設定するには、一定の前提条件を満たしている必要があります。 
+---
+= System Manager を使用してクラスタを設定する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用してクラスタを設定するには、一定の前提条件を満たしている必要があります。
+
+* クラスタを作成しておく必要があります。
+* クラスタが設定されていない状態である必要があります。
+

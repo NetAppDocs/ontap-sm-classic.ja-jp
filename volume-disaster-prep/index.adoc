@@ -1,0 +1,45 @@
+---
+permalink: volume-disaster-prep/index.html 
+sidebar: sidebar 
+keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview 
+summary: このコンテンツでは、ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを保護する簡単な方法について説明します。このコンテンツは、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合にご利用ください。タスクの背景にある概念については、本書では詳しく説明していません。 
+---
+= ボリュームのディザスタリカバリの準備の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを保護する簡単な方法について説明します。このコンテンツは、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合にご利用ください。タスクの背景にある概念については、本書では詳しく説明していません。
+
+SnapMirror を使用すると、ブロックレベルの非同期データ保護をスケジュールに従って実行できます。Snapshot コピーがレプリケートされるだけでなく、 qtree や LUN を含むボリュームなど、重複排除やデータ圧縮を実行している NAS または SAN のボリュームもレプリケートできます。SnapMirror の設定情報はデータベースに格納され、 ONTAP がクラスタ内のすべてのノードにレプリケートします。
+
+このコンテンツは、ボリュームレベルのディザスタリカバリ用に SnapMirror 関係を作成する場合にご利用ください。想定している状況は次のとおりです。
+
+* クラスタで ONTAP 9 を実行している。
+* クラスタ管理者である。
+* クラスタピア関係と SVM ピア関係を設定済みである。
++
+xref:../peering/index.html[クラスタと SVM のピア関係設定]
+
+* ソースとデスティネーションの両方のクラスタで SnapMirror ライセンスを有効にしている。
+* デフォルトのポリシーとスケジュールを使用し、カスタムポリシーは作成しない。
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"]
+
+
+
+上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["データ保護"^]
+* http://www.netapp.com/us/media/tr-4015.pdf["ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"^]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-cmpr/GUID-5CB10C70-AC11-41C0-8C16-B4D0DF916E9B.html["ONTAP 9 のコマンド"^]
++
+SnapMirror 関係を設定および管理するためのコマンドについて説明しています。SnapMirror コマンドを使用して、複数の SnapMirror 関係を作成するスクリプトを記述することもできます。
+
+

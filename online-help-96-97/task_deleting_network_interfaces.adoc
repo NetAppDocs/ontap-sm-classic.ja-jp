@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_deleting_network_interfaces.html 
+sidebar: sidebar 
+keywords: delete, network, interface, online, help, system, manager, ip, address 
+summary: System Manager を使用してネットワークインターフェイスを削除し、そのインターフェイスの IP アドレスを解放して、別の用途に使用できます。 
+---
+= ネットワークインターフェイスを削除する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用してネットワークインターフェイスを削除し、そのインターフェイスの IP アドレスを解放して、別の用途に使用できます。
+
+ネットワークインターフェイスのステータスを無効にする必要があります。
+
+.手順
+. [ * ネットワーク * ] > [* ネットワーク・インターフェイス * ] をクリックします。
+. 削除するインターフェイスを選択し、 * Delete * をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

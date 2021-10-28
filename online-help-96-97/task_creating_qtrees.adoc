@@ -1,0 +1,48 @@
+---
+permalink: online-help-96-97/task_creating_qtrees.html 
+sidebar: sidebar 
+keywords: qtrees, create, system, manager, manage, partition, online, help 
+summary: qtree を使用すると、ボリューム内のデータを管理およびパーティショニングできます。System Manager の qtree の作成ダイアログボックスを使用して、ストレージシステム上のボリュームに新しい qtree を追加できます。 
+---
+= qtree を作成する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+qtree を使用すると、ボリューム内のデータを管理およびパーティショニングできます。System Manager の qtree の作成ダイアログボックスを使用して、ストレージシステム上のボリュームに新しい qtree を追加できます。
+
+.手順
+. Storage * > * Qtrees * をクリックします。
+. SVM * フィールドのドロップダウンメニューから、 qtree を作成する Storage Virtual Machine （ SVM ）を選択します。
+. [ 作成（ Create ） ] をクリックします。
+. Create Qtree * ダイアログボックスの * Details * タブに、 qtree の名前を入力します。
+. qtree を追加するボリュームを選択します。
++
+ボリューム参照リストには、オンラインになっているボリュームのみが表示されます。
+
+. qtree の便宜的ロック（ oplock ）を無効にするには、この qtree * のファイルとディレクトリで oplock を有効にするチェックボックスをオフにします。
++
+デフォルトでは、 oplock は各 qtree で有効になっています。
+
+. デフォルトで継承されるセキュリティ形式を変更する場合は、新しいセキュリティ形式を選択します。
++
+qtree のデフォルトのセキュリティ形式は、 qtree が含まれるボリュームのセキュリティ形式です。
+
+. デフォルトで継承されるエクスポートポリシーを変更する場合は、既存のエクスポートポリシーを選択するか、エクスポートポリシーを作成します。
++
+qtree のデフォルトのエクスポートポリシーは、 qtree が含まれるボリュームに割り当てられているエクスポートポリシーです。
+
+. ディスクスペースの使用を制限する場合は、 [Quotas] タブをクリックします。
++
+.. qtree にクォータを適用する場合は、 * qtree quota * をクリックし、ディスクスペース制限を指定します。
+.. qtree 上のすべてのユーザにクォータを適用する場合は、 * User quota * をクリックし、ディスクスペースリミットを指定します。
+
+
+. [ 作成（ Create ） ] をクリックします。
+. Qtrees * ウィンドウで、作成した qtree が qtree のリストに含まれていることを確認します。
+
+
+* 関連情報 *
+
+xref:reference_qtrees_window.adoc[Qtrees window]

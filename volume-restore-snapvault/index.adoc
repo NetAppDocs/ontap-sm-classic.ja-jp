@@ -1,0 +1,34 @@
+---
+permalink: volume-restore-snapvault/index.html 
+sidebar: sidebar 
+keywords: content, restore, volume, snapvault, backup, ontap, data, loss, volume restore using snapvault overview 
+summary: このコンテンツでは、 ONTAP でデータが失われた場合に SnapVault バックアップからボリュームをリストアする簡単な方法について説明します。 
+---
+= SnapVault によるボリュームリストアの概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、 ONTAP でデータが失われた場合に SnapVault バックアップからボリュームをリストアする簡単な方法について説明します。
+
+このコンテンツは、 SnapVault バックアップからリストアする場合に次のように使用します。
+
+* クラスタで ONTAP 9 を実行している。
+* クラスタ管理者である。
+* の説明に従って、 SnapVault 関係を設定しておきます手順 xref:../volume-backup-snapvault/index.html[SnapVault を使用したボリュームのバックアップ]
+* 単一ファイル / LUN のリストアを実行しない。
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
+
+
+
+上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["データ保護"^]
+* http://www.netapp.com/us/media/tr-4015.pdf["ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"^]
+* http://www.netapp.com/us/media/tr-4183.pdf["ネットアップテクニカルレポート 4183 ：『 SnapVault ベストプラクティス』"^]
+

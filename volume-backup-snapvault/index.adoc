@@ -1,0 +1,40 @@
+---
+permalink: volume-backup-snapvault/index.html 
+sidebar: sidebar 
+keywords: content, configure, snapvault, backup, relationship, volume, cluster, read-only, copies, copy, locate, destination, volume, restoring, restore, data, corrupt, lost, volume backup using snapvault overview 
+summary: このコンテンツでは、異なるクラスタにあるボリューム間の SnapVault バックアップ関係を設定する簡単な方法について説明しています。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。 
+---
+= SnapVault によるボリュームのバックアップの概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、異なるクラスタにあるボリューム間の SnapVault バックアップ関係を設定する簡単な方法について説明しています。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。
+
+このコンテンツは、ボリュームの SnapVault バックアップ関係を作成する場合にご利用ください。想定している状況は次のとおりです。
+
+* クラスタで ONTAP 9 を実行している。
+* クラスタ管理者である。
+* クラスタピア関係と SVM ピア関係を設定済みである。
++
+xref:../peering/index.html[クラスタと SVM のピア関係設定]
+
+* クラスタ内のすべてのノードを同じバージョンの ONTAP 9 にアップグレードしたあと、 SnapMirror または SnapVault のライセンスを有効にしておく必要があります。
+* デフォルトの保護ポリシーとスケジュールを使用し、カスタムポリシーは作成しない。
+* 単一ファイル / LUN のリストアのデータをバックアップしない。
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
+
+
+
+上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["データ保護"^]
+* http://www.netapp.com/us/media/tr-4015.pdf["ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"^]
+* http://www.netapp.com/us/media/tr-4183.pdf["ネットアップテクニカルレポート 4183 ：『 SnapVault ベストプラクティス』"^]
+

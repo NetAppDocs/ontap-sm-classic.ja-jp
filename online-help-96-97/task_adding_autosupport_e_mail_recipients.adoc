@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_adding_autosupport_e_mail_recipients.html 
+sidebar: sidebar 
+keywords: add, autosupport, email, recipient, online, help 
+summary: System Manager の AutoSupport 設定の編集ダイアログボックスの E メール受信者タブを使用して、 AutoSupport 通知の受信者の E メールアドレスを追加できます。 
+---
+= AutoSupport E メール受信者を追加します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の AutoSupport 設定の編集ダイアログボックスの * E メール受信者 * タブを使用して、 AutoSupport 通知の受信者の E メールアドレスを追加できます。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*>* AutoSupport * 。
+. ノードを選択し、 * Edit * をクリックします。
+. [ 電子メール受信者 *] タブで、電子メール受信者のアドレスを入力し、受信者が完全なメッセージと短いメッセージのどちらを受信するかを指定して、 [ * 追加 ] をクリックします。
+. [OK] をクリックします。
+. 指定した詳細が * AutoSupport * ウィンドウに表示されていることを確認します。
+

@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_editing_interface_group_settings.html 
+sidebar: sidebar 
+keywords: edit, interface, group, settings, system, manager, ports, ass, online, help 
+summary: System Manager を使用して、インターフェイスグループに対するポートの追加や削除、インターフェイスグループ内のポートの使用モードや負荷分散パターンの変更を行うことができます。 
+---
+= インターフェイスグループの設定の編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、インターフェイスグループに対するポートの追加や削除、インターフェイスグループ内のポートの使用モードや負荷分散パターンの変更を行うことができます。
+
+ブロードキャストドメインに割り当てられているインターフェイスグループの MTU の設定は変更できません。
+
+.手順
+. [ * ネットワーク *>* イーサネットポート * ] をクリックします。
+. インターフェイスグループを選択し、 * Edit * をクリックします。
+. 必要に応じてインターフェイスグループの設定を変更し、 * Save and Close * をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

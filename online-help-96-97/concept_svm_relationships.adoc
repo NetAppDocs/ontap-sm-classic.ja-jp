@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_svm_relationships.html 
+sidebar: sidebar 
+keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, machine, help 
+summary: Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。 
+---
+= SVM 関係
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。
+
+System Manager を使用して、 SVM 間のミラー関係やミラーとバックアップ関係を作成および管理できます。

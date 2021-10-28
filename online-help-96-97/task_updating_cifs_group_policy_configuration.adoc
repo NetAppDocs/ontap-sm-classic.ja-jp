@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_updating_cifs_group_policy_configuration.html 
+sidebar: sidebar 
+keywords: update, cifs, group, policy, configuration, online, help 
+summary: CLI を使用してポリシー設定を変更した場合は、変更後にグループポリシーを更新する必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーを更新できます。 
+---
+= CIFS のグループポリシー設定を更新しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CLI を使用してポリシー設定を変更した場合は、変更後にグループポリシーを更新する必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーを更新できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* ドメイン *] タブをクリックします。
+. [* グループポリシー *] 領域で、更新するグループポリシー設定を選択し、 [*Update*] をクリックします。
+

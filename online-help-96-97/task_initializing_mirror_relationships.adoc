@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_initializing_mirror_relationships.html 
+sidebar: sidebar 
+keywords: initialize, mirror, relationship, baseline, transfer, online, help 
+summary: ミラー関係を開始する際には、関係を初期化する必要があります。関係を初期化すると、ソースボリュームからデスティネーションへのデータのベースライン転送が実行されます。System Manager を使用して、作成時に初期化していないミラー関係を初期化することができます。 
+---
+= ミラー関係を初期化中です
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラー関係を開始する際には、関係を初期化する必要があります。関係を初期化すると、ソースボリュームからデスティネーションへのデータのベースライン転送が実行されます。System Manager を使用して、作成時に初期化していないミラー関係を初期化することができます。
+
+.手順
+. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
+. 初期化するミラー関係を選択します。
+. [* Operations] * > [* Initialize] をクリックします。
+. 確認のチェックボックスをオンにし、 * Initialize * （初期化）をクリックします。
+. [ 保護（ Protection ） ] ウィンドウで、ミラー関係のステータスを確認します。
+
+
+Snapshot コピーが作成されてデスティネーションに転送されます。この Snapshot コピーは、以降の差分 Snapshot コピーのベースラインとして使用されます。
+
+* 関連情報 *
+
+xref:reference_protection_window.adoc[保護ウィンドウ]

@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_starting_or_stopping_nvme_service.html 
+sidebar: sidebar 
+keywords: start, stop, nvme, service, online, help, adaptor, namespace 
+summary: NVMe サービスを使用すると、ネームスペースで使用する NVMe アダプタを管理できます。System Manager では、 NVMe サービスを開始してアダプタをオンラインにすることができます。NVMe サービスを停止すると、 NVMe アダプタがオフラインになり、ネームスペースにアクセスできなくなります。 
+---
+= NVMe サービスを開始および停止しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe サービスを使用すると、ネームスペースで使用する NVMe アダプタを管理できます。System Manager では、 NVMe サービスを開始してアダプタをオンラインにすることができます。NVMe サービスを停止すると、 NVMe アダプタがオフラインになり、ネームスペースにアクセスできなくなります。
+
+NVMe サービスを開始するには、 NVMe 対応アダプタが必要です。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM settings * をクリックします。
+. [*Protocols* （プロトコル * ） ] メニューで [* nvme （ NVMe * ） ] をクリックします。
+. 必要に応じて、 [* サービスの開始 ] または [* サービスの停止 ] をクリックします。
+

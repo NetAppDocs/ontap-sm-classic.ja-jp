@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_efficiency_policies.html 
+sidebar: sidebar 
+keywords: delete, efficiency, policies, system, manager, online, help 
+summary: System Manager を使用して、不要になった効率化ポリシーを削除できます。 
+---
+= 効率化ポリシーを削除する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用すると、不要になった効率化ポリシーを削除できます。
+
+効率化ポリシーは無効にする必要があります。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Policies] ペインで、 [* 効率化ポリシー * ] をクリックします。
+. 削除する効率化ポリシーを選択し、 * Delete * をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
+

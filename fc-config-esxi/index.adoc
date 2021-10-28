@@ -1,0 +1,50 @@
+---
+permalink: fc-config-esxi/index.html 
+sidebar: sidebar 
+keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer, 
+summary: このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定するまでの簡単な方法について説明しています。 
+---
+= VSC を使用した ESXi 向けの FC の設定の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定するまでの簡単な方法について説明しています。
+
+このコンテンツは、次の前提に基づいています。
+
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"]
+
+* サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定とデータストアのプロビジョニングを行う。
+* ネットワークで IPv4 アドレスを使用している。
+* ESXi 5.x の従来の FC HBA と従来の FC スイッチを使用している。
++
+この内容は FCoE には対応していません。
+
+* クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。
++
+オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。
+
+* FC SAN ブートを設定しない。
+* ホストにデータストアを作成する。
++
+このコンテンツでは、 Raw Device Mapping （ RDM ； raw デバイスマッピング）ディスクや、 N ポート ID 仮想化（ NPIV ）を使用した VM への FC の直接提供については説明していません。
+
+
+
+上記の想定条件に該当しない場合は、次の資料を参照してください。
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"]
+* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（ VMware から入手可能）。
++
+http://www.vmware.com["VMware"]
+
+

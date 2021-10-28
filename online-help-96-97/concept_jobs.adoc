@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_jobs.html 
+sidebar: sidebar 
+keywords: jobs, system, manager, job, task, display, information, progress, online, help 
+summary: System Manager を使用して、ジョブ情報の表示やジョブの進捗状況の監視などのジョブタスクを管理できます。 
+---
+= ジョブ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ジョブ情報の表示やジョブの進捗状況の監視などのジョブタスクを管理できます。

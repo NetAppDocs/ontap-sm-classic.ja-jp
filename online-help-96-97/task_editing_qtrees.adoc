@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_editing_qtrees.html 
+sidebar: sidebar 
+keywords: edit, qtree, system, manager, security, enable, disable, online, help 
+summary: System Manager を使用して、セキュリティ形式、便宜的ロック（ oplock ）の有効化と無効化、新規または既存のエクスポートポリシーの割り当てなど、 qtree のプロパティを変更できます。 
+---
+= qtree を編集中です
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、セキュリティ形式、便宜的ロック（ oplock ）の有効化と無効化、新規または既存のエクスポートポリシーの割り当てなど、 qtree のプロパティを変更できます。
+
+.手順
+. Storage * > * Qtrees * をクリックします。
+. 編集する qtree を選択し、 * Edit * をクリックします。
+. Edit Qtree * ダイアログボックスで、必要に応じて次のプロパティを編集します。
++
+** oplock
+** セキュリティ形式
+** エクスポートポリシー
+
+
+. [ 保存（ Save ） ] をクリックします。
+. Qtrees * ウィンドウで、選択した qtree に加えた変更を確認します。
+
+
+* 関連情報 *
+
+xref:reference_qtrees_window.adoc[Qtrees window]

@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_editing_nfs_settings.html 
+sidebar: sidebar 
+keywords: edit, nfs, settings, online, help, system, management 
+summary: System Manager を使用して、 NFS 設定を編集できます。たとえば、 NFSv3 、 NFSv4 、および NFSv4.1 を有効または無効にしたり、 NFSv4 クライアントに対して読み取り委譲および書き込み委譲を有効または無効にしたり、 NFSv4 ACL を有効にしたりすることができます。また、デフォルトの Windows ユーザを編集することもできます。 
+---
+= NFS 設定を編集しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 NFS 設定を編集できます。たとえば、 NFSv3 、 NFSv4 、および NFSv4.1 を有効または無効にしたり、 NFSv4 クライアントに対して読み取り委譲および書き込み委譲を有効または無効にしたり、 NFSv4 ACL を有効にしたりすることができます。また、デフォルトの Windows ユーザを編集することもできます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Protocols* ] ペインで、 [*NFS*] をクリックします。
+. *NFS* ウィンドウで、 * Edit * をクリックします。
+. NFS 設定の編集 * ダイアログボックスで、必要な変更を行います。
+. [ 保存して閉じる ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_nfs_window.adoc[NFS ウィンドウ]

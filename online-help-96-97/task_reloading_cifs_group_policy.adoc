@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_reloading_cifs_group_policy.html 
+sidebar: sidebar 
+keywords: cifs, group, policy, reload, online, help, group, policy 
+summary: CIFS グループポリシーのステータスが変更になった場合は、ポリシーをリロードする必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーをリロードできます。 
+---
+= CIFS グループポリシーのリロード
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CIFS グループポリシーのステータスが変更になった場合は、ポリシーをリロードする必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーをリロードできます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* ドメイン *] タブをクリックします。
+. [* グループポリシー *] 領域で、リロードするグループポリシー設定を選択し、 [*Reload*] をクリックします。
+

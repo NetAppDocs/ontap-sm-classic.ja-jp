@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_kerberos_realm_services.html 
+sidebar: sidebar 
+keywords: online, help, kerberos, realm, service, system, manager 
+summary: System Manager を使用して、 Kerberos Realm サービスを作成および管理できます。 
+---
+= Kerberos Realm サービス
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Kerberos Realm サービスを作成および管理できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]

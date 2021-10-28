@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_branchcache_configuration.html 
+sidebar: sidebar 
+keywords: branchcache, delete, configuration, system, manager, online, help 
+summary: BranchCache 用に設定された Storage Virtual Machine （ SVM ）でキャッシュサービスを提供する必要がなくなった場合、 System Manager を使用して BranchCache 設定を削除できます。 
+---
+= BranchCache 設定を削除します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+BranchCache 用に設定された Storage Virtual Machine （ SVM ）でキャッシュサービスを提供する必要がなくなった場合、 System Manager を使用して BranchCache 設定を削除できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Branch*] タブで、 [*Delete*] をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
++
+ハッシュストアから既存のハッシュを削除することもできます。
+
+

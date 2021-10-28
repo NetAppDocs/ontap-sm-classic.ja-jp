@@ -1,0 +1,36 @@
+---
+permalink: smb-config/index.html 
+sidebar: sidebar 
+keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual, machine, svm 
+summary: このコンテンツでは、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを設定する簡単な方法について説明しています。 
+---
+= SMB / CIFS の設定の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを設定する簡単な方法について説明しています。
+
+このコンテンツは、ボリュームへのアクセスを設定する場合に使用します。想定している状況は次のとおりです。
+
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
+
+* データネットワークでデフォルトの IPspace 、デフォルトのブロードキャストドメイン、およびデフォルトのフェイルオーバーグループを使用する。
++
+データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"] LIF パスのフェイルオーバーを設定する方法については、を参照してください。
+
+* 新しいボリュームを NTFS ファイル権限を使用して保護する。
+
+
+上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。
+
+* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"^]
+* https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"^]
+* https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["ネットアップテクニカルレポート 4616 ：『 NFS Kerberos in ONTAP with Microsoft Active Directory 』"^]
+* https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["ネットアップテクニカルレポート 4835 ：『 How to Configure LDAP in ONTAP 』"^]
+

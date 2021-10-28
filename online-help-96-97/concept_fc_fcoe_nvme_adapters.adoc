@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_fc_fcoe_nvme_adapters.html 
+sidebar: sidebar 
+keywords: system, manager, manage, fc, fcoe, nvme, adapter, online, help 
+summary: System Manager を使用して、 FC / FCoE アダプタと NVMe アダプタを管理できます。 
+---
+= FC / FCoE アダプタと NVMe アダプタ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 FC / FCoE アダプタと NVMe アダプタを管理できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]

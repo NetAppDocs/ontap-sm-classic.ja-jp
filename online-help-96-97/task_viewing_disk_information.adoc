@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_viewing_disk_information.html 
+sidebar: sidebar 
+keywords: view, disk, information, system, manager, name, online, help 
+summary: System Manager のディスクウィンドウでは、ディスクの名前、サイズ、およびコンテナの詳細、およびデータディスクとキャッシュディスクに関するグラフィカルな情報を確認できます。 
+---
+= ディスク情報を表示しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager のディスクウィンドウでは、ディスクの名前、サイズ、およびコンテナの詳細、およびデータディスクとキャッシュディスクに関するグラフィカルな情報を確認できます。
+
+.手順
+. Storage * > * Aggregates & Disks * > * Disks * をクリックします。
+. 表示されているディスクのリストから、情報を表示するディスクを選択します。
+. ディスクの詳細を確認します。
+
+
+* 関連情報 *
+
+xref:reference_disks_window.adoc[ディスクウィンドウ]

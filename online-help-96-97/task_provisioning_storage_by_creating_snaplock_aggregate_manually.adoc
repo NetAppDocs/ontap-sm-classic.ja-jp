@@ -1,0 +1,73 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html 
+sidebar: sidebar 
+keywords: system, manager, worm, provision, storage, create, snaplock, aggregate, online, help 
+summary: System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。 
+---
+= SnapLock アグリゲートを手動で作成してストレージをプロビジョニングする
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。
+
+SnapLock ライセンスが追加されている必要があります。
+
+.このタスクについて
+* MetroCluster 構成では、 SnapLock エンタープライズアグリゲートのみを作成できます。
+* アレイ LUN については、 SnapLock Enterprise アグリゲートのみがサポートされます。
+* ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。
+* アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、 RAID-TEC のみを使用できます。
+* ONTAP 9.1 以降では、 AFF プラットフォームで SnapLock アグリゲートを作成できます。
+
+
+.手順
+. 次のいずれかの方法を使用して SnapLock アグリゲートを作成します。
++
+** [ * アプリケーションと階層 * > * ストレージ階層 * > * アグリゲートの追加 * ] をクリックします。
+** [ * ストレージ * > * アグリゲートとディスク * > * アグリゲート * > * 作成 * ] をクリックします。
+
+
+. アグリゲートを作成するには、 * アグリゲートを手動で作成 * オプションを有効にしてください。
+. SnapLock アグリゲートを作成するには、次の手順を
++
+.. アグリゲート名、ディスクタイプ、およびアグリゲートに含めるディスクまたはパーティションの数を指定します。
++
+SnapLock Compliance アグリゲートの名前は、作成後に変更することはできません。
+
++
+ディスクサイズが最大のディスクグループに対して、最小限のホットスペアのルールが適用されます。
+
+.. アグリゲートの RAID 構成を変更します。
++
+... [ 変更（ Change ） ] をクリックします。
+... RAID 構成の変更ダイアログボックスで、 RAID タイプと RAID グループサイズを指定します。
++
+共有ディスクでは RAID タイプとして RAID-DP と RAID-TEC の 2 つがサポートされます。
+
+... [ 保存（ Save ） ] をクリックします。
+
+
+.. SnapLock タイプを指定します。
+.. システム ComplianceClock を初期化していない場合は、 [Initialize ComplianceClock *] チェックボックスをオンにします。
++
+このオプションは、 ComplianceClock がすでにノードで初期化されている場合は表示されません。
+
++
+[NOTE]
+====
+現在のシステム時間が正しいことを確認してください。ComplianceClock はシステム時間に基づいて設定され、設定後に変更または停止することはできません。
+
+====
+.. アグリゲートをミラーする場合は、 [ このアグリゲートをミラーリングする * ] チェックボックスをオンにします。
++
+MetroCluster 構成の場合、ミラーされていないアグリゲートは作成できません。したがって、 MetroCluster 構成では、ミラーリングオプションがデフォルトで有効になります。
+
++
+デフォルトでは、 SnapLock Compliance アグリゲートに対しては無効になります。
+
+
+
+. [ 作成（ Create ） ] をクリックします。
+

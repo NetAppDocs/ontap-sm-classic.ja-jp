@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_assigning_export_policies_to_qtrees.html 
+sidebar: sidebar 
+keywords: assign, export, policies, qtrees, online, help, system, manager 
+summary: ボリューム全体をエクスポートする代わりに、ボリュームの特定の qtree をエクスポートしてクライアントから直接アクセスできるようにすることができます。System Manager を使用すると、 qtree にエクスポートポリシーを割り当てて qtree をエクスポートできます。Qtrees window では、 1 つ以上の qtree にエクスポートポリシーを割り当てることができます。 
+---
+= qtree へのエクスポートポリシーの割り当て
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリューム全体をエクスポートする代わりに、ボリュームの特定の qtree をエクスポートしてクライアントから直接アクセスできるようにすることができます。System Manager を使用すると、 qtree にエクスポートポリシーを割り当てて qtree をエクスポートできます。Qtrees window では、 1 つ以上の qtree にエクスポートポリシーを割り当てることができます。
+
+.手順
+. Storage * > * Qtrees * をクリックします。
+. SVM フィールドのドロップダウンメニューから、エクスポートする qtree を配置する Storage Virtual Machine （ SVM ）を選択します。
+. エクスポートポリシーを割り当てる qtree を 1 つ以上選択し、 * エクスポートポリシーの変更 * をクリックします。
+. エクスポートポリシー * ダイアログボックスで、エクスポートポリシーを作成するか、既存のエクスポートポリシーを選択します。
++
+link:task_creating_export_policy.md#["エクスポートポリシーを作成しています"]
+
+. [ 保存（ Save ） ] をクリックします。
+. qtree に割り当てたエクスポートポリシーとそれに関連するエクスポートルールが、該当する qtree の「 * Details * 」タブに表示されていることを確認します。
+

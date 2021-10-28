@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_resuming_mirror_vault_relationships.html 
+sidebar: sidebar 
+keywords: resume, mirror, vault, relationship, online, help, system, manager 
+summary: ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。 
+---
+= ミラーとバックアップ関係を再開しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。
+
+解除されたミラーとバックアップ関係をコマンドラインインターフェイス（ CLI ）で休止した場合は、 System Manager で再開することはできません。CLI を使用して関係を再開してください。
+
+.手順
+. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
+. 再開するミラーとバックアップ関係を選択し、 * Operations * > * Resume * をクリックします。
+. 確認のチェックボックスをオンにし、 * Resume * （続行）をクリックします。
+
+
+通常のデータ転送が再開されます。関係に対して転送がスケジュールされている場合、その転送は次回のスケジュールから開始されます。

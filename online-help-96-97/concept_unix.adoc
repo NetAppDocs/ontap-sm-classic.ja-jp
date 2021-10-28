@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_unix.html 
+sidebar: sidebar 
+keywords: system, manager, unix, svm, online, help 
+summary: System Manager を使用して、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザおよびグループのリストを管理できます。 
+---
+= 「 UNIX 」
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザおよびグループのリストを管理できます。

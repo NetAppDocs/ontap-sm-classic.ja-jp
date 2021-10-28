@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_svm_relationships.html 
+sidebar: sidebar 
+keywords: edit, svm, relationship, system, manager, online, help 
+summary: System Manager を使用して、 SVM 関係のプロパティを変更できます。 
+---
+= SVM 関係を編集します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 SVM 関係のプロパティを変更できます。
+
+.手順
+. [ * 保護 * > * SVM 関係 * ] をクリックします。
+. 変更する SVM 関係を選択し、 * Edit * をクリックします。
+. SVM 関係のタイプを選択します。
++
+ONTAP 9.3 より前に作成された SVM 関係の場合、そのタイプを「ミラー」から「ミラーとバックアップ」に変更することはできません。
+
+. 保護ポリシー、保護スケジュール、およびソース SVM の設定をコピーするオプションを必要に応じて変更します。
+. [ 保存（ Save ） ] をクリックして、変更を保存します。
+

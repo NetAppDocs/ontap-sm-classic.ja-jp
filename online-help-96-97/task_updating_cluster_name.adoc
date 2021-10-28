@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_updating_cluster_name.html 
+sidebar: sidebar 
+keywords: system, manager, update, cluster, name, online, help 
+summary: System Manager を使用して、必要に応じてクラスタの名前を変更することができます。 
+---
+= クラスタ名を更新しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、必要に応じてクラスタの名前を変更することができます。
+
+.手順
+. [ * Configuration * ] > [* Cluster*] > [* Configuration Updates* ] をクリックします。
+. [* Cluster Details* （クラスタの詳細） ] ペインで、 [* クラスタ名の更新 * ] をクリックします。
+. クラスタ名の更新 * （ Update Cluster Name * ）ダイアログボックスで、クラスタの新しい名前を指定し、 * 送信 * （ Submit * ）をクリックします。
+

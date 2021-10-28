@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_deleting_export_policy_rules.html 
+sidebar: sidebar 
+keywords: delete, export, policy, rules, system, manager, online, help 
+summary: System Manager を使用して、不要になったエクスポートポリシールールを削除できます。 
+---
+= エクスポートポリシールールを削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、不要になったエクスポートポリシールールを削除できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Policies * （ポリシー * ） ] ペインで、 [* Export Policies （エクスポートポリシー * ） ] をクリックします。
+. エクスポートルールを削除するエクスポートポリシーを選択します。
+. [* エクスポートルール * （ * Export Rules * ） ] タブで、削除するエクスポートルールを選択し、 [ * 削除 * （ * Delete * ） ] をクリックします。
+. 確認ボックスで、 * 削除 * をクリックします。
+

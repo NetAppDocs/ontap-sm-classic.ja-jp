@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_editing_ldap_client_configuration.html 
+sidebar: sidebar 
+keywords: system, manager, edit, ldap, client, configuration, svm, online, help 
+summary: System Manager を使用して、 LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで編集できます。 
+---
+= LDAP クライアント設定の編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで編集できます。
+
+SVM レベルでは、選択した SVM に対してのみ LDAP クライアントを編集できます。
+
+.手順
+. LDAP クライアント設定を編集するには、次の手順に従います。
++
+** クラスタレベル： * をクリックしますimage:../media/advanced_options.gif[""]*>*LDAP* 。
+** SVM レベル： * SVM * > * SVM 設定 * > * LDAP クライアント * をクリックします。
+
+
+. 変更する LDAP クライアントを選択し、 * Edit * をクリックします。
+. Edit LDAP Client* （ * LDAP クライアントの編集）ダイアログボックスで、必要に応じて LDAP クライアントの設定を編集します。
+. [ 保存して閉じる ] をクリックします。
+. LDAP クライアント設定に加えた変更が表示されていることを確認します。
+
+
+* 関連情報 *
+
+xref:concept_ldap.adoc[LDAP]

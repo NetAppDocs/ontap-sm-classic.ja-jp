@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_viewing_ldap_client_configuration.html 
+sidebar: sidebar 
+keywords: svm, storage, virtual, machine, ldap, client, configuration, system, manager, online, help 
+summary: System Manager を使用して、クラスタ内の Storage Virtual Machine （ SVM ）に対して設定されている LDAP クライアントを表示することができます。 
+---
+= LDAP クライアント設定の表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタ内の Storage Virtual Machine （ SVM ）に対して設定されている LDAP クライアントを表示することができます。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. [* セットアップ * （ * Setup * ） ] ペインで、 [* LDAP] をクリックします。
++
+LDAP クライアントのリストが LDAP ウィンドウに表示されます。
+
+

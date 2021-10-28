@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_deleting_preferred_domain_controllers.html 
+sidebar: sidebar 
+keywords: delete, preferred, domain, controller, system, manager, svm, online, help 
+summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）が関連付けられている優先ドメインコントローラを削除することができます。これは、特定のドメインコントローラが不要になった場合に実行できます。 
+---
+= 優先ドメインコントローラの削除
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Storage Virtual Machine （ SVM ）が関連付けられている優先ドメインコントローラを削除することができます。これは、特定のドメインコントローラが不要になった場合に実行できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [ * ドメイン * ] タブで、 [ * 優先ドメインコントローラー * ] 領域から削除するドメインを選択し、 [ * 削除 * ] をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
+

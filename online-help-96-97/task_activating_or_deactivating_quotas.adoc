@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_activating_or_deactivating_quotas.html 
+sidebar: sidebar 
+keywords: activate, deactivate, quotas, online, help, system, manager 
+summary: System Manager を使用して、ストレージシステム上の選択した 1 つ以上のボリュームでクォータをアクティブ化または非アクティブ化できます。ユーザやユーザのストレージ要件および制限が変更になった場合に、クォータをアクティブ化または非アクティブ化できます。 
+---
+= クォータをアクティブ化または非アクティブ化する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ストレージシステム上の選択した 1 つ以上のボリュームでクォータをアクティブ化または非アクティブ化できます。ユーザやユーザのストレージ要件および制限が変更になった場合に、クォータをアクティブ化または非アクティブ化できます。
+
+.手順
+. [* ストレージ *>* クォータ ] をクリックします。
+. SVM フィールドのドロップダウンメニューから、アクティブ化または非アクティブ化するクォータが配置されている Storage Virtual Machine （ SVM ）を選択します。
+. [* Quota Status on Volumes] タブで、クォータをアクティブ化または非アクティブ化する 1 つ以上のボリュームを選択します。
+. 必要に応じて、 [ 活動化（ Activate ） ] または [ * 非活動化（ * Deactivate ） ] をクリック
+. クォータを非アクティブ化する場合は、確認のチェックボックスをオンにし、 * OK * をクリックします。
+. ボリュームのクォータステータスを * Status * 列で確認します。
+
+
+* 関連情報 *
+
+xref:reference_quotas_window.adoc[クォータウィンドウ]

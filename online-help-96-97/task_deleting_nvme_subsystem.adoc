@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_deleting_nvme_subsystem.html 
+sidebar: sidebar 
+keywords: delete, nvme, subsystem, online, help, system, manager, cluster 
+summary: System Manager を使用して、クラスタから NVMe サブシステムを削除できます。 
+---
+= NVMe サブシステムを削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタから NVMe サブシステムを削除できます。
+
+NVMe サブシステムを削除すると、次の処理が実行されます。
+
+* NVMe サブシステムにホストが設定されている場合、マッピングされているホストは削除されます。
+* NVMe サブシステムにネームスペースがマッピングされている場合、マッピングは解除されます。
+
+
+.手順
+. [* NVMe Subsystem* ] ウィンドウで、削除する NVMe サブシステムを検索します。
+. 削除するサブシステムの名前の左にあるチェックボックスをオンにします。
+. [ 削除（ Delete ） ] をクリックします。
++
+警告メッセージが表示されます。
+
+. 削除を確認する * Delete the NVMe Subsystem * （ NVMe サブシステムの削除）チェックボックスをクリックし、 * Yes * をクリックします。
++
+NVMe サブシステムがクラスタから削除され、 NVMe サブシステムウィンドウが表示されます。
+
+
+
+* 関連情報 *
+
+xref:reference_nvme_subsystems_window.adoc[NVMe サフシステムウイントウ]

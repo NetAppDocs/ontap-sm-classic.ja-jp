@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_renaming_export_policies.html 
+sidebar: sidebar 
+keywords: managerto, rename, export, policies, online, help 
+summary: システム管理を使用すると、既存のエクスポートポリシーの名前を変更できます。 
+---
+= エクスポートポリシー名の変更
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+システム管理を使用すると、既存のエクスポートポリシーの名前を変更できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Policies * （ポリシー * ） ] ペインで、 [* Export Policies （エクスポートポリシー * ） ] をクリックします。
+. 名前を変更するエクスポートポリシーを選択し、 * ポリシー名の変更 * をクリックします。
+. [ ポリシー名の変更 *] ダイアログボックスで、新しいポリシー名を指定し、 [*Modify*] をクリックします。
+. [* エクスポートポリシー * （ * Export Policies * ） ] ウィンドウで行った変更を確認します。
+

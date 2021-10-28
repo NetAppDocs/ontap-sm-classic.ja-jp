@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_changing_tiering_policy_volume.html 
+sidebar: sidebar 
+keywords: change, tiering, policy, volume, online, free, system, manager 
+summary: System Manager を使用して、ボリュームのデフォルトの階層化ポリシーを変更することで、ボリュームのデータが非アクティブになったときにクラウド階層に移動するかどうかを制御できます。 
+---
+= ボリュームの階層化ポリシーを変更する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ボリュームのデフォルトの階層化ポリシーを変更することで、ボリュームのデータが非アクティブになったときにクラウド階層に移動するかどうかを制御できます。
+
+.手順
+. [* ストレージ *>* ボリューム *] をクリックします。
+. SVM * フィールドのドロップダウンメニューで、 * すべての SVM * を選択します。
+. 階層化ポリシーを変更するボリュームを選択し、 * その他の操作 * > * 階層化ポリシーの変更 * をクリックします。
+. 「 * 階層化ポリシー * 」リストから必要な階層化ポリシーを選択し、「 * 保存 * 」をクリックします。
+

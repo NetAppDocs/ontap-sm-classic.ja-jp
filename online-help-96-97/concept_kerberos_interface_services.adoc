@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_kerberos_interface_services.html 
+sidebar: sidebar 
+keywords: kerberos, interface, service, system, manager, manage, online, help 
+summary: System Manager を使用して、 Kerberos インターフェイスサービスを管理できます。 
+---
+= Kerberos インターフェイスサービス
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Kerberos インターフェイスサービスを管理できます。

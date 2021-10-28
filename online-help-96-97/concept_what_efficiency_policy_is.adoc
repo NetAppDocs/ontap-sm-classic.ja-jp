@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_what_efficiency_policy_is.html 
+sidebar: sidebar 
+keywords: efficiency, policy, job, schedule, online, help, flexvol, deduplication 
+summary: 効率化ポリシーは、 FlexVol に対する重複排除処理のジョブスケジュールです。 
+---
+= 効率化ポリシーとは
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+効率化ポリシーは、 FlexVol に対する重複排除処理のジョブスケジュールです。
+
+FlexVol ボリュームに対して重複排除を実行するには、特定の時間に処理を開始するようにスケジュールを設定するか、しきい値を超えたときに処理がトリガーされるように指定します。重複排除処理のスケジュールを設定するときは、ジョブスケジュールを作成して効率化ポリシーに含めます。ボリューム効率化ポリシーは、タイプが cron のジョブスケジュールのみをサポートします。または、しきい値の割合を指定することもできます。新規データが指定した割合を超えると、重複排除処理が開始されます。

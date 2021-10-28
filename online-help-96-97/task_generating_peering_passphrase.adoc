@@ -1,0 +1,44 @@
+---
+permalink: online-help-96-97/task_generating_peering_passphrase.html 
+sidebar: sidebar 
+keywords: generate, peering, passphrase, online, help, system, manager, ipspace 
+summary: System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。 
+---
+= ピアリングパスフレーズを生成しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。
+
+.手順
+. [ * Configuration * ] > [* Cluster Peers* ] をクリックします。
+. [Generate Peering Passphrase]( ピアリングパスフレーズの生成 ) を
++
+[Generate Peering Passphrase] ダイアログウィンドウが表示されます。
+
+. 次のフィールドを設定します。
++
+** * IPspace * ：プルダウンメニューから IPspace を選択します。
+** * パスフレーズの有効期限 * ：パスフレーズを有効にする期間をドロップダウンメニューから選択します。
+** * SVM 権限 * ：次のいずれかを選択します。
++
+*** * すべての SVM * ：クラスタへのアクセスをすべての SVM に許可します。
+*** * 選択した SVM * 。クラスタへのアクセスを許可する SVM を指定します。指定するフィールドで SVM 名を選択します。
+
+
+
+
+. リモートクラスタの有効なクラスタバージョンが ONTAP 9.6 より前の場合はチェックボックスを選択します。選択しないとクラスタピアリングが生成されません。
+. [*Generate] をクリックしてパスフレーズを生成します。
++
+生成が完了すると、パスフレーズが記載されたメッセージが表示されます。
+
+. パスフレーズを E メールで送信するかコピーする場合は、次のいずれかを実行します。
++
+** [ * 電子メールパスフレーズの詳細を送信する * ] をクリック
+** [* パスフレーズのコピー * ] をクリックします。
+
+
+

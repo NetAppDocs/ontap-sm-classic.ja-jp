@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_deleting_local_windows_user_account.html 
+sidebar: sidebar 
+keywords: delte, local, windows, user, account, system, manager, online, help, cifs, svm 
+summary: Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 System Manager を使用して SVM から削除することができます。 
+---
+= Windows ローカルユーザアカウントを削除する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 System Manager を使用して SVM から削除することができます。
+
+.このタスクについて
+* 管理者などの標準ユーザは削除できません。
+* ONTAP は、ローカルグループデータベース、ローカルユーザメンバーシップデータベース、およびユーザ権限データベースから、削除されたローカルユーザへの参照を削除します。
+
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
+. [* ユーザー * ] タブで、削除するユーザーアカウントを選択し、 [ * 削除 * ] をクリックします。
+. [ 削除（ Delete ） ] をクリックします。
+
+
+ローカルユーザアカウントとそのグループメンバーシップのエントリが削除されます。
+
+* 関連情報 *
+
+xref:reference_windows_window.adoc[Windows ウィンドウ]

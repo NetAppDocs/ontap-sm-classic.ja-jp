@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_mounting_volumes.html 
+sidebar: sidebar 
+keywords: mount, volume, system, manager, junction, storage, virtual, machine, svm, online, help 
+summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）のネームスペースのジャンクションにボリュームをマウントできます。 
+---
+= ボリュームのマウント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Storage Virtual Machine （ SVM ）のネームスペースのジャンクションにボリュームをマウントできます。
+
+.このタスクについて
+* ジャンクションパスにボリュームをマウントする際に、言語設定がそのパスの直接の親ボリュームと異なっていると、一部の文字が正しくデコードされないために NFSv3 クライアントから一部のファイルにアクセスできないことがあります。
++
+直接の親ディレクトリがルートボリュームの場合、この問題は発生しません。
+
+* SnapLock ボリュームは SVM のルートにしかマウントできません。
+* 通常のボリュームを SnapLock ボリュームにマウントすることはできません。
+
+
+.手順
+. Storage * > * Junction Path * をクリックします。
+. SVM * フィールドのドロップダウンメニューから、ボリュームをマウントする SVM を選択します。
+. [ マウント ] をクリックし、マウントするボリュームを選択します。
+. デフォルトのジャンクション名を変更する場合は、新しい名前を指定します。
+. 「 * Browse * 」をクリックし、ボリュームをマウントするジャンクションパスを選択します。
+. [OK] をクリックし、 [ マウント *] をクリックします。
+. 新しいジャンクションパスを「 * Details * 」タブで確認します。
+

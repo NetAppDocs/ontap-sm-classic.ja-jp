@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_export_policies.html 
+sidebar: sidebar 
+keywords: system, manager, create, edit, manage, export, policy, online, help 
+summary: System Manager を使用して、エクスポートポリシーを作成、編集、管理できます。 
+---
+= エクスポートポリシー
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、エクスポートポリシーを作成、編集、管理できます。

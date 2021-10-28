@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_managing_data_protection.html 
+sidebar: sidebar 
+keywords: system, manager, protect, data, create, manage, mirror, vault, relationship, snapshot, policy, schedule, online, help 
+summary: System Manager を使用して、ミラー関係、バックアップ関係、ミラーとバックアップ関係を作成および管理し、データを保護することができます。Snapshot ポリシーとスケジュールを作成および管理することもできます。 
+---
+= データ保護の管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ミラー関係、バックアップ関係、ミラーとバックアップ関係を作成および管理し、データを保護することができます。Snapshot ポリシーとスケジュールを作成および管理することもできます。

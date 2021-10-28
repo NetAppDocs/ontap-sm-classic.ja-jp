@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_renaming_metrocluster_local_site_a.html 
+sidebar: sidebar 
+keywords: system, manager, metrocluster, rename, local, site, cluster, online, help 
+summary: System Manager を使用して、クラスタの MetroCluster ローカルサイト（サイト A ）の名前を変更できます。 
+---
+= MetroCluster ローカルサイト（サイト A ）の名前変更
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタの MetroCluster ローカルサイト（サイト A ）の名前を変更できます。
+
+.手順
+. [*Configuration*>*Configuration Updates*] をクリックします。
+. クラスタ名の更新 * をクリックします。
+. テキストボックスで名前を更新し、 * 送信 * をクリックします。
++
+MetroCluster サイト A のステータスを表示すると更新後の名前を確認できます。
+
+. リモートサイト（サイト B ）から MetroCluster サイト A を表示するときに更新された名前を表示するには、リモートサイト（サイト B ）の CLI で「 cluster peer modify -local-name 」コマンドを実行します
+

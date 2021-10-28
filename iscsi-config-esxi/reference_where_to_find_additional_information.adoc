@@ -1,0 +1,43 @@
+---
+permalink: iscsi-config-esxi/reference_where_to_find_additional_information.html 
+sidebar: sidebar 
+keywords: additional, document, iscsi, configuration, where to find additional information 
+summary: iSCSI 構成について理解するのに役立つその他のドキュメントを紹介します。 
+---
+= 追加情報の参照先
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI 構成について理解するのに役立つその他のドキュメントを紹介します。
+
+次のドキュメントを参照できます。
+
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN の設定"^]
++
+クラスタ内のストレージコントローラにホストコンピュータを接続するための、 FC 、 iSCSI 、および FCoE トポロジについて説明します。
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
++
+LUN 、 igroup 、ターゲットの設定など、クラスタ SAN 環境の iSCSI 、 FCoE 、および FC プロトコルを設定および管理する方法について説明します。
+
+
+
+
+
+== VMware のドキュメント
+
+ESXi サーバの iSCSI に関するドキュメントは、 VMware から直接入手できます。
+
+http://www.vmware.com["VMware"^]
+
+* _ vSphere ストレージ _
++
+ESXi 5.x 向けの FC および iSCSI の設定について説明した VMware のガイドです
+
+* _ ポートバインドを使用したソフトウェア iSCSI のマルチパス設定 _
++
+ESXi サーバ向けの MPIO のセットアップについてのテクニカルホワイトペーパーです。
+
+

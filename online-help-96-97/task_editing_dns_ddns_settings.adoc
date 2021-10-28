@@ -1,0 +1,39 @@
+---
+permalink: online-help-96-97/task_editing_dns_ddns_settings.html 
+sidebar: sidebar 
+keywords: online, help, edit, dns, ddns, settings, host, information, system, manager 
+summary: DNS を使用すると、ホスト情報を一元的に管理できます。System Manager を使用して、ストレージシステムの DNS ドメイン名を追加または変更できます。ストレージシステムで DDNS を有効にして、 DNS サーバのネームサーバを自動的に更新することもできます。 
+---
+= DNS および DDNS の設定を編集します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+DNS を使用すると、ホスト情報を一元的に管理できます。System Manager を使用して、ストレージシステムの DNS ドメイン名を追加または変更できます。ストレージシステムで DDNS を有効にして、 DNS サーバのネームサーバを自動的に更新することもできます。
+
+セキュアな DDNS を使用するために、 Storage Virtual Machine （ SVM ）用の CIFS サーバまたは Active Directory アカウントをセットアップしておく必要があります。
+
+System Manager では、 DNS および DDNS の設定に対する検証チェックは実行されません。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Services*] ペインで、 [*DNS/DDNS *] をクリックします。
+. [ 編集（ Edit ） ] をクリックします。
+. *DNS Domains and Name Servers* 領域で、 DNS ドメイン名および IP アドレスを追加または変更します。
+. DDNS サービス * チェックボックスを選択して DDNS を有効にします。
++
+.. セキュア DDNS を有効にするには、 * セキュア DDNS を有効にする * チェックボックスをオンにします。
+.. DDNS サービスの Fully Qualified Domain Name （ FQDN ；完全修飾ドメイン名）と Time-To-Live （ TTL ）の値を指定します。
++
+デフォルトでは、 TTL は 24 時間に設定され、 FQDN は「 S vm name 」に設定されます。ドメイン名
+
+
+
+. [OK] をクリックして、行った変更を保存します。
+
+
+* 関連情報 *
+
+xref:reference_dns_ddns_window.adoc[DNS / DDNS サービスウィンドウ]

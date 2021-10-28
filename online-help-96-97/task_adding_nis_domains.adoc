@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_adding_nis_domains.html 
+sidebar: sidebar 
+keywords: add, nis, domain, host, svm, online, help 
+summary: NIS を使用すると、ホスト情報を一元的に管理できます。System Manager を使用して、ストレージシステムの NIS ドメイン名を追加できます。Storage Virtual Machine （ SVM ）で同時にアクティブにできる NIS ドメインは 1 つだけです。 
+---
+= NIS ドメインを追加する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NIS を使用すると、ホスト情報を一元的に管理できます。System Manager を使用して、ストレージシステムの NIS ドメイン名を追加できます。Storage Virtual Machine （ SVM ）で同時にアクティブにできる NIS ドメインは 1 つだけです。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Services*] ペインで、 [*NIS*] をクリックします。
+. [ 作成（ Create ） ] をクリックします。
+. NIS ドメイン名を入力し、 1 つ以上の NIS サーバを追加します。
+. [ 作成（ Create ） ] をクリックします。
+

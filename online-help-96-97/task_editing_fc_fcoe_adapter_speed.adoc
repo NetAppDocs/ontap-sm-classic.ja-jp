@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_editing_fc_fcoe_adapter_speed.html 
+sidebar: sidebar 
+keywords: edit, fc, fcoe, nvme, adapter, speed, settings, online, help, system, manager 
+summary: System Manager の FC / FCoE および NVMe アダプタの設定の編集ダイアログボックスを使用して、 FC / FCoE および NVMe アダプタの速度設定を変更できます。 
+---
+= FC / FCoE アダプタおよび NVMe アダプタの速度設定の編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の FC / FCoE および NVMe アダプタの設定の編集ダイアログボックスを使用して、 FC / FCoE および NVMe アダプタの速度設定を変更できます。
+
+.手順
+. [ * ネットワーク * > * FC / FCoE および NVMe アダプター * ] をクリックします。
+. 編集するアダプターを選択し、 * 編集 * をクリックします。
+. FC / FCoE および NVMe アダプタ設定の編集 * ダイアログボックスで、アダプタ速度を * 手動 * または * 自動 * に設定し、 * 保存 * をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

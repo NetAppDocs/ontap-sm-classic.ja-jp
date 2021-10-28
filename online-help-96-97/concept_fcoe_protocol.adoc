@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_fcoe_protocol.html 
+sidebar: sidebar 
+keywords: fcoe, protocol, fibre, channel, ethernet, host, storage, system, management, online, help 
+summary: Fibre Channel over Ethernet （ FCoE ）は、ストレージシステムにホストを接続するための新しいモデルです。従来の FC プロトコルと同様、 FCoE は既存の FC 管理と制御を維持しますが、ハードウェアトランスポートとして 10 ギガビットイーサネットネットワークを使用します。 
+---
+= FCoE プロトコル
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Fibre Channel over Ethernet （ FCoE ）は、ストレージシステムにホストを接続するための新しいモデルです。従来の FC プロトコルと同様、 FCoE は既存の FC 管理と制御を維持しますが、ハードウェアトランスポートとして 10 ギガビットイーサネットネットワークを使用します。
+
+FCoE 接続を設定するには、サポートされる Converged Network Adapter （ CNA ；統合ネットワークアダプタ）がホストに 1 つ以上あり、サポートされる Data Center Bridging （ DCB ）イーサネットスイッチに接続されている必要があります。CNA は統合ポイントであり、 HBA とイーサネットアダプタの両方として機能します。
+
+一般に、従来の FC 接続を使用する場合と同じ方法で、 FCoE 接続を設定して使用できます。

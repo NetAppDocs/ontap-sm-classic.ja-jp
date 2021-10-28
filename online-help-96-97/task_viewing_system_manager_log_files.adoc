@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_viewing_system_manager_log_files.html 
+sidebar: sidebar 
+keywords: view, ontap, system, manager, log, file, online, help 
+summary: System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと同じ mlog ディレクトリに保存されています。 
+---
+= ONTAP System Manager ログファイルを表示しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。
+
+.手順
+. クラスタ管理 LIF をホストしているノードを特定します。
+. Web ブラウザに「 + https://cluster-mgmt-LIF/spi+` 」と入力します
++
+「 cluster-mgmt-lif 」には、クラスタ管理 LIF の IP アドレスを指定します。
+
+. クラスタ管理者のクレデンシャルを入力し、「 * OK 」をクリックします。
+. Data ONTAP - Root Volume File Access * ウィンドウで、クラスタ管理 LIF をホストするノードの * logs * リンクをクリックします。
+. 「 m log 」ディレクトリに移動して、 System Manager のログファイルにアクセスします。
++
+ログファイルには次のものがありますが、どのログファイルが必要かは問題の種類によって異なります。
+
++
+** 「 ysmgr.log 」です
++
+このファイルには、 System Manager の最新のログが含まれます。
+
+** 「 mGWd.log 」
+** 「 php. log 」と入力します
+** 「 apache_access.log 」
+** 「メッセージログ」
+
+
+

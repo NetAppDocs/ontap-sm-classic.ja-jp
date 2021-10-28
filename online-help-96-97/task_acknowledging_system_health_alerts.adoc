@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_acknowledging_system_health_alerts.html 
+sidebar: sidebar 
+keywords: system, manger, health, alerts, online, help 
+summary: System Manager を使用して、サブシステムのシステムヘルスアラートについて承認して対応することができます。表示される情報に基づいて、推奨される対処方法を実行し、アラートによって報告された問題を修正できます。 
+---
+= システムヘルスアラートの承認
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、サブシステムのシステムヘルスアラートについて承認して対応することができます。表示される情報に基づいて、推奨される対処方法を実行し、アラートによって報告された問題を修正できます。
+
+.手順
+. [* Events & Jobs*>* System Alerts*] をクリックします。
+. [ * システム・アラート * ] ウィンドウで、サブシステム名の横にある矢印アイコンをクリックします。
+. 承認するアラートを選択し、 [* Acknowledge * （確認） ] をクリックします。
+. 名前を入力し、 * Acknowledge * （確認）をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_system_health_window.adoc[System Alerts （システムアラート）ウィンドウ]

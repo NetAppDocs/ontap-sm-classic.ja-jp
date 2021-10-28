@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/task_editing_cifs_general_properties.html 
+sidebar: sidebar 
+keywords: online, help, edit, general, properties, cifs, system, manager 
+summary: System Manager を使用して、デフォルトの UNIX ユーザや Windows ユーザなど、 CIFS の一般プロパティを変更できます。CIFS サーバの SMB 署名を有効または無効にすることもできます。 
+---
+= CIFS の一般プロパティの編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、デフォルトの UNIX ユーザや Windows ユーザなど、 CIFS の一般プロパティを変更できます。CIFS サーバの SMB 署名を有効または無効にすることもできます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [ * 環境設定 * ] タブで、 [ * オプション * ] をクリックします。
+. CIFS オプション * ダイアログボックスで、必要に応じて次の CIFS サーバプロパティを変更します。
++
+** UNIX ユーザ
+** Windows ユーザ
+** IP アドレス
+** SMB 署名を有効または無効にします
++
+SMB 署名を有効にすると、データの侵害防止に役立ちます。ただし、ネットワークトラフィックは同じですが、クライアントとサーバの両方で CPU 使用率の増加という形でパフォーマンスの低下が発生する場合があります。リプレイアタックに対する保護を必要としない Windows クライアントについては、 SMB 署名を無効にすることができます。
+
++
+Windows クライアントでの SMB 署名の無効化については、 Microsoft Windows のマニュアルを参照してください。
+
+** SMB 3.0 暗号化を有効または無効にします
++
+SMB 3.0 セッションとトランスポート接続の間で複数のチャネルを確立するには、 SMB マルチチャネルを有効にする必要があります。
+
+
+
+. [ 保存（ Save ） ] または [ 保存して閉じる（ Save and Close ） ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_cifs_window.adoc[CIFS ウィンドウ]

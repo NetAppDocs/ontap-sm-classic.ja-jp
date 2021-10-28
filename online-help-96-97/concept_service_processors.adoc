@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_service_processors.html 
+sidebar: sidebar 
+keywords: service, processors, monitor, manage, storage, system, manager, temperature, voltage, current, fan, speed, online, help 
+summary: System Manager でサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。 
+---
+= サービスプロセッサ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager でサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。

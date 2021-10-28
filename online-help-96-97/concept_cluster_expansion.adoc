@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_cluster_expansion.html 
+sidebar: sidebar 
+keywords: cluster, expanision, system, manager, storage, size, capabilities, node, configure, network, online, help 
+summary: System Manager を使用して、互換性のあるノードをクラスタに追加し、ノードのネットワークの詳細を設定することで、ストレージのサイズと容量を拡張できます。ノードの概要を確認することもできます。 
+---
+= クラスタの拡張
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、互換性のあるノードをクラスタに追加し、ノードのネットワークの詳細を設定することで、ストレージのサイズと容量を拡張できます。ノードの概要を確認することもできます。
+
+System Manager にログインしたときに、互換性があるノードでクラスタにまだ追加されていない接続済みのノードがあると、 System Manager で自動的に検出され、そのノードを追加するように通知されます。互換性があるノードは、 System Manager で検出されたときに追加することも、あとから手動で追加することもできます。

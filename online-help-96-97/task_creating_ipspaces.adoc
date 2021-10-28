@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_creating_ipspaces.html 
+sidebar: sidebar 
+keywords: create, ipspace, system, manager, cluster, subnet, range, online, help 
+summary: System Manager を使用して IPspace を作成すると、管理上分離された複数のネットワークドメインのクライアントアクセス用に 1 つの ONTAP クラスタを設定できます。クライアントが同じ IP アドレス範囲を使用している場合でも同様です。これにより、クライアントトラフィックを分離してプライバシーとセキュリティを確保できます。 
+---
+= IPspaces を作成します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して IPspace を作成すると、管理上分離された複数のネットワークドメインのクライアントアクセス用に 1 つの ONTAP クラスタを設定できます。クライアントが同じ IP アドレス範囲を使用している場合でも同様です。これにより、クライアントトラフィックを分離してプライバシーとセキュリティを確保できます。
+
+IPspace の名前はすべてクラスタ内で一意である必要があり、「 local 」や「 localhost 」など、システムによって予約されている名前ではない必要があります。
+
+.手順
+. [ * ネットワーク * ] タブをクリックします。
+. [*IPspaces *] タブで、 [*Create] をクリックします。
+. Create IPspaces * ダイアログボックスで、作成する IPspace の名前を指定します。
+. [ 作成（ Create ） ] をクリックします。
+

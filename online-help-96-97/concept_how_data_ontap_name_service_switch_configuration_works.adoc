@@ -1,0 +1,126 @@
+---
+permalink: online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html 
+sidebar: sidebar 
+keywords: ontap, name, service, switch, configuration, works, unix, system, online, help 
+summary: ONTAP では、 UNIX システムの /etc/nsswitch.conf ファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。 
+---
+= ONTAP のネームサービススイッチ設定の仕組み
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP は 'UNIX システム上の /etc/nsswitch.conf ファイルと同等のテーブルにネーム・サービス構成情報を格納しますこのテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。
+
+ONTAP ネームサービススイッチテーブルは、 ONTAP が特定の種類のネームサービス情報を取得する際にどのネームサービスソースをどの順番で参照するかを決定します。ONTAP では、 SVM ごとに個別のネームサービススイッチテーブルが保持されます。
+
+
+
+== データベースタイプ
+
+テーブルには、次の各データベースタイプについてネームサービスのリストが格納されます。
+
+|===
+| データベースタイプ | ネームサービスソースの用途 | 有効なソース 
+
+
+ a| 
+ホスト
+ a| 
+ホスト名の IP アドレスへの変換
+ a| 
+ファイル、 DNS
+
+
+
+ a| 
+グループ
+ a| 
+ユーザグループ情報を検索しています
+ a| 
+files 、 nis 、 ldap が表示されます
+
+
+
+ a| 
+パスワード
+ a| 
+ユーザ情報を検索しています
+ a| 
+files 、 nis 、 ldap が表示されます
+
+
+
+ a| 
+ネットグループ
+ a| 
+ネットグループ情報の検索
+ a| 
+files 、 nis 、 ldap が表示されます
+
+
+
+ a| 
+namemap
+ a| 
+ユーザ名のマッピング
+ a| 
+ファイル、 LDAP
+
+|===
+
+
+== ソースタイプ
+
+ソースタイプによって、該当する情報を取得するために使用するネームサービスソースが決まります。
+
+|===
+| ソースタイプ | 情報の検索先 | 使用するコマンド 
+
+
+ a| 
+ファイル
+ a| 
+ローカルのソースファイル
+ a| 
+「 vserver services name-service unix-user
+
+「 vserver services name-service unix-group 」を参照してください
+
+vserver services name-service netgroup
+
+「 vserver services name-service dns hosts 」という名前になります
+
+
+
+ a| 
+NIS
+ a| 
+SVM の NIS ドメイン設定で指定された外部の NIS サーバ
+ a| 
+「 vserver services name-service nis-domain 」です
+
+
+
+ a| 
+LDAP
+ a| 
+SVM の LDAP クライアント設定で指定された外部の LDAP サーバ
+ a| 
+vserver services name-service ldap
+
+
+
+ a| 
+DNS
+ a| 
+SVM の DNS 設定で指定された外部の DNS サーバ
+ a| 
+vserver services name-service dns
+
+|===
+データアクセスと SVM 管理者の両方の認証に NIS または LDAP を使用する場合も、 NIS 認証または LDAP 認証が失敗した場合に備え、「 files 」を含め、ローカルユーザをフォールバックとして設定する必要があります。
+
+* 関連情報 *
+
+xref:task_editing_svm_settings.adoc[SVM の設定を編集します]

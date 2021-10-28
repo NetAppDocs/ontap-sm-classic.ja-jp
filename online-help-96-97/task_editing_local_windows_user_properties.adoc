@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_editing_local_windows_user_properties.html 
+sidebar: sidebar 
+keywords: edit, local, window, user, properties, system, manager, online, help 
+summary: System Manager を使用して、 Windows ローカルユーザアカウントを編集し、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。 
+---
+= Windows ローカルユーザのプロパティを編集する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Windows ローカルユーザアカウントを編集して、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
+. [*Users*] タブで、 [*Edit*] をクリックします。
+. [ ユーザーの変更 *] ウィンドウで、必要な変更を行います。
+. * 変更 * をクリックします。
+
+
+Windows ローカルユーザアカウントの属性が変更され、 * Users * タブに表示されます。
+
+* 関連情報 *
+
+xref:reference_windows_window.adoc[Windows ウィンドウ]

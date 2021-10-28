@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_kerberos_realm_configurations.html 
+sidebar: sidebar 
+keywords: system, manager, delete, kerberos, realm, configuration, online, help 
+summary: System Manager を使用して Kerberos Realm 設定を削除できます。 
+---
+= Kerberos Realm 設定を削除します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して Kerberos Realm 設定を削除できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* サービス * （ * Services * ） ] ペインで、 [* Kerberos Realm * （ * Kerberos Realm * ） ] をクリック
+. Kerberos Realm * ウィンドウで、削除する Kerberos Realm 設定を 1 つ以上選択し、 * Delete * をクリックします。
+. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
+

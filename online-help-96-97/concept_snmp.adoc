@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_snmp.html 
+sidebar: sidebar 
+keywords: system, manager, configure, snmp, svm, cluster, online, help 
+summary: System Manager を使用して、クラスタ内の SVM を監視するように SNMP を設定できます。 
+---
+= SNMP
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタ内の SVM を監視するように SNMP を設定できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]

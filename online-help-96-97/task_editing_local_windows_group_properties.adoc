@@ -1,0 +1,45 @@
+---
+permalink: online-help-96-97/task_editing_local_windows_group_properties.html 
+sidebar: sidebar 
+keywords: online, help, edit, local, windows, group, properties, active, directory 
+summary: System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。 
+---
+= Windows ローカルグループのプロパティを編集します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。
+
+Windows ローカルグループのメンバーを追加または削除するときは、次の点に注意する必要があります。
+
+* special_Everyone グループにユーザを追加したり、このユーザを削除したりすることはできません。
+* Windows ローカルグループを別の Windows ローカルグループに追加することはできません。
+
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
+. [ * グループ * ] タブで、 [ * 編集 * ] をクリックします。
+. グループの名前と、新しいグループを識別する概要を指定します。
+. グループに一連の権限を割り当てます。
++
+サポートされる定義済みの権限の中から選択できます。
+
+. [Add *] をクリックして、ユーザをグループに追加します。
+. [ メンバーの追加 *] ウィンドウで、次のいずれかの操作を実行します。
++
+** 特定のローカルグループに追加する Active Directory ユーザまたは Active Directory グループを指定します。
+** Storage Virtual Machine （ SVM ）の使用可能なローカルユーザのリストからユーザを選択します。
+
+
+. [ 編集（ Edit ） ] をクリックします。
+
+
+Windows ローカルグループの設定が変更され、変更内容が * グループ * タブに表示されます。
+
+* 関連情報 *
+
+xref:reference_windows_window.adoc[Windows ウィンドウ]

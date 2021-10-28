@@ -1,0 +1,23 @@
+---
+permalink: volume-backup-snapvault/reference_where_to_find_additional_information.html 
+sidebar: sidebar 
+keywords: documentation, restore, data, destination, volume, test, backed-up, source, volume, where to find additional information 
+summary: バックアップしたデータをテストする場合やソースボリュームが失われた場合にデスティネーションボリュームからデータをリストアする方法については、別のドキュメントで説明しています。 
+---
+= 追加情報の参照先
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+バックアップしたデータをテストする場合やソースボリュームが失われた場合にデスティネーションボリュームからデータをリストアする方法については、別のドキュメントで説明しています。
+
+* xref:../volume-restore-snapvault/index.html[SnapVault を使用したボリュームリストアの管理]
++
+ONTAP の SnapVault バックアップからボリュームをリストアする簡単な方法について説明しています
+
+* https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"]
++
+クラスタシステムのディザスタリカバリとディスクツーディスクバックアップの概念について説明しています
+
+

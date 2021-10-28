@@ -1,0 +1,68 @@
+---
+permalink: expansion/task_updating_lun_paths_for_new_nodes.html 
+sidebar: sidebar 
+keywords: cluster, configure, san, lif, add, update, path, lun, node, update lun paths for the new nodes 
+summary: クラスタが SAN 用に構成されている場合は、新しく追加したノードに SAN LIF を作成し、パスを更新する必要があります。 
+---
+= 新しいノードの LUN パスを更新します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタが SAN 用に構成されている場合は、新しく追加したノードに SAN LIF を作成し、パスを更新する必要があります。
+
+この手順は、クラスタに LUN が含まれている場合にのみ必要です。クラスタにファイルしか含まれていない場合は、この手順を省略できます。
+
+.手順
+. クラスタ内の Storage Virtual Machine （ SVM ）ごとに、新しく追加したノードに新しい LIF を作成します。
++
+.. vserver show コマンドで「 -fields allowed-protocols 」パラメータを指定して、 FC プロトコルまたは iSCSI プロトコルを使用する SVM を出力から特定します。
++
+[listing]
+----
+cluster1::> vserver show -fields allowed-protocols
+vserver allowed-protocols
+------- -----------------
+vs1     cifs,ndmp
+vs2     fcp
+vs3     iscsi
+...
+----
+.. FC または iSCSI を使用する SVM ごとに、「 network interface create 」コマンドに「 -role data 」パラメータを指定して実行し、新しく追加した各ノードに少なくとも 2 つのデータ LIF を作成します。
++
+[listing]
+----
+cluster1::> network interface create -vserver vs1 -lif lif5 -role data
+-data-protocol iscsi -home-node cluster1-3 -home-port e0b
+-address 192.168.2.72 -netmask 255.255.255.0
+----
+.. 各 SVM について、「 network interface show 」コマンドに「 -vserver 」パラメータを指定して実行し、クラスタ内のすべてのノードに LIF があることを確認します。
+
+
+. ポートセットを更新します。
++
+.. lun portset show コマンドを使用して、ポートセットが存在するかどうかを確認します。
+.. 既存のホストから新しい LIF を認識できるようにするには、各 LIF に対して「 lun portset add 」コマンドを使用して、新しい LIF をそれぞれポートセットに追加します。
+
+
+. FC または FCoE を使用する場合は、ゾーニングを更新します。
++
+.. ゾーニングが正しく設定され、ホスト上の既存のイニシエータポートが新しいノード上の新しいターゲットポートに接続できることを確認します。
+.. スイッチゾーニングを更新して、新しいノードを既存のイニシエータに接続します。
++
+ゾーニングの設定方法は、使用するスイッチによって異なります。
+
+.. LUN を新しいノードに移動する場合は、「 lun mapping add-reporting-nodes 」コマンドを使用して、新しいパスをホストに公開します。
+
+
+. すべてのホストオペレーティングシステムで、再スキャンを実行して新しく追加したパスを検出します。
+. ホストのオペレーティングシステムによっては、古いパスを削除します。
+. MPIO 構成のパスを追加または削除します。
+
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN の設定"^]
+
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]

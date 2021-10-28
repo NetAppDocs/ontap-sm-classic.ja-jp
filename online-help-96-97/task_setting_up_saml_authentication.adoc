@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_setting_up_saml_authentication.html 
+sidebar: sidebar 
+keywords: set, up, saml, authentification, security, assertion, markup, idp, online, help 
+summary: リモートユーザが System Manager にログインする前にセキュアな Identity Provider （ IdP ；アイデンティティプロバイダ）を使用して認証されるように、 Security Assertion Markup Language （ SAML ；セキュリティアサーションマークアップ言語）認証をセットアップできます。 
+---
+= SAML 認証のセットアップ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモートユーザが System Manager にログインする前にセキュアな Identity Provider （ IdP ；アイデンティティプロバイダ）を使用して認証されるように、 Security Assertion Markup Language （ SAML ；セキュリティアサーションマークアップ言語）認証をセットアップできます。
+
+image::../media/mfa_workflow.gif[MFA ワークフロー]

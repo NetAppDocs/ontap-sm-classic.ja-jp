@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_creating_iscsi_aliases.html 
+sidebar: sidebar 
+keywords: iscsi, alias, create, target, device, online, help 
+summary: iSCSI エイリアスは、ユーザインターフェイスで iSCSI ターゲットデバイス（この場合はストレージシステム）を識別しやすくするために、そのターゲットデバイスに割り当てるわかりやすい識別子です。System Manager を使用して、 iSCSI エイリアスを作成できます。 
+---
+= iSCSI エイリアスを作成します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI エイリアスは、ユーザインターフェイスで iSCSI ターゲットデバイス（この場合はストレージシステム）を識別しやすくするために、そのターゲットデバイスに割り当てるわかりやすい識別子です。System Manager を使用して、 iSCSI エイリアスを作成できます。
+
+iSCSI エイリアスは、 1~128 の印刷可能文字で構成される文字列です。 iSCSI エイリアスにはスペースを使用できません。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Protocols* ] ペインで、 [*iSCSI*] をクリックします。
+. [* iSCSI * ] ウィンドウの [ サービス * ] タブで、 [ * 編集 ] をクリックします。
+. Edit iSCSI Service Configuration * （ iSCSI サービス構成の編集）ダイアログボックスの * Target Alias （ターゲットエイリアス） * フィールドに iSCSI エイリアスを入力し、 * OK * をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_iscsi_window.adoc[iSCSI ウィンドウ]

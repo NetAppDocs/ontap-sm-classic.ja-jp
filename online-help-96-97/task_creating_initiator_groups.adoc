@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_creating_initiator_groups.html 
+sidebar: sidebar 
+keywords: create, initiator, group, system, manager, lun, online, help 
+summary: System Manager を使用して、イニシエータグループを作成できます。イニシエータグループを使用すると、特定の LUN へのホストアクセスを制御できます。イニシエータがアクセスできる LIF を制限するには、ポートセットを使用します。 
+---
+= igroup を作成します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、イニシエータグループを作成できます。イニシエータグループを使用すると、特定の LUN へのホストアクセスを制御できます。イニシエータがアクセスできる LIF を制限するには、ポートセットを使用します。
+
+.手順
+. [ * ストレージ * > * LUNs * ] をクリックします。
+. [* イニシエータ・グループ * ] タブで、 [* 作成 ] をクリックします。
+. イニシエータグループの作成 * ダイアログボックスの * 全般 * タブで、 igroup 名、オペレーティング・システム、ホスト・エイリアス名、ポート・セット、およびグループでサポートされるプロトコルを指定します。
+. [ 作成（ Create ） ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_luns_window.adoc[LUN ウィンドウ]

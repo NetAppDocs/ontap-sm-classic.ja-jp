@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_system_alerts.html 
+sidebar: sidebar 
+keywords: system, manager, monitor, cluster 
+summary: System Manager を使用して、クラスタのさまざまな要素を監視できます。 
+---
+= システムアラート
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタのさまざまな要素を監視できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["システム管理"]

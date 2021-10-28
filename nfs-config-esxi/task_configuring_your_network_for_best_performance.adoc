@@ -1,0 +1,31 @@
+---
+permalink: nfs-config-esxi/task_configuring_your_network_for_best_performance.html 
+sidebar: sidebar 
+keywords: ethernet, network, performance, configuration, value, configure, configure your network for best performance 
+summary: イーサネットネットワークによってパフォーマンスは大きく変わります。特定の設定値を選択することで、ネットワークのパフォーマンスを最大限に高めることができます。 
+---
+= 最適なパフォーマンスを実現できるようにネットワークを設定します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イーサネットネットワークによってパフォーマンスは大きく変わります。特定の設定値を選択することで、ネットワークのパフォーマンスを最大限に高めることができます。
+
+.手順
+. ホストポートとストレージポートを同じネットワークに接続します。
++
+同じスイッチに接続することを推奨します。
+
+. 最も速度の速いポートを選択します。
++
+10GbE 以上の速さのポートが最適です。最小要件は 1GbE ポートです。
+
+. 必要に応じてジャンボフレームを有効にして、ネットワークでサポートされるようにします。
++
+ESXi ホストとストレージシステムではジャンボフレームの MTU を 9000 にし、ほとんどのスイッチでは 9216 にします。
+
++
+ESXi の NIC 、ストレージの NIC 、スイッチを含む、データパス内のすべてのデバイスでジャンボフレームがサポートされている必要があります。
+
+

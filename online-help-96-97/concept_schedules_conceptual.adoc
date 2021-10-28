@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/concept_schedules_conceptual.html 
+sidebar: sidebar 
+keywords: online, help, configure, task, schedule, volume, snapshot, mirror, replication, cron, interval, online, help 
+summary: 多くのタスク（ボリュームの Snapshot コピーやミラーレプリケーションなど）を、指定したスケジュールで実行されるように設定できます。指定したスケジュールで実行されるスケジュールは、 UNIX の cron スケジュールに似ているため、 cron スケジュールと呼ばれます。一定間隔で実行されるスケジュールは、インターバルスケジュールと呼ばれます。 
+---
+= スケジュール
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+多くのタスク（ボリュームの Snapshot コピーやミラーレプリケーションなど）を、指定したスケジュールで実行されるように設定できます。指定されたスケジュールで実行されるスケジュールは、 UNIX の cron スケジュールと似ているため、 _cron_schedules として知られています。一定間隔で実行されるスケジュールは、 _interval_schedules と呼ばれます。
+
+スケジュールは、次の方法で管理できます。
+
+* cron スケジュールまたはインターバルスケジュールを作成する
+* すべてのスケジュールに関する情報を表示する
+* cron スケジュールまたはインターバルスケジュールを変更する
+* cron スケジュールまたはインターバルスケジュールを削除する
++
+実行中のジョブで現在使用されているスケジュールを削除することはできません。
+
+
+
+クラスタ管理者は、すべてのスケジュール管理タスクを実行できます。

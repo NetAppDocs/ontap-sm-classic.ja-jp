@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_initiator_hosts.html 
+sidebar: sidebar 
+keywords: initiator, host, lun, map, storage, system, igroup, group, access, member, online, help 
+summary: イニシエータホストは自身にマッピングされた LUN にアクセスできます。ストレージシステム上の LUN を igroup にマッピングすると、グループ内のすべてのイニシエータからその LUN へのアクセスを許可することになります。LUN にマッピングされている igroup のメンバーでないホストは、 LUN にアクセスできません。 
+---
+= イニシエータホスト
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イニシエータホストは自身にマッピングされた LUN にアクセスできます。ストレージシステム上の LUN を igroup にマッピングすると、グループ内のすべてのイニシエータからその LUN へのアクセスを許可することになります。LUN にマッピングされている igroup のメンバーでないホストは、 LUN にアクセスできません。

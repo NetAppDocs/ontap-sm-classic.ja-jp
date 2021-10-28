@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_iscsi_protocol.html 
+sidebar: sidebar 
+keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help 
+summary: System Manager を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。 
+---
+= iSCSI プロトコル
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]

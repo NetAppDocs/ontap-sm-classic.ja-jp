@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_viewing_autosupport_summary.html 
+sidebar: sidebar 
+keywords: view, autosupport, summary, system, manager, online, help 
+summary: System Manager を使用して以前のすべての AutoSupport データのステータスと詳細を表示することで、テクニカルサポートに送信されたデータを確認することができます。また、ストレージシステムの健常性やパフォーマンスに関する情報も確認できます。 
+---
+= AutoSupport の概要の表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して以前のすべての AutoSupport データのステータスと詳細を表示することで、テクニカルサポートに送信されたデータを確認することができます。また、ストレージシステムの健常性やパフォーマンスに関する情報も確認できます。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*>* AutoSupport * 。
+. ノードを選択し、 * AutoSupport Request* > * View Previous Summary * をクリックします。
++
+すべてのノードの AutoSupport データが表示されます。
+
+. [OK] をクリックします。
+

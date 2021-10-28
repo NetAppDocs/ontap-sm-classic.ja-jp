@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_namespace.html 
+sidebar: sidebar 
+keywords: junction, path, window, system, manager, mount, unmount, flexvol, volume, svm, namespace, online, help 
+summary: System Manager のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。 
+---
+= ジャンクションパス
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。

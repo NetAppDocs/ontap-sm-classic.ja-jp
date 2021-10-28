@@ -1,0 +1,69 @@
+---
+permalink: online-help-96-97/reference_configuration_updates_window.html 
+sidebar: sidebar 
+keywords: configuration, update, window, tab, node, command, button, svm, online, help 
+summary: Configuration Updates ウィンドウを使用すると、クラスタ、 Storage Virtual Machine （ SVM ）、およびノードの設定の詳細を更新できます。 
+---
+= [ 構成の更新 ] ウィンドウ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Configuration Updates ウィンドウを使用すると、クラスタ、 Storage Virtual Machine （ SVM ）、およびノードの設定の詳細を更新できます。
+
+
+
+== タブ
+
+* * ノード * ：
++
+ノードの詳細を設定できます。
+
+* * SVM *
++
+SVM の詳細を設定できます。
+
+
+
+
+
+== [ ノード（ Nodes ） ] タブ
+
+
+
+== コマンドボタン
+
+* * ノード名の編集 *
++
+ノード名の編集ダイアログボックスを開きます。このダイアログボックスで、ノードの名前を変更できます。
+
+* * ノード管理 LIF を作成 *
++
+ノード管理 LIF の作成ダイアログボックスを開きます。このダイアログボックスで、特定のノードを管理するためのノード管理 LIF を作成できます。
+
+* * AutoSupport * を編集します
++
+Edit AutoSupport Settings ダイアログボックスを開きます。このダイアログボックスで、 E メール通知の送信元の E メールアドレスを指定したり、ホスト名の複数の E メールアドレスを追加したりできます。
+
+
+
+
+
+== SVM タブをクリックします
+
+
+
+== コマンドボタン
+
+* * 管理の詳細を設定 *
++
+Configure Administration Details （管理の詳細の設定）ダイアログボックスを開きます。このダイアログボックスで、 SVM の管理の詳細を設定できます。
+
+
+
+* 関連情報 *
+
+xref:task_creating_cluster.adoc[クラスタを作成]
+
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[IP アドレス範囲を無効にした状態でのネットワークの設定]

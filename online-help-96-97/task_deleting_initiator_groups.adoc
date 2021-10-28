@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_deleting_initiator_groups.html 
+sidebar: sidebar 
+keywords: delete, initiator, groups, system, manager, online, help 
+summary: System Manager のイニシエータグループタブを使用して、イニシエータグループを削除できます。 
+---
+= igroup を削除します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager のイニシエータグループタブを使用して、イニシエータグループを削除できます。
+
+イニシエータグループにマッピングされている LUN は、すべて手動でマッピング解除する必要があります。
+
+.手順
+. [ * ストレージ * > * LUNs * ] をクリックします。
+. イニシエータグループ * タブで、削除するイニシエータグループを 1 つ以上選択し、 * Delete * をクリックします。
+. [ 削除（ Delete ） ] をクリックします。
+. 削除したイニシエータグループが「 * イニシエータグループ * 」タブに表示されていないことを確認します。
+
+
+* 関連情報 *
+
+xref:reference_luns_window.adoc[LUN ウィンドウ]

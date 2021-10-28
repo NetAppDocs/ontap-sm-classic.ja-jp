@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_configuration_update.html 
+sidebar: sidebar 
+keywords: configuration, update, system, manager, administration, detail, storage, virtual, machine, svm, online, help 
+summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。 
+---
+= 設定の更新
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。

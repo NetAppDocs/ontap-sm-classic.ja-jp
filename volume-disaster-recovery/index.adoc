@@ -1,0 +1,34 @@
+---
+permalink: volume-disaster-recovery/index.html 
+sidebar: sidebar 
+keywords: content, destination, activate, volume, disaster, reactivate, source, ontap, volume disaster recovery overview 
+summary: このコンテンツでは、 ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明します。 
+---
+= ボリュームディザスタリカバリの概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、 ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明します。
+
+このコンテンツは、ボリュームレベルのディザスタリカバリ手順を実行する場合に使用します。想定している状況は次のとおりです。
+
+* クラスタで ONTAP 9 を実行している。
+* クラスタ管理者である。
+* SnapMirror 関係の設定は次のとおりです xref:../volume-disaster-prep/index.html[ボリュームのディザスタリカバリの準備]
+* ソースクラスタのクラスタ管理者が、ウィルス感染によるデータ破損や誤操作によるデータ削除など、何らかの理由でソースボリュームのデータを使用できなくなったと報告している。
+* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
+
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+
+
+上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["データ保護"^]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]
+

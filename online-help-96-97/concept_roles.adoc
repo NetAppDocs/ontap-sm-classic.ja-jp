@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_roles.html 
+sidebar: sidebar 
+keywords: system, manager, role, create, user, access, control, online, help 
+summary: System Manager を使用して、アクセス制御ユーザロールを作成できます。 
+---
+= ロール
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、アクセス制御ユーザロールを作成できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/authentication/index.html["管理者認証と RBAC"^]

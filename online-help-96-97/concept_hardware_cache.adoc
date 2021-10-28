@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_hardware_cache.html 
+sidebar: sidebar 
+keywords: hardware, cache, system, manager, manage, online, help 
+summary: System Manager を使用して、ハードウェアキャッシュモジュールを管理できます。 
+---
+= ハードウェアキャッシュ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ハードウェアキャッシュモジュールを管理できます。
+
+[NOTE]
+====
+System Manager では、 Flash Cache をハードウェアキャッシュと呼びます。
+
+====

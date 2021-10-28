@@ -1,0 +1,64 @@
+---
+permalink: online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html 
+sidebar: sidebar 
+keywords: set, up, network, ip, address, disabled, network, online, help 
+summary: IP アドレス範囲を無効にしてネットワークを設定することができます。この場合、クラスタ管理、ノード管理、およびサービスプロバイダの各ネットワークの IP アドレスを個別に入力します。 
+---
+= IP アドレス範囲を無効にした状態でのネットワークの設定
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+IP アドレス範囲を無効にしてネットワークを設定することができます。この場合、クラスタ管理、ノード管理、およびサービスプロバイダの各ネットワークの IP アドレスを個別に入力します。
+
+ネットワークページで IP アドレス範囲 * が無効になっている場合は、クラスタ管理、ノード管理、およびサービスプロセッサの各ネットワークの IP アドレスを個別に入力します。
+
+.手順
+. クラスタ管理 IP アドレスを「 * クラスタ管理 IP アドレス * 」フィールドに入力します。
+. クラスタ管理のネットマスクの詳細を入力します。
+. クラスタ管理のゲートウェイの詳細を入力します。
+. Port * フィールドで、クラスタ管理用のポートを選択します。
+. ノードを管理するためにネットマスクとゲートウェイの詳細を指定する場合は、「クラスタ管理 * のネットマスクとゲートウェイの設定を保持する」チェックボックスをオフにして、ネットマスクとゲートウェイの詳細を入力します。
+. ノード管理 IP アドレスを * Node Management * フィールドに入力します。
+. ノード管理の「 * Port * 」フィールドに「 * e0m * 」が指定されていない場合は、ポートの詳細を入力します。
++
+[NOTE]
+====
+デフォルトでは、 Port フィールドには e0M と表示されます。
+
+====
+. サービスプロセッサ管理用のネットマスクとゲートウェイの詳細を入力します。
+. サービスプロセッサの IP 管理アドレスを「 * Service Processor Management * 」フィールドに入力します。
+. *DNS Details* フィールドを有効にした場合は、 DNS サーバーの詳細を入力します。
+. [NTP Details] * フィールドを有効にした場合は、 NTP サーバの詳細を入力します。
++
+[NOTE]
+====
+代替 NTP サーバの詳細はオプションです。
+
+====
+. [Submit （送信） ] をクリックします。
+
+
+
+
+== 次に何をするか
+
+サポートページにイベント通知を入力して、クラスタのセットアップを続行します。
+
+* 関連情報 *
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F["サービスプロセッサとは何ですか？また、どのように使用しますか？"]
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI["CLI を使用して clustered Data ONTAP 8.2 以降で NTP を設定およびトラブルシューティングする方法"]
+
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]
+
+xref:reference_configuration_updates_window.adoc[[ 構成の更新 ] ウィンドウ]
+
+xref:reference_date_time_window.adoc[[ 日付と時刻 ] ウィンドウ]
+
+xref:reference_service_processors_window.adoc[サービスプロセッサウィンドウ]

@@ -1,0 +1,49 @@
+---
+permalink: online-help-96-97/task_increasing_cache_for_flash_pool_aggregates_by_adding_ssds.html 
+sidebar: sidebar 
+keywords: increase, cache, flash, pool, aggregates, ssd, online, help, storage 
+summary: System Manager を使用して、ストレージプールまたは専用 SSD として SSD を追加し、 Flash Pool アグリゲートのサイズを拡張できます。 
+---
+= SSD の追加による Flash Pool アグリゲートのキャッシュの拡張
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ストレージプールまたは専用 SSD として SSD を追加し、 Flash Pool アグリゲートのサイズを拡張できます。
+
+.作業を開始する前に
+* Flash Pool アグリゲートをオンラインにする必要があります。
+* キャッシュディスクとして割り当てることができる十分な数のスペア SSD または割り当て単位がストレージプールに必要です。
+
+
+.手順
+. Storage * > * Aggregates & Disks * > * Aggregates * の順にクリックします
+. [* Aggregate* ] ウィンドウで、 Flash Pool アグリゲートを選択し、 [Add Cache* ] をクリックします。
+. [ キャッシュの追加 *] ダイアログボックスで、適切なアクションを実行します。
++
+|===
+| 選択したキャッシュソース | 手順 
+
+
+ a| 
+ストレージプール
+ a| 
+キャッシュを提供するストレージプールを選択し、キャッシュサイズを指定します。
+
+
+
+ a| 
+専用 SSD
+ a| 
+追加する SSD のサイズと数を選択します。
+
+|===
+. [ 追加（ Add ） ] をクリックします。
++
+ミラーされたアグリゲートの場合、 Add Cache （キャッシュの追加）ダイアログボックスに、選択した数の 2 倍のディスクが追加されることを示す情報が表示されます。
+
+. [ キャッシュの追加 *] ダイアログボックスで、 [ はい *] をクリックします。
+
+
+選択した Flash Pool アグリゲートにキャッシュディスクが追加されます。

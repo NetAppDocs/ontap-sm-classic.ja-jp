@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_flash_cache_modules.html 
+sidebar: sidebar 
+keywords: enable, disable, flash, cache, module, online, help, system, manager 
+summary: System Manager を使用して、 Flash Cache モジュールがインストールされているストレージシステムに対して、外部キャッシュ機能を有効または無効にできます。Flash Cache モジュールは、ストレージシステムのワークロード要件に基づいて有効にすることができます。 
+---
+= Flash Cache モジュールの有効化と無効化
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Flash Cache モジュールがインストールされているストレージシステムに対して、外部キャッシュ機能を有効または無効にできます。Flash Cache モジュールは、ストレージシステムのワークロード要件に基づいて有効にすることができます。
+
+.手順
+. [ * 構成 *>* ハードウェアキャッシュ *] をクリックします
+. モジュールを変更する場合は、スライダボタンを動かして各モジュールを必要に応じて有効または無効にします。
+

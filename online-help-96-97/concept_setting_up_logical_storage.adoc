@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_setting_up_logical_storage.html 
+sidebar: sidebar 
+keywords: online, help, set, up, logical, storage, svm, volume 
+summary: 論理ストレージのセットアップでは、 Storage Virtual Machine （ SVM ）とボリュームを作成します。 
+---
+= 論理ストレージをセットアップする
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+論理ストレージのセットアップでは、 Storage Virtual Machine （ SVM ）とボリュームを作成します。

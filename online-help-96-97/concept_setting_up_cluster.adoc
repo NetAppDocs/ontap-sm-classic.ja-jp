@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_setting_up_cluster.html 
+sidebar: sidebar 
+keywords: online, help, cluster, configuration, information, ha, pair, node, management, license, time 
+summary: クラスタのセットアップでは、設定情報を収集し、クラスタ管理インターフェイスとノード管理インターフェイスを作成し、ライセンスの追加、クラスタ時間の設定、 HA ペアの監視を行います。 
+---
+= クラスタをセットアップする
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタのセットアップでは、設定情報を収集し、クラスタ管理インターフェイスとノード管理インターフェイスを作成し、ライセンスの追加、クラスタ時間の設定、 HA ペアの監視を行います。

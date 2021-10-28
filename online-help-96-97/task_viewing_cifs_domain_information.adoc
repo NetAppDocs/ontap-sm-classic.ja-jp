@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_viewing_cifs_domain_information.html 
+sidebar: sidebar 
+keywords: system, manager, view, cifs, domain, information, online, help 
+summary: System Manager を使用して、ストレージシステムに接続されているドメインコントローラとサーバに関する情報を表示できます。 
+---
+= CIFS ドメイン情報の表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ストレージシステムに接続されているドメインコントローラとサーバに関する情報を表示できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* ドメイン *] タブをクリックします。
+. 接続されているドメインコントローラとサーバに関する情報を確認します。
+

@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_efficiency_policies.html 
+sidebar: sidebar 
+keywords: enable, disable, efficiency, policy, online, help system, manager 
+summary: System Manager を使用して効率化ポリシーを有効または無効にできます。 
+---
+= 効率化ポリシーの有効化または無効化
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して効率化ポリシーを有効または無効にできます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Policies] ペインで、 [* 効率化ポリシー * ] をクリックします。
+. 有効または無効にする効率化ポリシーを 1 つ以上選択します。
+. 必要に応じて、 * Status * > * Enable * または * Status * > * Disable * をクリックします。
+. 効率化ポリシーを無効にする場合は、確認のチェックボックスをオンにし、 * OK * をクリックします。
+

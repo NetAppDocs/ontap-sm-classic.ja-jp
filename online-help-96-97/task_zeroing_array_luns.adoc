@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_zeroing_array_luns.html 
+sidebar: sidebar 
+keywords: zero, spare, array, lun, system, manager, online, help 
+summary: System Manager を使用して、スペアアレイ LUN に 0 を書き込むことで、アレイ LUN のすべてのデータを消去してフォーマットすることができます。これらのアレイ LUN は新しいアグリゲートで使用できます。 
+---
+= スペアアレイ LUN の初期化
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、スペアアレイ LUN に 0 を書き込むことで、アレイ LUN のすべてのデータを消去してフォーマットすることができます。これらのアレイ LUN は新しいアグリゲートで使用できます。
+
+スペアアレイ LUN を初期化すると、スペアディスクも含め、クラスタ内のすべてのスペアが初期化されます。特定のノードまたはクラスタ全体について、スペアアレイ LUN を初期化することができます。
+
+.手順
+. [* ストレージ * > * アグリゲートとディスク * > * アレイ LUN * ] をクリックします。
+. [* Zero Spares] をクリックします。
+. [*Zero Spares*] ダイアログ・ボックスで ' アレイ LUN をゼロにするノードまたはすべてのノードを選択します
+. ゼロ化処理を確定するには、「ゼロ化されていないスペアをすべて初期化」チェックボックスを選択します。
+. [* Zero Spares] をクリックします。
+

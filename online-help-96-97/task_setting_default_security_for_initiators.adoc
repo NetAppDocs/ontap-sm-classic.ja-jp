@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_setting_default_security_for_initiators.html 
+sidebar: sidebar 
+keywords: set, up, default, security, iscsi, initiator, online, help, system, manager, settings 
+summary: System Manager を使用して、イニシエータの認証設定を削除し、イニシエータの認証にデフォルトのセキュリティ方法を使用できます。 
+---
+= iSCSI イニシエータにデフォルトセキュリティを設定します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、イニシエータの認証設定を削除し、イニシエータの認証にデフォルトのセキュリティ方法を使用できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Protocols* ] ペインで、 [*iSCSI*] をクリックします。
+. [* Initiator Security* （イニシエータセキュリティ * ） ] タブで、セキュリティ設定を変更するイニシエータを選択します。
+. [* Initiator Security* （イニシエータセキュリティ * ） ] 領域で [* Set Default* （デフォルトの設定 * ） ] をクリックし、確認ダイアログボックスで [* Set Default* （デフォルトの設定 * ） ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_iscsi_window.adoc[iSCSI ウィンドウ]

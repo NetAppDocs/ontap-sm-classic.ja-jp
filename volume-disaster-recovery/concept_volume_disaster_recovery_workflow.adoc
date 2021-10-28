@@ -1,0 +1,15 @@
+---
+permalink: volume-disaster-recovery/concept_volume_disaster_recovery_workflow.html 
+sidebar: sidebar 
+keywords: volume, disaster recovery, workflow, activating, activate, destination, configuring, configure, access, reactivate, reactivating, original, source, volume disaster recovery workflow 
+summary: ボリュームのディザスタリカバリのワークフローには、デスティネーションボリュームのアクティブ化、データアクセスのためのデスティネーションボリュームの設定、および元のソースボリュームの再アクティブ化が含まれます。 
+---
+= ボリュームディザスタリカバリのワークフロー
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームのディザスタリカバリのワークフローには、デスティネーションボリュームのアクティブ化、データアクセスのためのデスティネーションボリュームの設定、および元のソースボリュームの再アクティブ化が含まれます。
+
+image::../media/snapmirror_failover_resync_workflow_eg.gif[この図は SnapMirror のクラスタ間フェイルオーバーと再同期のフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。]

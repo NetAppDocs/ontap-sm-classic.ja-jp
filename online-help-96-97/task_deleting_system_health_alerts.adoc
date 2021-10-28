@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_deleting_system_health_alerts.html 
+sidebar: sidebar 
+keywords: delete, system, health, alerts, manager, online, help 
+summary: System Manager を使用して、対応済みのシステムヘルスアラートを削除できます。 
+---
+= システムヘルスアラートの削除
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、対応済みのシステムヘルスアラートを削除できます。
+
+.手順
+. [* Events & Jobs*>* System Alerts*] をクリックします。
+. [ * システム・アラート * ] ウィンドウで、サブシステム名の横にある矢印アイコンをクリックします。
+. 削除するアラートを選択し、 * 削除 * をクリックします。
+. [OK] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_system_health_window.adoc[System Alerts （システムアラート）ウィンドウ]

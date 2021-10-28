@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_name_mapping.html 
+sidebar: sidebar 
+keywords: name, mapping, system, manager, specify, user, platform, online, help 
+summary: System Manager を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。 
+---
+= ネームマッピング
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"]

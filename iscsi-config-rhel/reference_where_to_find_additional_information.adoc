@@ -1,0 +1,41 @@
+---
+permalink: iscsi-config-rhel/reference_where_to_find_additional_information.html 
+sidebar: sidebar 
+keywords: test, iscsi, perform, advance, configuration, san, nas, protocol, comprehensive, technical, goal, where to find additional information 
+summary: iSCSI をテストしたあと、 iSCSI の高度な設定を行ったり、 SAN または NAS プロトコルを追加したりできます。このような目標の達成に役立つ包括的なコンテンツやテクニカルレポートをご用意しています。 
+---
+= 追加情報の参照先
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI をテストしたあと、 iSCSI の高度な設定を行ったり、 SAN または NAS プロトコルを追加したりできます。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。
+
+
+
+== SAN の設定
+
+次のドキュメントを参照できます。
+
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN の設定"^]
++
+クラスタ内のストレージコントローラにホストコンピュータを接続するための、 FC 、 iSCSI 、および FCoE トポロジについて説明します。
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
++
+LUN 、 igroup 、ターゲットの設定など、クラスタ SAN 環境の iSCSI 、 FCoE 、および FC プロトコルを設定および管理する方法について説明します。
+
+* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Linux Unified Host Utilities 7.1"^]
++
+Linux Unified Host Utilities ソフトウェアのインストール方法と DM-Multipath の設定方法について説明しています。
+
+* http://www.netapp.com/us/media/tr-4159.pdf["ネットアップテクニカルレポート 4159 ：『 Red Hat Enterprise Virtualization 3.1 と NetApp clustered Data ONTAP ストレージのベストプラクティス』"^]
++
+Red Hat 仮想環境向けの最新のベストプラクティスについて説明しています。
+
+* Red Hat Enterprise Linux 6 のドキュメントとマニュアルページ
++
+ストレージデバイス、ファイルシステム、および Linux コマンドを管理する手順について説明します。
+
+

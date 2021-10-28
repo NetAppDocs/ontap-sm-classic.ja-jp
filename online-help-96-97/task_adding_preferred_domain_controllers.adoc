@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_adding_preferred_domain_controllers.html 
+sidebar: sidebar 
+keywords: system, manager, add, preferred, domain, controller, online, help, dns 
+summary: System Manager では、 DNS を介してドメインコントローラが自動的に検出されます。必要に応じて、特定のドメインに対する優先ドメインコントローラのリストにドメインコントローラを追加することができます。 
+---
+= 優先ドメインコントローラを追加する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager では、 DNS を介してドメインコントローラが自動的に検出されます。必要に応じて、特定のドメインに対する優先ドメインコントローラのリストにドメインコントローラを追加することができます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* ドメイン *] タブで、 [* 優先ドメインコントローラー * ] 領域の [* 追加 ] をクリックします。
+. 追加するドメインコントローラの完全修飾ドメイン名（ FQDN ）および IP アドレスを入力します。
++
+ドメインコントローラの IP アドレスをカンマで区切って入力することで複数のドメインコントローラを追加できます。
+
+. [ 保存（ Save ） ] をクリックします。
+. 追加したドメインコントローラが優先ドメインコントローラのリストに表示されていることを確認します。
+

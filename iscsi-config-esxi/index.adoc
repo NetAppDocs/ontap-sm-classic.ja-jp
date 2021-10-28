@@ -1,0 +1,52 @@
+---
+permalink: iscsi-config-esxi/index.html 
+sidebar: sidebar 
+keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
+summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
+---
+= VSC を使用した ESXi 向けの iSCSI 設定の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。
+
+このコンテンツは、次の前提に基づいています。
+
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"]
+
+* ESXi 5.x でネイティブの ESX iSCSI ソフトウェアイニシエータを使用している
+* iSCSI に CHAP 認証を使用しない。
+* サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定を行う。
+* ネットワークで IPv4 アドレスを使用している。
+* 次のいずれかの方法で論理インターフェイスにアドレスを割り当てる。
++
+** 定義したサブネットから自動で割り当てられます
+** 既存のサブネットから選択したアドレスを使用して、手動で割り当てます
+** 既存のサブネットに追加するアドレスを使用して、手動で割り当てます
+
+
+* クラスタ内の各ノードに高速イーサネットポート（ 1GbE 以上、 10GbE を推奨）が少なくとも 2 つある。
++
+オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順については説明しません。
+
++
+が表示されます link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 ネットワーク管理"] CLI を使用してイーサネットポートのフロー制御を設定するため。
+
+* iSCSI SAN ブートを設定しない。
+* VM のストレージを ESX ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。
+
+
+上記の想定条件に該当しない場合は、次の資料を参照してください。
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"]
+* 使用している ESX 5 のバージョンに対応した VMware vSphere Storage_ （から入手可能 http://www.vmware.com["VMware"])
+

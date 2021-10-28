@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_modifying_branchcache_settings.html 
+sidebar: sidebar 
+keywords: modify, branchcache, settings, cifs, system, manager, storage, virtual, machine, svm, online, help 
+summary: System Manager の CIFS ウィンドウを使用して、 CIFS 対応の Storage Virtual Machine （ SVM ）に対して設定されている BranchCache 設定を変更することができます。ハッシュストアのパス、ハッシュストアのサイズ、動作モード、およびサポートする BranchCache のバージョンを変更できます。 
+---
+= BranchCache 設定の変更
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の CIFS ウィンドウを使用して、 CIFS 対応の Storage Virtual Machine （ SVM ）に対して設定されている BranchCache 設定を変更することができます。ハッシュストアのパス、ハッシュストアのサイズ、動作モード、およびサポートする BranchCache のバージョンを変更できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [*Branch*] タブで、 [*Edit*] をクリックします。
+. [* BranchCache 設定の変更 * ] ダイアログボックスで、必要な情報を変更します。
++
+** ハッシュストアパス
++
+ハッシュストアのパスを変更する際、前のハッシュストアのキャッシュ済みハッシュデータを保持することもできます。
+
+** ハッシュストアサイズ
+** 動作モード
+** BranchCache バージョン
+
+
+. * 変更 * をクリックします。
+

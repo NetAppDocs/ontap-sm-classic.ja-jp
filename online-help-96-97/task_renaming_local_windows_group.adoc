@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/task_renaming_local_windows_group.html 
+sidebar: sidebar 
+keywords: rename, local, windows, group, system, manager, online, help 
+summary: System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。 
+---
+= Windows ローカルグループの名前変更
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。
+
+.このタスクについて
+* 新しいグループ名は古いグループ名と同じドメインに作成する必要があります。
+* グループ名は次の要件を満たす必要があります。
++
+** 256 文字以内にする必要があります
+** 末尾をピリオドにすることはできません
+** カンマは使用できません
+** 次の印字可能文字を含めることはできません： " / \ [ ] ： | <> + = ；？* @
+** ASCII 範囲 1~31 の印字できない文字を含めることはできません
+
+
+
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
+. [* グループ ] タブで、名前を変更するグループを選択し、 [* 名前の変更 *] をクリックします。
+. [ グループ名の変更 *] ウィンドウで、グループの新しい名前を指定します。
+
+
+ローカルグループ名が変更され、グループウィンドウに新しい名前が表示されます。
+
+* 関連情報 *
+
+xref:reference_windows_window.adoc[Windows ウィンドウ]

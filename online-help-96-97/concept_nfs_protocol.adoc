@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_nfs_protocol.html 
+sidebar: sidebar 
+keywords: nfs, protocol, system, manager, authenticate, client, asses, data, svm, online, help 
+summary: System Manager を使用して、 SVM のデータにアクセスする NFS クライアントを認証できます。 
+---
+= NFS プロトコル
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 SVM のデータにアクセスする NFS クライアントを認証できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]

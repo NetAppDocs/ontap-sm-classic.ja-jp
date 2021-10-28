@@ -1,0 +1,29 @@
+---
+permalink: iscsi-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html 
+sidebar: sidebar 
+keywords: linux, unified, host, utilities, sanlun, utility, netapp, lun, report, tool, display, information, storage, cluster, node, enable, netapp, install linux unified host utilities and optimizing i/o performance 
+summary: Linux Unified Host Utilities ソフトウェアに、 sanlun ユーティリティというネットアップの LUN レポートツールが含まれています。このユーティリティを使用してストレージクラスタノードに関する情報を表示できます。 
+---
+= Linux Unified Host Utilities をインストールし、 I/O パフォーマンスを最適化します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Linux Unified Host Utilities ソフトウェアには、「 lun 」ユーティリティが含まれています。これは、ストレージクラスタノードに関する情報の表示に使用できるネットアップの LUN レポートツールです。ネットアップストレージのパフォーマンスを最適化するには、さらに、 Linux ホストで正しいサーバプロファイルを有効にする必要があります。
+
+Interoperability Matrix を使用して、構成に対してサポートされている Linux Unified Host Utilities のバージョンを確認しておく必要があります。また、 Linux OS ディストリビューションの一部である「 tuned 」パッケージも必要です。このパッケージには「 tuned-adm 」コマンドが含まれており、これを使用してホスト上のサーバプロファイルを設定します。
+
+.手順
+. ネットアップサポートサイトからサポートされているバージョンの Linux Unified Host Utilities をダウンロードします。
++
+http://mysupport.netapp.com/NOW/cgi-bin/software["ネットアップのダウンロード：ソフトウェア"]
+
+. インストールマニュアルの手順に従って、 Linux Unified Host Utilities ソフトウェアをインストールします。
+. tuned パッケージがインストールされていない場合は、「 yum install tuned 」コマンドを入力します
+. 物理ホストの場合は 'enterprise-storaged' プロファイル： tuned-adm profile enterprise-storaged' が設定されていることを確認します
+. 仮想ホストの場合は 'virtual-guest' プロファイル :tuned-adm profile virtual-guest' が設定されていることを確認します
++
+https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Linux Unified Host Utilities 7.1 のインストール"]
+
+

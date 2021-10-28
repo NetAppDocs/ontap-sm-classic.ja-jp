@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_network_interfaces.html 
+sidebar: sidebar 
+keywords: system, manager, network, interface, create, manage, online, help 
+summary: System Manager を使用して、ネットワークインターフェイスを作成および管理できます。 
+---
+= ネットワークインターフェイス
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ネットワークインターフェイスを作成および管理できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"]
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]

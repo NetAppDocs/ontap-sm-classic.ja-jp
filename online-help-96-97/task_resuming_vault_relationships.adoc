@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_resuming_vault_relationships.html 
+sidebar: sidebar 
+keywords: resume, vault, relationship, online, help, system, manager, data, transfer 
+summary: System Manager を使用して、休止中のバックアップ関係を再開できます。関係を再開すると、デスティネーション FlexVol ボリュームへの通常のデータ転送が再開され、バックアップアクティビティもすべて再開されます。 
+---
+= バックアップ関係を再開しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、休止中のバックアップ関係を再開できます。関係を再開すると、デスティネーション FlexVol ボリュームへの通常のデータ転送が再開され、バックアップアクティビティもすべて再開されます。
+
+.手順
+. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
+. データ転送を再開する関係を選択し、 * Operations * > * Resume * をクリックします。
+. [* Resume （続行） ] ウィンドウで、 [* Resume （続行） ] をクリックします。
+
+
+通常のデータ転送が再開されます。関係に対して転送がスケジュールされている場合、その転送は次回のスケジュールから開始されます。
+
+* 関連情報 *
+
+xref:reference_protection_window.adoc[保護ウィンドウ]

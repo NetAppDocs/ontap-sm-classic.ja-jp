@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_attaching_aggregate_to_cloud_tier.html 
+sidebar: sidebar 
+keywords: attach, cloud, tier, system, manager, online, help, flash, aggregate, system, manager 
+summary: System Manager を使用して、オールフラッシュアグリゲートをクラウド階層に接続できます。使用頻度の低いデータをクラウド階層に格納することができます。 
+---
+= クラウド階層にアグリゲートを接続しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、オールフラッシュアグリゲートをクラウド階層に接続できます。使用頻度の低いデータをクラウド階層に格納することができます。
+
+クラスタにクラウド階層を追加しておく必要があります。
+
+.手順
+. [ * ストレージ * > * アグリゲートとディスク * > * クラウド階層 * ] をクリックします。
+. [* Used in aggregates * ] 列で、 [* Attach Aggregates * ] をクリックします。
++
+アグリゲートの接続ウィンドウが表示されます。
+
+. クラウド階層に接続するアグリゲートを選択します。
+. [ 保存（ Save ） ] をクリックします。
+
+
+* 関連情報 *
+
+xref:concept_what_cloud_tiers_tiering_policies_are.adoc[クラウド階層および階層化ポリシーとは]
+
+xref:concept_what_fabricpool_is.adoc[FabricPool とは]
+
+xref:reference_storage_tiers_window.adoc[ストレージ階層ウィンドウに戻ります]

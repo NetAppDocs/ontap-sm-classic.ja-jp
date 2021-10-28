@@ -1,0 +1,45 @@
+---
+permalink: nfs-config-esxi/index.html 
+sidebar: sidebar 
+keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc 
+summary: このコンテンツでは、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定する方法について説明します。 
+---
+= VSC を使用した ESXi 向けの NFS の設定の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定する方法について説明します。
+
+このコンテンツは、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。
+
+* クラスタで ONTAP 9 を実行している。
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
+* を使用してデータストアをプロビジョニングし、ボリュームを作成する。
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
+
+* データネットワークでデフォルトの IPspace 、デフォルトのブロードキャストドメイン、およびデフォルトのフェイルオーバーグループを使用する。
++
+データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトによって、リンク障害の発生時に LIF が正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"] LIF パスのフェイルオーバーを設定する方法については、を参照してください。
+
+* Plug-in for VMware VAAI を使用する必要がある。
++
+VMware vStorage APIs for Array Integration （ VAAI ）を使用すると、コピーオフロードとスペースリザベーションを実行できます。Plug-in for VMware VAAI では、 ESXi ホストを経由する必要がないため、ホストのパフォーマンスが向上するためにこの機能を使用します。これにより、 ONTAP でスペース効率と時間効率に優れたクローニングを利用できます。
+
++
+VMware VAAI をデータストアのプロビジョニングに使用するのがベストプラクティスです。
+
+* VMware VAAI を使用する場合、 NFS アクセスは NFSv3 および NFSv4 経由になります。
+
+
+上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。
+
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]
+* http://www.netapp.com/us/media/tr-4067.pdf["ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation 』"^]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf["ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices 』"^]
+* http://www.netapp.com/us/media/tr-4597.pdf["ネットアップテクニカルレポート 4597 ：『 VMware vSphere with ONTAP 』"^]
+

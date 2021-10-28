@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_editing_cloud_tier.html 
+sidebar: sidebar 
+keywords: online, help, edit, cloud, tier, system, manager, fqdn 
+summary: System Manager を使用して、クラウド階層の設定情報を変更できます。編集可能な設定には、名前、完全修飾ドメイン名（ FQDN ）、ポート、アクセスキー ID 、シークレットキー、およびオブジェクトストアの証明書が含まれます。 
+---
+= クラウド階層を編集しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラウド階層の設定情報を変更できます。編集可能な設定には、名前、完全修飾ドメイン名（ FQDN ）、ポート、アクセスキー ID 、シークレットキー、およびオブジェクトストアの証明書が含まれます。
+
+.手順
+. [ * ストレージ * > * アグリゲートとディスク * > * クラウド階層 * ] をクリックします。
+. 編集するクラウド階層を選択し、 * 編集 * をクリックします。
+. クラウド階層の編集 * ウィンドウで、クラウド階層名、 FQDN 、ポート、アクセスキー ID 、シークレットキー、 必要に応じて、オブジェクトストアの証明書を追加します。
++
+AWS Commercial Cloud Service （ C2S ）クラウド階層を選択した場合は、サーバ CA 証明書とクライアント証明書を変更できます。
+
+. [ 保存（ Save ） ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_storage_tiers_window.adoc[ストレージ階層ウィンドウに戻ります]

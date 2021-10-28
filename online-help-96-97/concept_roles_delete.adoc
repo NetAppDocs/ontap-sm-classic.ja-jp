@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_roles_delete.html 
+sidebar: sidebar 
+keywords: system, manager, create, manage, role, online, help 
+summary: System Manager を使用して、ロールを作成および管理できます。 
+---
+= ロール
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ロールを作成および管理できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/authentication/index.html["管理者認証と RBAC"^]

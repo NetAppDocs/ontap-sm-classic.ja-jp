@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_nodes.html 
+sidebar: sidebar 
+keywords: node, system, manager, view, detail, cluster, online, help 
+summary: System Manager を使用して、クラスタ内のノードの詳細を表示できます。 
+---
+= ノード
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタ内のノードの詳細を表示できます。

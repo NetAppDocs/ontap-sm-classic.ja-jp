@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_creating_portsets.html 
+sidebar: sidebar 
+keywords: system, manager, port, set, create, online, help, lun 
+summary: System Manager では、ポートセットを作成して LUN へのアクセスを制限することができます。 
+---
+= ポートセットを作成します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager では、ポートセットを作成して LUN へのアクセスを制限することができます。
+
+.手順
+. [ * ストレージ * > * LUNs * ] をクリックします。
+. [ * ポートセット * ] タブで、 [ * 作成 ] をクリックします。
+. [Create portset *] ダイアログボックスで、プロトコルのタイプを選択します。
+. ポートセットに関連付けるネットワークインターフェイスを選択します。
+. [ 作成（ Create ） ] をクリックします。
+

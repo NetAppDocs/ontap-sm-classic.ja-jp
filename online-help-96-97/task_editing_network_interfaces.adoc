@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_editing_network_interfaces.html 
+sidebar: sidebar 
+keywords: edit, network, interface, settings, system, manager, online, help 
+summary: System Manager を使用してネットワークインターフェイスを変更することで、データ LIF の管理アクセスを有効にすることができます。 
+---
+= ネットワークインターフェイスの設定の編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用してネットワークインターフェイスを変更することで、データ LIF の管理アクセスを有効にすることができます。
+
+.このタスクについて
+* System Manager を使用して、クラスタ LIF 、クラスタ管理 LIF 、またはノード管理 LIF を変更することはできません。
+* クラスタ間 LIF の管理アクセスは有効にできません。
+
+
+.手順
+. [ * ネットワーク * ] > [* ネットワーク・インターフェイス * ] をクリックします。
+. 変更するインターフェイスを選択し、 * Edit * をクリックします。
+. Edit Network Interface * ダイアログボックスで、必要に応じてネットワーク・インターフェイスの設定を変更します。
+. [ 保存して閉じる ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

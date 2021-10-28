@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_locking_or_unlocking_svm_user_accounts.html 
+sidebar: sidebar 
+keywords: lock, unlock, svm, user, account, system, manager, online, help, storage, virtual, machine 
+summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントをロックしたりロックを解除したりできます。 
+---
+= SVM ユーザアカウントのロックまたはロック解除
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントをロックしたりロックを解除したりできます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* SVM User Details] ペインで、 [* Users] をクリックします。
+. [ * ユーザー * ] ウィンドウで、アカウントステータスを変更するユーザーアカウントを選択し、必要に応じて [ * ロック * ] または [ * ロック解除 * ] をクリックします。
+

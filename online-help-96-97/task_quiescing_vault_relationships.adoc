@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_quiescing_vault_relationships.html 
+sidebar: sidebar 
+keywords: system, manager, online, help, quiescing, vault, relationship, data, transfer, flexvol 
+summary: System Manager を使用して、バックアップ関係を休止することでデスティネーション FlexVol へのデータ転送を無効にすることができます。 
+---
+= バックアップ関係を休止しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、バックアップ関係を休止することでデスティネーション FlexVol へのデータ転送を無効にすることができます。
+
+.手順
+. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
+. スケジュールされたデータ転送を停止する関係を選択し、 * Operations * > * Quiesce * をクリックします。
+. [ * 休止 ] ウィンドウで、 [ * 休止 ] をクリックします。
+
+
+実行中の転送がない場合、転送ステータスは Quiesced と表示されます。転送が進行中の場合、転送は影響を受けず、転送が完了するまで転送ステータスは Quiescing と表示されます。
+
+* 関連情報 *
+
+xref:reference_protection_window.adoc[保護ウィンドウ]

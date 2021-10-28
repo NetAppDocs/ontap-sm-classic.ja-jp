@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_roles.html 
+sidebar: sidebar 
+keywords: system, manager, edit, role, access, control 
+summary: System Manager を使用して、アクセス制御ロールのコマンドまたはコマンドディレクトリへのアクセスを変更して、指定したコマンドセットのみにユーザのアクセスを制限できます。また、デフォルトのコマンドディレクトリへのロールのアクセス権を削除することもできます。 
+---
+= ロールの編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、アクセス制御ロールのコマンドまたはコマンドディレクトリへのアクセスを変更して、指定したコマンドセットのみにユーザのアクセスを制限できます。また、デフォルトのコマンドディレクトリへのロールのアクセスを削除することもできます。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. [* 管理 * （ * Management * ） ] パネルで、 [ * 役割 * （ * Roles * ） ] をクリック
+. [* 役割 * （ * Roles * ） ] ウィンドウで、変更する役割を選択し、 [ 編集（ * Edit ） ] をクリックします。
+. [ 役割の編集 *] ダイアログボックスで、役割の属性を変更し、 [ * 変更 *] をクリックします。
+. [* 役割 * （ * Roles * ） ] ウィンドウで行った変更を確認します。
+

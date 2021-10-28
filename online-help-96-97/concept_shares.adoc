@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_shares.html 
+sidebar: sidebar 
+keywords: online, help, share, system, manager, create, edit, manage, share 
+summary: System Manager を使用して、共有を作成、編集、管理できます。 
+---
+= 共有
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、共有を作成、編集、管理できます。

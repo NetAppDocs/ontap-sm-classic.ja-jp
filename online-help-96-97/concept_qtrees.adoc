@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_qtrees.html 
+sidebar: sidebar 
+keywords: system, manager, create, edit, delete, qtree 
+summary: System Manager を使用して、 qtree を作成、編集、削除できます。 
+---
+= qtree
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 qtree を作成、編集、削除できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"^]
+
+https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]
+
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]
+
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"^]

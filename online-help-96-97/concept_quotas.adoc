@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_quotas.html 
+sidebar: sidebar 
+keywords: system, manager, create, edit, delete, quota, online, help 
+summary: System Manager を使用して、クォータを作成、編集、削除できます。 
+---
+= クォータ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クォータを作成、編集、削除できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]

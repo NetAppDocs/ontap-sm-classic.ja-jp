@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_nis_services.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, nis, services, add, edit, manage, network, information, service, domain 
+summary: System Manager を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。 
+---
+= NIS サービス
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。
+
+* 関連情報 *
+
+https://docs.netapp.com/us-en/ontap/nfs-config/index.html["NFS の設定"^]

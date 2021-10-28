@@ -1,0 +1,58 @@
+---
+permalink: online-help-96-97/task_setting_up_cifs.html 
+sidebar: sidebar 
+keywords: set, up, cif, online, help, system, manager, cluster, online, help 
+summary: System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。 
+---
+= CIFS をセットアップしています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。
+
+.作業を開始する前に
+* ストレージシステムに CIFS のライセンスがインストールされている必要があります。
+* Active Directory ドメインで CIFS を設定する場合には、次の要件を満たす必要があります。
++
+** DNS が有効になっていて、正しく設定されていること。
+** ストレージシステムが、完全修飾ドメイン名（ FQDN ）を使用してドメインコントローラと通信できる
+** クラスタとドメインコントローラ間の時間差（クロックスキュー）が 5 分以内である必要があります。
+
+
+* Storage Virtual Machine （ SVM ）に設定されているプロトコルが CIFS のみの場合は、次の要件を満たす必要があります。
++
+** ルートボリュームのセキュリティ形式は NTFS である必要があります。
++
+System Manager では、デフォルトでセキュリティ形式が UNIX に設定されます。
+
+** CIFS プロトコルの場合 ' スーパーユーザー・アクセスは 'any' に設定する必要があります
+
+
+
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* 構成 *] タブで、 [* セットアップ *] をクリックします。
+. [* CIFS Server Setup*] ダイアログ・ボックスの [*General] タブで 'NetBIOS 名と Active Directory ドメインの詳細を指定します
+. [* オプション * ] タブをクリックして、次の操作を実行します。
++
+** SMB 設定領域で、必要に応じて SMB 署名チェックボックスと SMB 暗号化チェックボックスを選択または選択解除します。
+** デフォルトの UNIX ユーザを指定します。
+** [WINS Servers] 領域で、必要な IP アドレスを追加します。
+
+
+. [ セットアップ ] をクリックします。
+
+
+* 関連情報 *
+
+xref:task_creating_cifs_share.adoc[CIFS 共有を作成する]
+
+xref:reference_cifs_window.adoc[CIFS ウィンドウ]
+
+xref:task_editing_volume_properties.adoc[ボリュームプロパティを編集しています]
+
+xref:task_modifying_export_policy_rules.adoc[エクスポートポリシールールの変更]

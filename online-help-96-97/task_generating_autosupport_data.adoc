@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_generating_autosupport_data.html 
+sidebar: sidebar 
+keywords: generate, autosupport, data, online, help, system, manager 
+summary: System Manager を使用して 1 つまたは複数のノードの AutoSupport データを生成することで、それらのヘルスを監視したり、テクニカルサポートに通知を送信したりできます。 
+---
+= AutoSupport データを生成しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して 1 つまたは複数のノードの AutoSupport データを生成することで、それらのヘルスを監視したり、テクニカルサポートに通知を送信したりできます。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*>* AutoSupport * 。
+. ノードを選択し、 * AutoSupport Request* > * AutoSupport 生成 * をクリックします。
++
+デフォルトでは、すべてのノードの AutoSupport データが生成されます。
+
+. [Generate AutoSupport * （ * 生成ツール * ） ] ダイアログボックスで、次の手順を実行します。
++
+.. 特定のノードの AutoSupport データを生成する場合は、 [ すべてのノードの AutoSupport データを生成する *] チェックボックスをオフにして、ノードを選択します。
+.. ケース番号を入力します。
+
+
+. [* 生成（ Generate ） ] をクリックする。
+. [* 確認 * （ * Confirmation * ） ] ダイアログボックスで、 [OK] をクリックします。
+

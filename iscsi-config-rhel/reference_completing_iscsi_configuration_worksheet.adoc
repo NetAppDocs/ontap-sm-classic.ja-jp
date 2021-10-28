@@ -1,0 +1,275 @@
+---
+permalink: iscsi-config-rhel/reference_completing_iscsi_configuration_worksheet.html 
+sidebar: sidebar 
+keywords: iscsi, identifier, network, address, storage, configuration, information, configuration, task, complete, complete the iscsi configuration worksheet 
+summary: iSCSI の設定タスクを実行するには、 iSCSI 識別子、ネットワークアドレス、およびストレージ構成情報が必要です。 
+---
+= iSCSI 構成ワークシートに記入
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI の設定タスクを実行するには、 iSCSI 識別子、ネットワークアドレス、およびストレージ構成情報が必要です。
+
+
+
+== iSCSI の識別子
+
+|===
+| イニシエータ（ホスト）の iSCSI ノード名（ IQN ） 
+
+
+ a| 
+
+
+
+ a| 
+ターゲットエイリアス（オプション）
+
+
+
+ a| 
+
+|===
+
+
+== ターゲットのネットワークアドレス
+
+iSCSI ターゲットは Storage Virtual Machine （ SVM ）です。
+
+クラスタ内の各ノードの iSCSI データ LIF 用に、 2 つの IP アドレスを含むサブネットが必要です。高可用性を実現するには、 2 つのネットワークが必要です。SVM の作成時に LIF を作成すると、 ONTAP によって固有の IP アドレスが割り当てられます。
+
+iSCSI トラフィックは、可能であれば別々の物理ネットワークまたは VLAN に分離します。
+
+image::../media/network_fc_or_iscsi_express_iscsi_rhel.gif[この図は 4 つのノードを示しています,two switches,and a host. Each node has two LIFs]
+
+LIF のサブネット： * _ _ _ ** _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+|===
+| ノードまたは LIF ：ポートの接続先スイッチ | IP アドレス | ネットワークマスク | ゲートウェイ | VLAN ID | ホームポート 
+
+
+ a| 
+ノード 1 / LIF ：スイッチ 1 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 2 / LIF ：スイッチ 1 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 3 / LIF ：スイッチ 1 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 4 / LIF ：スイッチ 1 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 1 / LIF ：スイッチ 2 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 2 / LIF ：スイッチ 2 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 3 / LIF ：スイッチ 2 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+ノード 4 / LIF ：スイッチ 2 に接続
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+|===
+
+
+== ストレージ構成
+
+アグリゲートと SVM がすでに作成されている場合は、名前をここに記録します。作成されていない場合は必要に応じて作成できます。
+
+|===
+| LUN の所属先ノードを指定します 
+
+
+ a| 
+
+
+
+ a| 
+アグリゲート名
+
+
+
+ a| 
+
+
+
+ a| 
+SVM 名
+
+
+
+ a| 
+
+|===
+
+
+== LUN 情報
+
+|===
+| LUN サイズ 
+
+
+ a| 
+
+
+
+ a| 
+LUN 名（オプション）
+
+
+
+ a| 
+
+
+
+ a| 
+LUN 概要（オプション）
+
+
+
+ a| 
+
+|===
+
+
+== SVM 情報
+
+既存の SVM を使用しない場合、新規に作成するために次の情報が必要です。
+
+|===
+| SVM 名 
+
+
+ a| 
+
+
+
+ a| 
+SVM IPspace
+
+
+
+ a| 
+
+
+
+ a| 
+SVM ルートボリューム用のアグリゲート
+
+
+
+ a| 
+
+
+
+ a| 
+SVM のユーザ名（オプション）
+
+
+
+ a| 
+
+
+
+ a| 
+SVM のパスワード（オプション）
+
+
+
+ a| 
+
+
+
+ a| 
+SVM の管理 LIF （オプション）
+
+
+
+ a| 
+サブネット
+
+
+
+ a| 
+IP アドレス
+
+
+
+ a| 
+ネットワークマスク
+
+
+
+ a| 
+ゲートウェイ
+
+
+
+ a| 
+ホームノード
+
+
+
+ a| 
+ホームポート
+
+|===

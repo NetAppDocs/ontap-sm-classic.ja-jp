@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_adding_home_directory_paths.html 
+sidebar: sidebar 
+keywords: cifs, system, manager, online, help, storage 
+summary: System Manager を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。 
+---
+= ホームディレクトリパスを追加します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [ 構成 *] タブの [ ホームディレクトリ *] 領域で、 [ 管理 *] をクリックします。
+. [ ホーム・ディレクトリの管理 * ] ダイアログ・ボックスで ' ストレージ・システムがユーザーの CIFS ホーム・ディレクトリの検索に使用するパスを指定します
+. [ * 追加 ] をクリックし、 [ * 保存して閉じる * ] をクリックします。
+
+
+* 関連情報 *
+
+xref:reference_cifs_window.adoc[CIFS ウィンドウ]

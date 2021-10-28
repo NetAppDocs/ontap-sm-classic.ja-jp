@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_vault_relationships.html 
+sidebar: sidebar 
+keywords: system, manager, create, manager, vault, policy, online, help 
+summary: System Manager を使用して、バックアップポリシーに基づいてバックアップ関係を作成および管理できます。 
+---
+= バックアップ関係
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、バックアップポリシーに基づいてバックアップ関係を作成および管理できます。

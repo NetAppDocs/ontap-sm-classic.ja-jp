@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_adding_snapshot_policies.html 
+sidebar: sidebar 
+keywords: create, snapshot, policies, system, manager, online, help 
+summary: System Manager で Snapshot ポリシーを作成して、自動的に作成される Snapshot コピーの最大数と頻度を指定できます。 
+---
+= Snapshot ポリシーを作成する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager で Snapshot ポリシーを作成して、自動的に作成される Snapshot コピーの最大数と頻度を指定できます。
+
+.手順
+. [* 保護 *>] 、 [* Snapshot ポリシー *] の順にクリックします。
+. [ 作成（ Create ） ] をクリックします。
+. Create Snapshot Policy * ダイアログボックスで、ポリシー名を指定します。
+. Add * をクリックし、スケジュール名、保持する Snapshot コピーの最大数、および SnapMirror ラベル名を指定します。
++
+指定したスケジュールで保持できる Snapshot コピーの最大数は、 254 個以下にする必要があります。
+
+. [OK] をクリックし、 [* 作成 ] をクリックします。
+

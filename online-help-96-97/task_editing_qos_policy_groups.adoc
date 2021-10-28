@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_editing_qos_policy_groups.html 
+sidebar: sidebar 
+keywords: edit, qos, policy, group, group, dialog, system, manager, online, help 
+summary: System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。 
+---
+= QoS ポリシーグループの編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。
+
+.このタスクについて
+* System Manager 9.5 では、パフォーマンスがオールフラッシュで最適化されている場合にのみ最小スループット制限を設定できます。System Manager 9.6 では、 ONTAP Select Premium システムにも最小スループット制限を設定できます。
+* FabricPool 対応アグリゲートでは、ボリュームの最小スループット制限を設定することはできません。
+
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* Policies] ペインで、 [* QoS Policy Groups] をクリックします。
+. 編集する QoS ポリシーグループを選択し、 * Edit * をクリックします。
++
+** 最小スループット制限と最大スループット制限の単位は同じにする必要があります。
+** 最小スループット制限を指定しない場合は、 IOPS 、 B/ 秒、 KB/ 秒、 MB/ 秒などの単位で最大スループット制限を設定できます。
+** 最大スループット制限値を指定しないとスループット制限なしと設定され、指定した単位は無視されることとなります。
+
+
+. Edit Policy Group * ダイアログボックスで、 QoS ポリシーグループの詳細を編集し、 * Save * をクリックします。
+

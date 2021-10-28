@@ -1,0 +1,51 @@
+---
+permalink: online-help-96-97/reference_ldap_configuration_window.html 
+sidebar: sidebar 
+keywords: ldap, configuration, window, command, button, area, online, help 
+summary: LDAP Configuration ウィンドウを使用して、アクティブな LDAP クライアントを Storage Virtual Machine （ SVM ）レベルで編集または削除できます。 
+---
+= LDAP Configuration ウィンドウ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+LDAP Configuration ウィンドウを使用して、アクティブな LDAP クライアントを Storage Virtual Machine （ SVM ）レベルで編集または削除できます。
+
+
+
+== コマンドボタン
+
+* * 編集 * 。
++
+Active LDAP クライアントダイアログボックスを開きます。このダイアログボックスで、 Active Directory ドメインサーバや優先される Active Directory サーバなど、アクティブな LDAP クライアントのプロパティを編集できます。
+
+* * 削除 *
++
+Delete Active LDAP Client ダイアログボックスを開きます。このダイアログボックスで、アクティブな LDAP クライアントを削除できます。
+
+* * 更新 *
++
+ウィンドウ内の情報を更新します。
+
+
+
+
+
+== LDAP Configuration 領域
+
+アクティブな LDAP クライアントの詳細を表示します。
+
+* * LDAP クライアント名 *
++
+アクティブな LDAP クライアントの名前を表示します。
+
+* * Active Directory ドメイン・サーバ *
++
+アクティブな LDAP クライアントの Active Directory ドメインを表示します。
+
+* * 優先される Active Directory サーバ *
++
+アクティブな LDAP クライアントの優先される Active Directory サーバを表示します。
+
+

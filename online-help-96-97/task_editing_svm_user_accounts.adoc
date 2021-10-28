@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_svm_user_accounts.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, edit, svm, user, accounts 
+summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを編集し、ストレージシステムにアクセスするためのユーザのログイン方法を変更できます。 
+---
+= SVM ユーザアカウントを編集しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを編集し、ストレージシステムにアクセスするためのユーザのログイン方法を変更できます。
+
+.手順
+. [ * ストレージ * > * SVMs * ] をクリックします。
+. SVM を選択し、 * SVM 設定 * をクリックします。
+. [* SVM User Details] ペインで、 [* Users] をクリックします。
+. 編集するユーザーアカウントを選択し、 * 編集 * をクリックします。
+. 1 つ以上のユーザーログイン方法を変更し、 * 変更 * をクリックします。
+

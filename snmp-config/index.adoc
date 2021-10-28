@@ -1,0 +1,42 @@
+---
+permalink: snmp-config/index.html 
+sidebar: sidebar 
+keywords: content, configure, snmp, cluster, management, level, add, communities, community, security, user, traphost, communication, snmp configuration overview 
+summary: このコンテンツでは、クラスタ管理レベルで SNMP を設定する方法、コミュニティ、セキュリティユーザ、トラップホストを追加する方法、および SNMP 通信をテストする方法について説明します。 
+---
+= SNMP 設定の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このコンテンツでは、クラスタ管理レベルで SNMP を設定する方法、コミュニティ、セキュリティユーザ、トラップホストを追加する方法、および SNMP 通信をテストする方法について説明します。
+
+このコンテンツは、クラスタへの SNMP アクセスを設定する場合に使用します。想定している状況は次のとおりです。
+
+* クラスタで ONTAP 9 を実行している。
+* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* 背景にある概念について詳しく確認する必要はありません。
++
+[NOTE]
+====
+このコンテンツには、コマンドラインインターフェイスを使用する必要がある手順がいくつかあります。
+
+====
+* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
+
+
+
+上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。
+
+* https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"^]
++
+サブネット、クラスタ間 LIF 、ルート、ファイアウォールポリシーなど、さまざまなネットワークコンポーネントを設定する方法について説明しています。データ Storage Virtual Machine （ SVM ）用の SNMP コミュニティの作成方法、 SNMP トラップホストの管理方法についての説明もあります。
+
+* http://www.netapp.com/us/media/tr-4220.pdf["ネットアップテクニカルレポート 4220 ：『 SNMP Support in Data ONTAP 』"^]
++
+ONTAP における SNMP サポートについて説明します。 7-Mode 環境と ONTAP 環境での SNMP サポートの詳細な比較、 SNMP トラップでサポートされるすべてのデフォルトイベントのリストなどが含まれます。
+
+

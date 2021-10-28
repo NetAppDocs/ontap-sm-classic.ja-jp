@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_cluster_user_accounts.html 
+sidebar: sidebar 
+keywords: user, system, manager, add, edit, manage, account, login, online, help 
+summary: System Manager を使用して、クラスタユーザアカウントを追加、編集、管理し、ユーザがストレージシステムにアクセスする際のログイン方法を指定できます。 
+---
+= ユーザ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、クラスタユーザアカウントを追加、編集、管理し、ユーザがストレージシステムにアクセスする際のログイン方法を指定できます。

@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_events.html 
+sidebar: sidebar 
+keywords: event, log, notification, system, manager, online, help, view 
+summary: System Manager を使用して、イベントログやイベント通知を表示できます。 
+---
+= イベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager を使用して、イベントログやイベント通知を表示できます。

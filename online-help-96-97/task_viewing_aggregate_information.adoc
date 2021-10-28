@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_viewing_aggregate_information.html 
+sidebar: sidebar 
+keywords: view, aggregate, information, online, help, system, manager 
+summary: System Manager のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。 
+---
+= アグリゲート情報を表示する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。
+
+.手順
+. 次のいずれかの方法を選択します。
++
+** [* アプリケーションと階層 *>* ストレージ階層 *] をクリックします。
+** Storage * > * Aggregates & Disks * > * Aggregates * の順にクリックします
+
+
+. アグリゲート名をクリックすると、選択したアグリゲートの詳細が表示されます。
+

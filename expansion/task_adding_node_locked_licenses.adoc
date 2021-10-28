@@ -1,0 +1,38 @@
+---
+permalink: expansion/task_adding_node_locked_licenses.html 
+sidebar: sidebar 
+keywords: cluster, feature, node-locked, license, entitle, functionality, add, add node-locked licenses 
+summary: クラスタにノードロックライセンスを使用する機能がある場合は、新しいノード用にノードロックライセンスがインストールされていることを確認する必要があります。 
+---
+= ノードロックライセンスを追加
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタにノードロックライセンス（ライセンスされた機能の使用権を特定のノードのみに与えるライセンス）を使用する機能がある場合は、新しいノード用にノードロックライセンスがインストールされていることを確認する必要があります。ライセンスは、ノードをクラスタに追加する前に追加する必要があります。
+
+.手順
+. 「 system license add 」コマンドを使用して、各ライセンスキーを追加します。
++
+[listing]
+----
+cluster1::> system license add -license-code AAAAAAAAAAAAAA
+----
+. 「 system license show 」コマンドを使用して、既存のライセンスを表示します。
++
+[listing]
+----
+cluster1::> system license show
+
+Serial Number: 9-99-999999
+Owner: cluster1
+Package           Type    Description           Expiration
+----------------- ------- --------------------- --------------------
+Base              site    Cluster Base License  -
+NFS               license NFS License           -
+CIFS              license CIFS License          -
+...
+----
+. 既存のノードと新しいノードのシリアル番号を含むすべてのシリアル番号に対してノードロックライセンスが表示されていることを確認します。
+

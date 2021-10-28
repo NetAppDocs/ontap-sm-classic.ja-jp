@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_testing_autosupport.html 
+sidebar: sidebar 
+keywords: test, autosupport, setting, online, help, system, manager 
+summary: System Manager の AutoSupport テストダイアログボックスを使用して、 AutoSupport が正しく設定されていることをテストできます。 
+---
+= AutoSupport 設定をテストしています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager の AutoSupport テストダイアログボックスを使用して、 AutoSupport が正しく設定されていることをテストできます。
+
+.手順
+. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*>* AutoSupport * 。
+. ノードを選択し、 * Test * をクリックします。
+. [* AutoSupport Test* ] ダイアログ・ボックスで、 AutoSupport の件名に「 Test AutoSupport 」と入力するか、 AutoSupport の設定をテストしていることを受信者に知らせる任意のテキストを入力します。
+. [ * テスト * ] をクリックします。
++
+「 Test AutoSupport 」という件名の電子メールメッセージ、または「 AutoSupport subject 」フィールドに入力したテキストが、指定した受信者に送信されます。
+
+

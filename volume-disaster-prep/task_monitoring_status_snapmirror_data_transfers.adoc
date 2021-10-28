@@ -1,0 +1,49 @@
+---
+permalink: volume-disaster-prep/task_monitoring_status_snapmirror_data_transfers.html 
+sidebar: sidebar 
+keywords: periodical, monitor, status, snapmirror, relationship, ensure, data, schedule, monitor the status of snapmirror data transfers 
+summary: SnapMirror 関係のステータスを定期的に監視して、 SnapMirror データ転送が指定したスケジュールに従って実行されていることを確認する必要があります。 
+---
+= SnapMirror データ転送のステータスを監視します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapMirror 関係のステータスを定期的に監視して、 SnapMirror データ転送が指定したスケジュールに従って実行されていることを確認する必要があります。
+
+このタスクは、 * デスティネーション * クラスタから実行する必要があります。
+
+.手順
+. 実行している System Manager のバージョンに応じて、次のいずれかの手順を実行します。
++
+** ONTAP 9.4 以前： ［ * 保護 * ］ > ［ * 関係 * ］ をクリックします。
+** ONTAP 9.5 以降： * Protection * > * Volume Relationships * をクリックします。
+
+
+. ソースボリュームとデスティネーションボリューム間の SnapMirror 関係を選択し、 * Details * Bottom タブでステータスを確認します。
++
+詳細タブには、 SnapMirror 関係の健常性ステータスと、転送エラーと遅延時間が表示されます。
+
++
+** Is Healthy フィールドには、「 Yes 」と表示されている必要があります。
++
+SnapMirror データ転送に失敗すると、ほとんどの場合、このフィールドには「 No 」と表示されます。しかし、失敗した場合には、フィールドに「はい」と表示され続けることがあります。「詳細」セクションの転送エラーを確認して、データ転送が失敗していないことを確認する必要があります。
+
+** Relationship State フィールドには「 napMirrored 」と表示されている必要があります。
+** 遅延時間は転送スケジュールの間隔よりも短い必要があります。
++
+たとえば、転送スケジュールが 1 時間ごとの場合、遅延時間は 1 時間未満でなければなりません。
+
++
+SnapMirror 関係に問題がある場合は、トラブルシューティングを行ってください。
+
++
+http://www.netapp.com/us/media/tr-4015.pdf["ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"^]
+
++
+image::../media/snapmirror_monitor_3_health_state_lag.gif[SnapMirror 監視 3 のヘルス状態の遅延]
+
+
+
+
