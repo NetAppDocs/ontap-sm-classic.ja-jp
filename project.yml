@@ -2,7 +2,7 @@
 settings: {}
 sidebar:
   entries:
-  - title: ホーム
+  - title: System Manager Classic のドキュメント
     url: "/index.html"
   - title: NAS ストレージをプロビジョニングする
     entries:
@@ -3299,6 +3299,8 @@ sidebar:
         url: "/online-help-96-97/concept_schedules_conceptual.html"
       - title: スケジュールウィンドウ
         url: "/online-help-96-97/reference_schedules_window.html"
+  - title: ONTAP のドキュメント
+    url: https://docs.netapp.com/us-en/ontap/
   - title: 法的通知
     url: "/reference_legal_notices.html"
 homepage:
@@ -3307,6 +3309,10 @@ homepage:
     links:
     - title: Understanding System Manager Classic 』を参照してください
       url: "/online-help-96-97/index.html"
+    - title: ONTAP 9.7 以降では、次世代の System Manager を使用して ONTAP を管理できます
+      url: https://docs.netapp.com/us-en/ontap/concept_administration_overview.html
+    - title: CLI を使用して ONTAP を管理します
+      url: https://docs.netapp.com/us-en/ontap/system-admin/index.html
   - title: NAS ストレージをプロビジョニングする
     links:
     - title: NFS の設定

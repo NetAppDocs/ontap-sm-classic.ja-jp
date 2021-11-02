@@ -9365,7 +9365,6 @@
   <block id="511ad2042dec7e41acbf8c599092e880" category="list-text">NFS アクセスの設定が完了している既存の SVM でボリュームをプロビジョニングする場合は、既存の SVM で設定を検証する手順に従います。</block>
   <block id="40dfa5af6e5d241954dd8dffbd030a39" category="inline-xref-macro">既存の SVM で設定を検証する</block>
   <block id="482cd53130aff2ee2a18136bf4a0a22e" category="paragraph"><block ref="482cd53130aff2ee2a18136bf4a0a22e" category="inline-xref-macro-rx"></block></block>
-  <block id="8cf04a9734132302f96da8e113e80ce5" category="sidebar">ホーム</block>
   <block id="c209957b6a7079b7465d1bffa3f12db9" category="sidebar">NAS ストレージをプロビジョニングする</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
   <block id="2ef23832ea366ba8b4e1c638df8aae8f" category="sidebar">アグリゲートを作成しています</block>
@@ -9790,4 +9789,8 @@
   <block id="c4374218de35d2b4bc8b5b1304ff7e65" category="sidebar">Snapshot ポリシーを削除する</block>
   <block id="cc50c331ee974cc0e4de144fdea1db6b" category="sidebar">スケジュールを編集します</block>
   <block id="f2fb0b80c2c7e171cd27b2b79806772a" category="sidebar">スケジュールを削除します</block>
+  <block id="6a1430dbf84d6dc23f417c150bfc22be" category="sidebar">System Manager Classic のドキュメント</block>
+  <block id="c8db31d0d38042ea4fd10dd6bdfd347e" category="sidebar">ONTAP のドキュメント</block>
+  <block id="97d8d54d841ea4483e8103e32ec0ac48" category="sidebar">ONTAP 9.7 以降では、次世代の System Manager を使用して ONTAP を管理できます</block>
+  <block id="68a8dd3fc5b12dceef9144f06a7615c1" category="sidebar">CLI を使用して ONTAP を管理します</block>
 </blocks>
