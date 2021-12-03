@@ -17,20 +17,26 @@ summary: このコンテンツでは、新規または既存の Storage Virtual 
 * すべての選択肢について検討するのではなく、ベストプラクティスに従う。
 * 背景にある概念について詳しく確認する必要はありません。
 * ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
-+
-https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
-
 * データネットワークでデフォルトの IPspace 、デフォルトのブロードキャストドメイン、およびデフォルトのフェイルオーバーグループを使用する。
 +
-データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"] LIF パスのフェイルオーバーを設定する方法については、を参照してください。
+データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["ネットワーク管理マニュアル"^] LIF パスのフェイルオーバーを設定する方法については、を参照してください。
 
 * 新しいボリュームを NTFS ファイル権限を使用して保護する。
 
 
-上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。
 
-* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"^]
-* https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"^]
-* https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["ネットアップテクニカルレポート 4616 ：『 NFS Kerberos in ONTAP with Microsoft Active Directory 』"^]
-* https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["ネットアップテクニカルレポート 4835 ：『 How to Configure LDAP in ONTAP 』"^]
 
+== ONTAP でこれを行うその他の方法
+
+ここでは、 System Manager Classic （ ONTAP 9.7 以前）を使用した SMB / CIFS ストレージのプロビジョニングについて説明します。
+
+[cols="2"]
+|===
+| 実行するタスク | 参照するコンテンツ 
+
+
+| System Manager 次世代型（ ONTAP 9.7 以降） | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_windows_smb.html["SMB を使用して Windows サーバ用の NAS ストレージをプロビジョニングする"^] 
+
+
+| コマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html["CLI を使用した SMB の設定の概要"^] 
+|===

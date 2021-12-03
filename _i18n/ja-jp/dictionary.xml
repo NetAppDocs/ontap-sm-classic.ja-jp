@@ -717,7 +717,6 @@
   <block id="973b4a4cef4d13086f8f961fd5957845" category="list-text">NFSv4 または NFSv4.1 ではなく、 NFSv3 を使用して NFS アクセスを行う。</block>
   <block id="c4a39a65d14bf40f86b46f1dc432ac0c" category="list-text">データネットワークでデフォルトの IPspace 、デフォルトのブロードキャストドメイン、およびデフォルトのフェイルオーバーグループを使用する。</block>
   <block id="9dc1904e0c3ace141704b477cd9b345d" category="inline-link">Network Management の略</block>
-  <block id="30a909ea4fdbb9f1582a8e14cdf71503" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="a103d8b90ee1bc965ab64e599e1125d6" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
   <block id="4c32ce0e1f5c5a4d39b5e177c6a7e11f" category="list-text">新しいボリュームを UNIX ファイル権限を使用して保護する。</block>
   <block id="3b8145bdeffc5cbbf3127596dfc56a5b" category="list-text">LDAP を使用する場合は、 Active Directory から提供されます。</block>
   <block id="15f6651162d058faaebf80dd276f4cd4" category="paragraph">上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。</block>
@@ -1924,7 +1923,6 @@
   <block id="4c077ab81df7e869d35893b62a5dba50" category="list-text">新しい管理者グループを選択し、 * Full Control * を選択します。</block>
   <block id="b158d7dff0f65ec290e5ae6442f28855" category="summary">このコンテンツでは、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを設定する簡単な方法について説明しています。</block>
   <block id="a0f7a5807b62b0e8f3f7146631afe1cb" category="doc">SMB / CIFS の設定の概要</block>
-  <block id="8a6d67866984e9bd700f984ecb034bce" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="a103d8b90ee1bc965ab64e599e1125d6" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
   <block id="757c8c32637c786ebe366a83368200d8" category="list-text">新しいボリュームを NTFS ファイル権限を使用して保護する。</block>
   <block id="40a61122fd85dbb1ca8b58b4f44918d8" category="summary">CIFS 対応 SVM に CIFS ボリュームを追加するには、ボリュームを作成して設定し、共有を作成して権限を設定し、 Windows 管理ホストからのアクセスを確認します。その後、 CIFS クライアントアクセスを設定することができます。</block>
   <block id="d394446eb19387f789ade51cc4c8a9d6" category="doc">CIFS 対応 SVM に CIFS ボリュームを追加</block>
@@ -9811,4 +9809,23 @@
   <block id="aaffd3335fea3319465ed063336f7978" category="list-text">[ 送信して閉じる ] を選択します。</block>
   <block id="f5bbd904f98088a0fe17b622243a4063" category="list-text">イニシエータマッピング * ページで、 * イニシエータグループの追加 * を選択し、 * 一般 * タブで必要な情報を入力してから、 * イニシエータ * タブで、記録したホスト FC ポートのすべての WWPN を入力します。</block>
   <block id="1ccc6cd523c646c76b079a8570e68d0e" category="list-text">詳細を確認し、「 * 完了 * 」を選択してウィザードを完了します。</block>
+  <block id="847d5320e56070117d0ef2664e520134" category="inline-link">ネットワーク管理マニュアル</block>
+  <block id="05134b95fd2ae73eaeabe3072b9d50d0" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="19c47f4afa0dffe63811146ebe241ce2" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
+  <block id="d807ba1476133422d6308692f75bb90e" category="section-title">ONTAP でこれを行うその他の方法</block>
+  <block id="477311032b2b01f497b4696204a4cc07" category="paragraph">ここでは、 System Manager Classic （ ONTAP 9.7 以前）を使用した SMB / CIFS ストレージのプロビジョニングについて説明します。</block>
+  <block id="3f102bc5adc8efd2d0231ba47cea4cb2" category="cell">実行するタスク</block>
+  <block id="11f033768b399bcca70f9fde4fb0d4c4" category="cell">参照するコンテンツ</block>
+  <block id="b145cd11afa6511a1d14593bec08b802" category="cell">System Manager 次世代型（ ONTAP 9.7 以降）</block>
+  <block id="4c61ddac2ed1445cc3bd2743dea62bc6" category="inline-link-macro">SMB を使用して Windows サーバ用の NAS ストレージをプロビジョニングする</block>
+  <block id="b44ab55132cb7dfd42aa271dc087c64f" category="cell"><block ref="b44ab55132cb7dfd42aa271dc087c64f" category="inline-link-macro-rx"></block></block>
+  <block id="31581907c3d44270d8d9879f8e2de965" category="cell">コマンドラインインターフェイス</block>
+  <block id="b4b7f03d4b403f42868943c3b21d2865" category="inline-link-macro">CLI を使用した SMB の設定の概要</block>
+  <block id="af691efeb0948e3a24ae2ff80c4ea2db" category="cell"><block ref="af691efeb0948e3a24ae2ff80c4ea2db" category="inline-link-macro-rx"></block></block>
+  <block id="60c5e8a3bf1bbfdfd67d0416ede5bbf9" category="inline-link">ネットワーク管理マニュアル</block>
+  <block id="1f82d63d26030255db2c53aecd77714b" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="52c62ead0407cf253ef26d313fa969c8" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
+  <block id="6125492f2de2edf76cf99b3d5e55dd79" category="paragraph">ここでは、 System Manager Classic （ ONTAP 9.7 以前）を使用した NFS ストレージのプロビジョニングについて説明します。</block>
+  <block id="f84481fbfc30712bb07cee27cbb431e6" category="inline-link-macro">NFS を使用して Linux サーバ用の NAS ストレージをプロビジョニング</block>
+  <block id="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="cell"><block ref="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="inline-link-macro-rx"></block></block>
+  <block id="3e5584efdaf093a1509ba03a5649d568" category="inline-link-macro">CLI を使用した NFS の設定の概要</block>
+  <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
 </blocks>
