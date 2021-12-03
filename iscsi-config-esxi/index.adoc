@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html 
 sidebar: sidebar 
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
-summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
+summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
 ---
 = VSC を使用した ESXi 向けの iSCSI 設定の概要
 :icons: font
@@ -10,7 +10,7 @@ summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サー
 
 
 [role="lead"]
-このコンテンツでは、 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。
+このコンテンツでは、 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。
 
 このコンテンツは、次の前提に基づいています。
 
@@ -21,7 +21,7 @@ summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サー
 +
 https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"]
 
-* ESXi 5.x でネイティブの ESX iSCSI ソフトウェアイニシエータを使用している
+* ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している
 * iSCSI に CHAP 認証を使用しない。
 * サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定を行う。
 * ネットワークで IPv4 アドレスを使用している。
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント
 が表示されます link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 ネットワーク管理"] CLI を使用してイーサネットポートのフロー制御を設定するため。
 
 * iSCSI SAN ブートを設定しない。
-* VM のストレージを ESX ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。
+* VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。
 
 
 上記の想定条件に該当しない場合は、次の資料を参照してください。
@@ -48,5 +48,5 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント
 * https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
 * https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"]
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"]
-* 使用している ESX 5 のバージョンに対応した VMware vSphere Storage_ （から入手可能 http://www.vmware.com["VMware"])
+* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 http://www.vmware.com["VMware"])
 

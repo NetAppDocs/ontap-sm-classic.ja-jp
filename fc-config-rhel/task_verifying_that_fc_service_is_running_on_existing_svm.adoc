@@ -17,8 +17,8 @@ summary: 既存の Storage Virtual Machine （ SVM ）を使用する場合、 O
 .手順
 . SVMs ウィンドウに移動します。
 . 必要な SVM を選択します。
-. SVM の設定 * タブをクリックします。
-. [* Protocols] ペインで、 [*FC/FCoE*] をクリックします。
+. SVM の設定 * タブを選択します。
+. [* Protocols] ペインで、 [*FC/FCoE*] を選択します。
 . FC サービスの実行状況を確認
 +
 image::../media/vserver_service_fc_fcoe_running_fc_rhel.gif[System Manager の FC / FCoE ペインで、 FC サービスと FC LIF を 4 つ実行したところの図。]
