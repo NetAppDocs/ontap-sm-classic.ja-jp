@@ -1,5 +1,5 @@
 ---
-section: nfs-config-exsi
+section: nfs-config-esxi
 title: VSC を使用した ESXi 向けの NFS 設定
 entries:
 - title: 概要
