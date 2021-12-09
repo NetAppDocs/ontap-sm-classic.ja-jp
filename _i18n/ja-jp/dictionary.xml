@@ -711,7 +711,6 @@
   <block id="5bc7ef17ab3e5af4b837a0148ebd826b" category="list-text">[ 送信して閉じる *] をクリックし、 [OK] をクリックします。</block>
   <block id="43892fcaea0e340fbfd701fb89518405" category="doc">SVM ルートボリュームのエクスポートポリシーを開く（ NFS 対応 SVM の新規作成）</block>
   <block id="e932175a0921404d06e0165f71ceeca2" category="paragraph">新しいボリュームに既存のアグリゲートを使用する場合は、この手順をスキップできます。</block>
-  <block id="3cdce3f2cb5c7083b570854c00d423e9" category="summary">このコンテンツでは、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する NFS アクセスを設定する簡単な方法について説明しています。</block>
   <block id="2720dc36306e6c9935c0eeda20d6be83" category="doc">NFS 構成の概要</block>
   <block id="011713e1e36d4155bc75d4ed07a4dfa8" category="paragraph">このコンテンツは、ボリュームへのアクセスを設定する場合に使用します。想定している状況は次のとおりです。</block>
   <block id="973b4a4cef4d13086f8f961fd5957845" category="list-text">NFSv4 または NFSv4.1 ではなく、 NFSv3 を使用して NFS アクセスを行う。</block>
@@ -1921,7 +1920,6 @@
   <block id="bb3112e54507860cd12a19609ff8f1ee" category="list-text">Everyone グループを選択し、 * Remove * をクリックします。</block>
   <block id="0b95db3f00815c0be1aa8cd0e13aac8a" category="list-text">Add * をクリックし、 SVM を含む Windows Active Directory ドメインで定義されている管理者グループの名前を入力します。</block>
   <block id="4c077ab81df7e869d35893b62a5dba50" category="list-text">新しい管理者グループを選択し、 * Full Control * を選択します。</block>
-  <block id="b158d7dff0f65ec290e5ae6442f28855" category="summary">このコンテンツでは、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを設定する簡単な方法について説明しています。</block>
   <block id="a0f7a5807b62b0e8f3f7146631afe1cb" category="doc">SMB / CIFS の設定の概要</block>
   <block id="757c8c32637c786ebe366a83368200d8" category="list-text">新しいボリュームを NTFS ファイル権限を使用して保護する。</block>
   <block id="40a61122fd85dbb1ca8b58b4f44918d8" category="summary">CIFS 対応 SVM に CIFS ボリュームを追加するには、ボリュームを作成して設定し、共有を作成して権限を設定し、 Windows 管理ホストからのアクセスを確認します。その後、 CIFS クライアントアクセスを設定することができます。</block>
@@ -9354,184 +9352,21 @@
   <block id="482cd53130aff2ee2a18136bf4a0a22e" category="paragraph"><block ref="482cd53130aff2ee2a18136bf4a0a22e" category="inline-xref-macro-rx"></block></block>
   <block id="c209957b6a7079b7465d1bffa3f12db9" category="sidebar">NAS ストレージをプロビジョニングする</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
-  <block id="2ef23832ea366ba8b4e1c638df8aae8f" category="sidebar">アグリゲートを作成しています</block>
-  <block id="21561b3fc334af5de82aa4b5a9ca9f52" category="sidebar">新しいボリュームのプロビジョニング先の検討</block>
-  <block id="417be1bf01947e26b12dd7b0559c0438" category="sidebar">NFS ボリュームを含む新しい SVM を作成してエクスポート</block>
-  <block id="ced6bc10ed1a0f0adf452c715a792e0c" category="sidebar">LDAP の設定（ NFS 対応 SVM の新規作成）</block>
-  <block id="8b898e041770761ed706242a60c75b0c" category="sidebar">NFS クライアントアクセスの設定と確認（ NFS 対応 SVM の新規作成）</block>
-  <block id="91c67f4609bfac5dfa7016115b25f58e" category="sidebar">既存の SVM への NFS アクセスを追加</block>
-  <block id="9db22d1970be744fd2fdda84b35a6873" category="sidebar">SVM ルートボリュームのエクスポートポリシーを開く（既存の SVM への NFS アクセスの設定）</block>
-  <block id="6cdc2aa43cdad6aaecd946d48b3414d1" category="sidebar">LDAP の設定（既存の SVM への NFS アクセスの設定）</block>
-  <block id="2825dba5a64ea2d1fafe83d5cc781956" category="sidebar">NFS クライアントアクセスの設定と確認（既存の SVM への NFS アクセスの設定）</block>
-  <block id="eeda2bd37efaac403145ba9c173ee2b7" category="sidebar">ボリュームのエクスポートポリシーを作成</block>
-  <block id="09c619992dc169ee612cbb76a2c258b0" category="sidebar">NFS クライアントアクセスの設定と確認（ NFS 対応 SVM への NFS ボリュームの追加）</block>
   <block id="27dc49cb854bf08b0bbc4e74cdbe5316" category="sidebar">VSC を使用した ESXi 向けの NFS 設定</block>
-  <block id="6cdbdf990d64165ec34329f5081b6d07" category="sidebar">構成のサポート状況の確認</block>
-  <block id="b35a4b7f47b13c25ccf0c3cbbf7bf758" category="sidebar">NFS クライアント設定ワークシートへの記入</block>
-  <block id="2763f33c904a183bd0ef06f9c4fb4403" category="sidebar">インストール中です</block>
-  <block id="2fecba9e1edcbad6bb9f2b573da7415f" category="sidebar">ストレージクラスタまたはを VSC for に追加します</block>
-  <block id="b483c90333b6b2a15a2809cbce67445a" category="sidebar">最適なパフォーマンスを実現するためのネットワーク設定</block>
-  <block id="91e2af46c6b9acd41a06f4714ba39889" category="sidebar">ESXi ホストを設定します</block>
-  <block id="2b0b44ef506a818b06d49fdc6a807bf8" category="sidebar">ホストポートと vSwitch の設定</block>
-  <block id="351c9272a04466f16d6e895d3c876eae" category="sidebar">ESXi ホストのベストプラクティスの設定</block>
-  <block id="2b34fba5df776e1b485da82d0e6a1c9d" category="sidebar">NFS 対応 SVM の新規作成</block>
-  <block id="eeb8ea9f41169a42eeb299d30214fa1a" category="sidebar">既存のへの NFS アクセスの追加</block>
-  <block id="98c928bf29ea2d081f3f369823f1effc" category="sidebar">既存ので NFS が有効になっていることの確認</block>
-  <block id="46dc43c6132439a0a756b2705c03a003" category="sidebar">データストアのプロビジョニングとその格納先ボリュームの作成</block>
-  <block id="62134d4b205f035a31dfdb95eb6b689d" category="sidebar">ESXi ホストからの NFS アクセスの確認</block>
-  <block id="613b0de7061a69a3667901ba47b9c47e" category="sidebar">NFS Plug-in for VMware VAAI の導入</block>
-  <block id="5cd5828bcfc6b3a663ffffc4d680194a" category="sidebar">ホストへのデータストアのマウント</block>
-  <block id="71e0e2c040ccabf171d80bc7c279b441" category="sidebar">既存の SVM への CIFS アクセスと NFS アクセスを追加</block>
-  <block id="027ca2eebb52b3c2125c5f9c062c03ec" category="sidebar">DNS サーバでの SMB サーバのマッピング</block>
-  <block id="4674aa9764a99ff2dcf9d9e671061dd7" category="sidebar">UNIX と Windows のユーザ名をマッピング</block>
-  <block id="b943ade0d14dc05db7c32aeca80bc64d" category="sidebar">共有を作成し、権限を設定する</block>
-  <block id="19ec46d04648b227536154b6b4c012cc" category="sidebar">SMB クライアントアクセスの確認</block>
-  <block id="85bb0bd13de7bef08844633464785df4" category="sidebar">CIFS および NFS のクライアントアクセスの設定と確認</block>
   <block id="1cea5f7ff46fdcaad82b7016abae2ceb" category="sidebar">SMB / CIFS の設定</block>
-  <block id="c2687d322cb887e29dc9546855ede544" category="sidebar">CIFS ボリュームと共有を含む新しい SVM を作成</block>
-  <block id="104f7649c55316cf2ad56efd05aceaa0" category="sidebar">CIFS クライアントアクセスの設定と確認</block>
-  <block id="2de9bd41cb836ea7ef255aaf51ba9120" category="sidebar">既存の SVM への SMB / CIFS アクセスを設定する</block>
-  <block id="8f5dde8e326d716ab2ef7cc020f6e613" category="sidebar">既存の SVM への CIFS アクセスを追加</block>
   <block id="4906f544b7a764889e992fe4877ad659" category="sidebar">SAN ストレージをプロビジョニング</block>
   <block id="7764db582957448eb25528aee4db56b7" category="sidebar">VSC を使用した ESXi 向けの FC 構成</block>
-  <block id="8494619622230cb7c9210b17d2fd598b" category="sidebar">FC 構成のサポート状況の確認</block>
-  <block id="28bf6d721ee83a001917be225cb1db60" category="sidebar">FC 構成ワークシートへの記入</block>
-  <block id="2fe80c598b337976d139cc4679fdfa8a" category="sidebar">Virtual Storage Console をインストールしています</block>
-  <block id="4def42e5b2ea82848fa57b45c411d38e" category="sidebar">VSC for VMware vSphere へのストレージクラスタまたは SVM の追加</block>
-  <block id="89e634fa45b392d5adb1c0802171fc30" category="sidebar">HBA のドライバ、ファームウェア、 BIOS を更新しています</block>
-  <block id="27662320c38ab1e51bab609b676bb57a" category="sidebar">ボリュームのプロビジョニング先の検討</block>
-  <block id="b06e6bb9a4fbcc4eda721e6cb1f609de" category="sidebar">ホストおよび LIF の WWPN に基づく FC スイッチのゾーニング</block>
-  <block id="35b5a034df778a6c4c6467123d075630" category="sidebar">データストアのプロビジョニングとその格納先 LUN およびボリュームの作成</block>
-  <block id="b394c22df89ecf7dad714d9b80d29585" category="sidebar">ホストによる LUN に対する読み取りと書き込みの確認</block>
   <block id="7d30b55c54296bcdedf5a84c9b75594f" category="sidebar">Red Hat Enterprise Linux 向けの FC の設定</block>
-  <block id="985d588e3acb2bc862cd76a2949663ac" category="sidebar">HBA ユーティリティのインストール</block>
-  <block id="ef7f789d20da8cd230ff57dfea7b8718" category="sidebar">Linux Unified Host Utilities をインストールし、 I/O パフォーマンスを最適化する</block>
-  <block id="aaa4235c29e5a3c35f208cc58376edfa" category="sidebar">ホストの各 FC ポートの WWPN を記録</block>
-  <block id="b52cd4c14b124d2d9ded4af1afc19aea" category="sidebar">DM-Multipath を設定しています</block>
-  <block id="b2c65f1330e2868f91e4c1d2b1079fae" category="sidebar">新しい SCSI デバイス（ LUN ）とマルチパスデバイスを検出します</block>
-  <block id="8e32b003eb43cb8d1b5e8c3128f76cba" category="sidebar">マルチパスデバイスでの論理ボリュームの設定とファイルシステムの作成</block>
-  <block id="dd2fa2a19bddbebc69a45e5ef77c5aa9" category="sidebar">ホストによるマルチパスデバイスに対する読み取りと書き込みの確認</block>
   <block id="23617d02d88796301c4d82f522e259ea" category="sidebar">Windows 向けの FC 構成</block>
-  <block id="cd59c7748158f18cf0c87293b3555cf5" category="sidebar">Windows Unified Host Utilities をインストールしています</block>
-  <block id="b6776587ffb56164cc1a7521e197df78" category="sidebar">新しいディスクを検出しています</block>
-  <block id="b7a324c2da974b055ab1dcb455a7cace" category="sidebar">LUN を初期化してフォーマットしています</block>
   <block id="50575298e52caf9a33c4f761e7f5b730" category="sidebar">VSC を使用した ESXi 向けの iSCSI 設定</block>
-  <block id="3b1db866cee909651aff3b7dfe37617a" category="sidebar">iSCSI 構成のサポート状況の確認</block>
-  <block id="7df151f6959a1d628dae9c726b4b5825" category="sidebar">ホスト iSCSI ポートと vSwitch の設定</block>
-  <block id="de7ac0f020d47fbf96bf80f88e564680" category="sidebar">iSCSI ソフトウェアアダプタの有効化</block>
-  <block id="15bac4a8f2c50dd1910d18d1e45326f7" category="sidebar">iSCSI ソフトウェアアダプタへの iSCSI ポートのバインド</block>
-  <block id="52125a2f7118ee2ee4b4eb493f370cdd" category="sidebar">ホストからストレージクラスタへの iSCSI パスをテストする</block>
   <block id="4c5f2c2d024136e9a723909a5c49f395" category="sidebar">Red Hat Enterprise Linux 向けの iSCSI の設定</block>
-  <block id="a6ab3bc1b1a6ec6ee3e28a5a392a812b" category="sidebar">iSCSI ノード名の記録</block>
-  <block id="0daa16783cdabc797449cc66e149dbf7" category="sidebar">iSCSI 交換タイムアウト値の設定</block>
-  <block id="0030ae58fdddaf114a0ba9eaf9969de3" category="sidebar">iSCSI サービスを開始しています</block>
-  <block id="8b327902ba6e4f67f8adb79f7bbd9821" category="sidebar">ターゲットとの iSCSI セッションを開始します</block>
   <block id="dcac34ac3a0167254a9c5e757dd7143a" category="sidebar">Windows 向けの iSCSI 構成</block>
-  <block id="1be14c0b751c97a6fd6925b2d70a3b66" category="sidebar">iSCSI イニシエータノード名を記録します</block>
-  <block id="49c234ae03dc3fb4a62690afb504225f" category="sidebar">ターゲットとの iSCSI セッションを開始します</block>
   <block id="03c39d763ca15978d9ef16c2ba5fe98a" category="sidebar">データ保護とディザスタリカバリ</block>
-  <block id="76ffcfcac9e96926dd7595c07891b3ea" category="sidebar">クラスタピアリングの準備をしています</block>
-  <block id="4de61975d040a236a5d8010cae279331" category="sidebar">ピア関係の設定（ ONTAP 9.3 以降）</block>
-  <block id="7580426c8dd53f2b6ea90b0f3250f5d4" category="sidebar">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
-  <block id="d4127fffca69e35ac51c1f729c0907b9" category="sidebar">SVM ピア関係を作成しています</block>
-  <block id="d3fa8199a808bcf37e617438a1613651" category="sidebar">ピア関係の設定（ ONTAP 9.2 以前）</block>
-  <block id="c07ac44c79fc5cb7c018ed0e61985e92" category="sidebar">すべてのノードでのクラスタ間インターフェイスの作成（ ONTAP 9.2 以前）</block>
-  <block id="2790929874ecb8c8ec240d9a212411e8" category="sidebar">クラスタピア関係の作成（ ONTAP 9.2 以前）</block>
-  <block id="e6fed82d6bd9f471d30155c9e4b6c2f6" category="sidebar">デスティネーションボリュームをアクティブ化</block>
-  <block id="bf028e11ce29cdd9e04d1e49201327ee" category="sidebar">ソースボリュームのステータスを確認しています</block>
-  <block id="ba98b596f7efa02b0ef709dd7ac873c1" category="sidebar">SnapMirror 関係を解除します</block>
-  <block id="7b391ffb5293547ca8dbddd712e11c52" category="sidebar">デスティネーションボリュームのステータスを確認しています</block>
-  <block id="a9d8bbddf537ec2a06730a291d362496" category="sidebar">データアクセス用のデスティネーションボリュームを設定</block>
-  <block id="e1b97e38b90c7dbf97d32bb74d97ec3e" category="sidebar">ソースボリュームを再アクティブ化しています</block>
-  <block id="fd607671c989ea5c3886628dd0b752fc" category="sidebar">ソースボリュームを再同期しています</block>
-  <block id="00d8440933a847ba0565e85ea3f4497d" category="sidebar">ソースボリュームを更新しています</block>
-  <block id="888d7bff2fdd0c8efd09698aeab0dfdb" category="sidebar">クラスタピア関係と SVM ピア関係の確認</block>
-  <block id="2783fc01790c1d81f3911891af7932db" category="sidebar">SnapMirror 関係の作成（ ONTAP 9.3 以降）</block>
-  <block id="ac4320072b56569c12d9ffc12a5f9e88" category="sidebar">データアクセス用のデスティネーション SVM をセットアップ</block>
-  <block id="6a6bdf55d31c97beee6923ca10e9279e" category="sidebar">SnapMirror データ転送のステータスを監視する</block>
-  <block id="ba02db538d84d8bbb3a821fe4748a092" category="sidebar">クラスタピア関係と SVM ピア関係を確認しています</block>
-  <block id="43c7ab77792e104ad80d33214935e4f5" category="sidebar">SnapVault 関係の作成（ ONTAP 9.3 以降）</block>
-  <block id="9e7b6a5c18e2c26730ef75d17fa65561" category="sidebar">SnapVault 関係を監視する</block>
-  <block id="b356cd8fbe40afb98ae0dee09ad08fb1" category="sidebar">SnapVault バックアップデスティネーションボリュームを特定しています</block>
-  <block id="875c1a0aee71a38a0d83701397a4f07f" category="sidebar">SnapVault バックアップからのデータのリストア</block>
-  <block id="1efec52cb892fd02718d3275e313024f" category="sidebar">リストア処理を検証しています</block>
   <block id="6c0e4fd4b7e2ef11d891ac59729c5f3e" category="sidebar">クラスタ管理</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">クラスタ拡張管理</block>
-  <block id="cbc1b3a69333b5c59b06b89329cea13c" category="sidebar">クラスタを拡張する準備が完了していることの確認</block>
-  <block id="5dd9c71a03e8af08a34bf382b97242dd" category="sidebar">計画した構成を検証</block>
-  <block id="630c400c42344e192dd5e820ea8ec1c1" category="sidebar">必要なネットワーク情報を収集する</block>
-  <block id="979d02a58585371bdc5e48798e3836fa" category="sidebar">スイッチの追加または交換</block>
-  <block id="4daa75227dac61458a6786198a7c0cea" category="sidebar">クラスタでの拡張準備</block>
-  <block id="f10cf0464d644f955a14161ca409b84b" category="sidebar">ノードロックライセンスを追加しています</block>
-  <block id="265f0c6ac4403348822f5c1cb680cb9e" category="sidebar">システムの健全性の確認</block>
-  <block id="ca541e8266f64e2eaf81d8141c562dea" category="sidebar">クラスタ構成をバックアップします</block>
-  <block id="6922017969b74695d3bde3413c90b75b" category="sidebar">拡張開始の AutoSupport メッセージの生成</block>
-  <block id="6f204daf54a805a4536083f3a358b0be" category="sidebar">新しいノードを設置</block>
-  <block id="c447892e12818639fd39ccb6f91482ef" category="sidebar">コントローラを取り付けます</block>
-  <block id="7bcf077a2889cb6564ea0952cd97fbc4" category="sidebar">ノード管理 LIF を設定しています</block>
-  <block id="6ee83123767682779393be5219f4be05" category="sidebar">ノードをアップグレードまたはダウングレードする</block>
-  <block id="cf93ce20db61f2d5cc1616776f7b9bbf" category="sidebar">ハードウェアレベルの HA が有効になっていることを確認する</block>
-  <block id="4340aaee45f8c97373ef5666cb5607b4" category="sidebar">System Manager を使用したクラスタへのノードの追加</block>
-  <block id="42b90d4b91caa68e5975cc41d38c7442" category="sidebar">CLI を使用したクラスタへのノードの追加</block>
-  <block id="de6ea7e38d580db6dae4dfac2528a95c" category="sidebar">拡張の完了</block>
-  <block id="1ba2a70854df02e10d2a09262409f327" category="sidebar">System Manager でノードの詳細を設定</block>
-  <block id="71c3f25cd228c5a1dc75bafd14be817f" category="sidebar">新しいノードでの AutoSupport の設定</block>
-  <block id="0ef5504e173a3cb6c5eb9eca928255a6" category="sidebar">サービスプロセッサネットワークを設定しています</block>
-  <block id="346acc0be9ea520fc948a0112c26caf1" category="sidebar">拡張したクラスタの構成を検証しています</block>
-  <block id="b3ee9f9bd93a29eaa1e77edeef6f7669" category="sidebar">拡張完了の AutoSupport メッセージの生成</block>
-  <block id="9d4d741f87c103a74477eb20765e5af3" category="sidebar">新しいノードの LUN パスを更新しています</block>
   <block id="ed7801df8a1413efb4a14b6277aeeaf5" category="sidebar">ボリューム移動の管理</block>
-  <block id="a6276a1d0abacf88056a5ad7b80c9403" category="sidebar">ボリューム移動の方法とタイミングを計画する</block>
-  <block id="fa8d5f89137ec648a1a225e2aaaa3526" category="sidebar">System Manager を使用してボリュームを移動する</block>
-  <block id="cafa658961a96f20769596fe9eda02e7" category="sidebar">ボリュームの移動後の LUN レポートノードの更新</block>
-  <block id="0b6b0143e54e754a5287e7fab425740d" category="sidebar">ボリューム移動後の NDMP バックアップの更新</block>
   <block id="7cb496856511458cd9ec3d53d882941a" category="sidebar">SNMP の設定</block>
-  <block id="f4193f81f5831b407bbaa03d7380f4bf" category="sidebar">SNMP が有効になっていることの確認</block>
-  <block id="7522e2cb2ab1b6332710b8bdd7eac321" category="sidebar">SNMP コミュニティの追加</block>
-  <block id="989fbc23a489aadc6970e1bc392c1d62" category="sidebar">SNMPv3 セキュリティユーザを追加しています</block>
-  <block id="434ff64b9b1cd5866d98cb3372989f7f" category="sidebar">SNMP トラップホストを追加しています</block>
-  <block id="89425a0cc6ecbe8f9dddc37409f8398d" category="sidebar">SNMP トラップのテスト</block>
-  <block id="4a26a307b31dc664f80b56d4671f07d2" category="sidebar">SNMP ポーリングのテスト</block>
   <block id="8cd255c7908d433af7a81a9f59fbc06b" category="sidebar">System Manager 9.6 および 9.7 を使用したクラスタ管理</block>
-  <block id="744688dd61443ae98ef3f7a6513fb69a" category="sidebar">System Manager の概要</block>
-  <block id="1a4d10a21920bf6a3c1f3c69cd48987a" category="sidebar">SVM を作成する</block>
-  <block id="b39bb0434059f648e357b5707cd2f79b" category="sidebar">System Manager オプションを設定しています</block>
-  <block id="4e68bb5fda78564b96423187e5b7d40d" category="sidebar">System Manager を使用したクラスタの設定</block>
-  <block id="1b55f02bf13c03f7ab8cade385125fbe" category="sidebar">クラスタ管理論理インターフェイスを作成する</block>
-  <block id="6849737e9bda19ce111662a1d1697bd8" category="sidebar">ノード管理論理インターフェイスを作成する</block>
-  <block id="9979ff4cf374670d24dd9e5e891c5e0a" category="sidebar">IPspace を作成しています</block>
-  <block id="7f366059f26bd6f1b253021e4c424ee4" category="sidebar">SVM の作成</block>
-  <block id="fb7900ef06198f2ca997be7ee81d9d9b" category="sidebar">SVM で CIFS プロトコルと NFS プロトコルを設定</block>
-  <block id="50dcd36b1b07a4a1f47560e966134cc5" category="sidebar">SVM で NVMe プロトコルを設定しています</block>
-  <block id="9e6e8ac0ecef629e806876f1bd6452fd" category="sidebar">SnapLock ボリュームの作成</block>
-  <block id="60bea445879c5fbb9f43c2a69e1b6c68" category="sidebar">クラスタ間 LIF の作成</block>
-  <block id="a2602eff5b7bc0f43d1fb5019cac868e" category="sidebar">クラスタピア関係を作成しています</block>
-  <block id="1aa60a4d0a51d986245dac48113ac343" category="sidebar">SVM ピアの作成</block>
-  <block id="e1c84d0cd779abb7381a9baca5460069" category="sidebar">System Manager に Microsoft SQL Server over SAN を追加</block>
-  <block id="a91d86970c749db389dba24f3e590611" category="sidebar">SVM 管理の詳細の設定</block>
-  <block id="5f58b5fa87edb9e961b2e4c9248f86f2" category="sidebar">クラスタへのノードの追加</block>
-  <block id="120f378ab46259b1952ca7c404b2bb39" category="sidebar">クラスタユーザアカウントの追加</block>
-  <block id="309bb3d46e5674f5b1029bdb94cce9aa" category="sidebar">ロールを追加する</block>
-  <block id="5ee2f36a2990b461b8fcc7c33741c7c5" category="sidebar">クラウド階層を設定および管理しています</block>
-  <block id="c0329deb24a3372cf3ca5e2f0d16a8dc" category="sidebar">AutoSupport E メール受信者の追加</block>
-  <block id="c268f03db9eba97c61c299aa4ad5d766" category="sidebar">ソース SVM からミラーとバックアップ関係を作成</block>
-  <block id="9ea5772b990e16ccc68ea27605ab8702" category="sidebar">VMware 用 NFS データストアの作成</block>
-  <block id="7a30a6c61b6383364f9b724bca872702" category="sidebar">ホームディレクトリ共有の作成</block>
-  <block id="7fd5db5d4b6f4586e27551b11f20573d" category="sidebar">FC SAN 向けに最適化された LUN の作成</block>
-  <block id="3a487ccf65a12e4bf7a1181acf403830" category="sidebar">ポートセットを作成しています</block>
-  <block id="28062900263e6902c2205d444936acb0" category="sidebar">優先ドメインコントローラの追加</block>
-  <block id="eae0e2b98e96f6b767fbb9c23f0f0ce2" category="sidebar">NVMe ネームスペースを作成しています</block>
-  <block id="771ed02ce5f847adc1eadc4caa8d4b9b" category="sidebar">NVMe サブシステムを作成しています</block>
-  <block id="5e5b6b71068b7e31d16f06570f330488" category="sidebar">エクスポートポリシーにルールを追加しています</block>
-  <block id="1b44263ae49d36c3bc38d07a1b42adba" category="sidebar">効率化ポリシーの追加</block>
-  <block id="f33756ef4f729d3a893509550b0fda53" category="sidebar">保護ポリシーを作成しています</block>
-  <block id="cca4fbf6b0c539fdbe2e49e204d9ac1d" category="sidebar">QoS ポリシーグループの作成</block>
-  <block id="2cc6101137cf83399d973e37b30306db" category="sidebar">NIS ドメインの追加</block>
-  <block id="af5ed8474d6e5f8ad0adddb6fc2534db" category="sidebar">SVM ユーザアカウントを追加しています</block>
-  <block id="a3baa7a5e7af98f00b15b7d9efb9454e" category="sidebar">デスティネーション SVM からミラーとバックアップ関係を作成</block>
-  <block id="44c5b1ab6cfc8f0956b23e6ecebd7b21" category="sidebar">SVM 関係を作成しています</block>
-  <block id="74caf4e4648531a1ba2443a254c09ac7" category="sidebar">Snapshot ポリシーを作成します</block>
-  <block id="905dcc318a262011fdea9a6e371b01ba" category="sidebar">スケジュールを作成します</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="32f77b1b6c6efdb41fe9e8f8ea88ada3" category="sidebar">Understanding System Manager Classic 』を参照してください</block>
@@ -9812,20 +9647,21 @@
   <block id="847d5320e56070117d0ef2664e520134" category="inline-link">ネットワーク管理マニュアル</block>
   <block id="05134b95fd2ae73eaeabe3072b9d50d0" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="19c47f4afa0dffe63811146ebe241ce2" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
   <block id="d807ba1476133422d6308692f75bb90e" category="section-title">ONTAP でこれを行うその他の方法</block>
-  <block id="477311032b2b01f497b4696204a4cc07" category="paragraph">ここでは、 System Manager Classic （ ONTAP 9.7 以前）を使用した SMB / CIFS ストレージのプロビジョニングについて説明します。</block>
   <block id="3f102bc5adc8efd2d0231ba47cea4cb2" category="cell">実行するタスク</block>
   <block id="11f033768b399bcca70f9fde4fb0d4c4" category="cell">参照するコンテンツ</block>
-  <block id="b145cd11afa6511a1d14593bec08b802" category="cell">System Manager 次世代型（ ONTAP 9.7 以降）</block>
   <block id="4c61ddac2ed1445cc3bd2743dea62bc6" category="inline-link-macro">SMB を使用して Windows サーバ用の NAS ストレージをプロビジョニングする</block>
   <block id="b44ab55132cb7dfd42aa271dc087c64f" category="cell"><block ref="b44ab55132cb7dfd42aa271dc087c64f" category="inline-link-macro-rx"></block></block>
-  <block id="31581907c3d44270d8d9879f8e2de965" category="cell">コマンドラインインターフェイス</block>
   <block id="b4b7f03d4b403f42868943c3b21d2865" category="inline-link-macro">CLI を使用した SMB の設定の概要</block>
   <block id="af691efeb0948e3a24ae2ff80c4ea2db" category="cell"><block ref="af691efeb0948e3a24ae2ff80c4ea2db" category="inline-link-macro-rx"></block></block>
   <block id="60c5e8a3bf1bbfdfd67d0416ede5bbf9" category="inline-link">ネットワーク管理マニュアル</block>
   <block id="1f82d63d26030255db2c53aecd77714b" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="52c62ead0407cf253ef26d313fa969c8" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
-  <block id="6125492f2de2edf76cf99b3d5e55dd79" category="paragraph">ここでは、 System Manager Classic （ ONTAP 9.7 以前）を使用した NFS ストレージのプロビジョニングについて説明します。</block>
   <block id="f84481fbfc30712bb07cee27cbb431e6" category="inline-link-macro">NFS を使用して Linux サーバ用の NAS ストレージをプロビジョニング</block>
   <block id="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="cell"><block ref="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="inline-link-macro-rx"></block></block>
   <block id="3e5584efdaf093a1509ba03a5649d568" category="inline-link-macro">CLI を使用した NFS の設定の概要</block>
   <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
+  <block id="f142b9220dc2e2218357fa1bf52e9dd3" category="summary">このコンテンツでは、 ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager のクラシックインターフェイスを使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの SMB / CIFS アクセスを設定する簡単な方法について説明しています。</block>
+  <block id="2bea44090e5debe7677aabca977d903c" category="paragraph">このコンテンツは、ボリュームへのアクセスを設定する場合に使用します。想定している状況は次のとおりです。</block>
+  <block id="737fec7cf6d6e935871829ca5e3c6eee" category="cell">再設計された System Manager （ ONTAP 9.7 以降で使用可能）</block>
+  <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP のコマンドラインインターフェイス</block>
+  <block id="d7488c279f159269a37c3a1c53b0fc7b" category="summary">このコンテンツでは、 ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager のクラシックインターフェイスを使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを設定する簡単な方法について説明しています。</block>
 </blocks>
