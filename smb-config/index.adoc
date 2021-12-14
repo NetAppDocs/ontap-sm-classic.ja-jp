@@ -2,7 +2,7 @@
 permalink: smb-config/index.html 
 sidebar: sidebar 
 keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual, machine, svm, system manager classic 
-summary: このコンテンツでは、 ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager のクラシックインターフェイスを使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの SMB / CIFS アクセスを設定する簡単な方法について説明しています。 
+summary: ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを簡単に設定できます。 
 ---
 = SMB / CIFS の設定の概要
 :icons: font
@@ -10,11 +10,11 @@ summary: このコンテンツでは、 ONTAP 9.7 以前の ONTAP 9 リリース
 
 
 [role="lead"]
-このコンテンツでは、 ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager のクラシックインターフェイスを使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの SMB / CIFS アクセスを設定する簡単な方法について説明しています。
+ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを簡単に設定できます。
 
 このコンテンツは、ボリュームへのアクセスを設定する場合に使用します。想定している状況は次のとおりです。
 
-* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
+* すべての利用可能なオプション（ ONTAP 9.7 以前）について検討するのではなく、ベストプラクティスを使用することを推奨します。
 * データネットワークでデフォルトの IPspace 、デフォルトのブロードキャストドメイン、およびデフォルトのフェイルオーバーグループを使用する。
 +
 データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトを使用することで、リンク障害の発生時に LIF が確実に正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["ネットワーク管理マニュアル"^] LIF パスのフェイルオーバーを設定する方法については、を参照してください。
