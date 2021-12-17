@@ -2,7 +2,7 @@
 permalink: nfs-config/index.html 
 sidebar: sidebar 
 keywords: nfs, access, volume, exist, storage, virtual, machine, svm, system manager classic 
-summary: ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager のクラシックインターフェイスを使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを簡単に設定できます。 
+summary: ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを簡単に設定できます。 
 ---
 = NFS 構成の概要
 :icons: font
@@ -10,9 +10,9 @@ summary: ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System
 
 
 [role="lead"]
-ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager のクラシックインターフェイスを使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを簡単に設定できます。
+ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを簡単に設定できます。
 
-このコンテンツは、ボリュームへのアクセスを設定する場合に使用します。想定している状況は次のとおりです。
+この手順は、ボリュームへのアクセスを設定する場合に使用します。
 
 * NFSv4 または NFSv4.1 ではなく、 NFSv3 を使用して NFS アクセスを行う。
 * すべての選択肢について検討するのではなく、ベストプラクティスに従う。
@@ -23,6 +23,8 @@ ONTAP 9.7 以前の ONTAP 9 リリースで使用できる ONTAP System Manager 
 * 新しいボリュームを UNIX ファイル権限を使用して保護する。
 * LDAP を使用する場合は、 Active Directory から提供されます。
 
+
+ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください link:../nfs-admin/index.html["NFS のリファレンスの概要"]。
 
 
 

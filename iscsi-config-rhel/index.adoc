@@ -10,15 +10,9 @@ summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サー
 
 
 [role="lead"]
-このコンテンツでは、 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。
+Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して を Red Hat Enterprise Linux サーバで使用できるように設定することができます。
 
 このコンテンツは、次の前提に基づいています。
-
-* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
-* 背景にある概念について詳しく確認する必要はありません。
-* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
-+
-https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"^]
 
 * RHEL シリーズ 6.4 以降のサポート対象バージョンを実行している Red Hat Enterprise Linux ホストで iSCSI ソフトウェアイニシエータを使用している。
 * ネットワークで IPv4 アドレスを使用している。
@@ -32,9 +26,14 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント
 * iSCSI SAN ブートを設定しない。
 
 
-上記の想定条件に該当しない場合は、次の資料を参照してください。
+[cols="2*"]
+|===
+| * このタスクを完了するには、 ... * を使用します | * このコンテンツを参照してください。 * 
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN の設定"^]
-* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Linux Unified Host Utilities 7.1 のインストール"^]
 
+| 再設計された System Manager （ 9.7 以降で使用可能） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["Linux サーバ用の SAN ストレージをプロビジョニング"] 
+
+
+| ONTAP コマンドラインインターフェイス（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"] 
+|===
+ONTAP で特定のホストを設定する方法の詳細については、を参照してください https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN ホスト構成"]。
