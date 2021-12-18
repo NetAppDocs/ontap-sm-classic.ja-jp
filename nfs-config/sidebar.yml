@@ -48,5 +48,3 @@ entries:
     url: "/nfs-config/task_verifying_nfs_access_from_unix_administration_host.html"
   - title: NFS クライアントアクセスを設定して確認する（ NFS 対応 SVM への NFS ボリュームの追加）
     url: "/nfs-config/task_configuring_verifying_client_access_add_vol_existing_nfs_svm.html"
-- title: 追加情報の参照先
-  url: "/nfs-config/reference_where_to_find_additional_information.html"

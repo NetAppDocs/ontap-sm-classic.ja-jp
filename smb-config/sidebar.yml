@@ -44,5 +44,3 @@ entries:
     url: "/smb-config/task_verifying_smb_client_access.html"
   - title: CIFS クライアントアクセスを設定して確認
     url: "/smb-config/task_configuring_verifying_client_access.html"
-- title: 追加情報の参照先
-  url: "/smb-config/reference_where_to_find_additional_information.html"

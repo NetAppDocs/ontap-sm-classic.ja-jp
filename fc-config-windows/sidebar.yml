@@ -40,5 +40,3 @@ entries:
     url: "/fc-config-windows/task_initializing_formatting_lun.html"
   - title: ホストが LUN に対して読み取りと書き込みを実行できることを確認します
     url: "/fc-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
-- title: 追加情報の参照先
-  url: "/fc-config-windows/reference_where_to_find_additional_information.html"

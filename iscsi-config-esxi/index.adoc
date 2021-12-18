@@ -10,17 +10,11 @@ summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サー
 
 
 [role="lead"]
-このコンテンツでは、 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。
+Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して ESXi ホストコンピュータの iSCSI イニシエータを使用して LUN を使用できるように設定することができます。
 
-このコンテンツは、次の前提に基づいています。
+次の場合には、これらの手順を使用
 
-* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
-* 背景にある概念について詳しく確認する必要はありません。
 * ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
-* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
-+
-https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"]
-
 * ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している
 * iSCSI に CHAP 認証を使用しない。
 * サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定を行う。
@@ -37,16 +31,34 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント
 オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順については説明しません。
 
 +
-が表示されます link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 ネットワーク管理"] CLI を使用してイーサネットポートのフロー制御を設定するため。
+を参照してください link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 ネットワーク管理"] CLI を使用してイーサネットポートのフロー制御を設定するため。
 
 * iSCSI SAN ブートを設定しない。
 * VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。
 
 
+
+
+== ONTAP でこれを行うその他の方法
+
+[cols="2"]
+|===
+| 実行するタスク | 参照するコンテンツ 
+
+
+| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html["VMware データストア用の SAN ストレージをプロビジョニングする"^] 
+
+
+| ONTAP コマンドラインインターフェイス（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"^] 
+|===
+
+
+== その他のリソース
+
 上記の想定条件に該当しない場合は、次の資料を参照してください。
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"]
-* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 http://www.vmware.com["VMware"])
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"^]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"^]
+* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 link:http://www.vmware.com["VMware"])
 

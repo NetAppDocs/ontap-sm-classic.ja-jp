@@ -690,7 +690,6 @@
   <block id="a96f80d6ee28e241c9649650e25a9bc0" category="list-text">データ LIF の IP アドレスをプロビジョニングするサブネット、または必要に応じてデータ LIF に割り当てる特定の IP アドレス</block>
   <block id="04afbe2e0e286c7e8ce3c7bce50a0624" category="list-text">外部ファイアウォールがある場合は、ネットワークサービスへのアクセスを許可するように適切に設定しておく必要があります。</block>
   <block id="bba46f27df043632bd7767f3ed846b87" category="list-text">SVM で NFS プロトコルが許可されている必要があります。</block>
-  <block id="ee0e023bd7588a3ee0c18795e8e01ae3" category="paragraph"><block ref="ee0e023bd7588a3ee0c18795e8e01ae3" category="inline-link-rx"></block></block>
   <block id="fcfbc4db9b7ca128cbbefe0c9ff969b4" category="list-text">SVM のプロトコルを設定するための領域に移動します。</block>
   <block id="13ecfb524b0f26cf207e19d63ddfd842" category="list-text">[* 詳細 * （ * Details * ） ] パネルの [ * プロトコル * （ * Protocols ） ] の横にある [* NFS* （ * NFS * ） ] をクリック</block>
   <block id="77950e1aaf07d045b130d0cf63ed297a" category="list-text">Configure NFS protocol * （ NFS プロトコルの設定 * ）ダイアログボックスで、データ LIF を作成します。</block>
@@ -735,7 +734,6 @@
   <block id="efe3bf664531a5720d5145a9fb2248ac" category="list-text">マウントボリューム * ダイアログボックスで、ボリューム、そのジャンクションパスの名前、およびボリュームをマウントするジャンクションパスを指定します。</block>
   <block id="9ddbe14129f50eece243c777cfa3e81c" category="list-text">新しいジャンクションパスを「 * Namespace * 」ウィンドウで確認します。</block>
   <block id="466b235ae493bfbcb0b7f78877b576b0" category="paragraph">特定のボリュームを「 data 」というメインボリュームにまとめる場合、新しいボリューム「 vol1 」をルートボリュームから「 data 」ボリュームに移動できます。</block>
-  <block id="92c2902a6d06bf952809ae9658850f98" category="paragraph">+ image: ../media/namespace_1_Before_nfs.gif[ この図は説明が付随しています ]</block>
   <block id="b297782871cfdbd93f971acce0dd9b42" category="list-text">ボリュームのセキュリティ形式を確認し、必要に応じて変更します。</block>
   <block id="12a77aed4bf261199b1fca49ea3d474c" category="list-text">[* Volume* （ボリューム * ） ] ウィンドウで、作成したボリュームを選択し、 [* Edit* （編集） ] をクリックします。</block>
   <block id="e18a8e9de46dcc49bd7191e6f1c9125b" category="paragraph">ボリュームの編集ダイアログボックスが表示され、ボリュームの現在のセキュリティ形式が表示されます。セキュリティ形式は、 SVM ルートボリュームから継承されます。</block>
@@ -910,8 +908,6 @@
   <block id="e9eb48a6c30a344fc6c43f052d60e00b" category="list-text">ホストの FC ポートの Worldwide Port Name （ WWPN ；ワールドワイドポート名）を記録しておく必要があります。</block>
   <block id="9eca302d2175ce5314d9ad5c405b4834" category="list-text">[* 一般プロパティ *] ページで、 Linux ホストで直接使用される LUN タイプ *Linux* を選択します。</block>
   <block id="d314b2a826586ffeb6af878acd6f1055" category="list-text">イニシエータマッピング * ページで、 * イニシエータグループの追加 * をクリックし、 * 一般 * タブで必要な情報を入力してから、 * イニシエータ * タブで、記録したホスト FC ポートのすべての WWPN を入力します。</block>
-  <block id="2b711657cb2b58a413a8f4421997407f" category="summary">FC をテストしたあと、 FC の高度な設定を行ったり、 SAN プロトコルや NAS プロトコルを追加したりできます。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。</block>
-  <block id="321e9ee6cbb594abe284195fc396c504" category="paragraph">FC をテストしたあと、 FC の高度な設定を行ったり、 SAN プロトコルや NAS プロトコルを追加したりできます。このような目標の達成に役立つ包括的なコンテンツやテクニカルレポートをご用意しています。</block>
   <block id="87adc74f7e5083adf88fa77a4e7aaa7b" category="inline-link">Linux Unified Host Utilities 7.1</block>
   <block id="7c67244faf6a480596988e13468e26e4" category="list-text"><block ref="7c67244faf6a480596988e13468e26e4" category="inline-link-rx"></block></block>
   <block id="a896120485ce9788b8f4c4734a99ac87" category="paragraph">Linux Unified Host Utilities ソフトウェアのインストール方法と DM-Multipath の設定方法について説明しています。</block>
@@ -959,10 +955,6 @@
   <block id="494728f44ab7bb09f36f7ab05711fb16" category="paragraph">FC スイッチ 2 に接続されたノード 4 の LIF のポート</block>
   <block id="a821da32e34f1ec3f9126e04acba382e" category="summary">このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="78597c3653ff97e621f9b565645894bd" category="doc">Red Hat Enterprise Linux 向けの FC の設定の概要</block>
-  <block id="da483109e4c3bc5caae6cb31ed458815" category="paragraph">このコンテンツでは、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタ（ HBA ）を使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
-  <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">ホストで Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンが実行されている。</block>
-  <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">従来の FC HBA およびスイッチを使用している。</block>
-  <block id="47c4735d586227d98300742e3c12cb6a" category="paragraph">この内容は、 Fibre Channel over Ethernet （ FCoE ）には対応していません。</block>
   <block id="da5a0664eb077c7ad2e71983c83f956c" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。</block>
   <block id="e4a65e5200d96ee64dac3619637932cd" category="paragraph">オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。</block>
   <block id="c520e47a5a5f6944b35a4623f07d32ef" category="list-text">FC SAN ブートを設定しない。</block>
@@ -1090,12 +1082,10 @@
   <block id="40a140333cbebfe1cffe1ccb0c2cace8" category="summary">Windows ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。</block>
   <block id="e54631240250ad3c4f5138fe670ba9b2" category="summary">このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">Windows 向けの FC 構成の概要</block>
-  <block id="4526541e846fa823490ce6942018f61b" category="paragraph">このコンテンツでは、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="e0232ed2f47bf84fc8ee2b287d903aaf" category="paragraph">この内容は FCoE には対応していません。</block>
   <block id="9b759f4cbbd39cfe431c005e6e1ad36f" category="paragraph">オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">Hyper-V ゲストまたは ESX ゲストで Virtual Fibre Channel （ VFC ；仮想ファイバチャネル）を使用していない。</block>
   <block id="45010da5958c7fc3d60c5414c380bb70" category="inline-link">ネットアップのマニュアル： Host Utilities</block>
-  <block id="9e8c5400a8eb221973b4a8d27a70c4e7" category="list-text"><block ref="9e8c5400a8eb221973b4a8d27a70c4e7" category="inline-link-rx"></block></block>
   <block id="a2ecc997978aedc00abb9eeb497e7eb9" category="paragraph">ケーブル接続と構成の詳細については、ネットアップサポートサイトの使用している ONTAP または E シリーズストレージシステムのハードウェアケーブル接続について、「 SAN 構成」を参照してください。</block>
   <block id="fb6b8b7c86f1cdc8c9f4a1e55f91d173" category="paragraph">インストールに関する詳細情報は、を参照してください <block ref="f912c8f6f2c88a486dae2dbc098d8846" category="inline-link-macro-rx"></block>。</block>
   <block id="b8af4cb8afe116de1a12bfab26b90519" category="list-text">CIFS * および * NFSv3 * を選択します。</block>
@@ -1728,10 +1718,8 @@
   <block id="e01451bc5d1145df607e72e46d03d5d2" category="list-text">ボリュームをダブルクリックしてボリュームの詳細を表示し、 * protection * をクリックしてボリュームのデータ保護ステータスを表示します。</block>
   <block id="67dfc6258a4d7b0eef457b3eeb43e734" category="image-alt">SnapMirror 9 3.</block>
   <block id="028fafb74e3b83afc82a43a425f93cb9" category="paragraph">ソースボリュームのシンプロビジョニング、重複排除、圧縮、および自動拡張の設定を書き留めておく必要があります。この情報は、 SnapMirror 関係を解除するときにデスティネーションボリュームの設定を確認するために使用します。</block>
-  <block id="2c285cc0e4071224cd0d0e8208e3ee6d" category="summary">このコンテンツでは、ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを保護する簡単な方法について説明します。このコンテンツは、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合にご利用ください。タスクの背景にある概念については、本書では詳しく説明していません。</block>
   <block id="c3ac504be8df36e9eac8ddbefb0af128" category="doc">ボリュームのディザスタリカバリの準備の概要</block>
   <block id="fab2eed20be80651a7c2f147ec027380" category="paragraph">SnapMirror を使用すると、ブロックレベルの非同期データ保護をスケジュールに従って実行できます。Snapshot コピーがレプリケートされるだけでなく、 qtree や LUN を含むボリュームなど、重複排除やデータ圧縮を実行している NAS または SAN のボリュームもレプリケートできます。SnapMirror の設定情報はデータベースに格納され、 ONTAP がクラスタ内のすべてのノードにレプリケートします。</block>
-  <block id="327e4dee0c55e27d5f7a79cd9026bc9e" category="paragraph">このコンテンツは、ボリュームレベルのディザスタリカバリ用に SnapMirror 関係を作成する場合にご利用ください。想定している状況は次のとおりです。</block>
   <block id="6a24f516827d99f674302536f72d66fa" category="list-text">ソースとデスティネーションの両方のクラスタで SnapMirror ライセンスを有効にしている。</block>
   <block id="23ee6fca3793e587122a68c14921baea" category="list-text">デフォルトのポリシーとスケジュールを使用し、カスタムポリシーは作成しない。</block>
   <block id="419b01b6ce2521cb82d351d68353372d" category="inline-link">ONTAP 9 のコマンド</block>
@@ -1806,9 +1794,7 @@
   <block id="cf91af212a07bdf82ec93316f80df4a1" category="list-text">VSC を実行する Windows Server のバージョン</block>
   <block id="70cd8bfb8fd7a4082087201414ab2fe4" category="section-title">VMware のドキュメント</block>
   <block id="ab912994b4aa16fba6be2c16896c3115" category="paragraph">ESXi サーバの iSCSI に関するドキュメントは、 VMware から直接入手できます。</block>
-  <block id="d020d2be8f20c4660d645073d0aac5b4" category="paragraph"><block ref="d020d2be8f20c4660d645073d0aac5b4" category="inline-link-rx"></block></block>
   <block id="e012bb8bfed783fdc9ae512fc954250c" category="list-text">_ vSphere ストレージ _</block>
-  <block id="4cc6fda3b9888a99f246ece57a67de13" category="paragraph">ESXi 5.x 向けの FC および iSCSI の設定について説明した VMware のガイドです</block>
   <block id="1e7a821c0fffd45e16b8e9fbdf58abd9" category="list-text">_ ポートバインドを使用したソフトウェア iSCSI のマルチパス設定 _</block>
   <block id="eecf341f578c40b0088a2c825bcf9fae" category="paragraph">ESXi サーバ向けの MPIO のセットアップについてのテクニカルホワイトペーパーです。</block>
   <block id="64131a01034229c3ee0a665ec27911f8" category="summary">ストレージフェイルオーバーやデータ移動が適切に行われるようにするには、ホストからストレージクラスタ内のすべてのノードへのパスが 2 つあることを確認する必要があります。iSCSI ターゲットからアドバタイズされるパスの数は限られているため、ホストからストレージクラスタポートに ping を送信する必要があります。</block>
@@ -9608,17 +9594,14 @@
   <block id="c8db31d0d38042ea4fd10dd6bdfd347e" category="sidebar">ONTAP のドキュメント</block>
   <block id="97d8d54d841ea4483e8103e32ec0ac48" category="sidebar">ONTAP 9.7 以降では、次世代の System Manager を使用して ONTAP を管理できます</block>
   <block id="68a8dd3fc5b12dceef9144f06a7615c1" category="sidebar">CLI を使用して ONTAP を管理します</block>
-  <block id="1940443c5607566f58bdce4052f1c760" category="paragraph">オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</block>
   <block id="f715055ae82975b9ebd5bb865b31fc18" category="list-text">ESXi ホストから「 ping 」コマンドを使用して、最初の LIF へのパスを確認します。</block>
   <block id="848d3b9d8a59e5daf0e6a022bd34a97c" category="paragraph">ping コマンドは、 ESXi サービスコンソールから使用できます。</block>
   <block id="8631d4aba59b3faab471d5bc71ca8173" category="list-text">ESXi ホストで iSCSI ソフトウェアアダプタが有効になっている必要があります。</block>
   <block id="7f628be6ef73d2f8c231b453fef6dc6a" category="paragraph">ESXi ホストで iSCSI 接続が作成されます。オペレーティングシステムに組み込まれていますが、使用する前に有効にする必要があります。</block>
   <block id="f2956e37a1a240696529c2c8ff8a553f" category="summary">このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
-  <block id="7c3c4c58abae35d2f88e82fe840dcbb8" category="paragraph">このコンテンツでは、 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している</block>
   <block id="39d787d0105280f3a84692c640027af9" category="paragraph">オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順については説明しません。</block>
   <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。</block>
-  <block id="a0ea1b5540fa3eca719f466580334567" category="list-text">_ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能<block ref="719cc64f2d8f0a174865652d288288f1" category="inline-link-rx"></block>)</block>
   <block id="de53d4ddfa00ec898bbcf9e464e90519" category="summary">iSCSI を使用して ESXi ホストでストレージを利用できるようにするには、 Virtual Storage Console for VMware vSphere を使用して Storage Virtual Machine 上にボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="91d33397a6e7116c87f840c7cbfaf06a" category="paragraph">iSCSI を使用して ESXi ホストでストレージを利用できるようにするには、 Storage Virtual Machine （ SVM ）で Virtual Storage Console for VMware vSphere を使用してボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="28b1339a66514b27d2adc9621c0e2756" category="list-text">選択した構成の構成名を選択します。</block>
@@ -9669,8 +9652,40 @@
   <block id="7c171c2cc43d076d7e5b6e2279caba0b" category="paragraph">ONTAP で特定のホストを設定する方法の詳細については、を参照してください<block ref="ed5f0cb8da79fb5415ca9aff60303a86" category="inline-link-rx"></block>。</block>
   <block id="1b5dc5059b812076f6a5388c5705d769" category="paragraph">この手順は、ボリュームへのアクセスを設定する場合に使用します。</block>
   <block id="ce3d0439f146efae42d47e4e194850fa" category="inline-link-macro">SMB リファレンスの概要</block>
-  <block id="6903bac6f5daece1ebfb91bdd308533b" category="paragraph">ONTAP の SMB プロトコル機能の範囲の詳細については、を参照してください <block ref="0b6548f2e025bfdb1002dbe838017639" category="inline-link-macro-rx"></block>。</block>
   <block id="2224f41151ca82dd715e1fd7335dfa93" category="summary">ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを簡単に設定できます。</block>
   <block id="10be0c4aa205f1efca8cb0a22dd16968" category="inline-link-macro">NFS のリファレンスの概要</block>
-  <block id="210ff95ab6e187f985b70ec61bd4b937" category="paragraph">ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください <block ref="456a2a0d135ad6060bb75711de11f236" category="inline-link-macro-rx"></block>。</block>
+  <block id="b2763c325ff29a11475210e77550cdbf" category="summary">ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを簡単に保護することができます。このコンテンツは、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合にご利用ください。タスクの背景にある概念については、本書では詳しく説明していません。</block>
+  <block id="106bc1ba3bc172d028cde7797a530527" category="paragraph">この手順は、ボリュームレベルのディザスタリカバリ用の SnapMirror 関係を作成する場合に使用します。想定している状況は次のとおりです。</block>
+  <block id="0e4222b86d7998dfe8825bb8a6cde95d" category="list-text">すべての選択肢（ ONTAP 9.7 以前）について検討するのではなく、ベストプラクティスを使用する場合</block>
+  <block id="65716a8cb6a3032b7384db5b9f2e6f30" category="inline-link-macro">ミラーとバックアップを準備</block>
+  <block id="778de7f7e16dc5b7548bcce4e90f62f5" category="cell"><block ref="778de7f7e16dc5b7548bcce4e90f62f5" category="inline-link-macro-rx"></block></block>
+  <block id="753714749b40647298f8b1072ea295e3" category="inline-link-macro">CLI によるデータ保護の概要</block>
+  <block id="a38ba96a8cc4d2088b0fddf90f7c13d3" category="cell"><block ref="a38ba96a8cc4d2088b0fddf90f7c13d3" category="inline-link-macro-rx"></block></block>
+  <block id="ea1287193924e34a602b1e05277f6731" category="paragraph">ONTAP の SMB プロトコル機能の範囲の詳細については、を参照してください <block ref="508497ea578beb819bbaa0e137c4ede1" category="inline-link-macro-rx"></block>。</block>
+  <block id="10a45a2d4ec037857c0c7c1605b95bb2" category="inline-link-macro">LDAP の使用方法の概要</block>
+  <block id="be783ea71cc23a3edbff3615cb4f8db0" category="paragraph">別の種類の LDAP を使用する場合は、他のドキュメントに従って、コマンドラインインターフェイス（ CLI ）を使用して LDAP を設定する必要があります。詳細については、を参照してください <block ref="d3b872660ddf7d41d95bc18138ecd3fb" category="inline-link-macro-rx"></block>。</block>
+  <block id="42212a5a0889842594522857c721b58d" category="paragraph">ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください <block ref="86f1502903f8dfcf68403b326bb7f6b6" category="inline-link-macro-rx"></block>。</block>
+  <block id="f0029f7d9c71b4d6656710bbaa9a75cb" category="paragraph">詳細については、を参照してください <block ref="ec8cf3d50757fbbd3f210cde205edf03" category="inline-link-macro-rx"></block>。</block>
+  <block id="b38eb47eb8a7f4ec6696ee8d4e8a114e" category="paragraph">Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を搭載した Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定できます。</block>
+  <block id="4f229dd6cb1ca4601186cfbd9bf21ee6" category="paragraph">従来の FC HBA およびスイッチを使用している場合は、この手順を使用して SVM に FC サービスをセットアップします。</block>
+  <block id="4278fc790b35b56d4d6c6cd209adbd19" category="paragraph">この手順には、クラスタ内の各ノードに使用可能な FC ターゲットポートが少なくとも 2 つあるという状況は含まれていません。</block>
+  <block id="f772611ce79f97cee049fb64880ce2df" category="paragraph">+ オンボード FC および UTA2 （別名 CNA ）ポート、および一部のアダプタは設定可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</block>
+  <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">Windows サーバ用の SAN ストレージをプロビジョニングする</block>
+  <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
+  <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
+  <block id="0c43bdb6f87ef035ef0c110c0b4d6c6e" category="paragraph">* その他のリソース *<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
+  <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して ESXi ホストコンピュータの iSCSI イニシエータを使用して LUN を使用できるように設定することができます。</block>
+  <block id="defe7cf01d4ad01ca19331d4c8756f17" category="paragraph">次の場合には、これらの手順を使用</block>
+  <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">を参照してください <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> CLI を使用してイーサネットポートのフロー制御を設定するため。</block>
+  <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">VMware データストア用の SAN ストレージをプロビジョニングする</block>
+  <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
+  <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">その他のリソース</block>
+  <block id="982b26a119993277a196e08d99a37e4a" category="list-text"><block ref="982b26a119993277a196e08d99a37e4a" category="inline-link-rx"></block></block>
+  <block id="a642a03a1d89a2568a28161a6dcba8c0" category="list-text"><block ref="a642a03a1d89a2568a28161a6dcba8c0" category="inline-link-rx"></block></block>
+  <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
+  <block id="136200586625d8dafefda787f79f587f" category="list-text">_ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 <block ref="0421fa2cd01f0c9937fe08195e375fca" category="inline-link-macro-rx"></block>)</block>
+  <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">ONTAP ONTAP 9.7 以前のインターフェイスを使用して、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタ（ HBA ）を使用して LUN を使用できるように設定することができます。</block>
+  <block id="ce042b4c0074694c421e65376db43603" category="paragraph">Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンがホストで実行されている場合は、この手順を使用して SVM に FC サービスをセットアップします。* 従来の FC HBA およびスイッチを使用している。</block>
+  <block id="32e8635d80aa982e67e6e08ab71095e9" category="paragraph">+ 注： Fibre Channel over Ethernet （ FCoE ）はこの手順では説明されていません。</block>
+  <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -21,10 +21,9 @@ summary: 既存の SVM への NFS アクセスを追加するには、データ 
 
 * 外部ファイアウォールがある場合は、ネットワークサービスへのアクセスを許可するように適切に設定しておく必要があります。
 * SVM で NFS プロトコルが許可されている必要があります。
-+
-https://docs.netapp.com/us-en/ontap/networking/index.html[]
 
 
+詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/networking/index.html["ネットワーク管理マニュアル"^]。
 
 .手順
 . SVM のプロトコルを設定するための領域に移動します。

@@ -22,7 +22,7 @@ ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）
 * 新しいボリュームを NTFS ファイル権限を使用して保護する。
 
 
-ONTAP の SMB プロトコル機能の範囲の詳細については、を参照してください link:../smb-admin/index.html["SMB リファレンスの概要"]。
+ONTAP の SMB プロトコル機能の範囲の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB リファレンスの概要"^]。
 
 
 

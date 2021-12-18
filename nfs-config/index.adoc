@@ -24,7 +24,7 @@ ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前
 * LDAP を使用する場合は、 Active Directory から提供されます。
 
 
-ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください link:../nfs-admin/index.html["NFS のリファレンスの概要"]。
+ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS のリファレンスの概要"^]。
 
 
 

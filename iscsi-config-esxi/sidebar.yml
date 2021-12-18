@@ -42,5 +42,3 @@ entries:
     url: "/iscsi-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
   - title: ホストが LUN に対して読み取りと書き込みを実行できることを確認します
     url: "/iscsi-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
-- title: 追加情報の参照先
-  url: "/iscsi-config-esxi/reference_where_to_find_additional_information.html"
