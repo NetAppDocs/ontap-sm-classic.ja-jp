@@ -5,6 +5,7 @@ keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, host,
 summary: このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
 ---
 = Red Hat Enterprise Linux 向けの FC の設定の概要
+:hardbreaks:
 :icons: font
 :imagesdir: ../media/
 
@@ -12,14 +13,15 @@ summary: このコンテンツでは、 Storage Virtual Machine に FC サービ
 [role="lead"]
 ONTAP ONTAP 9.7 以前のインターフェイスを使用して、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタ（ HBA ）を使用して LUN を使用できるように設定することができます。
 
-Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンがホストで実行されている場合は、この手順を使用して SVM に FC サービスをセットアップします。* 従来の FC HBA およびスイッチを使用している。
+この手順を使用して SVM に FC サービスをセットアップします。状況：
 
-+ 注： Fibre Channel over Ethernet （ FCoE ）はこの手順では説明されていません。
-
-* クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。
+* ホストで Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンが実行されている。
+* 従来の FC HBA およびスイッチを使用している。
 +
-オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。
 
+NOTE: この手順では Fibre Channel over Ethernet （ FCoE ）については説明しません。
+
+* クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。
 * FC SAN ブートを設定しない。
 
 

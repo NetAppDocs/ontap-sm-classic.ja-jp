@@ -42,5 +42,3 @@ entries:
     url: "/iscsi-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html"
   - title: ホストによるマルチパスデバイスに対する読み取りと書き込みを確認
     url: "/iscsi-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
-- title: 追加情報の参照先
-  url: "/iscsi-config-rhel/reference_where_to_find_additional_information.html"

@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html 
 sidebar: sidebar 
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
-summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
+summary: Storage Virtual Machine で iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定することができます。 
 ---
 = VSC を使用した ESXi 向けの iSCSI 設定の概要
 :icons: font
@@ -12,9 +12,8 @@ summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サー
 [role="lead"]
 Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して ESXi ホストコンピュータの iSCSI イニシエータを使用して LUN を使用できるように設定することができます。
 
-次の場合には、これらの手順を使用
+次の場合にこの手順を使用します。
 
-* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
 * ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している
 * iSCSI に CHAP 認証を使用しない。
 * サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定を行う。

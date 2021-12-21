@@ -1,8 +1,8 @@
 ---
 permalink: iscsi-config-rhel/index.html 
 sidebar: sidebar 
-keywords: iscsi, service, storage, virtual, machine, svm, lun, initiator, red, hat, enterprise, linux, server, configuration, configuration 
-summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
+keywords: iscsi, service, storage, virtual, machine, svm, lun, initiator, red, hat, enterprise, linux, server, configuration, san, provision, provisioning 
+summary: ここでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な手順について説明しています。 
 ---
 = Red Hat Enterprise Linux 向けの iSCSI の設定の概要
 :icons: font
@@ -10,9 +10,9 @@ summary: このコンテンツでは、 Storage Virtual Machine に iSCSI サー
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して を Red Hat Enterprise Linux サーバで使用できるように設定することができます。
+ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に iSCSI サービスを簡単にセットアップし、 LUN をプロビジョニングして、 Red Hat Enterprise Linux サーバで LUN を使用できるようにすることができます。
 
-このコンテンツは、次の前提に基づいています。
+これらの手順は、次の前提に基づいています。
 
 * RHEL シリーズ 6.4 以降のサポート対象バージョンを実行している Red Hat Enterprise Linux ホストで iSCSI ソフトウェアイニシエータを使用している。
 * ネットワークで IPv4 アドレスを使用している。
@@ -26,6 +26,14 @@ Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップ�
 * iSCSI SAN ブートを設定しない。
 
 
+ONTAP で特定のホストを設定する方法の詳細については、を参照してください https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN ホスト構成"]。
+
+SAN の管理の詳細については、を参照してください https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN の管理の概要"]
+
+
+
+== ONTAP でこれを行うその他の方法
+
 [cols="2*"]
 |===
 | * このタスクを完了するには、 ... * を使用します | * このコンテンツを参照してください。 * 
@@ -36,4 +44,3 @@ Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップ�
 
 | ONTAP コマンドラインインターフェイス（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"] 
 |===
-ONTAP で特定のホストを設定する方法の詳細については、を参照してください https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN ホスト構成"]。

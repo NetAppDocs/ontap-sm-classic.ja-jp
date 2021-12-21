@@ -23,7 +23,6 @@ http://mysupport.netapp.com/NOW/cgi-bin/software["ネットアップのダウン
 . tuned パッケージがインストールされていない場合は、「 yum install tuned 」コマンドを入力します
 . 物理ホストの場合は 'enterprise-storaged' プロファイル： tuned-adm profile enterprise-storaged' が設定されていることを確認します
 . 仮想ホストの場合は 'virtual-guest' プロファイル :tuned-adm profile virtual-guest' が設定されていることを確認します
-+
-https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Linux Unified Host Utilities 7.1 のインストール"]
 
 
+* 関連情報 *https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Linux Unified Host Utilities 7.1 のインストール"]

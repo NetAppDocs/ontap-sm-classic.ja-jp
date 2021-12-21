@@ -908,14 +908,6 @@
   <block id="e9eb48a6c30a344fc6c43f052d60e00b" category="list-text">ホストの FC ポートの Worldwide Port Name （ WWPN ；ワールドワイドポート名）を記録しておく必要があります。</block>
   <block id="9eca302d2175ce5314d9ad5c405b4834" category="list-text">[* 一般プロパティ *] ページで、 Linux ホストで直接使用される LUN タイプ *Linux* を選択します。</block>
   <block id="d314b2a826586ffeb6af878acd6f1055" category="list-text">イニシエータマッピング * ページで、 * イニシエータグループの追加 * をクリックし、 * 一般 * タブで必要な情報を入力してから、 * イニシエータ * タブで、記録したホスト FC ポートのすべての WWPN を入力します。</block>
-  <block id="87adc74f7e5083adf88fa77a4e7aaa7b" category="inline-link">Linux Unified Host Utilities 7.1</block>
-  <block id="7c67244faf6a480596988e13468e26e4" category="list-text"><block ref="7c67244faf6a480596988e13468e26e4" category="inline-link-rx"></block></block>
-  <block id="a896120485ce9788b8f4c4734a99ac87" category="paragraph">Linux Unified Host Utilities ソフトウェアのインストール方法と DM-Multipath の設定方法について説明しています。</block>
-  <block id="8d9fd4a3f5aaa68ba7acfded72fb78e6" category="inline-link">ネットアップテクニカルレポート 4159 ：『 Red Hat Enterprise Virtualization 3.1 と NetApp clustered Data ONTAP ストレージのベストプラクティス』</block>
-  <block id="96f60822ac89c5b93761bb30f584db2b" category="list-text"><block ref="96f60822ac89c5b93761bb30f584db2b" category="inline-link-rx"></block></block>
-  <block id="44fc28496af2f580f26f2f2c27ff88c8" category="paragraph">Red Hat 仮想環境向けの最新のベストプラクティスについて説明しています。</block>
-  <block id="3c42fc35dc330b206e0fdb76072babe4" category="list-text">Red Hat Enterprise Linux 6 のドキュメントとマニュアルページ</block>
-  <block id="799d1aaa1e1b3fdfbb49a66f0e292f56" category="paragraph">ストレージデバイス、ファイルシステム、および Linux コマンドを管理する手順について説明します。</block>
   <block id="216c30bfb8f3e4ab2c38ba8b5d66d784" category="summary">マルチパスデバイスを使用する前に、ホストがマルチパスデバイスのデータを読み取りおよび書き込みできることを確認する必要があります。</block>
   <block id="8cf1420c6fd5960ffc332e97d3cf207e" category="doc">ホストによるマルチパスデバイスに対する読み取りと書き込みを確認</block>
   <block id="eafea6a1a12e4d3a8bd09c23ccd6949c" category="paragraph">アクセスするストレージクラスタノードの Linux ホストで DM-Multipath が設定されている必要があります。</block>
@@ -956,7 +948,6 @@
   <block id="a821da32e34f1ec3f9126e04acba382e" category="summary">このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="78597c3653ff97e621f9b565645894bd" category="doc">Red Hat Enterprise Linux 向けの FC の設定の概要</block>
   <block id="da5a0664eb077c7ad2e71983c83f956c" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。</block>
-  <block id="e4a65e5200d96ee64dac3619637932cd" category="paragraph">オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。</block>
   <block id="c520e47a5a5f6944b35a4623f07d32ef" category="list-text">FC SAN ブートを設定しない。</block>
   <block id="e3c04741026ea0cd831c0108b69fe759" category="inline-link">Linux Unified Host Utilities 7.1 のインストール</block>
   <block id="2e9d349f5085a4d96f042e80235b0150" category="list-text"><block ref="2e9d349f5085a4d96f042e80235b0150" category="inline-link-rx"></block></block>
@@ -9076,14 +9067,11 @@
   <block id="d68a955d17dddae8d5b57c2e27e531ac" category="list-text">テキスト・エディタを使用して ' ノード名を含む '/etc/iscsi/initiatorname.iscsi' ファイルを開きます</block>
   <block id="68c65fd2bda39ad7a1c59d70e1d74584" category="list-text">ノード名を書き留めるか、テキストファイルにコピーします。</block>
   <block id="ad13a8f3a3c585d42767dcffb73ac111" category="paragraph">iSCSI イニシエータノード名は次のようになります。</block>
-  <block id="cbd013380280889b8c3957adf28a9a7e" category="summary">iSCSI をテストしたあと、 iSCSI の高度な設定を行ったり、 SAN または NAS プロトコルを追加したりできます。このような目標の達成に役立つ包括的なコンテンツやテクニカルレポートをご用意しています。</block>
-  <block id="b6e8181673416f50eb7392b127bb6c42" category="paragraph">iSCSI をテストしたあと、 iSCSI の高度な設定を行ったり、 SAN または NAS プロトコルを追加したりできます。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。</block>
   <block id="eeaa381e0c1c22208e5b53b5f89170e3" category="paragraph">テストに失敗した場合は、 iSCSI サービスが実行されていることを確認し、 DM-Multipath の設定とマルチパスデバイスへの iSCSI パスを再度確認してください。</block>
   <block id="f03856d109d55f30badd60f1beeb7973" category="summary">マルチパスをサポートするには、 iSCSI 構成ファイルの交換タイムアウト値を変更する必要があります。</block>
   <block id="c0c4071b1ffdc5b77aa9978d94fe5f20" category="doc">iSCSI 交換タイムアウト値を設定</block>
   <block id="0fc6e3f01e2b147f50432554c8da60e4" category="list-text">/etc/iscsi/iscsid.conf ファイルの交換タイムアウト値を、デフォルトの 120 から 5 に変更します。</block>
   <block id="05a0d78aaaed80829fc637c85c8097eb" category="paragraph">置き換えのタイムアウト値は 'iscsid.conf の次のようになります</block>
-  <block id="6420e46b6402a70a4306763813a3b7d6" category="summary">このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="2bf508726429c82fd84bbbab3d707db0" category="doc">Red Hat Enterprise Linux 向けの iSCSI の設定の概要</block>
   <block id="f6b61538a8daed22de52194e5df3fc3d" category="list-text">RHEL シリーズ 6.4 以降のサポート対象バージョンを実行している Red Hat Enterprise Linux ホストで iSCSI ソフトウェアイニシエータを使用している。</block>
   <block id="3eb492bfe5d69b4d147a52c2fffbd299" category="image-alt">この図には説明が付随しています。</block>
@@ -9092,7 +9080,6 @@
   <block id="e3c0e450ed23f9a24d0aad328dda6cd6" category="summary">Linux Unified Host Utilities ソフトウェアに、 sanlun ユーティリティというネットアップの LUN レポートツールが含まれています。このユーティリティを使用してストレージクラスタノードに関する情報を表示できます。</block>
   <block id="175017a406212d92c7cb45223ba5dbf4" category="doc">Linux Unified Host Utilities をインストールし、 I/O パフォーマンスを最適化します</block>
   <block id="36274900bedd7b6237ea6c16b1b53b50" category="paragraph">Linux Unified Host Utilities ソフトウェアには、「 lun 」ユーティリティが含まれています。これは、ストレージクラスタノードに関する情報の表示に使用できるネットアップの LUN レポートツールです。ネットアップストレージのパフォーマンスを最適化するには、さらに、 Linux ホストで正しいサーバプロファイルを有効にする必要があります。</block>
-  <block id="a5f8ef6b5d1189a231aea7325cc686e7" category="paragraph"><block ref="a5f8ef6b5d1189a231aea7325cc686e7" category="inline-link-rx"></block></block>
   <block id="b9d5eb0ccc401c9f51d655b67ec79aca" category="image-alt">Linux 用の iSCSI プロトコルを設定しています</block>
   <block id="9981eb36404dab76d25d5093708d4b4a" category="summary">iSCSI 構成ファイルを編集したら、ホストがターゲットを検出して LUN にアクセスできるように、 iSCSI サービスを開始する必要があります。iSCSI サービスが実行中の場合は、再起動する必要があります。</block>
   <block id="fc2913bfa325246e75d2432450f7cb44" category="doc">iSCSI サービスを開始</block>
@@ -9598,7 +9585,6 @@
   <block id="848d3b9d8a59e5daf0e6a022bd34a97c" category="paragraph">ping コマンドは、 ESXi サービスコンソールから使用できます。</block>
   <block id="8631d4aba59b3faab471d5bc71ca8173" category="list-text">ESXi ホストで iSCSI ソフトウェアアダプタが有効になっている必要があります。</block>
   <block id="7f628be6ef73d2f8c231b453fef6dc6a" category="paragraph">ESXi ホストで iSCSI 接続が作成されます。オペレーティングシステムに組み込まれていますが、使用する前に有効にする必要があります。</block>
-  <block id="f2956e37a1a240696529c2c8ff8a553f" category="summary">このコンテンツでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している</block>
   <block id="39d787d0105280f3a84692c640027af9" category="paragraph">オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順については説明しません。</block>
   <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。</block>
@@ -9639,7 +9625,6 @@
   <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP のコマンドラインインターフェイス</block>
   <block id="6fee7f10b0fdf9da2e6c4a72ff309964" category="summary">ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを簡単に設定できます。</block>
   <block id="1bf2d80a0b7340e4229d26ac096116df" category="list-text">すべての利用可能なオプション（ ONTAP 9.7 以前）について検討するのではなく、ベストプラクティスを使用することを推奨します。</block>
-  <block id="da7217c415334002506ecc94776bc6f4" category="paragraph">Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して を Red Hat Enterprise Linux サーバで使用できるように設定することができます。</block>
   <block id="fcdcf750ea4e083be4386f4d74633fba" category="cell">* このタスクを完了するには、 ... * を使用します</block>
   <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* このコンテンツを参照してください。 *</block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">再設計された System Manager （ 9.7 以降で使用可能）</block>
@@ -9667,15 +9652,10 @@
   <block id="42212a5a0889842594522857c721b58d" category="paragraph">ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください <block ref="86f1502903f8dfcf68403b326bb7f6b6" category="inline-link-macro-rx"></block>。</block>
   <block id="f0029f7d9c71b4d6656710bbaa9a75cb" category="paragraph">詳細については、を参照してください <block ref="ec8cf3d50757fbbd3f210cde205edf03" category="inline-link-macro-rx"></block>。</block>
   <block id="b38eb47eb8a7f4ec6696ee8d4e8a114e" category="paragraph">Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を搭載した Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定できます。</block>
-  <block id="4f229dd6cb1ca4601186cfbd9bf21ee6" category="paragraph">従来の FC HBA およびスイッチを使用している場合は、この手順を使用して SVM に FC サービスをセットアップします。</block>
-  <block id="4278fc790b35b56d4d6c6cd209adbd19" category="paragraph">この手順には、クラスタ内の各ノードに使用可能な FC ターゲットポートが少なくとも 2 つあるという状況は含まれていません。</block>
-  <block id="f772611ce79f97cee049fb64880ce2df" category="paragraph">+ オンボード FC および UTA2 （別名 CNA ）ポート、および一部のアダプタは設定可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</block>
   <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">Windows サーバ用の SAN ストレージをプロビジョニングする</block>
   <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
   <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
-  <block id="0c43bdb6f87ef035ef0c110c0b4d6c6e" category="paragraph">* その他のリソース *<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
   <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して ESXi ホストコンピュータの iSCSI イニシエータを使用して LUN を使用できるように設定することができます。</block>
-  <block id="defe7cf01d4ad01ca19331d4c8756f17" category="paragraph">次の場合には、これらの手順を使用</block>
   <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">を参照してください <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> CLI を使用してイーサネットポートのフロー制御を設定するため。</block>
   <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">VMware データストア用の SAN ストレージをプロビジョニングする</block>
   <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
@@ -9685,7 +9665,22 @@
   <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
   <block id="136200586625d8dafefda787f79f587f" category="list-text">_ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 <block ref="0421fa2cd01f0c9937fe08195e375fca" category="inline-link-macro-rx"></block>)</block>
   <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">ONTAP ONTAP 9.7 以前のインターフェイスを使用して、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタ（ HBA ）を使用して LUN を使用できるように設定することができます。</block>
-  <block id="ce042b4c0074694c421e65376db43603" category="paragraph">Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンがホストで実行されている場合は、この手順を使用して SVM に FC サービスをセットアップします。* 従来の FC HBA およびスイッチを使用している。</block>
-  <block id="32e8635d80aa982e67e6e08ab71095e9" category="paragraph">+ 注： Fibre Channel over Ethernet （ FCoE ）はこの手順では説明されていません。</block>
   <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
+  <block id="785f21867c78d48d84db708fe6d6705a" category="list-text">にアクセスします<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block> 次のコンポーネントについて、サポートされている組み合わせであることを確認します。</block>
+  <block id="e6479b8884d9a579ed1efe575688fd7a" category="summary">ここでは、 Storage Virtual Machine に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで iSCSI イニシエータを使用して LUN を使用できるように設定するまでの簡単な手順について説明しています。</block>
+  <block id="7953c54a0dd3839684f7d5dc78cc9caa" category="paragraph">ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に iSCSI サービスを簡単にセットアップし、 LUN をプロビジョニングして、 Red Hat Enterprise Linux サーバで LUN を使用できるようにすることができます。</block>
+  <block id="350344b34beadc4fc9a2b3faf51f1624" category="paragraph">これらの手順は、次の前提に基づいています。</block>
+  <block id="c99ea46138c6cca1947ab45f8b85983c" category="inline-link">ONTAP 9 SAN の管理の概要</block>
+  <block id="4ccd1411513c65dcb6a679ea9915e95f" category="paragraph">SAN の管理の詳細については、を参照してください<block ref="8499bea34abc994e4281bc61265ea2b9" category="inline-link-rx"></block></block>
+  <block id="3729565d51de6ef0a8375595d1ae5807" category="paragraph">* 関連情報 *<block ref="a5f8ef6b5d1189a231aea7325cc686e7" category="inline-link-rx"></block></block>
+  <block id="9cf52e339950ce13b96dc210eba32043" category="paragraph">この手順を使用して SVM に FC サービスをセットアップします。状況：</block>
+  <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">従来の FC HBA およびスイッチを使用している。</block>
+  <block id="d72f5510625cc4d6c7088dce4938a4b0" category="paragraph">この手順は、次のような状況には対応しません。</block>
+  <block id="a8a43c6e4824f8a5c53b50bf6e5041dd" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</block>
+  <block id="1c88671ee1b1558529268a8ad894ff88" category="paragraph">* その他のリソース *+*<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
+  <block id="2543eb70e018ba889bfe7e3c3c1f1afd" category="summary">Storage Virtual Machine で iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定することができます。</block>
+  <block id="039d2d1f92ed5762bd1672bf32bb614a" category="paragraph">次の場合にこの手順を使用します。</block>
+  <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">ホストで Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンが実行されている。</block>
+  <block id="d90be280d58372ceba4455532ff87944" category="admonition">この手順では Fibre Channel over Ethernet （ FCoE ）については説明しません。</block>
+  <block id="933bae8d078062a7fc5f31ee4bc64cbf" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。</block>
 </blocks>
