@@ -1,7 +1,7 @@
 ---
 permalink: iscsi-config-rhel/task_discovering_new_scsi_devices_dm_multipath_devices.html 
 sidebar: sidebar 
-keywords: lun, storage, cluster, linux, scsi, device, i/o, path, dm-multipath, multipath, manual, discover new scsi devices (luns) and multipath devices 
+keywords: 'lun, storage, cluster, linux, scsi, device, i/o, path, dm-multipath, multipath, manual, discover new scsi devices (luns) and multipath devices' 
 summary: ストレージクラスタの LUN は、 Linux ホストでは SCSI デバイスとして認識されます。これは、新しいデバイスに DM-Multipath によって集約される I/O パスで、マルチパスデバイスと呼ばれます。システムに追加した新しい SCSI デバイス（ LUN ）は、ホストで自動的には検出されません。これらを検出するには、手動で再スキャンする必要があります。 
 ---
 = 新しい SCSI デバイス（ LUN ）とマルチパスデバイスを検出

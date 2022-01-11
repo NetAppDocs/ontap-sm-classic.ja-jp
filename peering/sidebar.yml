@@ -26,6 +26,4 @@ entries:
     - title: すべてのノードにクラスタ間インターフェイスを作成（ ONTAP 9.2 以前）
       url: "/peering/task_creating_intercluster_interfaces_on_all_nodes.html"
     - title: クラスタピア関係を作成する（ ONTAP 9.2 以前）
-      url: "/peering/task_creating_cluster_peer_relationships_93_later.html"
-- title: 追加情報の参照先
-  url: "/peering/reference_where_to_find_additional_information.html"
+      url: "/peering/task_creating_cluster_peer_relationships_92_earlier.html"
