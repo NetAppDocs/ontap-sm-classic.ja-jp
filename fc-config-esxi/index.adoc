@@ -2,7 +2,7 @@
 permalink: fc-config-esxi/index.html 
 sidebar: sidebar 
 keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer, 
-summary: このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定するまでの簡単な方法について説明しています。 
+summary: ONTAP System Manager 従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定できます。 
 ---
 = VSC を使用した ESXi 向けの FC の設定の概要
 :icons: font
@@ -10,41 +10,49 @@ summary: このコンテンツでは、 Storage Virtual Machine に FC サービ
 
 
 [role="lead"]
-このコンテンツでは、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定するまでの簡単な方法について説明しています。
+ONTAP System Manager 従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定できます。
 
-このコンテンツは、次の前提に基づいています。
-
-* すべての選択肢について検討するのではなく、ベストプラクティスに従う。
-* 背景にある概念について詳しく確認する必要はありません。
-* ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。
-* ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。
-+
-https://docs.netapp.com/us-en/ontap/["ONTAP System Manager のドキュメント"]
+次の場合にこの手順を使用します。
 
 * サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定とデータストアのプロビジョニングを行う。
 * ネットワークで IPv4 アドレスを使用している。
 * ESXi 5.x の従来の FC HBA と従来の FC スイッチを使用している。
 +
-この内容は FCoE には対応していません。
+この手順では FCoE については説明しません。
 
 * クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。
 +
-オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。
+オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順では説明しません。
 
 * FC SAN ブートを設定しない。
 * ホストにデータストアを作成する。
 +
-このコンテンツでは、 Raw Device Mapping （ RDM ； raw デバイスマッピング）ディスクや、 N ポート ID 仮想化（ NPIV ）を使用した VM への FC の直接提供については説明していません。
+この手順では、 raw デバイスマッピング（ RDM ）ディスクや、 N ポート ID 仮想化（ NPIV ）を使用した VM への FC の直接提供については説明していません。
 
 
+
+
+
+== ONTAP でこれを行うその他の方法
+
+[cols="2"]
+|===
+| 実行するタスク | 参照するコンテンツ 
+
+
+| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html["VMware データストア用の SAN ストレージをプロビジョニングする"^] 
+
+
+| ONTAP コマンドラインインターフェイス（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"^] 
+|===
+
+
+== その他のリソース
 
 上記の想定条件に該当しない場合は、次の資料を参照してください。
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"]
-* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（ VMware から入手可能）。
-+
-http://www.vmware.com["VMware"]
-
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 の SAN 管理"^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"^]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"^]
+* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 link:http://www.vmware.com["VMware"^])
 

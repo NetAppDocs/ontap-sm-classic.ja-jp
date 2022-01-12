@@ -38,7 +38,7 @@ ONTAP NFS および SMB プロトコルの機能の範囲に関する詳細に�
 | 実行するタスク | 参照するコンテンツ 
 
 
-| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_windows_smb.html["SMB を使用して Windows サーバ用の NAS ストレージをプロビジョニングする"^] 
+| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_nfs_and_smb.html["NFS と SMB の両方を使用して Windows と Linux の両方に NAS ストレージをプロビジョニングする"^] 
 
 
 | ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html["CLI を使用した SMB の設定の概要"^]

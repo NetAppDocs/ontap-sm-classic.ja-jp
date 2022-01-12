@@ -2,7 +2,7 @@
 permalink: volume-move/task_planning_method_timing_volume_move.html 
 sidebar: sidebar 
 keywords: system, manager, volume, manual, cutover, lun, report, node, advance, procedure, command-line, interface, cli, plan, plan the method and timing of a volume move 
-summary: System Manager を使用してボリュームを移動し、手動カットオーバーを実施するかどうかを検討できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。 
+summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用してボリュームを移動し、手動カットオーバーを実施するかどうかを決定できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。 
 ---
 = ボリューム移動の方法とタイミングを計画します
 :icons: font
@@ -10,7 +10,7 @@ summary: System Manager を使用してボリュームを移動し、手動カ�
 
 
 [role="lead"]
-System Manager を使用してボリュームを移動し、手動カットオーバーを実施するかどうかを検討できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。
+ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用してボリュームを移動し、手動カットオーバーを実施するかどうかを決定できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。
 
 SnapMirror 関係または SnapVault 関係のソースボリュームは、ボリュームのミラーリング中に移動することができます。SnapMirror サービスは、ボリューム移動ジョブのカットオーバーフェーズ中に一時的に停止します。
 
@@ -61,6 +61,4 @@ _cutover_は 、移動処理が終了 ONTAP したあと、新しいアグリゲ
 
 
 
-* 関連情報 *
-
-xref:task_verifying_lun_reporting_nodes_after_moving_volume.adoc[ボリューム移動後の LUN レポートノードの確認]
+link:task_verifying_lun_reporting_nodes_after_moving_volume.html["ボリューム移動後の LUN レポートノードの確認"]

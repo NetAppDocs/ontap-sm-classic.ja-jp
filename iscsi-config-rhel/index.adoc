@@ -39,8 +39,8 @@ SAN の管理の詳細については、を参照してください https://docs
 | * このタスクを完了するには、 ... * を使用します | * このコンテンツを参照してください。 * 
 
 
-| 再設計された System Manager （ 9.7 以降で使用可能） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["Linux サーバ用の SAN ストレージをプロビジョニング"] 
+| 再設計された System Manager （ 9.7 以降で使用可能） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["Linux サーバ用の SAN ストレージをプロビジョニング"^] 
 
 
-| ONTAP コマンドラインインターフェイス（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"] 
+| ONTAP コマンドラインインターフェイス（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"^] 
 |===

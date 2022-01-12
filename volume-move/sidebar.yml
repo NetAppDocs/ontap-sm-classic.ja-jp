@@ -17,5 +17,3 @@ entries:
     url: "/volume-move/task_updating_lun_reporting_nodes_after_moving_volume.html"
   - title: ボリューム移動後に NDMP バックアップを更新する
     url: "/volume-move/task_updating_ndmp_backup_after_moving_volume.html"
-- title: 追加情報の参照先
-  url: "/volume-move/reference_where_to_find_additional_information.html"
