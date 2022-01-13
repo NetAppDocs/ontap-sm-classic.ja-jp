@@ -19,5 +19,3 @@ entries:
     url: "/snmp-config/task_testing_snmp_traps.html"
   - title: SNMP ポーリングのテスト
     url: "/snmp-config/task_testing_snmp_polling.html"
-- title: 追加情報の参照先
-  url: "/snmp-config/reference_where_to_find_additional_information.html"

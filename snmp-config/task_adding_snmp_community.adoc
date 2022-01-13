@@ -2,7 +2,7 @@
 permalink: snmp-config/task_adding_snmp_community.html 
 sidebar: sidebar 
 keywords: system, manager, add, community, administrative, storage, virtual, machine, svm, cluster, snmpv1, snmpv2c, protocol, add an anmp community 
-summary: System Manager を使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。 
+summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。 
 ---
 = SNMP コミュニティを追加します
 :icons: font
@@ -10,11 +10,9 @@ summary: System Manager を使用して、 SNMPv1 または SNMPv2c を実行し
 
 
 [role="lead"]
-System Manager を使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。
+ONTAP 9.7 以前で ONTAP System Manager の _classic_ インターフェイスを使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。
 
-この手順は、クラスタの管理 SVM に SNMP コミュニティを追加するためのものです。SNMP コミュニティをデータ SVM に追加するための手順については、ネットワークのドキュメントを参照してください。
-
-https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]
+この手順は、クラスタの管理 SVM に SNMP コミュニティを追加するためのものです。データ SVM に SNMP コミュニティを追加するための手順については、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]。
 
 ONTAP の新規インストールでは、 SNMPv1 と SNMPv2c はデフォルトで無効になっています。SNMPv1 と SNMPv2c は、 SNMP コミュニティを作成すると有効になります。
 

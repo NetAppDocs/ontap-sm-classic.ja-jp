@@ -2,7 +2,7 @@
 permalink: snmp-config/task_adding_snmpv3_security_user.html 
 sidebar: sidebar 
 keywords: snmpv3, offer, advance, security, passphrase, encryption, system, manager, cluster, level, snmp, utilities, utility, traphost, authentication, privacy, setting, add an snmpv3 security user 
-summary: SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリティを提供します。System Manager を使用して、クラスタレベルで SNMPv3 ユーザを追加できます。SNMPv3 ユーザは、管理者が指定した認証およびプライバシー設定を使用して、トラップホスト（ SNMP マネージャ）から SNMP ユーティリティを実行できます。 
+summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。 
 ---
 = SNMPv3 セキュリティユーザを追加します
 :icons: font
@@ -10,9 +10,11 @@ summary: SNMPv3 は、パスフレーズと暗号化を使用して高度なセ�
 
 
 [role="lead"]
-SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリティを提供します。System Manager を使用して、クラスタレベルで SNMPv3 ユーザを追加できます。SNMPv3 ユーザは、管理者が指定した認証およびプライバシー設定を使用して、トラップホスト（ SNMP マネージャ）から SNMP ユーティリティを実行できます。
+ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。
 
-クラスタレベルで SNMPv3 ユーザを追加すると、そのユーザは「 GMT 」ファイアウォールポリシーが適用されているすべての LIF を介してクラスタにアクセスできるようになります。
+SNMPv3 ユーザは、管理者が指定した認証およびプライバシー設定を使用して、トラップホスト（ SNMP マネージャ）から SNMP ユーティリティを実行できます。SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリティを提供します。
+
+クラスタレベルで SNMPv3 ユーザを追加すると、このユーザは「 mgmt 」ファイアウォールポリシーが適用されているすべての LIF を介してクラスタにアクセスできるようになります。
 
 .手順
 . SNMP ウィンドウで、 * Edit * をクリックして、 * Edit SNMP Settings * ダイアログボックスを開きます。
@@ -26,7 +28,7 @@ SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリ�
 +
 ',/:""|`
 
-.. [Engine ID] には、デフォルト値の [Local Engine ID] を選択します
+.. [Engine ID] には、デフォルト値の [Local Engine ID] を選択します。
 +
 エンジン ID は、 SNMPv3 メッセージの認証キーおよび暗号キーの生成に使用されます。
 

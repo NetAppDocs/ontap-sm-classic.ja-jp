@@ -9035,16 +9035,13 @@
   <block id="80b58f1091b6460f7d14ad52624a01f3" category="paragraph">SUSE Linux Enterprise Server 10 または 11 シリーズ</block>
   <block id="b06af70a00712567754c55898364df8c" category="paragraph">/etc/init.d/open-iscsi start</block>
   <block id="7a2a1cb73491c3d7532e37ae54452b38" category="paragraph">Citrix では、 iscsiadm ツールの使用を推奨していません。ネイティブの XAPI スタックで、 iSCSI サービスの開始と停止、ブート時の自動ログイン、およびその他の iSCSI 処理が実行されます。</block>
-  <block id="042b3bedade463e0c0107059c3d56fbe" category="summary">SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリティを提供します。System Manager を使用して、クラスタレベルで SNMPv3 ユーザを追加できます。SNMPv3 ユーザは、管理者が指定した認証およびプライバシー設定を使用して、トラップホスト（ SNMP マネージャ）から SNMP ユーティリティを実行できます。</block>
   <block id="1e309c896709e68fc70cf7462d3f365c" category="doc">SNMPv3 セキュリティユーザを追加します</block>
-  <block id="eed0e05c5afe8d18cddb351d094880f1" category="paragraph">クラスタレベルで SNMPv3 ユーザを追加すると、そのユーザは「 GMT 」ファイアウォールポリシーが適用されているすべての LIF を介してクラスタにアクセスできるようになります。</block>
   <block id="74d471fdd748c870515971afa751b39a" category="list-text">SNMP ウィンドウで、 * Edit * をクリックして、 * Edit SNMP Settings * ダイアログボックスを開きます。</block>
   <block id="dc7284f7a6b7f61dae275e5fc1c9fd6b" category="list-text">*SNMPv3* タブで、 * Add * をクリックして、 * Add SNMPv3 User * ダイアログボックスを開きます。</block>
   <block id="a64d7615d8bd84b418d1a8925389c6ba" category="list-text">次の値を入力します。</block>
   <block id="e1fc300ea5c300096f8192fb184c88f8" category="list-text">SNMPv3 ユーザの名前を入力します。</block>
   <block id="3e2b4772d5415531384b7efc569a874e" category="paragraph">セキュリティユーザ名は最大 31 文字で、次の特殊文字は使用できません。</block>
   <block id="04b49630992a731c529254019965c67a" category="paragraph">',/:""|`</block>
-  <block id="19e17f5fe6ceca2e8ff892231f28feae" category="list-text">[Engine ID] には、デフォルト値の [Local Engine ID] を選択します</block>
   <block id="1a69eaded1014c5556b2eec6771639af" category="paragraph">エンジン ID は、 SNMPv3 メッセージの認証キーおよび暗号キーの生成に使用されます。</block>
   <block id="de1b6573f94c776c42ae60f0d451312f" category="list-text">認証プロトコルを選択し、認証パスワードを入力します。</block>
   <block id="d45674562a7d524ec04b74601621485a" category="paragraph">パスワードは 8 文字以上にする必要があります。</block>
@@ -9053,26 +9050,19 @@
   <block id="6468154ff84e9d61022d68ea3324f39f" category="list-text">[Add SNMPv3 User*] ダイアログボックスで、 *OK* をクリックします。</block>
   <block id="0801d7922b1ee06d94468607b8d077df" category="paragraph">追加するたびに「 * OK 」をクリックすると、複数のセキュリティユーザー名を追加できます。たとえば、異なる権限を必要とする複数のアプリケーションを SNMP を使用して監視する場合は、監視や管理の機能ごとに SNMPv3 ユーザを追加する必要があります。</block>
   <block id="224cd8afc78016668f2bbd0f95a0c9a1" category="list-text">ユーザー名の追加が完了したら、 * SNMP 設定の編集 * ダイアログボックスの * OK * をクリックします。</block>
-  <block id="cb67cac629022d1150c46b6e2a3c0136" category="summary">追加したトラップホストとの通信は自動では検証されないため、 SNMP トラップホストがトラップを正しく受信できることを確認する必要があります。</block>
   <block id="0bfa6a07984a60e6ea91703e326b461d" category="doc">テスト用の SNMP トラップ</block>
   <block id="213a896d9424a12e580c864f9c36ec3a" category="list-text">[*SNMP*] 画面に移動します。</block>
   <block id="e7c095ad42a634d6b8047870c4f8ddba" category="list-text">トラップホストのテスト * をクリックして、トラップホストを追加したクラスタからトラップを生成します。</block>
   <block id="98902f4079fd642b1a4ab3802f254db7" category="list-text">トラップホストの場所で、トラップを受信したことを確認します。</block>
   <block id="33cd7845b04ce4c51c3132b99054e7d5" category="paragraph">SNMP トラップホストの管理に通常使用するソフトウェアを使用してください。</block>
-  <block id="78300869c8c17b6078e326702d7e56fd" category="summary">System Manager を使用して、クラスタでトラップが生成されたときに SNMP 通知（ SNMP トラッププロトコルデータユニット）を受信するトラップホスト（ SNMP マネージャ）を追加できます。</block>
   <block id="6ca29f45d0f915e11eef1e4ab3dc49b3" category="doc">SNMP トラップホストを追加します。</block>
   <block id="679c545b03eb98c3be85047c5a145c89" category="paragraph">IPv6 アドレスを使用して SNMP トラップホストを設定するには、クラスタで IPv6 を有効にする必要があります。</block>
   <block id="d70a2599dd73ef966bf210711fbc504e" category="paragraph">SNMP トラップと SNMP トラップはデフォルトで有効になっています。SNMP トラップでサポートされるデフォルトのイベントについては、 SNMP サポートに関するネットアップテクニカルレポート TR-4220 を参照してください。</block>
   <block id="b8b0d0947e2d9fd375781f448a96f62a" category="inline-link">ネットアップテクニカルレポート 4220 ：『 SNMP Support in Data ONTAP 』</block>
   <block id="96b3de0be5b9bf2c589fd62e408ecdc5" category="paragraph"><block ref="96b3de0be5b9bf2c589fd62e408ecdc5" category="inline-link-rx"></block></block>
   <block id="5aca75d6abc2d8ecd791688db1b84987" category="list-text">SNMP ウィンドウで *edit* をクリックして、 * Edit SNMP Settings * ダイアログボックスを開きます。</block>
-  <block id="38079b917f99f932e8d97eeedfed84aa" category="list-text">[* トラップホスト * ] タブで、 [ トラップを有効にする *] チェックボックスがオンになっていることを確認し、 [ * 追加 ] をクリックします。</block>
-  <block id="8b5a519af4b20133dbf4866e94c8265d" category="list-text">トラップホストの IP アドレスを入力し、 *Trap Hosts* ペインで *OK* をクリックします。</block>
   <block id="d901f1bc93c6ad4e1d22f7fcc6f0b85f" category="paragraph">SNMP トラップホストの IP アドレスには、 IPv4 または IPv6 を使用できます。</block>
   <block id="144090751f3a5c3394c7a974721e71f7" category="image-alt">この図は、 Edit SNMP Settings ダイアログボックスを示しています</block>
-  <block id="8b769a98062c469399152df014e77ddd" category="inline-xref">#step_06A7DDCA00F1443EBE5734C252FC2EE9</block>
-  <block id="4be2f3768178cf98a5ddf05c28b08d21" category="inline-xref">#step_2E611821457E4536A4E676BE15105C9E</block>
-  <block id="c1f64dfd370fbe12b89e0d96a59e4d36" category="list-text">別のトラップホストを追加するには、手順を繰り返します <block ref="2445171ea4d41cd95d1d2c7e872eb3dd" category="inline-xref-macro-rx"></block> および <block ref="2d766a42b82b260dd35c8aaaf68b8e6b" category="inline-xref-macro-rx"></block>。</block>
   <block id="c779362ae17750a0ee31fa179657e78c" category="list-text">トラップホストの追加が完了したら、 * Edit SNMP Settings * （ SNMP 設定の編集）ダイアログボックスで * OK * をクリックします。</block>
   <block id="e60229b23ad1d9c629bc0ade623ccd47" category="summary">SNMP の設定には、 SNMP の有効化、 SNMPv1 または SNMPv2c コミュニティの設定（オプション）、 SNMPv3 ユーザの追加、 SNMP トラップホストの追加、 SNMP ポーリングとトラップのテストが含まれます。</block>
   <block id="5174725bae53fcf1bcc485a2dbffb6ea" category="doc">SNMP の設定ワークフロー</block>
@@ -9081,29 +9071,20 @@
   <block id="a8831e3f82bc320e866292eb6806a431" category="paragraph">詳細については、次のドキュメントを参照してください。</block>
   <block id="abe86de66b83fa492b31773cc79291cd" category="paragraph">サブネット、クラスタ間 LIF 、ルート、ファイアウォールポリシーなど、さまざまなネットワークコンポーネントを設定する方法について説明しています。データ Storage Virtual Machine （ SVM ）での SNMP コミュニティまたはセキュリティユーザの作成方法、 SNMP トラップホストの管理方法についての説明もあります。</block>
   <block id="0c3ac31aefc9a0a301afb69016107275" category="paragraph">ONTAP における SNMP サポートについて説明します。 7-Mode 環境とクラスタ環境での SNMP サポートの詳細な比較、 SNMP トラップでサポートされるすべてのデフォルトイベントのリストなどが含まれます。</block>
-  <block id="0b8654e422330e049fac326b401af27d" category="summary">System Manager を使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。</block>
   <block id="dacafc6a0d88b96f024eabc02e48e2a8" category="doc">SNMP コミュニティを追加します</block>
-  <block id="39ab40a5dad46bca710093dd335d518e" category="paragraph">この手順は、クラスタの管理 SVM に SNMP コミュニティを追加するためのものです。SNMP コミュニティをデータ SVM に追加するための手順については、ネットワークのドキュメントを参照してください。</block>
   <block id="8bc205165c4aa383375d20d3de3a0a2d" category="paragraph">ONTAP の新規インストールでは、 SNMPv1 と SNMPv2c はデフォルトで無効になっています。SNMPv1 と SNMPv2c は、 SNMP コミュニティを作成すると有効になります。</block>
   <block id="a1e327acc2a98cc12ab439f6d73c1735" category="list-text">[*General] タブで、 ONTAP システムの担当者と場所を指定します。</block>
   <block id="ed80a17134046199ac775ed50c14d621" category="list-text">[ * 追加 ] をクリックし、コミュニティ名を入力して、 [ * コミュニティ名 * ] ウィンドウ枠の * [OK] をクリックします。</block>
   <block id="5dd2f42b1a0edd3ba37d62af8ac000cd" category="paragraph">コミュニティ名は複数追加できます。コミュニティ名の最大文字数は 32 文字です。特殊文字、 / ： " ' | ' を使用することはできません</block>
   <block id="4c71725a72af3de56f7b708f7f1c8b80" category="list-text">コミュニティ名の追加が完了したら、 * Edit SNMP Settings * （ SNMP 設定の編集）ダイアログボックスで * OK * をクリックします。</block>
-  <block id="474092701712b9db07128bbe124a4cf6" category="summary">System Manager を使用して、クラスタで SNMP が有効になっているかどうかを確認できます。</block>
   <block id="b354f08f71dd96eb1ba246ef69930dd5" category="doc">SNMP が有効になっていることを確認します</block>
   <block id="31b9a7cae0914e577340768752305422" category="paragraph">ONTAP のすべてのバージョンで、 SNMPv3 はクラスタレベルでデフォルトで有効になっており、 SNMPv1 と SNMPv2c はデフォルトで無効になっています。SNMPv1 と SNMPv2c は、 SNMP コミュニティを作成すると有効になります。</block>
-  <block id="d1d01864f34b64d012eee5843cae9832" category="paragraph">データ LIF では、 SNMP はデフォルトで無効になっています。データ LIF で SNMP を有効にする方法については、ネットワークのドキュメントを参照してください。</block>
   <block id="449851d72d97c55d5d8dd56fa3dff3ca" category="list-text">溝アイコンをクリックします。</block>
   <block id="9a1a44708040ff06d2a790715445b2ae" category="list-text">[*Setup*] ペインで、 [*SNMP*] ウィンドウに移動します。</block>
   <block id="1e01452bf3b8d68277cafb5479383741" category="image-alt">SNMP 設定画面の部分的な図。 SNMP のステータスとトラップの有効ステータスが表示されます。</block>
   <block id="50c92866e2e75bed1c6c075bef66c90b" category="paragraph">クラスタの現在の SNMP ステータスを確認できます。</block>
   <block id="a57ed62e5049069939fcdd959fbcace6" category="paragraph">SNMP が有効になっていない場合は、 *Enable* をクリックします。</block>
-  <block id="8cb7868215363ddee37bc5c71dbc64f7" category="summary">このコンテンツでは、クラスタ管理レベルで SNMP を設定する方法、コミュニティ、セキュリティユーザ、トラップホストを追加する方法、および SNMP 通信をテストする方法について説明します。</block>
   <block id="e1e6982040bf2ce64d051e258c35e6ba" category="doc">SNMP 設定の概要</block>
-  <block id="01d34e7431244c8b073747822f8a6281" category="paragraph">このコンテンツは、クラスタへの SNMP アクセスを設定する場合に使用します。想定している状況は次のとおりです。</block>
-  <block id="50bd2ca6307a85534acea9deaf2783d3" category="paragraph">このコンテンツには、コマンドラインインターフェイスを使用する必要がある手順がいくつかあります。</block>
-  <block id="97d70b552c3628f1891300e3046cf131" category="paragraph">サブネット、クラスタ間 LIF 、ルート、ファイアウォールポリシーなど、さまざまなネットワークコンポーネントを設定する方法について説明しています。データ Storage Virtual Machine （ SVM ）用の SNMP コミュニティの作成方法、 SNMP トラップホストの管理方法についての説明もあります。</block>
-  <block id="68a1829dd881f9757e52dc504f1c53f2" category="paragraph">ONTAP における SNMP サポートについて説明します。 7-Mode 環境と ONTAP 環境での SNMP サポートの詳細な比較、 SNMP トラップでサポートされるすべてのデフォルトイベントのリストなどが含まれます。</block>
   <block id="df4de6621ef2967982300a1bbf1b511c" category="summary">SNMP を設定したら、クラスタをポーリングできることを確認する必要があります。</block>
   <block id="f42de8e0f38b895f1f99380bbd54d65b" category="doc">SNMP ポーリングのテスト</block>
   <block id="4f1e814e0a8e98d59f55c3108478cec7" category="paragraph">クラスタをポーリングするには、「 mpwalk 」などのサードパーティのコマンドを使用する必要があります。</block>
@@ -9732,4 +9713,32 @@
   <block id="83cb195869ecf30cf2bf909696d90958" category="inline-link">ONTAP 9 SAN 構成</block>
   <block id="429f603a3b811bb2b6b580119340e5c8" category="list-text"><block ref="429f603a3b811bb2b6b580119340e5c8" category="inline-link-rx"></block></block>
   <block id="9924ee2c6c9746d6e6c56a2812bbf674" category="list-text">_ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 <block ref="44f9482eaaa326b6591ec57007a0f626" category="inline-link-macro-rx"></block>)</block>
+  <block id="338bf9032271409bd86a2b6af23ab61f" category="summary">ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。</block>
+  <block id="acfaae8e3177fe2b3063f00cf811af45" category="paragraph">ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。</block>
+  <block id="e0a892dfce439218336a42f56534bd80" category="paragraph">SNMPv3 ユーザは、管理者が指定した認証およびプライバシー設定を使用して、トラップホスト（ SNMP マネージャ）から SNMP ユーティリティを実行できます。SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリティを提供します。</block>
+  <block id="ddbfc927af1c930518b887b204a829b8" category="paragraph">クラスタレベルで SNMPv3 ユーザを追加すると、このユーザは「 mgmt 」ファイアウォールポリシーが適用されているすべての LIF を介してクラスタにアクセスできるようになります。</block>
+  <block id="0de5ed44e79a2218dccb44b513df821b" category="list-text">[Engine ID] には、デフォルト値の [Local Engine ID] を選択します。</block>
+  <block id="b1a9a15b62a7d0b755276caad763ca77" category="summary">ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用すると、クラスタ管理レベルで SNMP を設定し、コミュニティ、セキュリティユーザ、トラップホストを追加し、 SNMP 通信をテストできます。</block>
+  <block id="8455203f202aecb0df782dd879a6c7bc" category="paragraph">ONTAP 9.7 以前の場合に ONTAP System Manager の _classic_ インターフェイスを使用すると、クラスタ管理レベルで SNMP を設定し、コミュニティ、セキュリティユーザ、トラップホストを追加し、 SNMP 通信をテストできます。</block>
+  <block id="507e721699d6953386548acef51396de" category="paragraph">クラスタへの SNMP アクセスを設定する場合は、次の手順を実行します。</block>
+  <block id="590b5ea8102a06469bd3b9ccc9d204f4" category="paragraph">これらの手順には、コマンドラインインターフェイスを使用する必要がある手順がいくつかあります。</block>
+  <block id="a705f06ddb4bd2e42b94bd6cde970604" category="paragraph">ONTAP 9 のすべてのバージョンで、を使用したクラスタへの SNMP アクセスを設定できます。使用している ONTAP のバージョンに適した手順を使用してください。</block>
+  <block id="e4b09d96d06f086f0f4ad96f7bc44bdd" category="inline-link">クラスタ上の SNMP の管理（クラスタ管理者のみ） &amp;gt; 概要</block>
+  <block id="99ac98f0447b7ff97bf3f308f10204f4" category="paragraph"><block ref="011e4c4754b8203759192a5760df2b28" category="inline-link-rx"></block></block>
+  <block id="78693e6a599cbd001479a67ff9fc0c8b" category="inline-link">SNMP を管理するためのコマンド</block>
+  <block id="ad6a2020137ce5e6d4da8d8ba1f1d189" category="paragraph"><block ref="ad6a2020137ce5e6d4da8d8ba1f1d189" category="inline-link-rx"></block></block>
+  <block id="05c79acee840a5a9297929e58237e1e2" category="summary">ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。</block>
+  <block id="1bb4bd250132fdfb4b0ebc598807a127" category="paragraph">ONTAP 9.7 以前で ONTAP System Manager の _classic_ インターフェイスを使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。</block>
+  <block id="36f78cb2c5f74f25928c0219f7f55661" category="paragraph">この手順は、クラスタの管理 SVM に SNMP コミュニティを追加するためのものです。データ SVM に SNMP コミュニティを追加するための手順については、を参照してください<block ref="3c1f6d1c98697da7f75eba93e6215af2" category="inline-link-rx"></block>。</block>
+  <block id="181ce7c186b93fe210a1978cfa64a967" category="summary">ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して SNMP トラップをテストできます。追加したトラップホストとの通信は自動では検証されないため、 SNMP トラップホストがトラップを正しく受信できることを確認する必要があります。</block>
+  <block id="a941ed57a7b6c5d886ed171d0a76b3b2" category="paragraph">ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用して SNMP トラップをテストできます。追加したトラップホストとの通信は自動では検証されないため、 SNMP トラップホストがトラップを正しく受信できることを確認する必要があります。</block>
+  <block id="1490b0cdf33325270394aa997d6c5e70" category="summary">ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタで SNMP が有効になっているかどうかを確認できます。</block>
+  <block id="cd84c13d00f4d443dc8bbf61a350243b" category="paragraph">ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用して、クラスタで SNMP が有効になっているかどうかを確認できます。</block>
+  <block id="7098585d319cf1fe0a2c07d7b127abd7" category="paragraph">データ LIF では、 SNMP はデフォルトで無効になっています。データ LIF で SNMP を有効にする方法については、を参照してください<block ref="c43245b646e9acefb75749236b9b8ef9" category="inline-link-rx"></block>。</block>
+  <block id="499a4d9e5d74e7480604b00648e1cc0d" category="summary">ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタでトラップが生成されたときに SNMP 通知（ SNMP トラッププロトコルデータユニット）を受信するトラップホスト（ SNMP マネージャ）を追加できます。</block>
+  <block id="c2a275afb33427f1508cf4eb8649d89c" category="paragraph">ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用して、クラスタでトラップが生成されたときに SNMP 通知（ SNMP トラッププロトコルデータユニット）を受信するトラップホスト（ SNMP マネージャ）を追加できます。</block>
+  <block id="37f74544cfbe22a720d08d54131dc423" category="list-text">[[stp2-verify-enable-traps] [* Trap Hosts] タブで、 [* トラップを有効にする *] チェックボックスがオンになっていることを確認し、 [* 追加 ] をクリックします。</block>
+  <block id="43ecbd82c9d430a2cf38fea5fc63ecfc" category="list-text">[[step3-enter-traphost - ip]] トラップホストの IP アドレスを入力し、 * Trap Hosts * ペインで * OK * をクリックします。</block>
+  <block id="2d5ce426423eeeead4f35769cd8b1b27" category="inline-xref">手順 3</block>
+  <block id="5c2875ed4750ec51d3b9e6f8639e11c2" category="list-text">別のトラップホストを追加するには、を繰り返します <block ref="8000247ac33c42c639b17ba5d3359976" category="inline-xref-macro-rx"></block> および <block ref="c1c49ad9c25f97e33816d3bc86eca4ea" category="inline-xref-macro-rx"></block>。</block>
 </blocks>
