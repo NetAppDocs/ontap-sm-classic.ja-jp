@@ -68,22 +68,17 @@
   <block id="3146bb680f4495ea91ff6b5cdf9f403d" category="doc">ボリュームリストアのワークフロー</block>
   <block id="1e2fcafb752b97c02abddd7988dbccb3" category="image-alt">次の図は SnapVault ボリュームリストアワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています</block>
   <block id="e9f56eb126455869bdb213c6b8827217" category="summary">著作権、商標、機械翻訳</block>
-  <block id="7e3416dacfda4dd0a1808fba5612f0a5" category="summary">このコンテンツでは、 ONTAP でデータが失われた場合に SnapVault バックアップからボリュームをリストアする簡単な方法について説明します。</block>
   <block id="12fb85c35a832a45fe275b73ae8a8e62" category="doc">SnapVault によるボリュームリストアの概要</block>
-  <block id="6060166bfcbf615698d3f9bb3eae7979" category="paragraph">このコンテンツは、 SnapVault バックアップからリストアする場合に次のように使用します。</block>
   <block id="fb0467de459ea64cd9ddc9de281c061b" category="list-text">クラスタで ONTAP 9 を実行している。</block>
   <block id="f1d375acce142a998998792cf507a24c" category="list-text">クラスタ管理者である。</block>
   <block id="d214f5545911f544c57be16079dad84c" category="inline-xref-macro">SnapVault を使用したボリュームのバックアップ</block>
-  <block id="19a0dd72039f6281a6d8a8585de14c4a" category="list-text">の説明に従って、 SnapVault 関係を設定しておきます手順 <block ref="f374ab402892ea91daa38f079bc00eff" category="inline-xref-macro-rx"></block></block>
   <block id="037316f9f31a24e629bb7bc8d53aa4db" category="list-text">単一ファイル / LUN のリストアを実行しない。</block>
   <block id="41a6f75570e8276bfdd8656708159091" category="list-text">すべての選択肢について検討するのではなく、ベストプラクティスに従う。</block>
   <block id="e1f9c75e0d34511fa7945c9a9bd4a301" category="list-text">背景にある概念について詳しく確認する必要はありません。</block>
   <block id="2152f76761d5c6a4279f0f404b969bc6" category="list-text">ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。</block>
   <block id="e8726682a54ea85f2123db66fd54ec79" category="inline-link">ONTAP System Manager のドキュメント</block>
   <block id="393a51fc1ea014203ab06257b17952d6" category="paragraph"><block ref="393a51fc1ea014203ab06257b17952d6" category="inline-link-rx"></block></block>
-  <block id="e8d2781b5b2bacdd6b52924bef266d50" category="paragraph">上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。</block>
   <block id="d330df82772bc211de4c19b45eedcb36" category="inline-link">ネットアップテクニカルレポート 4183 ：『 SnapVault ベストプラクティス』</block>
-  <block id="ac6b625e9157de1d4807d5582dabd049" category="list-text"><block ref="ac6b625e9157de1d4807d5582dabd049" category="inline-link-rx"></block></block>
   <block id="6016a2b341113bf496b719905398ecd2" category="summary">著作権</block>
   <block id="e10b5b38785c3a24ec75723ab75b4360" category="paragraph">Copyright © 2021 NetApp 、 Inc. All rights reserved.米国で印刷されています</block>
   <block id="2275e007ee598cef266c877f9c52ee25" category="paragraph">このドキュメントは著作権によって保護されています。画像媒体、電子媒体、および写真複写、記録媒体などの機械媒体など、いかなる形式および方法による複製も禁止します。 電子検索システムにテープを貼り付けたり、保存したりすることは、著作権所有者の書面による事前承諾がある場合を除きます。</block>
@@ -799,9 +794,7 @@
   <block id="d9754d70c58cd9e08660aa07fe333726" category="paragraph">この領域にピア関係にある SVM が表示されない場合は、 SnapVault 関係を作成するときに SVM ピア関係を作成できます。</block>
   <block id="71d1ddff7dfe7c5d5d498435abd07d64" category="inline-xref-macro">SnapVault 関係の作成（ ONTAP 9.2 以前）</block>
   <block id="7aba3f692e5d868662f8bb21f2d6b326" category="paragraph"><block ref="7aba3f692e5d868662f8bb21f2d6b326" category="inline-xref-macro-rx"></block></block>
-  <block id="3ac4fd05782e1953652bcf799a4d0275" category="summary">このコンテンツでは、異なるクラスタにあるボリューム間の SnapVault バックアップ関係を設定する簡単な方法について説明しています。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。</block>
   <block id="69011956b6eae7807e30a3ad838adf55" category="doc">SnapVault によるボリュームのバックアップの概要</block>
-  <block id="1fd1fb824fda8ddf4221750ca23af68b" category="paragraph">このコンテンツは、ボリュームの SnapVault バックアップ関係を作成する場合にご利用ください。想定している状況は次のとおりです。</block>
   <block id="a195f24ab26382d137f981d3a4b88f40" category="list-text">クラスタピア関係と SVM ピア関係を設定済みである。</block>
   <block id="4981318c1affb5f192b38fe8f9105db7" category="inline-xref-macro">クラスタと SVM のピア関係設定</block>
   <block id="e9b35c302b58579a90853e5349bd7152" category="paragraph"><block ref="e9b35c302b58579a90853e5349bd7152" category="inline-xref-macro-rx"></block></block>
@@ -1569,9 +1562,7 @@
   <block id="a0aac9e3d15ae2e6b75d0803be1cc8f9" category="paragraph">ONTAP 9.2 以前：デスティネーションボリュームを選択し、 * Snapshot コピー * &gt; * 設定 * をクリックします。</block>
   <block id="ac0c323d5c042d7a9c547a1b9c2c571e" category="list-text">Enable scheduled Snapshot Copies （スケジュールされた Snapshot コピーを有効にする）チェックボックスをオンにし、 * OK * をクリックします。</block>
   <block id="d905542c353c1c5dcc6d3968f0970fef" category="image-alt">ボリュームの Snapshot コピーを設定しています</block>
-  <block id="b9659a80d06cd29a99f4b70515421154" category="summary">このコンテンツでは、 ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明します。</block>
   <block id="b976d074c34b1b6db0e9a13e82b3cfd7" category="doc">ボリュームディザスタリカバリの概要</block>
-  <block id="21350c3dece1be95894ec9ca603c228b" category="paragraph">このコンテンツは、ボリュームレベルのディザスタリカバリ手順を実行する場合に使用します。想定している状況は次のとおりです。</block>
   <block id="5a844a817b490d1ff98b54d7b9733d86" category="list-text">SnapMirror 関係の設定は次のとおりです <block ref="50580e1f2cd43d40ef6e056bb5fc2ce7" category="inline-xref-macro-rx"></block></block>
   <block id="048e0b18c066e4f0ba53ec2635b0e4e6" category="list-text">ソースクラスタのクラスタ管理者が、ウィルス感染によるデータ破損や誤操作によるデータ削除など、何らかの理由でソースボリュームのデータを使用できなくなったと報告している。</block>
   <block id="090069178da9495d591fb8473b1279f0" category="summary">デスティネーションボリュームをアクティブ化したら、データにアクセスできるようにそのボリュームを設定する必要があります。NAS クライアントと SAN ホストは、ソースボリュームが再アクティブ化されるまでの間、デスティネーションボリュームのデータにアクセスできます。</block>
@@ -1673,9 +1664,6 @@
   <block id="fab2eed20be80651a7c2f147ec027380" category="paragraph">SnapMirror を使用すると、ブロックレベルの非同期データ保護をスケジュールに従って実行できます。Snapshot コピーがレプリケートされるだけでなく、 qtree や LUN を含むボリュームなど、重複排除やデータ圧縮を実行している NAS または SAN のボリュームもレプリケートできます。SnapMirror の設定情報はデータベースに格納され、 ONTAP がクラスタ内のすべてのノードにレプリケートします。</block>
   <block id="6a24f516827d99f674302536f72d66fa" category="list-text">ソースとデスティネーションの両方のクラスタで SnapMirror ライセンスを有効にしている。</block>
   <block id="23ee6fca3793e587122a68c14921baea" category="list-text">デフォルトのポリシーとスケジュールを使用し、カスタムポリシーは作成しない。</block>
-  <block id="419b01b6ce2521cb82d351d68353372d" category="inline-link">ONTAP 9 のコマンド</block>
-  <block id="315f9d93ad86bbbdc68e6c0ed3bf30c7" category="list-text"><block ref="315f9d93ad86bbbdc68e6c0ed3bf30c7" category="inline-link-rx"></block></block>
-  <block id="d46795a534921733c4114ca392437a44" category="paragraph">SnapMirror 関係を設定および管理するためのコマンドについて説明しています。SnapMirror コマンドを使用して、複数の SnapMirror 関係を作成するスクリプトを記述することもできます。</block>
   <block id="35cf113bfdff596c1e1f6d8983528225" category="summary">SnapMirror 関係のステータスを定期的に監視して、 SnapMirror データ転送が指定したスケジュールに従って実行されていることを確認する必要があります。</block>
   <block id="cf63bb78d13bb39199c13c80c9403e6c" category="doc">SnapMirror データ転送のステータスを監視します</block>
   <block id="ffe3c5dc6640d00a06faa934392cea79" category="list-text">ソースボリュームとデスティネーションボリューム間の SnapMirror 関係を選択し、 * Details * Bottom タブでステータスを確認します。</block>
@@ -9615,7 +9603,6 @@
 <block ref="74216a0b75808cc5b9ea280e5da3b2ee" category="inline-link-macro-rx"></block>
 
 <block ref="e8c191ccfc6229eab89e3d1a487a3051" category="inline-link-macro-rx"></block></block>
-  <block id="22abbe0f643126aaa00c8217f625f7d0" category="paragraph">詳細については、を参照してください。</block>
   <block id="7b346581f69360cf7a5a3d68d6071d87" category="paragraph">ESXi ホストとストレージシステムでは、ジャンボフレームの MTU を 9000 にします。ほとんどのスイッチでは、 9216 にします。ESXi NIC 、ストレージ NIC 、スイッチを含む、データパス内のすべてのネットワークデバイスでジャンボフレームがサポートされていて、最大 MTU 値用に設定する必要があります。</block>
   <block id="500a7615a552bfd7b3e98a4da85a4dab" category="inline-link-macro">データスイッチのネットワーク設定を確認します</block>
   <block id="48a0b712015f6610dc2a9e603d8b0ab9" category="paragraph">詳細については、を参照してください <block ref="f2d4b655efaaf4fcabdaa8bdd3143f17" category="inline-link-macro-rx"></block> およびスイッチベンダーのドキュメントを参照してください。</block>
@@ -9741,4 +9728,20 @@
   <block id="43ecbd82c9d430a2cf38fea5fc63ecfc" category="list-text">[[step3-enter-traphost - ip]] トラップホストの IP アドレスを入力し、 * Trap Hosts * ペインで * OK * をクリックします。</block>
   <block id="2d5ce426423eeeead4f35769cd8b1b27" category="inline-xref">手順 3</block>
   <block id="5c2875ed4750ec51d3b9e6f8639e11c2" category="list-text">別のトラップホストを追加するには、を繰り返します <block ref="8000247ac33c42c639b17ba5d3359976" category="inline-xref-macro-rx"></block> および <block ref="c1c49ad9c25f97e33816d3bc86eca4ea" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f1da5eb0d0af3b72296ff6ea293abf1d" category="summary">データが失われた場合に、 ONTAP の SnapVault バックアップからボリュームを迅速にリストアできます。</block>
+  <block id="a83933a5831bf519e27991cf44ceb37d" category="paragraph">この手順は、次の方法でバックアップからリストアする場合に使用します。</block>
+  <block id="df8bf92d5be901142de43a17a76136d6" category="list-text">の説明に従って、バックアップ関係を設定しておきます手順 <block ref="f374ab402892ea91daa38f079bc00eff" category="inline-xref-macro-rx"></block></block>
+  <block id="8a777620567a2731f9f4a5d3231adea0" category="list-text">ONTAP 9.7 以降では、 ONTAP System Manager の UI ではなく、 ONTAP 9.7 以前のリリースで System Manager のクラシックインターフェイスを使用する。</block>
+  <block id="6ebbaa287d42ffc1e685b182354fd9a3" category="paragraph">上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。</block>
+  <block id="ba92b176fe6a769b35bab1c70554c4c5" category="paragraph"><block ref="ba92b176fe6a769b35bab1c70554c4c5" category="inline-link-macro-rx"></block></block>
+  <block id="d13b3b3f75bd6a036c11916e3591f4a0" category="inline-link-macro">新しいボリュームにリストアします</block>
+  <block id="98bea63848e0280aa6726c9af37272b1" category="cell"><block ref="98bea63848e0280aa6726c9af37272b1" category="inline-link-macro-rx"></block></block>
+  <block id="10225b4a3220f4567287aaebfb262b69" category="summary">ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、災害発生後にデスティネーションボリュームを簡単にアクティブ化し、 ONTAP でソースボリュームを再アクティブ化できます。</block>
+  <block id="cb275f350cc0aec728316638deb59ec9" category="paragraph">この手順は、ボリュームレベルのディザスタリカバリを実行する場合に使用します。想定している状況は次のとおりです。</block>
+  <block id="58a5797a7a7d55e1f2ecd9b9efb022e4" category="inline-link-macro">SnapMirror デスティネーションからのデータの提供</block>
+  <block id="481fa3249b4ddccae45b4e1b0815d92e" category="cell"><block ref="481fa3249b4ddccae45b4e1b0815d92e" category="inline-link-macro-rx"></block></block>
+  <block id="99000d502156eed268af7a57b38b5349" category="summary">異なるクラスタにあるボリューム間の SnapVault バックアップ関係を簡単に設定できます。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。</block>
+  <block id="2eb25c4bc3b20639690110cbc86004ac" category="paragraph">この手順は、ボリュームの SnapVault バックアップ関係を作成する場合に使用します。想定している状況は次のとおりです。</block>
+  <block id="0ab2e738a87c45441fb3dbe779b7805c" category="inline-link-macro">ミラーとバックアップを設定します</block>
+  <block id="ff17478d188b125f6ef5aab076ca6e0e" category="cell"><block ref="ff17478d188b125f6ef5aab076ca6e0e" category="inline-link-macro-rx"></block></block>
 </blocks>
