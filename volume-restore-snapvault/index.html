@@ -9,7 +9,7 @@
   <meta property="og:title" content="SnapVault によるボリュームリストアの概要" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/volume-restore-snapvault/index.html" />
-	<meta property="og:description" content="このコンテンツでは、 ONTAP でデータが失われた場合に SnapVault バックアップからボリュームをリストアする簡単な方法について説明します。" />
+	<meta property="og:description" content="データが失われた場合に、 ONTAP の SnapVault バックアップからボリュームを迅速にリストアできます。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="このコンテンツでは、 ONTAP でデータが失われた場合に SnapVault バックアップからボリュームをリストアする簡単な方法について説明します。">
-  <meta name="keywords" content=" content, restore, volume, snapvault, backup, ontap, data, loss, volume restore using snapvault overview">
+  <meta name="description" content="データが失われた場合に、 ONTAP の SnapVault バックアップからボリュームを迅速にリストアできます。">
+  <meta name="keywords" content=" content, restore, volume, snapvault, vault, backup, ontap, data, loss, volume restore using snapvault overview">
   
   
 
@@ -11858,6 +11858,14 @@
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-lenida">
+    <img  class="avatar avatar-small"
+          alt="netapp-lenida"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54081920?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -11872,11 +11880,13 @@
 </p>
 
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>このコンテンツでは、 ONTAP でデータが失われた場合に SnapVault バックアップからボリュームをリストアする簡単な方法について説明します。</p>
+<p>データが失われた場合に、 ONTAP の SnapVault バックアップからボリュームを迅速にリストアできます。</p>
 </div>
 <div class="paragraph">
-<p>このコンテンツは、 SnapVault バックアップからリストアする場合に次のように使用します。</p>
+<p>この手順は、次の方法でバックアップからリストアする場合に使用します。</p>
 </div>
 <div class="ulist">
 <ul>
@@ -11887,7 +11897,7 @@
 <p>クラスタ管理者である。</p>
 </li>
 <li>
-<p>の説明に従って、 SnapVault 関係を設定しておきます手順 <a href="../volume-backup-snapvault/index.html">SnapVault を使用したボリュームのバックアップ</a></p>
+<p>の説明に従って、バックアップ関係を設定しておきます手順 <a href="../volume-backup-snapvault/index.html">SnapVault を使用したボリュームのバックアップ</a></p>
 </li>
 <li>
 <p>単一ファイル / LUN のリストアを実行しない。</p>
@@ -11899,28 +11909,44 @@
 <p>背景にある概念について詳しく確認する必要はありません。</p>
 </li>
 <li>
-<p>ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。</p>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/ontap/" target="_blank" rel="noopener">"ONTAP System Manager のドキュメント"</a></p>
-</div>
+<p>ONTAP 9.7 以降では、 ONTAP System Manager の UI ではなく、 ONTAP 9.7 以前のリリースで System Manager のクラシックインターフェイスを使用する。</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/data-protection/index.html" target="_blank" rel="noopener">"データ保護"</a></p>
-</li>
-<li>
-<p><a href="http://www.netapp.com/us/media/tr-4015.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"</a></p>
-</li>
-<li>
+<div class="paragraph">
 <p><a href="http://www.netapp.com/us/media/tr-4183.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4183 ：『 SnapVault ベストプラクティス』"</a></p>
-</li>
-</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ontap-でこれを行うその他の方法">ONTAP でこれを行うその他の方法</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">実行するタスク</th>
+<th class="tableblock halign-left valign-top">参照するコンテンツ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">再設計された System Manager （ ONTAP 9.7 以降で使用可能）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/task_dp_restore_to_new_volume.html" target="_blank" rel="noopener">"新しいボリュームにリストアします"</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP のコマンドラインインターフェイス</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/data-protection/index.html" target="_blank" rel="noopener">"CLI によるデータ保護の概要"</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
     </article>

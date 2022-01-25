@@ -9,7 +9,7 @@
   <meta property="og:title" content="SnapVault によるボリュームのバックアップの概要" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/volume-backup-snapvault/index.html" />
-	<meta property="og:description" content="このコンテンツでは、異なるクラスタにあるボリューム間の SnapVault バックアップ関係を設定する簡単な方法について説明しています。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた..." />
+	<meta property="og:description" content="異なるクラスタにあるボリューム間の SnapVault バックアップ関係を簡単に設定できます。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="このコンテンツでは、異なるクラスタにあるボリューム間の SnapVault バックアップ関係を設定する簡単な方法について説明しています。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた...">
+  <meta name="description" content="異なるクラスタにあるボリューム間の SnapVault バックアップ関係を簡単に設定できます。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。">
   <meta name="keywords" content=" content, configure, snapvault, backup, relationship, volume, cluster, read-only, copies, copy, locate, destination, volume, restoring, restore, data, corrupt, lost, volume backup using snapvault overview">
   
   
@@ -11858,6 +11858,14 @@
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-lenida">
+    <img  class="avatar avatar-small"
+          alt="netapp-lenida"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54081920?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -11872,11 +11880,13 @@
 </p>
 
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>このコンテンツでは、異なるクラスタにあるボリューム間の SnapVault バックアップ関係を設定する簡単な方法について説明しています。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。</p>
+<p>異なるクラスタにあるボリューム間の SnapVault バックアップ関係を簡単に設定できます。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。</p>
 </div>
 <div class="paragraph">
-<p>このコンテンツは、ボリュームの SnapVault バックアップ関係を作成する場合にご利用ください。想定している状況は次のとおりです。</p>
+<p>この手順は、ボリュームの SnapVault バックアップ関係を作成する場合に使用します。想定している状況は次のとおりです。</p>
 </div>
 <div class="ulist">
 <ul>
@@ -11911,28 +11921,44 @@
 <p>ONTAP のコマンドラインインターフェイスや自動スクリプトツールではなく、 System Manager を使用する。</p>
 </li>
 <li>
-<p>ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。</p>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/ontap/" target="_blank" rel="noopener">"ONTAP System Manager のドキュメント"</a></p>
-</div>
+<p>ONTAP 9.7 以降では、 ONTAP System Manager の UI ではなく、 ONTAP 9.7 以前のリリースで System Manager のクラシックインターフェイスを使用する。</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/data-protection/index.html" target="_blank" rel="noopener">"データ保護"</a></p>
-</li>
-<li>
-<p><a href="http://www.netapp.com/us/media/tr-4015.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"</a></p>
-</li>
-<li>
+<div class="paragraph">
 <p><a href="http://www.netapp.com/us/media/tr-4183.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4183 ：『 SnapVault ベストプラクティス』"</a></p>
-</li>
-</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ontap-でこれを行うその他の方法">ONTAP でこれを行うその他の方法</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">実行するタスク</th>
+<th class="tableblock halign-left valign-top">参照するコンテンツ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">再設計された System Manager （ ONTAP 9.7 以降で使用可能）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/task_dp_configure_mirror.html" target="_blank" rel="noopener">"ミラーとバックアップを設定します"</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP のコマンドラインインターフェイス</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/data-protection/index.html" target="_blank" rel="noopener">"CLI によるデータ保護の概要"</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
     </article>
