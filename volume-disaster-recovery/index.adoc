@@ -36,5 +36,5 @@ ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前
 | 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_dp_serve_data_from_destination.html["SnapMirror デスティネーションからのデータの提供"^] 
 
 
-| ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["CLI によるデータ保護の概要"^] 
+| ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/data-protection/make-destination-volume-writeable-task.html["デスティネーションボリュームをアクティブ化"^] 
 |===

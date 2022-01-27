@@ -1,7 +1,7 @@
 ---
 permalink: volume-disaster-prep/index.html 
 sidebar: sidebar 
-keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview 
+keywords: content, protect, source, volume, peer, ontap, cluster, preparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview 
 summary: ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを簡単に保護することができます。このコンテンツは、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合にご利用ください。タスクの背景にある概念については、本書では詳しく説明していません。 
 ---
 = ボリュームのディザスタリカバリの準備の概要
@@ -39,5 +39,5 @@ xref:../peering/index.html[クラスタと SVM のピア関係設定]
 | 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_dp_prepare_mirror.html["ミラーとバックアップを準備"^] 
 
 
-| ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["CLI によるデータ保護の概要"^] 
+| ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/peering/create-cluster-relationship-93-later-task.html["クラスタピア関係を作成する（ ONTAP 9.3 以降）"^] 
 |===

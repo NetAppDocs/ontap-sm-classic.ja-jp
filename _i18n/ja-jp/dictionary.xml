@@ -9548,8 +9548,6 @@
   <block id="0e4222b86d7998dfe8825bb8a6cde95d" category="list-text">すべての選択肢（ ONTAP 9.7 以前）について検討するのではなく、ベストプラクティスを使用する場合</block>
   <block id="65716a8cb6a3032b7384db5b9f2e6f30" category="inline-link-macro">ミラーとバックアップを準備</block>
   <block id="778de7f7e16dc5b7548bcce4e90f62f5" category="cell"><block ref="778de7f7e16dc5b7548bcce4e90f62f5" category="inline-link-macro-rx"></block></block>
-  <block id="753714749b40647298f8b1072ea295e3" category="inline-link-macro">CLI によるデータ保護の概要</block>
-  <block id="a38ba96a8cc4d2088b0fddf90f7c13d3" category="cell"><block ref="a38ba96a8cc4d2088b0fddf90f7c13d3" category="inline-link-macro-rx"></block></block>
   <block id="ea1287193924e34a602b1e05277f6731" category="paragraph">ONTAP の SMB プロトコル機能の範囲の詳細については、を参照してください <block ref="508497ea578beb819bbaa0e137c4ede1" category="inline-link-macro-rx"></block>。</block>
   <block id="10a45a2d4ec037857c0c7c1605b95bb2" category="inline-link-macro">LDAP の使用方法の概要</block>
   <block id="be783ea71cc23a3edbff3615cb4f8db0" category="paragraph">別の種類の LDAP を使用する場合は、他のドキュメントに従って、コマンドラインインターフェイス（ CLI ）を使用して LDAP を設定する必要があります。詳細については、を参照してください <block ref="d3b872660ddf7d41d95bc18138ecd3fb" category="inline-link-macro-rx"></block>。</block>
@@ -9734,8 +9732,6 @@
   <block id="8a777620567a2731f9f4a5d3231adea0" category="list-text">ONTAP 9.7 以降では、 ONTAP System Manager の UI ではなく、 ONTAP 9.7 以前のリリースで System Manager のクラシックインターフェイスを使用する。</block>
   <block id="6ebbaa287d42ffc1e685b182354fd9a3" category="paragraph">上記の想定条件に該当しない場合、または背景にある概念について詳しく学びたい場合は、次の資料を参照してください。</block>
   <block id="ba92b176fe6a769b35bab1c70554c4c5" category="paragraph"><block ref="ba92b176fe6a769b35bab1c70554c4c5" category="inline-link-macro-rx"></block></block>
-  <block id="d13b3b3f75bd6a036c11916e3591f4a0" category="inline-link-macro">新しいボリュームにリストアします</block>
-  <block id="98bea63848e0280aa6726c9af37272b1" category="cell"><block ref="98bea63848e0280aa6726c9af37272b1" category="inline-link-macro-rx"></block></block>
   <block id="10225b4a3220f4567287aaebfb262b69" category="summary">ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、災害発生後にデスティネーションボリュームを簡単にアクティブ化し、 ONTAP でソースボリュームを再アクティブ化できます。</block>
   <block id="cb275f350cc0aec728316638deb59ec9" category="paragraph">この手順は、ボリュームレベルのディザスタリカバリを実行する場合に使用します。想定している状況は次のとおりです。</block>
   <block id="58a5797a7a7d55e1f2ecd9b9efb022e4" category="inline-link-macro">SnapMirror デスティネーションからのデータの提供</block>
@@ -9744,4 +9740,13 @@
   <block id="2eb25c4bc3b20639690110cbc86004ac" category="paragraph">この手順は、ボリュームの SnapVault バックアップ関係を作成する場合に使用します。想定している状況は次のとおりです。</block>
   <block id="0ab2e738a87c45441fb3dbe779b7805c" category="inline-link-macro">ミラーとバックアップを設定します</block>
   <block id="ff17478d188b125f6ef5aab076ca6e0e" category="cell"><block ref="ff17478d188b125f6ef5aab076ca6e0e" category="inline-link-macro-rx"></block></block>
+  <block id="7314111db4d1ab68bd4790d9567aef10" category="inline-link-macro">クラスタピア関係を作成する（ ONTAP 9.3 以降）</block>
+  <block id="739bd97d03e1660c7b0b9090b2ce869d" category="cell"><block ref="739bd97d03e1660c7b0b9090b2ce869d" category="inline-link-macro-rx"></block></block>
+  <block id="1eb6b1379ace9f3164a4b23322349ae1" category="inline-link-macro">以前の Snapshot コピーからボリュームをリストアします</block>
+  <block id="b9f94d302c937cc4c4ba2067970f1c6e" category="cell"><block ref="b9f94d302c937cc4c4ba2067970f1c6e" category="inline-link-macro-rx"></block></block>
+  <block id="6a0d1806e5838e45b0d333fc13ccdc9f" category="inline-link-macro">SnapMirror デスティネーションからボリュームの内容をリストアします</block>
+  <block id="a9a7d298818fd6094e22bcd348413302" category="cell"><block ref="a9a7d298818fd6094e22bcd348413302" category="inline-link-macro-rx"></block></block>
+  <block id="f205880bd75b275fcf9d29129366911d" category="cell"><block ref="f205880bd75b275fcf9d29129366911d" category="inline-link-macro-rx"></block></block>
+  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">レプリケーション関係を作成</block>
+  <block id="40073759c151f2edb4c6d90ee54f1d3f" category="cell"><block ref="40073759c151f2edb4c6d90ee54f1d3f" category="inline-link-macro-rx"></block></block>
 </blocks>

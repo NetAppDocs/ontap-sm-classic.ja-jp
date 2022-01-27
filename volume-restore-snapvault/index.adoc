@@ -36,8 +36,8 @@ link:http://www.netapp.com/us/media/tr-4183.pdf["ネットアップテクニカ�
 | 実行するタスク | 参照するコンテンツ 
 
 
-| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_dp_restore_to_new_volume.html["新しいボリュームにリストアします"^] 
+| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_dp_restore_from_vault.html["以前の Snapshot コピーからボリュームをリストアします"^] 
 
 
-| ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["CLI によるデータ保護の概要"^] 
+| ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/data-protection/restore-volume-snapvault-backup-task.html["SnapMirror デスティネーションからボリュームの内容をリストアします"^] 
 |===
