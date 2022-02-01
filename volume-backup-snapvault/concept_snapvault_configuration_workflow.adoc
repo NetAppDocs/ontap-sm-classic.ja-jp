@@ -12,4 +12,4 @@ summary: SnapVault バックアップ関係の設定では、クラスタピア�
 [role="lead"]
 SnapVault バックアップ関係の設定では、クラスタピア関係を確認し、ソースボリュームとデスティネーションボリュームの間に SnapVault 関係を作成し、 SnapVault 関係を監視します。
 
-image::../media/snapvault_workflow.gif[この図は SnapVault バックアップの設定ワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。]
+image::../media/snapvault_workflow.gif[この図は SnapVault バックアップの設定ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。]

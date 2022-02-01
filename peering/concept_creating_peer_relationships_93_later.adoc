@@ -1,10 +1,10 @@
 ---
 permalink: peering/concept_creating_peer_relationships_93_later.html 
 sidebar: sidebar 
-keywords: peer, relationship, define, network, connection, enable, cluster, svm, exchange, data, secure, ontap, configure, configure peer relationships, starting with ontap 9.3 
+keywords: peer, relationship, define, network, connection, enable, cluster, svm, exchange, data, secure, ontap, configure, configure peer relationships, Beginning with ontap 9.3 
 summary: ピア関係で定義されるネットワーク接続により、クラスタ間および SVM 間でデータをセキュアにやり取りすることができます。ONTAP 9.3 以降では、 ONTAP 9.7 までの ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタ間および SVM 間のピア関係を簡単に設定することができます。 
 ---
-= ピア関係を設定する（ ONTAP 9.3 以降）
+= ピア関係の設定（ ONTAP 9.3 以降）
 :icons: font
 :imagesdir: ../media/
 

@@ -12,4 +12,4 @@ summary: SNMP の設定には、 SNMP の有効化、 SNMPv1 または SNMPv2c �
 [role="lead"]
 SNMP の設定には、 SNMP の有効化、 SNMPv1 または SNMPv2c コミュニティの設定（オプション）、 SNMPv3 ユーザの追加、 SNMP トラップホストの追加、 SNMP ポーリングとトラップのテストが含まれます。
 
-image::../media/snmp_config_workflow.gif[次の図は SNMP 設定ワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。]
+image::../media/snmp_config_workflow.gif[次の図は SNMP 設定ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。]

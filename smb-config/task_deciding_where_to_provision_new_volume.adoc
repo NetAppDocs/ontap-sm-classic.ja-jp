@@ -18,20 +18,20 @@ summary: 新しい CIFS ボリュームを作成する前に、そのボリュ�
 
 * 新しい SVM にボリュームをプロビジョニングする場合は、 CIFS 対応 SVM を新規に作成します。
 +
-xref:task_creating_protocol_enabled_svm.adoc[CIFS 対応 SVM の新規作成]
+link:task_creating_protocol_enabled_svm.html["CIFS 対応 SVM の新規作成"]
 
 +
 既存の SVM で CIFS を有効にしていない場合は、この手順に従ってください。
 
 * CIFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する CIFS / SMB アクセスを設定します。
 +
-xref:task_configuring_access_to_existing_svm.adoc[既存の SVM で CIFS / SMB アクセスを設定]
+link:task_configuring_access_to_existing_svm.html["既存の SVM で CIFS / SMB アクセスを設定"]
 
 +
-このコンテンツで手順を使用して SAN アクセス用の SVM を作成している場合は、この手順に従ってください。
+手順を使用して SAN アクセス用の SVM を作成した場合は、この手順に従ってください。
 
 * CIFS アクセスの設定が完了している既存の SVM にボリュームをプロビジョニングする場合は、 CIFS 対応 SVM に CIFS ボリュームを追加します。
 +
-xref:concept_adding_protocol_volume_to_protocol_enabled_svm.adoc[CIFS 対応 SVM への CIFS ボリュームの追加]
+link:concept_adding_protocol_volume_to_protocol_enabled_svm.html["CIFS 対応 SVM への CIFS ボリュームの追加"]
 
 

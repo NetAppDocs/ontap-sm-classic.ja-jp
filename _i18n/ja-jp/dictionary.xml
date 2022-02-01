@@ -10,7 +10,6 @@
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="dfaf4ee908af7c1c38732294879d26bc" category="list-text">[* Volumes （ボリューム） ] ウィンドウに移動します。</block>
   <block id="78174392975039e32e6bd8eb0e9aeab6" category="list-text">ボリュームのリストでソースボリュームを選択し、 ONTAP のバージョンに応じて次のいずれかの操作を実行します。</block>
-  <block id="b789e10beac24a49bc99e368ff212686" category="list-text">ONTAP 9.3 以降：ソースボリュームをダブルクリックして詳細を表示し、 * protection * をクリックして、 SnapMirror 関係のデスティネーションボリュームと、ボリュームが含まれている SVM の名前を特定します。</block>
   <block id="097c7b182b009e4356d5542de13a525f" category="list-text">ONTAP 9.2 以前：「 * データ保護 * 下部」タブをクリックして、 SnapMirror 関係のデスティネーションボリュームと、ボリュームが含まれている SVM の名前を特定します。Type フィールドには ' 一時的に Restore が表示されますリストア処理が完了すると、フィールドに「 Vault 」と表示されます。</block>
   <block id="09fc6f48dd97ed416fbbde338efcfa4b" category="paragraph">SnapVault 関係に問題がある場合は、トラブルシューティングを行ってください。SnapMirror 関係のトラブルシューティング手順は、 SnapVault 関係にも適用できます。</block>
   <block id="73b78c43309e115e0e384388b5b2344a" category="inline-link">ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』</block>
@@ -20,7 +19,6 @@
   <block id="a2f32c62e6a23641ed04b59a8afa2d7e" category="paragraph">このタスクは、 * デスティネーション * クラスタから実行する必要があります。</block>
   <block id="42e550201f4382514a38476e1153d227" category="list-text">実行している System Manager のバージョンに応じて、次のいずれかの手順を実行します。</block>
   <block id="4b67e9dc4636898f3adde0efd77aea20" category="list-text">ONTAP 9.4 以前： ［ * 保護 * ］ &gt; ［ * 関係 * ］ をクリックします。</block>
-  <block id="5e30f29400cec15492168c2c68955b25" category="list-text">ONTAP 9.5 以降： * Protection * &gt; * Volume Relationships * をクリックします。</block>
   <block id="3b1422bc1362c2e83ce270f11a6fa026" category="list-text">SnapVault バックアップデスティネーションボリュームが格納された SVM を選択し、 * Operations * &gt; * Restore * をクリックします。</block>
   <block id="97f24dc8183ea6a87e786db8e54315fd" category="list-text">[ * リストア * ] ダイアログ・ボックスで、元のソース・ボリュームまたは新しいボリュームにデータをリストアします。</block>
   <block id="ebba0f3fde989e2ad2b7a64371ed1f8a" category="cell">リストア先</block>
@@ -66,7 +64,6 @@
   <block id="ac1a1da03e093afb2af0d0bd79ace5a7" category="paragraph">ディザスタリカバリに備えた ONTAP クラスタの設定の概念について説明しています。</block>
   <block id="44d084096c54a12a05f20784871ac9d2" category="summary">ソースボリュームを使用できない場合やデータが破損した場合は、 SnapVault バックアップからリストアできます。SnapVault バックアップからボリュームをリストアするときは、 SnapVault デスティネーションボリュームを選択し、新しいボリュームまたは既存のボリュームにリストアして、リストア処理を確認します。</block>
   <block id="3146bb680f4495ea91ff6b5cdf9f403d" category="doc">ボリュームリストアのワークフロー</block>
-  <block id="1e2fcafb752b97c02abddd7988dbccb3" category="image-alt">次の図は SnapVault ボリュームリストアワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています</block>
   <block id="e9f56eb126455869bdb213c6b8827217" category="summary">著作権、商標、機械翻訳</block>
   <block id="12fb85c35a832a45fe275b73ae8a8e62" category="doc">SnapVault によるボリュームリストアの概要</block>
   <block id="fb0467de459ea64cd9ddc9de281c061b" category="list-text">クラスタで ONTAP 9 を実行している。</block>
@@ -104,16 +101,11 @@
   <block id="8c4271e6faf2cea4cfc8e5b7108d8ee9" category="section-title">手順</block>
   <block id="090e570eb7ef12715e532e16a7a9e28d" category="list-text">すでに iSCSI 用に設定されている SVM にボリュームをプロビジョニングする場合は、 iSCSI サービスが実行されていることを確認してから、 SVM に LUN を作成する必要があります。</block>
   <block id="4b1a4dfd0a0ce33b3088f060bc74e5f2" category="inline-xref-macro">既存の SVM での iSCSI サービスの実行状況の確認</block>
-  <block id="1801b4cc70cddfa789288657b1da00b8" category="paragraph"><block ref="1801b4cc70cddfa789288657b1da00b8" category="inline-xref-macro-rx"></block></block>
   <block id="87101a8948019b68800f1e2e82772de8" category="inline-xref-macro">LUN を作成する</block>
-  <block id="55a7de21b68cc03c87c146620bfb7e42" category="paragraph"><block ref="55a7de21b68cc03c87c146620bfb7e42" category="inline-xref-macro-rx"></block></block>
   <block id="884720f362870bd564db280e0aec2372" category="list-text">iSCSI が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM で iSCSI を設定します。</block>
   <block id="9bc2721cd9fc9cf7ea4053c001933b27" category="inline-xref-macro">既存の SVM で iSCSI を設定</block>
-  <block id="ad19d5572878279d6e01ec6c31d38a0c" category="paragraph"><block ref="ad19d5572878279d6e01ec6c31d38a0c" category="inline-xref-macro-rx"></block></block>
-  <block id="2aa9f0b2db01cb6f2fd46dbb74e141dc" category="paragraph">これは、別のプロトコルを設定する際に、このコンテンツの手順に従って SVM を作成していない場合に該当します。</block>
   <block id="e642923defb78474b5b1ea0e05dff173" category="list-text">新しい SVM にボリュームをプロビジョニングする場合は、 SVM を作成します。</block>
   <block id="7815b72d3714283fe9d8c9c1dcb77a58" category="inline-xref-macro">新しい SVM を作成</block>
-  <block id="1b2377376469943ab7a3b55002d9047e" category="paragraph"><block ref="1b2377376469943ab7a3b55002d9047e" category="inline-xref-macro-rx"></block></block>
   <block id="01ef2656131002624bd8800dc1411f9c" category="summary">Windows ホストには、クラスタ内の各ノードへの iSCSI 接続が必要です。ホストからセッションを確立するには、ホストの iSCSI Initiator Properties （ iSCSI イニシエータのプロパティ）ダイアログボックスを使用します。</block>
   <block id="00aacabbbdec03388c104caae2f588c4" category="doc">ターゲットとの iSCSI セッションを開始します</block>
   <block id="fca1a640bdae61801d7d57d8bc18c99f" category="paragraph">アクセスする LUN を含む Storage Virtual Machine （ SVM ）の iSCSI データ LIF の IP アドレスを確認しておく必要があります。</block>
@@ -232,7 +224,6 @@
   <block id="3bfd8fcba76ba60506329617822d7cfb" category="summary">iSCSI を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="6355207468aa480a9ef27915132727a9" category="doc">iSCSI の構成とプロビジョニングのワークフロー</block>
   <block id="94b2b1682b5ee0dcb83093b29aacc0c2" category="paragraph">iSCSI を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine （ SVM ）でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
-  <block id="754aa4478c730fbfa9d4223931a05129" category="image-alt">次の図は iSCSI のワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。</block>
   <block id="78364e197322fa1adedc7b4c2f342be8" category="summary">Windows ホストから初めてアクセスした時点では、新しい LUN にはパーティションやファイルシステムは設定されていません。LUN を初期化し、必要に応じてファイルシステムでフォーマットする必要があります。</block>
   <block id="386ccb2e8dcd4e20c2be59525cd18126" category="doc">LUN を初期化してフォーマット</block>
   <block id="f399428927e9a083db1d12ba42596644" category="paragraph">Windows ホストで LUN が検出されている必要があります。</block>
@@ -399,10 +390,7 @@
   <block id="119f66f1656f0804d97d0810145ab51a" category="doc">クラスタと SVM のピア関係作成ワークフロー</block>
   <block id="ec9fcbebd42ea9494bccba627cc719af" category="image-alt">この図には説明が付随しています</block>
   <block id="448a93318b47d478faa524243efca7ab" category="paragraph">ONTAP 9.2 以前を実行している場合は、ソースボリュームとデスティネーションボリュームの間にデータ保護関係を作成するときに SVM ピア関係を作成します。</block>
-  <block id="c9cd6915d52128767cef1eedc8f81ee4" category="doc">ピア関係を設定する（ ONTAP 9.3 以降）</block>
   <block id="75180ea62e7fa36539c66f0f6b476101" category="summary">2 つのクラスタ間にクラスタピア関係を作成するには、システム生成のパスフレーズおよびリモートクラスタのクラスタ間 LIF の IP アドレスを指定します。</block>
-  <block id="acf0cde59bcb3c99d1c61d915040c3b1" category="doc">クラスタピア関係を作成する（ ONTAP 9.3 以降）</block>
-  <block id="287f683418370bc5cd4deb0117c08675" category="paragraph">ONTAP 9.6 以降では、新しく作成されるすべてのクラスタピア関係で、クラスタピアリングの暗号化がデフォルトで有効になります。ONTAP 9.6 にアップグレードする前に作成されたピア関係については、クラスタピアリングの暗号化を手動で有効にする必要があります。ONTAP 9.5 以前を実行しているクラスタでは、クラスタピアリングの暗号化を使用できません。したがって、クラスタピアリングの暗号化を有効にするには、ピア関係の両方のクラスタが ONTAP 9.6 を実行している必要があります。</block>
   <block id="77e9d0af28e30a67428e9b6546e43f4f" category="paragraph">クラスタピアリングの暗号化は、 Transport Security Layer （ TLS ）を使用して、 FlexCache や ONTAP などの 機能用のクラスタ間ピアリング通信を保護します。</block>
   <block id="44b137d90711cdaa897728e8562aa157" category="list-text">「 * ターゲットクラスタのクラスタ間 LIF IP アドレス」フィールドに、リモートクラスタのクラスタ間 LIF の IP アドレスを入力します。</block>
   <block id="1067b117ccb384868ce6015f61994d8b" category="list-text">リモートクラスタの管理アドレスを指定します。</block>
@@ -451,7 +439,6 @@
   <block id="49cd84454679a27458c872c9ace042b9" category="paragraph">クラスタピアリングを含むレプリケーションの設定に関する情報とベストプラクティスが記載されています。</block>
   <block id="af3105008d9137bb4ebe947f8d9d7087" category="paragraph">クラスタピアリングの概念が記載されています。</block>
   <block id="15a0758c33949127593b5cd110c04f31" category="summary">クラスタ間論理インターフェイス（ LIF ）を作成すると、クラスタネットワークでノードとの通信が可能になります。クラスタ間 LIF は、ピア関係を作成する各クラスタの各ノードで、ピアリングに使用する各 IPspace 内に作成する必要があります。</block>
-  <block id="935bf5a6ad6bb2d7422e583d8c45bd71" category="doc">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
   <block id="69d613f0b1df8f585d33eb748445b160" category="paragraph">たとえば、 4 ノードクラスタを IPspace A 上でクラスタ X とピアリングし、 IPspace Y 上でクラスタ Y とピアリングする場合、合計 8 個のクラスタ間 LIF が必要です。 IPspace A に 4 つ（ノードごとに 1 つ）、 IPspace Y に 4 つ（ノードごとに 1 つ）。</block>
   <block id="f20e536310ccfe92ed37a0b8bed05eeb" category="paragraph">この手順は、ピア関係を作成する両方のクラスタで実行する必要があります。</block>
   <block id="cb46647eae39fbca2f3ecf96051ef1e0" category="list-text">[ * Configuration * ] &gt; [* Advanced Cluster Setup* ] をクリックします。</block>
@@ -471,14 +458,11 @@
   <block id="eab8d07cf1f9bc385c7b435d61f3da67" category="cell">関係</block>
   <block id="5dfac8d83a8aff5afac2d6ac06468b2b" category="cell">パスフレーズ</block>
   <block id="988416070af00a205b7799cefcf26027" category="paragraph">クラスタ A とクラスタ B</block>
-  <block id="11f7e8e6d7e3f510fe75a9277d109e26" category="paragraph">ONTAP 9.3 以降では、クラスタピア関係を作成する際にリモートクラスタからパスフレーズを生成できます。</block>
-  <block id="c1a0324a117c163a86f00c8940068d8c" category="inline-xref-macro">クラスタピア関係の作成（ ONTAP 9.3 以降）</block>
   <block id="9b6a1c70533b3b4e2b0042eb9fd18368" category="list-text">クラスタ間 LIF に使用するサブネット、 IP アドレス、およびポートを特定します。</block>
   <block id="a4c4dffb188be95eb563d8d9c67f8b00" category="paragraph">デフォルトでは、 IP アドレスはサブネットから自動的に選択されます。IP アドレスを手動で指定する場合は、その IP アドレスがすでにサブネットにあるか、あとでサブネットに追加できることを確認する必要があります。サブネットに関する情報は、 [ ネットワーク ] タブで確認できます。</block>
   <block id="7b4cd84a431b83dce623d2666925064a" category="cell">クラスタ A</block>
   <block id="b7973442e316e4fca4a7cced4f6b8f0d" category="cell">クラスタ B</block>
   <block id="69b9b58f02bd4331abb3d71482685c33" category="paragraph">サブネット（ ONTAP 9.2 以前）</block>
-  <block id="75ab90c5824bb9489ed7959a052e564e" category="paragraph">IP アドレス（ ONTAP 9.3 以降、 ONTAP 9.2 以前ではオプション）</block>
   <block id="9d4c3f117119f05c99ad060b127a5e6b" category="paragraph">ノード 1 のポート</block>
   <block id="767782c9ecdaf36a5ededb23a8712b5b" category="paragraph">ノード 2 のポート</block>
   <block id="5cf921efbcae5d3cdf260d9c0d147ca3" category="paragraph">ノード 3 のポート</block>
@@ -674,7 +658,6 @@
   <block id="9dc1904e0c3ace141704b477cd9b345d" category="inline-link">Network Management の略</block>
   <block id="4c32ce0e1f5c5a4d39b5e177c6a7e11f" category="list-text">新しいボリュームを UNIX ファイル権限を使用して保護する。</block>
   <block id="3b8145bdeffc5cbbf3127596dfc56a5b" category="list-text">LDAP を使用する場合は、 Active Directory から提供されます。</block>
-  <block id="15f6651162d058faaebf80dd276f4cd4" category="paragraph">上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。</block>
   <block id="ef90e255f54a448d0d56b906ee0b801c" category="summary">NFS 対応 SVM に NFS ボリュームを追加するには、ボリュームを作成して設定し、エクスポートポリシーを作成し、 UNIX 管理ホストからのアクセスを確認します。その後、 NFS クライアントアクセスを設定することができます。</block>
   <block id="43fb1791ef466186534dd99a5d35fce6" category="doc">NFS 対応 SVM に NFS ボリュームを追加</block>
   <block id="8dca4af9b0caba53e34f740b66cc1d50" category="paragraph">SVM で NFS の設定が完了している必要があります。</block>
@@ -737,16 +720,12 @@
   <block id="616419cbd69dac421c2f54151ed93ddc" category="doc">新しいボリュームをプロビジョニングする場所を決定します</block>
   <block id="5bd25b8a022ab141835929e1af25478b" category="list-text">新しい SVM にボリュームをプロビジョニングする場合は、 NFS 対応 SVM を新規に作成します。</block>
   <block id="fc587011bbd51b7cf1c921aa1b0029a6" category="inline-link-macro">NFS 対応 SVM の新規作成</block>
-  <block id="b495851adbc32bdfb445fdbdc27bf0b2" category="paragraph"><block ref="b495851adbc32bdfb445fdbdc27bf0b2" category="inline-link-macro-rx"></block></block>
   <block id="53049059472103ca974856932e9340cf" category="paragraph">既存の SVM で NFS を有効にしていない場合は、この手順に従ってください。</block>
   <block id="c32c018daa6bf869487f4efafd03f1ef" category="list-text">NFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する NFS アクセスを設定します。</block>
   <block id="68bd2854aa9772f07f693390ff623acc" category="inline-xref-macro">既存の SVM で NFS アクセスを設定</block>
-  <block id="b253eed1596f0887a893d28bed99f693" category="paragraph"><block ref="b253eed1596f0887a893d28bed99f693" category="inline-xref-macro-rx"></block></block>
   <block id="a33489f0e78cb939f807713843e4eb02" category="list-text">NFS アクセスの設定が完了している既存の SVM にボリュームをプロビジョニングする場合は、 NFS 対応 SVM に NFS ボリュームを追加します。</block>
   <block id="c11787f95061c1a26a30d2d5b3ca8b38" category="inline-xref-macro">NFS 対応 SVM への NFS ボリュームの追加</block>
-  <block id="ec187c907983dadbd6f8b61f67667167" category="paragraph"><block ref="ec187c907983dadbd6f8b61f67667167" category="inline-xref-macro-rx"></block></block>
   <block id="f54fe60c5cda1542fbcb4223ed181b1a" category="summary">SnapVault バックアップを作成するには、ピア関係にあるそれぞれのクラスタのソースボリュームとデスティネーションボリュームの間で SnapVault 関係を作成する必要があります。</block>
-  <block id="fff569de9f9e871fa113b6e45e02ff26" category="doc">SnapVault 関係の作成（ ONTAP 9.3 以降）</block>
   <block id="9e8230e3073ff01465cfbdedbd903658" category="list-text">デスティネーションクラスタのクラスタ管理者のユーザ名とパスワードが必要です。</block>
   <block id="2bd3dfa75a317697f66f548e39358e8c" category="list-text">デスティネーションアグリゲートの使用可能なスペースを確保する必要があります。</block>
   <block id="20f540c263dff9259e27dc98c5e109f3" category="list-text">[* ストレージ *&gt;* ボリューム *] をクリックします。</block>
@@ -797,7 +776,6 @@
   <block id="69011956b6eae7807e30a3ad838adf55" category="doc">SnapVault によるボリュームのバックアップの概要</block>
   <block id="a195f24ab26382d137f981d3a4b88f40" category="list-text">クラスタピア関係と SVM ピア関係を設定済みである。</block>
   <block id="4981318c1affb5f192b38fe8f9105db7" category="inline-xref-macro">クラスタと SVM のピア関係設定</block>
-  <block id="e9b35c302b58579a90853e5349bd7152" category="paragraph"><block ref="e9b35c302b58579a90853e5349bd7152" category="inline-xref-macro-rx"></block></block>
   <block id="6794d45aed7d19be1db0a2b10591a886" category="list-text">クラスタ内のすべてのノードを同じバージョンの ONTAP 9 にアップグレードしたあと、 SnapMirror または SnapVault のライセンスを有効にしておく必要があります。</block>
   <block id="b5b14ec69cdaee2862286c68d859f1ca" category="list-text">デフォルトの保護ポリシーとスケジュールを使用し、カスタムポリシーは作成しない。</block>
   <block id="81035b47aaba0382bb272de8391bc65b" category="list-text">単一ファイル / LUN のリストアのデータをバックアップしない。</block>
@@ -832,7 +810,6 @@
   <block id="88a39d6a7af7f65fcb4ad6f3ff576d67" category="image-alt">データ保護ウィンドウ sv</block>
   <block id="0dda7a83024c1a48482d48cb5cc0197e" category="summary">SnapVault バックアップ関係の設定では、クラスタピア関係を確認し、ソースボリュームとデスティネーションボリュームの間に SnapVault 関係を作成し、 SnapVault 関係を監視します。</block>
   <block id="2f17efffc575aac669d2b6d5b6e3ce0c" category="doc">SnapVault バックアップの設定ワークフロー</block>
-  <block id="edf310b9194221522381c5d1f6f278f6" category="image-alt">この図は SnapVault バックアップの設定ワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。</block>
   <block id="71aed633800367d53ba6748d69be7e9a" category="summary">SnapVault 関係のステータスを定期的に監視して、デスティネーションボリュームへのデータのバックアップが指定したスケジュールに従って実行されていることを確認する必要があります。</block>
   <block id="5071de6d7bacaf0ed705d44eceda96a9" category="doc">SnapVault 関係を監視</block>
   <block id="50b655b5a3938c0becc8ee16a3a77564" category="list-text">ソースボリュームとデスティネーションボリューム間の SnapVault 関係を選択し、 * Details * Bottom タブでステータスを確認します。</block>
@@ -847,10 +824,8 @@
   <block id="1cd6af8b71fde82eaa95be1732007b7b" category="paragraph">LUN を格納するボリュームをプロビジョニングする前に、そのボリュームを既存の Storage Virtual Machine （ SVM ）に追加するか、そのボリューム用に新しい SVM を作成するかを決める必要があります。既存の SVM に追加する場合は、 FC の設定も必要になる可能性があります。</block>
   <block id="0ff53101e6b7b8319a191a14e2a6fe8c" category="list-text">すでに FC 用に設定されている SVM にボリュームをプロビジョニングする場合は、 FC サービスが実行されていることを確認してから、 SVM に LUN を作成する必要があります。</block>
   <block id="b0ad8910c3b5157881d0a627017070d1" category="inline-xref-macro">既存の SVM での FC サービスの実行状況の確認</block>
-  <block id="81e17436e31e597f9ed6fde1304a3cbb" category="paragraph"><block ref="81e17436e31e597f9ed6fde1304a3cbb" category="inline-xref-macro-rx"></block></block>
   <block id="c4a03e6eb6a6a15581a55e6d228579ca" category="list-text">FC が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM で iSCSI を設定します。</block>
   <block id="2105441a1d57843a26c6a159a01c83d5" category="inline-xref-macro">既存の SVM で FC を設定</block>
-  <block id="2524fe699e4b3d42a353f51f1de581ff" category="paragraph"><block ref="2524fe699e4b3d42a353f51f1de581ff" category="inline-xref-macro-rx"></block></block>
   <block id="b7d149379f3d19b9d2d0c5ec0e877edb" category="summary">FC を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine （ SVM ）でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="7ccf183ce7670f5cc51cc69d2dc46ff6" category="doc">FC 構成とプロビジョニングのワークフロー</block>
   <block id="505604a7f60ed1132f33db4c6fc8dc9e" category="summary">安定した運用を実現するために、 FC 構成全体がサポートされることを確認する必要があります。</block>
@@ -902,7 +877,6 @@
   <block id="287f5d7db9140b9b7fc0c1cb8d625869" category="paragraph">FC スイッチ 2 に接続されたノード 2 の LIF のポート</block>
   <block id="312b2ad6193415ad58b2e6fe51854b90" category="paragraph">FC スイッチ 2 に接続されたノード 3 の LIF のポート</block>
   <block id="494728f44ab7bb09f36f7ab05711fb16" category="paragraph">FC スイッチ 2 に接続されたノード 4 の LIF のポート</block>
-  <block id="a821da32e34f1ec3f9126e04acba382e" category="summary">このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="78597c3653ff97e621f9b565645894bd" category="doc">Red Hat Enterprise Linux 向けの FC の設定の概要</block>
   <block id="da5a0664eb077c7ad2e71983c83f956c" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。</block>
   <block id="c520e47a5a5f6944b35a4623f07d32ef" category="list-text">FC SAN ブートを設定しない。</block>
@@ -1024,11 +998,9 @@
   <block id="4544fb5c21cf39d4f415bd7bab6b05d8" category="list-text">[FCP ストレージ用の LUN のプロビジョニング * ] 領域で、ホストイニシエータの LUN サイズ、ホストタイプ、 WWPN を入力します。</block>
   <block id="2ddad2e2d0d34e4a5404bf8e5d2d8c9c" category="summary">FC を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="84537406a801e386b5b242a76072a064" category="doc">FC 構成のワークフロー</block>
-  <block id="961d858654f9e332ae80d820cae951ab" category="image-alt">次の図は FC ワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。</block>
   <block id="000154771431032336a33cb220d8e1c9" category="paragraph">テストに失敗した場合は、 FC サービスが実行されていることを確認し、 LUN への FC パスをチェックしてください。</block>
   <block id="f8fad6712cc74aaf58696fe5741fcf76" category="summary">FC 構成について理解するのに役立つその他のドキュメントを紹介します。</block>
   <block id="40a140333cbebfe1cffe1ccb0c2cace8" category="summary">Windows ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。</block>
-  <block id="e54631240250ad3c4f5138fe670ba9b2" category="summary">このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">Windows 向けの FC 構成の概要</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">Hyper-V ゲストまたは ESX ゲストで Virtual Fibre Channel （ VFC ；仮想ファイバチャネル）を使用していない。</block>
   <block id="45010da5958c7fc3d60c5414c380bb70" category="inline-link">ネットアップのマニュアル： Host Utilities</block>
@@ -1038,7 +1010,6 @@
   <block id="b0ac7418280972fa069bbc2a11514d3e" category="summary">CIFS および NFS のクライアントアクセスをテストしたあと、 CIFS と NFS の高度な設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、 SVM のルートボリュームを保護する必要があります。このような目標の達成に役立つ包括的なコンテンツやテクニカルレポートをご用意しています。</block>
   <block id="23353013b42b6a98388dd2bce5be051a" category="paragraph">CIFS および NFS のクライアントアクセスをテストしたあと、 CIFS と NFS の高度な設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、 SVM のルートボリュームを保護する必要があります。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。</block>
   <block id="dd72e8231c2ab0c2133630fe6bc76e20" category="section-title">CIFS / SMB の設定</block>
-  <block id="5e73edd6d602145cba80c74c92b6db5c" category="paragraph">CIFS アクセスについてさらに詳しく設定するには、次のコンテンツおよびテクニカルレポートを参照してください。</block>
   <block id="6730d4603d3f770e9758b0495c9a2a62" category="inline-link">CIFS の管理</block>
   <block id="575124ad880ed28864d887a160002ff9" category="list-text"><block ref="575124ad880ed28864d887a160002ff9" category="inline-link-rx"></block></block>
   <block id="67a933ca8c13b0371da20884d6ea7ebe" category="paragraph">CIFS / SMB プロトコルを使用したファイルアクセスを設定および管理する方法について説明しています。</block>
@@ -1115,7 +1086,6 @@
   <block id="c8351b4704b2d33626b23e9d81272d34" category="list-text">NIS サーバの IP アドレスを追加します。</block>
   <block id="5286406ca0e54cd09b7eb9a5995c75a8" category="list-text">Activate the domain for Storage Virtual Machine * を選択し、 * Create * をクリックします。</block>
   <block id="032ef0877579ec260ec109f60ffa3d94" category="paragraph">SVM ルートボリュームのエクスポートポリシーを開きます。</block>
-  <block id="2fd9c396448a15e9c35084529f59235a" category="summary">このコンテンツでは、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスと NFS アクセスを設定する簡単な方法について説明しています。</block>
   <block id="78834fa388e1f1624970cb4f542e13c7" category="inline-link">SMB / CIFS の管理</block>
   <block id="31ad18e057e064169b320830c088418d" category="list-text"><block ref="31ad18e057e064169b320830c088418d" category="inline-link-rx"></block></block>
   <block id="272c393bd39b1fb00984241f27a1c43f" category="summary">共有にアクセスしてデータを書き込むことで、 SMB が正しく設定されていることを確認する必要があります。SMB サーバ名と NetBIOS エイリアスを使用してアクセスをテストします。</block>
@@ -1256,8 +1226,6 @@
   <block id="00d15e1a09d79f0b991c675abca022d3" category="list-text">「 system health status show 」コマンドを使用し、クラスタが「 ok 」であることを確認して、クラスタが正常な状態であることを確認します。</block>
   <block id="f2f08364a27a75afd18b40ee29494b88" category="list-text">「 cluster show 」コマンドを使用し、各ノードの正常性が「 true 」であることを確認して、クラスタ内のすべてのノードが正常な状態であることを確認します。</block>
   <block id="c1f4234043f24b65e6b04de33fad8001" category="summary">クラスタを拡張したら、新しいノードに新しいボリュームを作成するか、既存のデータを新しいノードに移動することで、新しいノードにデータを格納することができます。</block>
-  <block id="274c742a15615b27e7bcd06f7c6b3afa" category="paragraph">クラスタで SnapMirror 関係または SnapVault 関係を使用してデータを保護する場合は、を参照してください <block ref="e9b35c302b58579a90853e5349bd7152" category="inline-xref-macro-rx"></block> ガイドを参照して、新しいノードに適したクラスタ間 LIF をセットアップします。</block>
-  <block id="e9ecc5494884f1b6938d84c2e8d1af75" category="paragraph">新しく追加したノードにデータを移動する場合は、次の情報を確認してください。</block>
   <block id="da5ca6ae1de018f91fb173975dfb47fa" category="inline-link">論理ストレージ管理</block>
   <block id="eff7eb1c9caccc9b299bec266b80b0b6" category="list-text"><block ref="eff7eb1c9caccc9b299bec266b80b0b6" category="inline-link-rx"></block></block>
   <block id="286658c24ca59ebf54d30a4ca466d9e1" category="paragraph">FlexVol 、 FlexClone ボリューム、ファイルと LUN 、 FlexCache ボリュームなど、クラスタ内の論理ストレージリソースを管理する方法について説明します。 重複排除、圧縮、 qtree 、およびクォータを使用する。</block>
@@ -1369,7 +1337,6 @@
   <block id="b3a26c7df1c3d6a58fa9c28e35d17318" category="list-text">Submit and Proceed* をクリックします。</block>
   <block id="8f8c2a3811377db92e9ef07b1169c237" category="paragraph">System Manager にログインしています</block>
   <block id="ed8ec3c1fa16963fbe896ac5f520e60d" category="list-text">ONTAP 9.4 以前： * Configuration * &gt; * Cluster Expansion * をクリックします。</block>
-  <block id="540efe02a9fb722ded5ebfb390184762" category="list-text">ONTAP 9.5 以降：クリック * Configuration * &gt; * Cluster * &gt; * Expansion * System Manager では、新しく追加したノードを検索します。警告が表示された場合は、処理を続行する前に修正する必要があります。互換性がある新しいノードが検出された場合は、次の手順に進みます。</block>
   <block id="beead86a29ff2738c62d2163ef71c451" category="summary">既存のクラスタに追加するコントローラを設置する場合は、該当するセットアップガイドの最初の 3 つの手順に従う必要があります。</block>
   <block id="7a7af7dffa7989d96eabf817c3845a57" category="doc">コントローラを取り付けます</block>
   <block id="60defadb8a38cbd74ee0ac9cd65033e2" category="paragraph">既存のクラスタに追加するコントローラを設置する場合は、該当する _Installation and Setup Instructions _ の最初の 3 つの手順に従う必要があります。</block>
@@ -1389,13 +1356,10 @@
   <block id="ce814c9197e96f40f05ab6dac197c0d6" category="list-text">指示があった場合は、すべてのディスクシェルフの電源をオンにし、 ID を確認する必要があります。</block>
   <block id="eed45bf93b55ac64cb1aa266f8b8ba3d" category="list-text">ノードにアクセスできるように、シリアルコンソールをケーブル接続する必要があります。</block>
   <block id="344b0acde7d72407e9390548e3450845" category="list-text">Complete configuration_ssection をスキップします</block>
-  <block id="64c68702fbf32afc51b56c757705d139" category="summary">このコンテンツでは、 HA ペアを追加して既存のクラスタを無停止で迅速に拡張する方法について説明します。クラスタを拡張すると、クラスタのパフォーマンスが向上し、使用可能なストレージ容量が増えます。</block>
   <block id="36f6eeaab9a4b697e7ccd0c7535596d4" category="doc">クラスタの拡張の概要</block>
-  <block id="1e587b77b98a0f503c419e50c365cc97" category="paragraph">このコンテンツは、次の条件に該当する場合にのみ使用してください。</block>
   <block id="edc668aff0d6367336c60bbc40a0bd83" category="list-text">既存のクラスタが次の要件を満たしている。</block>
   <block id="e27d77c52a413f95ea3db7a020719fea" category="list-text">ONTAP 9 を実行している。</block>
   <block id="17f837e7c82bbe6335f64832e2fe9cf4" category="list-text">2 つ以上のノードを含んでいる。</block>
-  <block id="a602f215b5fe089de06f70655908750d" category="paragraph">このコンテンツの例では 2 ノードクラスタを使用していますが、 3 つ以上のノードで構成される環境クラスタも使用しています。</block>
   <block id="f2272b364b1f55976317a39fbec0f78f" category="paragraph">シングルノードクラスタにノードを追加する場合は、別の手順を使用する必要があります。</block>
   <block id="6f4a60fa16d9fcca9740a0706b382bcb" category="inline-link">2 台目のコントローラを追加して HA ペアを作成する</block>
   <block id="d9ca0abb0897d76ef6295d37a92f50a2" category="paragraph"><block ref="d9ca0abb0897d76ef6295d37a92f50a2" category="inline-link-rx"></block></block>
@@ -1509,7 +1473,6 @@
   <block id="8bc43f45fbe21c1814c6062b264f0845" category="doc">ソースボリュームを再アクティブ化</block>
   <block id="5af10cac5bb119e67eb656888383295c" category="summary">ボリュームのディザスタリカバリのワークフローには、デスティネーションボリュームのアクティブ化、データアクセスのためのデスティネーションボリュームの設定、および元のソースボリュームの再アクティブ化が含まれます。</block>
   <block id="5631a4a4a5cbe1126b6d5532597609b1" category="doc">ボリュームディザスタリカバリのワークフロー</block>
-  <block id="5512fd2b9da95fed1fddb667c33300a9" category="image-alt">この図は SnapMirror のクラスタ間フェイルオーバーと再同期のフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。</block>
   <block id="b5a68721f84465afc63f9b2df2f905ae" category="summary">追加情報を使用すると、ボリュームレベルのディザスタリカバリ関係を管理したり、別のディザスタリカバリ方式でデータリソースの可用性を保護したりできます。</block>
   <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">異なる ONTAP クラスタにあるボリューム間のバックアップヴォールト関係を設定する簡単な方法について説明しています。</block>
   <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">ONTAP でバックアップヴォールトからボリュームをリストアする簡単な方法について説明しています。</block>
@@ -1519,7 +1482,6 @@
   <block id="048302dc521956e742829bbbc308e667" category="doc">ソースボリュームを更新</block>
   <block id="f279e20e016955df9fcb499956193b6d" category="list-text">ソースボリュームとデスティネーションボリューム間の SnapMirror 関係を選択し、 * Operations * &gt; * Update * をクリックします。</block>
   <block id="e087fde17030168d1d6828a4db2c04ba" category="list-text">ソースボリュームとデスティネーションボリュームの間の最も新しい共通の Snapshot コピーに基づく差分転送を実行します。</block>
-  <block id="7de27bbaf2cf9d2ed9a9db41278230ac" category="list-text">ONTAP 9.3 以降：「 * as per policy * 」オプションを選択します。</block>
   <block id="612c396cc4358d4a35672217227c116c" category="list-text">ONTAP 9.2 以前：「 * on demand * 」オプションを選択します。</block>
   <block id="6acf38e93f126c4efef95f565e1e2f37" category="list-text">転送に使用するネットワーク帯域幅を制限するには、転送帯域幅を * に制限するを選択し、最大転送速度を指定します。</block>
   <block id="04252e4e5460971d7f33943bd841f366" category="list-text">[ 更新（ Update ） ] をクリックします。</block>
@@ -1538,7 +1500,6 @@
   <block id="8e057f857bb8d5d630e1e01b8f00ee2e" category="list-text">[* Operations] * &gt; [* Reverse Resync] をクリックします。</block>
   <block id="45b81633cdcb68312901d011412dc150" category="list-text">確認のチェックボックスをオンにし、 * 逆再同期 * をクリックします。</block>
   <block id="af55ceb177a6b022f107c3e4ae6b51e1" category="image-alt">逆再同期（ Reverse Resync ）ダイアログボックスを示すスクリーンショット</block>
-  <block id="83ebf9cdfc428711d0914617f2cd1fd0" category="paragraph">ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に設定され、 SnapMirror スケジュールは「 None 」に設定されます。</block>
   <block id="074be2c43f1b0a6a0dd99c609f109f6b" category="paragraph">ONTAP 9.2 以前を実行している場合、関係の SnapMirror ポリシーは「デフォルト」に設定され、 SnapMirror スケジュールは「なし」に設定されます。</block>
   <block id="e5a23453ef53a88d534f181bdff3119f" category="list-text">ボリュームのページでソースボリュームに移動し、作成した SnapMirror 関係が表示され、関係の状態が「 SnapMirro 済み」であることを確認します。</block>
   <block id="a100d9b21c247cd5158af7d4f305f4ed" category="list-text">デスティネーションクラスタで、元の SnapMirror 関係の保護設定と同じになるように、新しい SnapMirror 関係の SnapMirror ポリシーとスケジュールを指定します。</block>
@@ -1558,7 +1519,6 @@
   <block id="2b1973fe2741d78a0639552b32d664d0" category="list-text">ボリューム * リストの列が適切な値に更新されていることを確認します。</block>
   <block id="56e54c6eb83302b1f06702d7b4a44f4f" category="list-text">デスティネーションボリュームの Snapshot コピーの作成を有効にします。</block>
   <block id="93aac2c0b9596102871f77685d30c559" category="list-text">ONTAP のバージョンに応じて、次のいずれかの方法で「 * ボリューム Snapshot コピーの設定 * 」ページに移動します。</block>
-  <block id="81d90cec23aec17b8d4da9a17a5d6175" category="paragraph">ONTAP 9.3 以降：デスティネーションボリュームを選択し、 * Actions * &gt; * Manage Snapshots * &gt; * Configure * の順にクリックします。</block>
   <block id="a0aac9e3d15ae2e6b75d0803be1cc8f9" category="paragraph">ONTAP 9.2 以前：デスティネーションボリュームを選択し、 * Snapshot コピー * &gt; * 設定 * をクリックします。</block>
   <block id="ac0c323d5c042d7a9c547a1b9c2c571e" category="list-text">Enable scheduled Snapshot Copies （スケジュールされた Snapshot コピーを有効にする）チェックボックスをオンにし、 * OK * をクリックします。</block>
   <block id="d905542c353c1c5dcc6d3968f0970fef" category="image-alt">ボリュームの Snapshot コピーを設定しています</block>
@@ -1590,7 +1550,6 @@
   <block id="1799f2ffcb22e7bcb0638393484cf9c6" category="list-text">ソースボリュームとデスティネーションボリュームの間の SnapMirror 関係を選択します。</block>
   <block id="1a137e7b42f10b18958541786766c3a6" category="list-text">SnapMirror 関係に対して設定されている転送スケジュールとポリシーを書き留めます。</block>
   <block id="4a9e909a19d9afe2828c7d66487e24bc" category="image-alt">逆再同期画面</block>
-  <block id="55bc250010b665917f219d4defc47c1f" category="paragraph">ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に設定され、ミラースケジュールは「 None 」に設定されます。</block>
   <block id="b31e3828d6794551661a7cdd984d369f" category="paragraph">ONTAP 9.2 以前を実行している場合、関係の SnapMirror ポリシーは「デフォルト」に設定され、ミラースケジュールは「なし」に設定されます。</block>
   <block id="40d81d472ee03f62310213164f2511d1" category="list-text">ソースクラスタで、元の SnapMirror 関係の保護設定と同じになるように SnapMirror ポリシーとスケジュールを指定します。</block>
   <block id="882577b940ce935b8f91a0e353a7b030" category="list-text">再同期するソースボリュームとデスティネーションボリュームの間の SnapMirror 関係を選択し、 * Edit * をクリックします。</block>
@@ -1613,7 +1572,6 @@
   <block id="b82cad5226b405ad72908490db99b36c" category="doc">ONTAP System Manager Classic のドキュメント</block>
   <block id="74f1afbef663f32fc8d025982a526401" category="summary">ボリュームのディザスタリカバリの準備では、クラスタピア関係を確認し、ピア関係にある双方のクラスタのボリューム間で SnapMirror 関係を作成し、データアクセスのためのデスティネーション SVM を設定して、 SnapMirror 関係を定期的に監視します。</block>
   <block id="97214eb14a082986b89d0496654171d1" category="doc">ボリュームのディザスタリカバリの準備ワークフロー</block>
-  <block id="5417886874c23b84f8a08bab388547ad" category="image-alt">この図はボリュームのディザスタリカバリの準備ワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。</block>
   <block id="e4f23fa5eebad806cea9c12d5857146a" category="summary">ディザスタリカバリの設定をテストする場合や災害の発生時にデスティネーションボリュームをアクティブ化する方法については、別のドキュメントで説明しています。災害発生後にソースボリュームを再アクティブ化する方法も、それらのドキュメントで確認できます。</block>
   <block id="994b9e24558386119def2c5e542475ea" category="paragraph">ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明しています。</block>
   <block id="37a4c5f171f9c477191bc02b862d6a32" category="inline-link">Active IQ Unified Manager 9.8 ワークフロー：クラスタ健全性管理</block>
@@ -1640,7 +1598,6 @@
   <block id="806bd2060360da6ee8d453e81ba3a341" category="list-text">FC を使用する場合、 SAN クライアントから LIF にアクセスできるように FC スイッチをゾーニングします。</block>
   <block id="08779ad510704e697e31499315d9d6a5" category="paragraph">ソースボリュームが格納された SVM に変更を加えた場合は、デスティネーションボリュームが格納された SVM にそれらの変更を手動でレプリケートする必要があります。</block>
   <block id="a95ebbc938cadc8f277b54e39f697783" category="summary">ディザスタリカバリ用にデータをレプリケートするには、ピア関係にあるそれぞれのクラスタのソースボリュームとデスティネーションボリュームの間で SnapMirror 関係を作成する必要があります。</block>
-  <block id="f9809a47cbaef5245bab838e10437c11" category="doc">SnapMirror 関係を作成する（ ONTAP 9.3 以降）</block>
   <block id="0115ec441f61547c15544e35c2e57df1" category="list-text">両方のクラスタで、ユーザアクセス、認証、およびクライアントアクセスを環境の要件に合わせて適切に設定しておく必要があります。</block>
   <block id="2c9838f3a2bfef58875104013a2df101" category="list-text">ミラー関係を作成するボリュームを選択し、 * Actions * &gt; * Protect * をクリックします。</block>
   <block id="dea23fcf1dfe72ca8217d8c0881b9d1d" category="list-text">[ 関係タイプ * （ Relationship Type * ） ] セクションで、 [ 関係タイプ * （ Relationship Type * ） ] ドロップダウンリストから [ * ミラー * （ * Mirror * ） ] を選択する。</block>
@@ -1714,7 +1671,6 @@
   <block id="9ece31d36c30f2bad07fe2b622c73993" category="paragraph">vCenter Web Client にタスクの進捗状況が表示されます。</block>
   <block id="b654a09a7cc13e5a854907c2cdf0fb86" category="list-text">すでに iSCSI 用に設定されている SVM にボリュームをプロビジョニングする場合は、 iSCSI サービスが実行されていることを確認する必要があります。</block>
   <block id="5d48901dc7b8c26de56842f23028cd47" category="inline-xref-macro">新しい SVM を作成</block>
-  <block id="83dd9b382fee459744e120cd6aa23fe6" category="list-text">新しい SVM にボリュームをプロビジョニングする場合は、 <block ref="3ec909fb43ea3baa02cc1ede49efdb02" category="inline-xref-macro-rx"></block>。</block>
   <block id="2e63cb84ab4169315a45a40535dce642" category="summary">ESXi ホストには、ストレージクラスタへの iSCSI 接続用のネットワークポートが必要です。</block>
   <block id="6e7e30f8c740e5ac4c3710209894d3ac" category="doc">ホスト iSCSI ポートと vSwitch を設定</block>
   <block id="4709725ccdd452d84580ba5a4ed45567" category="paragraph">IP ハッシュを NIC チーミングポリシーとして使用することを推奨します。これには、単一の vSwitch 上に単一の VMkernel ポートが必要です。</block>
@@ -1833,7 +1789,6 @@
   <block id="4967b14262e349232ba9a3cc8b97dc33" category="summary">既存の SVM への CIFS / SMB アクセスを追加するには、データ LIF を作成し、 CIFS サーバを設定し、ボリュームをプロビジョニングして共有し、共有権限を設定します。</block>
   <block id="c453f5864e28dada875fdbb30c86578d" category="doc">既存の SVM に CIFS アクセスを追加</block>
   <block id="0c7889397ffcf367a547e457fbe3495a" category="list-text">SVM で CIFS プロトコルが許可されている必要があります。</block>
-  <block id="16b57f76f56070caca16c20ee414005b" category="paragraph">これは、このコンテンツの手順に基づいて、 SAN プロトコルを設定するための SVM を作成していない場合に該当します。</block>
   <block id="7f6435ca837d12ff06cfff58992df531" category="list-text">[*permission] フィールドで、 [*Change] をクリックします。</block>
   <block id="bb3112e54507860cd12a19609ff8f1ee" category="list-text">Everyone グループを選択し、 * Remove * をクリックします。</block>
   <block id="0b95db3f00815c0be1aa8cd0e13aac8a" category="list-text">Add * をクリックし、 SVM を含む Windows Active Directory ドメインで定義されている管理者グループの名前を入力します。</block>
@@ -1860,15 +1815,11 @@
   <block id="181cab40b7a715796a7d8628347e4eb5" category="summary">新しい CIFS ボリュームを作成する前に、そのボリュームを既存の Storage Virtual Machine （ SVM ）に配置するかどうかを決め、既存の SVM に配置する場合はどのような設定が必要になるかについても確認しておく必要があります。これにより、ワークフローが決まります。</block>
   <block id="62d8907105683cc733d920e218cab568" category="list-text">新しい SVM にボリュームをプロビジョニングする場合は、 CIFS 対応 SVM を新規に作成します。</block>
   <block id="4580f852eda5e7892b3676a168284100" category="inline-xref-macro">CIFS 対応 SVM の新規作成</block>
-  <block id="ee45617d6afdf64d60c49cb3f9027eeb" category="paragraph"><block ref="ee45617d6afdf64d60c49cb3f9027eeb" category="inline-xref-macro-rx"></block></block>
   <block id="2c4bc6aa36fd38aa7c8de838fc9907ce" category="paragraph">既存の SVM で CIFS を有効にしていない場合は、この手順に従ってください。</block>
   <block id="c4fab1b78e00c46ac7a15cd074096dc1" category="list-text">CIFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する CIFS / SMB アクセスを設定します。</block>
   <block id="eb68ab9508b023ff28096d088bdd817c" category="inline-xref-macro">既存の SVM で CIFS / SMB アクセスを設定</block>
-  <block id="89a7fd936ddc69a822e1c28e97b2ee59" category="paragraph"><block ref="89a7fd936ddc69a822e1c28e97b2ee59" category="inline-xref-macro-rx"></block></block>
-  <block id="f6236cd8532f643ceb7a739d94822530" category="paragraph">このコンテンツで手順を使用して SAN アクセス用の SVM を作成している場合は、この手順に従ってください。</block>
   <block id="a05b26f1df359f26e873075568b0bf49" category="list-text">CIFS アクセスの設定が完了している既存の SVM にボリュームをプロビジョニングする場合は、 CIFS 対応 SVM に CIFS ボリュームを追加します。</block>
   <block id="ff9f8af3f836eed7a816fd381c0fe04c" category="inline-xref-macro">CIFS 対応 SVM への CIFS ボリュームの追加</block>
-  <block id="8c3bb443f0bf4d98943a2438fc80edd5" category="paragraph"><block ref="8c3bb443f0bf4d98943a2438fc80edd5" category="inline-xref-macro-rx"></block></block>
   <block id="c095667b485ebff52a4a4f5838e727cb" category="summary">ESXi ホストが FC パスの損失やストレージフェイルオーバーイベントを正しく管理できるように、ホストのマルチパスとベストプラクティスの設定が正しいことを確認する必要があります。</block>
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">すでに FC 用に設定されている SVM にボリュームをプロビジョニングする場合は、 FC サービスが実行されていることを確認する必要があります。</block>
   <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">この VMware のコンテンツでは、 ESXi 5.x 向けの FC と iSCSI の設定について説明します</block>
@@ -2228,7 +2179,6 @@
   <block id="c4b395e042b075a7a77c7292d68c696f" category="list-text">アグリゲートに SSD を追加する場合は、既存の SSD と専用の SSD がすべて同じサイズである必要があります。</block>
   <block id="26b492c52412ab870a07463ff06bb9ff" category="list-text">Flash Pool アグリゲートの作成にはパーティショニングされた SSD は使用できません。</block>
   <block id="44b5800e46f84ce7d22d1b3fca04381d" category="list-text">キャッシュソースがストレージプールの場合、アグリゲートをミラーすることはできません。</block>
-  <block id="5e43dcec3363e844443ae1fecf8cf42d" category="list-text">ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。</block>
   <block id="14774aa4537ec680021fd0e80812c863" category="list-text">アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、 RAID-TEC のみを使用できます。</block>
   <block id="62fad2bec2b122db548ae461f7a94a2f" category="list-text">次のいずれかの方法を使用してアグリゲートを作成します。</block>
   <block id="79ffde3c60cc6e889dd7025aa2949272" category="list-text">[ * アプリケーションと階層 * &gt; * ストレージ階層 * &gt; * アグリゲートの追加 * ] をクリックします。</block>
@@ -2283,7 +2233,6 @@
   <block id="3f3d625af80513d7cc3dedd29702c976" category="list-text">バックグラウンド圧縮を有効にできるのは、バックグラウンド重複排除が有効になっている場合だけです。</block>
   <block id="bb92c62ef1bff5f835be511dbf2d97a3" category="list-text">インライン圧縮は、バックグラウンド重複排除の有効、無効に関係なく有効にすることができます。同様に、インライン重複排除機能も、バックグラウンド重複排除機能の有効、無効に関係</block>
   <block id="68ba071959c4536d44350158d7366098" category="list-text">インライン重複排除を有効にできるのは、オールフラッシュで最適化されたアグリゲートに含まれるボリュームと Flash Pool アグリゲートに含まれるボリュームだけです。</block>
-  <block id="044358c9379d2067f90b2fe2c9fd1042" category="list-text">System Manager 9.6 以降では、 FlexGroup DP ボリュームについての Storage Efficiency の編集がサポートされます。</block>
   <block id="f40178ec5f53ae2902cfa138e94c92a2" category="list-text">Storage Efficiency を有効にするボリュームを選択し、 * Edit * をクリックします。</block>
   <block id="4f5a9513410fd8da6db1ee5105cc6017" category="list-text">ボリュームの編集 * ダイアログボックスで、 * Storage Efficiency * をクリックします。</block>
   <block id="870265c5d96ccfde69dfb8125c9a2a42" category="list-text">バックグラウンド重複排除 * チェックボックスを選択します。</block>
@@ -3308,7 +3257,6 @@
   <block id="edcc9e329c6fe05ec05b6644c7524b8a" category="paragraph">ネームスペースに関連付けられているサブシステムの名前。サブシステムが接続されていない場合、このカラムの値は「 None 」と表示されます。マッピングされていないネームスペースのリストは、 NVMe サブシステムのこの列を「 None 」でフィルタリングすることで確認できます。</block>
   <block id="aa9d04c6debd790560e5cd7d57b39d87" category="list-text">* SVM *</block>
   <block id="07ff91c4cb951ea770d52633a81fea3a" category="paragraph">ネームスペースが作成されている SVM の名前。SVM 名はクリック可能なリンクです。リンクをクリックすると、既存の SVM ダッシュボードページが表示されます。</block>
-  <block id="b7792eed9d1401fc25c7888fbf2aff79" category="paragraph">ONTAP 9.5 以降では、 SVM に関連付けられた HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。ペアの各ノードに対して作成できる NVMe LIF の数は 2 つまでです。</block>
   <block id="c61f83537aef8e2db4f7e809ae695b7e" category="list-text">* 名前空間 ID*</block>
   <block id="558f1b6a38983219c227a9bf89a5b369" category="paragraph">コントローラがネームスペースへのアクセスを提供するために使用する一意の識別子。これはユーザが入力するのではなく、新しいネームスペースが作成されるとシステムによって生成されます。</block>
   <block id="de68ee7ea3dbee1b91084b9a54b3f334" category="list-text">* 合計容量 *</block>
@@ -3439,7 +3387,6 @@
   <block id="78b0033e0f5ed630ead1c86de31630ea" category="paragraph">ポリシーグループが複数のオブジェクトに割り当てられている場合、指定した最大スループットはそれらのオブジェクトの合計スループットです。</block>
   <block id="d823518925883a02978856511e67c73b" category="list-text">選択した LUN のリストを確認する LUN の数を指定するリンクをクリックし、リストから LUN を削除する場合は「 * 破棄」をクリックします。</block>
   <block id="ba2b6965f1429665ea4dd3fdb7b4c7e7" category="paragraph">このリンクは、複数の LUN を選択した場合にのみ表示されます。</block>
-  <block id="da9ca1d963c7ff5d3a3661c61bb3c275" category="summary">既存の Snapshot ポリシーにスケジュールを設定することで、 Snapshot コピーを設定できます。ONTAP 9.4 以降では、 FlexVol ボリュームの Snapshot コピーを最大 1024 個まで保持できます。</block>
   <block id="05bb17d18c0f9c3d367fd30e255813d5" category="doc">Snapshot 設定</block>
   <block id="cad1cd7ed7f6e1ef1f98ffd8926bdf7d" category="summary">SNMP ウィンドウでは、システムの現在の SNMP 設定を確認できます。また、システムの SNMP 設定の変更、 SNMP プロトコルの有効化、およびトラップホストの追加もできます。</block>
   <block id="639a1bdb6de85b0fdcef8600f153f51e" category="doc">SNMP ウィンドウ</block>
@@ -3508,7 +3455,6 @@
   <block id="3546a2682fe9f01ca90db31282eb80e6" category="paragraph">選択したユーザのロールが表示されます。</block>
   <block id="04c36c55e8892977b923568776e073cb" category="summary">ポートはノードにグループ化され、選択したプロトコルカテゴリに基づいてノードが表示されます。たとえば、データが FC プロトコルを使用して提供される場合、 FCP アダプタを持つノードのみが表示されます。負荷が少ないポートを選択する際には、ホストされているインターフェイス数が参考になります。</block>
   <block id="98631bfcb7b678591f474a9781b3bae4" category="doc">ポートとアダプタ</block>
-  <block id="96c93c1f45238f21110ace8deb0d70b9" category="summary">System Manager 9.6 以降では、 MetroCluster サイトの計画外スイッチオーバーを開始できます。この処理は、システム停止や災害が発生した場合に役立ちます。</block>
   <block id="308f67dd574c6ba0e1c5c7f5f09efee4" category="doc">計画外スイッチオーバーの実行</block>
   <block id="ee9ded32b1ff22fe81cde6a49304b729" category="paragraph">MetroCluster は正常に動作しているが、ローカルクラスタ（サイト A ）のノードは稼働しており、リモートクラスタ（サイト B ）のノードは停止している必要があります。</block>
   <block id="72c59d0fef258bf8143a8660206f4e5f" category="list-text">サイト B が本当に停止していることを確認します。</block>
@@ -3599,7 +3545,6 @@
   <block id="bee8b071f75206a01cbec05941e70af3" category="summary">FlexGroup ボリュームには複数のボリュームを含めることができ、各ボリュームを個別にではなくグループとして管理できます。System Manager を使用して、特定のアグリゲートを選択するかシステムで推奨されるアグリゲートを選択して FlexGroup ボリュームを作成できます。</block>
   <block id="87377698a8dca305b9579a13060142f2" category="doc">FlexGroup ボリュームを作成します</block>
   <block id="f2a35be883cf4139cbb198b07e91f215" category="list-text">作成できるのは読み書き可能（ rw ） FlexGroup ボリュームのみです。</block>
-  <block id="bd1556d7104e4de8aeb3f05927bab8e2" category="list-text">System Manager 9.6 以降では、 MetroCluster 構成内に FlexGroup ボリュームを作成できます。</block>
   <block id="aeac5d56915c618aa7b4412a754d8c7b" category="list-text">[* 作成 *&gt;* FlexGroup の作成 *] をクリックします。</block>
   <block id="beaaabc91081d70a3739871b03e1b49c" category="list-text">Create FlexGroup * ウィンドウで、 FlexGroup ボリュームの名前を指定します。</block>
   <block id="8f272848a6b11fe0583e496106bec3c5" category="paragraph">デフォルトでは、ベストプラクティスに従ってアグリゲートが選択されます。</block>
@@ -3616,7 +3561,6 @@
   <block id="334300bd7917d9047ac94e228a29b2d0" category="paragraph">アクセス頻度の低いコールドデータと Snapshot コピーをアクティブなファイルシステムからクラウド階層に移動します。</block>
   <block id="ad4eaba5ce4dcb463e8ab61b46c759ef" category="list-text">* バックアップ（ System Manager 9.5 用） *</block>
   <block id="02757c23ed04383491df94ebd341b5f0" category="paragraph">新たに転送されたデータ保護（ DP ）ボリュームのデータをクラウド階層に移動します。</block>
-  <block id="5cbe705dc8cf70f45fa4d74042a1e60d" category="list-text">* すべて（ System Manager 9.6 以降） *</block>
   <block id="5a66f6b57bb7443893c7ddf3f8aa6477" category="paragraph">すべてのデータをクラウド階層に移動します。</block>
   <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">* なし *</block>
   <block id="becf72551bf20072e73229075812d6f4" category="paragraph">クラウド階層へのボリュームのデータの移動が禁止されます。</block>
@@ -3674,7 +3618,6 @@
   <block id="37f38f377af72802ed0470fc6a7b7cad" category="paragraph">「 vsadmin 」アカウントのデフォルトのアクセス方法は、 ONTAP API`(ONTAPI) および SSH`(ssh') です。SVM 管理者は、管理 IP アドレスを使用してストレージシステムにログインできます。</block>
   <block id="f5b0dc398ec01a8d7dba5577052e0339" category="paragraph">Storage Virtual Machine の編集ダイアログボックスを使用して、 SVM にアグリゲートを割り当てる必要があります。</block>
   <block id="8cd74462feeb2d9fd551c0332e38e202" category="paragraph">SVM にアグリゲートが割り当てられていないと、 SVM 管理者はボリュームを作成できません。</block>
-  <block id="853fdce5cd8e7a7a6c8f4fd41522f33e" category="summary">System Manager 9.6 以降では、既存の FlexCache ボリュームのプロパティを編集できます。</block>
   <block id="ca7e064d4dc8de530a6854d97b5c0076" category="doc">FlexCache ボリュームを編集しています</block>
   <block id="96899718bec48d4de3010b9825cde391" category="list-text">変更する FlexCache ボリュームを選択し、 * 編集 * をクリックします。</block>
   <block id="36dd889edd56613ece93737a3a6683aa" category="list-text">FlexCache ボリュームの新しい名前を、「 FlexCache Volume * 」の「 * Volume * 」フィールドに入力します。</block>
@@ -3682,7 +3625,6 @@
   <block id="46155bb8e220c41ce0b56e02cf97f430" category="list-text">暗号化を有効または無効にします。</block>
   <block id="bfe5f75f6fc858468e2007ad5daf140b" category="inline-link-macro">FlexCache ボリュームの詳細設定</block>
   <block id="1ac02bfdaf414a50042d47a131e43144" category="list-text">をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexCache ボリュームの詳細設定を変更します。を参照してください <block ref="4aa5b8ffba7fb44e3974191d1beac02c" category="inline-link-macro-rx"></block>。</block>
-  <block id="b8cdd43d1b26cbe709647dba8c6a5a29" category="summary">System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。</block>
   <block id="5738e81d775bde5181b062fdc9fe8a6d" category="doc">ピアリングパスフレーズを生成しています</block>
   <block id="00dd38a84a52b78303bb10d5409eb2d9" category="list-text">[Generate Peering Passphrase]( ピアリングパスフレーズの生成 ) を</block>
   <block id="590c98302fe91a04312e9327e28dbf4f" category="paragraph">[Generate Peering Passphrase] ダイアログウィンドウが表示されます。</block>
@@ -3846,7 +3788,6 @@
   <block id="e4e4b22369eeb1eb14670ed343cc79d2" category="paragraph">パッケージの一時ライセンスがあるクラスタからノードを削除した場合、そのノードは評価用ライセンスを保持できません。</block>
   <block id="995ee35fea37e181ef8a502caff55f1b" category="list-text">容量ライセンス（ ONTAP Select および FabricPool のみ）</block>
   <block id="2c1a6792b1da33bfd3ae4d58055c93c5" category="paragraph">ONTAP Select インスタンスのライセンスは、ユーザが管理するデータの量に応じて選択できます。たとえば、 10TB の容量ライセンスを購入した場合、 ONTAP Select で最大 10TB のデータを管理できます。システムに接続されたストレージ容量が ONTAP Select のライセンスで管理可能な容量を超えると、 ONTAP Select は動作しなくなります。デフォルトでは、 ONTAP Select インスタンスに接続できるストレージ容量は最大 2TB です。この容量を超える場合は、容量ライセンス（ 5TB の容量ライセンスや 10TB の容量ライセンスなど）を購入してインストールする必要があります。</block>
-  <block id="89839280933498e663c409c99a7f3ad3" category="paragraph">ONTAP 9.2 以降では、 FabricPool 対応アグリゲートでサードパーティのストレージ階層（ AWS など）を使用する場合に容量ライセンスが必要になります。FabricPool の容量ライセンスでは、クラウド階層ストレージに格納できるデータの量が定義されています。</block>
   <block id="4e370e1a55ec410d1ddcf0b5c19f50bb" category="section-title">使用権のリスク</block>
   <block id="4bfa5084cc0aa6a597849b7f0cfedd6c" category="paragraph">使用権のリスクは、ノードロックライセンスがさまざまな方法でインストールされることが原因で発生します。ノードロックライセンスがすべてのノードにインストールされている場合は、使用権のリスクは発生しません。</block>
   <block id="6bfd4eb866511d21d6e5a0ce5ad4b825" category="paragraph">使用権のリスクレベルは、特定の条件に応じて、高、中、なし、または不明のいずれかになります。</block>
@@ -4029,13 +3970,11 @@
   <block id="e702d187852b0cc39a37b666e27608cc" category="paragraph"><block ref="e702d187852b0cc39a37b666e27608cc" category="inline-xref-macro-rx"></block></block>
   <block id="402e589041eed533b9d457ac6ab9334a" category="inline-xref-macro">LUN のクローニング</block>
   <block id="53759666c28cb86380a37efa329f8ff0" category="paragraph"><block ref="53759666c28cb86380a37efa329f8ff0" category="inline-xref-macro-rx"></block></block>
-  <block id="ca6ab36dc2bbcd274210198da9e0c34a" category="summary">System Manager 9.6 以降では、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexCache ボリュームのサイズを変更できます。</block>
   <block id="72293914dec694e43ee308f22c362898" category="doc">FlexCache のサイズを変更しています</block>
   <block id="89e4b4f1428a44007a8d6f78b2c6316d" category="list-text">FlexCache ボリュームのサイズを変更するには、既存のアグリゲートに十分な空きスペースが必要です。</block>
   <block id="9ed2d39c12c5042e1e15d3e243a07586" category="list-text">FlexCache ボリュームを拡張するには、拡張に使用するアグリゲートに十分な空きスペースが必要です。</block>
   <block id="5bbec01d3493c1cd58a5562c1ccadcef" category="list-text">サイズを変更する FlexCache ボリュームを選択し、 * その他の操作 * &gt; * サイズ変更 * をクリックします。</block>
   <block id="503e6a1d24532cf16b90068dcf9d0814" category="list-text">FlexCache ボリュームのサイズ変更 * ウィンドウで、 FlexCache ボリュームのサイズを変更するサイズを指定します。</block>
-  <block id="e8588b6787add3a9627075f813ad061b" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexCache ボリュームのサイズが変更されます。System Manager 9.6 以降では、ボリュームに対して許容される最大サイズがフィールドの横に表示されます。</block>
   <block id="ee06c3a75d2f90d528d0bdad6ee8b794" category="inline-link-macro">FlexCache ボリュームのアドバンストオプションの指定</block>
   <block id="bf1a8ac5c931866758030b4588ed85b1" category="paragraph">新しいリソースを追加して FlexCache ボリュームを拡張する場合は、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （アドバンストオプション）。を参照してください <block ref="ff23e8b352173b9385a50749f03a49b1" category="inline-link-macro-rx"></block>。</block>
   <block id="689dc6ae2f8d54723af8baa6aff39f7d" category="list-text">FlexCache ボリュームのサイズを変更するには、 * Save * （保存）をクリックします。</block>
@@ -4072,7 +4011,6 @@
   <block id="e03e4a99ade76c0bb750fee863044633" category="paragraph">ピアクラスタが最後に変更された日時が表示されます。</block>
   <block id="504897d4a6b59afadffd3cf9e5d3ea85" category="list-text">* 暗号化 *</block>
   <block id="06149daf060bb537614972ab1e5525ee" category="paragraph">ピア関係の暗号化ステータスが表示されます。</block>
-  <block id="666f8d3c8c6cec4c3ead6d42123cf853" category="paragraph">System Manager 9.6 以降では、 2 つのクラスタ間にピア関係を確立する際、デフォルトでピア関係が暗号化されます</block>
   <block id="eb005ffd0cfd954b5e70ce9526fa8da1" category="list-text">* N/A * ：暗号化は関係に適用されません。</block>
   <block id="c16aa9249afc503b1d9abe09cc35cd71" category="list-text">* none * ：ピア関係は暗号化されません。</block>
   <block id="9750464be12c1a01681042cd15915063" category="list-text">* tls_psk * ：ピア関係は暗号化されています。</block>
@@ -4205,7 +4143,6 @@
   <block id="8c7df3f93f783cb5f0e8c0794bacded8" category="list-text">クラスタで ONTAP 9.4 以降が実行されている必要があります。</block>
   <block id="010c8c583e9f5d5af3598c0df4db8122" category="list-text">ネットアップサポートサイトからネットワーク上の HTTP サーバ、 FTP サーバ、またはローカルシステムにソフトウェアイメージをコピーしておき、ノードからイメージにアクセスできるようにする必要があります。</block>
   <block id="2896283cd3f5ad7547bcbf3c8e1a3f8f" category="paragraph"><block ref="2896283cd3f5ad7547bcbf3c8e1a3f8f" category="inline-link-macro-rx"></block></block>
-  <block id="e96b6846909953edee49dc1510174cba" category="list-text">System Manager 9.5 以降では、 2 パック MetroCluster 構成のシングルノードクラスタを更新できます。</block>
   <block id="0e4c90e60897ccf150a5b053c58c5ded" category="paragraph">この処理は両方のサイトで実行する必要があります。</block>
   <block id="4e7008a137878e0910f79123463847a5" category="list-text">MetroCluster 構成のシングルノードクラスタの更新は、システムの停止を伴わない処理です。</block>
   <block id="d4e231e6ff4c69e10ecdd40c528d83ad" category="paragraph">クラスタのリブート中は、 System Manager のユーザインターフェイスを使用できません。</block>
@@ -4258,7 +4195,6 @@
   <block id="6db6761a7b650e727ea59f5dcf4862a7" category="paragraph">一度に削除できるライセンスパッケージは 1 つだけです。</block>
   <block id="a77613df2abb9a71ae309f54018e83fa" category="paragraph">ソフトウェアライセンスがストレージシステムから削除されます。削除されたライセンスは、 Licenses window のライセンスのリストにも表示されなくなります。</block>
   <block id="ec95b6d561c18429ac524d8df0eb748d" category="paragraph"><block ref="ec95b6d561c18429ac524d8df0eb748d" category="inline-xref-macro-rx"></block></block>
-  <block id="9aed27802e0cea0eb2b0356f40f40d0e" category="summary">System Manager 9.6 以降では、 Storage Virtual Machine （ SVM ）の CIFS / NFS ファイルアクセスエラーを診断できます。</block>
   <block id="31d6568812be270156162f88d707feb1" category="doc">ファイルアクセスのトレースによる SVM のアクセスエラー診断</block>
   <block id="653b1b162cb9aff6836afd7d5a152505" category="paragraph">「 access denied 」エラーなどのファイル・アクセスの問題は ' 共有の構成 ' 権限 ' またはユーザ・マッピングに問題がある場合に発生する可能性がありますファイルアクセスの問題を解決するには、 System Manager を使用して、ユーザがアクセスを希望するファイルまたは共有のアクセストレース結果を表示すると役立ちます。System Manager には、ファイルまたは共有に対する読み取り、書き込み、または実行の有効な権限があるかどうかと、アクセスが有効または無効な理由が表示されます。</block>
   <block id="4f64f4263fef2b7c2b12b110e5ebafb9" category="list-text">ファイルアクセスエラーが返されたファイルまたは共有が含まれている SVM を選択します。</block>
@@ -4632,7 +4568,6 @@
   <block id="f4d94293e9e656a9d2310ca84fb94632" category="list-text">クラウド階層とクラスタ間の通信が SSL または TLS を使用して暗号化されている場合は、必要な証明書をインストールする必要があります。</block>
   <block id="f571fb372da76b65558288071e96f334" category="paragraph">次のオブジェクトストアをクラウド階層として使用できます。</block>
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
-  <block id="33f78bbdf1a758d02b55487b2ecd80c7" category="list-text">Alibaba Cloud （ System Manager 9.6 以降）</block>
   <block id="fea2c9f5057f9d81135ceb4d08c60600" category="list-text">Amazon Web Services （ AWS ） Simple Storage Service （ S3 ）</block>
   <block id="e310ac4e0ff61922cee54b2be11f176c" category="list-text">Amazon Web Services （ AWS ） Commercial Cloud Service （ C2S ）</block>
   <block id="7229e78ecf33d07a5618d54695f22e2b" category="list-text">Microsoft Azure Blob Storage</block>
@@ -4826,7 +4761,6 @@
   <block id="9ea3b4df7f0d58acd4fb0515b06113ee" category="list-text">[* 管理 * （ * Management * ） ] パネルで、 [* ユーザー * （ * Users * ） ] をクリック</block>
   <block id="6629eea96a80a0a3f76c142da986e06d" category="list-text">[*Users*] ウィンドウで、変更するユーザーアカウントを選択し、 [*Edit*] をクリックします。</block>
   <block id="9235a2dd1c9442d33394cbcb1d128d12" category="list-text">[* ユーザーの変更 * ] ダイアログボックスで、ユーザーログイン方法を変更し、 [* 変更 * ] をクリックします。</block>
-  <block id="d4947d5685ece773c087f611360d5c15" category="summary">System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。</block>
   <block id="bb1a898150cba9c435ba241d8cba4ec7" category="doc">MetroCluster のスイッチオーバーとスイッチバック</block>
   <block id="6855e92b0f33998f93275cc003b32492" category="paragraph">スイッチオーバー処理を使用すると、通常は別のクラスタ（サイト B ）が実行するタスクをクラスタ（サイト A ）がテイクオーバーできます。スイッチオーバー後、テイクオーバーされたクラスタ（サイト B ）を停止して、メンテナンスや修復を実施できます。メンテナンスが完了し、サイト B が稼働して修復タスクが完了したら、スイッチバック処理を開始して修復されたクラスタ（サイト B ）で通常のタスクを再開できます。</block>
   <block id="2c464ddbc41f8fb8ac9622a8533eb7d9" category="paragraph">System Manager では、リモートクラスタサイトのステータスに基づいて 2 種類のスイッチオーバー処理がサポートされます。</block>
@@ -4844,7 +4778,6 @@
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">テキストボックスで名前を更新し、 * 送信 * をクリックします。</block>
   <block id="e801d2be7b11bcc8807e4f9a7c173b7f" category="paragraph">MetroCluster サイト A のステータスを表示すると更新後の名前を確認できます。</block>
   <block id="e9551f243e2860df3b1dfddc05a6cf7f" category="list-text">リモートサイト（サイト B ）から MetroCluster サイト A を表示するときに更新された名前を表示するには、リモートサイト（サイト B ）の CLI で「 cluster peer modify -local-name 」コマンドを実行します</block>
-  <block id="d1ca2549a87d41ab760f2e24b278410a" category="summary">System Manager 9.6 以降では、 FlexCache ボリュームを編集する際に、 FlexCache ボリュームに関連付けるアドバンストオプションを指定できます。</block>
   <block id="fa8ddae57fb0b13c4eb7a2f3b7deaa99" category="doc">FlexCache ボリュームのアドバンストオプションの指定</block>
   <block id="443a7f3e7ab189cba1285850af1e34f2" category="list-text">[Edit FlexCache volume*]( ボリュームの編集 ) ウィンドウで ' をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> をクリックして、アドバンストオプションを指定します。</block>
   <block id="cc6147bf70776e78f1689c5b5ec50cdf" category="paragraph">[ 詳細オプション ] ウィンドウが表示されます。このセクションにはセクション（左側の列の見出し）があり、さまざまなオプションを指定できます。</block>
@@ -4876,10 +4809,8 @@
   <block id="5652939fb504000d7345b9925e453202" category="list-text">NFS 設定の編集 * ダイアログボックスで、必要な変更を行います。</block>
   <block id="f36d18dddd479e5588589bf74c5a026e" category="inline-xref-macro">NFS ウィンドウ</block>
   <block id="62d366242edcb73999165abb57003836" category="paragraph"><block ref="62d366242edcb73999165abb57003836" category="inline-xref-macro-rx"></block></block>
-  <block id="9e1942adc19b7a509ad2eb80b4a57ade" category="summary">StrictSync ポリシーと Sync ポリシーでは、 FC 、 iSCSI 、 FC-NVMe の各プロトコルを使用した LUN ベースのすべてのアプリケーションに加え、データベース、 VMWare クォータ、 CIFS などのエンタープライズアプリケーションについては NFSv3 および NFSv4 プロトコルもサポートされます。ONTAP 9.6 以降では、 EDA （デザインオートメーション）、ホームディレクトリ、ソフトウェアビルドワークロードなどのエンタープライズファイルサービスに SnapMirror Synchronous を使用できます。</block>
   <block id="c5e854a1d2af8f07eff758906c90e989" category="doc">StrictSync ポリシーと Sync ポリシーでサポートされるワークロードの概要</block>
   <block id="f4c39692ac5e708410064c0716f0754d" category="paragraph">ONTAP 9.5 では、 Sync ポリシーで NFSv3 または NFSv4 ワークロードを選択する際、いくつかの重要な側面について考慮する必要があります。読み取り処理や書き込み処理のワークロードのデータ量については、 Sync ポリシーでは IO ワークロードが高くても対応できるため考慮する必要はありません。ONTAP 9.5 では、ファイルの作成、ディレクトリの作成、ファイル権限の変更、ディレクトリ権限の変更などの処理が多いワークロード（「メタデータ比率の高いワークロード」と呼ばれます）は適さない場合があります。メタデータ比率の高いワークロードの典型的な例としては、複数のテストファイルを作成して自動化の実行後にファイルを削除する DevOps ワークロードがあります。また、コンパイル時に複数の一時ファイルを生成する並列ビルドワークロードなども含まれます。メタデータの書き込みアクティビティの比率が高いと、ミラー間の原因同期を一時的に解除して、クライアントからの読み取りや書き込みの IO が停止することがあります。</block>
-  <block id="cdd6492b3d04331c92523e5bd0245974" category="paragraph">ONTAP 9.6 以降ではこれらの制限はなくなり、ホームディレクトリやソフトウェアビルドワークロードなどのマルチユーザ環境を含むエンタープライズファイルサービスのワークロードに SnapMirror Synchronous を使用できるようになりました。</block>
   <block id="d2d4e00de04d366aea9146e30e18baf5" category="inline-link">ネットアップテクニカルレポート 4733 ：『 SnapMirror Synchronous for ONTAP 9.6 』</block>
   <block id="8c65052e38f8a19b4ab4b42ded83c59a" category="paragraph"><block ref="8c65052e38f8a19b4ab4b42ded83c59a" category="inline-link-rx"></block></block>
   <block id="e32032d2625b9284ad549f09b76e2c69" category="summary">System Manager を使用して、クラスタのパスワードをリセットできます。</block>
@@ -5027,8 +4958,6 @@
   <block id="e98cbd903d92989765839a90586d8f7a" category="paragraph">ローリング更新では、クラスタ内のノードが一度に 1 つずつ更新されます。一括更新では、複数のノードが同時に更新されます。</block>
   <block id="44b9cc060ad67e9e84068e7c314f4aab" category="list-text">ONTAP ソフトウェアを Long-Term Service （ LTS ；長期サービス）リリースから次回の LTS リリース（ LTS+1 ）に無停止で更新できます。</block>
   <block id="879c7beaf00e34f2a098414820d92553" category="paragraph">たとえば、 ONTAP 9.1 と ONTAP 9.3 が LTS リリースの場合は、 ONTAP 9.1 から ONTAP 9.3 にクラスタを無停止で更新できます。</block>
-  <block id="32d24ee82d683e8540f9c282f953430c" category="list-text">System Manager 9.6 以降では、 System Manager 9.5 で NVMe プロトコルが設定されている場合に System Manager 9.5 を System Manager 9.6 にアップグレードすると、 NVMe プロトコルをライセンスなしで利用できる 90 日の猶予期間はなくなりました。ONTAP 9.5 を 9.6 にアップグレードした時点で猶予期間が残っている場合、 NVMe の機能を引き続き利用するには、猶予期間を有効な NVMeoF ライセンスに置き換える必要があります。</block>
-  <block id="d96302c0b3f978bc3333ac00b1e2dfcd" category="list-text">ONTAP 9.5 以降では、 NVMe プロトコルを使用する HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。作成できる NVMe LIF の数はノードごとに 2 つまでです。ONTAP 9.5 にアップグレードするときは、 NVMe プロトコルを使用する HA ペアの各ノードに対して少なくとも 1 つの NVMe LIF が定義されていることを確認する必要があります。</block>
   <block id="7a4bffac0c529b602f4c3015dad82a64" category="list-text">「 * アップデート * 」タブで、新しい画像を追加するか、使用可能な画像を選択します。</block>
   <block id="ab4eb1fa5852767db4ffe73f8f8b20b0" category="paragraph">クラスタコンポーネントがチェックされて更新を無停止で完了できるかどうかが検証され、エラーや警告があれば表示されます。ソフトウェアの更新前に実施する必要がある対処方法があれば、あわせて表示されます。</block>
   <block id="c39a2721d823ed39f1837f4a9af86e74" category="list-text">System Manager にログインし、 * Configuration * &gt; * Cluster * &gt; * Update * &gt; * Update History * をクリックして、選択したバージョンにクラスタが正しく更新されたことを確認し、詳細を確認します。</block>
@@ -5143,7 +5072,6 @@
   <block id="611582f4648bf98725a02bcca7285de9" category="list-text">FlexGroup ボリュームを拡張するには、拡張に使用するアグリゲートに十分な空きスペースが必要です。</block>
   <block id="da167c465aa599598b528deacafa47eb" category="list-text">サイズを変更する FlexGroup ボリュームを選択し、 * その他の操作 * &gt; * サイズ変更 * をクリックします。</block>
   <block id="fb7e107fc632fc3b47e98f65a2b1026f" category="list-text">FlexGroup ボリュームのサイズ変更 * ウィンドウで、 FlexGroup ボリュームのサイズを変更するサイズを指定します。</block>
-  <block id="498edc126781eeaba55a62f711b28699" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexGroup ボリュームのサイズが変更されます。System Manager 9.6 以降では、ボリュームに対して許容される最小サイズがフィールドの横に表示されます。</block>
   <block id="8fc29799fa5d7d61b9fce4781993418c" category="paragraph">新しいリソースを追加して FlexGroup ボリュームを拡張する場合は、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （アドバンストオプション）。</block>
   <block id="dae0d20dbc1649cc1e11aab7858b03f2" category="list-text">Snapshot コピーリザーブの割合を指定します。</block>
   <block id="30743dc8da0a0156886a97e9699f314a" category="list-text">FlexGroup ボリュームのサイズを変更するには、 * サイズ変更 * をクリックします。</block>
@@ -5185,7 +5113,6 @@
   <block id="efadfe47e9ed8a226ed8057d77521d55" category="paragraph">SVM に NVMe プロトコルが設定されます。プロトコルの設定が完了したら、 * SVM 設定 * を使用してサービスを開始または停止できます</block>
   <block id="d4308ebe41c5e20042467fa119a0f226" category="inline-xref-macro">NVMe をセットアップしています</block>
   <block id="52c7257528ba3d5f2e6b3b4d283011e2" category="paragraph"><block ref="52c7257528ba3d5f2e6b3b4d283011e2" category="inline-xref-macro-rx"></block></block>
-  <block id="0e01986a4812cb9edf416ec1a20fe6d5" category="summary">System Manager 9.6 以降では、 FlexCache ボリュームを作成できます。</block>
   <block id="648c70c7a42dbc82a126b14b63ae7a65" category="doc">FlexCache ボリュームを作成します</block>
   <block id="eb53ad6b29e4928c761d2c0603ffdb80" category="paragraph">FlexCache を作成するには、 FlexCache 容量ライセンスが必要です。</block>
   <block id="a57d03d1c0981c5a08acdef16460ea79" category="list-text">[* Volumes （ * ボリューム） ] ウィンドウで、 [* Create * （作成） ] &gt; [* FlexCache * （ * ボリューム） ] をクリックします</block>
@@ -5354,7 +5281,6 @@
   <block id="caf21da85b2c1043ff99e7d9cd52f2e3" category="list-text">WAFL</block>
   <block id="21d8563f15bf1be79f5241c333ede1db" category="list-text">CM 、 ASUP 、 EMS などの RAS コンポーネント</block>
   <block id="5254240ea8ee1ad7c0689c565077c8ec" category="paragraph">NVMeoF サブシステムとの連携は、いずれも ONTAP で検出された現在の定義とパターンに従います。</block>
-  <block id="78090d18b9119db8e02ee09361e9ab3f" category="summary">System Manager 9.6 以降 FlexCache では、 FlexCache ボリュームをオフラインまたはオンラインにしたり、 FlexCache ボリュームへのアクセスを制限したりするときに、ボリュームのステータスを変更できます。</block>
   <block id="a20f7d41b2cda612190a0da100d8ea35" category="doc">FlexCache ボリュームのステータス変更</block>
   <block id="edd157911f3f71d15fad21af777b74ce" category="list-text">ステータスを変更する FlexCache ボリュームを選択します。</block>
   <block id="0ebba1c780c0912daef9ef93708f39ed" category="list-text">[ * その他の操作 * &gt; * ステータスを * に変更 ] をクリックし、必要なステータスを選択して FlexCache ボリュームのステータスを更新します。</block>
@@ -5609,13 +5535,11 @@
   <block id="6623492415d3c8754b245f94c5e41ec4" category="list-text">ファイルアクセスをトレースします</block>
   <block id="8e1e2a1e11c82de386683b768c4fcbe5" category="paragraph">新しい Trace File Access ウィンドウでは、 CIFS プロトコルまたは NFS プロトコルを使用して SVM 上のファイルや共有へのアクセスでユーザが問題に直面した場合の問題を診断できます。</block>
   <block id="1b4fe191f66da60f23fa46b508bdad49" category="list-text">暗号化された SnapMirror</block>
-  <block id="108228f5e406fc538d62843f4d197faa" category="paragraph">System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。セキュリティ上の理由から、パスフレーズは変更可能です。</block>
   <block id="b8f12bcb28d6feab37168695285001b1" category="list-text">FlexCache の機能</block>
   <block id="243cda4c8ead493c9a45febda410d99e" category="paragraph">FlexCache ボリュームの作成、編集、表示、削除を行う機能が System Manager に追加されました。</block>
   <block id="3f3d211e7da3a1810ada6c38dc15e0e9" category="list-text">Fabric Pool の機能拡張</block>
   <block id="19b8b9ec7ccbf880f9d89c442ed0cce5" category="paragraph">Alibaba Cloud と Google Cloud を、クラウド階層として使用するオブジェクトストアとして使用できるようになりました。また、 System Manager では「すべて」の階層化ポリシーがサポートされるようになりました。これにより、すべてのデータをクラウドに階層化するように指定できます。ボリュームのクラウドレイテンシを表示するために、 Volume 360 ページの Volume Performance タブが強化されました。</block>
   <block id="f252791505b1156cb435fb771715c458" category="list-text">FlexGroup の機能拡張</block>
-  <block id="c9905ddbf1a4e1e42cfbd6b2fadd9fc1" category="paragraph">System Manager 9.6 以降では、ボリュームの名前変更やサイズ変更など、既存の FlexGroup ボリュームのプロパティを編集できます。</block>
   <block id="1bf936204894b2ff476bb9cd27d4de52" category="list-text">SnapLock ボリュームの機能拡張</block>
   <block id="8c0fcad595adca8528794a388382f0a6" category="paragraph">ストレージ QoS ポリシーグループを作成または変更する場合、パフォーマンスベースでのオールフラッシュで最適化に加えて、 ONTAP Select Premium システムに最小スループット制限を設定できます。</block>
   <block id="c21691793abdc6b0d07e15ea466787ac" category="section-title">ONTAP 9.5 で追加された機能と機能拡張</block>
@@ -5628,19 +5552,14 @@
   <block id="7e4716fcadce4a1adb7676534312a764" category="list-text">SVM DR</block>
   <block id="a78e34456ebb2929a77658a07c4f4dd0" category="paragraph">Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。System Manager を使用して、 SVM 間のミラー関係やミラーとバックアップ関係を作成および管理できます。</block>
   <block id="facc11ad7fe6d50a2b697a3a547f4b43" category="list-text">L2/L3 アプリケーションが表示されます</block>
-  <block id="4478fd4c5eec1547a7adaacd479ee6e2" category="paragraph">ONTAP 9.5 以降の System Manager では、 Applications ページのさまざまなホスト名に L2/L3 アプリケーションが表示されます。ホスト名をクリックすると、 L2 Cockpit インターフェイスで新しいウィンドウが開きます。また、各アプリケーションについて、 System Manager に IOPS とレイテンシの測定値も表示されます。</block>
   <block id="5db3515d7cf2547fd163ee1a5f26fd8b" category="list-text">仮想 IP のサポート</block>
-  <block id="5c814ac85a3d97e37764f0b5274cd7d2" category="paragraph">ONTAP 9.5 以降の System Manager には、仮想 IP （ VIP ） LIF に関する情報が表示されます。ただし、 VIP LIF の作成、削除、管理は System Manager では行えません。</block>
   <block id="c0f71885c1ded7dcbfcea2ba397f099f" category="list-text">NVMe サブシステムのライセンス要件</block>
-  <block id="608e7600614ecb694a2abd4567b275fa" category="paragraph">ONTAP 9.5 以降では、 NVMe がライセンスされます。System Manager はライセンス要件をサポートしています。</block>
   <block id="a18dd6563d0375d7efe564db4e14c0a9" category="list-text">NVMeoF サブシステムのサポート</block>
   <block id="f88665c6ffe140283080817a8647ea2a" category="paragraph">System Manager では、 FreeBSD カーネルに属する独立したカーネルオブジェクトである NVMe over Fabrics （ NVMeoF ）サブシステムの使用がサポートされます。NVMeoF は仕様で定義された NVMe の拡張機能であり、 PCIe 以外の接続経由による NVMe ベースの通信を実現します。このインターフェイスを使用すると、 NVMe を引き続き基本的な通信メカニズムとして使用しながら、外部のストレージエンクロージャを直接またはスイッチ経由でサーバに接続できます。NVMeoF サブシステムは、 SAN コンポーネント、 WAFL 、および RAS コンポーネントと連携します。</block>
   <block id="c0861b2b4785b6b9a352d8cd77b28401" category="list-text">NVMe マルチパスがサポートされます</block>
-  <block id="557b8d5900e120fb8e53eb46b0f95417" category="paragraph">ONTAP 9.5 以降では、 NVMe プロトコルを使用する HA ペアの各ノードに対して、少なくとも 1 つの LIF が設定されている必要があります。ノードに対して LIF を 2 つ定義することもできます。ONTAP 9.5 にアップグレードするときは、 NVMe プロトコルを使用する HA ペアの各ノードに対して少なくとも 1 つの LIF が定義されていることを確認する必要があります。</block>
   <block id="8ddaffb7a745de51c2f6dbeeb160c0e6" category="list-text">FlexGroup の対象となるアグリゲート</block>
   <block id="9e660d613eb9d0356b1bb59aaa91df0e" category="paragraph">FlexGroup を作成すると、アグリゲートがベストプラクティスに従ってデフォルトで選択されます。オールフラッシュで最適化されたストレージシステムの場合はシンプロビジョニングがデフォルトで有効になり、その他のストレージシステムの場合はシックプロビジョニングがデフォルトで有効になります。ベストプラクティスに従ったデフォルトの構成を変更する場合は、対象となる FabricPool アグリゲートのリストから選択することができます。</block>
   <block id="ebae7584aeeac6e80a25ce0fb1f51276" category="list-text">パブリック SSL 証明書による認証</block>
-  <block id="2da5bd10ab8e2596c9cb88a4fac60e0b" category="paragraph">System Manager 9.5 以降では、 SVM に関連付けられているパブリック SSL 証明書の確認が可能です。証明書の詳細、シリアル番号、開始日、および有効期限を確認できます。証明書をクリップボードにコピーしたり、証明書の詳細を E メールで送信したりすることもできます。また、 SVM に vsadmin ユーザアカウントを追加すると、 HTTP をアプリケーションとして使用して証明書で認証するログイン方法が自動的に組み込まれます。</block>
   <block id="da464d1c16aae904070849e86c141ac6" category="list-text">qtree は、 FlexVol ではディレクトリとして表示されます</block>
   <block id="bd47993efc577604e38ec041a5b28842" category="paragraph">FlexVol に qtree とボリュームの両方が含まれている場合、 qtree はディレクトリとして表示されます。</block>
   <block id="098a9352bab68d0361bda3b31e3eaf76" category="list-text">FlexCache ボリューム</block>
@@ -5666,7 +5585,6 @@
   <block id="0f2daeb4b8c5c93467f526676794e6c7" category="list-text">ボリュームを保護します</block>
   <block id="95ff80cc169b8a9f3a6a4fc5725ab912" category="list-text">詳細については、クラスタダッシュボードの保護タブを参照してください</block>
   <block id="1b35e94e31339106e7de936668590bf2" category="list-text">シングルノードクラスタの停止を伴う更新をサポートします</block>
-  <block id="2414d439d91f24af3e3ed42874fd41f5" category="paragraph">System Manager 9.4 以降では、シングルノードクラスタの更新が可能です。シングルノードクラスタの更新には停止が伴うため、更新中はクライアントデータを使用できません。</block>
   <block id="389f1c68c2a6472156408a5301cfb8d7" category="list-text">Snapshot コピーの設定がサポートされます</block>
   <block id="443576620ef533dc820685ae44077996" category="paragraph">既存の Snapshot ポリシーにスケジュールを設定することで、 Snapshot コピーを設定できます。ONTAP 9.4 以降では、 FlexVol ボリュームの Snapshot コピーを最大 1024 個まで保持できます。</block>
   <block id="34496582f496e0b27005131d1ba680d3" category="list-text">Storage Efficiency の機能拡張</block>
@@ -5888,9 +5806,7 @@
   <block id="c0a1d79467fdd8f3ec33f90066ab406a" category="list-text">LUN をオフラインにする必要があります。</block>
   <block id="b028ef8bf383823463023ed49b260328" category="list-text">LUN をすべてのイニシエータホストからマッピング解除します。</block>
   <block id="63c2df86bcc87328b9b2969baefc5eb0" category="list-text">[* LUN 管理 * ] タブで、削除する LUN を 1 つ以上選択し、 [ * 削除 * ] をクリックします。</block>
-  <block id="f8f6c8f0b421fd4012ea9a658752623c" category="summary">System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、 .xlsx または .csv のいずれかの形式でダウンロードできます。</block>
   <block id="1e18da9a7ca059527f937399fcff5ab9" category="doc">テンプレートファイルを使用してクラスタをセットアップ</block>
-  <block id="1c263ddab6292e2b044e0c3624119e09" category="paragraph">System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。</block>
   <block id="8a3987f2693d326a42a2bc437490bcd9" category="list-text">ONTAP 9.1 以降をサポートするクラスタの場合、 ONTAP 9.1 以降を実行しているストレージシステムのみを追加できます。</block>
   <block id="8df31e503af8a13a8bc867b17351b4c0" category="list-text">ファイルのアップロード時にすべてのフィールドが自動的に入力されるわけではありません。</block>
   <block id="aca1546a662c9a104170769a9c6ca527" category="paragraph">パスワードやクラスタ管理ポートなど、一部のフィールドの値は手動で入力する必要があります。</block>
@@ -5969,7 +5885,6 @@
   <block id="a632e7e0f8139ecce6623cfde03d0771" category="list-text">ノードに対してその状態に関係なくリモートでログイン、管理、監視、および管理を行うようにサービスプロセッサを設定します。</block>
   <block id="ca37836b5f77bb74bd9e841238f3e36b" category="summary">マルチディスクキャリアのディスクシェルフとシングルディスクキャリアのディスクシェルフ（標準のディスクシェルフ）を、同じストレージシステムの同じスタック内に混在させることができます。</block>
   <block id="9d8ba5641aec18b49335b203bdd17a54" category="doc">マルチディスクキャリアのストレージシェルフのシェルフ構成に関する要件</block>
-  <block id="411ede689cea78f8495f13420863ad47" category="summary">ボリュームウィンドウを使用して、 FlexVol ボリュームと FlexGroup ボリュームを管理できます。System Manager 9.6 以降では、 FlexCache ボリュームも管理できます。</block>
   <block id="e0fcf5317e38101ece191f4c411a7618" category="paragraph">ディザスタリカバリ用に設定された Storage Virtual Machine （ SVM ）のボリュームについては、 System Manager で表示したり管理したりすることはできません。代わりに CLI を使用する必要があります。</block>
   <block id="aabed70eca5107f1a1d00f648619efc9" category="paragraph">コマンドボタンと列のリストは、選択したボリュームのタイプによって異なります。選択したボリュームに適用可能なコマンドボタンと列だけを表示できます。</block>
   <block id="ba055332df4c14eabc2e77159a722d07" category="section-title">選択フィールド</block>
@@ -6015,8 +5930,6 @@
   <block id="800281189322186103f9ffed90c378c8" category="list-text">* ボリューム暗号化キー変更 *</block>
   <block id="cd60bd30cdb87fc30f18cbb308a03515" category="paragraph">ボリュームのデータ暗号化キーを変更します。</block>
   <block id="b16614ef25b8ed6d371e00eae5aaec58" category="paragraph">ボリューム内のデータは、自動的に生成された新しいキーを使用して再度暗号化されます。古いキーは、キー変更処理が完了すると自動的に削除されます。</block>
-  <block id="10554dac7cc28d90e0358d2840f24266" category="paragraph">System Manager 9.6 以降では、 FlexGroup DP ボリュームと FlexCache ボリュームのボリューム暗号化キーの変更がサポートされます。NAE アグリゲートから暗号化を継承したボリュームでは、キーの変更は無効です。</block>
-  <block id="22dae7127051ff96157d41ea21a59f3a" category="paragraph">同じボリュームのキー変更処理の実行中にボリューム移動処理を開始すると、キー変更処理は中止されます。System Manager 9.5 以前のバージョンでは、ボリュームの変換処理またはキー変更処理の実行中にボリュームを移動しようとすると、警告なしで処理が中止されます。System Manager 9.6 以降では、変換処理またはキー変更処理の実行中にボリュームを移動しようとした場合、続行すると変換処理またはキー変更処理が中止されることを通知する警告メッセージが表示されます。</block>
   <block id="5db30de286c0f3dc0e962f36ed0f8ebe" category="list-text">* VMware 用のストレージのプロビジョニング *</block>
   <block id="e94fad77d369358ddb42839898c0288e" category="paragraph">NFS データストアのボリュームを作成し、 NFS データストアにアクセスする ESX サーバを指定できます。</block>
   <block id="06ec068acdeb98f49eb90245480d5bfe" category="list-text">* 保護関係が見つかりません *</block>
@@ -6586,7 +6499,6 @@
   <block id="a21743a7547838559c680fdd97a4471d" category="paragraph">単位は 10 進数です。数字と単位の間にスペースは入れません。-max-throughput パラメータのデフォルト値は 'Infinit` であり ' INF という特別な値で指定されます</block>
   <block id="917d67c8446e86828604154390f54739" category="paragraph">-max-throughput パラメータにはデフォルトの単位はありません。ゼロまたは無制限以外の値を指定する場合は、単位を指定する必要があります。</block>
   <block id="47fc600203f7fe8d7996313d1379a172" category="paragraph">キーワード「 none 」は、値を削除する必要がある場合に使用できます。使用可能な最大値を指定する必要がある場合は、キーワード "INF" を使用できます。有効なスループット仕様の例としては、 "`100B/s","10KB/s ","1gb/s ","500MB/s ","tb/s `","tb/s ," などがあります。 "`100iops`", "100iops,400KB/s ," および "800KB/s ,100iops")</block>
-  <block id="dc0040e63161f23677a81a41475bdc2c" category="summary">System Manager 9.6 以降では、既存の FlexGroup ボリュームのプロパティを編集できます。</block>
   <block id="386804db58294cbf95f8d8cdc4b054e4" category="paragraph">FlexGroup はオンラインである必要があります。</block>
   <block id="b5b2b1d45957a6c155cc1161578601a9" category="paragraph">FabricPool FlexGroup ボリュームは、次の状況で拡張できます。</block>
   <block id="06661904c37362a5e07730c47db17f4a" category="list-text">FabricPool FlexGroup ボリュームは、 FabricPool アグリゲートでのみ拡張できます。</block>
@@ -6594,7 +6506,6 @@
   <block id="b653e7114b898a50197c4bd6458c0c92" category="list-text">FlexGroup ボリュームに FabricPool ボリュームと FabricPool 以外のボリュームが混在している場合、 FlexGroup ボリュームは FabricPool アグリゲートと FabricPool 以外のアグリゲートの両方で拡張できます。</block>
   <block id="02ff0d646ef82f2e76743b3d40aa0a52" category="list-text">変更する FlexGroup ボリュームを選択し、 * 編集 * をクリックします。</block>
   <block id="0c4cd619b3025dc6a47c947c8cd66127" category="list-text">FlexGroup ボリュームの名前を変更する場合は、新しい名前を「 * 名前 * 」フィールドに入力します。</block>
-  <block id="edf7cfcafa768e0993f601a8896639e6" category="paragraph">System Manager 9.6 以降では、 FlexGroup DP ボリュームの名前も変更できます。</block>
   <block id="d7bff6878e1771ba1b7d511bedd4b348" category="list-text">ボリュームの暗号化を有効にするには、 * encrypted * オプションを有効にします。</block>
   <block id="82420e9f127f5641742dbb7e880fabbe" category="inline-link-macro">FlexGroup ボリュームのアドバンストオプションの指定</block>
   <block id="6d82da7f723201a695eae1cf37e8fe85" category="list-text">をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexGroup ボリュームの設定を変更します。を参照してください <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>。</block>
@@ -6975,7 +6886,6 @@
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock ライセンスが追加されている必要があります。</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 構成では、 SnapLock エンタープライズアグリゲートのみを作成できます。</block>
   <block id="7f2385194f8b9f77992e74007f1eba1c" category="list-text">アレイ LUN については、 SnapLock Enterprise アグリゲートのみがサポートされます。</block>
-  <block id="28937cc267164af695a490c410b78013" category="list-text">ONTAP 9.1 以降では、 AFF プラットフォームで SnapLock アグリゲートを作成できます。</block>
   <block id="956da8c04fd75abe915260ccd5df1aec" category="list-text">次のいずれかの方法を使用して SnapLock アグリゲートを作成します。</block>
   <block id="bd6b50ce1618a8a757a18f37edb1c2d5" category="list-text">SnapLock アグリゲートを作成するには、次の手順を</block>
   <block id="55ecc2d32dceb29419f7f5007eed7532" category="paragraph">SnapLock Compliance アグリゲートの名前は、作成後に変更することはできません。</block>
@@ -7024,14 +6934,11 @@
   <block id="c59b02cb6a4d89b2305e38ea5a149fdf" category="list-text">インラインのみ</block>
   <block id="0c312b643ffb34aadd0b9ade130edfc6" category="paragraph">スケジュール設定または手動開始によるバックグラウンドの効率化処理を実行せずにボリュームのインライン圧縮を実行するには、インラインのみの効率化ポリシーをボリュームに設定し、インライン圧縮を有効にします。</block>
   <block id="8ee664d791397190409ee346d0375390" category="paragraph">インラインのみおよびデフォルトの効率化ポリシーの詳細については、マニュアルページを参照してください。</block>
-  <block id="31b4486387148d19e64e6f09e1c530bb" category="summary">System Manager 9.6 以降では、不要になった FlexCache を削除できます。</block>
   <block id="32eb59d1751d73c381a2d8a05a29e10e" category="list-text">FlexCache ボリュームのジャンクションパスがアンマウントされている必要があります。</block>
   <block id="d841db94ed098a9586b6d10f7b4b6972" category="list-text">FlexCache ボリュームがオフラインになっている必要があります。</block>
   <block id="2fdd09fdb82ccfe2475c879af94b9c79" category="list-text">削除する FlexCache ボリュームを選択し、 * 削除 * をクリックします。</block>
-  <block id="77acb4d4187211c7c95fb90eb6dd839f" category="summary">Data ONTAP 8.1 以降では、特定の ONTAP ディスクタイプは、アグリゲートの作成、アグリゲートへの追加、およびスペアの管理を行う目的において同じタイプとみなされます。ONTAP は、各ディスクタイプに実質的ディスクタイプを割り当てます。実質的ディスクタイプが同じ HDD を混在させることができます。</block>
   <block id="c18da52fcfd4120f502b7e503a44a12c" category="doc">実質的 ONTAP ディスクタイプを使用して HDD を混在させる方法</block>
   <block id="73167356eff2beee3b7d0f6602377fae" category="paragraph">「 raid.disktype.enable 」オプションが「 off 」に設定されている場合、特定のタイプの HDD を同じアグリゲート内に混在させることができます。「 raid.disktype.enable 」オプションが「 on 」に設定されている場合、有効なディスクタイプは ONTAP ディスクタイプと同じです。アグリゲートの作成には、 1 つのディスクタイプしか使用できません。「 raid.disktype.enable 」オプションのデフォルト値は「 off 」です。</block>
-  <block id="947ab2fd31a4948d5418d788e6906e52" category="paragraph">Data ONTAP 8.2 以降では 'BSAS ' FSAS ' および ATA のディスクを混在させる場合 'Disk オプション raid.mix.hdd.disktype.capacity` を on に設定する必要がありますFCAL および SAS タイプのディスクを混在させるには 'raid.mix.hdd.disktype.performance オプションを on に設定する必要があります</block>
   <block id="4eef11d5f1a801b05f8cc86c9066507e" category="paragraph">次の表に、ディスクタイプと実質的ディスクタイプの対応を示します。</block>
   <block id="d0dc7d087e136dc1feca144cac29a5f4" category="cell">ONTAP ディスクタイプ</block>
   <block id="ec8718556ea92c1ed5fddca0d75a889d" category="cell">実質的ディスクタイプ</block>
@@ -7042,7 +6949,6 @@
   <block id="ed670c99eb347fb1c38d6d6d9aa0661e" category="paragraph">BSAS</block>
   <block id="d8866c6c3e5ef01d8280393db0af5379" category="paragraph">FCAL および SAS</block>
   <block id="ad015031589d6b6571281305c4630afe" category="paragraph">mSATA （ mSATA</block>
-  <block id="b7cc82b353e982a0286e4336ea0697d7" category="summary">System Manager 9.4 以降では、ストレージの推奨事項に基づいてアグリゲートを作成できます。ただし、ストレージの推奨事項に基づいたアグリゲートの作成が環境でサポートされているかどうかを確認する必要があります。サポートされていない場合は、使用する RAID ポリシーとディスク構成を決定し、アグリゲートを手動で作成する必要があります。</block>
   <block id="611ca4a337369d4b8d3aa9ee5dcf00c1" category="doc">アグリゲートの作成に関するストレージの推奨事項</block>
   <block id="776b2b147e640ab83f09f2ff5c38cdca" category="paragraph">クラスタ内の利用可能なスペアディスクが System Manager で分析され、それらのスペアディスクを使用してアグリゲートを作成する方法が推奨事項として生成されます。推奨されるアグリゲートの名前と使用可能なサイズを含む概要情報が System Manager に表示されます。</block>
   <block id="396a00a6dd95a860584d1e256e4ad924" category="paragraph">多くの場合、ストレージの推奨事項に従うことで環境に最適な構成になります。ただし、クラスタで ONTAP 9.3 以前が実行されている場合や次の構成が環境に含まれている場合は、アグリゲートを手動で作成する必要があります。</block>
@@ -7114,7 +7020,6 @@
   <block id="87e17db132aef1557f6cc8843660b547" category="paragraph">オールフラッシュで最適化されたシステムでは、インライン圧縮と「 auto 」重複排除スケジュールはデフォルトで有効になっています。</block>
   <block id="666a3aca3a50c22daf4ed1c84adcd1b9" category="list-text">「 * QoS * （サービス品質）」セクションで、 FlexGroup ボリュームの入出力（ I/O ）パフォーマンスを制御するポリシーグループを指定します。</block>
   <block id="c6cf4b94cc52ebb65e44fb968e0ec8a7" category="summary">System Manager を使用して、 SVM に NVMe プロトコルを設定できます。SVM で NVMe プロトコルを有効にすると、ネームスペースをプロビジョニングしてホストとサブシステムに割り当てることができます。</block>
-  <block id="d87e410723a6563276b61cf5cbc11234" category="paragraph">ONTAP 9.5 以降では、 NVMe プロトコルを使用する HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF を設定する必要があります。定義できる NVMe LIF の数はノードごとに 2 つまでです。NVMe LIF は、 System Manager を使用して SVM の設定を作成または編集するときに設定します。</block>
   <block id="1a169b0c93fde678e7545eea664d622c" category="paragraph">次の図は、 NVMe を設定するためのワークフローを示しています。</block>
   <block id="f986c0d1608453a3100a148119f1f6d3" category="image-alt">NVMe のセットアップワークフロー</block>
   <block id="620e98d364ae60c47d0fea8d4c9be2f4" category="summary">ストレージプールは SSD （キャッシュディスク）の集まりです。System Manager を使用して複数の SSD を組み合わせてストレージプールを作成すると、 HA ペア間で SSD と SSD スペアを共有し、 2 つ以上の Flash Pool アグリゲートに同時に割り当てることができます。</block>
@@ -7160,7 +7065,6 @@
   <block id="86a029dc650692e5963aa809e916a39e" category="paragraph">容量の上限に近づいているアグリゲートやボリューム、クラスタやノードのストレージ効率、および上位のボリュームの保護の詳細が表示されます。</block>
   <block id="814ba8a9194f2193e90750b1eab47997" category="paragraph">容量タブには、容量の上限に近づいている上位のオンラインアグリゲートが使用済みスペースの降順で表示されます。</block>
   <block id="0f7c1f365ad3a51b1429aa1542b1b0df" category="paragraph">容量タブには、使用容量が最も多いボリュームの数へのリンクが表示されます。この値は、ボリュームが使用容量を超えている場合に入力します。また、クラスタ内で使用可能なアクセス頻度の低いコールドデータの量も表示されます。</block>
-  <block id="a52a7cabf51a09f36ef87f9a90e2af53" category="paragraph">効率化タブには、クラスタまたはノードについての Storage Efficiency による削減効果が表示されます。使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計を確認できます。クラスタまたは特定のノードを選択して、その Storage Efficiency による削減効果を表示できます。System Manager 9.5 では、使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計の値に Snapshot コピーに使用されているスペースは _not_included です。ただし、 System Manager 9.6 以降では、使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計の値に Snapshot コピーに使用されているスペースが含まれます。</block>
   <block id="d771f957bfccc62719457d6326bf2194" category="paragraph">クラスタ概要パネルの更新間隔は 15 分です。</block>
   <block id="fa6eb4e3bfee0e281127cbbd2e054809" category="paragraph">Protection タブには、保護関係が定義されていないクラスタ全体のボリュームに関する情報が表示されます。次の条件に該当する FlexVol ボリュームと FlexGroup ボリュームのみが表示されます。</block>
   <block id="a44b22fb7994077f67f9d2c7889318ce" category="list-text">ボリュームが RW ボリュームでオンラインになっている。</block>
@@ -7388,7 +7292,6 @@
   <block id="da1e3514a2d926808d163915057fbecc" category="paragraph">社内のサポート部門が AutoSupport メッセージを E メールで受信する場合、重大度は E メールメッセージの件名に表示されます。</block>
   <block id="27dcf42425fe950eec2d31a634b20db8" category="summary">System Manager を使用して、アグリゲート、ストレージプール、ディスク、アレイ LUN 、ノード、 Flash Cache 、イベント、システムアラート、 AutoSupport 通知、ジョブ、 および Flash Pool の統計情報を表示します。</block>
   <block id="d92bf5de8c425fdeaaf8160cfcbb7f39" category="doc">物理ストレージの管理</block>
-  <block id="6f44c287c2c4cd1ecff43fe607ec37c6" category="summary">System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスに問題がある場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。</block>
   <block id="348e837675b9fabe5c1122cab57d8896" category="doc">[ ファイルアクセスのトレース ] ウィンドウ</block>
   <block id="698c6e57a26e9dcfc3ac31718fd1984d" category="list-text">* 続行 *</block>
   <block id="df23b574fcb8549d1fd2e9dfccdbde6d" category="paragraph">選択した SVM のファイルアクセスのトレースを設定して開始します。</block>
@@ -7442,7 +7345,6 @@
   <block id="cbc95fa902a86727e89b85af3f19d0fb" category="paragraph">ホームディレクトリ共有の名前が表示されます。</block>
   <block id="c9b73398fbc4618f61034f91e3a7daec" category="paragraph">共有の追加の説明がある場合に表示されます。</block>
   <block id="dd8a5de672229fa8ff58411a6a3e41ff" category="list-text">* 共有の継続的な可用性 *</block>
-  <block id="2d6ca664e165a57792b1b59ede4c3890" category="paragraph">共有が継続的可用性に対して有効になっているかどうかが表示されます。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
   <block id="97469443dfc3695c09f70f7590eeac08" category="paragraph">共有リストの下の領域には、共有プロパティと各共有のアクセス権が表示されます。</block>
   <block id="e6ce8998f0d4cbe5a38c523c958f4162" category="list-text">* プロパティ *</block>
   <block id="217a0172345c647bc3f6a354cd7b6108" category="list-text">oplock ステータス</block>
@@ -7452,7 +7354,6 @@
   <block id="18bfc8152a3e795a4008c07d0c432528" category="list-text">Snapshot を表示します</block>
   <block id="d111a1648cc63acf08b9954ea5d1c5fb" category="paragraph">クライアントで Snapshot コピーを表示できるかどうかを示します。</block>
   <block id="b8c91392a068a4dbf0999fb089045c52" category="list-text">共有の継続的な可用性</block>
-  <block id="41aef6f60f95609aa7b5ca4777bfe44c" category="paragraph">共有が継続的に利用できるように有効になっているか無効になっているかを示します。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
   <block id="ced58c7b6a62adeb9dff9028fa5cf9db" category="list-text">ABE ：アクセスベースの列挙</block>
   <block id="3af978aaedd422de2f12de5f6b53767e" category="paragraph">共有で Access-Based Enumeration が有効になっているかどうかを示します。</block>
   <block id="601881e1c15a5899164ae1415fa564f9" category="list-text">BranchCache</block>
@@ -7504,7 +7405,6 @@
   <block id="01202f05e6c9485ca32089d68953f4dd" category="doc">SVM 関係を作成</block>
   <block id="9e33103284ad8b6f29351c904b401325" category="list-text">デスティネーションクラスタとソースクラスタで ONTAP 9.5 以降が実行されている必要があります。</block>
   <block id="c6cdd4df8a02d7568569288d20156dfe" category="list-text">デスティネーションクラスタを MetroCluster 構成に含めることはできません。</block>
-  <block id="7a3cb6284c4921a43b15cf88ab8375cc" category="list-text">System Manager 9.6 以降では、 Fabric Pool がサポートされます。</block>
   <block id="77595f78f9133961a7457297f795cd07" category="list-text">[ * 保護 * &gt; * SVM 関係 * &gt; * 作成 * ] をクリックします。</block>
   <block id="bcb1d33ec176a891e9e3ae86e2c199d8" category="list-text">SVM 関係のタイプを * SVM 関係タイプ * リストから選択します。</block>
   <block id="41fe1b889a1b3e1fedeb7e2bb7ac3707" category="list-text">ソース Storage Virtual Machine * ペインで、クラスタと SVM を選択します。</block>
@@ -7559,12 +7459,10 @@
   <block id="b4f2a0dfcf3a06588721c3cf46426f55" category="list-text">新しい CIFS 共有の名前を指定します。</block>
   <block id="cf63fad81a6c52194715c588fc201e02" category="list-text">SMB 3.0 以降をサポートするクライアントがノンストップオペレーション時にファイルを継続して開いておけるようにするには、 Hyper-V および SQL * の継続的可用性を有効にするチェックボックスを選択します。</block>
   <block id="81c3a43e87c04aa4f2867930228320dd" category="paragraph">このオプションを使用して開いたファイルは、フェイルオーバー、ギブバック、 LIF の移行など、システムを停止させるイベントから保護されます。</block>
-  <block id="174695729a46aa0db160108074800cc8" category="paragraph">System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
   <block id="44ec628d221f20d3a532dfdc1a49b9cc" category="list-text">SMB 3.0 暗号化を有効にするには、 * この共有へのアクセス時にデータを暗号化 * チェックボックスをオンにします。</block>
   <block id="c11f0d9c886f553934dce4b687e69569" category="list-text">共有の概要またはコメントを入力し、 * Create * をクリックします。</block>
   <block id="546e6304bd126985d219dddabcbf5774" category="paragraph">CIFS 共有が作成され、グループ内の「 Everyone の完全な制御」にアクセス権限が設定されます。</block>
   <block id="1436f0f36cb390ba3594792b757d3a8d" category="paragraph"><block ref="1436f0f36cb390ba3594792b757d3a8d" category="inline-xref-macro-rx"></block></block>
-  <block id="8b8233970ae93cddab3fcb0f038a19cf" category="summary">System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
   <block id="7246a01d2a352fc6450f7f466d58dac5" category="list-text">共有のリストから変更する共有を選択し、 * 編集 * をクリックします。</block>
   <block id="28d42a3f5ce4234a5cb6b5eda7721b12" category="list-text">共有設定の編集 * ダイアログボックスで、必要に応じて共有設定を変更します。</block>
   <block id="b187cf812109744ed2a6197d64b4c287" category="list-text">General * タブで、 Hyper-V による共有の継続的可用性を有効にします</block>
@@ -7576,7 +7474,6 @@
   <block id="ca386ad0a31fa852921757e6e1543edb" category="doc">ハードウェアキャッシュ</block>
   <block id="05f63ef4e26bf3926bee5bd599914c69" category="paragraph">System Manager では、 Flash Cache をハードウェアキャッシュと呼びます。</block>
   <block id="35eee831ecd4e53629cb0c6d2a57abd9" category="summary">System Manager を使用して、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザおよびグループのリストを管理できます。</block>
-  <block id="e2eef74c82fe8d91ebdf6a2ee81a0531" category="summary">System Manager 9.6 以降では、 MetroCluster サイトのネゴシエート（計画的）スイッチオーバーを開始できます。この処理は、サイトでディザスタリカバリのテストや計画的なメンテナンスを実行する場合に役立ちます。</block>
   <block id="a4985675ccbf82679b971ef71b139cae" category="doc">ネゴシエートスイッチオーバーの実行</block>
   <block id="c89716513201f0674f938c4e04a3b7e3" category="list-text">System Manager で、ローカルの MetroCluster サイト（サイト A ）にクラスタ管理者のクレデンシャルを使用してログオンします。</block>
   <block id="3f7d0d5b859f925e642f1cb9e65deba5" category="paragraph">MetroCluster のスイッチオーバーとスイッチバックの処理のステータスが表示され、ネゴシエートスイッチオーバーが可能かどうかが System Manager で検証されます。</block>
@@ -7701,7 +7598,6 @@
   <block id="c6156c6645d1fbb5f5a51e902c9ece91" category="paragraph">データアクセスと SVM 管理者の両方の認証に NIS または LDAP を使用する場合も、 NIS 認証または LDAP 認証が失敗した場合に備え、「 files 」を含め、ローカルユーザをフォールバックとして設定する必要があります。</block>
   <block id="7d3819bec76cddfcffbb57b02bd2cc28" category="inline-xref-macro">SVM の設定を編集します</block>
   <block id="ee9522d07a198685b9026499f3e9718c" category="paragraph"><block ref="ee9522d07a198685b9026499f3e9718c" category="inline-xref-macro-rx"></block></block>
-  <block id="2cf0d1ad0e5847c99267e5c91397bd35" category="summary">System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
   <block id="fd2be26b67bde89bcef46b3a4fa743b3" category="doc">MetroCluster のスイッチオーバーとスイッチバックのワークフロー</block>
   <block id="f723ab84264f816e3d00edcd6835d6ce" category="paragraph">スイッチオーバーとスイッチバックのワークフローは次の 3 つのフェーズで構成されます。</block>
   <block id="1f6f9a4611983ceac53eb6324b432d67" category="list-text">* スイッチオーバー * ：スイッチオーバープロセスにより、ストレージおよびクライアントのアクセスの制御をソースクラスタサイト（サイト B ）から別のクラスタサイト（サイト A ）に移すことができます。この処理により、テストやメンテナンスの際のノンストップオペレーションが実現します。また、サイト障害からリカバリすることもできます。ディザスタリカバリのテストやサイトの計画的メンテナンスを実施する場合、 MetroCluster スイッチオーバーを実行して、ディザスタリカバリ（ DR ）サイト（サイト A ）に制御を移すことができます。スイッチオーバーを開始するには、 DR サイトの少なくとも 1 つのノードが稼働している必要があります。前回のスイッチオーバー処理が DR サイトの一部のノードで失敗している場合、それらのすべてのノードで処理を再試行できます。</block>
@@ -7843,7 +7739,6 @@
   <block id="1da8b81d788e1ca5e70e6a63e315a84b" category="list-text">SVM のクレデンシャルの詳細を指定して、 SnapManager や SnapDrive などのホスト側アプリケーションを SVM 管理者に対して有効にします。</block>
   <block id="fd739e3d5f5d870b3ec2aa610f8c5ccb" category="list-text">NVMe 以外のプロトコルを使用する場合は、 * Create a new LIF for SVM management * をクリックして SVM 管理用の新しい LIF を作成し、ポートセットと IP アドレスを指定します。指定できるオプションは、新しい管理 LIF のサブネットはありません。</block>
   <block id="0f84243377475ccd108fb8723b797988" category="paragraph">CIFS プロトコルと NFS プロトコルのデータ LIF には、デフォルトで管理アクセスが付与されます。新しい管理 LIF は必要な場合にのみ作成する必要があります。iSCSI および FC の場合、データプロトコルと管理プロトコルで 1 つの LIF を共有できないため、 SVM 管理 LIF が必要になります。</block>
-  <block id="64a4126abb3187c5cddc9b3fddcae4ce" category="list-text">NVMe プロトコルを使用する場合は、 ONTAP 9.5 以降で、 SVM セットアップウィザードの 2 ページ目で各ノードに少なくとも 1 つの LIF を設定してください。 * NVMe プロトコルを設定 *</block>
   <block id="40b69b1b198ff39d18008e5224c86c73" category="paragraph">HA ペアの各ノードに対して少なくとも 1 つの LIF を設定する必要があります。LIF はノードごとに 2 つ指定することもできます。設定アイコンをクリックすると、 LIF の設定が 1 つまたは 2 つに切り替わります。</block>
   <block id="3e2b01dd056074efa0e8b8d902a9ed51" category="paragraph">指定した設定で SVM が作成されます。</block>
   <block id="c08f968b4a1ba0a72f049cfb7549ca7d" category="paragraph">作成した SVM は自動的に起動します。ルートボリューム名は「 S vm name_root 」として自動的に生成されます。デフォルトでは 'vsadmin ユーザー・アカウントが作成され ' ロック状態になります</block>
@@ -8229,7 +8124,6 @@
   <block id="a9bb59bc36c22c44f68c0c05dedf4f15" category="paragraph">Kerberos を使用するように設定されている SVM を削除したり、別の Service Principal Name （ SPN ；サービスプリンシパル名）を使用するように SVM を変更したりした場合、 SVM の元のサービスプリンシパルは自動的に削除されず、また Kerberos Realm からも無効になりません。プリンシパルは、手動で削除するか無効にする必要があります。プリンシパルを削除または無効にするためには、 Kerberos Realm 管理者のユーザ名とパスワードが必要です。</block>
   <block id="80cdeccc4d904222728c7c186dd76f6f" category="paragraph">ある SVM を削除する前に別の SVM にその SVM のデータを移動しておく場合は、 SnapMirror テクノロジを使用します。</block>
   <block id="504d856029abc21f2cc8fda5727278a5" category="list-text">削除する SVM を選択し、 * Delete * をクリックします。</block>
-  <block id="ef3a8615a6979773e71abe109ebacf85" category="summary">System Manager 9.6 以降では、スイッチオーバー処理の完了後にスイッチバック処理を実行して、元の MetroCluster サイト（サイト B ）に制御を戻すことができます。</block>
   <block id="94c633d9c5aff7c9960836d9157af54f" category="paragraph">スイッチバック処理を実行する前に、次の作業を完了しておく必要があります。</block>
   <block id="4db2119227717656801c89e13d0c038e" category="inline-xref-macro">ネゴシエート（計画的）スイッチオーバーの実行</block>
   <block id="ef523c3f75d46b6a35051273ab36dc14" category="list-text">で MetroCluster サイトを準備する必要があります <block ref="5a892eec1c665f907e6c271b8a099943" category="inline-xref-macro-rx"></block> または <block ref="69cf464bbe8abcf28c78ac316c939b03" category="inline-xref-macro-rx"></block>。</block>
@@ -8330,13 +8224,11 @@
   <block id="1ab71bdaa608e61bb5111feed970d9fe" category="paragraph">SnapVault ライセンスは引き続き機能し、 ONTAP 8.x リリースと 9.x リリースの両方でサポートされますが、現在は販売されていません。SnapMirror ライセンスは引き続き使用でき、 SnapVault の代わりに使用でき、ミラーとバックアップ構成に使用できます。</block>
   <block id="a7ca7268dedf52117b8a303dced9ae76" category="paragraph">ONTAP 非同期レプリケーションでは、 ONTAP 9.3 以降、単一のユニファイドレプリケーションエンジンを使用して拡張データ保護モード（ XDP ）ポリシーを設定します。このポリシーでは、ミラーポリシー、バックアップポリシー、またはミラーバックアップポリシーに対して SnapMirror ライセンスを設定できます。ソースとデスティネーションの両方のクラスタに SnapMirror ライセンスが必要です。SnapVault ライセンスは、すでにインストールされている場合は必要ありません。</block>
   <block id="9f41f0374be0dbd8d69ff27cddac26eb" category="section-title">SnapMirror Synchronous ライセンス</block>
-  <block id="4660d1057afddc9bc2deaed0832547b2" category="paragraph">ONTAP 9.5 以降では、 SnapMirror Synchronous 関係がサポートされます。SnapMirror Synchronous 関係を作成するには、次のライセンスが必要です。</block>
   <block id="14bfbe1e0eef51712e636df4b1ef579a" category="list-text">ソースクラスタとデスティネーションクラスタの両方に SnapMirror Synchronous ライセンスが必要です。</block>
   <block id="346a55cdd3546dca8ff64751e39ddc70" category="inline-link">マスターライセンスキー</block>
   <block id="c76313ee6158b1ef2cdfbca4c2a022c5" category="paragraph">Premium Bundle または Flash Bundle の 2019 年 6 月より前に購入したシステムの場合、ネットアップマスターキーをダウンロードして、必要な SnapMirror Synchronous ライセンスをネットアップサポートサイトから入手できます。<block ref="f41e535dcfe6c536359842a26721ed33" category="inline-link-rx"></block></block>
   <block id="d24ceeb95fb2dc28dc924b55f3598d4a" category="list-text">ソースクラスタとデスティネーションクラスタの両方に SnapMirror ライセンスが必要です。</block>
   <block id="a170af9fc03ba98e163c38dd41563571" category="section-title">SnapMirror Cloud ライセンス</block>
-  <block id="e8a70783988d713e4035d1f2c0df2622" category="paragraph">ONTAP 9.8 以降では、 SnapMirror クラウドライセンスにより、 ONTAP インスタンスからオブジェクトストレージエンドポイントへの Snapshot コピーの非同期レプリケーションが可能になります。レプリケーションターゲットは、オンプレミスのオブジェクトストアと、 S3 および S3 と互換性のあるパブリッククラウドのオブジェクトストレージサービスの両方を使用して設定できます。SnapMirror クラウド関係は、 ONTAP システムから、事前修飾されたオブジェクトストレージターゲットへとサポートされます。ONTAP 9.8 で承認されているオブジェクトストレージターゲットには、 ONTAP S3 、 StorageGRID 、 AWS S3 および S3-IA 、 Microsoft Azure Blob Hot 、 GCP Standard ストレージが含まれます。</block>
   <block id="172d155e5b8f65774831332517a31674" category="paragraph">SnapMirror Cloud はスタンドアロンライセンスとしては提供されておらず、 Hybrid Cloud Bundle の購入時にのみ提供されます。ONTAP 9.8 以降では、 Hybrid Cloud Bundle に SnapMirror Cloud と FabricPool の両方のライセンスが含まれています。同様に、 SnapMirror ライセンスはスタンドアロンライセンスとしては利用できず、 Data Protection Bundle の購入によってのみ利用できます。</block>
   <block id="41fc53b575864f375d6a762d74362b2f" category="paragraph">SnapMirror クラウド関係を作成するには、次のライセンスが必要です。</block>
   <block id="c6c3f9d513b53ca77cb2ad4d87665eb5" category="list-text">SnapMirror ライセンス（ Data Protection Bundle または Premium Bundle から購入）と SnapMirror クラウドライセンス（ Hybrid Cloud Bundle から購入）の両方が、オブジェクトストレージエンドポイントに直接レプリケートされます。</block>
@@ -8344,7 +8236,6 @@
   <block id="6f55932e53e5c14329e90c1ca2c68367" category="paragraph">SnapMirror クラウドは、ネットアップまたはネットアップの認定代理店パートナーから購入できるエンドユーザライセンスです。SnapMirror クラウドライセンスではエンドユーザが使用できますが、オブジェクトストレージへの非同期 ONTAP のレプリケーションは有効になりません。ONTAP API for SnapMirror Cloud を呼び出すには、許可されたアプリケーションから一意の API キーが必要です。SnapMirror クラウドレプリケーションのオーケストレーションに使用される、認定およびライセンスされたアプリケーションは、複数のサードパーティ製アプリケーションプロバイダから利用できます。これらの許可されたアプリケーションには、 ONTAP API を呼び出すための固有の API キーが組み込まれています。SnapMirror クラウドレプリケーションをオーケストレーションして有効にするには、 SnapMirror クラウドのエンドユーザライセンスと、許可されたサードパーティのバックアップアプリケーションを組み合わせて使用する必要があります。</block>
   <block id="a3a094b98e81c2dae5d0c98000fb0925" category="paragraph">SnapMirror Cloud のサードパーティ製アプリケーションの許可を受けた一覧は、ネットアップの Web サイトで公開されています。</block>
   <block id="6c611a838b3c76662affb5620ce55de9" category="section-title">データ保護バンドル</block>
-  <block id="bfff71f457ed48e03673e5f029cbbaeb" category="paragraph">ONTAP 9.1 以降では、新しい ONTAP データ保護機能がデータ保護バンドルと呼ばれる解決策に含まれる形で FAS8200 にパッケージ化されています。この新しいハードウェアおよびソフトウェアバンドルには、セカンダリワークロードに独自の ONTAP 機能を提供した新しい DP_Optimized （ DPO ）ライセンスが含まれています。ONTAP 9.3 の導入に伴い、 DPO ライセンスでノードあたりのボリューム数が 1 、 000 から 1 、 500 に増えました。ONTAP 9.3 で導入された今回のリリースでは、 FAS2620 の構成に基づいてデータ保護バンドルの構成が新しくなりました。</block>
   <block id="3f2e46f1c066d96e5be306c393cb2cad" category="paragraph">DPO ライセンスは、 SnapMirror レプリケーションのセカンダリターゲットとして使用される ONTAP クラスタ専用に設計されたライセンスです。DPO コントローラのノードあたりの最大ボリューム数の増加に加えて、 DPO ライセンスは、アプリケーション I/O を犠牲にしてレプリケーショントラフィックの増加をサポートするために、コントローラの QoS 設定も変更しましたこのため、アプリケーションのパフォーマンスに影響が出る可能性があるため、 DPO ライセンスをアプリケーション I/O をサポートするクラスタにインストールしないでください。FAS8200 と FAS2620 に基づくデータ保護バンドルは、解決策として提供され、お客様の環境に基づくプログラム可能な無償ライセンスが付属しています。解決策バンドルを購入すると、 DPO セカンダリにレプリケートされた一部の古いクラスタの SnapMirror の空きライセンスが提供されます。Data Protection 解決策クラスタには DPO ライセンスが必要ですが、次のプラットフォームリストのプライマリクラスタには無料の SnapMirror ライセンスが提供されます。このリストに含まれていないプライマリクラスタには、 SnapMirror ライセンスを購入する必要があります。</block>
   <block id="146d886c6027cff55ac4ad8fd2857425" category="list-text">FAS2200 シリーズ</block>
   <block id="0bd729b375eaae92e76ca8a17ecf6ed8" category="list-text">FAS3000 シリーズ</block>
@@ -8583,7 +8474,6 @@
   <block id="184d7287e45870df2985a70608171872" category="list-text">変更するロールを選択し、 * 編集 * をクリックします。</block>
   <block id="db9e97c1b3b403653857d8198470a678" category="list-text">ロール属性を変更し、 * 変更 * をクリックします。</block>
   <block id="50c4cc924cb76c8c589ba3ab4e13dcd8" category="doc">ノードのネットワークの詳細を設定</block>
-  <block id="1e16e0ffc99d320e3879b66afcfe3231" category="summary">System Manager 9.6 以降では、 MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウを使用して、ネゴシエート（計画的）スイッチオーバーまたはサイト / クラスタ（サイト B ）から別のサイト / クラスタ（サイト A ）への計画外スイッチオーバーを開始できます。サイト B でメンテナンスや修復を実行したら、サイト A からサイト B へのスイッチバックを開始し、このウィンドウで処理のステータスを確認できます。</block>
   <block id="926d209b43e6189068be5c1e0f6f8885" category="doc">MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウ</block>
   <block id="5c30f783149aeed9a56b4ee6168ea7d9" category="list-text">* サイト B からサイト A へのスイッチオーバー *</block>
   <block id="691c0e1781028910220a1768b90a957d" category="paragraph">サイト B からサイト A にスイッチオーバーするプロセスを開始します</block>
@@ -8673,7 +8563,6 @@
   <block id="385da830895079eabe56c8475a2f4ee7" category="paragraph">NVMe サービスを開始するには、 NVMe 対応アダプタが必要です。</block>
   <block id="2b1e7498489f41e4ab0f84375197af2b" category="list-text">[*Protocols* （プロトコル * ） ] メニューで [* nvme （ NVMe * ） ] をクリックします。</block>
   <block id="ecb15d4512908b57ead42c4707c53349" category="list-text">必要に応じて、 [* サービスの開始 ] または [* サービスの停止 ] をクリックします。</block>
-  <block id="adc8c04f72ab0f431645bef620a16a25" category="summary">System Manager 9.6 以降では、 FlexCache ボリュームに関する情報を表示できます。FlexCache ボリュームの割り当てスペースとパフォーマンスがグラフィカルに表示されます。</block>
   <block id="af94d293d65ac05aba778e00e3ba5510" category="doc">FlexCache ボリューム情報を表示しています</block>
   <block id="d5a19af6bd480993ed2b7a77e9921ee4" category="list-text">表示されたボリュームのリストで、情報を表示する FlexCache ボリュームを選択します。</block>
   <block id="5a122451c661dd2151904b25552e7d85" category="paragraph">Style * 列には、 FlexCache ボリュームの「 FlexCache 」が表示されます。</block>
@@ -8888,7 +8777,6 @@
   <block id="07bc692e097c6e1d28b64623a00059fb" category="paragraph">NVMe プロトコルを有効にします</block>
   <block id="15c8b485ae1f0faa23da206983b2db28" category="list-text">[* NVMe* ] ボックスを選択します。</block>
   <block id="f78b05e36a26c2b760405a63dcc6f709" category="list-text">NVMe プロトコル用の NVMe ポートを選択します。</block>
-  <block id="96d58bb45a09d2cb6fb10534fb85b9a4" category="paragraph">NVMe を設定するには、いずれかのノードに NVMe 対応アダプタが少なくとも 1 つ必要です。また、 ONTAP 9.5 以降では、 SVM に関連付けられた HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。ペアの各ノードに対して作成できる NVMe LIF の数は 2 つまでです。</block>
   <block id="01751c46a4623e5ca76c644f7df362e4" category="list-text">[ 詳細オプション * ] アイコンをクリックし、詳細を表示して、デフォルト言語、セキュリティ形式、 CIFS サーバの詳細、 NFS の詳細などの詳細オプションを設定します。</block>
   <block id="dec7a9cf637ab7e5ec703056266f4cf7" category="list-text">Submit and Continue * をクリックして SVM を作成します。</block>
   <block id="ec4be32f47fa69e0726361f9f7d93251" category="paragraph">Submit and Continue （送信して続行）をクリックした場合、 Summary （サマリ）ウィンドウで指定した詳細を確認し、 * Manage Your Cluster （クラスタの管理） * をクリックして System Manager を起動するか、 * Provision an Application （アプリケーションのプロビジョニング） * をクリックしてストレージアプリケーションをプロビジョニングするか、 * Export Configuration * をクリックして構成ファイルをダウンロードする必要があります。</block>
@@ -8935,7 +8823,6 @@
   <block id="98dc4ac3695fdb0b990b7b0f31ebeca3" category="list-text">新しいパスを MPIO 構成に追加します。</block>
   <block id="f2d074c5a39bd379f209f91612839fd7" category="list-text">ホストを再スキャンして古いパスが削除されたことを確認します。</block>
   <block id="031cb7023542cd8e93be7689fdd95edd" category="doc">ボリューム移動の概要</block>
-  <block id="a64f315149cf8da551df1e7cf3003f0d" category="section-title">このコンテンツを使用するための要件</block>
   <block id="66a8b7d7749504ecbb5d242f4755ab4d" category="list-text">クラスタで ONTAP 9 を実行している。</block>
   <block id="43807459ecf40534d3acb5ec0f1921df" category="list-text">クラスタ管理者の権限が必要です。</block>
   <block id="3ed5c217630754fee69d1a68dcb2f0bd" category="paragraph">一部のタスクでは、 ONTAP コマンドラインインターフェイス（ CLI ）を使用する必要があります。</block>
@@ -9054,7 +8941,6 @@
   <block id="c779362ae17750a0ee31fa179657e78c" category="list-text">トラップホストの追加が完了したら、 * Edit SNMP Settings * （ SNMP 設定の編集）ダイアログボックスで * OK * をクリックします。</block>
   <block id="e60229b23ad1d9c629bc0ade623ccd47" category="summary">SNMP の設定には、 SNMP の有効化、 SNMPv1 または SNMPv2c コミュニティの設定（オプション）、 SNMPv3 ユーザの追加、 SNMP トラップホストの追加、 SNMP ポーリングとトラップのテストが含まれます。</block>
   <block id="5174725bae53fcf1bcc485a2dbffb6ea" category="doc">SNMP の設定ワークフロー</block>
-  <block id="f51bd0bcce630a280ca8b016dfff0d35" category="image-alt">次の図は SNMP 設定ワークフローのフローチャートを示したものです。ワークフローの各手順は、このコンテンツのトピックに対応しています。</block>
   <block id="eda2981d75f25f85f1827f301ae9923b" category="summary">SNMP の設定に役立つその他のリファレンスマニュアルが用意されています。</block>
   <block id="a8831e3f82bc320e866292eb6806a431" category="paragraph">詳細については、次のドキュメントを参照してください。</block>
   <block id="abe86de66b83fa492b31773cc79291cd" category="paragraph">サブネット、クラスタ間 LIF 、ルート、ファイアウォールポリシーなど、さまざまなネットワークコンポーネントを設定する方法について説明しています。データ Storage Virtual Machine （ SVM ）での SNMP コミュニティまたはセキュリティユーザの作成方法、 SNMP トラップホストの管理方法についての説明もあります。</block>
@@ -9158,9 +9044,7 @@
   <block id="1b40e2854d3fc63497186601aa0aa079" category="summary">NFS を使用して ESXi ホストでストレージを使用できるようにするには、でボリュームをプロビジョニングし、 ESXi ホストから NFS エクスポートに接続します。</block>
   <block id="b6339b8db51f3442d4512cbc00301455" category="doc">ESXi ワークフロー向けの NFS クライアント構成</block>
   <block id="1db77ab5a30737c6da5b1003cdbc8173" category="image-alt">VAAI を使用した NFS クライアント構成</block>
-  <block id="524e6a7ca05501abe0cdf133ac0c53f9" category="summary">このコンテンツでは、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定する方法について説明します。</block>
   <block id="9fbe728d7eb2adabf531ccdcf064bc53" category="doc">VSC を使用した ESXi 向けの NFS の設定の概要</block>
-  <block id="95df5f16a952797616851acaf5fe29a6" category="paragraph">このコンテンツは、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。</block>
   <block id="3265a02f223e2e874b1bec4518109193" category="list-text">を使用してデータストアをプロビジョニングし、ボリュームを作成する。</block>
   <block id="9dfffe8114e130e42162831fc7267180" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトによって、リンク障害の発生時に LIF が正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="a103d8b90ee1bc965ab64e599e1125d6" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
   <block id="43a71c5fe2434bc0afb8d6344fcbf4d8" category="list-text">Plug-in for VMware VAAI を使用する必要がある。</block>
@@ -9215,14 +9099,10 @@
   <block id="e4fc8a8fc79c60838d6b6ee645b01c52" category="paragraph">NFS を有効にして新しいが作成されます。</block>
   <block id="7d1eb1565cddc0f48bdf0663892f533b" category="summary">NFS ボリュームを作成する前に、そのボリュームを既存のボリュームに配置するかどうかを決め、既存のボリュームに配置する場合はどのような設定が必要になるかについても確認しておく必要があります。これにより、ワークフローが決まります。</block>
   <block id="aa8da2189cdd9c6ee2326f1fde69b15f" category="list-text">を新規に作成する場合は、既存の SVM で NFS 対応のを作成する手順に従います。</block>
-  <block id="5aff85b0ec3a4ddc2fc43138b0069660" category="paragraph"><block ref="5aff85b0ec3a4ddc2fc43138b0069660" category="inline-xref-macro-rx"></block></block>
   <block id="95f6f6823a96faf6c739a7e022f0467a" category="list-text">NFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する NFS アクセスの設定手順に従います。</block>
   <block id="15f7652593bfd5a8f712eee46054c450" category="inline-xref-macro">既存の SVM への NFS アクセスを設定する</block>
-  <block id="71b0fff707e5d2de09222536e231add0" category="paragraph"><block ref="71b0fff707e5d2de09222536e231add0" category="inline-xref-macro-rx"></block></block>
-  <block id="808f2f0fdaf52e4f42baca616813f73f" category="paragraph">これは、このコンテンツで手順を使用して SVM を作成した場合に該当します。</block>
   <block id="511ad2042dec7e41acbf8c599092e880" category="list-text">NFS アクセスの設定が完了している既存の SVM でボリュームをプロビジョニングする場合は、既存の SVM で設定を検証する手順に従います。</block>
   <block id="40dfa5af6e5d241954dd8dffbd030a39" category="inline-xref-macro">既存の SVM で設定を検証する</block>
-  <block id="482cd53130aff2ee2a18136bf4a0a22e" category="paragraph"><block ref="482cd53130aff2ee2a18136bf4a0a22e" category="inline-xref-macro-rx"></block></block>
   <block id="c209957b6a7079b7465d1bffa3f12db9" category="sidebar">NAS ストレージをプロビジョニングする</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
   <block id="27dc49cb854bf08b0bbc4e74cdbe5316" category="sidebar">VSC を使用した ESXi 向けの NFS 設定</block>
@@ -9493,7 +9373,6 @@
   <block id="8631d4aba59b3faab471d5bc71ca8173" category="list-text">ESXi ホストで iSCSI ソフトウェアアダプタが有効になっている必要があります。</block>
   <block id="7f628be6ef73d2f8c231b453fef6dc6a" category="paragraph">ESXi ホストで iSCSI 接続が作成されます。オペレーティングシステムに組み込まれていますが、使用する前に有効にする必要があります。</block>
   <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している</block>
-  <block id="39d787d0105280f3a84692c640027af9" category="paragraph">オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順については説明しません。</block>
   <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。</block>
   <block id="de53d4ddfa00ec898bbcf9e464e90519" category="summary">iSCSI を使用して ESXi ホストでストレージを利用できるようにするには、 Virtual Storage Console for VMware vSphere を使用して Storage Virtual Machine 上にボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="91d33397a6e7116c87f840c7cbfaf06a" category="paragraph">iSCSI を使用して ESXi ホストでストレージを利用できるようにするには、 Storage Virtual Machine （ SVM ）で Virtual Storage Console for VMware vSphere を使用してボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
@@ -9530,8 +9409,6 @@
   <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
   <block id="737fec7cf6d6e935871829ca5e3c6eee" category="cell">再設計された System Manager （ ONTAP 9.7 以降で使用可能）</block>
   <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP のコマンドラインインターフェイス</block>
-  <block id="fcdcf750ea4e083be4386f4d74633fba" category="cell">* このタスクを完了するには、 ... * を使用します</block>
-  <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* このコンテンツを参照してください。 *</block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">再設計された System Manager （ 9.7 以降で使用可能）</block>
   <block id="64f576bfce499e9d2ae488c0d3e09336" category="inline-link">Linux サーバ用の SAN ストレージをプロビジョニング</block>
   <block id="9ad9dc11e51ff2950987cfa2ea72bc38" category="cell">ONTAP コマンドラインインターフェイス（ CLI ）</block>
@@ -9553,7 +9430,6 @@
   <block id="be783ea71cc23a3edbff3615cb4f8db0" category="paragraph">別の種類の LDAP を使用する場合は、他のドキュメントに従って、コマンドラインインターフェイス（ CLI ）を使用して LDAP を設定する必要があります。詳細については、を参照してください <block ref="d3b872660ddf7d41d95bc18138ecd3fb" category="inline-link-macro-rx"></block>。</block>
   <block id="42212a5a0889842594522857c721b58d" category="paragraph">ONTAP NFS プロトコル機能の範囲の詳細については、を参照してください <block ref="86f1502903f8dfcf68403b326bb7f6b6" category="inline-link-macro-rx"></block>。</block>
   <block id="f0029f7d9c71b4d6656710bbaa9a75cb" category="paragraph">詳細については、を参照してください <block ref="ec8cf3d50757fbbd3f210cde205edf03" category="inline-link-macro-rx"></block>。</block>
-  <block id="b38eb47eb8a7f4ec6696ee8d4e8a114e" category="paragraph">Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を搭載した Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定できます。</block>
   <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">Windows サーバ用の SAN ストレージをプロビジョニングする</block>
   <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
   <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
@@ -9577,13 +9453,10 @@
   <block id="9cf52e339950ce13b96dc210eba32043" category="paragraph">この手順を使用して SVM に FC サービスをセットアップします。状況：</block>
   <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">従来の FC HBA およびスイッチを使用している。</block>
   <block id="d72f5510625cc4d6c7088dce4938a4b0" category="paragraph">この手順は、次のような状況には対応しません。</block>
-  <block id="a8a43c6e4824f8a5c53b50bf6e5041dd" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</block>
-  <block id="1c88671ee1b1558529268a8ad894ff88" category="paragraph">* その他のリソース *+*<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
   <block id="2543eb70e018ba889bfe7e3c3c1f1afd" category="summary">Storage Virtual Machine で iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定することができます。</block>
   <block id="039d2d1f92ed5762bd1672bf32bb614a" category="paragraph">次の場合にこの手順を使用します。</block>
   <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">ホストで Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンが実行されている。</block>
   <block id="d90be280d58372ceba4455532ff87944" category="admonition">この手順では Fibre Channel over Ethernet （ FCoE ）については説明しません。</block>
-  <block id="933bae8d078062a7fc5f31ee4bc64cbf" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。</block>
   <block id="db89e6efdcfb747c88a0ae133a47a4fa" category="summary">ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを簡単に設定できます。</block>
   <block id="ce2bf9c1f096bfdc5c6ddbf814fb1f49" category="paragraph">ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスを簡単に設定できます。</block>
   <block id="567b23fc1de26704e583127ac6f47f43" category="doc">SMB と NFS のマルチプロトコル構成の概要</block>
@@ -9611,7 +9484,6 @@
   <block id="6f4a225b29c0975663d0e4b9e1f4547f" category="inline-xref">手順 1.</block>
   <block id="73b835e530fe75da38f21156861f5ab4" category="list-text">繰り返します <block ref="e115dbec78044169a605d605cea0bef0" category="inline-xref-macro-rx"></block> クラスタ内のノードごとに割り当てます。</block>
   <block id="73c8bc64b7795f2b261641eacf99fdbe" category="summary">ONTAP 9.3 以降 ONTAP では、 ONTAP System Manager の「クラシック」インターフェイスを使用してクラスタ間論理インターフェイス（ LIF ）を作成し、その LIF をクラスタネットワークがノードと通信できるようにすることができます。クラスタ間 LIF は、ピア関係を作成する各クラスタの各ノードで、ピアリングに使用する各 IPspace 内に作成する必要があります。</block>
-  <block id="7b537fac043ca609e34b5263706a786d" category="doc">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
   <block id="037471075f1cb1cf0a5c960b996e65f5" category="paragraph">ONTAP 9.3 以降では、 ONTAP 9.7 までの間、 ONTAP System Manager の _classic_interface を使用してクラスタ間論理インターフェイス（ LIF ）を作成し、そのインタークラスタネットワークがノードと通信できるようにします。クラスタ間 LIF は、ピア関係を作成する各クラスタの各ノードで、ピアリングに使用する各 IPspace 内に作成する必要があります。</block>
   <block id="492d58a0ec076b47e40741f5c582d996" category="summary">ピア関係で定義されるネットワーク接続により、クラスタ間および SVM 間でデータをセキュアにやり取りすることができます。ONTAP 9.3 以降では、 ONTAP 9.7 までの ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタ間および SVM 間のピア関係を簡単に設定することができます。</block>
   <block id="0cb0f237319ab2a1e594263de7c1cc8d" category="paragraph">ピア関係で定義されるネットワーク接続により、クラスタ間および SVM 間でデータをセキュアにやり取りすることができます。ONTAP 9.3 以降では、 ONTAP 9.7 までの間で、 ONTAP の System Manager の _classic_interface を使用して、クラスタ間および SVM 間のピア関係を簡単に設定できます。</block>
@@ -9645,7 +9517,6 @@
   <block id="f23a1cd3708083d067fb2b0fa52b0e8a" category="list-text">ソースクラスタで、で生成したパスフレーズを入力します <block ref="4f6576aa0c468727ebd2cd43ce87e692" category="inline-xref-macro-rx"></block>。</block>
   <block id="b143e6d1cf76c61979c25eff69459b6a" category="summary">ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用してクラスタピア関係を作成する前に、各クラスタの時刻が外部 Network Time Protocol （ NTP ；ネットワークタイムプロトコル）サーバと同期されていることを確認し、使用するサブネット、ポート、およびパスフレーズを特定する必要があります。</block>
   <block id="69104db85081215ee42dcce86665e7d0" category="paragraph">ONTAP 9.7 以前の ONTAP System Manager の _classic_ インターフェイスを使用してクラスタピア関係を作成する前に、各クラスタの時刻が外部ネットワークタイムプロトコル（ NTP ）サーバと同期されていることを確認し、使用するサブネット、ポート、およびパスフレーズを特定する必要があります。</block>
-  <block id="c062e9752b31388b1b66a98e38471ed3" category="paragraph"><block ref="c062e9752b31388b1b66a98e38471ed3" category="inline-link-macro-rx"></block></block>
   <block id="1671fcdc552b9ee609cd32731c4f52b5" category="paragraph">次の表のような表を作成して、クラスタに関する情報を記録します。次の表は、各クラスタにノードが 4 つあることを前提としています。クラスタのノードが 4 つよりも多い場合は、追加情報に行を追加します。</block>
   <block id="ba406d20b59511a789bd10fb1be98278" category="summary">ONTAP 9.3 以降では、 ONTAP 9.7 まで ONTAP System Manager の「クラシック」インターフェイスを使用して SVM ピア関係を作成できます。Storage Virtual Machine （ SVM ）ピアリングでは、データ保護のために 2 つの SVM 間のピア関係を確立できます。</block>
   <block id="961651a3152e7876bc4ad1526fe7e4d3" category="doc">SVM ピア関係を作成</block>
@@ -9681,7 +9552,6 @@
   <block id="6c61c05b1d8e0ce824dd01e7039f9406" category="summary">ONTAP 9.7 以前の ONTAP System Manager のクラシックインターフェイスを使用すると、 ONTAP 9 クラスタの同じ Storage Virtual Machine （ SVM ）内のノード間で、データボリュームを無停止で移動できます。</block>
   <block id="74fc6416343947ecb03b99f6d1525ef3" category="paragraph">これらの手順を実行する前に、次の条件を満たしていることを確認してください。</block>
   <block id="79118e59ff8ba91fa097d70306cbb593" category="cell">実行するタスク</block>
-  <block id="c0f22c1d55c3730577ec308ebbb2717b" category="list-text">移動するのが LUN のみで、ボリュームは移動しない場合は、 LUN の移動プロセスを使用できます。</block>
   <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
   <block id="21da5bdcfd1b855ee9de397cb8a78a1d" category="cell"><block ref="21da5bdcfd1b855ee9de397cb8a78a1d" category="inline-link-rx"></block></block>
   <block id="edac2410e6e0abc8a44fc79a7cd44017" category="inline-link-macro">NFS と SMB の両方を使用して Windows と Linux の両方に NAS ストレージをプロビジョニングする</block>
@@ -9749,4 +9619,139 @@
   <block id="f205880bd75b275fcf9d29129366911d" category="cell"><block ref="f205880bd75b275fcf9d29129366911d" category="inline-link-macro-rx"></block></block>
   <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">レプリケーション関係を作成</block>
   <block id="40073759c151f2edb4c6d90ee54f1d3f" category="cell"><block ref="40073759c151f2edb4c6d90ee54f1d3f" category="inline-link-macro-rx"></block></block>
+  <block id="6f8b00a444288de00f6c62901e237c7b" category="image-alt">この図はボリュームのディザスタリカバリの準備ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="283e01a5acedcc7dab15967b940c5eba" category="list-text">ONTAP 9.5 以降： * Protection * &gt; * Volume Relationships * をクリックします。</block>
+  <block id="94641eed38f4fad5e7300a757fe24007" category="paragraph">ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを簡単に保護することができます。この手順は、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合に使用します。タスクの背景にある概念などを詳しく確認する必要はありません。</block>
+  <block id="cbb596e26b08606ba2582d682bef9bd9" category="paragraph"><block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block></block>
+  <block id="808373648c6575e38ce0160c14bf829d" category="doc">SnapMirror 関係を作成する（ ONTAP 9.3 以降）</block>
+  <block id="dd375618d188c58deba3a7e4b304119a" category="section-title">これらの手順を使用するための要件</block>
+  <block id="f74c514c8bcc90ee75e53e245d7fa054" category="list-text">移動するのが LUN のみで、ボリュームは移動しない場合は、 LUN の移動プロセスを使用できます。</block>
+  <block id="2bcbd05e96f45af1e989635937487f21" category="paragraph"><block ref="2bcbd05e96f45af1e989635937487f21" category="inline-link-macro-rx"></block></block>
+  <block id="5875ee4bf594b2674ddf69d319ea89b7" category="paragraph"><block ref="5875ee4bf594b2674ddf69d319ea89b7" category="inline-link-macro-rx"></block></block>
+  <block id="1242ad863f7f0a63a7e96fecd83192df" category="paragraph"><block ref="1242ad863f7f0a63a7e96fecd83192df" category="inline-link-macro-rx"></block></block>
+  <block id="2a54c080c48eefebd0287854521c32d3" category="paragraph">これは、別のプロトコルを設定する際に手順を使用して SVM を作成しなかった場合に該当します。</block>
+  <block id="1ba1a8ef478d32c16b694fe2cef940b7" category="paragraph"><block ref="1ba1a8ef478d32c16b694fe2cef940b7" category="inline-link-macro-rx"></block></block>
+  <block id="e3bb7e741da5fb4473e7fce8ec48df13" category="paragraph"><block ref="e3bb7e741da5fb4473e7fce8ec48df13" category="inline-link-macro-rx"></block></block>
+  <block id="3e91f6cc1867ac7293fe256001c9ec3b" category="paragraph"><block ref="3e91f6cc1867ac7293fe256001c9ec3b" category="inline-link-macro-rx"></block></block>
+  <block id="42cbeb136e81b161fffa9d9e4ab87b06" category="paragraph">手順を使用して SAN アクセス用の SVM を作成した場合は、この手順に従ってください。</block>
+  <block id="c74c2d83d09589596ae90e68883c7492" category="paragraph"><block ref="c74c2d83d09589596ae90e68883c7492" category="inline-link-macro-rx"></block></block>
+  <block id="12a6d8abfd6ea00add112b5495cfc3ac" category="paragraph">これは、手順のあとに SAN プロトコルを設定する SVM を作成していない場合に該当します。</block>
+  <block id="221e45a1da90d562052e9339a40aa840" category="image-alt">次の図は SNMP 設定ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="0e42715b0f3608f82b54eceb95451d07" category="summary">新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスと NFS アクセスの両方を簡単に設定できます。</block>
+  <block id="5e65ed5040441519dbf697f9ba224c8e" category="paragraph">CIFS アクセスについてさらに詳しく設定するには、次の情報とテクニカルレポートを参照してください。</block>
+  <block id="789b5f0afd817cef21cddcb1e0bcec40" category="paragraph">NFS アクセスについてさらに詳しく設定するには、以下の情報とテクニカルレポートを参照してください。</block>
+  <block id="2a2f5ad7f8e4a01c34616cc59fe94051" category="paragraph">これは、別のプロトコルを設定する際にこの手順に従って SVM を作成していない場合に該当します。</block>
+  <block id="4deca5c9e89ed5a65084ecad9f22d328" category="paragraph">SVM ルートボリュームのエクスポートポリシーを開きます。</block>
+  <block id="688b2339e3b3d8cfdcd364ef8ed87e41" category="image-alt">次の図は SnapVault ボリュームリストアワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに一致しています</block>
+  <block id="8f1dc707f2b4ac41ac75d21e99506a89" category="list-text">ONTAP 9.3 以降：ソースボリュームをダブルクリックして詳細を表示し、 * protection * をクリックして、 SnapMirror 関係のデスティネーションボリュームと、ボリュームが含まれている SVM の名前を特定します。</block>
+  <block id="19a5c41f774e4c13645c38aa3ac02bda" category="paragraph"><block ref="19a5c41f774e4c13645c38aa3ac02bda" category="inline-link-macro-rx"></block></block>
+  <block id="00467c81ec3c45b5b81fa264a0272aae" category="paragraph"><block ref="00467c81ec3c45b5b81fa264a0272aae" category="inline-link-macro-rx"></block></block>
+  <block id="6126e6170d0db16ae24c70eca957ee23" category="paragraph"><block ref="6126e6170d0db16ae24c70eca957ee23" category="inline-link-macro-rx"></block></block>
+  <block id="fceee62a624232866ee255365522b4c3" category="summary">ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。</block>
+  <block id="397fd9aa6321cafd4b95845cea4cb4fa" category="paragraph">この手順は、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。</block>
+  <block id="63fa29e0c0942c5a4a6e2ce9b2840405" category="paragraph">この手順が適していない場合は、本書の代わりに次のドキュメントを参照してください。</block>
+  <block id="d98f3586fef8fc3b9d546d3a41033300" category="paragraph"><block ref="d98f3586fef8fc3b9d546d3a41033300" category="inline-link-macro-rx"></block></block>
+  <block id="d77e74e7965c26a6cd865e741761d5b4" category="paragraph"><block ref="d77e74e7965c26a6cd865e741761d5b4" category="inline-link-macro-rx"></block></block>
+  <block id="bec75509bb3926a9139c20b08fda4dd6" category="paragraph">これは、この手順に続けて SVM を作成した場合に該当します。</block>
+  <block id="9853b96894498aa1f22d27d5a5852957" category="paragraph"><block ref="9853b96894498aa1f22d27d5a5852957" category="inline-link-macro-rx"></block></block>
+  <block id="ecf46826a1e1670dfd648b640c4517d2" category="image-alt">次の図は FC ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="6971da673725a22168c2864746c0559f" category="summary">Windows ホストコンピュータで、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 FC HBA を使用して LUN を使用できるように設定することができます。</block>
+  <block id="62d7022ff768f49360d07d460098b293" category="paragraph">Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定することができます。</block>
+  <block id="9bf563561a82917472d8625bbea78d2b" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順では説明しません。</block>
+  <block id="89d5e6802ef5a3ae4296f49d4d6bc447" category="list-title">その他のリソース</block>
+  <block id="9e8c5400a8eb221973b4a8d27a70c4e7" category="list-text"><block ref="9e8c5400a8eb221973b4a8d27a70c4e7" category="inline-link-rx"></block></block>
+  <block id="4976b49a1664da4bf49855e49275746b" category="paragraph"><block ref="4976b49a1664da4bf49855e49275746b" category="inline-link-macro-rx"></block></block>
+  <block id="54ad96d83f4da946f3a1ce05ecc08e5e" category="paragraph"><block ref="54ad96d83f4da946f3a1ce05ecc08e5e" category="inline-link-macro-rx"></block></block>
+  <block id="24f9cf41978197277a8223984ca964c4" category="paragraph">これは、別のプロトコルを設定するときに手順を使用して SVM を作成しなかった場合に該当します。</block>
+  <block id="c0c422959981d66f2367c3b7fd17279e" category="list-text">Alibaba Cloud （ System Manager 9.6 以降）</block>
+  <block id="1c1999fcc9a852005236a146059a96fa" category="list-text">System Manager 9.6 以降では、 FlexGroup DP ボリュームについての Storage Efficiency の編集がサポートされます。</block>
+  <block id="9dd326a487d106b896106eeadb347626" category="summary">System Manager 9.6 以降では、 FlexCache ボリュームに関する情報を表示できます。FlexCache ボリュームの割り当てスペースとパフォーマンスがグラフィカルに表示されます。</block>
+  <block id="3ab6bc5ac1b12609fc9392c1e1a6b5a0" category="summary">Data ONTAP 8.1 以降では、特定の ONTAP ディスクタイプは、アグリゲートの作成、アグリゲートへの追加、およびスペアの管理を行う目的において同じタイプとみなされます。ONTAP は、各ディスクタイプに実質的ディスクタイプを割り当てます。実質的ディスクタイプが同じ HDD を混在させることができます。</block>
+  <block id="b3d47ed3b076d3c58a78eab91910df57" category="paragraph">Data ONTAP 8.2 以降では 'BSAS ' FSAS ' および ATA のディスクを混在させる場合 'Disk オプション raid.mix.hdd.disktype.capacity` を on に設定する必要がありますFCAL および SAS タイプのディスクを混在させるには 'raid.mix.hdd.disktype.performance オプションを on に設定する必要があります</block>
+  <block id="4880832e880aeb65d6f5394281000099" category="paragraph">効率化タブには、クラスタまたはノードについての Storage Efficiency による削減効果が表示されます。使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計を確認できます。クラスタまたは特定のノードを選択して、その Storage Efficiency による削減効果を表示できます。System Manager 9.5 では、使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計の値に Snapshot コピーに使用されているスペースは _not_included です。ただし、 System Manager 9.6 以降では、使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計の値に Snapshot コピーに使用されているスペースが含まれます。</block>
+  <block id="4c7783582f7e304286aea99c2573c927" category="list-text">System Manager 9.6 以降では、 Fabric Pool がサポートされます。</block>
+  <block id="d5e5925aeb05519d0dcc6bf9f721a6f0" category="summary">System Manager 9.4 以降では、ストレージの推奨事項に基づいてアグリゲートを作成できます。ただし、ストレージの推奨事項に基づいたアグリゲートの作成が環境でサポートされているかどうかを確認する必要があります。サポートされていない場合は、使用する RAID ポリシーとディスク構成を決定し、アグリゲートを手動で作成する必要があります。</block>
+  <block id="10f6b31ca4dfe3975350a50374d83d32" category="list-text">ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。</block>
+  <block id="8c06ad22c7aa0b50018b774e190ac3d9" category="paragraph">ONTAP 9.2 以降では、 FabricPool 対応アグリゲートでサードパーティのストレージ階層（ AWS など）を使用する場合に容量ライセンスが必要になります。FabricPool の容量ライセンスでは、クラウド階層ストレージに格納できるデータの量が定義されています。</block>
+  <block id="73443c81a17542138d21e74ee8b9c0f6" category="paragraph">NVMe を設定するには、いずれかのノードに NVMe 対応アダプタが少なくとも 1 つ必要です。また、 ONTAP 9.5 以降では、 SVM に関連付けられた HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。ペアの各ノードに対して作成できる NVMe LIF の数は 2 つまでです。</block>
+  <block id="68fd6fabd23e2ade4b52410c1f22651f" category="summary">System Manager 9.6 以降では、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexCache ボリュームのサイズを変更できます。</block>
+  <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexCache ボリュームのサイズが変更されます。System Manager 9.6 以降では、ボリュームに対して許容される最大サイズがフィールドの横に表示されます。</block>
+  <block id="cc818fa0afc7fc97a334ef53849dbe3b" category="list-text">System Manager 9.5 以降では、 2 パック MetroCluster 構成のシングルノードクラスタを更新できます。</block>
+  <block id="b00591630384bce2a76272b449186c53" category="list-text">NVMe プロトコルを使用する場合は、 ONTAP 9.5 以降で、 SVM セットアップウィザードの 2 ページ目で各ノードに少なくとも 1 つの LIF を設定してください。 * NVMe プロトコルを設定 *</block>
+  <block id="a46c542a09057eb703c465dbc8b77f3a" category="summary">既存の Snapshot ポリシーにスケジュールを設定することで、 Snapshot コピーを設定できます。ONTAP 9.4 以降では、 FlexVol ボリュームの Snapshot コピーを最大 1024 個まで保持できます。</block>
+  <block id="9856546af72ee8cf33e0175f3d5162de" category="summary">System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。</block>
+  <block id="89722798ea50f9e4e27e12781d425918" category="summary">System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
+  <block id="4b6b277ce6f6920ed718836709ae9ecf" category="paragraph">共有が継続的可用性に対して有効になっているかどうかが表示されます。System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。</block>
+  <block id="10e2c79b1f68760fc37b16ad43083e16" category="paragraph">共有が継続的に利用できるように有効になっているか無効になっているかを示します。System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。</block>
+  <block id="27c4af937793a36386cf10cdf2170f78" category="list-text">ONTAP 9.1 以降では、 AFF プラットフォーム上に SnapLock アグリゲートを作成できます。</block>
+  <block id="6a9df42e1c42f0d26fc250037429da9f" category="summary">System Manager 9.6 以降では、 MetroCluster サイトの計画外スイッチオーバーを開始できます。この処理は、システム停止や災害が発生した場合に役立ちます。</block>
+  <block id="114168a53a6b42c89026b910fc64289f" category="summary">System Manager 9.6 以降では、 FlexCache ボリュームを編集する際に、 FlexCache ボリュームに関連付けるアドバンストオプションを指定できます。</block>
+  <block id="e23275ea7297d3239b7dd72d554793b1" category="paragraph">ONTAP 9.5 以降では、 NVMe プロトコルを使用する HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF を設定する必要があります。定義できる NVMe LIF の数はノードごとに 2 つまでです。NVMe LIF は、 System Manager を使用して SVM の設定を作成または編集するときに設定します。</block>
+  <block id="42812d45e8b6d5528bed4f0e674b503f" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexGroup ボリュームのサイズが変更されます。System Manager 9.6 以降では、ボリュームに対して許容される最小サイズがフィールドの横に表示されます。</block>
+  <block id="93c97cc1b9d7ab4e148670da3b6ba3f5" category="paragraph">System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。セキュリティ上の理由から、パスフレーズは変更可能です。</block>
+  <block id="f7a4927bc01e7644971daa1959d6c112" category="paragraph">System Manager 9.6 以降では、ボリュームの名前変更やサイズ変更など、既存の FlexGroup ボリュームのプロパティを編集できます。</block>
+  <block id="daa0f22908b89d2eda064452c1611743" category="paragraph">ONTAP 9.5 以降では、アプリケーションページのホスト名が異なる L2 / L3 アプリケーションが System Manager のリストに表示されます。ホスト名をクリックすると、 L2 Cockpit インターフェイスで新しいウィンドウが開きます。また、各アプリケーションについて、 System Manager に IOPS とレイテンシの測定値も表示されます。</block>
+  <block id="33019695fd9374e073b2cad5dbd1ee05" category="paragraph">ONTAP 9.5 以降の System Manager には、仮想 IP （ VIP ） LIF に関する情報が表示されます。ただし、 VIP LIF の作成、削除、管理は System Manager では行えません。</block>
+  <block id="6153ffc2783ce412ca50aaae5adc8593" category="paragraph">ONTAP 9.5 以降では、 NVMe がライセンスされます。System Manager はライセンス要件をサポートしています。</block>
+  <block id="7e016a94dab854d9b7c83e039518a302" category="paragraph">ONTAP 9.5 以降では、 NVMe プロトコルを使用する HA ペアの各ノードに対して、少なくとも 1 つの LIF が設定されている必要があります。ノードに対して LIF を 2 つ定義することもできます。ONTAP 9.5 にアップグレードするときは、 NVMe プロトコルを使用する HA ペアの各ノードに対して少なくとも 1 つの LIF が定義されていることを確認する必要があります。</block>
+  <block id="6f553f8f0b1f64942e6e920765fdca49" category="paragraph">System Manager 9.5 以降では、 SVM に関連付けられているパブリック SSL 証明書の確認が可能です。証明書の詳細、シリアル番号、開始日、および有効期限を確認できます。証明書をクリップボードにコピーしたり、証明書の詳細を E メールで送信したりすることもできます。また、 SVM に vsadmin ユーザアカウントを追加すると、 HTTP をアプリケーションとして使用して証明書で認証するログイン方法が自動的に組み込まれます。</block>
+  <block id="c623834b06bf0eadd03186cb8c382250" category="paragraph">System Manager 9.4 以降では、シングルノードクラスタの更新が可能です。シングルノードクラスタの更新には停止が伴うため、更新中はクライアントデータを使用できません。</block>
+  <block id="0aee1fde7cc7a671d8d90e857e053d8b" category="summary">System Manager 9.6 以降では、既存の FlexCache ボリュームのプロパティを編集できます。</block>
+  <block id="486cf1f138672302a18fcb36029a84ac" category="paragraph">ONTAP 9.5 以降では、 SnapMirror Synchronous 関係がサポートされます。SnapMirror Synchronous 関係を作成するには、次のライセンスが必要です。</block>
+  <block id="9117a0ffde9ccce7c584e67b9bb135b6" category="paragraph">ONTAP 9.8 以降では、 SnapMirror クラウドライセンスにより、 ONTAP インスタンスからオブジェクトストレージエンドポイントへの Snapshot コピーの非同期レプリケーションが可能になりました。レプリケーションターゲットは、オンプレミスのオブジェクトストアと、 S3 および S3 と互換性のあるパブリッククラウドのオブジェクトストレージサービスの両方を使用して設定できます。SnapMirror クラウド関係は、 ONTAP システムから、事前修飾されたオブジェクトストレージターゲットへとサポートされます。ONTAP 9.8 で承認されているオブジェクトストレージターゲットには、 ONTAP S3 、 StorageGRID 、 AWS S3 および S3-IA 、 Microsoft Azure Blob Hot 、 GCP Standard ストレージが含まれます。</block>
+  <block id="986375ef59707444cd041a144f9b1715" category="paragraph">ONTAP 9.1 以降では、新しい ONTAP データ保護機能が解決策バンドルと呼ばれる に含まれるようになりました。この新しいハードウェアおよびソフトウェアバンドルには、セカンダリワークロードに独自の ONTAP 機能を提供した新しい DP_Optimized （ DPO ）ライセンスが含まれています。ONTAP 9.3 の導入に伴い、 DPO ライセンスでノードあたりのボリューム数が 1 、 000 から 1 、 500 に増えました。ONTAP 9.3 で導入された今回のリリースでは、 FAS2620 の構成に基づいてデータ保護バンドルの構成が新しくなりました。</block>
+  <block id="eed5ae605ac8ef5b8563e5fd16acd7ca" category="paragraph">System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。</block>
+  <block id="51e14356cfa9b21b3c98da5c513be451" category="list-text">System Manager 9.6 以降では、 MetroCluster 構成内に FlexGroup ボリュームを作成できます。</block>
+  <block id="36a1f9fd3f3fe9ba5a263e1f909dfe79" category="list-text">* すべて（ System Manager 9.6 以降） *</block>
+  <block id="5c828a238014dd495d73c878241df183" category="list-text">System Manager 9.6 以降では、 System Manager 9.5 で NVMe プロトコルが設定されている場合に System Manager 9.5 を System Manager 9.6 にアップグレードすると、 NVMe プロトコルをライセンスなしで利用できる 90 日の猶予期間はなくなりました。ONTAP 9.5 を 9.6 にアップグレードした時点で猶予期間が残っている場合、 NVMe の機能を引き続き利用するには、猶予期間を有効な NVMeoF ライセンスに置き換える必要があります。</block>
+  <block id="815824e3f581441ea6999750ea40b293" category="list-text">ONTAP 9.5 以降では、 NVMe プロトコルを使用する HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。作成できる NVMe LIF の数はノードごとに 2 つまでです。ONTAP 9.5 にアップグレードするときは、 NVMe プロトコルを使用する HA ペアの各ノードに対して少なくとも 1 つの NVMe LIF が定義されていることを確認する必要があります。</block>
+  <block id="c503852b4c7e6024fbe45f861966d958" category="summary">StrictSync ポリシーと Sync ポリシーでは、 FC 、 iSCSI 、 FC-NVMe の各プロトコルを使用した LUN ベースのすべてのアプリケーションに加え、データベース、 VMWare クォータ、 CIFS などのエンタープライズアプリケーションについては NFSv3 および NFSv4 プロトコルもサポートされます。ONTAP 9.6 以降では、 EDA （デザインオートメーション）、ホームディレクトリ、ソフトウェアビルドワークロードなどのエンタープライズファイルサービスに SnapMirror Synchronous を使用できます。</block>
+  <block id="c383179aea1ae78459dfc908631cf68f" category="paragraph">ONTAP 9.6 以降ではこれらの制限はなくなり、ホームディレクトリやソフトウェアビルドワークロードなどのマルチユーザ環境を含むエンタープライズファイルサービスのワークロードに SnapMirror Synchronous を使用できるようになりました。</block>
+  <block id="d087a242e4810c70f2ccb072912cc056" category="paragraph">System Manager 9.6 以降では、 2 つのクラスタ間にピア関係を確立する際、デフォルトでピア関係が暗号化されます</block>
+  <block id="a1f98fb76066b45925b246ea195a7c62" category="summary">System Manager 9.6 以降では、既存の FlexGroup ボリュームのプロパティを編集できます。</block>
+  <block id="7afec9c2554738ce7a7de58297d6c030" category="paragraph">System Manager 9.6 以降では、 FlexGroup DP ボリュームの名前も変更できます。</block>
+  <block id="7c5c5dd8c983200f4658fbc653960629" category="summary">System Manager 9.6 以降では、不要になった FlexCache を削除できます。</block>
+  <block id="6396b4e9ee534ed15260ea7739d3096d" category="summary">System Manager 9.6 以降では、 Storage Virtual Machine （ SVM ）の CIFS / NFS ファイルアクセスエラーを診断できます。</block>
+  <block id="c13d6ff492b9fbd47b9f941f4fbee2d6" category="summary">System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、 .xlsx または .csv のいずれかの形式でダウンロードできます。</block>
+  <block id="e71eaae88dd2181cc95deea0992e62a9" category="paragraph">System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。</block>
+  <block id="15d5c2d28df744d723c4afac837b9efb" category="summary">System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスに問題がある場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。</block>
+  <block id="8085ff6fe13fdc727e4a01c757c67829" category="summary">System Manager 9.6 以降では、 MetroCluster サイトのネゴシエート（計画的）スイッチオーバーを開始できます。この処理は、サイトでディザスタリカバリのテストや計画的なメンテナンスを実行する場合に役立ちます。</block>
+  <block id="7246a3ef0c463c807e4dbac7824d6a92" category="summary">System Manager 9.6 以降 FlexCache では、 FlexCache ボリュームをオフラインまたはオンラインにしたり、 FlexCache ボリュームへのアクセスを制限したりするときに、ボリュームのステータスを変更できます。</block>
+  <block id="6417d6c1deae94784bb178a81f3c929b" category="summary">System Manager 9.6 以降では、 FlexCache ボリュームを作成できます。</block>
+  <block id="e7d954e77aebd859ccb147c5f9d8378c" category="summary">System Manager 9.6 以降では、スイッチオーバー処理の完了後にスイッチバック処理を実行して、元の MetroCluster サイト（サイト B ）に制御を戻すことができます。</block>
+  <block id="aa92d6af1cc24449466f262216467632" category="summary">System Manager 9.6 以降では、 MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウを使用して、ネゴシエート（計画的）スイッチオーバーまたはサイト / クラスタ（サイト B ）から別のサイト / クラスタ（サイト A ）への計画外スイッチオーバーを開始できます。サイト B でメンテナンスや修復を実行したら、サイト A からサイト B へのスイッチバックを開始し、このウィンドウで処理のステータスを確認できます。</block>
+  <block id="e5d446856630ec232bccda2df661897e" category="summary">ボリュームウィンドウを使用して、 FlexVol ボリュームと FlexGroup ボリュームを管理できます。System Manager 9.6 以降では、 FlexCache ボリュームも管理できます。</block>
+  <block id="6b0cc4ddfe235d9ecb8de601ccf35861" category="paragraph">System Manager 9.6 以降では、 FlexGroup DP ボリュームと FlexCache ボリュームのボリューム暗号化キーの変更がサポートされます。NAE アグリゲートから暗号化を継承したボリュームでは、キーの変更は無効です。</block>
+  <block id="1695535a1714b87bcc3484740ec235ba" category="paragraph">同じボリュームのキー変更処理の実行中にボリューム移動処理を開始すると、キー変更処理は中止されます。System Manager 9.5 以前のバージョンでは、ボリュームの変換処理またはキー変更処理の実行中にボリュームを移動しようとすると、警告なしで処理が中止されます。System Manager 9.6 以降では、変換処理またはキー変更処理の実行中にボリュームを移動しようとした場合、続行すると変換処理またはキー変更処理が中止されることを通知する警告メッセージが表示されます。</block>
+  <block id="3853d8827e176169022e0fb0e1cb0181" category="summary">System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。</block>
+  <block id="8be28ba82a6dd69c55a3f8793bd0d63c" category="summary">System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。</block>
+  <block id="4227d3e4ebcb1be60ce603efef5c55a8" category="paragraph">ONTAP 9.5 以降では、 SVM に関連付けられた HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。ペアの各ノードに対して作成できる NVMe LIF の数は 2 つまでです。</block>
+  <block id="17f96a07b22aadd9d026f06836cef80e" category="list-text">ONTAP 9.3 以降：「 * as per policy * 」オプションを選択します。</block>
+  <block id="aac75f93aae939890c94959328592cae" category="paragraph">ONTAP 9.3 以降：デスティネーションボリュームを選択し、 * Actions * &gt; * Manage Snapshots * &gt; * Configure * をクリックします。</block>
+  <block id="3a844188ec34faf3c6e22a1122212cf0" category="paragraph">ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に、ミラースケジュールは「 None 」に設定されます。</block>
+  <block id="410177aa90f41a9b94e8d3d6dd68ec86" category="paragraph">ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に、 SnapMirror スケジュールは「 None 」に設定されます。</block>
+  <block id="a1017be6326d564e17161f099c8d9c33" category="image-alt">この図は SnapMirror のクラスタ間フェイルオーバーと再同期のフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="33d698c5405b59cf282a091b0fab54f4" category="image-alt">この図は SnapVault バックアップの設定ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="681b555578c6300aa44915faa6e62624" category="doc">SnapVault 関係の作成（ ONTAP 9.3 以降）</block>
+  <block id="a9c3db2dac08d0461d592c5724652b88" category="image-alt">次の図は iSCSI のワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="92ee9267c45d7a45ecbf20d1de76da57" category="doc">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
+  <block id="6fd4c87d769b5894903c76ecbbafe44d" category="doc">ピア関係の設定（ ONTAP 9.3 以降）</block>
+  <block id="098227475310f96473221349e446e10d" category="doc">クラスタピア関係を作成する（ ONTAP 9.3 以降）</block>
+  <block id="874a016b0e4db6e53328d05604a721d0" category="paragraph">ONTAP 9.6 以降では、新しく作成されるすべてのクラスタピア関係で、クラスタピアリングの暗号化がデフォルトで有効になります。ONTAP 9.6 にアップグレードする前に作成されたピア関係については、クラスタピアリングの暗号化を手動で有効にする必要があります。ONTAP 9.5 以前を実行しているクラスタでは、クラスタピアリングの暗号化を使用できません。したがって、クラスタピアリングの暗号化を有効にするには、ピア関係の両方のクラスタが ONTAP 9.6 を実行している必要があります。</block>
+  <block id="a60cef4d53b7d29fdafe7251c9212714" category="paragraph">ONTAP 9.3 以降では、クラスタピア関係を作成する際にリモートクラスタからパスフレーズを生成できます。</block>
+  <block id="f3c6baefd3aa64a54472307f2dccb67a" category="inline-link-macro">クラスタピア関係の作成（ ONTAP 9.3 以降）</block>
+  <block id="d97169bd10d3c3c1693bb61aa03fe93a" category="paragraph"><block ref="d97169bd10d3c3c1693bb61aa03fe93a" category="inline-link-macro-rx"></block></block>
+  <block id="a799a67339bf492f0cb9376bdd36f13b" category="paragraph">IP アドレス（ ONTAP 9.3 以降、 ONTAP 9.2 以前ではオプション）</block>
+  <block id="745b99aa60efc9d37fb056077fe47f6f" category="image-alt">次の図は FC ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
+  <block id="4ced5ba9822d5a20bbe4b17ad6dd45ca" category="paragraph">オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP CLI で設定しますが、手順では説明しません。</block>
+  <block id="20f5f5aef33f58dbc29e158db29e30e2" category="list-text">新しい SVM にボリュームをプロビジョニングする場合は、 <block ref="6f64ce6356f21a42c81469c76d4a31de" category="inline-link-macro-rx"></block>。</block>
+  <block id="01cfdd7cac91246283ee60d6afe743a1" category="list-text">ONTAP 9.5 以降：クリック * Configuration * &gt; * Cluster * &gt; * Expansion * System Manager では、新しく追加したノードを検索します。警告が表示された場合は、処理を続行する前に修正する必要があります。互換性がある新しいノードが検出された場合は、次の手順に進みます。</block>
+  <block id="cf60e092711952c2c868d7d19e86f100" category="summary">HA ペアを追加すると、既存のクラスタを迅速かつ無停止で拡張できます。クラスタを拡張すると、クラスタのパフォーマンスが向上し、使用可能なストレージ容量が増えます。</block>
+  <block id="e8fd990d5fe6a50d516b83641fb7fc4a" category="paragraph">この手順は、次の条件に該当する場合にのみ使用してください。</block>
+  <block id="5924a921008cf1a2f38d2d7a41990138" category="paragraph">この手順の例では 2 ノードクラスタを使用していますが、 3 つ以上のノードで構成される環境クラスタも使用しています。</block>
+  <block id="77c61fd6aef6817840becd82172bd57c" category="paragraph">クラスタで SnapMirror 関係または SnapVault 関係を使用してデータを保護する場合は、を参照してください <block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block> ガイドを参照して、新しいノードに適したクラスタ間 LIF をセットアップします。</block>
+  <block id="05eac09172b61971be85d0a01b8162b9" category="paragraph">新しく追加したノードにデータを移動する場合は、次の情報を使用できます。</block>
+  <block id="127ec903ab071b33b2b142ce19373815" category="summary">Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定することができます。</block>
+  <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP コマンドラインインターフェイス（ CLI ）で設定しますが、この手順では説明しません。</block>
+  <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
 </blocks>

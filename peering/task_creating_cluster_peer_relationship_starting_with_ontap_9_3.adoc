@@ -1,7 +1,7 @@
 ---
 permalink: peering/task_creating_cluster_peer_relationship_starting_with_ontap_9_3.html 
 sidebar: sidebar 
-keywords: create, cluster, peer, relationship, cluster, system-generated, passphrase, ip, address, intercluster, lif, remote, create a cluster peer relationship, starting with ontap 9.3 
+keywords: create, cluster, peer, relationship, cluster, system-generated, passphrase, ip, address, intercluster, lif, remote, create a cluster peer relationship, Beginning with ontap 9.3 
 summary: 2 つのクラスタ間にクラスタピア関係を作成するには、システム生成のパスフレーズおよびリモートクラスタのクラスタ間 LIF の IP アドレスを指定します。 
 ---
 = クラスタピア関係を作成する（ ONTAP 9.3 以降）

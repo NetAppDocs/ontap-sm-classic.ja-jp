@@ -73,7 +73,7 @@ Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 S
 
 * L2/L3 アプリケーションが表示されます
 +
-ONTAP 9.5 以降の System Manager では、 Applications ページのさまざまなホスト名に L2/L3 アプリケーションが表示されます。ホスト名をクリックすると、 L2 Cockpit インターフェイスで新しいウィンドウが開きます。また、各アプリケーションについて、 System Manager に IOPS とレイテンシの測定値も表示されます。
+ONTAP 9.5 以降では、アプリケーションページのホスト名が異なる L2 / L3 アプリケーションが System Manager のリストに表示されます。ホスト名をクリックすると、 L2 Cockpit インターフェイスで新しいウィンドウが開きます。また、各アプリケーションについて、 System Manager に IOPS とレイテンシの測定値も表示されます。
 
 * 仮想 IP のサポート
 +

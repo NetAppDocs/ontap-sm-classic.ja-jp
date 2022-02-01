@@ -39,7 +39,7 @@ image::../media/snapmirror_return_break.gif[[ 分割（ Break ） ] ダイアロ
 image::../media/snapmirror_return_reverse_resync.gif[逆再同期（ Reverse Resync ）ダイアログボックスを示すスクリーンショット]
 
 +
-ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に設定され、 SnapMirror スケジュールは「 None 」に設定されます。
+ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に、 SnapMirror スケジュールは「 None 」に設定されます。
 
 +
 ONTAP 9.2 以前を実行している場合、関係の SnapMirror ポリシーは「デフォルト」に設定され、 SnapMirror スケジュールは「なし」に設定されます。

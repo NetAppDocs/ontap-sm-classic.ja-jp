@@ -37,7 +37,7 @@ ONTAP System Manager 従来のインターフェイス（ ONTAP 9.7 以前）を
 
 [cols="2"]
 |===
-| 実行するタスク | 参照するコンテンツ 
+| 実行するタスク | 参照先 
 
 
 | 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html["VMware データストア用の SAN ストレージをプロビジョニングする"^] 

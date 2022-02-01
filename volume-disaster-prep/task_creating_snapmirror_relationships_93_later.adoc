@@ -1,7 +1,7 @@
 ---
 permalink: volume-disaster-prep/task_creating_snapmirror_relationships_93_later.html 
 sidebar: sidebar 
-keywords: create, snapmirror, relationship, source, volume, cluster, destination, peer, data, recovery, disaster, create the snapmirror relationship, starting with ontap 9.3 
+keywords: create, snapmirror, relationship, source, volume, cluster, destination, peer, data, recovery, disaster, create the snapmirror relationship, Beginning with ontap 9.3 
 summary: ディザスタリカバリ用にデータをレプリケートするには、ピア関係にあるそれぞれのクラスタのソースボリュームとデスティネーションボリュームの間で SnapMirror 関係を作成する必要があります。 
 ---
 = SnapMirror 関係を作成する（ ONTAP 9.3 以降）

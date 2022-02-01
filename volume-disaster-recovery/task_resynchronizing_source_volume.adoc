@@ -35,7 +35,7 @@ image::../media/reverse_resync_2555.gif[次の図に示すように、アクテ�
 image::../media/reverse_resync_4eea.gif[逆再同期画面]
 
 +
-ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に設定され、ミラースケジュールは「 None 」に設定されます。
+ONTAP 9.3 以降では、関係の SnapMirror ポリシーは「 MirrorAllSnapshots 」に、ミラースケジュールは「 None 」に設定されます。
 
 +
 ONTAP 9.2 以前を実行している場合、関係の SnapMirror ポリシーは「デフォルト」に設定され、ミラースケジュールは「なし」に設定されます。

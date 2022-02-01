@@ -11,7 +11,7 @@ entries:
   entries:
   - title: クラスタピアリングを準備
     url: "/peering/task_preparing_for_cluster_peering.html"
-  - title: ピア関係を設定する（ ONTAP 9.3 以降）
+  - title: ピア関係の設定（ ONTAP 9.3 以降）
     url: "/peering/concept_creating_peer_relationships_93_later.html"
     entries:
     - title: クラスタ間 LIF の作成（ ONTAP 9.3 以降）

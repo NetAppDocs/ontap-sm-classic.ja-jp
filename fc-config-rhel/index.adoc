@@ -2,7 +2,7 @@
 permalink: fc-config-rhel/index.html 
 sidebar: sidebar 
 keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, host, bus, adapter, hba, linux, server, configuration, red hat enterprise linux 
-summary: このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。 
+summary: Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定することができます。 
 ---
 = Red Hat Enterprise Linux 向けの FC の設定の概要
 :hardbreaks:
@@ -21,7 +21,7 @@ ONTAP ONTAP 9.7 以前のインターフェイスを使用して、 Storage Virt
 
 NOTE: この手順では Fibre Channel over Ethernet （ FCoE ）については説明しません。
 
-* クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP のコマンドラインインターフェイス（ CLI ）で設定しますが、本書では説明しません。
+* クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP コマンドラインインターフェイス（ CLI ）で設定しますが、この手順では説明しません。
 * FC SAN ブートを設定しない。
 
 
@@ -36,9 +36,10 @@ NOTE: この手順では Fibre Channel over Ethernet （ FCoE ）については
 
 == ONTAP でこれを行うその他の方法
 
-[cols="2"]
 |===
-| 実行するタスク | 参照するコンテンツ 
+
+
+| 実行するタスク | 参照先 
 
 
 | 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["Linux サーバ用の SAN ストレージをプロビジョニング"^] 

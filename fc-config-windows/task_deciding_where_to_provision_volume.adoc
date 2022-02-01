@@ -22,20 +22,20 @@ LUN を格納するボリュームをプロビジョニングする前に、そ�
 
 * すでに FC 用に設定されている SVM にボリュームをプロビジョニングする場合は、 FC サービスが実行されていることを確認してから、 SVM に LUN を作成する必要があります。
 +
-xref:task_verifying_that_fc_service_is_running_on_existing_svm.adoc[既存の SVM での FC サービスの実行状況の確認]
+link:task_verifying_that_fc_service_is_running_on_existing_svm.html["既存の SVM での FC サービスの実行状況の確認"]
 
 +
-xref:task_creating_lun_its_containing_volume.adoc[LUN を作成する]
+link:task_creating_lun_its_containing_volume.html["LUN を作成する"]
 
 * FC が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM で iSCSI を設定します。
 +
-xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[既存の SVM で FC を設定]
+link:task_configuring_iscsi_fc_creating_lun_on_existing_svm.html["既存の SVM で FC を設定"]
 
 +
-これは、別のプロトコルを設定する際に、このコンテンツの手順に従って SVM を作成していない場合に該当します。
+これは、別のプロトコルを設定するときに手順を使用して SVM を作成しなかった場合に該当します。
 
 * 新しい SVM にボリュームをプロビジョニングする場合は、 SVM を作成します。
 +
-xref:task_creating_svm.adoc[新しい SVM を作成]
+link:task_creating_svm.html["新しい SVM を作成"]
 
 

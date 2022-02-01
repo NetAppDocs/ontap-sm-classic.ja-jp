@@ -34,9 +34,10 @@ SAN の管理の詳細については、を参照してください https://docs
 
 == ONTAP でこれを行うその他の方法
 
-[cols="2*"]
 |===
-| * このタスクを完了するには、 ... * を使用します | * このコンテンツを参照してください。 * 
+
+
+| 実行するタスク | 参照先 
 
 
 | 再設計された System Manager （ 9.7 以降で使用可能） | https://docs.netapp.com/us-en/ontap/task_san_provision_windows.html["Windows サーバ用の SAN ストレージをプロビジョニングする"] 

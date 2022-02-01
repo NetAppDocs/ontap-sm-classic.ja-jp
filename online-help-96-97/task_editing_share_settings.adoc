@@ -2,7 +2,7 @@
 permalink: online-help-96-97/task_editing_share_settings.html 
 sidebar: sidebar 
 keywords: edit, share, settings, system, manager, online, help 
-summary: System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。 
+summary: System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。 
 ---
 = 共有設定を編集しています
 :icons: font
@@ -10,7 +10,7 @@ summary: System Manager を使用して、シンボリックリンクの設定�
 
 
 [role="lead"]
-System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。
+System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。
 
 .手順
 . [* ストレージ *>* 共有 ] をクリックします。

@@ -2,7 +2,7 @@
 permalink: nfs-config-esxi/index.html 
 sidebar: sidebar 
 keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc 
-summary: このコンテンツでは、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定する方法について説明します。 
+summary: ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。 
 ---
 = VSC を使用した ESXi 向けの NFS の設定の概要
 :icons: font
@@ -10,9 +10,9 @@ summary: このコンテンツでは、 ESXi ホストから ONTAP ボリュー�
 
 
 [role="lead"]
-このコンテンツでは、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定する方法について説明します。
+ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。
 
-このコンテンツは、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。
+この手順は、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。
 
 * クラスタで ONTAP 9 を実行している。
 * すべての選択肢について検討するのではなく、ベストプラクティスに従う。
@@ -36,7 +36,7 @@ VMware VAAI をデータストアのプロビジョニングに使用するの�
 * VMware VAAI を使用する場合、 NFS アクセスは NFSv3 および NFSv4 経由になります。
 
 
-上記の想定条件に該当しない場合は、本書の代わりに次のドキュメントを参照してください。
+この手順が適していない場合は、本書の代わりに次のドキュメントを参照してください。
 
 * https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]
 * http://www.netapp.com/us/media/tr-4067.pdf["ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation 』"^]

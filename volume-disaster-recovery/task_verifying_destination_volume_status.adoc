@@ -36,7 +36,7 @@ image::../media/volume_edit_dest_vol_unix.gif[ボリュームの編集ダイア�
 +
 .. ONTAP のバージョンに応じて、次のいずれかの方法で「 * ボリューム Snapshot コピーの設定 * 」ページに移動します。
 +
-ONTAP 9.3 以降：デスティネーションボリュームを選択し、 * Actions * > * Manage Snapshots * > * Configure * の順にクリックします。
+ONTAP 9.3 以降：デスティネーションボリュームを選択し、 * Actions * > * Manage Snapshots * > * Configure * をクリックします。
 
 +
 ONTAP 9.2 以前：デスティネーションボリュームを選択し、 * Snapshot コピー * > * 設定 * をクリックします。
