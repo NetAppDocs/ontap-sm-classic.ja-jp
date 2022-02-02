@@ -9,7 +9,7 @@
   <meta property="og:title" content="Windows 向けの FC 構成の概要" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-windows/index.html" />
-	<meta property="og:description" content="このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。" />
+	<meta property="og:description" content="Windows ホストコンピュータで、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 FC HBA を使用して LUN を使用できるように設定することができます。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="このコンテンツでは、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定するまでの簡単な方法について説明しています。">
+  <meta name="description" content="Windows ホストコンピュータで、 Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 FC HBA を使用して LUN を使用できるように設定することができます。">
   <meta name="keywords" content=" describe, fc, service, storage virtual machine, svm, provision, lun, hba, windows, host">
   
   
@@ -286,8 +286,6 @@
                   <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-windows/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-windows/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-windows/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -1522,11 +1520,11 @@
         <li class="pdf-ux-container">
           <a target="_blank" 
             
-              href="/ja-jp/ontap-sm-classic/pdfs/sidebar/ピア関係を設定する__ONTAP_9_3_以降_.pdf" 
+              href="/ja-jp/ontap-sm-classic/pdfs/sidebar/ピア関係の設定__ONTAP_9_3_以降_.pdf" 
             
           >
             <img src="/ja-jp/ontap-sm-classic/images/pdf.png" width="16" height="16"/>
-            ピア関係を設定する（ ONTAP 9.3 以降）
+            ピア関係の設定（ ONTAP 9.3 以降）
           </a>
           
 
@@ -8940,7 +8938,7 @@
       <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/peering/task_preparing_for_cluster_peering.html">
         クラスタピアリングを準備
       </a></li><li class="subfolders "><a href="/ja-jp/ontap-sm-classic/peering/concept_creating_peer_relationships_93_later.html">
-        <div class="na-navbar-padding"> ピア関係を設定する（ ONTAP 9.3 以降）</div>
+        <div class="na-navbar-padding"> ピア関係の設定（ ONTAP 9.3 以降）</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/peering/task_creating_intercluster_lifs.html">
         クラスタ間 LIF の作成（ ONTAP 9.3 以降）
@@ -11875,6 +11873,14 @@
           style="border-radius: 50%;"/>
   </a>
   
+  <a target="_blank" href="https://github.com/netapp-thomi">
+    <img  class="avatar avatar-small"
+          alt="netapp-thomi"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54111336?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -11892,7 +11898,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を搭載した Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定できます。</p>
+<p>Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用して Windows ホストコンピュータで FC HBA を使用して LUN を使用できるように設定することができます。</p>
 </div>
 <div class="paragraph">
 <p>この手順を使用して SVM に FC サービスをセットアップします。状況：</p>
@@ -11910,7 +11916,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この内容は含まれていません。</p>
+<p>クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順では説明しません。</p>
 </li>
 <li>
 <p>FC SAN ブートを設定しない。</p>
@@ -11930,13 +11936,11 @@
 <col style="width: 50%;">
 <col style="width: 50%;">
 </colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">実行するタスク</th>
-<th class="tableblock halign-left valign-top">参照するコンテンツ</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">実行するタスク</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">参照先</p></td>
+</tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">再設計された System Manager （ ONTAP 9.7 以降で使用可能）</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/task_san_provision_windows.html" target="_blank" rel="noopener">"Windows サーバ用の SAN ストレージをプロビジョニングする"</a></p></td>
@@ -11948,9 +11952,10 @@
 </tbody>
 </table>
 <div class="ulist">
+<div class="title">その他のリソース</div>
 <ul>
 <li>
-<p>その他のリソース <strong>+</strong> <a href="https://docs.netapp.com/us-en/ontap-sanhost/index.html" target="_blank" rel="noopener">"ネットアップのマニュアル： Host Utilities"</a></p>
+<p><a href="https://docs.netapp.com/us-en/ontap-sanhost/index.html" target="_blank" rel="noopener">"ネットアップのマニュアル： Host Utilities"</a></p>
 </li>
 </ul>
 </div>
