@@ -9754,4 +9754,9 @@
   <block id="127ec903ab071b33b2b142ce19373815" category="summary">Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定することができます。</block>
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP コマンドラインインターフェイス（ CLI ）で設定しますが、この手順では説明しません。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
+  <block id="8fad4be94e9aa7ce4db57aef3f0d7941" category="inline-link">ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation Guide 』</block>
+  <block id="6819367dcff0e5919ebb17505dc3e140" category="list-text"><block ref="6819367dcff0e5919ebb17505dc3e140" category="inline-link-rx"></block></block>
+  <block id="50400bf2b8b05b7f59759391fceb205c" category="inline-link">ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices Guide 』</block>
+  <block id="85937592f790d6e3d8b684c96c89c085" category="list-text"><block ref="85937592f790d6e3d8b684c96c89c085" category="inline-link-rx"></block></block>
+  <block id="2d5be386a089210cb63a38e03fd69890" category="list-text"><block ref="2d5be386a089210cb63a38e03fd69890" category="inline-link-rx"></block></block>
 </blocks>

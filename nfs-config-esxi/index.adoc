@@ -39,7 +39,7 @@ VMware VAAI をデータストアのプロビジョニングに使用するの�
 この手順が適していない場合は、本書の代わりに次のドキュメントを参照してください。
 
 * https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]
-* http://www.netapp.com/us/media/tr-4067.pdf["ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation 』"^]
-* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf["ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices 』"^]
-* http://www.netapp.com/us/media/tr-4597.pdf["ネットアップテクニカルレポート 4597 ：『 VMware vSphere with ONTAP 』"^]
+* https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation Guide 』"^]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668.pdf["ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices Guide 』"^]
+* https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["ネットアップテクニカルレポート 4597 ：『 VMware vSphere with ONTAP 』"^]
 
