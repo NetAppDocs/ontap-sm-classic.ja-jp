@@ -42,8 +42,8 @@ cluster1::> network interface create -vserver vs1 -lif lif5 -role data
 
 . ポートセットを更新します。
 +
-.. lun portset show コマンドを使用して、ポートセットが存在するかどうかを確認します。
-.. 既存のホストから新しい LIF を認識できるようにするには、各 LIF に対して「 lun portset add 」コマンドを使用して、新しい LIF をそれぞれポートセットに追加します。
+.. 「 lun portset show 」コマンドを使用して、ポートセットが存在するかどうかを確認します。
+.. 新しい LIF を既存のホストから認識できるようにするには、各 LIF に対して「 lun portset add 」コマンドを使用して、新しい LIF をそれぞれポートセットに追加します。
 
 
 . FC または FCoE を使用する場合は、ゾーニングを更新します。

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, port, sets, system, manager, online, help 
 summary: System Manager を使用して、不要になったポートセットを削除できます。 
 ---
-= ポートセットを削除しています
+= ポートセットを削除します
 :icons: font
 :imagesdir: ../media/
 
@@ -14,6 +14,6 @@ System Manager を使用して、不要になったポートセットを削除�
 
 .手順
 . [ * ストレージ * > * LUNs * ] をクリックします。
-. [ * ポートセット * ] タブで 1 つ以上のポートセットを選択し、 [ * 削除 * ] をクリックします。
+. [ * ポートセット * ] タブで、 1 つまたは複数のポートセットを選択し、 [ * 削除 * ] をクリックします。
 . 削除を確認するには、 * Delete * をクリックします。
 

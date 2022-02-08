@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, port, set, portset, tab, system, manager, online, help 
 summary: System Manager のポートセットタブを使用して、ポートセットに関連する設定を編集できます。 
 ---
-= ポートセットを編集しています
+= ポートセットを編集します
 :icons: font
 :imagesdir: ../media/
 
