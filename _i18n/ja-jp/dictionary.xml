@@ -74,7 +74,6 @@
   <block id="e1f9c75e0d34511fa7945c9a9bd4a301" category="list-text">背景にある概念について詳しく確認する必要はありません。</block>
   <block id="2152f76761d5c6a4279f0f404b969bc6" category="list-text">ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。</block>
   <block id="e8726682a54ea85f2123db66fd54ec79" category="inline-link">ONTAP System Manager のドキュメント</block>
-  <block id="393a51fc1ea014203ab06257b17952d6" category="paragraph"><block ref="393a51fc1ea014203ab06257b17952d6" category="inline-link-rx"></block></block>
   <block id="d330df82772bc211de4c19b45eedcb36" category="inline-link">ネットアップテクニカルレポート 4183 ：『 SnapVault ベストプラクティス』</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="summary">著作権</block>
   <block id="e10b5b38785c3a24ec75723ab75b4360" category="paragraph">Copyright © 2021 NetApp 、 Inc. All rights reserved.米国で印刷されています</block>
@@ -1704,7 +1703,6 @@
   <block id="5572f49b158f780c6a6d34a5ee104b8f" category="paragraph">LIF のサブネット：</block>
   <block id="638ba88b49b184538c32c1c7808d8103" category="doc">VSC を使用した ESXi 向けの iSCSI 設定の概要</block>
   <block id="d2604e4f6b186a2646fe3c97133ef0f6" category="list-text">iSCSI に CHAP 認証を使用しない。</block>
-  <block id="829278b24fc7ce848ba59f52f780c739" category="list-text">サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定を行う。</block>
   <block id="d862fa8a56f5e022d3157dd0b90b2b76" category="list-text">定義したサブネットから自動で割り当てられます</block>
   <block id="77940d0bcb4281501811de1ec05e0bda" category="list-text">クラスタ内の各ノードに高速イーサネットポート（ 1GbE 以上、 10GbE を推奨）が少なくとも 2 つある。</block>
   <block id="4dfc85f053bbce34b061f9f9e50054bd" category="inline-link-macro">ONTAP 9 ネットワーク管理</block>
@@ -1713,7 +1711,6 @@
   <block id="19a784614020f03847308e98240415b6" category="list-text"><block ref="19a784614020f03847308e98240415b6" category="inline-link-rx"></block></block>
   <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 構成</block>
   <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
-  <block id="7b163ff65ebf3790f5b97fe18f22f72b" category="inline-link">アプライアンス管理</block>
   <block id="27ebce0c0f9c269fad61d937501e68e0" category="summary">Virtual Storage Console for VMware vSphere を使用すると、 ESXi ホストでネットアップの iSCSI ストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。Virtual Storage Console は vCenter Server のプラグインです。</block>
   <block id="fa3313a389a81d17ecc59d6a9af3cd81" category="doc">Virtual Storage Console をインストールします</block>
   <block id="4dbd231a9a42eafe7a6612f3a2289388" category="paragraph">ESXi ホストの管理に使用する vCenter Server に対する管理者クレデンシャルが必要です。</block>
@@ -1821,7 +1818,6 @@
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">すでに FC 用に設定されている SVM にボリュームをプロビジョニングする場合は、 FC サービスが実行されていることを確認する必要があります。</block>
   <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">この VMware のコンテンツでは、 ESXi 5.x 向けの FC と iSCSI の設定について説明します</block>
   <block id="caeab82c4f9b5aa8223e7cf94f44d99d" category="doc">VSC を使用した ESXi 向けの FC の設定の概要</block>
-  <block id="5a904ed7630aa080098419a943137232" category="list-text">サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定とデータストアのプロビジョニングを行う。</block>
   <block id="1fe0867d1be2bcaa05e5f8f160018fac" category="list-text">ESXi 5.x の従来の FC HBA と従来の FC スイッチを使用している。</block>
   <block id="dfccb684b063bbb06e8ec445a12648fa" category="list-text">ホストにデータストアを作成する。</block>
   <block id="27045e1024ed1f1f4ea149b9fcfc4e8f" category="summary">Virtual Storage Console for VMware vSphere を使用すると、 ESXi ホストでネットアップの FC ストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。Virtual Storage Console は vCenter Server のプラグインです。</block>
@@ -9018,8 +9014,6 @@
   <block id="b6339b8db51f3442d4512cbc00301455" category="doc">ESXi ワークフロー向けの NFS クライアント構成</block>
   <block id="1db77ab5a30737c6da5b1003cdbc8173" category="image-alt">VAAI を使用した NFS クライアント構成</block>
   <block id="9fbe728d7eb2adabf531ccdcf064bc53" category="doc">VSC を使用した ESXi 向けの NFS の設定の概要</block>
-  <block id="3265a02f223e2e874b1bec4518109193" category="list-text">を使用してデータストアをプロビジョニングし、ボリュームを作成する。</block>
-  <block id="9dfffe8114e130e42162831fc7267180" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトによって、リンク障害の発生時に LIF が正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="a103d8b90ee1bc965ab64e599e1125d6" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
   <block id="43a71c5fe2434bc0afb8d6344fcbf4d8" category="list-text">Plug-in for VMware VAAI を使用する必要がある。</block>
   <block id="feed6122f4184fcdec75b30135610d5f" category="paragraph">VMware vStorage APIs for Array Integration （ VAAI ）を使用すると、コピーオフロードとスペースリザベーションを実行できます。Plug-in for VMware VAAI では、 ESXi ホストを経由する必要がないため、ホストのパフォーマンスが向上するためにこの機能を使用します。これにより、 ONTAP でスペース効率と時間効率に優れたクローニングを利用できます。</block>
   <block id="c1d14d20450e486195a2453dad82c1f5" category="paragraph">VMware VAAI をデータストアのプロビジョニングに使用するのがベストプラクティスです。</block>
@@ -9404,14 +9398,6 @@
   <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">Windows サーバ用の SAN ストレージをプロビジョニングする</block>
   <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
   <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
-  <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して ESXi ホストコンピュータの iSCSI イニシエータを使用して LUN を使用できるように設定することができます。</block>
-  <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">を参照してください <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> CLI を使用してイーサネットポートのフロー制御を設定するため。</block>
-  <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">VMware データストア用の SAN ストレージをプロビジョニングする</block>
-  <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
-  <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">その他のリソース</block>
-  <block id="982b26a119993277a196e08d99a37e4a" category="list-text"><block ref="982b26a119993277a196e08d99a37e4a" category="inline-link-rx"></block></block>
-  <block id="a642a03a1d89a2568a28161a6dcba8c0" category="list-text"><block ref="a642a03a1d89a2568a28161a6dcba8c0" category="inline-link-rx"></block></block>
-  <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
   <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">ONTAP ONTAP 9.7 以前のインターフェイスを使用して、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタ（ HBA ）を使用して LUN を使用できるように設定することができます。</block>
   <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
   <block id="785f21867c78d48d84db708fe6d6705a" category="list-text">にアクセスします<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block> 次のコンポーネントについて、サポートされている組み合わせであることを確認します。</block>
@@ -9424,7 +9410,6 @@
   <block id="9cf52e339950ce13b96dc210eba32043" category="paragraph">この手順を使用して SVM に FC サービスをセットアップします。状況：</block>
   <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">従来の FC HBA およびスイッチを使用している。</block>
   <block id="d72f5510625cc4d6c7088dce4938a4b0" category="paragraph">この手順は、次のような状況には対応しません。</block>
-  <block id="2543eb70e018ba889bfe7e3c3c1f1afd" category="summary">Storage Virtual Machine で iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定することができます。</block>
   <block id="039d2d1f92ed5762bd1672bf32bb614a" category="paragraph">次の場合にこの手順を使用します。</block>
   <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">ホストで Red Hat Enterprise Linux 6.4 以降のサポート対象バージョンが実行されている。</block>
   <block id="d90be280d58372ceba4455532ff87944" category="admonition">この手順では Fibre Channel over Ethernet （ FCoE ）については説明しません。</block>
@@ -9534,11 +9519,6 @@
   <block id="d432d4f68190c54b5adf35251379f3fb" category="paragraph">この手順では FCoE については説明しません。</block>
   <block id="58b58b7e31b6b40393ea4d6eaaa65f6a" category="paragraph">オンボード FC ポートと UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP の CLI で設定しますが、この手順では説明しません。</block>
   <block id="269d64d46c556a3a7403703cf1ed2dcf" category="paragraph">この手順では、 raw デバイスマッピング（ RDM ）ディスクや、 N ポート ID 仮想化（ NPIV ）を使用した VM への FC の直接提供については説明していません。</block>
-  <block id="d2494eaa8817110c3f33b9db26112081" category="inline-link">ONTAP 9 の SAN 管理</block>
-  <block id="b4db604f7f46fce8467c2f28a2c5e83e" category="list-text"><block ref="b4db604f7f46fce8467c2f28a2c5e83e" category="inline-link-rx"></block></block>
-  <block id="83cb195869ecf30cf2bf909696d90958" category="inline-link">ONTAP 9 SAN 構成</block>
-  <block id="429f603a3b811bb2b6b580119340e5c8" category="list-text"><block ref="429f603a3b811bb2b6b580119340e5c8" category="inline-link-rx"></block></block>
-  <block id="9924ee2c6c9746d6e6c56a2812bbf674" category="list-text">_ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 <block ref="44f9482eaaa326b6591ec57007a0f626" category="inline-link-macro-rx"></block>)</block>
   <block id="338bf9032271409bd86a2b6af23ab61f" category="summary">ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。</block>
   <block id="acfaae8e3177fe2b3063f00cf811af45" category="paragraph">ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。</block>
   <block id="e0a892dfce439218336a42f56534bd80" category="paragraph">SNMPv3 ユーザは、管理者が指定した認証およびプライバシー設定を使用して、トラップホスト（ SNMP マネージャ）から SNMP ユーティリティを実行できます。SNMPv3 は、パスフレーズと暗号化を使用して高度なセキュリティを提供します。</block>
@@ -9618,9 +9598,6 @@
   <block id="19a5c41f774e4c13645c38aa3ac02bda" category="paragraph"><block ref="19a5c41f774e4c13645c38aa3ac02bda" category="inline-link-macro-rx"></block></block>
   <block id="00467c81ec3c45b5b81fa264a0272aae" category="paragraph"><block ref="00467c81ec3c45b5b81fa264a0272aae" category="inline-link-macro-rx"></block></block>
   <block id="6126e6170d0db16ae24c70eca957ee23" category="paragraph"><block ref="6126e6170d0db16ae24c70eca957ee23" category="inline-link-macro-rx"></block></block>
-  <block id="fceee62a624232866ee255365522b4c3" category="summary">ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。</block>
-  <block id="397fd9aa6321cafd4b95845cea4cb4fa" category="paragraph">この手順は、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。</block>
-  <block id="63fa29e0c0942c5a4a6e2ce9b2840405" category="paragraph">この手順が適していない場合は、本書の代わりに次のドキュメントを参照してください。</block>
   <block id="d98f3586fef8fc3b9d546d3a41033300" category="paragraph"><block ref="d98f3586fef8fc3b9d546d3a41033300" category="inline-link-macro-rx"></block></block>
   <block id="d77e74e7965c26a6cd865e741761d5b4" category="paragraph"><block ref="d77e74e7965c26a6cd865e741761d5b4" category="inline-link-macro-rx"></block></block>
   <block id="bec75509bb3926a9139c20b08fda4dd6" category="paragraph">これは、この手順に続けて SVM を作成した場合に該当します。</block>
@@ -9725,11 +9702,6 @@
   <block id="127ec903ab071b33b2b142ce19373815" category="summary">Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定することができます。</block>
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP コマンドラインインターフェイス（ CLI ）で設定しますが、この手順では説明しません。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
-  <block id="8fad4be94e9aa7ce4db57aef3f0d7941" category="inline-link">ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation Guide 』</block>
-  <block id="6819367dcff0e5919ebb17505dc3e140" category="list-text"><block ref="6819367dcff0e5919ebb17505dc3e140" category="inline-link-rx"></block></block>
-  <block id="50400bf2b8b05b7f59759391fceb205c" category="inline-link">ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices Guide 』</block>
-  <block id="85937592f790d6e3d8b684c96c89c085" category="list-text"><block ref="85937592f790d6e3d8b684c96c89c085" category="inline-link-rx"></block></block>
-  <block id="2d5be386a089210cb63a38e03fd69890" category="list-text"><block ref="2d5be386a089210cb63a38e03fd69890" category="inline-link-rx"></block></block>
   <block id="d6e768218203e5e5304006b8efd0112a" category="summary">System Manager を使用して、不要になったポートセットを削除できます。</block>
   <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">ポートセットを削除します</block>
   <block id="3c5def4b4418a1419950919985135d29" category="list-text">[ * ポートセット * ] タブで、 1 つまたは複数のポートセットを選択し、 [ * 削除 * ] をクリックします。</block>
@@ -9760,4 +9732,17 @@
   <block id="ded36311d847f75d4f809a6870a2e0ed" category="sidebar">ポートセットを削除します</block>
   <block id="f036f45cd0fb57db483a3278d8a1eb2a" category="sidebar">ポートセットを編集します</block>
   <block id="8e1d7bfe28e595b4ce0deaa43921d8bf" category="sidebar">無停止での更新について</block>
+  <block id="1efe07eef4e047f77d97d7a9521fe678" category="summary">ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定できます。</block>
+  <block id="a13b5b49c282f481bac13a3c39c4db67" category="list-text">サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用してデータストアをプロビジョニングし、ボリュームを作成している。</block>
+  <block id="e37a9ce9ba1b9f128287af3bf8300997" category="inline-link">VMware vSphere 向け ONTAP ツール</block>
+  <block id="a3b4490891904699065ed222dabffcf2" category="list-text">VSC 7.0 以降、 VSC はの一部です<block ref="1320bf1a9550ca79a8b71105090c43c4" category="inline-link-rx"></block> VSC 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンス。</block>
+  <block id="b6cff3188695ffca95f89e72ba7473d7" category="list-text">必ずを確認してください<block ref="4f77de1badf00a5d026cff12bc7e2d0a" category="inline-link-rx"></block> 現在の ONTAP リリースと VSC リリースの互換性を確認するため。</block>
+  <block id="2482cab231363d0aa3ec780e4e4b2767" category="paragraph">データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトによって、リンク障害の発生時に LIF が正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください<block ref="eaaefb0a913b2d5b8bc1955d716eb715" category="inline-link-rx"></block> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</block>
+  <block id="6dbf34197c62b68dc80b731d40e27266" category="list-text">NFS Plug-in for VMware VAAI は、から入手できます<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block> サイト</block>
+  <block id="952fd691754e388c7b7ba473cf410aff" category="inline-link">TR-4597 ：『 VMware vSphere for ONTAP 』</block>
+  <block id="24f423c151048112b31e4205c8dde6e5" category="paragraph">詳細については、を参照してください<block ref="3d61b9ab1dcb235ff5edeb0cc5e74cd4" category="inline-link-rx"></block> および VSC リリースのドキュメントを参照してください。</block>
+  <block id="1e261b7ffab323c200f52d1d4a755980" category="list-text">サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用して ESX ホストのストレージ設定とデータストアのプロビジョニングを行う。</block>
+  <block id="2b4f8dfe33f9d8af15855fb018da73ca" category="summary">ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に iSCSI サービスを簡単にセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるようにすることができます。</block>
+  <block id="b0e0e7a5cccf0bb5f480596a97d3ac79" category="list-text">サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用して ESX ホストのストレージを設定している。</block>
+  <block id="47165a970b344156985260755fe32597" category="paragraph">を参照してください <block ref="63a409c949a0a7faca8865ea4633f264" category="inline-link-macro-rx"></block> CLI を使用してイーサネットポートのフロー制御を設定するため。</block>
 </blocks>

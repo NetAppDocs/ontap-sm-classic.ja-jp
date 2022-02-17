@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html 
 sidebar: sidebar 
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
-summary: Storage Virtual Machine で iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるように設定することができます。 
+summary: ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に iSCSI サービスを簡単にセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるようにすることができます。 
 ---
 = VSC を使用した ESXi 向けの iSCSI 設定の概要
 :icons: font
@@ -10,13 +10,18 @@ summary: Storage Virtual Machine で iSCSI サービスをセットアップし�
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップし、 LUN をプロビジョニングし、 ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して ESXi ホストコンピュータの iSCSI イニシエータを使用して LUN を使用できるように設定することができます。
+ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に iSCSI サービスを簡単にセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるようにすることができます。
 
 次の場合にこの手順を使用します。
 
 * ESXi 5.x でネイティブの ESXi iSCSI ソフトウェアイニシエータを使用している
 * iSCSI に CHAP 認証を使用しない。
-* サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定を行う。
+* サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用して ESX ホストのストレージを設定している。
++
+** VSC 7.0 以降、 VSC はの一部です https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere 向け ONTAP ツール"^] VSC 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンス。
+** 必ずを確認してください https://imt.netapp.com/matrix/["NetApp Interoperability Matrix Tool で確認できます"^] 現在の ONTAP リリースと VSC リリースの互換性を確認するため。
+
+
 * ネットワークで IPv4 アドレスを使用している。
 * 次のいずれかの方法で論理インターフェイスにアドレスを割り当てる。
 +
@@ -30,35 +35,10 @@ Storage Virtual Machine （ SVM ）に iSCSI サービスをセットアップ�
 オンボード UTA2 （別名「 CNA 」）ポートは設定が可能です。これらのポートは ONTAP CLI で設定しますが、手順では説明しません。
 
 +
-を参照してください link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 ネットワーク管理"] CLI を使用してイーサネットポートのフロー制御を設定するため。
+を参照してください link:https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"^] CLI を使用してイーサネットポートのフロー制御を設定するため。
 
 * iSCSI SAN ブートを設定しない。
 * VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。
 
 
-
-
-== ONTAP でこれを行うその他の方法
-
-|===
-
-
-| 実行するタスク | 参照先 
-
-
-| 再設計された System Manager （ ONTAP 9.7 以降で使用可能） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html["VMware データストア用の SAN ストレージをプロビジョニングする"^] 
-
-
-| ONTAP コマンドラインインターフェイス（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"^] 
-|===
-
-
-== その他のリソース
-
-上記の想定条件に該当しない場合は、次の資料を参照してください。
-
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 構成"^]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["アプライアンス管理"^]
-* _ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 link:http://www.vmware.com["VMware"^])
-
+詳細については、を参照してください https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["TR-4597 ：『 VMware vSphere for ONTAP 』"^] および VSC リリースのドキュメントを参照してください。
