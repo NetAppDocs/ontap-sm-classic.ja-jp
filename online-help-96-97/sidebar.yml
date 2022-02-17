@@ -527,10 +527,10 @@ entries:
       url: "/online-help-96-97/task_obtaining_ontap_software_images.html"
     - title: シングルノードクラスタを更新
       url: "/online-help-96-97/task_updating_single_node_clusters.html"
+    - title: 無停止での更新について
+      url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
     - title: クラスタを無停止で更新
       url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-    - title: クラスタを無停止で更新
-      url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
     - title: クラスタの更新ウィンドウ
       url: "/online-help-96-97/reference_cluster_update_window.html"
   - title: MetroCluster のスイッチオーバーとスイッチバック
