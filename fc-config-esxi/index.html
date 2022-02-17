@@ -19,7 +19,7 @@
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
   <meta name="description" content="ONTAP System Manager 従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータ...">
-  <meta name="keywords" content=" fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer,">
+  <meta name="keywords" content=" fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer, virtual storage console, vsc">
   
   
 
@@ -11865,19 +11865,19 @@
   
 
 <span>寄稿者
-  <a target="_blank" href="https://github.com/netapp-thomi">
-    <img  class="avatar avatar-small"
-          alt="netapp-thomi"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/54111336?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
   <a target="_blank" href="https://github.com/netapp-forry">
     <img  class="avatar avatar-small"
           alt="netapp-forry"
           width="20" height="20"
           src="https://avatars.githubusercontent.com/u/51911827?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/netapp-thomi">
+    <img  class="avatar avatar-small"
+          alt="netapp-thomi"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54111336?v=4"
           style="border-radius: 50%;"/>
   </a>
   
@@ -11895,8 +11895,6 @@
 </p>
 
 
-<div id="preamble">
-<div class="sectionbody">
 <div class="paragraph lead">
 <p>ONTAP System Manager 従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定できます。</p>
 </div>
@@ -11906,7 +11904,17 @@
 <div class="ulist">
 <ul>
 <li>
-<p>サポートされているバージョンの Virtual Storage Console for VMware vSphere を使用して ESX ホストのストレージ設定とデータストアのプロビジョニングを行う。</p>
+<p>サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用して ESX ホストのストレージ設定とデータストアのプロビジョニングを行う。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>VSC 7.0 以降、 VSC はの一部です <a href="https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html" target="_blank" rel="noopener">"VMware vSphere 向け ONTAP ツール"</a> VSC 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンス。</p>
+</li>
+<li>
+<p>必ずを確認してください <a href="https://imt.netapp.com/matrix/" target="_blank" rel="noopener">"NetApp Interoperability Matrix Tool で確認できます"</a> 現在の ONTAP リリースと VSC リリースの互換性を確認するため。</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>ネットワークで IPv4 アドレスを使用している。</p>
@@ -11934,58 +11942,8 @@
 </li>
 </ul>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="ontap-でこれを行うその他の方法">ONTAP でこれを行うその他の方法</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">実行するタスク</th>
-<th class="tableblock halign-left valign-top">参照先</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">再設計された System Manager （ ONTAP 9.7 以降で使用可能）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html" target="_blank" rel="noopener">"VMware データストア用の SAN ストレージをプロビジョニングする"</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP コマンドラインインターフェイス（ CLI ）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html" target="_blank" rel="noopener">"CLI での LUN セットアップのワークフロー"</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="その他のリソース">その他のリソース</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>上記の想定条件に該当しない場合は、次の資料を参照してください。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/san-admin/index.html" target="_blank" rel="noopener">"ONTAP 9 の SAN 管理"</a></p>
-</li>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/san-config/index.html" target="_blank" rel="noopener">"ONTAP 9 SAN 構成"</a></p>
-</li>
-<li>
-<p><a href="https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html" target="_blank" rel="noopener">"アプライアンス管理"</a></p>
-</li>
-<li>
-<p>_ VMware vSphere Storage_ ESXi 5 のバージョンに対応（から入手可能 <a href="http://www.vmware.com" target="_blank" rel="noopener">"VMware"</a>)</p>
-</li>
-</ul>
-</div>
-</div>
+<p>詳細については、を参照してください <a href="https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html" target="_blank" rel="noopener">"TR-4597 ：『 VMware vSphere for ONTAP 』"</a> および VSC リリースのドキュメントを参照してください。</p>
 </div>
 
     </article>

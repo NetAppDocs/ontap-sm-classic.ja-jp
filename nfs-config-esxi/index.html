@@ -9,7 +9,7 @@
   <meta property="og:title" content="VSC を使用した ESXi 向けの NFS の設定の概要" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/nfs-config-esxi/index.html" />
-	<meta property="og:description" content="ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。" />
+	<meta property="og:description" content="ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定できます。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。">
+  <meta name="description" content="ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定できます。">
   <meta name="keywords" content=" nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc">
   
   
@@ -11865,6 +11865,14 @@
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-forry">
+    <img  class="avatar avatar-small"
+          alt="netapp-forry"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/51911827?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-thomi">
     <img  class="avatar avatar-small"
           alt="netapp-thomi"
@@ -11888,44 +11896,46 @@
 
 
 <div class="paragraph lead">
-<p>ONTAP ボリュームを使用して、 ESXi ホストからデータストアへの NFS アクセスを簡単に設定できます。</p>
+<p>ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定できます。</p>
 </div>
 <div class="paragraph">
-<p>この手順は、 ESXi ホストからボリュームへの NFS アクセスを設定する場合に使用します。想定している状況は次のとおりです。</p>
+<p>次の場合にこの手順を使用します。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>クラスタで ONTAP 9 を実行している。</p>
+<p>サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用してデータストアをプロビジョニングし、ボリュームを作成している。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>VSC 7.0 以降、 VSC はの一部です <a href="https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html" target="_blank" rel="noopener">"VMware vSphere 向け ONTAP ツール"</a> VSC 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンス。</p>
 </li>
 <li>
-<p>すべての選択肢について検討するのではなく、ベストプラクティスに従う。</p>
+<p>必ずを確認してください <a href="https://imt.netapp.com/matrix/" target="_blank" rel="noopener">"NetApp Interoperability Matrix Tool で確認できます"</a> 現在の ONTAP リリースと VSC リリースの互換性を確認するため。</p>
 </li>
-<li>
-<p>背景にある概念について詳しく確認する必要はありません。</p>
-</li>
-<li>
-<p>を使用してデータストアをプロビジョニングし、ボリュームを作成する。</p>
-</li>
-<li>
-<p>ONTAP 9.7 以降では、 ONTAP システムマネージャ UI ではなく、 ONTAP 9.7 以前のリリースで _Classic_System Manager UI を使用する場合。</p>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/ontap/" target="_blank" rel="noopener">"ONTAP System Manager のドキュメント"</a></p>
+</ul>
 </div>
 </li>
 <li>
 <p>データネットワークでデフォルトの IPspace 、デフォルトのブロードキャストドメイン、およびデフォルトのフェイルオーバーグループを使用する。</p>
 <div class="paragraph">
-<p>データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトによって、リンク障害の発生時に LIF が正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください <a href="https://docs.netapp.com/us-en/ontap/networking/index.html">"Network Management の略"</a> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</p>
+<p>データネットワークがフラット構成であれば、これらのデフォルトのオブジェクトによって、リンク障害の発生時に LIF が正しくフェイルオーバーされます。デフォルトのオブジェクトを使用しない場合は、を参照してください <a href="https://docs.netapp.com/us-en/ontap/networking/index.html" target="_blank" rel="noopener">"Network Management の略"</a> LIF パスのフェイルオーバーを設定する方法については、を参照してください。</p>
 </div>
 </li>
 <li>
 <p>Plug-in for VMware VAAI を使用する必要がある。</p>
-<div class="paragraph">
+<div class="ulist">
+<ul>
+<li>
 <p>VMware vStorage APIs for Array Integration （ VAAI ）を使用すると、コピーオフロードとスペースリザベーションを実行できます。Plug-in for VMware VAAI では、 ESXi ホストを経由する必要がないため、ホストのパフォーマンスが向上するためにこの機能を使用します。これにより、 ONTAP でスペース効率と時間効率に優れたクローニングを利用できます。</p>
-</div>
-<div class="paragraph">
+</li>
+<li>
 <p>VMware VAAI をデータストアのプロビジョニングに使用するのがベストプラクティスです。</p>
+</li>
+<li>
+<p>NFS Plug-in for VMware VAAI は、から入手できます <a href="https://mysupport.netapp.com/site/global/dashboard" target="_blank" rel="noopener">"ネットアップサポート"</a> サイト</p>
+</li>
+</ul>
 </div>
 </li>
 <li>
@@ -11934,23 +11944,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>この手順が適していない場合は、本書の代わりに次のドキュメントを参照してください。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/nfs-admin/index.html" target="_blank" rel="noopener">"NFS の管理"</a></p>
-</li>
-<li>
-<p><a href="https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation Guide 』"</a></p>
-</li>
-<li>
-<p><a href="https://www.netapp.com/pdf.html?item=/media/16328-tr-4668.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices Guide 』"</a></p>
-</li>
-<li>
-<p><a href="https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4597 ：『 VMware vSphere with ONTAP 』"</a></p>
-</li>
-</ul>
+<p>詳細については、を参照してください <a href="https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html" target="_blank" rel="noopener">"TR-4597 ：『 VMware vSphere for ONTAP 』"</a> および VSC リリースのドキュメントを参照してください。</p>
 </div>
 
     </article>
