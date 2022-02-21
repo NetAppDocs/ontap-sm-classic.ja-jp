@@ -1,19 +1,7 @@
 ---
 permalink: online-help-96-97/task_locking_unlocking_cluster_user_accounts.html 
-sidebar: sidebar 
-keywords: lock, unlock, cluster, user, account, system, online, help 
-summary: System Manager を使用して、クラスタユーザアカウントをロックしたりロックを解除したりできます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_user_accounts.html 
 ---
-= クラスタユーザアカウントのロックまたはロック解除
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、クラスタユーザアカウントをロックしたりロックを解除したりできます。
-
-.手順
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. [* 管理 * （ * Management * ） ] パネルで、 [* ユーザー * （ * Users * ） ] をクリック
-. ステータスを変更するユーザーアカウントを選択し、 * ロック * または * ロック解除 * のいずれかをクリックします。
 

@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/task_migrating_lif.html 
-sidebar: sidebar 
-keywords: migrate, lif, system, manager, cluster, management, data, online, help 
-summary: ソースポートで障害が発生した場合やメンテナンスが必要な場合は、 System Manager を使用して、データ LIF またはクラスタ管理 LIF を同じノードの別のポートやクラスタ内の別のノードに移行できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_network_interfaces.html 
 ---
-= LIF を移行する
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-ソースポートで障害が発生した場合やメンテナンスが必要な場合は、 System Manager を使用して、データ LIF またはクラスタ管理 LIF を同じノードの別のポートやクラスタ内の別のノードに移行できます。
-
-デスティネーションのノードおよびポートが動作していて、ソースポートと同じネットワークにアクセスできる必要があります。
-
-.このタスクについて
-* ノードから NIC を削除する場合は、 NIC に属しているポートでホストされている LIF をクラスタ内の他のポートに移行する必要があります。
-* iSCSI または FC の LIF は移行できません。
-
-
-.手順
-. [ * ネットワーク * ] > [* ネットワーク・インターフェイス * ] をクリックします。
-. 移行するインターフェイスを選択し、 * Migrate * をクリックします。
-. * Migrate Interface * ダイアログボックスで、 LIF を移行するデスティネーションポートを選択します。
-. デスティネーションポートを LIF の新しいホームポートに設定する場合は、「 * Migrate permanently * 」チェックボックスを選択します。
-. [* Migrate （移行） ] をクリックします
 

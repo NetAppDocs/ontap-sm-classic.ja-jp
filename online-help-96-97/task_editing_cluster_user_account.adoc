@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_cluster_user_account.html 
-sidebar: sidebar 
-keywords: edit, cluster, user, account, system, manager, online, help 
-summary: System Manager を使用して、クラスタユーザアカウントを編集し、ストレージシステムにアクセスするためのユーザのログイン方法を変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_user_accounts.html 
 ---
-= クラスタユーザアカウントを編集する
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、クラスタユーザアカウントを編集し、ストレージシステムにアクセスするためのユーザのログイン方法を変更できます。
-
-.手順
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. [* 管理 * （ * Management * ） ] パネルで、 [* ユーザー * （ * Users * ） ] をクリック
-. [*Users*] ウィンドウで、変更するユーザーアカウントを選択し、 [*Edit*] をクリックします。
-. [* ユーザーの変更 * ] ダイアログボックスで、ユーザーログイン方法を変更し、 [* 変更 * ] をクリックします。
 

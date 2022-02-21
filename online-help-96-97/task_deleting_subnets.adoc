@@ -1,27 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_subnets.html 
-sidebar: sidebar 
-keywords: delete, subnet, system, manager, online, help, ip, addresses 
-summary: System Manager を使用して、不要になったサブネットを削除したり、そのサブネットに割り当てられていた IP アドレスを再割り当てしたりすることができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_subnets.html 
 ---
-= サブネットの削除
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、不要になったサブネットを削除したり、そのサブネットに割り当てられていた IP アドレスを再割り当てしたりすることができます。
-
-削除するサブネット内の IP アドレスを使用する LIF がないことを確認しておきます。
-
-クラスタ IPspace のサブネットの削除は System Manager では実行できません。代わりにコマンドラインインターフェイス（ CLI ）を使用してください。
-
-.手順
-. [ * ネットワーク * > * サブネット * ] をクリックします。
-. 削除するサブネットを選択し、 * Delete * をクリックします。
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

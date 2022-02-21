@@ -1,51 +1,7 @@
 ---
 permalink: online-help-96-97/reference_hardware_cache_window.html 
-sidebar: sidebar 
-keywords: hardware, cache, window, module, information, online, help, flash 
-summary: Hardware Cache ウィンドウを使用して、 Flash Cache モジュールがインストールされているストレージシステムに対して Flash Cache モジュールを有効または無効にすることができます。また、読み取りワークロードの統計情報も確認できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_hardware_cache.html 
 ---
-= Hardware Cache （ハードウェアキャッシュ）ウィンドウ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-Hardware Cache ウィンドウを使用して、 Flash Cache モジュールがインストールされているストレージシステムに対して Flash Cache モジュールを有効または無効にすることができます。また、読み取りワークロードの統計情報も確認できます。
-
-
-
-== モジュール情報
-
-* * ストレージシステム名 *
-+
-Flash Cache モジュールがインストールされているストレージシステムの名前が、図の下に表示されます。
-
-* * 切り替えボタンを有効 / 無効にします *
-+
-トグルボタンを動かしてモジュールを有効または無効にします。
-
-* * サイズ *
-+
-モジュールのサイズ（ギガバイト）。Flash Cache モジュールカードが複数ある場合は、すべてのカードのキャッシュサイズの合計が表示されます。
-
-+
-[NOTE]
-====
-表示される Flash Cache モジュールのサイズは、次の理由で実際のサイズと異なります。 - System Manager では、 ONTAP から提供される使用可能容量のみが報告されます。- 合計容量の一部はメタデータを格納するために予約されています。
-
-====
-* * モデル名 *
-+
-モジュールのモデル名。
-
-* * システムの読み取り遅延 *
-+
-平均読み取りレイテンシがミリ秒単位で表示されます。
-
-
-
-
-
-== キャッシュの読み取りワークロード
-
-ディスクと Flash Cache モジュールで処理される読み取りワークロードの割合をグラフに示して、ストレージシステムのパフォーマンスを示します。

@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_home_directory_share.html 
-sidebar: sidebar 
-keywords: create, home, directory, system, manager, online, help 
-summary: System Manager を使用して、ホームディレクトリ共有を作成し、ホームディレクトリ検索パスを管理できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= ホームディレクトリ共有を作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、ホームディレクトリ共有を作成し、ホームディレクトリ検索パスを管理できます。
-
-CIFS がセットアップされて開始されている必要があります。
-
-.手順
-. [* ストレージ *>* 共有 ] をクリックします。
-. [ ホームディレクトリの作成 *] をクリックし、ユーザーをディレクトリにマップする方法を決定するパターン情報を入力します。
-. [ 作成（ Create ） ] をクリックします。
-. 作成したホームディレクトリが * Shares * ウィンドウに表示されていることを確認します。
 

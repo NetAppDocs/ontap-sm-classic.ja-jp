@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/concept_how_storage_pool_works.html 
-sidebar: sidebar 
-keywords: storage, pool, collection, ssd, share, flash, aggregate, online, free 
-summary: ストレージプールは SSD の集まりです。複数の SSD からストレージプールを作成すると、複数の Flash Pool アグリゲート間で SSD と SSD スペアを同時に共有できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= ストレージプールの仕組み
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-a_storage pool_ は SSD の集合です。複数の SSD からストレージプールを作成すると、複数の Flash Pool アグリゲート間で SSD と SSD スペアを同時に共有できます。
-
-ストレージプールは複数の割り当て単位で構成されます。割り当て単位を使用して、 SSD および SSD スペアをアグリゲートに提供したり、既存の SSD サイズを拡張したりできます。
-
-ストレージプールに追加した SSD は、個別のディスクとして使用することはできません。その SSD からストレージを割り当てるには、ストレージプールを使用する必要があります。
-
-* 関連情報 *
-
-xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[Flash Pool アグリゲートを手動で作成してストレージをプロビジョニングする]
-
-xref:task_provisioning_cache_by_adding_disks.adoc[SSD の追加によるキャッシュのプロビジョニング]

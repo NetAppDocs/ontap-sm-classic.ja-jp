@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html 
-sidebar: sidebar 
-keywords: system, manager, modify, lif, configure, remote, cluster 
-summary: System Manager を使用して、リモートクラスタ用に設定されている IPspace およびクラスタ間論理インターフェイス（ LIF ）を変更できます。クラスタ間 IP アドレスの新規追加や既存の IP アドレスの削除が可能です。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_peers.html 
 ---
-= リモートクラスタ用に設定されている LIF を変更しています
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、リモートクラスタ用に設定されている IPspace およびクラスタ間論理インターフェイス（ LIF ）を変更できます。クラスタ間 IP アドレスの新規追加や既存の IP アドレスの削除が可能です。
-
-クラスタピア関係を作成するためには、クラスタ間 IP アドレスが少なくとも 1 つ必要です。
-
-.手順
-. [ * Configuration * ] > [* Cluster*] > [* Configuration Updates* ] をクリックします。
-. ピアクラスタを選択し、 * Edit * をクリックします
-+
-ドロップダウンメニューが表示されます。
-
-. [* Peer Cluster Network Parameters* （ピアクラスタネットワークパラメータ * ） ] をクリック
-+
-[Edit Peer Network Parameters] ダイアログボックスが表示されます。
-
-. 必要に応じて、次のフィールドを変更します。
-+
-** * IPspace * ：プルダウンメニューから IPspace を選択します。
-** * インタークラスタ LIF * ：クラスタ間 IP アドレスを追加または削除します。複数の IP アドレスを追加する場合は、カンマで区切ります。
-
-
-. * 変更 * をクリックします。
-. [*Cluster Peers* （クラスタピア * ） ] ウィンドウで行った変更を確認します。
 

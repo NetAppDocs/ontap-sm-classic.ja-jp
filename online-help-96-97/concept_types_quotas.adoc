@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/concept_types_quotas.html 
-sidebar: sidebar 
-keywords: quotas, online, help, targets, qtree, group, user, default 
-summary: クォータは、適用先のターゲットに基づいて分類できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= クォータのタイプ
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-クォータは、適用先のターゲットに基づいて分類できます。
-
-適用先のターゲットに基づくクォータのタイプを次に示します。
-
-* * ユーザークォータ *
-+
-ターゲットはユーザです。
-
-+
-ユーザは、 UNIX ユーザ名、 UNIX UID 、 Windows SID 、 UID がユーザに一致するファイルまたはディレクトリ、 Windows 2000 より前の形式の Windows ユーザ名、およびユーザの SID 所有の ACL が設定されたファイルまたはディレクトリによって表すことができます。このクォータはボリュームまたは qtree に適用できます。
-
-* * グループクォータ *
-+
-ターゲットはグループです。
-
-+
-グループは、 UNIX グループ名、 GID 、または GID がグループに一致するファイルまたはディレクトリで表されます。ONTAP では、 Windows ID に基づいてグループクォータを適用しません。クォータはボリュームまたは qtree に適用できます。
-
-* * qtree クォータ *
-+
-ターゲットは qtree であり、 qtree へのパス名によって指定されます。
-
-+
-ターゲット qtree のサイズを決定できます。
-
-* * デフォルトクォータ *
-+
-ターゲットごとに個別のクォータを作成することなく、大量のクォータターゲットにクォータ制限を自動的に適用します。
-
-+
-デフォルトクォータは、 3 種類のクォータターゲット（ユーザ、グループ、および qtree ）のすべてに適用できます。クォータのタイプは type フィールドの値によって決まります
+= 
 
 

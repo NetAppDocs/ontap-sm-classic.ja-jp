@@ -1,36 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_quotas.html 
-sidebar: sidebar 
-keywords: create, quota, qtree, system, manager, online, help 
-summary: クォータを使用すると、ユーザ、グループ、または qtree によって使用されるディスクスペースやファイル数を制限したり、追跡したりできます。System Manager のクォータの追加ウィザードを使用して、クォータを作成し、そのクォータを特定のボリュームまたは qtree に適用できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= クォータを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-クォータを使用すると、ユーザ、グループ、または qtree によって使用されるディスクスペースやファイル数を制限したり、追跡したりできます。System Manager のクォータの追加ウィザードを使用して、クォータを作成し、そのクォータを特定のボリュームまたは qtree に適用できます。
-
-System Manager を使用する場合、クォータで所有できるファイル数のハードリミットとソフトリミットに指定できる最小値は 1000 です。1000 未満の値を指定する場合は、 CLI を使用してください。
-
-.手順
-. [* ストレージ *>* クォータ ] をクリックします。
-. SVM * フィールドのドロップダウンメニューから、クォータを作成する Storage Virtual Machine （ SVM ）を選択します。
-. ユーザー定義のクォータ * （ User Defined Quotas * ）タブで、 * 作成 * （ Create * ）をクリックします。
-+
-クォータの作成ウィザードが表示されます。
-
-. ウィザードの指示に従って、情報を入力または選択します。
-. 詳細を確認し、 [* 終了 ] をクリックしてウィザードを完了します。
-
-
-
-
-== 次に何をするか
-
-ローカルのユーザ名または RID を使用してユーザクォータを作成できます。ユーザ名またはグループ名を使用してユーザ・クォータまたはグループ・クォータを作成する場合は '/etc/passwd ファイルおよび /etc/group ファイルをそれぞれ更新する必要があります
-
-* 関連情報 *
-
-xref:reference_quotas_window.adoc[クォータウィンドウ]

@@ -1,33 +1,7 @@
 ---
 permalink: online-help-96-97/reference_flash_pool_statistics_window.html 
-sidebar: sidebar 
-keywords: online, help, flash, pool, aggregate, statistics, window, ssd, cache, read, write 
-summary: 選択した Flash Pool アグリゲートの SSD 階層に対する、リアルタイムの読み取り / 書き込みワークロードを表示できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_flash_pool_statistics.html 
 ---
-= Flash Pool アグリゲートの統計情報ウィンドウ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-選択した Flash Pool アグリゲートの SSD 階層に対する、リアルタイムの読み取り / 書き込みワークロードを表示できます。
-
-このページは、オールフラッシュで最適化されたノードを含むクラスタでは使用できません。
-
-* * Flash Pool アグリゲートの統計情報を表示します。 *
-+
-Flash Pool アグリゲートのリストから、統計情報を表示する Flash Pool アグリゲートを選択できます。
-
-
-
-
-
-== SSD キャッシュの読み取りワークロード
-
-Flash Pool アグリゲートに送信されたすべての読み取り要求のうち、 SSD 階層で実行された読み取り処理の割合をグラフに表示します。
-
-
-
-== SSD キャッシュの書き込みワークロード
-
-Flash Pool アグリゲートに送信されたすべての書き込み要求のうち、 SSD 階層で実行された書き込み処理の割合をグラフに表示します。

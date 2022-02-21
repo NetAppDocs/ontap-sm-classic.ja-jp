@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_resizing_quotas.html 
-sidebar: sidebar 
-keywords: resize, quota, system, manager, active, volume, online, help 
-summary: System Manager のクォータのサイズ変更ダイアログボックスを使用して、指定したボリューム内のアクティブなクォータを調整し、クォータに対する変更を反映させることができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= クォータのサイズ変更
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager のクォータのサイズ変更ダイアログボックスを使用して、指定したボリューム内のアクティブなクォータを調整し、クォータに対する変更を反映させることができます。
-
-クォータのサイズを変更するボリュームで、クォータが有効になっている必要があります。
-
-.手順
-. [* ストレージ *>* クォータ ] をクリックします。
-. [* Quotas* （クォータ） ] ウィンドウの [* Quota Status on Volumes] （ボリュームのクォータステータス）タブで、クォータのサイズを変更する 1 つ以上のボリュームを選択します。
-. [ * サイズ変更 * ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_quotas_window.adoc[クォータウィンドウ]

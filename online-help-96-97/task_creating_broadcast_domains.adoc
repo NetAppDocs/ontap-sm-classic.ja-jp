@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_broadcast_domains.html 
-sidebar: sidebar 
-keywords: online, help, create, broadcast, domain, system, manager 
-summary: System Manager を使用してブロードキャストドメインを作成すると、コンピュータネットワークを論理的に分割することができます。あるブロードキャストドメインに関連付けられたノードには、すべてデータリンク層のブロードキャストを介してアクセスすることができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_setting_up_network.html 
 ---
-= ブロードキャストドメインを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用してブロードキャストドメインを作成すると、コンピュータネットワークを論理的に分割することができます。あるブロードキャストドメインに関連付けられたノードには、すべてデータリンク層のブロードキャストを介してアクセスすることができます。
-
-.手順
-. [ * ネットワーク * ] タブをクリックします。
-. [ ブロードキャストドメイン *] タブで、 [ 作成 *] をクリックします。
-. ブロードキャストドメインの作成 * ダイアログボックスで、作成するブロードキャストドメインの名前、 MTU サイズ、 IPspace 、ポートを指定します。
-. [ 作成（ Create ） ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_storage_pools.html 
-sidebar: sidebar 
-keywords: delete, storage, pool, online, help, flash, aggregate 
-summary: ストレージプールのキャッシュが最適でない場合や、アグリゲートまたは Flash Pool アグリゲートでストレージプールが使用されなくなった場合などに、ストレージプールを削除することができます。System Manager のストレージプールの削除ダイアログボックスを使用して、ストレージプールを削除できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= ストレージプールを削除する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ストレージプールのキャッシュが最適でない場合や、アグリゲートまたは Flash Pool アグリゲートでストレージプールが使用されなくなった場合などに、ストレージプールを削除することができます。System Manager のストレージプールの削除ダイアログボックスを使用して、ストレージプールを削除できます。
-
-ストレージプールを使用しているアグリゲートがないことを確認してください。
-
-.手順
-. [ * ストレージ * > * アグリゲートとディスク * > * ストレージプール * ] をクリックします。
-. [ * ストレージ・プール * ] ウィンドウで、削除するストレージ・プールを選択し、 [ * 削除 * ] をクリックします。
-. ［ * ストレージプールの削除 * ］ ダイアログボックスで、 ［ * 削除 * ］ をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_storage_pools_window.adoc[ストレージプールウィンドウ]

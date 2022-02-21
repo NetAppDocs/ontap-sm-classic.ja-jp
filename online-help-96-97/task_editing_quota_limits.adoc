@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_quota_limits.html 
-sidebar: sidebar 
-keywords: online, help, edit, quota, limits, system, limits, disk, space 
-summary: System Manager を使用して、ディスクスペースのしきい値、クォータターゲットで使用できるディスクスペースの容量のハードリミットとソフトリミット、およびクォータターゲットで所有できるファイル数のハードリミットとソフトリミットを編集できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= クォータ制限を編集しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、ディスクスペースのしきい値、クォータターゲットで使用できるディスクスペースの容量のハードリミットとソフトリミット、およびクォータターゲットで所有できるファイル数のハードリミットとソフトリミットを編集できます。
-
-.手順
-. [* ストレージ *>* クォータ ] をクリックします。
-. SVM * フィールドのドロップダウンメニューから、編集するクォータが含まれている Storage Virtual Machine （ SVM ）を選択します。
-. 編集するクォータを選択し、 * 制限の編集 * をクリックします。
-. [ 制限の編集 *] ダイアログボックスで、必要に応じてクォータの設定を編集します。
-+
-クォータで所有できるファイル数のハードリミットとソフトリミットに指定できる最小値は 100 です。100 未満の値を指定する場合は、 CLI を使用してください。
-
-. [ 保存して閉じる ] をクリックします。
-. [ ユーザー定義クォータ ] タブで、選択したクォータに加えた変更を確認します。
-
-
-* 関連情報 *
-
-xref:reference_quotas_window.adoc[クォータウィンドウ]

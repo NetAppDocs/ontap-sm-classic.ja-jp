@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/concept_considerations_for_adding_ssds_to_existing_storage_pool_versus_creating_new_one.html 
-sidebar: sidebar 
-keywords: consideration, add, ssd, existing, storage, pool, create, new, online, help 
-summary: SSD キャッシュのサイズを拡張する方法は 2 つあります。 SSD を既存の SSD ストレージプールに追加する方法と、 SSD ストレージプールを新規作成する方法です。最適な方法は、ストレージの構成と計画によって異なります。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= SSD を既存のストレージプールに追加する場合と新規作成する場合の考慮事項
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-SSD キャッシュのサイズは、既存の SSD ストレージプールに SSD を追加する方法と、新しい SSD ストレージプールを作成する方法の 2 つで拡張できます。最適な方法は、ストレージの構成と計画によって異なります。
-
-ストレージプールを新規作成するか既存のストレージプールにストレージ容量を追加するかを選択するは、 RAID グループを新規作成するか既存にストレージを追加するかどうかを決定することに似ています。
-
-* 多数の SSD を追加する場合、ストレージプールを新規作成すると新しいストレージプールを既存とは別の方法で割り当てることができるため、柔軟性が増します。
-* 追加する SSD が少数であり、既存の Flash Pool キャッシュのサイズ増加が問題ではない場合は、 SSD を既存のストレージプールに追加することで、スペアとパリティのコストを抑制し、新しいストレージを自動的に割り当てます。
-
-
-ストレージプールが、キャッシュの RAID タイプが異なる Flash Pool アグリゲートに割り当て単位を提供している場合に、ストレージプールのサイズを最大 RAID 4 RAID グループサイズを超えると、 RAID 4 割り当て単位で新たに追加されたパーティションは使用されません。

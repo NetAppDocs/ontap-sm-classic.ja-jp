@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/task_initializing_complianceclock.html 
-sidebar: sidebar 
-keywords: complianceclock, initialize, system, manager, online, help, snaplock, time 
-summary: System Manager を使用して、 ComplianceClock 時間を現在のクラスタ時間に初期化できます。SnapLock アグリゲートを作成するには、 ComplianceClock 時間を初期化しておく必要があります。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nodes.html 
 ---
-= ComplianceClock 時間を初期化しています
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、 ComplianceClock 時間を現在のクラスタ時間に初期化できます。SnapLock アグリゲートを作成するには、 ComplianceClock 時間を初期化しておく必要があります。
-
-SnapLock ライセンスがインストールされている必要があります。
-
-初期化した ComplianceClock 時間は、変更または停止することはできません。
-
-.手順
-. [ * ストレージ * > * ノード * ] をクリックします。
-. ノードを選択し、 * Initialize ComplianceClock * をクリックします。
-. Initialize ComplianceClock * （ ComplianceClock の初期化）ダイアログボックスで * Yes （はい） * をクリックし、 ComplianceClock 時間を現在のクラスタ時間に初期化します。
 

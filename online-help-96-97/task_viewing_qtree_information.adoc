@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_viewing_qtree_information.html 
-sidebar: sidebar 
-keywords: qtree, system, manager, security, style, information, view, online, help 
-summary: System Manager の qtree ウィンドウを使用して、 qtree を含むボリューム、 qtree 名、セキュリティ形式、および qtree のステータス、および oplock のステータスを表示できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_qtrees.html 
 ---
-= qtree 情報の表示
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager の qtree ウィンドウを使用して、 qtree を含むボリューム、 qtree 名、セキュリティ形式、および qtree のステータス、および oplock のステータスを表示できます。
-
-.手順
-. Storage * > * Qtrees * をクリックします。
-. SVM * フィールドのドロップダウンメニューから、情報を表示する qtree が含まれている Storage Virtual Machine （ SVM ）を選択します。
-. 表示された qtree のリストから qtree を選択します。
-. Qtrees * ウィンドウで qtree の詳細を確認します。
 

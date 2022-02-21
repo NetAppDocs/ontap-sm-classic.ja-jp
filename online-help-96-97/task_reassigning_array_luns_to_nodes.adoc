@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/task_reassigning_array_luns_to_nodes.html 
-sidebar: sidebar 
-keywords: system, manager, reassign, spare, array, lun, node, online, help 
-summary: System Manager を使用してスペアアレイ LUN を別のノードに再割り当てすることで、アグリゲートの容量を拡張することができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_array_luns.html 
 ---
-= ノードへのスペアアレイ LUN の再割り当て
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用してスペアアレイ LUN を別のノードに再割り当てすることで、アグリゲートの容量を拡張することができます。
-
-.このタスクについて
-* アレイ LUN の再割り当ては、次の条件に当てはまる場合に実行できます。
-+
-** 選択したアレイ LUN のコンテナタイプは「 'srep' 」でなければなりません。
-** ディスクが HA ペア内のノードに接続されている。
-** ディスクがノードで認識されている必要があります。
-
-
-* MetroCluster 構成の場合、 System Manager でアレイ LUN をスペアとして再割り当てすることはできません。
-+
-代わりにコマンドラインインターフェイスを使用してください。
-
-
-
-.手順
-. [* ストレージ * > * アグリゲートとディスク * > * アレイ LUN * ] をクリックします。
-. 再割り当てするスペアアレイ LUN を選択し、 * assign * をクリックします。
-. 警告 * （ * Warning * ）ダイアログボックスで、 * 続行 * （ * Continue * ）をクリックします。
-. [* アレイ LUN の割り当て * ] ダイアログ・ボックスで ' スペア・アレイ LUN を再割り当てするノードを選択します
-. [*Assign*] をクリックします。
 

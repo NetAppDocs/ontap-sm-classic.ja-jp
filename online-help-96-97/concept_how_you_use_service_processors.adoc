@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/concept_how_you_use_service_processors.html 
-sidebar: sidebar 
-keywords: understanding, service, processor, storage, system, monitor, temperature, voltage, current, fan, speed, online, help 
-summary: サービスプロセッサは、ストレージシステム上のシステムに依存しないリソースであり、温度、電圧、電流、ファン速度などのストレージシステムパラメータを監視および管理できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_service_processors.html 
 ---
-= サービスプロセッサの概要
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-サービスプロセッサは、ストレージシステム上のシステムに依存しないリソースであり、温度、電圧、電流、ファン速度などのストレージシステムパラメータを監視および管理できます。
-
-サービスプロセッサがいずれかのストレージシステムパラメータで異常な状態を検出すると、サービスプロセッサはイベントをログに記録し、問題について ONTAP に通知します。また、 E メールまたは SNMP トラップを使用して AutoSupport メッセージを生成します。
-
-サービスプロセッサは、 watchdog メカニズムを介して ONTAP を監視し、パートナーノードへの即座のフェイルオーバーを可能にします。サービスプロセッサは多数のシステムイベントも追跡し、ログファイルに保存します。イベントには、ブートの進行状況、 Field Replaceable Unit （ FRU ；フィールド交換可能ユニット）の交換、 ONTAP が生成するイベント、ユーザトランザクション履歴が含まれます。
-
-サービスプロセッサを使用すると、ストレージシステムの状態に関係なくリモートからログインして、システムの診断、シャットダウン、電源の再投入、リブートを実行できます。また、サービスプロセッサにはリモート診断機能もあります。
-
-監視機能と管理機能が統合されているサービスプロセッサを使用すると、問題発生時にストレージシステムを評価して、効果的な保守操作を即座に実行できます。

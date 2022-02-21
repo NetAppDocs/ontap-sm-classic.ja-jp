@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_cluster_user_account.html 
-sidebar: sidebar 
-keywords: add, cluster, user, account, system, manager, online, help 
-summary: System Manager を使用して、クラスタユーザアカウントを追加し、ストレージシステムにアクセスするためのユーザのログイン方法を指定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_user_accounts.html 
 ---
-= クラスタユーザアカウントを追加
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、クラスタユーザアカウントを追加し、ストレージシステムにアクセスするためのユーザのログイン方法を指定できます。
-
-SAML 認証が有効になっているクラスタでは、特定のアプリケーション用に、 SAML 認証またはパスワードベースの認証のどちらかを追加したり、両方の種類の認証を追加したりできます。
-
-.手順
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. [* 管理 * （ * Management * ） ] パネルで、 [* ユーザー * （ * Users * ） ] をクリック
-. [ 追加（ Add ） ] をクリックします。
-. 新しいユーザのユーザ名を入力します。
-. ストレージシステムへの接続にユーザが使用するパスワードを入力し、確認のためにもう一度入力します。
-. 1 つまたは複数のユーザーログイン方法を追加し、 * 追加 * をクリックします。
 

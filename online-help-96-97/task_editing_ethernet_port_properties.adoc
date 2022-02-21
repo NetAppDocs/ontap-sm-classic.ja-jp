@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_ethernet_port_properties.html 
-sidebar: sidebar 
-keywords: edit, ethernet, port, settings, duplex, mode, speed, system, manager, online, help 
-summary: System Manager を使用して、二重モードや速度の設定など、イーサネットポートの設定を編集することができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= イーサネットポートの設定の編集
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、二重モードや速度の設定など、イーサネットポートの設定を編集することができます。
-
-.手順
-. [ * ネットワーク *>* イーサネットポート * ] をクリックします。
-. 物理ポートを選択し、 * Edit * をクリックします。
-. Edit Ethernet Port * ダイアログボックスで、二重モードと速度の設定を「手動」または「自動」に変更します。
-. [ 編集（ Edit ） ] をクリックします。
 

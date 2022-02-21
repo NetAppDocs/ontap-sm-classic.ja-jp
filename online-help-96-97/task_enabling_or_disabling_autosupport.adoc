@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_autosupport.html 
-sidebar: sidebar 
-keywords: enable, disable, autosupport, settings, online, help 
-summary: System Manager を使用して、ストレージシステムで AutoSupport 設定を有効または無効にすることができます。AutoSupport メッセージを使用すると、ストレージシステムのヘルスを監視したり、テクニカルサポートや社内のサポート部門に通知を送信したりできます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_autosupport.html 
 ---
-= AutoSupport 設定を有効または無効にします
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、ストレージシステムで AutoSupport 設定を有効または無効にすることができます。AutoSupport メッセージを使用すると、ストレージシステムのヘルスを監視したり、テクニカルサポートや社内のサポート部門に通知を送信したりできます。
-
-AutoSupport オプションはデフォルトで有効になっています。
-
-.手順
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*>* AutoSupport * 。
-. ノードを選択し、 * Enable * または * Disable * をクリックします。
-. [OK] をクリックします。
-. AutoSupport のステータスに変更内容が正しく表示されることを確認します。
 

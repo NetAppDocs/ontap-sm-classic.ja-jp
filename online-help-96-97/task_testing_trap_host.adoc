@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_testing_trap_host.html 
-sidebar: sidebar 
-keywords: system, manager, test, trap, host, configuration, online, help 
-summary: System Manager を使用して、トラップホストが正しく設定されているかどうかをテストできます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_snmp.html 
 ---
-= トラップホストの設定のテスト
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、トラップホストが正しく設定されているかどうかをテストできます。
-
-.手順
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. [*Setup*] ペインで、 [*SNMP*] をクリックします。
-. [* SNMP*] ウィンドウで、 [* トラップホストのテスト ] をクリックします。
-. [OK] をクリックします。
 

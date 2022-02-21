@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_service_processor_settings.html 
-sidebar: sidebar 
-keywords: edit, service, processor, settings, , system, manager, online, help, ip, address 
-summary: IP アドレス、ネットワークマスクまたはプレフィックス長、ゲートウェイアドレスなどのサービスプロセッサ属性は、 System Manager を使用して変更できます。IP アドレスが割り当てられていないサービスプロセッサに IP アドレスを割り当てることもできます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_service_processors.html 
 ---
-= サービスプロセッサ設定を編集しています
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-IP アドレス、ネットワークマスクまたはプレフィックス長、ゲートウェイアドレスなどのサービスプロセッサ属性は、 System Manager を使用して変更できます。IP アドレスが割り当てられていないサービスプロセッサに IP アドレスを割り当てることもできます。
-
-.このタスクについて
-* IP アドレスが手動で割り当てられているサービスプロセッサの設定を編集できます。
-* DHCP サーバまたはサブネットから IP アドレスが割り当てられているサービスプロセッサの設定は編集できません。
-
-
-.手順
-. [ * Configuration * > * Cluster * > * Service Processor * ] をクリックします。
-. [ サービスプロセッサ * ] ウィンドウで、変更するサービスプロセッサを選択し、 [ * 編集 ] をクリックします。
-. [ サービスプロセッサの編集 *] ダイアログボックスで、必要な変更を行い、 [ 保存して閉じる *] をクリックします。
 

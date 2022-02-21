@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_setting_up_autosupport.html 
-sidebar: sidebar 
-keywords: set, up, autosupport, notifications, online, help, settings, edit 
-summary: System Manager の Edit AutoSupport Settings dialog box を使用して、 E メール通知の送信に使用する E メールアドレスを指定し、複数の E メールホスト名を追加することで、 AutoSupport 通知を設定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_autosupport.html 
 ---
-= AutoSupport 通知のセットアップ
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager の Edit AutoSupport Settings dialog box を使用して、 E メール通知の送信に使用する E メールアドレスを指定し、複数の E メールホスト名を追加することで、 AutoSupport 通知を設定できます。
-
-.手順
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*>* AutoSupport * 。
-. ノードを選択し、 * Edit * をクリックします。
-. [*Email Recipient*] タブで、電子メール通知の送信元の電子メールアドレスを入力し、電子メール受信者と各電子メール受信者のメッセージコンテンツを指定して、メールホストを追加します。
-+
-ホスト名の E メールアドレスは 5 つまで追加できます。
-
-. [* Others * （その他 * ） ] タブで、電子メールメッセージを配信する転送プロトコルをドロップダウンリストから選択し、 HTTP または HTTPS プロキシサーバの詳細を指定します。
-. [OK] をクリックします。
-. AutoSupport 通知用に設定した設定が、 * AutoSupport * ウィンドウで正しく設定されていることを確認します。
 

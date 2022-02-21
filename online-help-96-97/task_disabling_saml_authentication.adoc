@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_disabling_saml_authentication.html 
-sidebar: sidebar 
-keywords: disable, saml, authentication, security, assertion, markup, language, online, help, system, manager 
-summary: System Manager へのリモートアクセスを無効にしたり、 Security Assertion Markup Language （ SAML ）の設定を編集したりするときは、 SAML 認証を無効にできます。 
+redirect: ontap-sm-classic/online-help-96-97/task_setting_up_saml_authentication.html 
 ---
-= SAML 認証を無効にします
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager へのリモートアクセスを無効にしたり、 Security Assertion Markup Language （ SAML ）の設定を編集したりするときは、 SAML 認証を無効にできます。
-
-SAML 認証を無効にしても SAML の設定は削除されません。
-
-.手順
-. [ * Configuration * ] > [* Cluster *] > [* Authentication *] をクリックします。
-. SAML 認証を有効にする * チェックボックスをオフにします。
-. [ 保存（ Save ） ] をクリックします。
-+
-System Manager が再起動します。
-
-. クラスタのクレデンシャルを使用して System Manager にログインする
-
-
-* 関連情報 *
-
-xref:task_accessing_cluster_by_using_system_manager_brower_based_gui.adoc[ONTAP System Manager のブラウザベースのグラフィカルインターフェイスを使用したクラスタへのアクセス]

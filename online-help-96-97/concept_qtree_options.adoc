@@ -1,34 +1,7 @@
 ---
 permalink: online-help-96-97/concept_qtree_options.html 
-sidebar: sidebar 
-keywords: qtree, option, defined, logically, file, subdirectory, root, flexvol, volume, partition, data, manage, online, help 
-summary: qtree とは、論理的に定義されたファイルシステムで、 FlexVol ボリューム内のルートディレクトリに特別なサブディレクトリとして作成できます。qtree は、ボリューム内のデータの管理やパーティショニングに使用できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_qtrees.html 
 ---
-= qtree のオプション
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-qtree とは、論理的に定義されたファイルシステムで、 FlexVol ボリューム内のルートディレクトリに特別なサブディレクトリとして作成できます。qtree は、ボリューム内のデータの管理やパーティショニングに使用できます。
-
-ボリュームを含む FlexVol に qtree を作成した場合、 qtree はディレクトリとして表示されます。そのため、ボリュームを削除する際に誤って qtree を削除しないように注意する必要があります。
-
-qtree の作成時に指定できるオプションは次のとおりです。
-
-* qtree の名前
-* qtree を配置するボリューム
-* oplock
-+
-デフォルトでは、 qtree の oplock は有効になっています。ストレージシステム全体の oplock を無効にすると、個々の qtree で oplock を有効にしても、 oplock は設定されません。
-
-* セキュリティ形式
-+
-セキュリティ形式には、 UNIX 、 NTFS 、 Mixed （ UNIX および NTFS ）のいずれかを指定できます。デフォルトでは、 qtree のセキュリティ形式は、選択したボリュームのセキュリティ形式と同じになります。
-
-* エクスポートポリシー
-+
-新しいエクスポートポリシーを作成するか、既存のポリシーを選択できます。デフォルトでは、 qtree のエクスポートポリシーは、選択したボリュームのものと同じになります。
-
-* qtree とユーザクォータのスペース使用制限
 

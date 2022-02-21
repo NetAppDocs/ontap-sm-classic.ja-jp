@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/task_assigning_ip_addresses_to_service_processors.html 
-sidebar: sidebar 
-keywords: system, manager, assign, ip, address, online, help, service, processors 
-summary: System Manager を使用して IP アドレスをすべてのサービスプロセッサに同時に割り当て、これらのサービスプロセッサを使用して、ストレージシステムのさまざまなシステムパラメータを監視および管理することができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_service_processors.html 
 ---
-= サービスプロセッサへの IP アドレスの割り当て
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して IP アドレスをすべてのサービスプロセッサに同時に割り当て、これらのサービスプロセッサを使用して、ストレージシステムのさまざまなシステムパラメータを監視および管理することができます。
-
-.手順
-. [ * Configuration * ] > [* Cluster*] > [* Configuration Updates* ] をクリックします。
-. [Service Processor* （サービスプロセッサ * ） ] ウィンドウで、 [* グローバル設定 * （ Global Settings * ） ] をクリックします。
-. [* グローバル設定 * （ Global Settings * ） ] ダイアログボックスで、 IP アドレスを割り当てるソースを選択します。
-+
-|===
-| 状況 | 作業 
-
-
- a| 
-IP アドレスを DHCP サーバから自動的に割り当てます
- a| 
-「 * DHCP 」を選択します。
-
-
-
- a| 
-IP アドレスをサブネットから割り当てます
- a| 
-[* Subnet] を選択します。
-
-
-
- a| 
-IP アドレスを手動で割り当てる
- a| 
-[* 手動割り当て * ] を選択します。
-
-|===
-. [ 保存（ Save ） ] をクリックします。
 

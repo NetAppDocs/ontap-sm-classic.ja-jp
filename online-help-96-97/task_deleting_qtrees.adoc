@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_qtrees.html 
-sidebar: sidebar 
-keywords: delete, qtrees, online, help, system, manager 
-summary: System Manager で qtree を削除し、ボリューム内で qtree が使用しているディスクスペースを再利用することができます。qtree を削除すると、その qtree に適用されているすべてのクォータが ONTAP によって適用されなくなります。 
+redirect: ontap-sm-classic/online-help-96-97/concept_qtrees.html 
 ---
-= qtree を削除します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager で qtree を削除し、ボリューム内で qtree が使用しているディスクスペースを再利用することができます。qtree を削除すると、その qtree に適用されているすべてのクォータが ONTAP によって適用されなくなります。
-
-.作業を開始する前に
-* qtree のステータスは正常である必要があります。
-* LUN を含む qtree に対しては実行できません。
-
-
-.手順
-. Storage * > * Qtrees * をクリックします。
-. Qtrees * ウィンドウで、削除する qtree を 1 つ以上選択し、 * Delete * をクリックします。
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-. Qtrees * ウィンドウで、削除した qtree が qtree のリストに含まれていないことを確認します。
-
-
-* 関連情報 *
-
-xref:reference_qtrees_window.adoc[Qtrees window]

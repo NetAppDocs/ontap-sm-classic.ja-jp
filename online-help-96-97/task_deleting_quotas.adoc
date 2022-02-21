@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_quotas.html 
-sidebar: sidebar 
-keywords: system, manager, quota, online, help, delete 
-summary: ユーザやユーザのストレージ要件および制限が変更になった場合は、 System Manager を使用して 1 つ以上のクォータを削除できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= クォータの削除
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ユーザやユーザのストレージ要件および制限が変更になった場合は、 System Manager を使用して 1 つ以上のクォータを削除できます。
-
-.手順
-. [* ストレージ *>* クォータ ] をクリックします。
-. SVM * フィールドのドロップダウンメニューから、削除するクォータが配置されている Storage Virtual Machine （ SVM ）を選択します。
-. 削除するクォータを 1 つ以上選択し、 * 削除 * をクリックします。
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_quotas_window.adoc[クォータウィンドウ]

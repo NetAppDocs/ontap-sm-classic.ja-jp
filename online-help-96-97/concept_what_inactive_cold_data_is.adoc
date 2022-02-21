@@ -1,15 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_inactive_cold_data_is.html 
-sidebar: sidebar 
-keywords: online, help, inactive, cold, data 
-summary: 高パフォーマンス階層で頻繁にアクセスされないデータは、アクセス頻度の低いコールドデータと呼ばれます。デフォルトでは、 31 日間アクセスされていないデータがアクセス頻度の低いデータとして扱われます。 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= アクセス頻度の低いコールドデータとは
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-高パフォーマンス階層で頻繁にアクセスされないデータは、アクセス頻度の低いコールドデータと呼ばれます。デフォルトでは、 31 日間アクセスされていないデータがアクセス頻度の低いデータとして扱われます。
-
-アクセス頻度の低いデータはアグリゲートレベルとクラスタレベルで表示されます。スキャンが完了したアグリゲートまたはクラスタについてのみ、アクセス頻度の低いデータが表示されます。デフォルトでは、 FabricPool 対応アグリゲートと SSD アグリゲートについてアクセス頻度の低いデータが表示されます。FlexGroup については表示されません。

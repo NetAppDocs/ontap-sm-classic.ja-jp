@@ -1,17 +1,7 @@
 ---
 permalink: online-help-96-97/concept_why_you_add_disks_to_storage_pools.html 
-sidebar: sidebar 
-keywords: ssd, storage, pool, cache, size, allocation, add, disk, online, help 
-summary: 既存のストレージプールに SSD を追加してキャッシュサイズを拡張できます。割り当て単位が Flash Pool アグリゲートにすでに割り当てられているストレージプールに SSD を追加すると、これらのアグリゲートそれぞれのキャッシュサイズと、ストレージプールの合計キャッシュサイズが増加します。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= ストレージプールにディスクを追加する理由
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-既存のストレージプールに SSD を追加してキャッシュサイズを拡張できます。割り当て単位が Flash Pool アグリゲートにすでに割り当てられているストレージプールに SSD を追加すると、これらのアグリゲートそれぞれのキャッシュサイズと、ストレージプールの合計キャッシュサイズが増加します。
-
-割り当て単位がまだ割り当てられていないストレージプールに SSD を追加しても、 SSD のキャッシュサイズには影響しません。
-
-既存のストレージプールに SSD を追加する場合は、ストレージプール内の既存の SSD を所有するノードと同じ HA ペアのどちらかのノードが所有する SSD を追加する必要があります。HA ペアのどちらのノードが所有する SSD でもかまいません。

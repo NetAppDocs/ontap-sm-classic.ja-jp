@@ -1,34 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_storage_pool.html 
-sidebar: sidebar 
-keywords: create, storage, pool, ssd, cache, disks, online, help, storage, pool 
-summary: ストレージプールは SSD （キャッシュディスク）の集まりです。System Manager を使用して複数の SSD を組み合わせてストレージプールを作成すると、 HA ペア間で SSD と SSD スペアを共有し、 2 つ以上の Flash Pool アグリゲートに同時に割り当てることができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= ストレージプールを作成します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ストレージプールは SSD （キャッシュディスク）の集まりです。System Manager を使用して複数の SSD を組み合わせてストレージプールを作成すると、 HA ペア間で SSD と SSD スペアを共有し、 2 つ以上の Flash Pool アグリゲートに同時に割り当てることができます。
-
-.作業を開始する前に
-* ストレージプール経由で SSD と SSD スペアを割り当てるためには、 HA ペアの両方のノードが稼働している必要があります。
-* ストレージプールには少なくとも 3 本の SSD が必要です。
-* ストレージプール内のすべての SSD は、同じ HA ペアによって所有されている必要があります。
-
-
-ストレージプールへのディスクの追加に SSD を使用する際、 System Manager は、 SSD RAID グループにホットスペアルールを適用します。たとえば、 SSD RAID グループに 10 個の SSD があり、オプション「 raid.min_spare_count 」がノードレベルで「 1 」に設定されている場合、 System Manager は 1 個の SSD をホットスペアとして残し、他の 9 個の SSD を SSD 関連の操作に使用します。
-
-System Manager を使用してストレージプールを作成する場合、パーティショニングされた SSD を使用することはできません。
-
-.手順
-. [ * ストレージ * > * アグリゲートとディスク * > * ストレージプール * ] をクリックします。
-. [ * ストレージプール * ] ウィンドウで、 [ * 作成 ] をクリックします。
-. Create Storage Pool * （ストレージプールの作成 * ）ダイアログボックスで、ストレージプールの名前、ディスクサイズ、ディスク数を指定します。
-. [ 作成（ Create ） ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_storage_pools_window.adoc[ストレージプールウィンドウ]

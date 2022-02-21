@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_mtu_size_vlan.html 
-sidebar: sidebar 
-keywords: modify, mtu, size, vlan, system, manager, online, help 
-summary: ブロードキャストドメインの一部ではない VLAN インターフェイスの MTU サイズを変更するには、 System Manager を使用します。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= VLAN の MTU サイズを変更する
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-ブロードキャストドメインの一部ではない VLAN インターフェイスの MTU サイズを変更するには、 System Manager を使用します。
-
-管理ポート e0M の MTU サイズは変更しないでください。
-
-.手順
-. [ * ネットワーク *>* イーサネットポート * ] をクリックします。
-. 変更する VLAN を選択し、 * Edit * をクリックします。
-. Edit VLAN * ダイアログボックスで、必要に応じて MTU サイズを変更し、 * Save * をクリックします。
 

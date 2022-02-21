@@ -1,27 +1,7 @@
 ---
 permalink: online-help-96-97/task_stopping_share_access.html 
-sidebar: sidebar 
-keywords: folder, qtree, volume, system, manager, online, help, stop, share, access 
-summary: フォルダ、 qtree 、またはボリュームへの共有ネットワークアクセスを削除するときは、 System Manager を使用して共有を停止できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= 共有アクセスを停止しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-フォルダ、 qtree 、またはボリュームへの共有ネットワークアクセスを削除するときは、 System Manager を使用して共有を停止できます。
-
-CIFS ライセンスをインストールしておく必要があります。
-
-.手順
-. [* ストレージ *>* 共有 ] をクリックします。
-. SVM * フィールドのドロップダウンメニューから、停止する CIFS 共有が配置されている SVM を選択します。
-. 共有のリストから、共有を停止する共有を選択し、 * 共有の停止 * をクリックします。
-. 確認のチェックボックスをオンにし、 * 停止 * をクリックします。
-. 共有が [ * 共有 ] ウィンドウに表示されなくなったことを確認します。
-
-
-* 関連情報 *
-
-xref:reference_shares_window.adoc[共有ウィンドウ]

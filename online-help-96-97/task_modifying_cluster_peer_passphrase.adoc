@@ -1,39 +1,7 @@
 ---
 permalink: online-help-96-97/task_modifying_cluster_peer_passphrase.html 
-sidebar: sidebar 
-keywords: modify, cluster, peer, passphrase, creation, online, help 
-summary: クラスタピアの作成時に作成されたパスフレーズを変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_peers.html 
 ---
-= クラスタピアパスフレーズを変更しています
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-クラスタピアの作成時に作成されたパスフレーズを変更できます。
-
-.手順
-. [ * Configuration * ] > [* Cluster Peers* ] をクリックします。
-. ピアクラスタを選択し、 * Edit * をクリックします
-+
-ドロップダウンメニューが表示されます。
-
-. [ ローカルクラスタのパスフレーズ ] をクリックします。
-+
-Edit Local Cluster Passphrase （ローカルクラスタのパスフレーズの編集）ダイアログウィンドウが表示
-
-. [ パスフレーズの入力 *] フィールドに新しいパスフレーズを入力し、 [ 適用 *] をクリックします。
-+
-[NOTE]
-====
-パスフレーズは 8 文字以上で指定する必要があります。
-
-====
-+
-パスフレーズはすぐに変更されます。ただし、正しい認証ステータスが表示されるまでに時間がかかることがあります。
-
-. リモートクラスタにログインし、手順を実行します <<STEP_52691237935644E3A8710F51CC2E3F81,1.>> から <<STEP_1ABAF15926174E709CA59192E200ABE3,4.>> リモートクラスタでパスフレーズを変更してください。
-+
-リモートクラスタでパスフレーズを変更するまで、ローカルクラスタの認証ステータスは「 ok_and_offer 」と表示されます。
+= 
 
 

@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_interface_groups.html 
-sidebar: sidebar 
-keywords: system, manager, create, interface, group, lacp, online, help 
-summary: System Manager を使用してインターフェイスグループ（シングルモード、スタティックマルチモード、またはダイナミックマルチモード（ LACP ））を作成し、集約されたネットワークポートの機能を組み合わせてクライアントに単一のインターフェイスを提供できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= インターフェイスグループを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用してインターフェイスグループ（シングルモード、スタティックマルチモード、またはダイナミックマルチモード（ LACP ））を作成し、集約されたネットワークポートの機能を組み合わせてクライアントに単一のインターフェイスを提供できます。
-
-ブロードキャストドメインまたはインターフェイスグループに属さない空きポート、あるいは VLAN をホストする空きポートを用意しておく必要があります。
-
-.手順
-. [ * ネットワーク *>* イーサネットポート * ] をクリックします。
-. Create Interface Group をクリックします。
-. Create Interface Group * ダイアログボックスで、次の設定を指定します。
-+
-** インターフェイスグループの名前
-** ノード
-** インターフェイスグループに含めるポートを指定します
-** ポートの使用モード：シングルモード、スタティックマルチモード、またはダイナミックマルチモード（ LACP ）
-** ネットワークの負荷分散： IP ベース、 MAC アドレスベース、シーケンシャル、またはポート
-** 必要に応じて、インターフェイスグループのブロードキャストドメインを指定します
-
-
-. [ 作成（ Create ） ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

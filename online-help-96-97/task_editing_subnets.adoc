@@ -1,38 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_subnets.html 
-sidebar: sidebar 
-keywords: edit, subnet, settings, system, manager, modify, online, help 
-summary: System Manager を使用して、名前、サブネットアドレス、 IP アドレスの範囲、およびサブネットのゲートウェイアドレスなどのサブネットの属性を変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_subnets.html 
 ---
-= サブネットの設定を編集します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、名前、サブネットアドレス、 IP アドレスの範囲、およびサブネットのゲートウェイアドレスなどのサブネットの属性を変更できます。
-
-.このタスクについて
-* クラスタ IPspace 内のサブネットの編集は System Manager では実行できません。
-+
-代わりにコマンドラインインターフェイス（ CLI ）を使用してください。
-
-* ゲートウェイアドレスを変更してもルートは更新されません。
-+
-CLI を使用してルートを更新してください。
-
-
-
-.手順
-. [ * ネットワーク * > * サブネット * ] をクリックします。
-. 変更するサブネットを選択し、 * Edit * をクリックします。
-+
-サブネット内の LIF を使用したままであっても、そのサブネットを変更できます。
-
-. Edit Subnet * ダイアログボックスで、必要に応じてサブネット属性を変更します。
-. [ 保存して閉じる ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/reference_cloud_tier_window.html 
-sidebar: sidebar 
-keywords: cloud, tier, window, command, button, online, help 
-summary: System Manager を使用して、クラウド階層を追加、編集、削除したり、詳細を表示したりできます。 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= クラウド階層ウィンドウに戻ります
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、クラウド階層を追加、編集、削除したり、詳細を表示したりできます。
-
-クラウド階層ウィンドウには、クラスタ内でライセンスされたクラウド階層の総数、クラスタで使用されているライセンススペース、およびクラスタで使用可能なライセンススペースが表示されます。クラウド階層ウィンドウには、ライセンスのない、使用中のクラウド容量も表示されます。
-
-
-
-== コマンドボタン
-
-* * 追加 * 。
-+
-クラウド階層を追加できます。
-
-* * アグリゲートを接続 *
-+
-クラウド階層にアグリゲートを接続できます。
-
-* * 削除 *
-+
-選択したクラウド階層を削除できます。
-
-* * 編集 * 。
-+
-選択したクラウド階層のプロパティを変更できます。
-
-
-
-
-
-== 詳細領域
-
-クラウド階層のリスト、オブジェクトストアの詳細、使用されているアグリゲート、使用済み容量など、クラウド階層に関する詳細情報を確認できます。
-
-コマンドラインインターフェイス（ CLI ）を使用して Alibaba Cloud 、 Amazon AWS S3 、 AWS Commercial Cloud Service （ C2S ）、 Google Cloud 、 IBM Cloud 、 Microsoft Azure BLOB ストレージ、または StorageGRID 以外のクラウド階層を作成する場合、このクラウド階層は System Manager にその他として表示されます。このクラウド階層にアグリゲートを接続できます。

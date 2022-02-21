@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_cloud_tier.html 
-sidebar: sidebar 
-keywords: online, help, system, manager, cloud, tier, online, help 
-summary: System Manager を使用して、不要になったクラウド階層を削除できます。 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= クラウド階層を削除しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、不要になったクラウド階層を削除できます。
-
-クラウド階層に関連付けられている FabricPool 対応アグリゲートを削除しておく必要があります。
-
-.手順
-. [ * ストレージ * > * アグリゲートとディスク * > * クラウド階層 * ] をクリックします。
-. 削除するクラウド階層を選択し、 * 削除 * をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_storage_tiers_window.adoc[ストレージ階層ウィンドウに戻ります]

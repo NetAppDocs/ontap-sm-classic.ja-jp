@@ -1,31 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_vlan_interfaces.html 
-sidebar: sidebar 
-keywords: create, vlan, interfaces, system, manager, broadcast, domain, online, help 
-summary: 同じネットワークドメイン内の分離されたブロードキャストドメインを管理するための VLAN を作成するには、 System Manager を使用します。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= VLAN インターフェイスを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-同じネットワークドメイン内の分離されたブロードキャストドメインを管理するための VLAN を作成するには、 System Manager を使用します。
-
-.手順
-. [ * ネットワーク *>* イーサネットポート * ] をクリックします。
-. [Create VLAN] をクリックします。
-. Create VLAN * ダイアログボックスで、ノード、物理インターフェイス、およびブロードキャストドメインを選択します（必要な場合）。
-+
-物理インターフェイスのリストには、イーサネットポートとインターフェイスグループのみが表示されます。このリストには、別のインターフェイスグループまたは既存の VLAN にあるインターフェイスは表示されません。
-
-. VLAN タグを入力し、 * Add * をクリックします。
-+
-一意の VLAN タグを追加する必要があります。
-
-. [ 作成（ Create ） ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]

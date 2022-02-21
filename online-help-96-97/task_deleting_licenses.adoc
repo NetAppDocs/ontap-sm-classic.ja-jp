@@ -1,49 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_licenses.html 
-sidebar: sidebar 
-keywords: delete, license, window, system, manager, online, help, software, node 
-summary: System Manager の Licenses window を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを削除することができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_licenses.html 
 ---
-= ライセンスを削除します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager の Licenses window を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを削除することができます。
-
-削除するソフトウェアライセンスがどのサービスまたは機能でも使用されていないことを確認しておく必要があります。
-
-.手順
-. [* Configuration * （設定 * ） ] > [* Cluster * （クラスタ * ） ] > [* Licenses * （ライセンス *
-. [*Licenses*] ウィンドウで、適切なアクションを実行します。
-+
-|===
-| 状況 | 手順 
-
-
- a| 
-ノードの特定のライセンスパッケージまたはマスターライセンスを削除する
- a| 
-[ * 詳細 * ] タブをクリックします。
-
-
-
- a| 
-クラスタ内のすべてのノードから特定のライセンスパッケージを削除する
- a| 
-[ * パッケージ * ] タブをクリックします。
-
-|===
-. 削除するソフトウェアライセンスパッケージを選択し、 * 削除 * をクリックします。
-+
-一度に削除できるライセンスパッケージは 1 つだけです。
-
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-
-
-ソフトウェアライセンスがストレージシステムから削除されます。削除されたライセンスは、 Licenses window のライセンスのリストにも表示されなくなります。
-
-* 関連情報 *
-
-xref:reference_licenses_window.adoc[ライセンスウィンドウ]

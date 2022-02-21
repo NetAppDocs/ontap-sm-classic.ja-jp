@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/reference_ports_adapters.html 
-sidebar: sidebar 
-keywords: port, adaptor, online, help, nodes, fcp, interface 
-summary: ポートはノードにグループ化され、選択したプロトコルカテゴリに基づいてノードが表示されます。たとえば、データが FC プロトコルを使用して提供される場合、 FCP アダプタを持つノードのみが表示されます。負荷が少ないポートを選択する際には、ホストされているインターフェイス数が参考になります。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= ポートとアダプタ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ポートはノードにグループ化され、選択したプロトコルカテゴリに基づいてノードが表示されます。たとえば、データが FC プロトコルを使用して提供される場合、 FCP アダプタを持つノードのみが表示されます。負荷が少ないポートを選択する際には、ホストされているインターフェイス数が参考になります。

@@ -1,40 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_cifs_share.html 
-sidebar: sidebar 
-keywords: create, cifs, chare, system, manager, folder, qtree, volume, online, help 
-summary: System Manager を使用して CIFS 共有を作成し、 CIFS ユーザがアクセス可能なフォルダ、 qtree 、またはボリュームを指定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= CIFS 共有を作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して CIFS 共有を作成し、 CIFS ユーザがアクセス可能なフォルダ、 qtree 、またはボリュームを指定できます。
-
-CIFS をセットアップして開始するには、 CIFS ライセンスがインストールされている必要があります。
-
-.手順
-. [* ストレージ *>* 共有 ] をクリックします。
-. SVM * フィールドのドロップダウンメニューから、 CIFS 共有を作成する SVM を選択します。
-. [ 共有の作成 *] をクリックします。
-. [ 共有の作成 * ] ウィンドウで、 [ * 参照 ] をクリックし、共有するフォルダ、 qtree 、またはボリュームを選択します。
-. 新しい CIFS 共有の名前を指定します。
-. SMB 3.0 以降をサポートするクライアントがノンストップオペレーション時にファイルを継続して開いておけるようにするには、 Hyper-V および SQL * の継続的可用性を有効にするチェックボックスを選択します。
-+
-このオプションを使用して開いたファイルは、フェイルオーバー、ギブバック、 LIF の移行など、システムを停止させるイベントから保護されます。
-
-+
-System Manager 9.6 以降では、 FlexGroup ボリュームに対して継続的可用性がサポートされます。
-
-. SMB 3.0 暗号化を有効にするには、 * この共有へのアクセス時にデータを暗号化 * チェックボックスをオンにします。
-. 共有の概要またはコメントを入力し、 * Create * をクリックします。
-
-
-CIFS 共有が作成され、グループ内の「 Everyone の完全な制御」にアクセス権限が設定されます。
-
-* 関連情報 *
-
-xref:task_setting_up_cifs.adoc[CIFS をセットアップしています]
-
-xref:reference_shares_window.adoc[共有ウィンドウ]
