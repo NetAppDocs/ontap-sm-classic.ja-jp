@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_viewing_initiator_security_information.html 
-sidebar: sidebar 
-keywords: view, initiator, security, information, system, manager, online, help 
-summary: System Manager を使用して、デフォルトの認証情報、およびイニシエータ固有のすべての認証情報を表示できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= イニシエータセキュリティ情報を表示してい
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、デフォルトの認証情報、およびイニシエータ固有のすべての認証情報を表示できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [*Protocols* ] ペインで、 [*iSCSI*] をクリックします。
-. [* iSCSI * ] ウィンドウの [ * イニシエータ・セキュリティ * ] タブで、詳細を確認します。
 

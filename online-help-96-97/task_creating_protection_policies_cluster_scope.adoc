@@ -1,28 +1,5 @@
----
-permalink: online-help-96-97/task_creating_protection_policies_cluster_scope.html 
-sidebar: sidebar 
-keywords: create, protection, policy, system, manager, online, help, cluster 
-summary: System Manager を使用して、クラスタレベルの非同期ミラーポリシー、バックアップポリシー、またはミラーとバックアップのポリシーを作成し、作成したポリシーをクラスタレベルのデータ保護関係に適用することができます。 
----
-= 保護ポリシーを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、クラスタレベルの非同期ミラーポリシー、バックアップポリシー、またはミラーとバックアップのポリシーを作成し、作成したポリシーをクラスタレベルのデータ保護関係に適用することができます。
-
-.手順
-. [* 保護 *>] 、 [* 保護ポリシー *] の順にクリックします。
-. [ 作成（ Create ） ] をクリックします。
-. [ ポリシーの作成 *] ダイアログボックスで、作成するポリシーのタイプを選択します。
-. ポリシー名と転送の優先順位を指定します。
-+
-転送の優先順位を「低」にすると優先順位が最も低くなり、優先順位が「中」の転送よりもあとに実行されます。デフォルトでは、転送の優先順位は「中」に設定されます。
-
-. [ ネットワーク圧縮を有効にする *] チェックボックスをオンにして、データ転送中に転送されるデータを圧縮します。
-. 非同期ミラー・ポリシーの場合は '[* すべてのソース Snapshot コピーを転送する *] チェック・ボックスを選択して 'all_source_snapshots ルールをミラー・ポリシーに含めますこれにより ' ソース・ボリュームのすべての Snapshot コピーがバックアップされます
-. [ コメントの追加 ] をクリックして、ポリシーのコメントを追加します。
-. バックアップポリシーまたはミラーバックアップポリシーの場合は、 SnapMirror ラベルとデスティネーションの保持数を指定します。
-. [ 作成（ Create ） ] をクリックします。
-
+'''
+パーマリンク： online-help96-97/ task_creating_protection_policies_cluster_scope.html サイドバー： ontap/sm-classic/one-help96-97/ concept_protection_policies.html

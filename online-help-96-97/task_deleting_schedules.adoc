@@ -1,19 +1,5 @@
----
-permalink: online-help-96-97/task_deleting_schedules.html 
-sidebar: sidebar 
-keywords: delete, schedule, online, help, system, manager 
-summary: System Manager を使用して、特定のストレージ管理タスクを実行するスケジュールを削除できます。 
----
-= スケジュールを削除します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、特定のストレージ管理タスクを実行するスケジュールを削除できます。
-
-.手順
-. [* 保護 *>* スケジュール *] をクリックします。
-. 削除するスケジュールを選択し、 * Delete * をクリックします。
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-
+'''
+パーマリンク： online-help96-97/ task_deleting_schedules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_schedules.html

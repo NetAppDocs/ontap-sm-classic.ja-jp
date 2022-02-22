@@ -1,41 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_nvme_subsystem_details.html 
-sidebar: sidebar 
-keywords: edit, nvme, subsystem, details, online, help 
-summary: System Manager を使用して、 NVMe サブシステムの詳細を編集できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html 
 ---
-= NVMe サブシステムの詳細を編集しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、 NVMe サブシステムの詳細を編集できます。
-
-.手順
-. 編集する NVMe サブシステムを「 * NVMe サブシステム * 」ウィンドウで検索します。
-. 編集するサブシステムの名前の左にあるチェックボックスをオンにします。
-. [ 編集（ Edit ） ] をクリックします。
-+
-NVMe サブシステムの現在の詳細が、 NVMe サブシステムの Editwindow に表示されます。
-
-. 変更できるのはホスト NQN * フィールド内の情報のみです。
-+
-** * ホスト NQN *
-+
-コントローラに接続されたホストの NQN を変更します。ホスト NQN は、カンマで区切って複数入力できます。
-
-
-
-+
-関連付けられた * NVMe ネームスペース * テーブルは、ホスト NQN フィールドの下に表示されます。各ネームスペースについて、ネームスペースパスとネームスペース ID が表示されます。
-
-. [ 保存（ Save ） ] をクリックします。
-+
-NVMe サブシステムの詳細が更新され、 NVMe サブシステムのウィンドウが表示されます。
-
-
-
-* 関連情報 *
-
-xref:reference_nvme_subsystems_window.adoc[NVMe サフシステムウイントウ]

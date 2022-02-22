@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_nis_domains.html 
-sidebar: sidebar 
-keywords: system, manager, modify, nis, domain, online, help, svm 
-summary: System Manager を使用し、 Storage Virtual Machine （ SVM ）の認証および許可の要件に基づいて NIS ドメインを変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nis_services.html 
 ---
-= NIS ドメインを編集する
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用し、 Storage Virtual Machine （ SVM ）の認証および許可の要件に基づいて NIS ドメインを変更できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [*Services*] ペインで、 [*NIS*] をクリックします。
-. NIS ドメインを選択し、 * Edit * をクリックします。
-. 必要な変更を行い、 * Edit * をクリックします。
 

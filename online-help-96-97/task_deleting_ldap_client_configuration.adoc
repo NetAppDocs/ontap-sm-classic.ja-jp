@@ -1,31 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_ldap_client_configuration.html 
-sidebar: sidebar 
-keywords: delete, ldap, client, configuration, online, help, svm 
-summary: System Manager を使用して、 LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで削除できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ldap_client_services.html 
 ---
-= LDAP クライアント設定を削除します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、 LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで削除できます。
-
-SVM レベルでは、選択した SVM に対してのみ LDAP クライアントを削除できます。
-
-.手順
-. LDAP クライアント設定を削除します。
-+
-** クラスタレベル： * をクリックしますimage:../media/advanced_options.gif[""]*>*LDAP* 。
-** SVM レベル： * SVM * > * SVM 設定 * > * LDAP クライアント * をクリックします。
-
-
-. 削除する LDAP クライアントを選択し、 * Delete * をクリックします。
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-. 削除した LDAP クライアントが表示されていないことを確認します。
-
-
-* 関連情報 *
-
-xref:concept_ldap.adoc[LDAP]

@@ -1,49 +1,7 @@
 ---
 permalink: online-help-96-97/reference_configurationprotocolsfcp.html 
-sidebar: sidebar 
-keywords: fc, fcoe, window, stop, command, buttons, online, help 
-summary: FC サービスは、 FC / FCoE ウィンドウを使用して開始または停止できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_fc_fcoe_protocol.html 
 ---
-= FC/FCoE ウィンドウ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-FC サービスは、 FC / FCoE ウィンドウを使用して開始または停止できます。
-
-
-
-== コマンドボタン
-
-* * 編集 * 。
-+
-ノード名の編集ダイアログボックスを開きます。このダイアログボックスで、 FC または FCoE のノード名を変更できます。
-
-* * 開始 *
-+
-FC / FCoE サービスを開始します。
-
-* * 停止 *
-+
-FC / FCoE サービスを停止します。
-
-* * 更新 *
-+
-ウィンドウ内の情報を更新します。
-
-
-
-
-
-== FC/FCoE の詳細
-
-詳細領域には、 FC / FCoE サービスのステータス、ノード名、および FC / FCoE アダプタに関する情報が表示されます。
-
-* 関連情報 *
-
-xref:task_starting_or_stopping_fc_or_fcoe_service.adoc[FC サービスまたは FCoE サービスを開始または停止しています]
-
-xref:task_changing_fc_or_fcoe_node_name.adoc[FC または FCoE のノード名を変更する]
-
-xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[SVM で FC プロトコルと FCoE プロトコルを設定します]

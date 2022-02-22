@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_cifs_group_policy.html 
-sidebar: sidebar 
-keywords: enable, disable, cifs, group, policy, configuration, online, help 
-summary: CIFS のグループポリシー設定は、 System Manager の CIFS ウィンドウで有効または無効にできます。 
+redirect: ontap-sm-classic/online-help-96-97/task_updating_cifs_group_policy_configuration.html 
 ---
-= CIFS のグループポリシー設定を有効または無効にします
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-CIFS のグループポリシー設定は、 System Manager の CIFS ウィンドウで有効または無効にできます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* ドメイン *] タブをクリックします。
-. [* グループポリシー *] 領域で、有効または無効にするグループポリシー設定を選択し、必要に応じて [*Enable*] または [*Disable*] をクリックします。
 

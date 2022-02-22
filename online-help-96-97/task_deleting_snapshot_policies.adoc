@@ -1,21 +1,5 @@
----
-permalink: online-help-96-97/task_deleting_snapshot_policies.html 
-sidebar: sidebar 
-keywords: delete, snapshot, policy, online, help, system, manager 
-summary: System Manager を使用して Snapshot ポリシーを削除できます。1 つ以上のボリュームで使用されている Snapshot ポリシーを削除すると、削除したポリシーで設定されていたそれらのボリュームの Snapshot コピーの作成は実行されなくなります。 
----
-= Snapshot ポリシーを削除しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して Snapshot ポリシーを削除できます。1 つ以上のボリュームで使用されている Snapshot ポリシーを削除すると、削除したポリシーで設定されていたそれらのボリュームの Snapshot コピーの作成は実行されなくなります。
-
-対象の Snapshot ポリシーを使用している各ボリュームとの関連付けを解除しておきます。
-
-.手順
-. [* 保護 *>] 、 [* Snapshot ポリシー *] の順にクリックします。
-. Snapshot ポリシーを選択し、 * Delete * をクリックします。
-. 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
-
+'''
+permalink: one-help-96-97/ task_deleting_snapshot_policies.html のサイドバー : online-help-96-97/ concept_snapshot_policies.html

@@ -2057,7 +2057,6 @@
   <block id="948b616f76b01641d846f08646960e00" category="paragraph">更新前のノードの ONTAP バージョンです。</block>
   <block id="c9022a1ef6b84d057204c5bb17f94c02" category="list-text">* 更新バージョン *</block>
   <block id="ef439127acf0c0f9d631278ceba6641a" category="paragraph">更新後のノードの ONTAP バージョンです。</block>
-  <block id="c3a98ee1c5ceae30b7efa622d6b04c68" category="summary">NVMe サブシステムウィンドウには、クラスタ内の NVMe サブシステムのインベントリリストがデフォルトで表示されます。リストをフィルタして、ある SVM に固有のサブシステムのみを表示することができます。また、 NVMe サブシステムを作成、編集、削除することもできます。このウィンドウにアクセスするには、 Storage NVMe サブシステムを選択します。</block>
   <block id="4ff963d52c546191a100b607847607fc" category="doc">NVMe サフシステムウイントウ</block>
   <block id="6c45d59fe37dbcf675179d907b6e2e9f" category="paragraph">NVMe サブシステムウィンドウには、クラスタ内の NVMe サブシステムのインベントリリストがデフォルトで表示されます。リストをフィルタして、ある SVM に固有のサブシステムのみを表示することができます。また、 NVMe サブシステムを作成、編集、削除することもできます。このウィンドウにアクセスするには、 * Storage * &gt; * NVMe * &gt; * subsystems * を選択します。</block>
   <block id="f848ede145b9dda64747e75db77bc2d2" category="inline-xref">NVMe サブシステムテーブル</block>
@@ -2149,7 +2148,6 @@
   <block id="1a2cba277657c8539943792db01884d1" category="inline-xref-macro">Windows ローカルユーザアカウントを削除する</block>
   <block id="fdec4bbe4c2e43d23f5f3b23a89d4c24" category="paragraph"><block ref="fdec4bbe4c2e43d23f5f3b23a89d4c24" category="inline-xref-macro-rx"></block></block>
   <block id="77e94689c71185890296261f8f70316c" category="summary">System Manager を使用して、ストレージシステムで DDNS を有効または無効にすることができます。</block>
-  <block id="3db1f10bfb30ece96cf6b31f446431ae" category="doc">DDNS を有効または無効にします</block>
   <block id="97828bdfb44537f14ec09c787a06a220" category="list-text">DNS はデフォルトでは有効になっています。</block>
   <block id="4473b8467c030280e92d35c71f7ecabe" category="list-text">DDNS はデフォルトでは無効になっています。</block>
   <block id="c116f461862f55485710f4ee1afdab54" category="list-text">System Manager では、 DNS および DDNS の設定に対する検証チェックは実行されません。</block>
@@ -2158,7 +2156,6 @@
   <block id="c3a278123d3b287069e73f2ccdfcdb00" category="list-text">Edit DNS/DDNS Settings * ダイアログボックスで、 * DDNS service * チェックボックスをオンにして DDNS を有効にします。</block>
   <block id="f7b5d29d3967c0e03bc5980c91dd7809" category="paragraph">DDNS を無効にするには、 * DDNS サービス * チェックボックスの選択を解除します。</block>
   <block id="eb542e78bdc6ea5852e480ad8e4002de" category="inline-xref-macro">DNS / DDNS サービスウィンドウ</block>
-  <block id="ace64f2068ac9d1d717b9ec4fe78f079" category="paragraph"><block ref="ace64f2068ac9d1d717b9ec4fe78f079" category="inline-xref-macro-rx"></block></block>
   <block id="99a93d93826462f137fad465fd937816" category="summary">System Manager を使用して、 Flash Pool アグリゲートを手動で作成したり、既存の HDD アグリゲートに SSD を追加して Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。</block>
   <block id="95637d1c1eb22cb1979aeffae82294cd" category="doc">Flash Pool アグリゲートを手動で作成してストレージをプロビジョニングする</block>
   <block id="b06cb13f1b387a05cf34a10fd25c49c6" category="list-text">Flash Pool アグリゲートの SSD 層のサイズと構成について、プラットフォームとワークロードそれぞれに固有なベストプラクティスに注意する必要があります。</block>
@@ -2337,7 +2334,6 @@
   <block id="0110ec5eb762d70e93f8577911bae7f5" category="list-text">続行する場合は、 * OK * をクリックして ONTAP System Manager のログインページに移動します。</block>
   <block id="33bfb222a6be6e2e74e3b69128bb6deb" category="list-text">クラスタ管理者のクレデンシャルを使用して ONTAP System Manager にログインします。</block>
   <block id="e5ba0d9b1406b4f0a54da8f4ae87eafd" category="summary">System Manager を使用して、 SVM 関係の初期化、 SVM 関係の更新、デスティネーション SVM のアクティブ化、ソース SVM からのデータの再同期、デスティネーション SVM からのデータの再同期、ソース SVM の再アクティブ化など、 SVM 関係に対するさまざまな処理を実行できます。</block>
-  <block id="5d5affbae8b4a75604f933a3c10d1512" category="doc">SVM 関係の管理</block>
   <block id="29e63348a00690bf30a3e4f6bd00f5f2" category="list-text">SVM 関係を初期化するには、ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。</block>
   <block id="e352f8ae9565e888615dc0379b8613d8" category="list-text">SVM 関係を更新するには、 SVM 関係が初期化されて SnapMirror 済みの状態である必要があります。</block>
   <block id="4a64710d6ae8d6ae2fb356e0d9c52db8" category="list-text">ソース SVM を再アクティブ化するには、デスティネーション SVM からのデータの再同期（逆再同期）処理を実行しておく必要があります。</block>
@@ -2766,12 +2762,10 @@
   <block id="499f655331418326fddcfb1f78ffe612" category="summary">System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成および管理できます。</block>
   <block id="f9aae5fda8d810a29f12d1e61b4ab25f" category="doc">ユーザ</block>
   <block id="adc9a56984fed54c5e8a9a0495e502a7" category="summary">System Manager を使用してネットワークインターフェイスを有効または無効にすることで、 iSCSI 通信に使用するネットワークインターフェイスを制御できます。iSCSI サービスが有効な場合、 iSCSI の接続と要求は、 iSCSI に対して有効になっているネットワークインターフェイス上で許可されますが、無効になっているインターフェイス上では許可されません。</block>
-  <block id="4f55a3e8a0823d0848b3d1815be7e968" category="doc">ストレージシステムインターフェイスでの iSCSI サービスの有効化と無効化</block>
   <block id="f9c1f9f49aaa63b3730a51c540d6d009" category="paragraph">インターフェイスを現在使用している iSCSI 接続および iSCSI セッションをすべて終了しておく必要があります。デフォルトでは、 iSCSI ライセンスを有効にすると、すべてのイーサネットインターフェイスで iSCSI サービスが有効になります。</block>
   <block id="99b1c526d7139385909d7a68f8d30b72" category="list-text">iSCSI Interfaces * 領域で、 iSCSI サービスを有効または無効にするインターフェイスを選択します。</block>
   <block id="173c0cf1cfdfc11830320ed3c47729d8" category="list-text">必要に応じて、 *Enable* または *Disable* をクリックします。</block>
   <block id="e54d6f4c00bbf4bda2f4cfb5e26ce554" category="inline-xref-macro">iSCSI ウィンドウ</block>
-  <block id="b2d76244878170e3592b0a64ee6e64dd" category="paragraph"><block ref="b2d76244878170e3592b0a64ee6e64dd" category="inline-xref-macro-rx"></block></block>
   <block id="cf7e5af013c561e4441064bb2e7f5e49" category="inline-xref-macro">SVM で iSCSI プロトコルを設定します</block>
   <block id="aea360b94eba5ad45f55e615a1e58409" category="paragraph"><block ref="aea360b94eba5ad45f55e615a1e58409" category="inline-xref-macro-rx"></block></block>
   <block id="f25741b359bd60e4cd26b8efa4c0882e" category="summary">休止していたミラー関係を再開することができます。関係を再開すると、ミラーデスティネーションへの通常のデータ転送が再開され、ミラー処理もすべて再開されます。</block>
@@ -2898,7 +2892,6 @@
   <block id="d2de01be8c1823ce5018764fbcc087f0" category="paragraph">クラスタ内のすべての LUN には、 LUN タブを使用してアクセスできます。また、 SVM に固有の LUN には、 * SVM * &gt; * LUNs * を使用してアクセスできます。</block>
   <block id="800e6a094661cca2d3c6a0f2c45bc9d7" category="paragraph">LUN タブは、 FC / FCoE および iSCSI のライセンスが有効になっている場合にのみ表示されます。</block>
   <block id="90ac20520f113b4c3b26d7e0e5457471" category="summary">System Manager を使用して、 SVM 関係のプロパティを変更できます。</block>
-  <block id="25880d32030d45e9029f1c99184c0df9" category="doc">SVM 関係を編集します</block>
   <block id="61bbc3f6462f7199ce9490aa33022c62" category="list-text">変更する SVM 関係を選択し、 * Edit * をクリックします。</block>
   <block id="65ba43f66184613aade6d707bd8f10a8" category="list-text">SVM 関係のタイプを選択します。</block>
   <block id="eda5824d1187581cf36c6e03dfd55a8f" category="paragraph">ONTAP 9.3 より前に作成された SVM 関係の場合、そのタイプを「ミラー」から「ミラーとバックアップ」に変更することはできません。</block>
@@ -3117,7 +3110,6 @@
   <block id="30adc505038075f7ff4b7dd8c46ed581" category="paragraph">ローカルグループとそのメンバーシップのレコードが削除されます。</block>
   <block id="e074b06c6bcffc41130111700ce589f4" category="summary">リモートユーザが System Manager にログインする前にセキュアな Identity Provider （ IdP ；アイデンティティプロバイダ）を使用して認証されるように、 Security Assertion Markup Language （ SAML ；セキュリティアサーションマークアップ言語）認証をセットアップできます。</block>
   <block id="a1c17e9e89d922e43d5aa0884477d0b3" category="image-alt">MFA ワークフロー</block>
-  <block id="406ad3dd8a883492cd98d22cf3f6a879" category="summary">多くのタスク（ボリュームの Snapshot コピーやミラーレプリケーションなど）を、指定したスケジュールで実行されるように設定できます。指定したスケジュールで実行されるスケジュールは、 UNIX の cron スケジュールに似ているため、 cron スケジュールと呼ばれます。一定間隔で実行されるスケジュールは、インターバルスケジュールと呼ばれます。</block>
   <block id="ccdb7bf9d93e5652b57cabcc8c41e061" category="doc">スケジュール</block>
   <block id="8275bc465c55d12cddbb9a7784491b14" category="paragraph">多くのタスク（ボリュームの Snapshot コピーやミラーレプリケーションなど）を、指定したスケジュールで実行されるように設定できます。指定されたスケジュールで実行されるスケジュールは、 UNIX の cron スケジュールと似ているため、 _cron_schedules として知られています。一定間隔で実行されるスケジュールは、 _interval_schedules と呼ばれます。</block>
   <block id="b343a97688c7029f7105ec46cd6d3ce8" category="paragraph">スケジュールは、次の方法で管理できます。</block>
@@ -3202,7 +3194,6 @@
   <block id="80f519c67fe8d888e503be313a937f2f" category="inline-xref-macro">サービスプロセッサウィンドウ</block>
   <block id="8b2a5d76ddf4baa9a4c577e4b75cc9b2" category="paragraph"><block ref="8b2a5d76ddf4baa9a4c577e4b75cc9b2" category="inline-xref-macro-rx"></block></block>
   <block id="dc146ccc9cb81889b3803326f6ecec4c" category="summary">System Manager を使用して、 Kerberos Realm の設定を Storage Virtual Machine （ SVM ）レベルで編集できます。</block>
-  <block id="ccc039ed493c720de50e21a851539422" category="doc">Kerberos Realm の設定の編集</block>
   <block id="b7a1338acf27594b90fe0aae556ff012" category="paragraph">Kerberos Realm 編集ウィザードを使用して、次の属性を変更できます。</block>
   <block id="ec85c61ee36f87d2f5e40003f3579e73" category="list-text">KDC の IP アドレスとポート番号を指定します</block>
   <block id="1ff176d143d8699bdc585f5d5572fc13" category="list-text">KDC ベンダーが Microsoft でない場合の管理サーバの IP アドレス</block>
@@ -3320,10 +3311,6 @@
   <block id="1ce3a3b9759f9976cf054b0bbbcc01eb" category="paragraph">FC / FCoE サービスを停止します。</block>
   <block id="95c1388a66f547c9aa5a317164bc1016" category="section-title">FC/FCoE の詳細</block>
   <block id="aaad9c1e29b75da45052583a668dd917" category="paragraph">詳細領域には、 FC / FCoE サービスのステータス、ノード名、および FC / FCoE アダプタに関する情報が表示されます。</block>
-  <block id="d6b8d591aacdf5a6cdb126d9f97e0872" category="inline-xref-macro">FC サービスまたは FCoE サービスを開始または停止しています</block>
-  <block id="a8df24a324a706d2ff6327e27f681736" category="paragraph"><block ref="a8df24a324a706d2ff6327e27f681736" category="inline-xref-macro-rx"></block></block>
-  <block id="a9700d948cc8ed2f70d252b6fd6eec90" category="inline-xref-macro">FC または FCoE のノード名を変更する</block>
-  <block id="364eba8162ea087354ba4c0aa9d4e66c" category="paragraph"><block ref="364eba8162ea087354ba4c0aa9d4e66c" category="inline-xref-macro-rx"></block></block>
   <block id="78b16f22d999aea7d9d0f2430d127e68" category="inline-xref-macro">SVM で FC プロトコルと FCoE プロトコルを設定します</block>
   <block id="4c18330378de92dfe337bb90c979cddd" category="paragraph"><block ref="4c18330378de92dfe337bb90c979cddd" category="inline-xref-macro-rx"></block></block>
   <block id="0b203a774af046bf995cdc3de1947511" category="summary">System Manager を使用して LUN をストレージ QoS ポリシーグループに割り当てることで、 LUN のスループットを制限できます。新しい LUN にストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられている LUN に対するストレージ QoS の詳細を変更したりできます。</block>
@@ -3716,21 +3703,6 @@
   <block id="c0292270021d6dc4c7a45c5f60252550" category="paragraph">iSCSI サービスを開始します。</block>
   <block id="90cffb62b5577e1859422cbd2bc6b87d" category="paragraph">iSCSI サービスを停止します。</block>
   <block id="81e85bbbce0c7ace0f9d4ab566c54a7f" category="paragraph">詳細領域には、 iSCSI サービスのステータス、 iSCSI ターゲットノード名、および iSCSI ターゲットエイリアスに関する情報が表示されます。この領域で、ネットワークインターフェイスに対して iSCSI サービスを有効または無効にできます。</block>
-  <block id="5eec5d8f29bfc6600286eeeeb616bc6c" category="inline-xref-macro">iSCSI エイリアスを作成しています</block>
-  <block id="9bebaee173148d8cc55b730fd9908e67" category="paragraph"><block ref="9bebaee173148d8cc55b730fd9908e67" category="inline-xref-macro-rx"></block></block>
-  <block id="4db3586f12bc650f816094a696ef7c6f" category="paragraph"><block ref="4db3586f12bc650f816094a696ef7c6f" category="inline-xref-macro-rx"></block></block>
-  <block id="a10ddd7322d2a4d788c02f266f9b0f9e" category="inline-xref-macro">iSCSI イニシエータに対するセキュリティ方式の追加</block>
-  <block id="ae4cd02fd8dd76c9edba0be38d8d2250" category="paragraph"><block ref="ae4cd02fd8dd76c9edba0be38d8d2250" category="inline-xref-macro-rx"></block></block>
-  <block id="4187ea711f27d3a4b9e0c6ca58974c56" category="inline-xref-macro">デフォルトセキュリティ設定の編集</block>
-  <block id="9087ce2beb82ac1e521ecb4b55a758b8" category="paragraph"><block ref="9087ce2beb82ac1e521ecb4b55a758b8" category="inline-xref-macro-rx"></block></block>
-  <block id="e2df649adb4736b0ce888650fbe00b68" category="inline-xref-macro">イニシエータセキュリティを編集中です</block>
-  <block id="1e47f602cade50440fb9127c3c949d94" category="paragraph"><block ref="1e47f602cade50440fb9127c3c949d94" category="inline-xref-macro-rx"></block></block>
-  <block id="86fcf4e119fab7b0ace898336aac471c" category="inline-xref-macro">iSCSI イニシエータのデフォルトの認証方法を変更する</block>
-  <block id="c00bb2cf61fbcdd98a12ce42645c067e" category="paragraph"><block ref="c00bb2cf61fbcdd98a12ce42645c067e" category="inline-xref-macro-rx"></block></block>
-  <block id="8df84a1dcbb27d91957ed63ac432f54b" category="inline-xref-macro">iSCSI イニシエータにデフォルトセキュリティを設定します</block>
-  <block id="a471b23d6cd7038c682cdd79e101e64f" category="paragraph"><block ref="a471b23d6cd7038c682cdd79e101e64f" category="inline-xref-macro-rx"></block></block>
-  <block id="a43c31ba4f0c6a47b47d59dccb1a47cf" category="inline-xref-macro">iSCSI サービスを開始または停止しています</block>
-  <block id="6ee2b5dc76462b54f00b204018406cd4" category="paragraph"><block ref="6ee2b5dc76462b54f00b204018406cd4" category="inline-xref-macro-rx"></block></block>
   <block id="972265c7534ad38dbe47d340bdb3bdf4" category="summary">さまざまなライセンスタイプと関連する使用権のリスクを理解しておくと、クラスタのライセンスに関連するリスクを管理する際に役立ちます。</block>
   <block id="aea1d251797bc285919cf5ebbbe39352" category="doc">ライセンスタイプおよび使用権のリスク</block>
   <block id="2b2fba693aacdb90002ef3efdb1f458b" category="section-title">ライセンスタイプ</block>
@@ -3968,11 +3940,9 @@
   <block id="55d39636d1d05d13802eb2fb2db89a4c" category="list-text">[ * ノード * ] タブで、名前を変更するノードを選択し、 [ ノード名の編集 ] をクリックします。</block>
   <block id="2dfe3592e31a21358544f237cb1ef204" category="list-text">ノード名の編集 * （ Edit Node Name * ）ダイアログボックスでノードの新しい名前を入力し、 * 送信 * （ Submit * ）をクリックします。</block>
   <block id="49dc14bd6bb3abfc6863be30c6ab13dc" category="summary">System Manager を使用して、特定のドメインに対して設定されている優先ドメインコントローラの IP アドレスを変更することができます。</block>
-  <block id="7478ac33c019c0c5f75f119b51ad1184" category="doc">優先ドメインコントローラの編集</block>
   <block id="1a5af3d1e39d05e3b99f6b9d726b387f" category="list-text">[*Domain*] タブの [* Preferred Domain Controllers] 領域で、編集するドメインコントローラをダブルクリックします。</block>
   <block id="197e30cd255ac9e331a8f263127cb122" category="list-text">ドメインコントローラの IP アドレスを変更し、 * 保存 * をクリックします。</block>
   <block id="96069110e3e769fbcf71754288d8cc2c" category="summary">System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントのパスワードをリセットできます。</block>
-  <block id="00d67022974183ed152ea63c3d6d76fd" category="doc">SVM ユーザアカウントのパスワードを変更する</block>
   <block id="f64c6471e53b26136ca16ce4b67e724d" category="list-text">[* SVM User Details] ペインで、 [* Users] をクリックします。</block>
   <block id="704e7a74accda2aab077ab00e734d493" category="list-text">パスワードを変更するユーザーアカウントを選択し、 * パスワードのリセット * をクリックします。</block>
   <block id="9b23cce21b7de5054f50939a4f924182" category="list-text">[ パスワードのリセット *] ダイアログボックスで、新しいパスワードを入力し、確認のために新しいパスワードを入力して、 [ *Change* ] をクリックします。</block>
@@ -4234,7 +4204,6 @@
   <block id="228f6e14e91977bf7157039ab90e386f" category="summary">System Manager を使用して、クラスタ内のノードの詳細を表示できます。</block>
   <block id="187c6ad3a74cc93ac6c2229d398e383e" category="doc">ノード</block>
   <block id="10dad6574d9658c8779e791da13b4d56" category="summary">CIFS グループポリシーのステータスが変更になった場合は、ポリシーをリロードする必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーをリロードできます。</block>
-  <block id="c8e97ec025fa16c577aeb2cc731ff874" category="doc">CIFS グループポリシーのリロード</block>
   <block id="5ab9e560d7e8bb2ea42bc272234df0d6" category="list-text">[* ドメイン *] タブをクリックします。</block>
   <block id="88a21d4dea15d55ae7dfaa1a143d57a0" category="list-text">[* グループポリシー *] 領域で、リロードするグループポリシー設定を選択し、 [*Reload*] をクリックします。</block>
   <block id="a6e69c8c47ee8c731b57b475f95eac30" category="summary">既存のストレージプールに SSD を追加してキャッシュサイズを拡張できます。割り当て単位が Flash Pool アグリゲートにすでに割り当てられているストレージプールに SSD を追加すると、これらのアグリゲートそれぞれのキャッシュサイズと、ストレージプールの合計キャッシュサイズが増加します。</block>
@@ -4571,7 +4540,6 @@
   <block id="cdbe1ccd7399a1701afc2c94069ee6d8" category="list-text">再開するミラーとバックアップ関係を選択し、 * Operations * &gt; * Resume * をクリックします。</block>
   <block id="06895a249469b7de4c423243bf6e23fc" category="list-text">確認のチェックボックスをオンにし、 * Resume * （続行）をクリックします。</block>
   <block id="483d98ce12e9bc42577b7053d33f9372" category="summary">System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを編集し、ストレージシステムにアクセスするためのユーザのログイン方法を変更できます。</block>
-  <block id="59db5184b4458a16019c7ad3d6300196" category="doc">SVM ユーザアカウントを編集しています</block>
   <block id="2e4e52ee758719f7e8fff4f55905c27b" category="list-text">編集するユーザーアカウントを選択し、 * 編集 * をクリックします。</block>
   <block id="f7d1fa09ac7a017703e64e64154ecb02" category="list-text">1 つ以上のユーザーログイン方法を変更し、 * 変更 * をクリックします。</block>
   <block id="a207e4410e61fbf69eec2dcd3244d0fb" category="summary">System Manager を使用して、サブシステムのシステムヘルスアラートについて承認して対応することができます。表示される情報に基づいて、推奨される対処方法を実行し、アラートによって報告された問題を修正できます。</block>
@@ -4610,7 +4578,6 @@
   <block id="9c92896894a8fe3d79aeae61fe2ddf98" category="inline-link">ディスクおよびアグリゲートの管理</block>
   <block id="dc9741b2fb1d5c6b15c6a6e6f5a1cd7d" category="paragraph"><block ref="dc9741b2fb1d5c6b15c6a6e6f5a1cd7d" category="inline-link-rx"></block></block>
   <block id="53aa5bdd14c247f0adfe1bbb1e20a7c2" category="summary">Storage Virtual Machine （ SVM ）をアクティブな LDAP クライアントに関連付けないようにする場合は、 System Manager を使用して、そのクライアントを削除できます。</block>
-  <block id="e2d4b4d7aa45335814d5ac633534c59f" category="doc">アクティブな LDAP クライアントを削除しています</block>
   <block id="82dbaaea3b202cc52a4688204b09ae0e" category="list-text">[* サービス * （ * Services * ） ] ペインで、 [* LDAP 構成 * （ * LDAP Configuration * ） ] をクリック</block>
   <block id="a0fc3178ac99ab9dedd70ca4010d84da" category="summary">クラスタ内のすべての high-availability （ HA ）ペアについて、 System Manager を使用して、ノードのステータスとインターコネクトのステータスを監視できます。テイクオーバーやギブバックが有効になっているかどうかや発生したかどうかの情報のほか、現在実行できない場合はその理由も確認できます。</block>
   <block id="661de598632e372d8601e8f6972c7bb8" category="doc">HA ペアの監視</block>
@@ -4677,7 +4644,6 @@
   <block id="e6c6cd9c617373352a58a0c67b2df2a1" category="list-text">ネットワークの負荷分散： IP ベース、 MAC アドレスベース、シーケンシャル、またはポート</block>
   <block id="a53335af51a3015173c6c709bc4b8c1a" category="list-text">必要に応じて、インターフェイスグループのブロードキャストドメインを指定します</block>
   <block id="e1d9e9a90b1a0f44ef536ccc9066b917" category="summary">System Manager を使用して、 Kerberos を有効にしたり、 Storage Virtual Machine （ SVM ）に関連付けられた Kerberos の設定を編集したりできます。これにより、 SVM で、 NFS の Kerberos セキュリティサービスを使用できます。</block>
-  <block id="1aca93bbd9d6b3099b9ef3cab8d319cb" category="doc">Kerberos 設定を編集しています</block>
   <block id="268dd9497a911b603dd124fe01d55a4e" category="list-text">SVM レベルで Kerberos Realm を少なくとも 1 つ設定しておく必要があります。</block>
   <block id="3cb48209a847552938dd8d03683bec60" category="list-text">SVM 上に少なくとも 2 つのデータ LIF が必要です。</block>
   <block id="5dd709daff994cdefe01f9c843b2c56d" category="paragraph">データ LIF の 1 つは、 SPN が UNIX と CIFS 関連の Kerberos トラフィック両方に使用します。もう 1 つのデータ LIF は、 Kerberos 以外のトラフィックのアクセスに使用されます。</block>
@@ -4720,7 +4686,6 @@
   <block id="d7bd78485ffd94a32f7b750ad6f647e2" category="paragraph">FlexCache ボリュームに対しては、重複排除はデフォルトで有効になりません。指定したボリュームサイズが重複排除の実行に必要な最大サイズよりも大きい場合、 System Manager はデフォルトの重複排除スケジュールを使用します。</block>
   <block id="35b8a467cbf32205b9f37730eae7ccfe" category="list-text">[ 適用（ Apply ） ] をクリックして、変更を更新する。</block>
   <block id="5f0557d0fe01036f8f09778b36b44de8" category="summary">System Manager を使用し、 Storage Virtual Machine （ SVM ）の認証および許可の要件に基づいて NIS ドメインを変更できます。</block>
-  <block id="8f01a154dc00115fb7965975f9a9265d" category="doc">NIS ドメインを編集する</block>
   <block id="99d77b50ceffeb6c138fdf554ecf1013" category="list-text">NIS ドメインを選択し、 * Edit * をクリックします。</block>
   <block id="cad5904ba3d040586cd36d6753e023e7" category="list-text">必要な変更を行い、 * Edit * をクリックします。</block>
   <block id="a96fdd45ee76778387ae8a5e672799e5" category="summary">System Manager のクォータウィンドウを使用して、クォータが適用されているボリュームと qtree 、クォータのタイプ、クォータが適用されているユーザまたはグループ、スペースおよびファイルの使用量など、クォータの詳細を表示できます。</block>
@@ -4735,12 +4700,10 @@
   <block id="f2c92e3929fcac661874e78acd7e1a09" category="list-text">クォータの詳細を確認します。</block>
   <block id="9dc1547ffa9657861bf5fbb3b7a8413e" category="summary">System Manager を使用して、アクセス制御ユーザロールを作成できます。</block>
   <block id="40e3f9d38a302b0b218ea0634cb4b079" category="summary">System Manager を使用して、 NFS 設定を編集できます。たとえば、 NFSv3 、 NFSv4 、および NFSv4.1 を有効または無効にしたり、 NFSv4 クライアントに対して読み取り委譲および書き込み委譲を有効または無効にしたり、 NFSv4 ACL を有効にしたりすることができます。また、デフォルトの Windows ユーザを編集することもできます。</block>
-  <block id="ea179c4151e99f405650fff8d1e9377a" category="doc">NFS 設定を編集しています</block>
   <block id="273e4130e50845a5e9d5f4538db4799b" category="list-text">[*Protocols* ] ペインで、 [*NFS*] をクリックします。</block>
   <block id="4e96af8b428b98552b109c1d32a42842" category="list-text">*NFS* ウィンドウで、 * Edit * をクリックします。</block>
   <block id="5652939fb504000d7345b9925e453202" category="list-text">NFS 設定の編集 * ダイアログボックスで、必要な変更を行います。</block>
   <block id="f36d18dddd479e5588589bf74c5a026e" category="inline-xref-macro">NFS ウィンドウ</block>
-  <block id="62d366242edcb73999165abb57003836" category="paragraph"><block ref="62d366242edcb73999165abb57003836" category="inline-xref-macro-rx"></block></block>
   <block id="c5e854a1d2af8f07eff758906c90e989" category="doc">StrictSync ポリシーと Sync ポリシーでサポートされるワークロードの概要</block>
   <block id="f4c39692ac5e708410064c0716f0754d" category="paragraph">ONTAP 9.5 では、 Sync ポリシーで NFSv3 または NFSv4 ワークロードを選択する際、いくつかの重要な側面について考慮する必要があります。読み取り処理や書き込み処理のワークロードのデータ量については、 Sync ポリシーでは IO ワークロードが高くても対応できるため考慮する必要はありません。ONTAP 9.5 では、ファイルの作成、ディレクトリの作成、ファイル権限の変更、ディレクトリ権限の変更などの処理が多いワークロード（「メタデータ比率の高いワークロード」と呼ばれます）は適さない場合があります。メタデータ比率の高いワークロードの典型的な例としては、複数のテストファイルを作成して自動化の実行後にファイルを削除する DevOps ワークロードがあります。また、コンパイル時に複数の一時ファイルを生成する並列ビルドワークロードなども含まれます。メタデータの書き込みアクティビティの比率が高いと、ミラー間の原因同期を一時的に解除して、クライアントからの読み取りや書き込みの IO が停止することがあります。</block>
   <block id="d2d4e00de04d366aea9146e30e18baf5" category="inline-link">ネットアップテクニカルレポート 4733 ：『 SnapMirror Synchronous for ONTAP 9.6 』</block>
@@ -4752,7 +4715,6 @@
   <block id="1d0d544f1b31a0e6bfadcc298162e9d6" category="summary">System Manager を使用して、効率化ポリシーを作成、編集、削除できます。</block>
   <block id="aa65c02ad23adbae282a9478f9d5d790" category="doc">効率化ポリシー</block>
   <block id="6bcc4f43595612e75cc42dbd0836ae93" category="summary">System Manager を使用して Kerberos Realm 設定を削除できます。</block>
-  <block id="59703e5c39b9df523c0a52d0e7efa3ce" category="doc">Kerberos Realm 設定を削除します</block>
   <block id="b1ef8e367639f255e3a2af0c5c184314" category="list-text">Kerberos Realm * ウィンドウで、削除する Kerberos Realm 設定を 1 つ以上選択し、 * Delete * をクリックします。</block>
   <block id="b5660d487157b5e751055d3f7e9758f8" category="summary">NIS ウィンドウでは、ストレージシステムの現在の NIS 設定を確認できます。</block>
   <block id="e10c47a17b85cf5b6edba1044b183fc1" category="doc">NIS ウィンドウ</block>
@@ -4760,7 +4722,6 @@
   <block id="6e8f2bd67c39f68f06c75f520b421dda" category="paragraph">NIS ドメインの編集ダイアログボックスを開きます。このダイアログボックスで、 NIS サーバの追加、削除、または変更を行うことができます。</block>
   <block id="981b5cdf384cb3473fd5572f24f9202b" category="paragraph">選択した NIS ドメインを削除します。</block>
   <block id="d98f8c7168a343edf020828e272da931" category="summary">System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントをロックしたりロックを解除したりできます。</block>
-  <block id="3e6209b738c89deffa7a39c5d368118d" category="doc">SVM ユーザアカウントのロックまたはロック解除</block>
   <block id="e630682fb1cc1c750105d9e99738b611" category="list-text">[ * ユーザー * ] ウィンドウで、アカウントステータスを変更するユーザーアカウントを選択し、必要に応じて [ * ロック * ] または [ * ロック解除 * ] をクリックします。</block>
   <block id="861cd877273f0187be8b4af2b9308d55" category="summary">System Manager を使用して、イーサネットポートを作成および管理できます。</block>
   <block id="34b8a9807da64737f07ac9e419c9f546" category="doc">イーサネットポート</block>
@@ -4868,7 +4829,6 @@
   <block id="eddbd6b4698ab419a7ddc01cb7b29566" category="paragraph">1 本のスペアディスクを複数の RAID グループのホットスペアとして使用することができます。ただし、これらの RAID グループのいずれかのディスクで障害が発生すると、スペアディスクを交換するまでの間にさらにディスクに障害が発生した場合や、コアファイル用に使用できるスペアディスクがありません。したがって、スペアを複数用意することを推奨します。</block>
   <block id="a7d035e3945903a378642a868b088117" category="summary">System Manager を使用して、現在実行中のデータ転送を中止または停止することができます。</block>
   <block id="b5d9cab92eb83c805fd03967954b52c8" category="summary">Kerberos を使用して SVM と NFS クライアント間の認証を強化すると、セキュアな NFS 通信を実現することができます。NFS に Kerberos を設定すると、 NFS クライアントとストレージシステム間の通信の整合性とセキュリティが向上します。</block>
-  <block id="95d114f791455832c0b457242f601303" category="doc">NFS で Kerberos を使用してセキュリティを強化する</block>
   <block id="7bcfe62a89850496a49500438de98c3d" category="summary">System Manager を使用して、 qtree を作成、編集、削除できます。</block>
   <block id="48b9817af3fdae7035b6862c98196584" category="doc">qtree</block>
   <block id="167f6dae62c5e6a04290b4be80be116e" category="summary">System Manager を使用して、不要になったストレージ QoS ポリシーグループを削除できます。</block>
@@ -4928,7 +4888,6 @@
   <block id="9672cc2c4620c64cea160ae6f2fae0af" category="list-text">SVM の監視</block>
   <block id="4d33db365ed91f2d03ecc8a2faf4d536" category="paragraph">SVM 管理者は、ジョブ、ネットワーク接続、ネットワークインターフェイス、および SVM のヘルスを監視できます。</block>
   <block id="73171eff28f228bfb954fd8c13835c4c" category="summary">システム管理を使用すると、既存のエクスポートポリシーの名前を変更できます。</block>
-  <block id="6ccfa91aef7eee2d509aef9bdbc15170" category="doc">エクスポートポリシー名の変更</block>
   <block id="9e96844d1d5fabae505b81d59ef70340" category="list-text">名前を変更するエクスポートポリシーを選択し、 * ポリシー名の変更 * をクリックします。</block>
   <block id="c3de4891f472a2ff22e401e9d30bf6ed" category="list-text">[ ポリシー名の変更 *] ダイアログボックスで、新しいポリシー名を指定し、 [*Modify*] をクリックします。</block>
   <block id="801703e8376b656354575338d422c997" category="list-text">[* エクスポートポリシー * （ * Export Policies * ） ] ウィンドウで行った変更を確認します。</block>
@@ -5066,7 +5025,6 @@
   <block id="d084de710b8821519b765f8e2c40a24a" category="paragraph">ストレージプールに使用できるスペア SSD は 1 本のみです。スペア SSD を用意しておけば、ストレージプール内の SSD に障害が発生した場合に、正常に機能しない SSD のパーティションを ONTAP で再構築できます。割り当て単位をスペア容量として確保する必要はありません。 ONTAP は、ストレージプール内のパーティショニングされていない完全な SSD のみを SSD のスペアとして使用できます。</block>
   <block id="a8df24beab1150b03cff9d8b785593ae" category="paragraph">アグリゲートからディスクを削除できないのと同様に、いったんストレージプールに追加した SSD は削除できません。ストレージプール内の SSD を単独のドライブとして再度使用するには、ストレージプールの割り当て単位が割り当てられている Flash Pool アグリゲートをすべて破棄してから、ストレージプールを破棄する必要があります。</block>
   <block id="4043d7070c55e992beeea2b9c45702ef" category="summary">System Manager を使用して、 NVMe サブシステムの詳細を編集できます。</block>
-  <block id="ee07796a87b727152460bae4fd0af80f" category="doc">NVMe サブシステムの詳細を編集しています</block>
   <block id="45c86269fbc22db872a56d948447371e" category="list-text">編集する NVMe サブシステムを「 * NVMe サブシステム * 」ウィンドウで検索します。</block>
   <block id="491ce964d717ac74ca258a4e4ec82538" category="list-text">編集するサブシステムの名前の左にあるチェックボックスをオンにします。</block>
   <block id="606eb5c99af77297827c65cf4ff5f704" category="paragraph">NVMe サブシステムの現在の詳細が、 NVMe サブシステムの Editwindow に表示されます。</block>
@@ -5074,7 +5032,6 @@
   <block id="922ed2a490f6f8e56aadf6d2271cb6c6" category="paragraph">コントローラに接続されたホストの NQN を変更します。ホスト NQN は、カンマで区切って複数入力できます。</block>
   <block id="b1eb632ecb72ec82b8033d659a83f9c4" category="paragraph">関連付けられた * NVMe ネームスペース * テーブルは、ホスト NQN フィールドの下に表示されます。各ネームスペースについて、ネームスペースパスとネームスペース ID が表示されます。</block>
   <block id="29dd08681ac58900d0f7d3be1ad3ea07" category="paragraph">NVMe サブシステムの詳細が更新され、 NVMe サブシステムのウィンドウが表示されます。</block>
-  <block id="2812b8b385768df7953b0581020cf655" category="paragraph"><block ref="2812b8b385768df7953b0581020cf655" category="inline-xref-macro-rx"></block></block>
   <block id="18c91ab99c5e49b6b916454ea177e097" category="summary">選択した Flash Pool アグリゲートの SSD 階層に対する、リアルタイムの読み取り / 書き込みワークロードを表示できます。</block>
   <block id="6cf7bb2781aedd8b37e1f254e326ff5f" category="doc">Flash Pool アグリゲートの統計情報ウィンドウ</block>
   <block id="27edee8f56886adf78c596c99f151467" category="paragraph">このページは、オールフラッシュで最適化されたノードを含むクラスタでは使用できません。</block>
@@ -5331,7 +5288,6 @@
   <block id="275f367295ab05181f081062d468d507" category="list-text">qtree に割り当てたエクスポートポリシーとそれに関連するエクスポートルールが、該当する qtree の「 * Details * 」タブに表示されていることを確認します。</block>
   <block id="523eac7698602fe4f659266e9f831a4d" category="summary">アクセス制御ロールを使用して、ユーザのシステムへのアクセスのレベルを制御できます。事前定義されたロールを使用するほか、新しいアクセス制御ロールを作成したり、変更したり、削除したりできます。また、ロールのユーザに対してアカウントの制限も指定できます。</block>
   <block id="41edf5b39716900442575ee78e19349e" category="summary">以前に作成した cron スケジュールや実行間隔が要件に合わない場合は、 System Manager を使用してスケジュールを変更できます。曜日、時間、間隔のオプション、および詳細な cron オプションなど、スケジュールの詳細を変更できます。</block>
-  <block id="bf03dd7a2ab9f2e9c2c622becada10fa" category="doc">スケジュールを編集します</block>
   <block id="2caa6710ff7d818a90f2b2642556cd8a" category="paragraph">MetroCluster 構成でスケジュールを編集するときは、セカンダリサイトのクラスタでも同等のスケジュールを編集することを推奨します。</block>
   <block id="ca1370bc26a4dcc13787022d8e7c67ca" category="list-text">[* 保護 *&gt;* スケジュール *] をクリックします。</block>
   <block id="baed982932f2e8deb39eb69ebd873200" category="list-text">変更するスケジュールを選択し、 * Edit * をクリックします。</block>
@@ -5372,7 +5328,6 @@
   <block id="dbeafab6add84b412ff44a1d70020962" category="paragraph"><block ref="dbeafab6add84b412ff44a1d70020962" category="inline-xref-macro-rx"></block></block>
   <block id="f1f6c91ff927f6295bfbd387373de574" category="summary">ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。</block>
   <block id="cf5272205316e623c915743b6f6c3830" category="summary">System Manager を使用して、ポリシー名、スケジュール名、最大実行時間などの効率化ポリシーの属性を変更できます。</block>
-  <block id="e4cd424d0234e5a84a9cbd73aed4da5f" category="doc">効率化ポリシーの編集</block>
   <block id="d3abca15f6b22195064321922e319944" category="list-text">[ * 効率化ポリシー * ] ウィンドウで、編集するポリシーを選択し、 [ * 編集 ] をクリックします。</block>
   <block id="24470644eeaeffa30f8f535ea804bff3" category="list-text">効率化ポリシーの編集 * ダイアログボックスで、必要な変更を行います。</block>
   <block id="4289c80d91f288631499a13ed510c90f" category="summary">System Manager を使用して、ミラーとバックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成することができます。この関係を作成すると、ソースボリュームからデスティネーションボリュームにデータを定期的に転送して、データの保護を強化できます。また、ソースボリュームのバックアップを作成して、データを長期にわたって保持することもできます。</block>
@@ -5662,7 +5617,6 @@
   <block id="428e5b78c3d1a89e75811ecdd738b297" category="paragraph"><block ref="428e5b78c3d1a89e75811ecdd738b297" category="inline-xref-macro-rx"></block></block>
   <block id="6bbaafbdef150c899eef328db1d6fadc" category="summary">ストレージシステムシャーシを交換し、同じファイバチャネル SAN で再利用した場合、状況によっては、交換したストレージシステムのノード名が重複することがあります。ストレージシステムのノード名は System Manager を使用して変更できます。</block>
   <block id="969550f744e4b195d9375c6e2077429d" category="list-text">新しい名前を入力し、「 * OK * 」をクリックします。</block>
-  <block id="26ea1db5804df43b1a30a30f4a3005fc" category="paragraph"><block ref="26ea1db5804df43b1a30a30f4a3005fc" category="inline-xref-macro-rx"></block></block>
   <block id="3241edb94f07e6bbf7cba493631ff2c6" category="summary">System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。</block>
   <block id="58d5c88fca53e41efef32664ecf5ac03" category="doc">QoS ポリシーグループの編集</block>
   <block id="20ce37acd2082db423c612d41df0cb50" category="list-text">編集する QoS ポリシーグループを選択し、 * Edit * をクリックします。</block>
@@ -6598,11 +6552,9 @@
   <block id="537d48aafb210ebc9b17870f9dbbd18c" category="list-text">[* Quotas* （クォータ） ] ウィンドウの [* Quota Status on Volumes] （ボリュームのクォータステータス）タブで、クォータのサイズを変更する 1 つ以上のボリュームを選択します。</block>
   <block id="67853be8737deb58bc419817bcc60e32" category="list-text">[ * サイズ変更 * ] をクリックします。</block>
   <block id="1b00ea755a2dd2cb2e14d542e8c4710b" category="summary">System Manager の Snapshot ポリシーの編集ダイアログボックスを使用して、既存の Snapshot ポリシーについて、スケジュール名、 SnapMirror ラベル、作成される Snapshot コピーの最大数などの詳細を変更できます。</block>
-  <block id="e5e56d5319318b2341ebbe673c448c36" category="doc">Snapshot ポリシーを編集しています</block>
   <block id="42bdca6b4a10db7af12ad82b1b95cdc5" category="list-text">[* 保護 *&gt;] 、 [* Snapshot ポリシー *] の順にクリックします。</block>
   <block id="9f8900c014cd0e80726228076e3734bd" category="list-text">[* Snapshot Policies*] ウィンドウで、変更する Snapshot ポリシーを選択し、 [*Edit*] をクリックします。</block>
   <block id="1347940b8d593811e851b37b57333374" category="list-text">[ * スナップショット・ポリシーの編集 * ] ダイアログ・ボックスで、変更するスケジュールを選択し、 [ * 編集 * ] をクリックします。</block>
-  <block id="a8eeadfc90dd0683d64292441185919c" category="list-text">選択した Snapshot ポリシーに対して行った変更を * Edit Snapshot Policy * （スナップショットポリシーの編集）ダイアログボックスで確認し、 * Save * （保存）をクリックします。</block>
   <block id="184a3589cdb6dc3bf37a337276e986f1" category="summary">ボリュームがいっぱいになってきたら、ボリュームのサイズを増やすか、いくつかの Snapshot コピーを削除するか、または Snapshot リザーブを調整します。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。</block>
   <block id="f08cd1f6b70e639971398975e77c9f1c" category="list-text">自動拡張が設定されたボリュームの場合、ボリュームの増大分に基づいて、ボリュームの自動拡張の上限を変更できます。</block>
   <block id="997c86c334821e8c70188bb4c6effcb4" category="list-text">データ保護ボリュームのサイズは、ミラー関係が解除されている場合やボリュームに対して逆再同期が実行された場合は変更できません。</block>
@@ -6645,11 +6597,9 @@
   <block id="e5e2f833538b1021bce60cd294a0b820" category="list-text">[ * テスト * ] をクリックします。</block>
   <block id="b4df96ee5421c196535d968ddf8dcdbf" category="paragraph">「 Test AutoSupport 」という件名の電子メールメッセージ、または「 AutoSupport subject 」フィールドに入力したテキストが、指定した受信者に送信されます。</block>
   <block id="f74c5364f20437cf47955a7915a1d337" category="summary">System Manager を使用して Snapshot ポリシーを削除できます。1 つ以上のボリュームで使用されている Snapshot ポリシーを削除すると、削除したポリシーで設定されていたそれらのボリュームの Snapshot コピーの作成は実行されなくなります。</block>
-  <block id="a7d11588dead37de554b5968628824c6" category="doc">Snapshot ポリシーを削除しています</block>
   <block id="99627a135d45506911208d4245376c67" category="paragraph">対象の Snapshot ポリシーを使用している各ボリュームとの関連付けを解除しておきます。</block>
   <block id="6b376275e2dcc3e451f8e7909ea9726f" category="list-text">Snapshot ポリシーを選択し、 * Delete * をクリックします。</block>
   <block id="868fca22a8ed51d7ba91fc316db4d185" category="summary">System Manager を使用して、不要になったエクスポートポリシールールを削除できます。</block>
-  <block id="f2ad816f97d17f57e40c015ccbc369d6" category="doc">エクスポートポリシールールを削除しています</block>
   <block id="6f39c47f2d890d89e344e26efe83ddf7" category="list-text">エクスポートルールを削除するエクスポートポリシーを選択します。</block>
   <block id="ba716ac7a721f7d079bd0c45339eb441" category="list-text">[* エクスポートルール * （ * Export Rules * ） ] タブで、削除するエクスポートルールを選択し、 [ * 削除 * （ * Delete * ） ] をクリックします。</block>
   <block id="d2d9f7d8bfca0464734c45662b481536" category="list-text">確認ボックスで、 * 削除 * をクリックします。</block>
@@ -6730,7 +6680,6 @@
   <block id="5097126760b35d647f6c8bf290f44697" category="paragraph">マルチディスクキャリアのディスクに対しては、常に 2 つ以上のホットスペアを用意しておく必要があります。Maintenance Center を使用できるようにし、同時に複数のディスク障害が発生した場合の問題を回避するには、 4 つ以上のホットスペアを用意して安定した運用を確保し、障害が発生したディスクを迅速に交換するようにします。</block>
   <block id="ec5c11fd7d88f25273321a5aa284f85a" category="paragraph">ONTAP では、同時に 2 つのディスクで障害が発生した場合に利用できるホットスペアが 2 つしかないと、障害が発生したディスクとそのキャリアメイトの両方のコンテンツをスペアディスクにスワップできないことがあります。このシナリオを「 a_stalemiate__ 」と呼びます。この場合、 EMS メッセージと AutoSupport メッセージで通知されます。交換用キャリアが使用できるようになったら、 EMS メッセージの説明に従うかテクニカルサポートに問い合わせて、ステールメイトからリカバリする必要があります。</block>
   <block id="4a189c2be9f6660c5dbd0b10ea4ef8ed" category="summary">System Manager を使用して、 Storage Virtual Machine （ SVM ）が関連付けられている優先ドメインコントローラを削除することができます。これは、特定のドメインコントローラが不要になった場合に実行できます。</block>
-  <block id="2982c28f45963de48db5756343b94350" category="doc">優先ドメインコントローラの削除</block>
   <block id="5d52ebcb4f7bc99855811d7cc06affef" category="list-text">[ * ドメイン * ] タブで、 [ * 優先ドメインコントローラー * ] 領域から削除するドメインを選択し、 [ * 削除 * ] をクリックします。</block>
   <block id="08a7e0de6d8f5b9fd469c910c5fee047" category="summary">System Manager を使用してスペアアレイ LUN を別のノードに再割り当てすることで、アグリゲートの容量を拡張することができます。</block>
   <block id="fe676516fee5ba1c0b7644949e052617" category="list-text">アレイ LUN の再割り当ては、次の条件に当てはまる場合に実行できます。</block>
@@ -6739,7 +6688,6 @@
   <block id="6e52da9827ad91f4020b62dc8387df2d" category="list-text">再割り当てするスペアアレイ LUN を選択し、 * assign * をクリックします。</block>
   <block id="d26992f14820bae351ab606c37f0523f" category="list-text">[* アレイ LUN の割り当て * ] ダイアログ・ボックスで ' スペア・アレイ LUN を再割り当てするノードを選択します</block>
   <block id="cd6151f94431cdba04cd29e654a10e6b" category="summary">BranchCache 用に設定された Storage Virtual Machine （ SVM ）でキャッシュサービスを提供する必要がなくなった場合、 System Manager を使用して BranchCache 設定を削除できます。</block>
-  <block id="f3bfc93fbfc68f241729ae40364540ce" category="doc">BranchCache 設定を削除します</block>
   <block id="88d6781cf806384abcd8fe896ee6923f" category="list-text">[*Branch*] タブで、 [*Delete*] をクリックします。</block>
   <block id="6ba17062ed5989dd6bbdd82b1eb34f92" category="paragraph">ハッシュストアから既存のハッシュを削除することもできます。</block>
   <block id="418c104f0137d0a960b1577a7e9dc9ab" category="summary">システムヘルスアラートが発生した場合は、確認して詳細を確認し、原因となった状態を修復して、再発を防止できます。</block>
@@ -6805,8 +6753,6 @@
   <block id="393bef9fec32255f2d27c10f1199fb3c" category="list-text">クラスタのパスワードを入力します。</block>
   <block id="120678e5a211dc88a9bfa7736b5009a4" category="list-text">機能ライセンスキーを入力します。</block>
   <block id="5bf73928262e645254f50ad5c68abff4" category="paragraph">ネットワークページにネットワークの詳細を入力して、クラスタセットアップを続行します。</block>
-  <block id="848e85d6408561c4290237ad58d13aa2" category="summary">System Manager を使用して、不要になった効率化ポリシーを削除できます。</block>
-  <block id="db6840c4ac57767603d2a2c8f07167ad" category="doc">効率化ポリシーを削除する</block>
   <block id="1a27d7477db5f161a28992d68960e4ba" category="paragraph">System Manager を使用すると、不要になった効率化ポリシーを削除できます。</block>
   <block id="d2433fea5579207d85c18bcbd7c4147e" category="paragraph">効率化ポリシーは無効にする必要があります。</block>
   <block id="9c731a18521e0955fbd371ca861f6ea4" category="list-text">削除する効率化ポリシーを選択し、 * Delete * をクリックします。</block>
@@ -6919,7 +6865,6 @@
   <block id="3762942e88a1c968fed15cbaee8df23a" category="list-text">[ * ストレージプール * ] ウィンドウで、 [ * 作成 ] をクリックします。</block>
   <block id="8ec50aa7e25688fea1a99ce36ecb4bec" category="list-text">Create Storage Pool * （ストレージプールの作成 * ）ダイアログボックスで、ストレージプールの名前、ディスクサイズ、ディスク数を指定します。</block>
   <block id="e9787c401aa3e155568248fe0b7bff8c" category="summary">System Manager を使用して効率化ポリシーを有効または無効にできます。</block>
-  <block id="b5914432d8889d248650b2e2c05a64ba" category="doc">効率化ポリシーの有効化または無効化</block>
   <block id="a8462def21b2e5d1ba1ce03e83dd973a" category="list-text">有効または無効にする効率化ポリシーを 1 つ以上選択します。</block>
   <block id="15f259712db9059f5253344c66956ff7" category="list-text">必要に応じて、 * Status * &gt; * Enable * または * Status * &gt; * Disable * をクリックします。</block>
   <block id="3419e8becf774dd78dfb2f713b10da8a" category="list-text">効率化ポリシーを無効にする場合は、確認のチェックボックスをオンにし、 * OK * をクリックします。</block>
@@ -6984,7 +6929,6 @@
   <block id="bd735a70cf27ddabdff0ca40b66e4c6e" category="paragraph">圧縮されていないデータを含む FlexVol に対して重複排除を実行すると、 FlexVol ボリューム内の圧縮されていないブロックがすべてスキャンされ、それらのブロックのそれぞれについてデジタルフィンガープリントが作成されます。</block>
   <block id="c928ead8601f408cfa3b0aad41e6ba0e" category="paragraph">圧縮されたデータがある FlexVol ボリュームで圧縮オプションが無効になっている場合、「 is undo 」コマンドを実行するとスペースの削減効果が得られないことがあります。</block>
   <block id="daa5cd858d9fdadfae4bf5339afe28a1" category="summary">System Manager でアクティブな LDAP クライアントを Storage Virtual Machine （ SVM ）に関連付けると、 LDAP をネームサービスとして使用したり、またはネームマッピングに使用したりすることができます。</block>
-  <block id="0e1a558bd6aa875437005b7e9f219f01" category="doc">アクティブな LDAP クライアントを編集しています</block>
   <block id="263d5dcea7b6aa6f64bf93470236e9e3" category="list-text">[* LDAP 設定 * （ * LDAP Configuration * ） ] ウィンドウで、 [ * 編集（ * Edit ） ] をクリックします</block>
   <block id="406b79ba66439f21b8ff4a3feac4f81b" category="list-text">[ * アクティブ LDAP クライアント * ] ダイアログボックスで、編集する LDAP クライアントを選択し、次のアクションを実行します。</block>
   <block id="76d3404a882fcce2d020a758fbb30904" category="list-text">Active Directory ドメインサーバを変更する。</block>
@@ -7027,7 +6971,6 @@
   <block id="18dd34e5e9a46035616af3552e89a1a8" category="paragraph">NFS サービスを有効にします。</block>
   <block id="342a24c6fa19882f65371f94b04f3531" category="paragraph">NFS サービスを無効にします。</block>
   <block id="915ff4e468789bc17f576a214343d10d" category="paragraph">NFS 設定の編集ダイアログボックスを開きます。このダイアログボックスで、 NFS 設定を編集できます。</block>
-  <block id="72ed10f65d868548e55123419e79d41b" category="paragraph"><block ref="72ed10f65d868548e55123419e79d41b" category="inline-xref-macro-rx"></block></block>
   <block id="639e56fc780a1ee5572e352f38ec17cb" category="summary">System Manager には、クォータを作成、編集、または削除するいくつかの機能が用意されています。ユーザクォータ、グループクォータ、またはツリークォータを作成し、ディスクレベルおよびファイルレベルでクォータ制限を指定できます。すべてのクォータは、ボリューム単位で設定されます。</block>
   <block id="4b73c5f7bf6e75001e15cf783ca63f17" category="doc">クォータ管理</block>
   <block id="ff87a9a76174b2d2d99338b16337f645" category="paragraph">クォータの作成後、次のタスクを実行できます。</block>
@@ -7272,10 +7215,7 @@
   <block id="ee328403697dc41cb9d399be9e948ac5" category="list-text">概要 * タブで、 * カットオーバー * をクリックします。</block>
   <block id="f1f7238ba7ed154f9b34469a9756274a" category="list-text">カットオーバー * （ * Cutover * ）ダイアログボックスで、 * 詳細オプション * （ * Advanced Options * ）をクリックします。</block>
   <block id="4330ad75398ca5fc4b8a556deadc2744" category="list-text">カットオーバー操作とカットオーバー期間を指定します。</block>
-  <block id="51350971264d46e658e8db3a45b99048" category="summary">イニシエータに対して設定されるセキュリティ形式によって、 iSCSI 接続のログインでそのイニシエータに対して実行される認証方法が決まります。System Manager を使用して選択した iSCSI イニシエータのセキュリティ方式を変更することで、そのイニシエータの認証方式を変更することができます。</block>
-  <block id="4b9f85e2e2df428251f8ebbb8635a2f7" category="list-text">[ * イニシエータセキュリティ * ] タブで、イニシエータ・リストから 1 つ以上のイニシエータを選択し、 [ * イニシエータセキュリティ * ] 領域で [ * 編集 * ] をクリックします。</block>
   <block id="f56b6bbb3e17b48f3f4158a3e6003371" category="list-text">セキュリティタイプを変更します。</block>
-  <block id="4b3c75b9d9207d06050c08a2f926665f" category="list-text">[* Initiator Security* （イニシエータセキュリティ * ） ] タブで行った変更を確認します。</block>
   <block id="c8e9033e5faaaadf3419887a2963fcd3" category="summary">System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。</block>
   <block id="4216ad1e709a7634134e14c2170d7512" category="doc">CIFS プロトコル</block>
   <block id="34398df647922ed4e856d03971ee4059" category="summary">System Manager を使用して、ソース SVM からデスティネーション SVM にデータを転送する SVM 関係を作成することができます。SVM 関係を作成すると、ソース SVM とデスティネーション SVM の両方からデータを利用できるため、災害からの復旧に役立ちます。</block>
@@ -7323,7 +7263,6 @@
   <block id="9c105fb059d311c66a4e979852380cb8" category="list-text">[ * その他のアクション * &gt; * クローン * &gt; * 階層の表示 * ] をクリックします。</block>
   <block id="e9539d55c5a6806be673d8f4215a27cb" category="paragraph">少なくとも 1 つの FlexClone 子ボリュームを持つボリュームが表示されます。FlexClone ボリュームは、それぞれの親ボリュームの子として表示されます。</block>
   <block id="9fe22e5e5f64e091ff11eca5337ef7de" category="summary">System Manager を使用して、特定のストレージ管理タスクを実行するスケジュールを削除できます。</block>
-  <block id="4af16baea98444a3c31d468b6f0a61cf" category="doc">スケジュールを削除します</block>
   <block id="3a8b6fcedce10471cc623bd154860a7e" category="list-text">削除するスケジュールを選択し、 * Delete * をクリックします。</block>
   <block id="cdcdccf6b4cea67b1649f64dfc42ff76" category="summary">System Manager を使用して CIFS 共有を作成し、 CIFS ユーザがアクセス可能なフォルダ、 qtree 、またはボリュームを指定できます。</block>
   <block id="a218828013e03d9b77f9be08cba59cdd" category="doc">CIFS 共有を作成する</block>
@@ -7713,7 +7652,6 @@
   <block id="d494208667291d04a5b9661e282bbfbc" category="list-text">System Manager を使用してキャッシュを追加する場合、パーティショニングされた SSD は使用できません。</block>
   <block id="a8416e889da6102accaf0c0db08552a7" category="list-text">サブネットがクラスタ間通信で使用するポートを含むブロードキャストドメインに属している。</block>
   <block id="1ccfa6737bd1bc229a2e8e5b7bb07223" category="summary">System Manager の CIFS ウィンドウを使用して、 CIFS 対応の Storage Virtual Machine （ SVM ）に対して設定されている BranchCache 設定を変更することができます。ハッシュストアのパス、ハッシュストアのサイズ、動作モード、およびサポートする BranchCache のバージョンを変更できます。</block>
-  <block id="273c82477902270c81fef9840db8160d" category="doc">BranchCache 設定の変更</block>
   <block id="ec789284d42f4108e9aca95068448fed" category="list-text">[*Branch*] タブで、 [*Edit*] をクリックします。</block>
   <block id="0729478b31cc0c515f34c38b69e79c61" category="list-text">[* BranchCache 設定の変更 * ] ダイアログボックスで、必要な情報を変更します。</block>
   <block id="0124038a49bcd7a4366281e3362e42ee" category="list-text">ハッシュストアパス</block>
@@ -7763,7 +7701,6 @@
   <block id="7eb994d20f17aff101034fb2aa98b4d3" category="list-text">[ * 構成 *&gt;* ハードウェアキャッシュ *] をクリックします</block>
   <block id="05e8ddd7ab2958a59e0165b679fe9c17" category="list-text">モジュールを変更する場合は、スライダボタンを動かして各モジュールを必要に応じて有効または無効にします。</block>
   <block id="3f9c508148169beed5a6557b37edaed7" category="summary">System Manager を使用して、クラスタから NVMe サブシステムを削除できます。</block>
-  <block id="77757754dc6d2fcba142595eadf9c11c" category="doc">NVMe サブシステムを削除しています</block>
   <block id="7adae752a05476b7751ca4b94e3ebe0e" category="paragraph">NVMe サブシステムを削除すると、次の処理が実行されます。</block>
   <block id="465dec04ae4c68416572ae6cb4ed0746" category="list-text">NVMe サブシステムにホストが設定されている場合、マッピングされているホストは削除されます。</block>
   <block id="b4d97eb2e5d7a0ff8450e6c9b010006c" category="list-text">NVMe サブシステムにネームスペースがマッピングされている場合、マッピングは解除されます。</block>
@@ -7810,7 +7747,6 @@
   <block id="be59e088fde4dbb6bea0ab6b94bb03e1" category="list-text">[* Subnets] タブで、 [* Create] をクリックします。</block>
   <block id="4c684b755a0f356346576b384e62bc99" category="list-text">[ サブネットの作成 *] ダイアログボックスで、名前、サブネット IP アドレスまたはサブネットマスク、 IP アドレスの範囲、ゲートウェイアドレス、ブロードキャストドメインなどのサブネットの詳細を指定します。</block>
   <block id="48854845883e974d20c3247b4aca43d9" category="paragraph">IP アドレスは、範囲で指定することも、複数のアドレスをカンマで区切って指定することも、両方を組み合わせて指定することもできます。</block>
-  <block id="543f8ae0f86303cb05dd3afbfd774eab" category="doc">ロールの編集</block>
   <block id="bb7d13bbb3b4fbf5250b568e80bac3f7" category="paragraph">System Manager を使用して、アクセス制御ロールのコマンドまたはコマンドディレクトリへのアクセスを変更して、指定したコマンドセットのみにユーザのアクセスを制限できます。また、デフォルトのコマンドディレクトリへのロールのアクセスを削除することもできます。</block>
   <block id="7cca22e56f8c45989e0cc1324a653478" category="list-text">[* 役割 * （ * Roles * ） ] ウィンドウで、変更する役割を選択し、 [ 編集（ * Edit ） ] をクリックします。</block>
   <block id="83dbffe81fcc3b4a5596c923cfc13c5a" category="list-text">[ 役割の編集 *] ダイアログボックスで、役割の属性を変更し、 [ * 変更 *] をクリックします。</block>
@@ -7827,7 +7763,6 @@
   <block id="3a1e8450f0726bcccbe022dcf601fdd0" category="list-text">拡張用のスペースを用意したい場合もあります。</block>
   <block id="3d2893e92a7ebac1ee4c0247ed8162de" category="paragraph">たとえば、平均的な利用率が 500IOPS の場合は、制限を 1 、 000IOPS に指定することが考えられます。</block>
   <block id="cb8bdf49106d7b30dd41f2380f55d146" category="summary">System Manager を使用して、デフォルトの認証情報、およびイニシエータ固有のすべての認証情報を表示できます。</block>
-  <block id="a39d0058869c02c68f055a4bc3a11da5" category="doc">イニシエータセキュリティ情報を表示してい</block>
   <block id="e5d5dcf6adf8fa0a2653761cad66aa79" category="list-text">[* iSCSI * ] ウィンドウの [ * イニシエータ・セキュリティ * ] タブで、詳細を確認します。</block>
   <block id="83ba36f9e12be2aeb03cb703832a6612" category="summary">ネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</block>
   <block id="e574c0b5360e4f2f352a412256ec3412" category="doc">ネットワークをセットアップする</block>
@@ -8043,7 +7978,6 @@
   <block id="2bf8b2ae79240474b32812c64b01189f" category="list-text">[ 新しいポリシーグループ *] を選択します</block>
   <block id="d44faf1660b55a79a69ae80618a32547" category="list-text">指定された詳細情報を [* LUN summary] ウィンドウで確認し、 [Next] をクリックします。</block>
   <block id="f9d4712df61a2f97d40fa05e581a6dbe" category="paragraph"><block ref="f9d4712df61a2f97d40fa05e581a6dbe" category="inline-xref-macro-rx"></block></block>
-  <block id="615326e0755d77681b5a9a9f3f13d9ff" category="summary">ONTAP システムには、 SVM ごとに一連の変換ルールが保存されています。各ルールは、パターンとリプレースメントという 2 つの要素で構成されます。変換は該当するリストの先頭から開始され、最初に一致したルールに基づいて実行されます。パターンは UNIX 形式の正規表現です。リプレースメントは、 UNIX の sed プログラムと同様に、パターンの部分式を表すエスケープシーケンスを含む文字列です。</block>
   <block id="c985af8fba9d9fa14f971f90f37de08b" category="doc">ネームマッピングの変換ルール</block>
   <block id="fdd229b59553630eae6caa0098c8c8c2" category="paragraph">ONTAP システムには、 SVM ごとに一連の変換ルールが保存されています。各ルールは、 a_pattern_ と a_replacement _ の 2 つの要素で構成されます。変換は該当するリストの先頭から開始され、最初に一致したルールに基づいて実行されます。パターンは UNIX 形式の正規表現です。リプレースメントは、 UNIX の ed プログラムと同様に、パターンの部分式を表すエスケープシーケンスを含む文字列です。</block>
   <block id="97c1385e84acdf8323725c547cbd4d20" category="doc">ミラーとバックアップ関係を更新しています</block>
@@ -8191,7 +8125,6 @@
   <block id="ac208f4f587c57e7973c5ae4579a00d0" category="list-text">プロトコルを設定する際に、 LUN サイズ、 LUN の OS タイプ、およびホストイニシエータの詳細を指定して FC ストレージまたは FCoE ストレージ用の LUN をプロビジョニングします。</block>
   <block id="91f750dc1743f641bc63ffb38dc8456a" category="paragraph">LIF の作成に失敗した場合は、 FC / FCoE ウィンドウで LIF を作成して FCP サービスを開始できます。</block>
   <block id="9e455ea9ccca57eb62e712c552b33b5f" category="summary">System Manager を使用して、不要になったエクスポートポリシーを削除できます。</block>
-  <block id="01019ff7bcef68e8d809668d2bf27ce2" category="doc">エクスポートポリシーを削除しています</block>
   <block id="77713afc6e05ba58fb96d0f79b402e84" category="list-text">削除するエクスポートポリシーを選択し、 * ポリシーの削除 * をクリックします。</block>
   <block id="5b29a4bed645258625d425d5491c85ba" category="summary">ONTAP では、各ディスクにディスクタイプが関連付けられます。ONTAP では、一部のディスクタイプについて業界標準とは違う名称を使用します。 ONTAP のディスクタイプと業界標準のディスクタイプとの対応を確認し、混乱しないようにしてください。</block>
   <block id="2eb1b97703fa71645954dc4cd48db9d4" category="doc">ONTAP で使用されるディスクタイプ名</block>
@@ -8238,7 +8171,6 @@
   <block id="dcddffb2d8938968d196f6db6875b251" category="summary">System Manager のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。</block>
   <block id="2b20636173a684fa0d66246f2351348f" category="doc">ジャンクションパス</block>
   <block id="2ecd8f5b70a6578805778f50eaeb7b76" category="summary">CIFS のグループポリシー設定は、 System Manager の CIFS ウィンドウで有効または無効にできます。</block>
-  <block id="cae51f6279214bf35e10cae72bf8c1cd" category="doc">CIFS のグループポリシー設定を有効または無効にします</block>
   <block id="7f4f381efd20e77062813084a1c2e97c" category="list-text">[* グループポリシー *] 領域で、有効または無効にするグループポリシー設定を選択し、必要に応じて [*Enable*] または [*Disable*] をクリックします。</block>
   <block id="bb9ff754e140dfb94d115d8dd47f2088" category="summary">ブロードキャストドメインの一部ではない VLAN インターフェイスの MTU サイズを変更するには、 System Manager を使用します。</block>
   <block id="6dc884fcb5d9605e7ee69f4eae2768e6" category="paragraph">管理ポート e0M の MTU サイズは変更しないでください。</block>
@@ -8263,7 +8195,6 @@
   <block id="2d3fcac226e4315d0da468d9b30149c3" category="list-text">* スケジュール名 *</block>
   <block id="b90e01ec7380fad311e47df8277cad70" category="paragraph">スケジュールの名前が表示されます。</block>
   <block id="2fa2eb4255b97c0fe4351f652aa56139" category="summary">DNS を使用すると、ホスト情報を一元的に管理できます。System Manager を使用して、ストレージシステムの DNS ドメイン名を追加または変更できます。ストレージシステムで DDNS を有効にして、 DNS サーバのネームサーバを自動的に更新することもできます。</block>
-  <block id="634b3f4a02dae694c27e49269d0e01da" category="doc">DNS および DDNS の設定を編集します</block>
   <block id="2fbd3d324e5ce41258f7db8be5a7db44" category="paragraph">セキュアな DDNS を使用するために、 Storage Virtual Machine （ SVM ）用の CIFS サーバまたは Active Directory アカウントをセットアップしておく必要があります。</block>
   <block id="1a749ec2aaede0c0495cf907f37e0dae" category="list-text">*DNS Domains and Name Servers* 領域で、 DNS ドメイン名および IP アドレスを追加または変更します。</block>
   <block id="c3ff54cccd4d7ede11cc6a04df6d4acf" category="list-text">DDNS サービス * チェックボックスを選択して DDNS を有効にします。</block>
@@ -8325,7 +8256,6 @@
   <block id="7cc04bec7d4720b1418723a2aa6915df" category="paragraph">クラスタ管理、ノード管理、およびサービスプロセッサ管理の IP アドレス範囲を入力した場合、それらのフィールドの IP アドレスの値を手動で変更することはできません。すべての IP アドレスが IPv4 アドレスであることを確認してください。</block>
   <block id="2389c265c5a2b20d1eec9fa4207667b9" category="list-text">サービスプロセッサ管理のデフォルト値を上書きする場合は、必須のゲートウェイの詳細が入力されていることを確認します。</block>
   <block id="38f0eb0f612b86d404cbdaf0799a8395" category="summary">System Manager を使用して、ストレージシステムで iSCSI サービスを開始または停止できます。</block>
-  <block id="31b927531dd81cf4d33952338642ad48" category="summary">System Manager を使用して、アクセス制御ロールのコマンドまたはコマンドディレクトリへのアクセスを変更して、指定したコマンドセットのみにユーザのアクセスを制限できます。</block>
   <block id="af2ea4d8f843befba34328807ddef7e2" category="paragraph">System Manager を使用して、アクセス制御ロールのコマンドまたはコマンドディレクトリへのアクセスを変更して、指定したコマンドセットのみにユーザのアクセスを制限できます。</block>
   <block id="184d7287e45870df2985a70608171872" category="list-text">変更するロールを選択し、 * 編集 * をクリックします。</block>
   <block id="db9e97c1b3b403653857d8198470a678" category="list-text">ロール属性を変更し、 * 変更 * をクリックします。</block>
@@ -8443,8 +8373,6 @@
   <block id="e0d54eff91f9650f0ed08198f2eb5229" category="paragraph">暗号化キーをリセットできます（ FlexCache を含むピアクラスタで暗号化を有効にしている場合のみ）。</block>
   <block id="f67f87a61d0991e7701741492cf3995e" category="summary">DNS / DDNS サービスウィンドウを使用すると、システムの現在の DNS および DDNS の設定を確認して編集できます。</block>
   <block id="3d9ef472feffd85b9c463c44d910c1c2" category="paragraph">DNS / DDNS 設定の編集ダイアログボックスを開きます。このダイアログボックスを使用して、 DNS または DDNS の詳細を追加または変更できます。DDNS を有効または無効にすることもできます。</block>
-  <block id="dcaa99adb2b512dcefcc83aa133ed31d" category="paragraph"><block ref="dcaa99adb2b512dcefcc83aa133ed31d" category="inline-xref-macro-rx"></block></block>
-  <block id="b3cc891de093d98073e4fd3841dd5f7b" category="paragraph"><block ref="b3cc891de093d98073e4fd3841dd5f7b" category="inline-xref-macro-rx"></block></block>
   <block id="e99d22b4760d070e9e3c4f97c772cd0b" category="summary">Date and Time ウィンドウでは、ストレージシステムの現在の日時設定を確認したり、必要に応じて設定を変更したりできます。</block>
   <block id="ee968b4bb48b7c60fce861d889e807e7" category="paragraph">[ 日時の編集 ] ダイアログボックスが開きます。このダイアログボックスで、タイムサーバを編集できます。</block>
   <block id="9016d5061a6515b14774e6c2825cc3d9" category="paragraph">詳細領域には、ストレージシステムの日付、時刻、タイムゾーン、 NTP サービス、およびタイムサーバに関する情報が表示されます。</block>
@@ -9494,7 +9422,6 @@
   <block id="3ab6bc5ac1b12609fc9392c1e1a6b5a0" category="summary">Data ONTAP 8.1 以降では、特定の ONTAP ディスクタイプは、アグリゲートの作成、アグリゲートへの追加、およびスペアの管理を行う目的において同じタイプとみなされます。ONTAP は、各ディスクタイプに実質的ディスクタイプを割り当てます。実質的ディスクタイプが同じ HDD を混在させることができます。</block>
   <block id="b3d47ed3b076d3c58a78eab91910df57" category="paragraph">Data ONTAP 8.2 以降では 'BSAS ' FSAS ' および ATA のディスクを混在させる場合 'Disk オプション raid.mix.hdd.disktype.capacity` を on に設定する必要がありますFCAL および SAS タイプのディスクを混在させるには 'raid.mix.hdd.disktype.performance オプションを on に設定する必要があります</block>
   <block id="4880832e880aeb65d6f5394281000099" category="paragraph">効率化タブには、クラスタまたはノードについての Storage Efficiency による削減効果が表示されます。使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計を確認できます。クラスタまたは特定のノードを選択して、その Storage Efficiency による削減効果を表示できます。System Manager 9.5 では、使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計の値に Snapshot コピーに使用されているスペースは _not_included です。ただし、 System Manager 9.6 以降では、使用済み論理スペースの合計、使用済み物理スペースの合計、および削減量の合計の値に Snapshot コピーに使用されているスペースが含まれます。</block>
-  <block id="4c7783582f7e304286aea99c2573c927" category="list-text">System Manager 9.6 以降では、 Fabric Pool がサポートされます。</block>
   <block id="d5e5925aeb05519d0dcc6bf9f721a6f0" category="summary">System Manager 9.4 以降では、ストレージの推奨事項に基づいてアグリゲートを作成できます。ただし、ストレージの推奨事項に基づいたアグリゲートの作成が環境でサポートされているかどうかを確認する必要があります。サポートされていない場合は、使用する RAID ポリシーとディスク構成を決定し、アグリゲートを手動で作成する必要があります。</block>
   <block id="10f6b31ca4dfe3975350a50374d83d32" category="list-text">ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。</block>
   <block id="73443c81a17542138d21e74ee8b9c0f6" category="paragraph">NVMe を設定するには、いずれかのノードに NVMe 対応アダプタが少なくとも 1 つ必要です。また、 ONTAP 9.5 以降では、 SVM に関連付けられた HA ペアの各ノードに対して、少なくとも 1 つの NVMe LIF が設定されている必要があります。ペアの各ノードに対して作成できる NVMe LIF の数は 2 つまでです。</block>
@@ -9658,4 +9585,17 @@
   <block id="b58f4629c05c62ab785a00da650796ac" category="section-title">FC サービスまたは FCoE サービスを開始または停止する</block>
   <block id="f0bb3a1069bc693d784499624c92773a" category="section-title">SVM ユーザアカウントをロックまたはロック解除します</block>
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">BranchCache 設定を変更します</block>
+  <block id="771749a6e20af0b46f13345ca0d73d90" category="paragraph">パーマリンク： online-help96-97/ task_adding_snapshot_policies.html サイドバー： ontap/sm-classic/one-help96-97/ concept_snapshot_policies.html</block>
+  <block id="49b2aa5d9f675cc167f13a20b8dadc24" category="paragraph">パーマリンク： online-help96-97/ task_creating_schedules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_schedules.html</block>
+  <block id="1d8eb8bea91806cb28ef22dbdd6e851e" category="paragraph">パーマリンク： online-help96-97/ concept_name_mapping_conversion_rules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_name_mapping.html</block>
+  <block id="4fb2afbe8af194478248e02674cbe5b9" category="paragraph">permalink ： online-help96-97/ concept_schedules_conceptual.html リダイレクト： ontap/sm-classic/one-help96-97/ concept_schedules.html</block>
+  <block id="3b2cc2fd63af627923b149566a66c82e" category="paragraph">パーマリンク： online-help96-97/ task_deleting_schedules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_schedules.html</block>
+  <block id="c9d7387df65f1febd2c553843652db24" category="paragraph">permalink: one-help-96-97/ task_deleting_snapshot_policies.html のサイドバー : online-help-96-97/ concept_snapshot_policies.html</block>
+  <block id="d089350c8a412ee6dac34c766608e2e8" category="paragraph">パーマリンク： online-help96-97/ concept_about_snapshot_policies.html サイドバー： ontap/sm-classic/one-help96-97/ concept_snapshot_policies.html</block>
+  <block id="14e3be33bdd1a20c47cc213727361aad" category="paragraph">パーマリンク： online-help96-97/ task_editing_schedules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_schedules.html</block>
+  <block id="195fda9cec9ed941cfae750134d42244" category="paragraph">パーマリンク： online-help96-97/ reference_name_mapping_window.html サイドバー： ontap/sm-classic/one-help96-97/ concept_name_mapping.html</block>
+  <block id="099dee27776236db030e45109be262c7" category="paragraph">パーマリンク： online-help96-97/ reference_snapshot_policies_window.html サイドバー： ontap/sm-classic/one-help96-97/ concept_snapshot_policies.html</block>
+  <block id="0c9a883234428ad50a9c23ecc28027ee" category="paragraph">パーマリンク： online-help96-97/ reference_protection_policies_window.html サイドバー： ontap/sm-classic/one-help96-97/ concept_protection_policies.html</block>
+  <block id="55e51a87a45e5d1daaac24a8c1baec31" category="paragraph">パーマリンク： online-help96-97/ task_creating_protection_policies_cluster_scope.html サイドバー： ontap/sm-classic/one-help96-97/ concept_protection_policies.html</block>
+  <block id="1e2fad5da3485daaab2754490c76776b" category="paragraph">permalink: one-help-96-97/ task_editing_snapshot_policies.html のサイドバー : online-help-96-97/ concept_snapshot_policies.html</block>
 </blocks>

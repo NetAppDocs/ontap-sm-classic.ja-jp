@@ -1,33 +1,7 @@
 ---
 permalink: online-help-96-97/task_modifying_export_policy_rules.html 
-sidebar: sidebar 
-keywords: system, manager, modify, client, modify, export, policy, rule, online, help 
-summary: System Manager を使用して、指定したクライアントのアクセスプロトコル、およびエクスポートポリシールールのアクセス権限を変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_export_policies.html 
 ---
-= エクスポートポリシールールの変更
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、指定したクライアントのアクセスプロトコル、およびエクスポートポリシールールのアクセス権限を変更できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Policies * （ポリシー * ） ] ペインで、 [* Export Policies （エクスポートポリシー * ） ] をクリックします。
-. [ * エクスポートポリシー * ] ウィンドウで、エクスポートルールを編集するエクスポートポリシーを選択し、 [ * エクスポートルール * ] タブで編集するルールを選択して、 [ * 編集 ] をクリックします。
-. 必要に応じて次のパラメータを変更します。
-+
-** クライアント仕様
-** アクセスプロトコル
-** 詳細を確認
-
-
-. [OK] をクリックします。
-. エクスポートルールの更新された変更が * エクスポートルール * タブに表示されていることを確認します。
-
-
-* 関連情報 *
-
-xref:task_setting_up_cifs.adoc[CIFS をセットアップしています]

@@ -1,34 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_svm_relationships.html 
-sidebar: sidebar 
-keywords: create, svm, relationship, system, manager, transfer, data, online, help 
-summary: System Manager を使用して、ソース SVM からデスティネーション SVM にデータを転送する SVM 関係を作成することができます。SVM 関係を作成すると、ソース SVM とデスティネーション SVM の両方からデータを利用できるため、災害からの復旧に役立ちます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_svm_relationships.html 
 ---
-= SVM 関係を作成
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、ソース SVM からデスティネーション SVM にデータを転送する SVM 関係を作成することができます。SVM 関係を作成すると、ソース SVM とデスティネーション SVM の両方からデータを利用できるため、災害からの復旧に役立ちます。
-
-.作業を開始する前に
-* デスティネーションクラスタとソースクラスタで ONTAP 9.5 以降が実行されている必要があります。
-* デスティネーションクラスタを MetroCluster 構成に含めることはできません。
-* System Manager 9.6 以降では、 Fabric Pool がサポートされます。
-
-
-.手順
-. [ * 保護 * > * SVM 関係 * > * 作成 * ] をクリックします。
-. SVM 関係のタイプを * SVM 関係タイプ * リストから選択します。
-. ソース Storage Virtual Machine * ペインで、クラスタと SVM を選択します。
-. 必要な権限がない SVM を表示するには、 * をクリックしてソースクラスタに移動し * 、必要な権限を指定します。
-. デスティネーション Storage Virtual Machine * ペインで、デスティネーションクラスタに作成する SVM の名前を指定します。
-. ソース SVM の設定をコピーするオプションを選択します。
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* 、保護ポリシーと保護スケジュールを更新し、アグリゲートを選択して、保護関係を初期化します。
-. Save * をクリックして、 SVM 関係を作成します。
-+
-SVM Relationships ： Summary ウィンドウが表示されます。
-
-. [* 完了 * （ Done * ） ] をクリックしてプロセスを完了します。
 

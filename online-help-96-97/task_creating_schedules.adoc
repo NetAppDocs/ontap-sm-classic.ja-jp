@@ -1,48 +1,5 @@
----
-permalink: online-help-96-97/task_creating_schedules.html 
-sidebar: sidebar 
-keywords: create, schedule, time, system, manager, online, help 
-summary: System Manager を使用して、特定の時間または定期的にジョブを実行するようにスケジュールを作成できます。 
----
-= スケジュールを作成
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、特定の時間または定期的にジョブを実行するようにスケジュールを作成できます。
-
-MetroCluster 構成でスケジュールを作成するときは、セカンダリサイト内のクラスタにも同等のスケジュールを作成することを推奨します。
-
-.手順
-. [* 保護 *>* スケジュール *] をクリックします。
-. [ 作成（ Create ） ] をクリックします。
-. [ スケジュールの作成 *] ダイアログボックスで、スケジュール名を指定します。
-. 要件に応じたスケジュールを作成します。
-+
-|===
-| 作成する項目 | 手順 
-
-
- a| 
-日単位または特定の日単位の特定のスケジュール
- a| 
-[*Basic*] を選択し、スケジュールと繰り返しの詳細を指定します（時間と分）。
-
-
-
- a| 
-特定の間隔で実行するスケジュール
- a| 
-[*Interval] を選択し、スケジュールと繰り返しの詳細（日数、時間、分）を指定します。
-
-
-
- a| 
-特定の期間に実行されるスケジュール
- a| 
-[ 詳細設定 *] を選択し、スケジュールと繰り返しの詳細 ( 月、日、曜日、時間、および分 ) を指定します。
-
-|===
-. [ 作成（ Create ） ] をクリックします。
-
+'''
+パーマリンク： online-help96-97/ task_creating_schedules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_schedules.html

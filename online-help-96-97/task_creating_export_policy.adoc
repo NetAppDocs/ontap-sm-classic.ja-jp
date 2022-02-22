@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_export_policy.html 
-sidebar: sidebar 
-keywords: create, export, policy, system, manager, volume, online, help 
-summary: System Manager を使用して、クライアントが特定のボリュームにアクセスできるように、エクスポートポリシーを作成できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_export_policies.html 
 ---
-= エクスポートポリシーを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、クライアントが特定のボリュームにアクセスできるように、エクスポートポリシーを作成できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Policies * （ポリシー * ） ] ペインで、 [* Export Policies （エクスポートポリシー * ） ] をクリックします。
-. [ 作成（ Create ） ] をクリックします。
-. Create Export Policy * ダイアログボックスで、エクスポートポリシーの名前を指定します。
-. 既存のエクスポートポリシーのルールをコピーしてエクスポートポリシーを作成する場合は、 * Copy Rules From * チェックボックスを選択し、 Storage Virtual Machine （ SVM ）とエクスポートポリシーを選択します。
-+
-エクスポートポリシーを作成する場合には、ディザスタリカバリのデスティネーション SVM は選択しないでください。
-
-. ** エクスポートルール ** 領域で、 *Add* をクリックしてエクスポートポリシーにルールを追加します。
-. [ 作成（ Create ） ] をクリックします。
-. 作成したエクスポートポリシーが ［ * エクスポートポリシー * ］ ウィンドウに表示されていることを確認します。
 

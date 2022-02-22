@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_default_security_settings.html 
-sidebar: sidebar 
-keywords: edit, default, security, settings, dialog, box, system, manager, iscsi, online, help 
-summary: System Manager の Edit Default Security ダイアログボックスを使用して、ストレージシステムに接続されている iSCSI イニシエータのデフォルトのセキュリティ設定を編集できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= デフォルトセキュリティ設定の編集
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager の Edit Default Security ダイアログボックスを使用して、ストレージシステムに接続されている iSCSI イニシエータのデフォルトのセキュリティ設定を編集できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [*Protocols* ] ペインで、 [*iSCSI*] をクリックします。
-. [ イニシエータセキュリティ *] タブの [ デフォルトセキュリティ *] 領域で、 [ 編集 *] をクリックします。
-. [ デフォルトセキュリティの編集 *] ダイアログボックスで、セキュリティタイプを変更します。
-+
-CHAP 認証の場合、インバウンド設定に対するユーザ名とパスワードを入力し、確認用にパスワードを再度入力する必要があります。アウトバウンド設定の場合、このログイン情報はオプションです。
-
-. [OK] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_iscsi_window.adoc[iSCSI ウィンドウ]

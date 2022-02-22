@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_ddns.html 
-sidebar: sidebar 
-keywords: enable, disable, ddns, storage, system, manager, online, help 
-summary: System Manager を使用して、ストレージシステムで DDNS を有効または無効にすることができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_dns_ddns_services.html 
 ---
-= DDNS を有効または無効にします
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、ストレージシステムで DDNS を有効または無効にすることができます。
-
-.このタスクについて
-* DNS はデフォルトでは有効になっています。
-* DDNS はデフォルトでは無効になっています。
-* System Manager では、 DNS および DDNS の設定に対する検証チェックは実行されません。
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [*Services*] ペインで、 [*DNS/DDNS *] をクリックします。
-. *DNS/DDNS サービス * ウィンドウで、 * 編集 * をクリックします。
-. Edit DNS/DDNS Settings * ダイアログボックスで、 * DDNS service * チェックボックスをオンにして DDNS を有効にします。
-+
-DDNS を無効にするには、 * DDNS サービス * チェックボックスの選択を解除します。
-
-. [OK] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_dns_ddns_window.adoc[DNS / DDNS サービスウィンドウ]

@@ -1,31 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_efficiency_policies.html 
-sidebar: sidebar 
-keywords: add, efficiency, policy, system, manager, online, help 
-summary: System Manager を使用して効率化ポリシーを追加し、指定したスケジュールやボリュームデータの変更率が指定したしきい値に達したときに、ボリュームに対する重複排除処理を実行することができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_efficiency_policies.html 
 ---
-= 効率化ポリシーを追加します
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して効率化ポリシーを追加し、指定したスケジュールやボリュームデータの変更率が指定したしきい値に達したときに、ボリュームに対する重複排除処理を実行することができます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Policies] ペインで、 [* 効率化ポリシー * ] をクリックします。
-. [ * 追加 ] をクリックし、ポリシー名を指定します。
-. ストレージ効率化ポリシーの実行方法を指定します。
-+
-** [ スケジュール ] を選択し、スケジュール名とスケジュールの詳細を指定します。
-+
-必要に応じて、効率化ポリシーの最大実行時間を指定できます。
-
-** 「 * ChangeLog Threshold * 」を選択し、ボリュームデータの変更についてのしきい値を指定します。
-
-
-. クライアント処理へのパフォーマンスの影響を軽減するには、 QoS ポリシーをバックグラウンドに設定する * チェックボックスを選択します。
-. [ 追加（ Add ） ] をクリックします。
 

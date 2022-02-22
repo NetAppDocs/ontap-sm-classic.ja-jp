@@ -1,30 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_kerberos_realm_configurations.html 
-sidebar: sidebar 
-keywords: edit, kerboros, realm, configuration, system, manager, online, help 
-summary: System Manager を使用して、 Kerberos Realm の設定を Storage Virtual Machine （ SVM ）レベルで編集できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_realm_services.html 
 ---
-= Kerberos Realm の設定の編集
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、 Kerberos Realm の設定を Storage Virtual Machine （ SVM ）レベルで編集できます。
-
-Kerberos Realm 編集ウィザードを使用して、次の属性を変更できます。
-
-* KDC の IP アドレスとポート番号を指定します
-* KDC ベンダーが Microsoft でない場合の管理サーバの IP アドレス
-* パスワードサーバの IP アドレス
-* KDC ベンダーが Microsoft の場合は、 Active Directory サーバの名前と IP アドレス
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* サービス * （ * Services * ） ] ペインで、 [* Kerberos Realm * （ * Kerberos Realm * ） ] をクリック
-. Kerberos Realm * ウィンドウで、変更する Kerberos Realm の設定を選択し、 * Edit * をクリックします。
-. ウィザードの指示に従って、情報を入力または選択します。
-. 詳細を確認し、 [* 終了 ] をクリックしてウィザードを完了します。
 

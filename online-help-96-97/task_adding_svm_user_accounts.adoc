@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_svm_user_accounts.html 
-sidebar: sidebar 
-keywords: system, manager, svm, user, accounts, ass, online, help 
-summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを追加して、ストレージシステムにアクセスするためのユーザのログイン方法を指定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_svm_user_accounts.html 
 ---
-= SVM ユーザアカウントを追加
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを追加して、ストレージシステムにアクセスするためのユーザのログイン方法を指定できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* SVM User Details] ペインで、 [* Users] をクリックします。
-. [ 追加（ Add ） ] をクリックします。
-. ストレージシステムへの接続に使用するユーザ名およびパスワードを指定し、確認のためにパスワードをもう一度入力します。
-. 1 つまたは複数のユーザーログイン方法を追加し、 * 追加 * をクリックします。
-+
-新しい vsadmin アカウント用に、 HTTP をアプリケーションとして使用して証明書で認証するログイン方法が自動的に組み込まれます。
+= 
 
 

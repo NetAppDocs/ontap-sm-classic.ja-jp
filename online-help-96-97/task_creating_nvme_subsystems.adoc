@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_nvme_subsystems.html 
-sidebar: sidebar 
-keywords: create, nvme, subsystem, online, help, system, manager 
-summary: System Manager を使用して、 NVMe サブシステムを作成できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html 
 ---
-= NVMe サブシステムを作成する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、 NVMe サブシステムを作成できます。
-
-.手順
-. [* NVMe subsystems] ウィンドウで [* Create] をクリックします。
-. NVMe サブシステムにエントリを入力します。 Create * window for the following fields ：
-+
-** * SVM *
-+
-ドロップダウンメニューから、サブシステムを作成する SVM を選択します。
-
-** * 名前 *
-+
-サブシステムの名前を入力します。SVM にすでに存在するサブシステム名は使用できません。名前では大文字と小文字が区別され、最大文字数は 96 文字です。特殊文字を使用できます。
-
-** * ホスト OS *
-+
-ドロップダウンメニューから、サブシステムのホスト OS のタイプを選択します。
-
-** * ホスト NQN *
-+
-コントローラに接続されたホストの NQN を入力します。ホスト NQN は、カンマで区切って複数入力できます。
-
-
-
-. [ 保存（ Save ） ] をクリックします。
-+
-NVMe サブシステムが作成され、 NVMe サブシステムのウィンドウが表示されます。
-
-
-
-* 関連情報 *
-
-xref:reference_nvme_subsystems_window.adoc[NVMe サフシステムウイントウ]

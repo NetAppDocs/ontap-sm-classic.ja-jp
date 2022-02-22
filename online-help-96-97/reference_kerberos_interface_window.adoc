@@ -1,51 +1,7 @@
 ---
 permalink: online-help-96-97/reference_kerberos_interface_window.html 
-sidebar: sidebar 
-keywords: kerboros, interface, window, configuration, svm, storage, virtual, machine, command, buttons, online, help 
-summary: Kerberos インターフェイスウィンドウを使用して、 Kerberos を有効にしたり、 Storage Virtual Machine （ SVM ）の Kerberos 設定を編集したりできます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_interface_services.html 
 ---
-= Kerberos インターフェイスウィンドウ
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-Kerberos インターフェイスウィンドウを使用して、 Kerberos を有効にしたり、 Storage Virtual Machine （ SVM ）の Kerberos 設定を編集したりできます。
-
-
-
-== コマンドボタン
-
-* * 編集 * 。
-+
-Kerberos 設定の編集ダイアログボックスを開きます。このダイアログボックスで、 Kerberos を有効にしたり、 SVM に関連付けられている Kerberos 設定を編集したりできます。
-
-* * 更新 *
-+
-ウィンドウ内の情報を更新します。
-
-
-
-
-
-== Kerberos インターフェイスリスト
-
-Kerberos 設定の詳細を表示します。
-
-* * インターフェイス名 *
-+
-SVM の Kerberos 設定に関連付けられている論理インターフェイスを示します。
-
-* * サービスプリンシパル名 *
-+
-Kerberos 設定に一致する SPN （サービスプリンシパル名）を示します。
-
-* * レルム *
-+
-Kerberos 設定に関連付けられている Kerberos Realm の名前を示します。
-
-* * Kerberos ステータス *
-+
-Kerberos が有効になっているかどうかを示します。
+= 
 
 

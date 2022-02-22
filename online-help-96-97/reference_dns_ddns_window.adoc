@@ -1,33 +1,7 @@
 ---
 permalink: online-help-96-97/reference_dns_ddns_window.html 
-sidebar: sidebar 
-keywords: dns, ddns, services, window, command, button, online, help 
-summary: DNS / DDNS サービスウィンドウを使用すると、システムの現在の DNS および DDNS の設定を確認して編集できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_dns_ddns_services.html 
 ---
-= DNS / DDNS サービスウィンドウ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-DNS / DDNS サービスウィンドウを使用すると、システムの現在の DNS および DDNS の設定を確認して編集できます。
-
-
-
-== コマンドボタン
-
-* * 編集 * 。
-+
-DNS / DDNS 設定の編集ダイアログボックスを開きます。このダイアログボックスを使用して、 DNS または DDNS の詳細を追加または変更できます。DDNS を有効または無効にすることもできます。
-
-* * 更新 *
-+
-ウィンドウ内の情報を更新します。
-
-
-
-* 関連情報 *
-
-xref:task_enabling_or_disabling_ddns.adoc[DDNS を有効または無効にします]
-
-xref:task_editing_dns_ddns_settings.adoc[DNS および DDNS の設定を編集します]

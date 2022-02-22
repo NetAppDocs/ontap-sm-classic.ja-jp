@@ -1,54 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_kerberos_realm_configurations.html 
-sidebar: sidebar 
-keywords: create, kerberos, realm, configuration, storage, virtual, machine, svm, online, help 
-summary: クライアントアクセスに Kerberos 認証を使用する場合は、既存の Kerberos Realm を使用するように Storage Virtual Machine （ SVM ）を設定する必要があります。System Manager を使用して Kerberos Realm 設定を作成し、 SVM が NFS に Kerberos セキュリティサービスを使用できるようにすることができます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_realm_services.html 
 ---
-= Kerberos Realm の設定を作成します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-クライアントアクセスに Kerberos 認証を使用する場合は、既存の Kerberos Realm を使用するように Storage Virtual Machine （ SVM ）を設定する必要があります。System Manager を使用して Kerberos Realm 設定を作成し、 SVM が NFS に Kerberos セキュリティサービスを使用できるようにすることができます。
-
-.作業を開始する前に
-* CIFS 共有を使用する場合は CIFS ライセンス、 LDAP サーバを使用する場合は NFS ライセンスがインストールされている必要があります。
-* Active Directory （ Windows 2003 または Windows 2008 ）と DES MD5 暗号化機能が使用可能である必要があります。
-* NTP を設定することで、タイムゾーンを設定し、クラスタ内で時間を同期させておく必要があります。
-+
-これにより、認証エラーを回避できるほか、ログファイルにクラスタ全体で一貫したタイムスタンプが記録されるようになります。
-
-
-
-Kerberos Realm を作成するときは、 Kerberos Realm の作成ウィザードで次の属性を設定する必要があります。
-
-* Kerberos Realm を指定します
-* KDC の IP アドレスとポート番号
-+
-デフォルトのポート番号は 88. です。
-
-* Kerberos Key Distribution Center （ KDC ；キー配布センター）ベンダー
-* KDC ベンダーが Microsoft でない場合の管理サーバの IP アドレス
-* パスワードサーバの IP アドレス
-* KDC ベンダーが Microsoft の場合は、 Active Directory サーバ名と IP アドレス
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* サービス * （ * Services * ） ] ペインで、 [* Kerberos Realm * （ * Kerberos Realm * ） ] をクリック
-. Kerberos Realm * ウィンドウで、 * Create * をクリックします。
-. ウィザードの指示に従って、情報を入力または選択します。
-. 詳細を確認し、 [* 終了 ] をクリックしてウィザードを完了します。
-
-
-* 関連情報 *
-
-xref:task_setting_time_zone_for_cluster.adoc[クラスタのタイムゾーンを設定します]
-
-link:https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["ネットアップテクニカルレポート 4067 ：『 NFS in NetApp ONTAP 』"^]
-
-link:https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["ネットアップテクニカルレポート 4616 ：『 NFS Kerberos in ONTAP with Microsoft Active Directory 』"^]
-
-link:https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["ネットアップテクニカルレポート 4835 ：『 How to Configure LDAP in ONTAP 』"^]

@@ -1,36 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_ldap_client_configuration.html 
-sidebar: sidebar 
-keywords: online, help, system, manager, ldap, online, help, cluster, level, storage, virtual, machine, client, configuration 
-summary: LDAP サービスを使用する場合は、 System Manager を使用して LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで追加できます。LDAP サービスを使用するには、最初に LDAP クライアントを設定する必要があります。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ldap_client_services.html 
 ---
-= LDAP クライアント設定を追加します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-LDAP サービスを使用する場合は、 System Manager を使用して LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで追加できます。LDAP サービスを使用するには、最初に LDAP クライアントを設定する必要があります。
-
-SVM レベルでは、選択した SVM に対してのみ LDAP クライアントを追加できます。
-
-.手順
-. 次のいずれかの方法で LDAP クライアント設定を追加します。
-+
-** クラスタレベル： * をクリックしますimage:../media/advanced_options.gif[""]*>*LDAP* 。
-** SVM レベル： * SVM * > * SVM 設定 * > * LDAP クライアント * をクリックします。
-
-
-. [ 追加（ Add ） ] をクリックします。
-. LDAP クライアントの名前を入力します。
-. Active Directory ドメインまたは LDAP サーバのいずれかを追加します。
-. をクリックします image:../media/advanced_options.gif[""] （詳細オプション）、 * スキーマ * を選択し、 * 適用 * をクリックします。
-. [*Base DN*] と [*TCP Port*] を指定します。
-. バインド * をクリックし、認証の詳細を指定します。
-. [ 保存して閉じる ] をクリックします。
-. 追加した LDAP クライアントが表示されていることを確認します。
-
-
-* 関連情報 *
-
-xref:concept_ldap.adoc[LDAP]

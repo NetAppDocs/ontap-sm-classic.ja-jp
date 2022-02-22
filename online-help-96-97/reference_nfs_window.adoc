@@ -1,51 +1,7 @@
 ---
 permalink: online-help-96-97/reference_nfs_window.html 
-sidebar: sidebar 
-keywords: nfs, window, online, help, display, configure, settings, command, buttons 
-summary: NFS ウィンドウを使用して、 NFS 設定を表示および設定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nfs_protocol.html 
 ---
-= NFS ウィンドウ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-NFS ウィンドウを使用して、 NFS 設定を表示および設定できます。
-
-* * サーバーステータス *
-+
-NFS サービスのステータスが表示されます。このサービスは、 Storage Virtual Machine （ SVM ）で NFS プロトコルが設定されている場合に有効になります。
-
-+
-[NOTE]
-====
-Data ONTAP 8.1.x を実行する NFS 対応のストレージシステムから ONTAP 8.3 以降にアップグレードした場合、 ONTAP 8.3 以降で NFS サービスが有効になります。ただし、 NFSv2 のサポートは廃止されたため、 NFSv3 または NFSv4 のサポートを有効にする必要があります。
-
-====
-
-
-
-
-== コマンドボタン
-
-* * 有効 *
-+
-NFS サービスを有効にします。
-
-* * 無効 *
-+
-NFS サービスを無効にします。
-
-* * 編集 * 。
-+
-NFS 設定の編集ダイアログボックスを開きます。このダイアログボックスで、 NFS 設定を編集できます。
-
-* * 更新 *
-+
-ウィンドウ内の情報を更新します。
-
-
-
-* 関連情報 *
-
-xref:task_editing_nfs_settings.adoc[NFS 設定を編集しています]

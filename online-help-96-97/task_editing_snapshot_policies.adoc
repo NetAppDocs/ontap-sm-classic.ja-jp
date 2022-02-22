@@ -1,21 +1,5 @@
----
-permalink: online-help-96-97/task_editing_snapshot_policies.html 
-sidebar: sidebar 
-keywords: edit, snapshot, policies, online, help, snapmirror, copies, system, manager 
-summary: System Manager の Snapshot ポリシーの編集ダイアログボックスを使用して、既存の Snapshot ポリシーについて、スケジュール名、 SnapMirror ラベル、作成される Snapshot コピーの最大数などの詳細を変更できます。 
----
-= Snapshot ポリシーを編集しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager の Snapshot ポリシーの編集ダイアログボックスを使用して、既存の Snapshot ポリシーについて、スケジュール名、 SnapMirror ラベル、作成される Snapshot コピーの最大数などの詳細を変更できます。
-
-.手順
-. [* 保護 *>] 、 [* Snapshot ポリシー *] の順にクリックします。
-. [* Snapshot Policies*] ウィンドウで、変更する Snapshot ポリシーを選択し、 [*Edit*] をクリックします。
-. [ * スナップショット・ポリシーの編集 * ] ダイアログ・ボックスで、変更するスケジュールを選択し、 [ * 編集 * ] をクリックします。
-. [OK] をクリックします。
-. 選択した Snapshot ポリシーに対して行った変更を * Edit Snapshot Policy * （スナップショットポリシーの編集）ダイアログボックスで確認し、 * Save * （保存）をクリックします。
-
+'''
+permalink: one-help-96-97/ task_editing_snapshot_policies.html のサイドバー : online-help-96-97/ concept_snapshot_policies.html

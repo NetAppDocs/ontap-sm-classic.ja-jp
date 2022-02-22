@@ -1,30 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_security_method_for_iscsi_initiators.html 
-sidebar: sidebar 
-keywords: add, security, method, iscsi, initiator, online, help 
-summary: System Manager を使用して、イニシエータを追加し、イニシエータの認証に使用されるセキュリティ方式を指定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= iSCSI イニシエータのセキュリティ方式を追加します
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、イニシエータを追加し、イニシエータの認証に使用されるセキュリティ方式を指定できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [*Protocols* ] ペインで、 [*iSCSI*] をクリックします。
-. [* iSCSI * ] ウィンドウで、 [ * イニシエータ・セキュリティ * ] タブをクリックします。
-. [* Initiator Security* （イニシエータセキュリティ * ） ] 領域で [* Add] をクリックします。
-. イニシエータを認証するためのイニシエータ名とセキュリティ方式を指定します。
-+
-CHAP 認証の場合、インバウンド設定に対するユーザ名とパスワードを入力し、確認用にパスワードを再度入力する必要があります。アウトバウンド設定の場合、このログイン情報はオプションです。
-
-. [OK] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_iscsi_window.adoc[iSCSI ウィンドウ]

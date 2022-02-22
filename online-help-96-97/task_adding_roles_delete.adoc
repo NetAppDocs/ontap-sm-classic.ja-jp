@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_roles_delete.html 
-sidebar: sidebar 
-keywords: add, roles, system, manager, access, control, command, online, help 
-summary: System Manager を使用してアクセス制御ロールを追加し、そのロールのユーザがアクセスできるコマンドまたはコマンドディレクトリを指定できます。また、ロールに付与するコマンドやコマンドディレクトリへのアクセスレベルを制御したり、環境でコマンドやコマンドディレクトリを指定するクエリを指定したりすることもできます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_roles_delete.html 
 ---
-= ロールを追加します
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用してアクセス制御ロールを追加し、そのロールのユーザがアクセスできるコマンドまたはコマンドディレクトリを指定できます。また、ロールに付与するコマンドやコマンドディレクトリへのアクセスレベルを制御したり、環境でコマンドやコマンドディレクトリを指定するクエリを指定したりすることもできます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* SVM User Details] ペインで、 [* Roles] をクリックします。
-. [ 追加（ Add ） ] をクリックします。
-. [ 役割の追加 *] ダイアログボックスで、役割名を指定し、役割属性を追加します。
-. [ 追加（ Add ） ] をクリックします。
 

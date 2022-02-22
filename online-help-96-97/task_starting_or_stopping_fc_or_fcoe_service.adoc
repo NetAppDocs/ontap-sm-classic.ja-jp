@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_starting_or_stopping_fc_or_fcoe_service.html 
-sidebar: sidebar 
-keywords: start, stop, fc, fcor, service, online, help, adaptor 
-summary: FC サービスを使用すると、 LUN で使用する FC ターゲットアダプタを管理できます。System Manager を使用して FC サービスを開始して、アダプタをオンラインにし、ストレージシステム上の LUN にアクセスできるようにすることができます。FC サービスを停止すると FC アダプタはオフラインになり、 LUN にアクセスできなくなります。 
+redirect: ontap-sm-classic/online-help-96-97/concept_fc_fcoe_protocol.html 
 ---
-= FC サービスまたは FCoE サービスを開始または停止しています
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-FC サービスを使用すると、 LUN で使用する FC ターゲットアダプタを管理できます。System Manager を使用して FC サービスを開始して、アダプタをオンラインにし、ストレージシステム上の LUN にアクセスできるようにすることができます。FC サービスを停止すると FC アダプタはオフラインになり、 LUN にアクセスできなくなります。
-
-.作業を開始する前に
-* FC ライセンスがインストールされている必要があります。
-* ターゲットストレージシステムに FC アダプタが存在する必要があります。
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Protocols] ペインで、 [*FC/FCoE*] をクリックします。
-. 必要に応じて、 [ スタート * ] または [ * 停止 * ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_configurationprotocolsfcp.adoc[FC/FCoE ウィンドウ]

@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_using_kerberos_with_nfs_for_strong_security.html 
-sidebar: sidebar 
-keywords: kerboros, nfs, strong, security, online, help 
-summary: Kerberos を使用して SVM と NFS クライアント間の認証を強化すると、セキュアな NFS 通信を実現することができます。NFS に Kerberos を設定すると、 NFS クライアントとストレージシステム間の通信の整合性とセキュリティが向上します。 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_realm_services.html 
 ---
-= NFS で Kerberos を使用してセキュリティを強化する
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-Kerberos を使用して SVM と NFS クライアント間の認証を強化すると、セキュアな NFS 通信を実現することができます。NFS に Kerberos を設定すると、 NFS クライアントとストレージシステム間の通信の整合性とセキュリティが向上します。

@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_efficiency_policies.html 
-sidebar: sidebar 
-keywords: edit, efficiency, policy, system, manager, name, schedule, maximum, online, help 
-summary: System Manager を使用して、ポリシー名、スケジュール名、最大実行時間などの効率化ポリシーの属性を変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_efficiency_policies.html 
 ---
-= 効率化ポリシーの編集
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager を使用して、ポリシー名、スケジュール名、最大実行時間などの効率化ポリシーの属性を変更できます。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Policies] ペインで、 [* 効率化ポリシー * ] をクリックします。
-. [ * 効率化ポリシー * ] ウィンドウで、編集するポリシーを選択し、 [ * 編集 ] をクリックします。
-. 効率化ポリシーの編集 * ダイアログボックスで、必要な変更を行います。
-. [ 保存（ Save ） ] をクリックします。
 
