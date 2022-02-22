@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>NVMe サフシステムウイントウ</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="NVMe サフシステムウイントウ" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/reference_nvme_subsystems_window.html" />
-	<meta property="og:description" content="NVMe サブシステムウィンドウには、クラスタ内の NVMe サブシステムのインベントリリストがデフォルトで表示されます。リストをフィルタして、ある SVM に固有のサブシステムのみを表示することができます。また、 NVMe サブシステムを作成、編集、削除することもできます。このウィンドウにアクセスするには、 S..." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="NVMe サブシステムウィンドウには、クラスタ内の NVMe サブシステムのインベントリリストがデフォルトで表示されます。リストをフィルタして、ある SVM に固有のサブシステムのみを表示することができます。また、 NVMe サブシステムを作成、編集、削除することもできます。このウィンドウにアクセスするには、 S...">
-  <meta name="keywords" content=" nvme, subsystems, window, table, toolbar, online, help, cluster">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ja-jp/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          NVMe サフシステムウイントウ
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">NVMe サフシステムウイントウ</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:32:15 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:24:03 +0000">02/22/2022</time>
     
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5085,115 +5095,8 @@
 </p>
 
 
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph lead">
-<p>NVMe サブシステムウィンドウには、クラスタ内の NVMe サブシステムのインベントリリストがデフォルトで表示されます。リストをフィルタして、ある SVM に固有のサブシステムのみを表示することができます。また、 NVMe サブシステムを作成、編集、削除することもできます。このウィンドウにアクセスするには、 * Storage * &gt; * NVMe * &gt; * subsystems * を選択します。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="#GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB">NVMe サブシステムテーブル</a></p>
-</li>
-<li>
-<p><a href="#SECTION_819274C0AB2341B0915167A78A41F1D8">ツールバー</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="nvme-サブシステムテーブル">NVMe サブシステムテーブル</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>NVMe サブシステムテーブルには、クラスタ内の NVMe サブシステムのインベントリが表示されます。このリストを絞り込むには、「 * SVM * 」フィールドのドロップダウンメニューを使用して、その SVM に関連付けられている NVMe サブシステムのみを表示する SVM を選択します。[<strong>Search] フィールドと [*Filtering</strong>] ドロップダウンメニューを使用して、リストをさらにカスタマイズできます。</p>
-</div>
-<div class="paragraph">
-<p>NVMe サブシステムテーブルには次の列があります。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>* （チェックボックス） *</p>
-<div class="paragraph">
-<p>処理を実行するサブシステムを指定できます。</p>
-</div>
-<div class="paragraph">
-<p>チェックボックスをクリックしてサブシステムを選択し、実行する処理をツールバーでクリックします。</p>
-</div>
-</li>
-<li>
-<p>* 名前 *</p>
-<div class="paragraph">
-<p>サブシステムの名前が表示されます。</p>
-</div>
-<div class="paragraph">
-<p>検索 * フィールドにサブシステム名を入力すると、そのサブシステムを検索できます。</p>
-</div>
-</li>
-<li>
-<p>* ホスト OS *</p>
-<div class="paragraph">
-<p>サブシステムに関連付けられているホスト OS の名前が表示されます。</p>
-</div>
-</li>
-<li>
-<p>* ホスト NQN *</p>
-<div class="paragraph">
-<p>コントローラに接続された NQN が表示されます。NQN が複数ある場合はカンマで区切って表示されます。</p>
-</div>
-</li>
-<li>
-<p>* 関連付けられている NVMe ネームスペース *</p>
-<div class="paragraph">
-<p>サブシステムに関連付けられている NVM ネームスペースの数が表示されます。数字にカーソルを合わせると、関連付けられているネームスペースのパスが表示されます。パスをクリックすると、 [ 名前空間の詳細 ] ウィンドウが表示されます。</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="ツールバー">ツールバー</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>ツールバーは列ヘッダーの上にあります。ツールバーのフィールドとボタンを使用して、さまざまな操作を実行できます。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>* 検索 *</p>
-<div class="paragraph">
-<p>[ * 名前 * ] 列にある値を検索できます。</p>
-</div>
-</li>
-<li>
-<p>* フィルタリング *</p>
-<div class="paragraph">
-<p>リストをフィルタするさまざまな方法をドロップダウンメニューから選択できます。</p>
-</div>
-</li>
-<li>
-<p>* 作成 * 。</p>
-<div class="paragraph">
-<p>NVMe サブシステムの作成ダイアログボックスを開きます。このダイアログボックスで、 NVMe サブシステムを作成できます。</p>
-</div>
-</li>
-<li>
-<p>* 編集 * 。</p>
-<div class="paragraph">
-<p>NVMe サブシステムの編集ダイアログボックスを開きます。このダイアログボックスで、既存の NVMe サブシステムを編集できます。</p>
-</div>
-</li>
-<li>
-<p>* 削除 *</p>
-<div class="paragraph">
-<p>NVMe サブシステムの削除の確認ダイアログボックスを開きます。このダイアログボックスで、既存の NVMe サブシステムを削除できます。</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
+<p>=</p>
 </div>
 
     </article>
@@ -5205,7 +5108,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[NVMe サフシステムウイントウ](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/reference_nvme_subsystems_window.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/reference_nvme_subsystems_window.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_nvme_subsystems_window.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
     </div>

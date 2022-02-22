@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>CIFS をセットアップしています</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="CIFS をセットアップしています" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_setting_up_cifs.html" />
-	<meta property="og:description" content="System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。">
-  <meta name="keywords" content=" set, up, cif, online, help, system, manager, cluster, online, help">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_cifs_protocol.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ja-jp/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          CIFS をセットアップしています
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">CIFS をセットアップしています</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:32:15 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:24:03 +0000">02/22/2022</time>
     
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5085,103 +5095,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。</p>
-</div>
-<div class="ulist">
-<div class="title">作業を開始する前に</div>
-<ul>
-<li>
-<p>ストレージシステムに CIFS のライセンスがインストールされている必要があります。</p>
-</li>
-<li>
-<p>Active Directory ドメインで CIFS を設定する場合には、次の要件を満たす必要があります。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>DNS が有効になっていて、正しく設定されていること。</p>
-</li>
-<li>
-<p>ストレージシステムが、完全修飾ドメイン名（ FQDN ）を使用してドメインコントローラと通信できる</p>
-</li>
-<li>
-<p>クラスタとドメインコントローラ間の時間差（クロックスキュー）が 5 分以内である必要があります。</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Storage Virtual Machine （ SVM ）に設定されているプロトコルが CIFS のみの場合は、次の要件を満たす必要があります。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>ルートボリュームのセキュリティ形式は NTFS である必要があります。</p>
 <div class="paragraph">
-<p>System Manager では、デフォルトでセキュリティ形式が UNIX に設定されます。</p>
-</div>
-</li>
-<li>
-<p>CIFS プロトコルの場合 ' スーパーユーザー・アクセスは 'any' に設定する必要があります</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">手順</div>
-<ol class="arabic">
-<li>
-<p>[ * ストレージ * &gt; * SVMs * ] をクリックします。</p>
-</li>
-<li>
-<p>SVM を選択し、 * SVM 設定 * をクリックします。</p>
-</li>
-<li>
-<p>[* 構成 <strong>] タブで、 [</strong> セットアップ *] をクリックします。</p>
-</li>
-<li>
-<p>[* CIFS Server Setup*] ダイアログ・ボックスの [*General] タブで 'NetBIOS 名と Active Directory ドメインの詳細を指定します</p>
-</li>
-<li>
-<p>[* オプション * ] タブをクリックして、次の操作を実行します。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>SMB 設定領域で、必要に応じて SMB 署名チェックボックスと SMB 暗号化チェックボックスを選択または選択解除します。</p>
-</li>
-<li>
-<p>デフォルトの UNIX ユーザを指定します。</p>
-</li>
-<li>
-<p>[WINS Servers] 領域で、必要な IP アドレスを追加します。</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>[ セットアップ ] をクリックします。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>関連情報 *</p>
-</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p><a href="task_creating_cifs_share.html">CIFS 共有を作成する</a></p>
-</div>
-<div class="paragraph">
-<p><a href="reference_cifs_window.html">CIFS ウィンドウ</a></p>
-</div>
-<div class="paragraph">
-<p><a href="task_editing_volume_properties.html">ボリュームプロパティを編集しています</a></p>
-</div>
-<div class="paragraph">
-<p><a href="task_modifying_export_policy_rules.html">エクスポートポリシールールの変更</a></p>
+<p>=</p>
 </div>
 
     </article>
@@ -5193,7 +5108,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[CIFS をセットアップしています](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_setting_up_cifs.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_setting_up_cifs.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_setting_up_cifs.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
     </div>

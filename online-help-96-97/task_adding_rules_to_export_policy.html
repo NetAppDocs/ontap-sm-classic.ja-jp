@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>エクスポートポリシーにルールを追加します</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="エクスポートポリシーにルールを追加します" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_adding_rules_to_export_policy.html" />
-	<meta property="og:description" content="System Manager を使用してエクスポートポリシーにルールを追加して、データへのクライアントアクセスを定義できます。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="System Manager を使用してエクスポートポリシーにルールを追加して、データへのクライアントアクセスを定義できます。">
-  <meta name="keywords" content=" system, manager, add, rule, export, policy, online, help, data, access">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_export_policies.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ja-jp/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          エクスポートポリシーにルールを追加します
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">エクスポートポリシーにルールを追加します</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:32:15 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:24:03 +0000">02/22/2022</time>
     
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -5093,105 +5103,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>System Manager を使用してエクスポートポリシーにルールを追加して、データへのクライアントアクセスを定義できます。</p>
-</div>
 <div class="paragraph">
-<p>エクスポートルールを追加するエクスポートポリシーを作成しておく必要があります。</p>
-</div>
-<div class="olist arabic">
-<div class="title">手順</div>
-<ol class="arabic">
-<li>
-<p>[ * ストレージ * &gt; * SVMs * ] をクリックします。</p>
-</li>
-<li>
-<p>SVM を選択し、 * SVM 設定 * をクリックします。</p>
-</li>
-<li>
-<p>[* Policies * （ポリシー * ） ] ペインで、 [* Export Policies （エクスポートポリシー * ） ] をクリックします。</p>
-</li>
-<li>
-<p>ルールを追加するエクスポートポリシーを選択し、 * エクスポートルール * タブで * 追加 * をクリックします。</p>
-</li>
-<li>
-<p>[ エクスポートルールの作成 * （ Create Export Rule * ） ] ダイアログボックスで、次の手順を実行します。</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>データへのアクセスを必要とするクライアントを指定します。</p>
-<div class="paragraph">
-<p>複数のクライアントをカンマで区切って指定できます。</p>
-</div>
-<div class="paragraph">
-<p>クライアントは次のいずれかの形式で指定できます。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>ホスト名として、例： host1</p>
-</li>
-<li>
-<p>IPv4 アドレス。たとえば、 10.1.12.24 のように指定します</p>
-</li>
-<li>
-<p>たとえば、 10.1.16.0/255.255.255.0 のように、ネットワークマスクを持つ IPv4 アドレスとして指定します</p>
-</li>
-<li>
-<p>IPv6 アドレスとして。たとえば、 FE80::0202:B3FF:FE1E:8329 のように指定します</p>
-</li>
-<li>
-<p>たとえば、 2001:db8::/32 のように、 IPv6 アドレスをネットワークマスクで指定します</p>
-</li>
-<li>
-<p>ネットグループ。ネットグループ名の前にアットマーク（ @ ）が付いているネットグループ。例： @netgroup</p>
-</li>
-<li>
-<p>先頭にピリオド（ . ）が付いたドメイン名として使用できます。たとえば、 .example.com などです</p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
-</td>
-<td class="content">
-<div class="paragraph">
-<p>10.1.12.10-10.1.12.70 のように、 IP アドレスの範囲を入力することはできません。この形式のエントリはテキスト文字列と解釈され、ホスト名として扱われます。</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>+
-+ IPv4 アドレス「 0.0.0.0 /0 」を入力して、すべてのホストにアクセスできるようにします。</p>
-</div>
-</li>
-<li>
-<p>ルールインデックス番号を変更する場合は、適切なルールインデックス番号を選択します。</p>
-</li>
-<li>
-<p>1 つ以上のアクセスプロトコルを選択します。</p>
-<div class="paragraph">
-<p>アクセスプロトコルを選択しなかった場合、デフォルト値の「 any 」がエクスポートルールに割り当てられます。</p>
-</div>
-</li>
-<li>
-<p>1 つ以上のセキュリティタイプとアクセスルールを選択します。</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>[OK] をクリックします。</p>
-</li>
-<li>
-<p>選択したエクスポートポリシーの * エクスポートルール * タブで、追加したエクスポートルールが表示されていることを確認します。</p>
-</li>
-</ol>
+<p>=</p>
 </div>
 
     </article>
@@ -5203,7 +5116,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[エクスポートポリシーにルールを追加します](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_adding_rules_to_export_policy.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_adding_rules_to_export_policy.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_adding_rules_to_export_policy.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
     </div>

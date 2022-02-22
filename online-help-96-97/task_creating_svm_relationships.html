@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>SVM 関係を作成</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="SVM 関係を作成" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svm_relationships.html" />
-	<meta property="og:description" content="System Manager を使用して、ソース SVM からデスティネーション SVM にデータを転送する SVM 関係を作成することができます。SVM 関係を作成すると、ソース SVM とデスティネーション SVM の両方からデータを利用できるため、災害からの復旧に役立ちます。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="System Manager を使用して、ソース SVM からデスティネーション SVM にデータを転送する SVM 関係を作成することができます。SVM 関係を作成すると、ソース SVM とデスティネーション SVM の両方からデータを利用できるため、災害からの復旧に役立ちます。">
-  <meta name="keywords" content=" create, svm, relationship, system, manager, transfer, data, online, help">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_svm_relationships.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ja-jp/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          SVM 関係を作成
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">SVM 関係を作成</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:32:15 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:24:03 +0000">02/22/2022</time>
     
   
 
 <span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-thomi">
     <img  class="avatar avatar-small"
           alt="netapp-thomi"
@@ -5101,57 +5111,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>System Manager を使用して、ソース SVM からデスティネーション SVM にデータを転送する SVM 関係を作成することができます。SVM 関係を作成すると、ソース SVM とデスティネーション SVM の両方からデータを利用できるため、災害からの復旧に役立ちます。</p>
-</div>
-<div class="ulist">
-<div class="title">作業を開始する前に</div>
-<ul>
-<li>
-<p>デスティネーションクラスタとソースクラスタで ONTAP 9.5 以降が実行されている必要があります。</p>
-</li>
-<li>
-<p>デスティネーションクラスタを MetroCluster 構成に含めることはできません。</p>
-</li>
-<li>
-<p>System Manager 9.6 以降では、 Fabric Pool がサポートされます。</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">手順</div>
-<ol class="arabic">
-<li>
-<p>[ * 保護 * &gt; * SVM 関係 * &gt; * 作成 * ] をクリックします。</p>
-</li>
-<li>
-<p>SVM 関係のタイプを * SVM 関係タイプ * リストから選択します。</p>
-</li>
-<li>
-<p>ソース Storage Virtual Machine * ペインで、クラスタと SVM を選択します。</p>
-</li>
-<li>
-<p>必要な権限がない SVM を表示するには、 * をクリックしてソースクラスタに移動し * 、必要な権限を指定します。</p>
-</li>
-<li>
-<p>デスティネーション Storage Virtual Machine * ペインで、デスティネーションクラスタに作成する SVM の名前を指定します。</p>
-</li>
-<li>
-<p>ソース SVM の設定をコピーするオプションを選択します。</p>
-</li>
-<li>
-<p>* をクリックします<span class="image"><img src="../media/nas_bridge_202_icon_settings_olh_96_97.gif" alt=""></span>* 、保護ポリシーと保護スケジュールを更新し、アグリゲートを選択して、保護関係を初期化します。</p>
-</li>
-<li>
-<p>Save * をクリックして、 SVM 関係を作成します。</p>
 <div class="paragraph">
-<p>SVM Relationships ： Summary ウィンドウが表示されます。</p>
-</div>
-</li>
-<li>
-<p>[* 完了 * （ Done * ） ] をクリックしてプロセスを完了します。</p>
-</li>
-</ol>
+<p>=</p>
 </div>
 
     </article>
@@ -5163,7 +5124,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[SVM 関係を作成](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svm_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svm_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_svm_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
     </div>
