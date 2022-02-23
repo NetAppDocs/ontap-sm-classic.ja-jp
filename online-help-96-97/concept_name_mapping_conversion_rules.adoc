@@ -1,5 +1,7 @@
+---
+permalink: online-help-96-97/concept_name_mapping_conversion_rules.html 
+redirect: ontap-sm-classic/online-help-96-97/concept_name_mapping.html 
+---
 = 
 
 
-'''
-パーマリンク： online-help96-97/ concept_name_mapping_conversion_rules.html サイドバー： ontap/sm-classic/one-help96-97/ concept_name_mapping.html
