@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>FlexVol ボリュームの移動の仕組み</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="FlexVol ボリュームの移動の仕組み" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_how_moving_volume_works.html" />
-	<meta property="og:description" content="FlexVol ボリュームの移動の仕組みを理解しておくと、ボリュームの移動がサービスレベル契約を満たすかどうかの判断や、ボリューム移動がボリューム移動プロセスのどの段階にあるかを把握するのに役立ちます。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="FlexVol ボリュームの移動の仕組みを理解しておくと、ボリュームの移動がサービスレベル契約を満たすかどうかの判断や、ボリューム移動がボリューム移動プロセスのどの段階にあるかを把握するのに役立ちます。">
-  <meta name="keywords" content=" flexvol, volume, move, service, level, agreement, process, online, help">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/ja-jp/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/ja-jp/ontap-sm-classic/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/ja-jp/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/ja-jp/ontap-sm-classic/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/ja-jp/ontap-sm-classic/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/ja-jp/ontap-sm-classic/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/ja-jp/ontap-sm-classic/js/na-search.js'></script>
-  
 
-  
-  <script src='/ja-jp/ontap-sm-classic/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/ja-jp/ontap-sm-classic/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/ontap-sm-classic/js/na-search.js'></script><script src='/ja-jp/ontap-sm-classic/js/na-pagenav.js'></script><link rel='stylesheet' href='/ja-jp/ontap-sm-classic/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/ja-jp/ontap-sm-classic/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/ja-jp/ontap-sm-classic/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/ja-jp/ontap-sm-classic/js/toc.js'></script>
-  <script src='/ja-jp/ontap-sm-classic/js/customscripts.js'></script>
-
-  <script>
+  <script src='/ja-jp/ontap-sm-classic/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -148,6 +121,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/ontap/volumes/move-volume-concept.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -158,7 +133,6 @@
   }
   </script>
   <script src='/ja-jp/ontap-sm-classic/js/version-dropdown.js'></script>
-  <script src='/ja-jp/ontap-sm-classic/js/product-family.js'></script>
   <script src='/ja-jp/ontap-sm-classic/js/FileSaver.min.js'></script>
   <script src='/ja-jp/ontap-sm-classic/js/jszip-utils.min.js'></script>
   <script src='/ja-jp/ontap-sm-classic/js/jszip.min.js'></script>
@@ -171,6 +145,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_how_moving_volume_works.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_moving_volume_works.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">このページ</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -4832,7 +4825,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/online-help-96-97/concept_what_nvme_is.html">
         NVMe とは
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html">
-        NVMe サブシステムとは
+        NVMe サブシステムを管理します
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/online-help-96-97/concept_nvme_namespaces.html">
         NVMe ネームスペース
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/online-help-96-97/reference_nvme_namespaces_window.html">
@@ -5027,26 +5020,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">ホーム</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">ドキュメント</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/ja-jp/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          FlexVol ボリュームの移動の仕組み
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -5068,92 +5057,29 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">FlexVol ボリュームの移動の仕組み</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-23 21:34:03 +0000">02/23/2022</time>
+    <time datetime="2022-03-31 17:25:35 +0000">03/31/2022</time>
     
   
-
-<span>寄稿者
-  <a target="_blank" href="https://github.com/netapp-ivanad">
-    <img  class="avatar avatar-small"
-          alt="netapp-ivanad"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/76115643?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-</span>
 
 
 </p>
 
-
-<div class="paragraph lead">
-<p>FlexVol ボリュームの移動の仕組みを理解しておくと、ボリュームの移動がサービスレベル契約を満たすかどうかの判断や、ボリューム移動がボリューム移動プロセスのどの段階にあるかを把握するのに役立ちます。</p>
-</div>
 <div class="paragraph">
-<p>FlexVol ボリュームは、 1 つのアグリゲートまたはノードから同じ Storage Virtual Machine （ SVM ）内の別のアグリゲートまたはノードに移動されます。ボリュームを移動しても、移動中にクライアントアクセスが中断されることはありません。</p>
-</div>
-<div class="paragraph">
-<p>ボリュームの移動は次のように複数のフェーズで行われます。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>新しいボリュームがデスティネーションアグリゲート上に作成されます。</p>
-</li>
-<li>
-<p>元のボリュームのデータが新しいボリュームにコピーされます。</p>
-<div class="paragraph">
-<p>この間、元のボリュームはそのままで、クライアントからアクセス可能です。</p>
-</div>
-</li>
-<li>
-<p>移動プロセスの最後に、クライアントアクセスが一時的にブロックされます。</p>
-<div class="paragraph">
-<p>この間にソースボリュームからデスティネーションボリュームへの最終レプリケーションが実行され、ソースボリュームとデスティネーションボリュームの ID がスワップされ、デスティネーションボリュームがソースボリュームに変更されます。</p>
-</div>
-</li>
-<li>
-<p>移動が完了すると、クライアントトラフィックが新しいソースボリュームにルーティングされ、クライアントアクセスが再開されます。</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>クライアントアクセスのブロックはクライアントが中断とタイムアウトを認識する前に終了するため、移動によってクライアントアクセスが中断されることはありません。デフォルトでは、クライアントアクセスは 35 秒間ブロックされます。アクセスが拒否されている間にボリューム移動操作が完了しなかった場合、この最終フェーズは中止されてクライアントアクセスが許可されます。デフォルトでは、最終フェーズは 3 回試行されます。3 回目の試行後、 1 時間待機してからもう一度最終フェーズのシーケンスが試行されます。ボリューム移動操作の最後のフェーズは、ボリューム移動が完了するまで実行されます。</p>
+<p>=</p>
 </div>
 
     </article>
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[FlexVol ボリュームの移動の仕組み](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_how_moving_volume_works.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_moving_volume_works.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">このページ</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -5255,9 +5181,7 @@
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/ja-jp/ontap-sm-classic/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -5272,7 +5196,4 @@
     </script>
     <script src='/ja-jp/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/ja-jp/ontap-sm-classic/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>
