@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/concept_flexclone_volumes_space_guarantees.html 
-sidebar: sidebar 
-keywords: flexcone, volume, space, guarantee, parent, initial, online, help 
-summary: FlexClone ボリュームの初期スペース保証は親ボリュームから継承されます。たとえば、スペース保証が volume に設定された親ボリュームから FlexClone ボリュームを作成する場合、 FlexClone ボリュームの初期スペース保証も volume になります。FlexClone ボリュームのスペース保証は変更できます。 
+redirect: ontap/volumes/space-reservation-flexclone-files-luns-concept.html 
 ---
-= FlexClone ボリュームとスペースギャランティ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-FlexClone ボリュームの初期スペース保証は親ボリュームから継承されます。たとえば、スペース・ギャランティが「 volume 」である親ボリュームから FlexClone ボリュームを作成すると、 FlexClone ボリュームの初期スペース・ギャランティは「 volume 」になります。FlexClone ボリュームのスペースギャランティは変更できます。
-
-たとえば、スペース・ギャランティが「 volume FlexVol 」で、使用済みスペースが 70 MB 、空きスペースが 30 MB の 100 MB の FlexVol ボリュームを、新しい FlexClone ボリュームの親ボリュームとして使用するとします。新しい FlexClone ボリュームのスペース保証は「 volume 」ですが、ボリュームをコピーした場合と同様に、アグリゲートから 100MB の全スペースが必要とされることはありません。代わりに、アグリゲートはクローンに 30MB の空きスペース（ = 100MB - 70MB ）を割り当てれば済むようになります。
-
-親ボリュームが同じクローンが複数あり、スペース保証が「 volume 」である場合、それらのすべてのクローンは同じ親スペースを共有するため、スペースの削減効果はさらに高まります。
-
-[NOTE]
-====
-共有するスペースは、共有する Snapshot コピー（ FlexClone ボリュームの作成に使用するベース Snapshot コピー）が存在するかどうかによって異なります。この共有 Snapshot コピーを削除した場合、 FlexClone ボリュームによるスペースの削減効果は得られません。
-
-====

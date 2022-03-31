@@ -36,3 +36,18 @@ System Manager の使用中に問題が発生した場合は、テクニカル�
 
 
 
+
+
+
+== システムロギングの仕組み
+
+ System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.
+ Log output can be voluminous and therefore can become difficult to manage. System Manager enables you to refine the logging output by selecting which type of log statements are output. By default, system logging is set to INFO. You can choose one of the following log levels:
+* オフ
+* エラー
+* 警告
+* 情報
+* デバッグ
++
+ These levels function hierarchically. A log level set to OFF indicates no logging of messages.
+

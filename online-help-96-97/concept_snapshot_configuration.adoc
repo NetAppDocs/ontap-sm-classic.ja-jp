@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_snapshot_configuration.html 
-sidebar: sidebar 
-keywords: online, help, snapshot, configuration, copy, policy, flexvol 
-summary: 既存の Snapshot ポリシーにスケジュールを設定することで、 Snapshot コピーを設定できます。ONTAP 9.4 以降では、 FlexVol ボリュームの Snapshot コピーを最大 1024 個まで保持できます。 
+redirect: ontap/concepts/snapshot-copies-concept.html 
 ---
-= Snapshot 設定
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-既存の Snapshot ポリシーにスケジュールを設定することで、 Snapshot コピーを設定できます。ONTAP 9.4 以降では、 FlexVol ボリュームの Snapshot コピーを最大 1024 個まで保持できます。

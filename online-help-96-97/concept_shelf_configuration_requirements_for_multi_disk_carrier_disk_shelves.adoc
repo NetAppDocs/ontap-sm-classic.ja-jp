@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html 
-sidebar: sidebar 
-keywords: shelf, configuration, requirements, multi, disk, carrier, storage, shelves, online, help 
-summary: マルチディスクキャリアのディスクシェルフとシングルディスクキャリアのディスクシェルフ（標準のディスクシェルフ）を、同じストレージシステムの同じスタック内に混在させることができます。 
+redirect: ontap/disks-aggregates/add-disks-node-task.html 
 ---
-= マルチディスクキャリアのストレージシェルフのシェルフ構成に関する要件
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-マルチディスクキャリアのディスクシェルフとシングルディスクキャリアのディスクシェルフ（標準のディスクシェルフ）を、同じストレージシステムの同じスタック内に混在させることができます。

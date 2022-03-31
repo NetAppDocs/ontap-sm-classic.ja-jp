@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_netapp_volume_encryption_is.html 
-sidebar: sidebar 
-keywords: netApp, volume, encryption, online, help 
-summary: NetApp Volume Encryption は、ユーザデータ（メタデータを含む）をディスクに格納する前に暗号化することでデータを保護するプロセスです。データは復号化され、正しい認証情報が入力された場合にのみユーザに提供されます。 
+redirect: ontap/encryption-at-rest/configure-netapp-volume-encryption-concept.html 
 ---
-= NetApp Volume Encryption とは
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-NetApp Volume Encryption は、ユーザデータ（メタデータを含む）をディスクに格納する前に暗号化することでデータを保護するプロセスです。データは復号化され、正しい認証情報が入力された場合にのみユーザに提供されます。
-
-データを暗号化するには暗号化キーが必要です。各ボリュームには、データの暗号化 / 復号化処理に使用する暗号化キーが割り当てられます。
-
-アグリゲートで NetApp Aggregate Encryption が有効になっている場合、新しいボリュームはデフォルトで暗号化されます。ボリューム暗号化は、デフォルトの暗号化設定よりも優先されます。
-
-[NOTE]
-====
-選択したアグリゲートが暗号化されている場合、ボリュームをまたぐストレージ削減率に影響します。
-
-====

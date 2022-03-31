@@ -1,17 +1,7 @@
 ---
 permalink: online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html 
-sidebar: sidebar 
-keywords: online, help, spare, requirements, multi, disk, carrier, storage, redundancy 
-summary: ストレージの冗長性を最適化し、 ONTAP によるディスクコピーの所要時間を最小限に抑えて、最適なディスクレイアウトを実現するためには、マルチディスクキャリアのディスクに対して適切な数のスペアを用意しておくことが不可欠です。 
+redirect: ontap/disks-aggregates/hot-spare-disks-work-concept.html 
 ---
-= マルチディスクキャリアのディスクのスペアに関する要件
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ストレージの冗長性を最適化し、 ONTAP によるディスクコピーの所要時間を最小限に抑えて、最適なディスクレイアウトを実現するためには、マルチディスクキャリアのディスクに対して適切な数のスペアを用意しておくことが不可欠です。
-
-マルチディスクキャリアのディスクに対しては、常に 2 つ以上のホットスペアを用意しておく必要があります。Maintenance Center を使用できるようにし、同時に複数のディスク障害が発生した場合の問題を回避するには、 4 つ以上のホットスペアを用意して安定した運用を確保し、障害が発生したディスクを迅速に交換するようにします。
-
-ONTAP では、同時に 2 つのディスクで障害が発生した場合に利用できるホットスペアが 2 つしかないと、障害が発生したディスクとそのキャリアメイトの両方のコンテンツをスペアディスクにスワップできないことがあります。このシナリオを「 a_stalemiate__ 」と呼びます。この場合、 EMS メッセージと AutoSupport メッセージで通知されます。交換用キャリアが使用できるようになったら、 EMS メッセージの説明に従うかテクニカルサポートに問い合わせて、ステールメイトからリカバリする必要があります。

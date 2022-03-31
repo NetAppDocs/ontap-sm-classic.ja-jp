@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_type.html 
-sidebar: sidebar 
-keywords: igroup, type, iscsi, fc, fcoe, online, help, mixed 
-summary: igroup タイプは、 mixed タイプ、 iSCSI 、または FC/FCoE に設定できます。 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= igroup タイプ
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-igroup タイプは、 mixed タイプ、 iSCSI 、または FC/FCoE に設定できます。

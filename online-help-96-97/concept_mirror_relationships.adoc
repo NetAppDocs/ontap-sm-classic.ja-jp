@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_mirror_relationships.html 
-sidebar: sidebar 
-keywords: system, manager, create, manage, mirror, relationship, policy, online, help 
-summary: System Manager を使用して、ミラーポリシーに基づいてミラー関係を作成および管理できます。 
+redirect: ontap/concept_dp_overview.html 
 ---
-= ミラー関係
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用して、ミラーポリシーに基づいてミラー関係を作成および管理できます。

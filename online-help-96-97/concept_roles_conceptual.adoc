@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_roles_conceptual.html 
-sidebar: sidebar 
-keywords: role, access, control, user, system, predefined, modify, delete, account, restrictions, online, help 
-summary: アクセス制御ロールを使用して、ユーザのシステムへのアクセスのレベルを制御できます。事前定義されたロールを使用するほか、新しいアクセス制御ロールを作成したり、変更したり、削除したりできます。また、ロールのユーザに対してアカウントの制限も指定できます。 
+redirect: ontap-sm-classic/online-help-96-97/concept_roles.html 
 ---
-= ロール
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-アクセス制御ロールを使用して、ユーザのシステムへのアクセスのレベルを制御できます。事前定義されたロールを使用するほか、新しいアクセス制御ロールを作成したり、変更したり、削除したりできます。また、ロールのユーザに対してアカウントの制限も指定できます。

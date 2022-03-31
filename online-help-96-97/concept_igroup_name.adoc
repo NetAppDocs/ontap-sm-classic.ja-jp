@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_name.html 
-sidebar: sidebar 
-keywords: igroup, name, case, sensitive, requirement, online, help 
-summary: igroup 名は、大文字と小文字を区別した名前で、次のいくつかの条件を満たす必要があります。 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= igroup 名
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-igroup 名は、大文字と小文字を区別した名前で、次のいくつかの条件を満たす必要があります。
-
-igroup 名：
-
-* 1~96 文字で指定します。スペースは使用できません。
-* A~Z と a~z のアルファベット、 0~9 の数字、ハイフン（「 - 」）、アンダースコア（「 _ 」）、コロン（「 : 」）、およびピリオド（「 . 」）を使用できます。
-* 1 文字目はアルファベットか数字にする必要があります。
-
-
-igroup に割り当てる名前は、ホストオペレーティングシステム、ホストファイル、または Domain Name Service （ DNS ；ドメインネームサービス）で使用されるホストの名前とは関係ありません。たとえば、 igroup に aix1 という名前を付けても、 aix1 は、ホストの実際の IP ホスト名（ DNS 名）にはマッピングされません。
-
-[NOTE]
-====
-igroup には、マッピングされた LUN にアクセスできるホストについて説明するわかりやすい名前を指定すると便利です。
-
-====

@@ -1,15 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_ostype.html 
-sidebar: sidebar 
-keywords: ostype, igroup, host, operating, system, initiator, solaris, windows, hpux, aix, netware, xen, hyper v, vmware, linux, online, help 
-summary: ostype は、 igroup のすべてのイニシエータによって使用されるホスト OS のタイプを表します。igroup のすべてのイニシエータは、同じ ostype にする必要があります。イニシエータの ostype の値は、 solaris 、 windows 、 hpux 、 aix 、 netware 、 xen 、 hyper_v 、 vmware 、および linux です。 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= igroup の ostype
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ostype は、 igroup のすべてのイニシエータによって使用されるホスト OS のタイプを表します。igroup のすべてのイニシエータは、同じ ostype にする必要があります。イニシエータの ostype は '`olaris 'Windows'hpux 'AIX 'NetWare ' です 「 xen 」、「 hyper_v 」、「 vmware 」、「 linux 」
-
-igroup の ostype を選択する必要があります。

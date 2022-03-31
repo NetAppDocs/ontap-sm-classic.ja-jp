@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_setting_up_cluster_manually.html 
-sidebar: sidebar 
-keywords: online, help, system, manager, cluster, node, management, event, notification 
-summary: System Manager を使用してクラスタを手動でセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。 
+redirect: ontap/system-admin/system-manager-concept.html 
 ---
-= クラスタを手動でセットアップする
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager を使用してクラスタを手動でセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。
