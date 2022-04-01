@@ -1,19 +1,7 @@
 ---
 permalink: online-help-96-97/reference_windows_layout.html 
-sidebar: sidebar 
-keywords: system, manager, window, layout, online, help 
-summary: 一般的なウィンドウレイアウトを理解しておくと、 System Manager を効果的に操作して使用できるようになります。 
+redirect: ontap-sm-classic/online-help-96-97/index.html 
 ---
-= System Manager ウィンドウのレイアウト
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-一般的なウィンドウレイアウトを理解しておくと、 System Manager を効果的に操作して使用できるようになります。
-
-
-
-== System Manager ウィンドウの一般的なレイアウト
-
-image::../media/sample_window_new_for_9_6.gif[9 6 用の新しいウィンドウの例]
