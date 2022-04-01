@@ -44,9 +44,9 @@ ONTAP NFS および SMB プロトコルの機能の範囲に関する詳細に�
 
 | ONTAP のコマンドラインインターフェイス | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html["CLI を使用した SMB の設定の概要"^]
 
+link:https://docs.netapp.com/us-en/ontap/nfs-config/index.html["CLI を使用した NFS の設定の概要"^]
 
+link:https://docs.netapp.com/us-en/ontap/nfs-admin/security-styles-their-effects-concept.html["セキュリティ形式とその影響とは"^]
 
-
-
- 
+link:https://docs.netapp.com/us-en/ontap/nfs-admin/case-sensitivity-file-directory-multiprotocol-concept.html["マルチプロトコル環境でのファイル名とディレクトリ名の大文字と小文字の区別"^] 
 |===

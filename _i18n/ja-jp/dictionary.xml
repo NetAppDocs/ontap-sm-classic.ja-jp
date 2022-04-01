@@ -1970,24 +1970,8 @@
   <block id="9be5107b34684c6d6f07fc8f3a5e7912" category="list-text">SVM の複数のボリュームまたは qtree に同じエクスポートポリシーを割り当て、同一のクライアントアクセス制御を実行する。ボリュームまたは qtree ごとに新しいエクスポートポリシーを作成する必要はありません。</block>
   <block id="515cefadfd6af4f7ede12a8911a09780" category="paragraph">クライアントが適用可能なエクスポートポリシーで許可されていないアクセス要求を行うと、権限拒否のメッセージが表示され、その要求は失敗します。クライアントがエクスポートポリシーのどのルールにも一致しない場合、アクセスは拒否されます。エクスポートポリシーが空の場合は、すべてのアクセスが暗黙的に拒否されます。</block>
   <block id="5b5a7b680e035cb0a9b7133960d430db" category="paragraph">エクスポートポリシーは、 ONTAP を実行しているシステム上で動的に変更できます。</block>
-  <block id="a97d22a110939965c22ab8951485f48b" category="summary">System Manager を使用して、ウィンドウレイアウトをカスタマイズできます。ウィンドウをカスタマイズすることによって、表示するデータやその表示方法を制御できます。</block>
   <block id="636a8855963f727473bac2df49f2eeb8" category="doc">ウィンドウレイアウトのカスタマイズ</block>
-  <block id="9d0d1e5100cdf0ea84e0c1a69c715320" category="list-text">* 並べ替え *</block>
-  <block id="54573dd2277a0755a87c3dc37a4387e9" category="inline-image-macro">アイコンをクリックしてソートします</block>
-  <block id="94a07ccfcf0a1a20248d2b6768d12cb1" category="inline-image-macro">アイコンをクリックしてソートします</block>
-  <block id="bd1257853afbafebdfe5accdc5ae96e0" category="paragraph">列エントリのソート順序を変更するには、列ヘッダーをクリックします。列見出しをクリックすると、ソート用矢印（<block ref="36e54f6fb7b69323bd3f14b9184edac8" category="inline-image-macro-rx" type="image"></block> および <block ref="077d5c954e01c97b6dc6a898d94802c8" category="inline-image-macro-rx" type="image"></block>）が表示されます。</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* フィルタリング *</block>
-  <block id="05701b7662654f0665f0992019742f34" category="paragraph">フィルタアイコン（<block ref="0d0443b2cfbedaabba8459208eb255b0" category="inline-image-macro-rx" type="image"></block>）をクリックして、指定した条件に一致するエントリのみを表示します。その後、文字フィルタ（ ? ）を使用できます。 または文字列フィルタ（ * ）を使用して検索を絞り込むこともできます。列見出しにマウスポインタを合わせると、フィルタアイコンが表示されます。</block>
-  <block id="5634249a687f6f9e8f10f33996f713e0" category="paragraph">フィルタは 1 つ以上の列に適用できます。</block>
-  <block id="099c10bd400d264498a1a2276b969d9f" category="paragraph">物理サイズまたは使用可能なサイズのフィールドにフィルタを適用すると、単位なしで入力した値はバイト単位とみなされます。たとえば、物理サイズのフィールドに単位を指定せずに「 1000 」を入力すると、 1000 バイトと自動的に判断されます。</block>
-  <block id="ae673d4c2ab28945e3da9c06c5d91553" category="list-text">* 列の表示 / 非表示 *</block>
-  <block id="8f1127f4e11c8b028af2fec42700572a" category="paragraph">列表示アイコン（ *<block ref="6fbaf45a0bdcb30f20f6cb2f70aa2e50" category="inline-image-macro-rx" type="image"></block> 表示 / 非表示 * ）をクリックして、表示する列を選択します。適切な列を選択したら、マウスでドラッグして並べ替えることができます。</block>
-  <block id="7de84206aeb5bf9998fcffd5e132d785" category="list-text">* レイアウトのカスタマイズ *</block>
-  <block id="93a36d30b9bcccd374827e178e266005" category="paragraph">オブジェクトのリスト領域の下部を上下にドラッグすると、ウィンドウのメイン領域のサイズを変更できます。関連オブジェクトのリストパネルやビューのリストパネルの表示と非表示を切り替えることもできます。垂直方向の分割線をドラッグすると、列の幅やウィンドウの他の領域のサイズを変更できます。</block>
-  <block id="184205d666e871fef297df55a2c4cc58" category="list-text">* 検索中 *</block>
-  <block id="ad59505165e7de785e587f6aef45780e" category="paragraph">検索ボックスを使用して、ボリューム、 LUN 、 qtree 、ネットワークインターフェイス、 Storage Virtual Machine （ SVM ）、アグリゲート、ディスク、またはイーサネットポート、あるいはこれらのすべてのオブジェクトを検索できます。結果をクリックすると、そのオブジェクトの場所に移動できます。</block>
-  <block id="694c3d70b13369b037a06ec22b977a84" category="list-text">1 つ以上の「 \ ｛ \\ ？」を含むオブジェクトを検索すると、^ \ | を含むオブジェクトを検索した場合、結果は正しく表示されますが、ページ内の正しい行に移動することはできません。</block>
-  <block id="aa85cd51e1dc17a1c77d803dd48a0161" category="list-text">オブジェクトを検索するときは、疑問符（？ \ ）を使用しないでください。</block>
   <block id="deb3f2a63d57c6bce0c958914fba9a4d" category="summary">システムヘルスアラートの詳細については、 System Alerts （システムアラート）ウィンドウを参照してください。また、アラートの承認、削除、および抑制もこのウィンドウから実行できます。</block>
   <block id="9830254c3fdd4b989ca7485ca0cff864" category="doc">System Alerts （システムアラート）ウィンドウ</block>
   <block id="80caa2ab85b3b639ab4f856b312cb09b" category="list-text">* 確認 *</block>
@@ -2627,10 +2611,7 @@
   <block id="4ad33e0d007341fed44926497c80259b" category="list-text">[ * ネットワーク * ] タブをクリックします。</block>
   <block id="63b92e6d6c29f0dee5081db251b8fbdd" category="list-text">[*IPspaces *] タブで、 [*Create] をクリックします。</block>
   <block id="caa833fee856462c7c2d04fa48804047" category="list-text">Create IPspaces * ダイアログボックスで、作成する IPspace の名前を指定します。</block>
-  <block id="0c977c8bdc810ffe6e4368d55425a607" category="summary">一般的なウィンドウレイアウトを理解しておくと、 System Manager を効果的に操作して使用できるようになります。</block>
   <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager ウィンドウのレイアウト</block>
-  <block id="3baf690fb0b5e2de1652e472abe4ad02" category="section-title">System Manager ウィンドウの一般的なレイアウト</block>
-  <block id="0be0391eece03484130f4d6e6fbd7cd2" category="image-alt">9 6 用の新しいウィンドウの例</block>
   <block id="da1f9aa178114b8d7b3ae1a118b9633f" category="summary">System Manager の LUN の管理タブを使用して、選択した LUN をオンラインにし、ホストで使用できるようにすることができます。</block>
   <block id="ef50835fdda9b89e011ae3fd8bd8a366" category="doc">LUN をオンラインにしています</block>
   <block id="f0f8cd1a811733b198541b3b8c399cfe" category="paragraph">System Manager の * LUN 管理 * タブを使用して、選択した LUN をオンラインにしてホストで使用できるようにすることができます。</block>
@@ -9063,4 +9044,5 @@
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">BranchCache 設定を変更します</block>
   <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">NVMe サブシステムを管理します</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">インターフェイスが属しているサブネットを示します。Mx * 役割 *</block>
+  <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster のスイッチオーバーとスイッチバックについて</block>
 </blocks>

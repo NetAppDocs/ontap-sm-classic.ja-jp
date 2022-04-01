@@ -35,7 +35,7 @@ localhost
 . クラスタとノードの ONTAP のバージョンを比較し、次のいずれかの操作を実行します。
 +
 ** クラスタとノードの ONTAP のバージョンが同じである場合は、アップグレードもダウングレードも不要です。
-** クラスタとノードの ONTAP のバージョンが異なる場合は、を実行します link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["ONTAP をアップグレードします"] 以前のバージョンを実行しているノードまたはを実行できます  新しいバージョンを実行しているノード。
+** クラスタとノードの ONTAP のバージョンが異なる場合は、を実行します link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["ONTAP をアップグレードします"] 以前のバージョンを実行しているノードまたはを実行できます link:https://docs.netapp.com/us-en/ontap/revert/index.html["ONTAP をリバートする"] 新しいバージョンを実行しているノード。
 
 
 
