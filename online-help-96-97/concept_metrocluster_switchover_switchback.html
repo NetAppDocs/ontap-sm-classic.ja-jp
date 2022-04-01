@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>MetroCluster のスイッチオーバーとスイッチバック</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="MetroCluster のスイッチオーバーとスイッチバック" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback.html" />
-	<meta property="og:description" content="System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。">
-  <meta name="keywords" content=" system, manafer, switchover, switchback, metrocluster, cluster, site, online, help"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/ja-jp/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -121,6 +121,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -148,7 +150,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[MetroCluster のスイッチオーバーとスイッチバック](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_metrocluster_switchover_switchback.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
     </div>
@@ -5055,41 +5057,22 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">MetroCluster のスイッチオーバーとスイッチバック</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:24:57 +0000">10/28/2021</time>
+    <time datetime="2022-04-01 20:51:49 +0000">04/01/2022</time>
     
   
 
 
 </p>
 
-<div class="paragraph lead">
-<p>System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。</p>
-</div>
 <div class="paragraph">
-<p>スイッチオーバー処理を使用すると、通常は別のクラスタ（サイト B ）が実行するタスクをクラスタ（サイト A ）がテイクオーバーできます。スイッチオーバー後、テイクオーバーされたクラスタ（サイト B ）を停止して、メンテナンスや修復を実施できます。メンテナンスが完了し、サイト B が稼働して修復タスクが完了したら、スイッチバック処理を開始して修復されたクラスタ（サイト B ）で通常のタスクを再開できます。</p>
-</div>
-<div class="paragraph">
-<p>System Manager では、リモートクラスタサイトのステータスに基づいて 2 種類のスイッチオーバー処理がサポートされます。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>ネゴシエート（計画的）スイッチオーバー：この処理は、クラスタで計画的なメンテナンスを実施する場合や、ディザスタリカバリの手順をテストする場合に開始します。</p>
-</li>
-<li>
-<p>計画外スイッチオーバー：この処理は、クラスタ（サイト B ）で災害が発生し、別のサイトまたはクラスタ（サイト A ）が災害の影響を受けたクラスタのタスクをテイクオーバーして修理とメンテナンスを実施する場合に開始します。</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>どちらのスイッチオーバー処理も、 System Manager で実行する手順は同じです。スイッチオーバーを開始すると、処理が可能かどうかが判断され、ワークロードが適宜調整されます。</p>
+<p>=</p>
 </div>
 
     </article>
