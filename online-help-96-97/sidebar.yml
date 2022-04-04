@@ -133,7 +133,7 @@ entries:
     - title: "[ 構成の更新 ] ウィンドウ"
       url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster のスイッチオーバーとスイッチバック
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
+    url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
     entries:
     - title: MetroCluster のスイッチオーバーとスイッチバックのワークフロー
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -204,16 +204,10 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: ユーザ
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
-  entries:
-  - title: ロール
-    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: ロール
   url: "/online-help-96-97/concept_roles.html"
 - title: ネットワークを管理します
   url: "/online-help-96-97/concept_managing_network.html"
-  entries:
-  - title: "[ ネットワーク ] ウィンドウ"
-    url: "/online-help-96-97/reference_network_window.html"
 - title: IPspace
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: ブロードキャストドメイン
