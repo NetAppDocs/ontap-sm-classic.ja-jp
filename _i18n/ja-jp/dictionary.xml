@@ -9045,4 +9045,5 @@
   <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">NVMe サブシステムを管理します</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">インターフェイスが属しているサブネットを示します。Mx * 役割 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster のスイッチオーバーとスイッチバックについて</block>
+  <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe サブシステムとは</block>
 </blocks>

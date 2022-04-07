@@ -13,7 +13,6 @@ entries:
 - title: ONTAP System Manager の機能拡張
   url: "/online-help-96-97/concept_system_manager_enhancements.html"
 - title: ONTAP System Manager を使用してクラスタをセットアップする
-  url: "/online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html"
   entries:
   - title: テンプレートファイルを使用してクラスタをセットアップします
     url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
@@ -41,16 +40,12 @@ entries:
   url: "/online-help-96-97/task_configuring_system_manager_options.html"
 - title: ONTAP System Manager ログファイルを表示します
   url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-  entries:
-  - title: システムロギングの仕組み
-    url: "/online-help-96-97/concept_how_system_logging_works.html"
 - title: System Manager を使用してクラスタを設定する
   url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
   entries:
   - title: ONTAP System Manager のブラウザベースのグラフィカルインターフェイスを使用してクラスタにアクセスします
     url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
 - title: クラスタをセットアップする
-  url: "/online-help-96-97/task_updating_cluster_name.html"
   entries:
   - title: クラスタ名を更新
     url: "/online-help-96-97/task_updating_cluster_name.html"
@@ -75,7 +70,6 @@ entries:
 - title: ネットワークをセットアップする
   url: "/online-help-96-97/concept_setting_up_network.html"
 - title: 物理ストレージをセットアップする
-  url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
   entries:
   - title: ノードへのディスクの割り当て
     url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
@@ -133,7 +127,7 @@ entries:
     - title: "[ 構成の更新 ] ウィンドウ"
       url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster のスイッチオーバーとスイッチバック
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
+    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
     entries:
     - title: MetroCluster のスイッチオーバーとスイッチバックのワークフロー
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -204,10 +198,16 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: ユーザ
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
+  entries:
+  - title: ロール
+    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: ロール
   url: "/online-help-96-97/concept_roles.html"
 - title: ネットワークを管理します
   url: "/online-help-96-97/concept_managing_network.html"
+  entries:
+  - title: "[ ネットワーク ] ウィンドウ"
+    url: "/online-help-96-97/reference_network_window.html"
 - title: IPspace
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: ブロードキャストドメイン
@@ -546,7 +546,7 @@ entries:
     url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
   - title: NVMe とは
     url: "/online-help-96-97/concept_what_nvme_is.html"
-  - title: NVMe サブシステムを管理します
+  - title: NVMe サブシステムとは
     url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
   - title: NVMe ネームスペース
     url: "/online-help-96-97/concept_nvme_namespaces.html"
