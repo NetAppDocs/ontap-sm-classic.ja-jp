@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>ONTAP System Manager ログファイルを表示しています</title>
+  <title>System Manager ログファイルの表示 - ONTAP 9.7 以前</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="ONTAP System Manager ログファイルを表示しています" />
+  <meta property="og:title" content="System Manager ログファイルの表示 - ONTAP 9.7 以前" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_viewing_system_manager_log_files.html" />
 	<meta property="og:description" content="System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと同じ mlog ディレクトリに保存されています。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[ONTAP System Manager ログファイルを表示しています](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_viewing_system_manager_log_files.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_viewing_system_manager_log_files.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager ログファイルの表示 - ONTAP 9.7 以前](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_viewing_system_manager_log_files.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_viewing_system_manager_log_files.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">ONTAP System Manager ログファイルを表示しています</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager ログファイルの表示 - ONTAP 9.7 以前</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-03-31 17:25:35 +0000">03/31/2022</time>
+    <time datetime="2022-04-09 01:49:03 +0000">04/09/2022</time>
     
   
 
@@ -5359,7 +5359,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</p>
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用しているときに問題が発生した場合は、テクニカルサポートにログファイルを送信して問題のトラブルシューティングを行うことができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
@@ -5414,20 +5414,33 @@
 <div class="sect1">
 <h2 id="システムロギングの仕組み">システムロギングの仕組み</h2>
 <div class="sectionbody">
-<div class="literalblock">
-<div class="content">
-<pre> System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.
- Log output can be voluminous and therefore can become difficult to manage. System Manager enables you to refine the logging output by selecting which type of log statements are output. By default, system logging is set to INFO. You can choose one of the following log levels:
-* オフ
-* エラー
-* 警告
-* 情報
-* デバッグ</pre>
-</div>
+<div class="paragraph">
+<p>システムロギングは、アプリケーションのトラブルシューティングに不可欠なツールです。システムロギングを有効にして、アプリケーションに問題があるときに、その問題を特定できるようにする必要があります。アプリケーションバイナリを変更することなく、 System Manager のロギングを実行時に有効化できます。</p>
 </div>
 <div class="paragraph">
-<p>+
- These levels function hierarchically. A log level set to OFF indicates no logging of messages.</p>
+<p>ログ出力は膨大な量になることがあるため、管理が困難になる可能性があります。System Manager では、出力するログステートメントのタイプを選択することにより、ロギングの出力を絞り込むことができます。デフォルトでは、システムロギングは INFO に設定されます。次のいずれかのログレベルを選択できます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>オフ</p>
+</li>
+<li>
+<p>エラー</p>
+</li>
+<li>
+<p>警告</p>
+</li>
+<li>
+<p>情報</p>
+</li>
+<li>
+<p>デバッグ</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>これらのレベルは階層的に機能します。ログレベルを off に設定すると、メッセージがロギングされません。</p>
 </div>
 </div>
 </div>

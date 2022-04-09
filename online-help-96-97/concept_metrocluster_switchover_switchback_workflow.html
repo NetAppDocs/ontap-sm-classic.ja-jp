@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>MetroCluster のスイッチオーバーとスイッチバックのワークフロー</title>
+  <title>System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="MetroCluster のスイッチオーバーとスイッチバックのワークフロー" />
+  <meta property="og:title" content="System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html" />
 	<meta property="og:description" content="System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[MetroCluster のスイッチオーバーとスイッチバックのワークフロー](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">MetroCluster のスイッチオーバーとスイッチバックのワークフロー</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-01 20:51:49 +0000">04/01/2022</time>
+    <time datetime="2022-04-09 01:49:03 +0000">04/09/2022</time>
     
   
 
@@ -5359,8 +5359,40 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</p>
+<p>ONTAP System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="metrocluster-のスイッチオーバーとスイッチバックについて">MetroCluster のスイッチオーバーとスイッチバックについて</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。</p>
+</div>
+<div class="paragraph">
+<p>スイッチオーバー処理を使用すると、通常は別のクラスタ（サイト B ）が実行するタスクをクラスタ（サイト A ）がテイクオーバーできます。スイッチオーバー後、テイクオーバーされたクラスタ（サイト B ）を停止して、メンテナンスや修復を実施できます。メンテナンスが完了し、サイト B が稼働して修復タスクが完了したら、スイッチバック処理を開始して修復されたクラスタ（サイト B ）で通常のタスクを再開できます。</p>
+</div>
+<div class="paragraph">
+<p>System Manager では、リモートクラスタサイトのステータスに基づいて 2 種類のスイッチオーバー処理がサポートされます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ネゴシエート（計画的）スイッチオーバー：この処理は、クラスタで計画的なメンテナンスを実施する場合や、ディザスタリカバリの手順をテストする場合に開始します。</p>
+</li>
+<li>
+<p>計画外スイッチオーバー：この処理は、クラスタ（サイト B ）で災害が発生し、別のサイトまたはクラスタ（サイト A ）が災害の影響を受けたクラスタのタスクをテイクオーバーして修理とメンテナンスを実施する場合に開始します。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>どちらのスイッチオーバー処理も、 System Manager で実行する手順は同じです。スイッチオーバーを開始すると、処理が可能かどうかが判断され、ワークロードが適宜調整されます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="metrocluster-のスイッチオーバーとスイッチバックのワークフロー">MetroCluster のスイッチオーバーとスイッチバックのワークフロー</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>スイッチオーバーとスイッチバックのワークフローは次の 3 つのフェーズで構成されます。</p>
 </div>
@@ -5408,33 +5440,6 @@
 <div class="content">
 <img src="../media/switchover_switchback_workflow.jpg" alt="スイッチオーバーのスイッチバックワークフロー">
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="metrocluster-のスイッチオーバーとスイッチバックについて">MetroCluster のスイッチオーバーとスイッチバックについて</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。</p>
-</div>
-<div class="paragraph">
-<p>スイッチオーバー処理を使用すると、通常は別のクラスタ（サイト B ）が実行するタスクをクラスタ（サイト A ）がテイクオーバーできます。スイッチオーバー後、テイクオーバーされたクラスタ（サイト B ）を停止して、メンテナンスや修復を実施できます。メンテナンスが完了し、サイト B が稼働して修復タスクが完了したら、スイッチバック処理を開始して修復されたクラスタ（サイト B ）で通常のタスクを再開できます。</p>
-</div>
-<div class="paragraph">
-<p>System Manager では、リモートクラスタサイトのステータスに基づいて 2 種類のスイッチオーバー処理がサポートされます。</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>ネゴシエート（計画的）スイッチオーバー：この処理は、クラスタで計画的なメンテナンスを実施する場合や、ディザスタリカバリの手順をテストする場合に開始します。</p>
-</li>
-<li>
-<p>計画外スイッチオーバー：この処理は、クラスタ（サイト B ）で災害が発生し、別のサイトまたはクラスタ（サイト A ）が災害の影響を受けたクラスタのタスクをテイクオーバーして修理とメンテナンスを実施する場合に開始します。</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>どちらのスイッチオーバー処理も、 System Manager で実行する手順は同じです。スイッチオーバーを開始すると、処理が可能かどうかが判断され、ワークロードが適宜調整されます。</p>
 </div>
 </div>
 </div>
