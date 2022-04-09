@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: configuration, update, system, manager, administration, detail, storage, virtual, machine, svm, online, help, window, tab, node, command, button 
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。 
 ---
-= 設定の更新
+= System Manager を使用した構成の更新 - ONTAP 9.7 以前
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。
+ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。
 
 
 

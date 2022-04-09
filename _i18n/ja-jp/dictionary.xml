@@ -2378,7 +2378,6 @@
   <block id="776949faacf45a2a05e4c1d49bddf235" category="inline-xref-macro">LUN ウィンドウ</block>
   <block id="d7549a1da79cdbdf943651ed7e6190aa" category="paragraph"><block ref="d7549a1da79cdbdf943651ed7e6190aa" category="inline-xref-macro-rx"></block></block>
   <block id="13c1b8619e5d72fc421632cfdcc39164" category="summary">System Manager を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。更新を実行するには、 ONTAP イメージを選択し、 HA ペアのクラスタまたは個々のノードを更新する準備ができているかどうかを確認してから、更新を実行します。</block>
-  <block id="fa6e01d3b59e1a0136053de115cb2d3c" category="doc">MetroCluster 以外の構成でのクラスタの更新</block>
   <block id="a641131755584229b6a82aeeabc83cdb" category="image-alt">クラスタを更新しています</block>
   <block id="06ad2274f297ab67ff2225385dc0f3e8" category="paragraph"><block ref="06ad2274f297ab67ff2225385dc0f3e8" category="inline-link-rx"></block></block>
   <block id="c88e6e91afea3df465ff2b229f5b9093" category="summary">System Manager でストレージプールまたは専用 SSD を追加してキャッシュをプロビジョニングするには、パーティションに分割されたディスクを含まないルート以外の既存の HDD アグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換します。</block>
@@ -2682,7 +2681,6 @@
   <block id="146c2ae8540188e26084e1942b22d86f" category="list-text">削除するクラウド階層を選択し、 * 削除 * をクリックします。</block>
   <block id="32c46b2309e5d7b3868ac1af529fb51f" category="paragraph"><block ref="32c46b2309e5d7b3868ac1af529fb51f" category="inline-xref-macro-rx"></block></block>
   <block id="c42375abef241f8cc5d47f73801e47d1" category="summary">ONTAP 9.1 以降では、 ONTAP System Manager を使用して、クラスタの作成、ノード管理ネットワークやクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことにより、クラスタをセットアップできます。</block>
-  <block id="431932d6dabb125c0e00cae2a2daad5b" category="doc">ONTAP System Manager を使用してクラスタをセットアップする</block>
   <block id="24c55b70cb60ea737551fce8dc6a4609" category="list-text">少なくとも 1 つのノードのノード管理 IP アドレスを設定しておく必要があります。</block>
   <block id="ea1d7923f9022c6548ab796e103bc62c" category="list-text">ノードがデフォルトの HA モードになっている必要があります。</block>
   <block id="695b0c43793257e7d3aa28e9d136bc72" category="list-text">ノードで ONTAP 9.1 以降が実行されている必要があります。</block>
@@ -3896,7 +3894,6 @@
   <block id="d33e46d4771324ab75bbabd073360033" category="paragraph">schedule-time-based または interval] ベースのタイプを指定します。</block>
   <block id="92216aa265077d6f614b1132ca4ace73" category="paragraph">詳細領域には、選択したスケジュールが実行されるタイミングに関する情報が表示されます。</block>
   <block id="bf36b1f68a83ab44ec8857d00bf07123" category="summary">クラスタセットアップの最後のステップはサポートページのセットアップです。このステップでは、イベント通知を設定し、シングルノードクラスタの場合はシステムバックアップも設定します。</block>
-  <block id="2c554c16208064de942fc12a91a69425" category="doc">サポートページのセットアップ</block>
   <block id="48d6f229da37c25d28f2eb8f3ad52b8f" category="paragraph">クラスタとネットワークのセットアップが完了している必要があります。</block>
   <block id="dfccb1b663aff19e64bfc8443b2dab98" category="list-text">メールホスト、 SNMP トラップホスト、または syslog サーバを使用して、イベント通知を設定します。</block>
   <block id="54deedc055027a3f162d218117ee40df" category="paragraph">イベント通知システムを少なくとも 1 つ設定する必要があります。</block>
@@ -3947,7 +3944,6 @@
   <block id="ce99fd1f40a25439cb6244c37ddad5f1" category="list-text">[ 転送を中止する * ] チェックボックスをオンにして、操作を確定します。</block>
   <block id="9b14937d874cffa7b0102b94f2948e6a" category="list-text">転送済みデータを保持する場合は、 * 転送済みデータを保持 * チェックボックスを選択します。</block>
   <block id="bb8ff4695840b5ed0008de0d847a484e" category="summary">System Manager を使用して、シングルノードクラスタを更新できます。</block>
-  <block id="3620000c8528c2a54bf1434015baf50d" category="doc">シングルノードクラスタの更新</block>
   <block id="8c7df3f93f783cb5f0e8c0794bacded8" category="list-text">クラスタで ONTAP 9.4 以降が実行されている必要があります。</block>
   <block id="010c8c583e9f5d5af3598c0df4db8122" category="list-text">ネットアップサポートサイトからネットワーク上の HTTP サーバ、 FTP サーバ、またはローカルシステムにソフトウェアイメージをコピーしておき、ノードからイメージにアクセスできるようにする必要があります。</block>
   <block id="2896283cd3f5ad7547bcbf3c8e1a3f8f" category="paragraph"><block ref="2896283cd3f5ad7547bcbf3c8e1a3f8f" category="inline-link-macro-rx"></block></block>
@@ -4065,7 +4061,6 @@
   <block id="02f8215c1e849d9af974cbbfea3c7ec2" category="paragraph">ソースボリュームとデスティネーションボリュームの間にミラー関係が作成されます。関係を初期化するように選択した場合は、ベース Snapshot コピーがデスティネーションボリュームに転送されます。</block>
   <block id="dbe63deae24a1ac56f258042500b3305" category="summary">System Manager を使用して、 Storage Virtual Machine （ SVM ）に iSCSI プロトコルを設定して、ブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
   <block id="743678d9f4d1e8a05f4a0fd6667f7efe" category="doc">SVM に iSCSI プロトコルを設定</block>
-  <block id="db5c81b0fda6ea83507949af2d378a7d" category="paragraph">System Manager を使用して、 Storage Virtual Machine （ SVM ）に iSCSI プロトコルを設定して、ブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
   <block id="d6c2a820e6d7f75d52b288e7f1ec5734" category="list-text">クラスタで iSCSI ライセンスが有効になっている必要があります。</block>
   <block id="37896c639f865da977570ea72f08b8ec" category="paragraph">SVM で iSCSI プロトコルが有効になっていない場合は、 Storage Virtual Machine の編集ウィンドウを使用して SVM のプロトコルを有効にできます。</block>
   <block id="96222e8bf67f5da9b7b2f526d964507c" category="list-text">クラスタのすべてのノードが正常である必要があります。</block>
@@ -4246,7 +4241,6 @@
   <block id="0c864bb0c752e87d29e6324673d4e512" category="list-text">[* Resume （続行） ] ウィンドウで、 [* Resume （続行） ] をクリックします。</block>
   <block id="3200e503599a54aca3ec6245acc43a6a" category="paragraph">通常のデータ転送が再開されます。関係に対して転送がスケジュールされている場合、その転送は次回のスケジュールから開始されます。</block>
   <block id="84d0f7303009d80900e094798330a9ba" category="summary">System Manager を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。MetroCluster 構成のクラスタも更新できます。</block>
-  <block id="4040ab9508dbaa9e8d9275b7795b4928" category="doc">クラスタの更新</block>
   <block id="4b67916bca2b0da8b959b79534baa6e0" category="summary">System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。</block>
   <block id="ce6677cd15b9999d57d524d7888eb255" category="list-text">新しいグループ名は古いグループ名と同じドメインに作成する必要があります。</block>
   <block id="bf952808344b57c968de6d7ffd92985a" category="list-text">グループ名は次の要件を満たす必要があります。</block>
@@ -4296,7 +4290,6 @@
   <block id="0765cf61b3618e32d2830b1385083816" category="list-text">アンマウントする必要があるボリュームを選択し、 * Unmount * をクリックします。</block>
   <block id="a48b3acfe61223f2de90ea6d8bc20187" category="list-text">確認のチェックボックスをオンにし、 * Unmount * をクリックします。</block>
   <block id="0d1d13459bc7ae92a63cd34caa6fd85f" category="summary">論理ストレージのセットアップでは、 Storage Virtual Machine （ SVM ）とボリュームを作成します。</block>
-  <block id="16df33ef9f8b504fc8624c96e2de218a" category="doc">論理ストレージをセットアップする</block>
   <block id="85f263b355ba27e15920081a6900f202" category="summary">ストレージプールのキャッシュが最適でない場合や、アグリゲートまたは Flash Pool アグリゲートでストレージプールが使用されなくなった場合などに、ストレージプールを削除することができます。System Manager のストレージプールの削除ダイアログボックスを使用して、ストレージプールを削除できます。</block>
   <block id="0a0e81677afb04e83d0af6c92d36e30f" category="paragraph">ストレージプールを使用しているアグリゲートがないことを確認してください。</block>
   <block id="5b8007bf8edf0fd9896110e80e454779" category="list-text">[ * ストレージ * &gt; * アグリゲートとディスク * &gt; * ストレージプール * ] をクリックします。</block>
@@ -4561,7 +4554,6 @@
   <block id="380aacf30b9d9d5e46d2e23835ee2c3f" category="list-text">休止するミラー関係を選択します。</block>
   <block id="3406bf4d129c489b0840176d38ffa1fb" category="list-text">確認のチェックボックスをオンにし、 * 休止 * をクリックします。</block>
   <block id="1116cd5308713dce06806b71a7e197fa" category="summary">System Manager を使用して、クラスタの MetroCluster ローカルサイト（サイト A ）の名前を変更できます。</block>
-  <block id="b0af0806570cc2a75d62782ced9868c0" category="doc">MetroCluster ローカルサイト（サイト A ）の名前変更</block>
   <block id="83519546c0907279c9042a2ad400f3a2" category="list-text">[*Configuration*&gt;*Configuration Updates*] をクリックします。</block>
   <block id="d463cc8cd485894dda55a3f4689dc89c" category="list-text">クラスタ名の更新 * をクリックします。</block>
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">テキストボックスで名前を更新し、 * 送信 * をクリックします。</block>
@@ -4715,8 +4707,6 @@
   <block id="530e5f35c1250f24027e3a75918a7380" category="list-text">[* QoS ポリシーグループ *] ウィンドウで、削除するポリシーグループを選択し、 [ 削除 *] をクリックします。</block>
   <block id="e1899e67aa8aec45bef5dc600fc2ae14" category="list-text">確認ダイアログボックスで、 * 削除 * をクリックします。</block>
   <block id="d46b2937e2285b1f4549b1a899447e11" category="summary">System Manager を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。</block>
-  <block id="c6fd0119fcfdaae262a911539fdc1bb4" category="doc">クラスタを無停止で更新</block>
-  <block id="0d047c979666b9d6c047c96b6b65b350" category="paragraph">System Manager を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。</block>
   <block id="96f1d6d6f65128c740d1450ffd86ce13" category="list-text">すべてのノードが HA ペア構成になっている必要があります。</block>
   <block id="62e49ec5e6accee5e8900e9c4fcce47b" category="list-text">すべてのノードが正常である必要があります。</block>
   <block id="49c254f1ba24d674cf235dd320a4b658" category="list-text">ネットアップサポートサイトからネットワーク上の HTTP サーバまたは FTP サーバにソフトウェアイメージをコピーしておき、ノードからイメージにアクセスできるようにする必要があります。</block>
@@ -5179,8 +5169,6 @@
   <block id="0b801c99e627dccaae3b97d6846f1eea" category="list-text">ステータスを変更する FlexGroup ボリュームを選択します。</block>
   <block id="0e6a0d2a8ea4e5d18ca45142bcf428b3" category="list-text">[ * その他の操作 * &gt; * ステータスを * に変更 ] をクリックし、必要なステータスを選択して FlexGroup ボリュームのステータスを更新します。</block>
   <block id="4746723048665ff6ddc5ddea6ef9dfd3" category="summary">System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと同じ mlog ディレクトリに保存されています。</block>
-  <block id="aa18511ab5934b057566da071e6cee10" category="doc">ONTAP System Manager ログファイルを表示しています</block>
-  <block id="49a3425f87d21efd24a55c0f8d359f98" category="paragraph">System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</block>
   <block id="6e1c5444e96f0a37fca4472284a0e818" category="list-text">クラスタ管理 LIF をホストしているノードを特定します。</block>
   <block id="09941825a6402233683e2b54ac613476" category="list-text">Web ブラウザに「 + https://cluster-mgmt-LIF/spi+` 」と入力します</block>
   <block id="8488024a8aa12e29797c0bd3283035c7" category="paragraph">「 cluster-mgmt-lif 」には、クラスタ管理 LIF の IP アドレスを指定します。</block>
@@ -5391,7 +5379,6 @@
   <block id="c0a1d79467fdd8f3ec33f90066ab406a" category="list-text">LUN をオフラインにする必要があります。</block>
   <block id="b028ef8bf383823463023ed49b260328" category="list-text">LUN をすべてのイニシエータホストからマッピング解除します。</block>
   <block id="63c2df86bcc87328b9b2969baefc5eb0" category="list-text">[* LUN 管理 * ] タブで、削除する LUN を 1 つ以上選択し、 [ * 削除 * ] をクリックします。</block>
-  <block id="1e18da9a7ca059527f937399fcff5ab9" category="doc">テンプレートファイルを使用してクラスタをセットアップ</block>
   <block id="8a3987f2693d326a42a2bc437490bcd9" category="list-text">ONTAP 9.1 以降をサポートするクラスタの場合、 ONTAP 9.1 以降を実行しているストレージシステムのみを追加できます。</block>
   <block id="8df31e503af8a13a8bc867b17351b4c0" category="list-text">ファイルのアップロード時にすべてのフィールドが自動的に入力されるわけではありません。</block>
   <block id="aca1546a662c9a104170769a9c6ca527" category="paragraph">パスワードやクラスタ管理ポートなど、一部のフィールドの値は手動で入力する必要があります。</block>
@@ -6248,7 +6235,6 @@
   <block id="c86216f4a04590f118b1e3a421cc1af1" category="paragraph">qtree が割り当てられているエクスポートポリシーの名前が表示されます。</block>
   <block id="c88a8f3299adb7bb6c32e196cdc527f5" category="paragraph">選択した qtree に関する詳細情報が表示されます。これには、 qtree が含まれているボリュームのマウントパス、エクスポートポリシーの詳細、エクスポートポリシールールなどの情報が含まれます。</block>
   <block id="bb6179eeaaa19115df8e1ebff0fb181b" category="summary">プロビジョニングされたアプリケーションが不要になった場合は削除できます。</block>
-  <block id="54bb3efe7f4aa59e54ab0cb37231cc87" category="doc">アプリケーションを削除しています</block>
   <block id="cf1ec3c79763ae8384e9fd61bf210cbd" category="paragraph">クラスタ管理者は、プロビジョニングしたアプリケーションが不要になった場合に削除することができます。次の手順の例では、 *NAS Container * アプリケーションを削除する方法を説明します。</block>
   <block id="1663a078f54fee1b43b7f8a9f0bee2ce" category="list-text">NAS コンテナアプリケーションの名前をクリックします。</block>
   <block id="1a9e216d1dd67d23362efd23261ff9bd" category="paragraph">[ アプリケーションの詳細： NAS] ウィンドウの [ 概要 *] タブには、アプリケーションの設定が表示されます。</block>
@@ -6309,7 +6295,6 @@
   <block id="ad274ed94386dbe4c75be218ecdb9be8" category="paragraph">選択した関係に関する、ソースクラスタとデスティネーションクラスタ、 SVM に関連付けられている保護関係、データ転送率、関係の状態、ネットワーク圧縮率、データ転送の状態、現在のデータ転送の種類、前回のデータ転送の種類などの一般的な情報が表示されます。 最新の Snapshot コピー、最新の Snapshot コピーのタイムスタンプ、 ID 保持のステータス、保護されているボリュームの数。</block>
   <block id="2cc31f6b82395011aecf0c7fd7ba8b01" category="paragraph">選択した保護関係に割り当てられているポリシーに関する詳細が表示されます。</block>
   <block id="fd8b9922472f611431b669f2111a1682" category="summary">プロビジョニングされたアプリケーションを編集して、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりすることができます。</block>
-  <block id="2de598795d75058cf5747c9d44cbf181" category="doc">アプリケーションの編集</block>
   <block id="4ac5177ba3ff9a481605535de99d471a" category="paragraph">クラスタ管理者は、プロビジョニングしたアプリケーションを編集してストレージサイズを変更できます。また、アプリケーションの Snapshot コピーを作成、リストア、または削除することもできます。次の手順の例では、 * NAS * Container * アプリケーションを編集する方法を説明します。</block>
   <block id="fc4415ee0d1d547e060eaca8f85cf1fc" category="list-text">NAS コンテナアプリケーションの名前をクリックします。</block>
   <block id="8db9af020ea8e402cc02696b243ef29a" category="paragraph">Edit NAS Container-NAS （ NAS コンテナの編集： NAS ）には、現在のストレージサイズ設定と、 *NFS Access-Grant Access to Host* アドレスが表示されます。</block>
@@ -6374,10 +6359,8 @@
   <block id="33ebaf0798e7ca01ef22a5e89b3cb821" category="list-text">SVM * フィールドのドロップダウンメニューから、削除するクォータが配置されている Storage Virtual Machine （ SVM ）を選択します。</block>
   <block id="ede1cd90312d02c6f76edf683fca51e9" category="list-text">削除するクォータを 1 つ以上選択し、 * 削除 * をクリックします。</block>
   <block id="330c5bad0b924f532120259d86b27ed2" category="summary">System Manager を使用して、 IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、ストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ</block>
-  <block id="025953fa42c5815bac2c4fb72f3ed554" category="doc">ネットワークの管理</block>
   <block id="7621005c14d22f767bd63bed4e2745b6" category="summary">System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。</block>
   <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">SnapLock アグリゲートを手動で作成してストレージをプロビジョニングする</block>
-  <block id="6faa7c62a88da19aaebbb091dbe70564" category="paragraph">System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock ライセンスが追加されている必要があります。</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 構成では、 SnapLock エンタープライズアグリゲートのみを作成できます。</block>
   <block id="7f2385194f8b9f77992e74007f1eba1c" category="list-text">アレイ LUN については、 SnapLock Enterprise アグリゲートのみがサポートされます。</block>
@@ -6397,7 +6380,6 @@
   <block id="72472d4e95107f459b5f7705c00a34d3" category="list-text">RAID 構成の変更 * ダイアログボックスで、 RAID タイプと RAID グループサイズを指定します。</block>
   <block id="5ac671d29262870d0e2643a0608fb056" category="paragraph">推奨される RAID グループサイズは HDD の場合が 12~20 ディスク、 SSD の場合が 20~28 ディスクです。</block>
   <block id="1302257e569da026aa67b8e89db540a7" category="summary">System Manager を使用して、 MetroCluster 構成のクラスタを更新できます。クラスタの更新以外の処理は、すべて両方のクラスタで実行する必要があります。</block>
-  <block id="873b57b6cec694880329d75491cdb052" category="doc">MetroCluster 構成でのクラスタの更新</block>
   <block id="e21d029f0ed2c65ab82ac9c0fa962f8d" category="image-alt">クラスタの MCC 構成を更新しています</block>
   <block id="c12888da863f118d3076981df3c09605" category="summary">System Manager を使用して、 IPspace を作成および管理できます。</block>
   <block id="d686186657dc867241ca2a0f2a61422f" category="doc">IPspace</block>
@@ -7334,7 +7316,6 @@
   <block id="cb8bdf49106d7b30dd41f2380f55d146" category="summary">System Manager を使用して、デフォルトの認証情報、およびイニシエータ固有のすべての認証情報を表示できます。</block>
   <block id="e5d5dcf6adf8fa0a2653761cad66aa79" category="list-text">[* iSCSI * ] ウィンドウの [ * イニシエータ・セキュリティ * ] タブで、詳細を確認します。</block>
   <block id="83ba36f9e12be2aeb03cb703832a6612" category="summary">ネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</block>
-  <block id="e574c0b5360e4f2f352a412256ec3412" category="doc">ネットワークをセットアップする</block>
   <block id="9a3611fa8903c254f1d33052d413e8a9" category="paragraph">クラスタのセットアップが完了している必要があります。</block>
   <block id="f49a4cedd94d498125a1e2dc22561960" category="list-text">クラスタの作成画面には、稼働しているノードのみが表示されます。</block>
   <block id="04858d7c8574026a792d5925e845ae6e" category="paragraph">それらのノードに対して LIF を作成することができます。</block>
@@ -7585,7 +7566,6 @@
   <block id="d798c86b99497226b977da07074637f3" category="list-text">[ * 編集 ] をクリックし、 [ * Storage Efficiency * ] タブをクリックします。</block>
   <block id="12d863663219ca11a60e18912f9d77e0" category="list-text">重複排除スケジュールを必要に応じて変更します。</block>
   <block id="5874224252f9cf3d3fea759bc537dc53" category="summary">クラスタのセットアップでは、設定情報を収集し、クラスタ管理インターフェイスとノード管理インターフェイスを作成し、ライセンスの追加、クラスタ時間の設定、 HA ペアの監視を行います。</block>
-  <block id="b418e6f88f4c95341a5b126a8b9b98f9" category="doc">クラスタをセットアップする</block>
   <block id="7fcd701d4af64e601a44499f2f83f92c" category="summary">System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のミラーとバックアップ関係を終了し、ソースボリュームから Snapshot コピーを解放できます。</block>
   <block id="ab244eb12fcb754ef620220e669a2a95" category="doc">ミラーとバックアップ関係を削除しています</block>
   <block id="d5bd834a78b5440108ac98fb1ce7877e" category="list-text">ミラーとバックアップ関係を削除する前に、その関係を解除することが推奨されます。</block>
@@ -7765,7 +7745,6 @@
   <block id="032321f10f745fc9392f451454c3d987" category="paragraph">サイト B にあるクラスタの構成図と、処理の進捗に応じたサイトのステータスが表示されます。</block>
   <block id="86b7b4a4408505d435dca7c563f4565a" category="paragraph">サイト B にログインし、 MetroCluster スイッチオーバーおよびスイッチバック操作ウィンドウを表示すると、サイト A のステータスは「非アクティブ」と表示され、サイト B のステータスは「 `S WITCHOVER mode` 」と表示されます。</block>
   <block id="3496a6d356a7320285b99106f829a38c" category="summary">ストレージウィンドウでは、アグリゲートの作成に関するストレージの推奨事項を確認できます。</block>
-  <block id="175b69debc5c5b4491f061dc89f6aba4" category="doc">ストレージの推奨事項の確認</block>
   <block id="91f4f84e6629fac6e9b0e3ba21dd42d5" category="paragraph">クラスタ、ネットワーク、およびサポートの詳細のセットアップが完了している必要があります。</block>
   <block id="7685f1866c53d5f16ab5612e140230bf" category="paragraph">ストレージの推奨事項に従ってデータアグリゲートを作成することも、この手順をスキップし、あとで System Manager を使用してデータアグリゲートを作成することもできます。</block>
   <block id="55d9afe0ac18b4357f6915a7d602ef8a" category="list-text">ストレージの推奨事項に従ってデータアグリゲートを作成するには、 * Submit and Continue * をクリックします。</block>
@@ -8918,7 +8897,6 @@
   <block id="7c5c5dd8c983200f4658fbc653960629" category="summary">System Manager 9.6 以降では、不要になった FlexCache を削除できます。</block>
   <block id="6396b4e9ee534ed15260ea7739d3096d" category="summary">System Manager 9.6 以降では、 Storage Virtual Machine （ SVM ）の CIFS / NFS ファイルアクセスエラーを診断できます。</block>
   <block id="c13d6ff492b9fbd47b9f941f4fbee2d6" category="summary">System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、 .xlsx または .csv のいずれかの形式でダウンロードできます。</block>
-  <block id="e71eaae88dd2181cc95deea0992e62a9" category="paragraph">System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。</block>
   <block id="15d5c2d28df744d723c4afac837b9efb" category="summary">System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスに問題がある場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。</block>
   <block id="8085ff6fe13fdc727e4a01c757c67829" category="summary">System Manager 9.6 以降では、 MetroCluster サイトのネゴシエート（計画的）スイッチオーバーを開始できます。この処理は、サイトでディザスタリカバリのテストや計画的なメンテナンスを実行する場合に役立ちます。</block>
   <block id="7246a3ef0c463c807e4dbac7824d6a92" category="summary">System Manager 9.6 以降 FlexCache では、 FlexCache ボリュームをオフラインまたはオンラインにしたり、 FlexCache ボリュームへのアクセスを制限したりするときに、ボリュームのステータスを変更できます。</block>
@@ -9046,4 +9024,133 @@
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">インターフェイスが属しているサブネットを示します。Mx * 役割 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster のスイッチオーバーとスイッチバックについて</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe サブシステムとは</block>
+  <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">System Manager - ONTAP 9.7 以前を使用してライセンスを管理します</block>
+  <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを表示、管理、削除できます。</block>
+  <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に FC プロトコルと FCoE プロトコルを設定します</block>
+  <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">ONTAP 9.7 以前で利用可能な System Manager クラシックを使用して、 SAN ホスト用の Storage Virtual Machine （ SVM ）で FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
+  <block id="1ca0759a68a2eaf6550dc49f288c51b4" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成してストレージをプロビジョニングします</block>
+  <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。</block>
+  <block id="5dd9e9509ab5aefe612f4c31cb783c33" category="doc">System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します</block>
+  <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager クラシック 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。</block>
+  <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager - ONTAP 9.7 以前を使用してハイアベイラビリティペアを作成します</block>
+  <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ノンストップオペレーションやフォールトトレランスに必要なハードウェアの冗長性を確保するハイアベイラビリティ（ HA ）ペアを作成できます。</block>
+  <block id="c25f011b08f295a29bbd500b17b738ed" category="doc">System Manager を使用した構成の更新 - ONTAP 9.7 以前</block>
+  <block id="1c82fcdf598db00f440965ba676c0e66" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。</block>
+  <block id="8e4cfdd5f2a44a82c383c0562730105b" category="doc">System Manager ログファイルの表示 - ONTAP 9.7 以前</block>
+  <block id="e32d35a30d776517222a8cb49dfde78b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用しているときに問題が発生した場合は、テクニカルサポートにログファイルを送信して問題のトラブルシューティングを行うことができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</block>
+  <block id="31d9626798b93e9040bd1a4d694bd56b" category="paragraph">システムロギングは、アプリケーションのトラブルシューティングに不可欠なツールです。システムロギングを有効にして、アプリケーションに問題があるときに、その問題を特定できるようにする必要があります。アプリケーションバイナリを変更することなく、 System Manager のロギングを実行時に有効化できます。</block>
+  <block id="edf8087881b81cefc948ee9b5b855cdd" category="paragraph">ログ出力は膨大な量になることがあるため、管理が困難になる可能性があります。System Manager では、出力するログステートメントのタイプを選択することにより、ロギングの出力を絞り込むことができます。デフォルトでは、システムロギングは INFO に設定されます。次のいずれかのログレベルを選択できます。</block>
+  <block id="acdd231374055517015b373ce4c02529" category="paragraph">これらのレベルは階層的に機能します。ログレベルを off に設定すると、メッセージがロギングされません。</block>
+  <block id="2aae697b75b4f0102a01b90b42f5680d" category="doc">System Manager classic - ONTAP 9.7 以前を使用して論理ストレージをセットアップします</block>
+  <block id="785ce4ec419d97d18338fc498d536deb" category="paragraph">論理ストレージは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してセットアップできます。論理ストレージのセットアップでは、 Storage Virtual Machine （ SVM ）とボリュームを作成します。</block>
+  <block id="c43762da851d9951e4e55e1a3cc5ad67" category="doc">System Manager - ONTAP 9.7 以前を使用してシングルノードクラスタを更新します</block>
+  <block id="be2ad15fd1ef77a8a4838987f45a3c0b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、シングルノードクラスタを更新できます。</block>
+  <block id="54ff26b2647f3f25676cb99009476209" category="doc">System Manager - ONTAP 9.7 以前を使用して、クラスタを無停止で更新します</block>
+  <block id="4feeea0248e0f62412823f11324a2100" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。</block>
+  <block id="f99033f8018d74566de6d90275ee7175" category="doc">System Manager を使用したクラスタの拡張 - ONTAP 9.7 以前</block>
+  <block id="ab015a1f9aac7b895e136cdfb521e9b8" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、互換性のあるノードをクラスタに追加し、ノードのネットワークの詳細を設定することで、ストレージのサイズと容量を拡張できます。ノードの概要を確認することもできます。</block>
+  <block id="947070ca8b26d7d7b190fdd46f44d0fa" category="doc">System Manager ONTAP 9.7 以前を使用してスペアディスクを初期化します</block>
+  <block id="39369ff883ac37576eeaa48e7091dfba" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、すべてのデータを消去し、ディスクに 0 を書き込むことでスペアディスクをフォーマットすることができます。これらのディスクは新しいアグリゲートで使用できます。</block>
+  <block id="41900314c94464c2e9abd692d4c2e94a" category="doc">System Manager - ONTAP 9.7 以前を使用して、 MetroCluster 以外の構成のクラスタを更新します</block>
+  <block id="7c32eebc5c66a11a9625082f47b48aae" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。更新を実行するには、 ONTAP イメージを選択し、 HA ペアのクラスタまたは個々のノードを更新する準備ができているかどうかを確認してから、更新を実行します。</block>
+  <block id="8d74ad77222f6c5c38989bad7372cf2c" category="doc">System Manager - ONTAP 9.7 以前のバージョンでクラスタを作成します</block>
+  <block id="f9c28b17c0f35d7a3c72a8e6a546dfee" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データセンター内にクラスタを作成およびセットアップできます。</block>
+  <block id="5fc170c97be608be88f22779966c7146" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に NVMe プロトコルを設定します</block>
+  <block id="aa89074fcbd4c0c8d0bb294d295d2ebf" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）に NVMe プロトコルを設定できます。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。</block>
+  <block id="75e42471a0f30f0b5291750d4a05d20a" category="doc">System Manager - ONTAP 9.7 以前を使用して、ストレージの推奨事項に基づいてアグリゲートを作成します</block>
+  <block id="efbc0ad8b6d2eb58efb50697f164d765" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。</block>
+  <block id="bc77434a988ceef6c953803fe2e06881" category="doc">System Manager - ONTAP 9.7 以前のバージョンでのクラスタの更新ウィンドウ</block>
+  <block id="0c4bc331d1c7fe8cc6d138356da42f70" category="paragraph">クラスタの更新ウィンドウを使用すると、クラスタの自動更新を無停止で実行できます。また、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、シングルノードクラスタを停止させながら更新することもできます。</block>
+  <block id="7da339cefa78214249ac2c737cb3bd59" category="doc">System Manager - ONTAP 9.7 以前を使用して、基本テンプレートをプロビジョニングします</block>
+  <block id="67203bc2753a5d6aef208c85696c7fad" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SAP HANA の基本テンプレートを簡単にプロビジョニングできます。</block>
+  <block id="ebb6e6a19f64f243f239c1bdaf692ad7" category="doc">System Manager - ONTAP 9.7 以前のブラウザベースのグラフィカルインターフェイスを使用してクラスタにアクセスします</block>
+  <block id="2ba8881024494dad02ea0fcfabaf51a3" category="paragraph">コマンドラインインターフェイスの代わりにグラフィカルインターフェイスを使用してクラスタにアクセスして管理するには、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用します。ONTAP System Manager は Web サービスとして ONTAP に搭載されており、デフォルトで有効になっていて、ブラウザからアクセスできます。</block>
+  <block id="70874cc3a4a9888ac212eaaf23b43c77" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に CIFS プロトコルと NFS プロトコルを設定します</block>
+  <block id="248f2ec6686f4fbce6771ddc5abc09d1" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）で CIFS プロトコルおよび NFS プロトコルを設定し、 NAS クライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。</block>
+  <block id="6179ae55d1fadeff01dd8976b5bedda7" category="doc">System Manager - ONTAP 9.7 以前を使用して、 ONTAP ソフトウェアイメージを取得します</block>
+  <block id="78916d18eac9a0b8102e2b7f6a492589" category="paragraph">ONTAP ソフトウェアイメージは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）で取得できます。ONTAP 9.4 以降では、 ONTAP ソフトウェアイメージをネットアップサポートサイトからローカルフォルダにコピーできます。ONTAP 9.3 以前からのアップグレードの場合は、 ONTAP ソフトウェアイメージをネットワーク上の HTTP サーバまたは FTP サーバにコピーする必要があります。</block>
+  <block id="f5db4f9448aaa78931200f9e088d969e" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に iSCSI プロトコルを設定します</block>
+  <block id="1adc906cf717845ffb29f00022c0366f" category="paragraph">Storage Virtual Machine （ SVM ）で iSCSI プロトコルを設定して、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
+  <block id="4010f2b8e90ddf85f94ac358d78075c1" category="doc">System Manager - ONTAP 9.7 以前のバージョンでサービスプロセッサを使用します</block>
+  <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。</block>
+  <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを設定します</block>
+  <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の事前定義されたアプリケーションテンプレートを使用して、既存のアプリケーションテンプレートを基にした新しい設定を作成できます。その後、 ONTAP でアプリケーションのインスタンスをプロビジョニングできます。</block>
+  <block id="9b84593697ca85e724b3024c5d49b880" category="doc">System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて</block>
+  <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
+  <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager - ONTAP 9.7 以前を使用して SVM を作成します</block>
+  <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、すべての構成を設定して Storage Virtual Machine （ SVM ）を作成し、データをただちに提供することができます。クラスタには 1 つ以上の SVM を配置できます。</block>
+  <block id="b1f5b741f97f88d2a27fe9554d96e5ae" category="doc">System Manager - ONTAP 9.7 以前のバージョンでテンプレートファイルを使用してクラスタをセットアップします</block>
+  <block id="80c57d2dae86d5f969cedfa286a5d186" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に付属のテンプレートファイルを使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことでクラスタをセットアップできます。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。</block>
+  <block id="981ccff974ccd38feb11b98749f62f33" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM 管理者に管理を委譲します</block>
+  <block id="2916098ae0e238c3e38a1a47b1301eb5" category="paragraph">Storage Virtual Machine （ SVM ）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、必要に応じて System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して SVM の管理を SVM 管理者に委譲できます。</block>
+  <block id="428c89fe51366d100675e40d7d32fb93" category="doc">ONTAP 9.7 以前のシステムマネージャに、 Microsoft SQL Server over SAN を追加します</block>
+  <block id="5da48fe095f84368a16a22547d62a3a4" category="paragraph">拡張タブを使用して、 Microsoft SQL Server over SAN のインスタンスを ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に追加できます。</block>
+  <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">MetroCluster ローカルサイト（サイト A ）の名前を System Manger ONTAP 9.7 以前の名前に変更します</block>
+  <block id="8b0ad44ba508767c489eaba84b40e7dd" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の MetroCluster ローカルサイト（サイト A ）の名前を変更できます。</block>
+  <block id="a725a02a41f5b8ff1387ed326ce28ae0" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします</block>
+  <block id="bddf9d6dc523b359adf8edeffa510c91" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</block>
+  <block id="7b7dfa770e15135a2305b1e8fda21d7f" category="doc">System Manager - ONTAP 9.7 以前のサポートページをセットアップします</block>
+  <block id="c8711d5f23fdbe3f98b8104eb091ef3b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、サポートページを設定できます。クラスタセットアップの最後のステップはサポートページのセットアップです。このステップでは、イベント通知を設定し、シングルノードクラスタの場合はシステムバックアップも設定します。</block>
+  <block id="bc701f734e8403c8ec9d20c515d85272" category="doc">System Manager - ONTAP 9.7 以前を使用して、クラスタの日時設定を管理します</block>
+  <block id="c00b07297128398358e52a5e83d52de2" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの日付と時刻の設定を管理できます。</block>
+  <block id="f0fe373cafde86319d4749debcc801a1" category="doc">System Manager - ONTAP 9.7 以前でストレージの推奨事項を確認します</block>
+  <block id="52ff43f011435f293e7816a453ee9dda" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のストレージウィンドウを使用して、アグリゲートの作成に関する推奨事項を確認できます。</block>
+  <block id="d08159a440a303f7b3b7c94dc1935c5a" category="doc">System Manager - ONTAP 9.7 以前を使用して、アグリゲートを使用してストレージをプロビジョニングします</block>
+  <block id="874b9a4c9e5f670484a41edbf145c405" category="paragraph">ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じて、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用し、手動でアグリゲートを作成できます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。</block>
+  <block id="9d802381a15c252491a9d7ee663aff69" category="doc">ONTAP 9.7 以前の場合は、 System Manager で SNMP を設定します</block>
+  <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の SVM を監視するように SNMP を設定できます。</block>
+  <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">ONTAP 9.7 以前の System Manager で LDAP サーバを設定します</block>
+  <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。</block>
+  <block id="05f8fe4988a6b907042484cd11d40fb5" category="doc">System Manager - ONTAP 9.7 以前を使用して、ストレージをプロビジョニングし、 Flash Pool アグリゲートを手動で作成します</block>
+  <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Flash Pool アグリゲートを手動で作成したり、 SSD を追加して既存の HDD アグリゲートを Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。</block>
+  <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします</block>
+  <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークをセットアップできます。ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。</block>
+  <block id="0e9cd8252c144768701a64ff9ab1f7e8" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを削除します</block>
+  <block id="f8c7aff1779acf3b9dc85a549c8f4d4f" category="paragraph">プロビジョニングされたアプリケーションが不要になった場合は、 ONTAP System Manager クラシック（ 9.7 以前のバージョンで利用可能）を使用して削除できます。</block>
+  <block id="ccda83eb5ed4056b1202262cc09443c9" category="doc">System Manager - ONTAP 9.7 以前を使用してクラスタを更新します</block>
+  <block id="ba92625a1cffe75a8f65eb6b092f6da8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。MetroCluster 構成のクラスタも更新できます。</block>
+  <block id="c7d3918644137f881f62d314dd74b786" category="doc">System Manager - ONTAP 9.7 以前を使用してクラスタユーザアカウントを管理します</block>
+  <block id="ee56e6f13b7ebc3f13f7477735835f4c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタユーザアカウントを追加、編集、管理し、ユーザがストレージシステムにアクセスする際のログイン方法を指定できます。</block>
+  <block id="e990537de20ec1517a4049efeae4c1b8" category="doc">System Manager のアプリケーションプロビジョニング設定 - ONTAP 9.7 以前</block>
+  <block id="25d492d354ae334c48fa3dfc30fcdebc" category="paragraph">ONTAP System Manager classic （ ONTAP 9.7 以前で使用可能）のデータベース、サーバ、または仮想デスクトップの基本テンプレートまたは拡張テンプレートを設定する場合は、詳細を指定する必要があります。アプリケーションのプロビジョニングが完了したら、詳細を編集し、サイズ変更（拡張のみ）を指定できます。このセクションでは、各テンプレートのフィールドについて説明します。特定のアプリケーションのプロビジョニングまたは設定の編集に必要なフィールドのみが表示されます。</block>
+  <block id="94a185593edb330f99889ac7b7a02ae2" category="doc">System Manager ONTAP 9.7 以前を使用して SnapLock ボリュームを作成します</block>
+  <block id="b330e978f60c29cf1c89b88d9bd0de4c" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance ボリュームまたは SnapLock Enterprise ボリュームを作成できます。ボリュームの作成時に、保持期間を設定したり、ボリュームのデータを自動的に WORM 状態に設定するかどうかを選択したりすることもできます。</block>
+  <block id="e1bf307eb9a38952a201d90166512c49" category="doc">System Manager を使用して ONTAP 9.7 以前を管理します</block>
+  <block id="97ab21a632bcc52bfa1ce4def08b85d7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 IPspace を作成および管理できます。</block>
+  <block id="b95a0a6b9ea9803f155567513ee220ee" category="doc">System Manager オプションを設定します（ ONTAP 9.7 以前）</block>
+  <block id="700de8169ee006740e47e085de31314d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。</block>
+  <block id="829111bc2f9e8438581c99c65c273ac5" category="doc">System Manager - ONTAP 9.7 以前を使用してピアリングをセットアップします</block>
+  <block id="1a73142d9e2244e70e8bbf958894302c" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ピアリングを設定できます。ピアリングのセットアップでは、各ノードでクラスタ間論理インターフェイス（ LIF ）を作成してから、クラスタピア関係を作成し、 SVM ピア関係を作成します。</block>
+  <block id="2976c240f095f572c401489b5ac3e328" category="doc">System Manager とクラスタピア - ONTAP 9.7 以前</block>
+  <block id="997772740a755ed8d7530b890bec9f7e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 2 つのクラスタをピアリングし、ピアクラスタ間でリソースを調整および共有できるようにすることができます。SnapMirror テクノロジと SnapVault テクノロジを使用したデータレプリケーションや、 MetroCluster 構成で FlexCache ボリュームと SyncMirror テクノロジを使用したデータレプリケーションを行うには、クラスタ間にピア関係を設定することが必要になります。</block>
+  <block id="8f34d6f3f2c9cd69da0ea95a2a82d60f" category="doc">System Manager ONTAP 9.7 以前を使用して、 SnapLock アグリゲートを手動で作成します</block>
+  <block id="9db847a02a4eaadfd02090106d319dcc" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。</block>
+  <block id="d4afc42fbd745701a06605ccb9c3d10a" category="doc">System Manager - ONTAP 9.7 以前のストレージサービスの定義</block>
+  <block id="c94819f0fe4329db3648ea0072b45bc0" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）には、対応する最小パフォーマンス要因にマッピングされた事前定義済みのストレージサービスが含まれています。</block>
+  <block id="32843f5ce943416bf947ca9590aa075e" category="doc">System Manager のアプリケーションウィンドウ - ONTAP 9.7 以前</block>
+  <block id="d7e635772f9dfd6d2e93492202978c85" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）内のアプリケーションのリストを表示できます。リストには、各アプリケーションに関する詳細情報が表示されます。</block>
+  <block id="234bd78fa96c91d122dffd33391874f6" category="doc">System Manager - ONTAP 9.7 以前を使用してブロードキャストドメインを管理します</block>
+  <block id="50899d0b2190a949520b49e445d23355" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ブロードキャストドメインを作成および管理できます。</block>
+  <block id="ab4ae87bc3c1b004cb0873b4af4ea2d7" category="doc">ONTAP System Manager ONTAP 9.7 以前を使用してクラスタをセットアップします</block>
+  <block id="cf0a65ee8a0e04ae720f439289af1cf4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことで、クラスタをセットアップできます。</block>
+  <block id="44de48291f65b93f6b91ae71158fc5a0" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM を作成します</block>
+  <block id="d8df04e394d1d658fc87637c0e78fe19" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 Storage Virtual Machine （ SVM ）ウィンドウを使用して完全に設定された SVM を作成できます。作成した SVM にストレージオブジェクトを作成すると、 SVM からデータが提供されるようになります。</block>
+  <block id="a5fa5f03b1c7f0fd168b52120c524434" category="doc">System Manager - ONTAP 9.7 以前を使用して、ディスクをノードに割り当てます</block>
+  <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して未割り当てディスクの所有権を特定のノードに割り当てることで、アグリゲートやストレージプールの容量を拡張することができます。</block>
+  <block id="29f339b530105eca42ac732c2bd2a766" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークを管理します</block>
+  <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ</block>
+  <block id="e9019df4e5838c4a22d6a9fa885721a4" category="doc">System Manager - ONTAP 9.7 以前を使用してストレージをプロビジョニングするためのアグリゲートを手動で作成します</block>
+  <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">HDD のみまたは SSD のみで構成されるアグリゲートは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して手動で作成できます。</block>
+  <block id="489980c7967cf6ae840737bc9670c341" category="doc">System Manager ONTAP 9.7 以前を使用して FlexVol ボリュームを作成します</block>
+  <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">データ用の FlexVol ボリュームは、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）のボリュームの作成ダイアログボックスを使用して作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。</block>
+  <block id="f3c0856ca60c4724a7753f39aeb21072" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを編集します</block>
+  <block id="9de97ea20bea358cafe2c052eb4fe156" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、プロビジョニングされたアプリケーションを編集し、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりできます。</block>
+  <block id="a30fa0b5cb2afd6f435aa35fc7ca5745" category="doc">System Manager - ONTAP 9.7 以前を使用して SAML 認証をセットアップします</block>
+  <block id="d7099498f421b4701bba3cabee8125eb" category="paragraph">ONTAP 9.7 以前で利用可能な ONTAP System Manager クラシックを使用して、 Security Assertion Markup Language （ SAML ）認証をセットアップできます。リモートユーザは、 System Manager にログインする前に、セキュアなアイデンティティプロバイダ（ IdP ）を通じて認証されます。</block>
+  <block id="463c29b806262e410f8af6e29a986e1f" category="doc">System Manager - ONTAP 9.7 以前のバージョンでロールを管理します</block>
+  <block id="7ca34b48f8debce3ee45d8476624ffa9" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、アクセス制御ユーザロールを作成できます。</block>
+  <block id="d75e944167c8ce0dfa9e0ab1a4a7da5e" category="doc">System Manager - ONTAP 9.7 以前のダッシュボードウィンドウ</block>
+  <block id="5cee01395e3051dd380249b88316b378" category="paragraph">ONTAP System Manager クラシックのダッシュボードウィンドウ（ ONTAP 9.7 以前で使用可能）には、複数のパネルがあり、システムとそのパフォーマンスについての累積情報をわかりやすく表示できます。</block>
+  <block id="a36ead175efb45759fee5f11ce0d539b" category="doc">MetroCluster 構成のクラスタを System Manager ONTAP 9.7 以前を使用して更新する</block>
+  <block id="5b53589c41b3f02720bf43be353e0006" category="paragraph">ONTAP MetroCluster 構成のクラスタを更新するには、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用します。クラスタの更新以外の処理は、すべて両方のクラスタで実行する必要があります。</block>
 </blocks>

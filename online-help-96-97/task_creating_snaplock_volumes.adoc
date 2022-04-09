@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: create, snaplock, volume, online, help, system, manager 
 summary: System Manager を使用して、 SnapLock Compliance ボリュームまたは SnapLock Enterprise ボリュームを作成できます。ボリュームの作成時に、保持期間を設定したり、ボリュームのデータを自動的に WORM 状態に設定するかどうかを選択したりすることもできます。 
 ---
-= SnapLock ボリュームを作成します
+= System Manager ONTAP 9.7 以前を使用して SnapLock ボリュームを作成します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 SnapLock Compliance ボリュームまたは SnapLock Enterprise ボリュームを作成できます。ボリュームの作成時に、保持期間を設定したり、ボリュームのデータを自動的に WORM 状態に設定するかどうかを選択したりすることもできます。
+System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance ボリュームまたは SnapLock Enterprise ボリュームを作成できます。ボリュームの作成時に、保持期間を設定したり、ボリュームのデータを自動的に WORM 状態に設定するかどうかを選択したりすることもできます。
 
 .作業を開始する前に
 * SnapLock ライセンスがインストールされている必要があります。

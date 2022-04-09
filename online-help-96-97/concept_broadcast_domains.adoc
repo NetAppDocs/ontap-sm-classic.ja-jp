@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, create, manage, broadcast, domain, online, help, edit, settings, port, delete 
 summary: System Manager を使用して、ブロードキャストドメインを作成および管理できます。 
 ---
-= ブロードキャストドメイン
+= System Manager - ONTAP 9.7 以前を使用してブロードキャストドメインを管理します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ブロードキャストドメインを作成および管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ブロードキャストドメインを作成および管理できます。
 
 
 

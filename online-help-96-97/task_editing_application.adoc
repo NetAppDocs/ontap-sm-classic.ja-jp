@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: edit, application, online, help, provisioned, snapshot, copy 
 summary: プロビジョニングされたアプリケーションを編集して、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりすることができます。 
 ---
-= アプリケーションの編集
+= System Manager - ONTAP 9.7 以前を使用してアプリケーションを編集します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-プロビジョニングされたアプリケーションを編集して、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりすることができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、プロビジョニングされたアプリケーションを編集し、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりできます。
 
 クラスタ管理者は、プロビジョニングしたアプリケーションを編集してストレージサイズを変更できます。また、アプリケーションの Snapshot コピーを作成、リストア、または削除することもできます。次の手順の例では、 * NAS * Container * アプリケーションを編集する方法を説明します。
 

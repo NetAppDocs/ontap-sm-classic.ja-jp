@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: service, processors, monitor, manage, storage, system, manager, temperature, voltage, current, fan, speed, online, help, isolate, management, network, traffic, sp, bmc, e0m, interface, subnet, performance, routing, ip, address, edit 
 summary: System Manager でサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。 
 ---
-= サービスプロセッサ
+= System Manager - ONTAP 9.7 以前のバージョンでサービスプロセッサを使用します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager でサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。
 
 
 

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: nondisruptive, upgrades, NDU, cluster, system, manager, online, help 
 summary: System Manager を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。 
 ---
-= クラスタを無停止で更新
+= System Manager - ONTAP 9.7 以前を使用して、クラスタを無停止で更新します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。
 
 .作業を開始する前に
 * すべてのノードが HA ペア構成になっている必要があります。

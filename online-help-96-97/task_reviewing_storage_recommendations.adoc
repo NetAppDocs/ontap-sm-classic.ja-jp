@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: review, storage, recommendation, window, online, help, create, aggregate 
 summary: ストレージウィンドウでは、アグリゲートの作成に関するストレージの推奨事項を確認できます。 
 ---
-= ストレージの推奨事項の確認
+= System Manager - ONTAP 9.7 以前でストレージの推奨事項を確認します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ストレージウィンドウでは、アグリゲートの作成に関するストレージの推奨事項を確認できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のストレージウィンドウを使用して、アグリゲートの作成に関する推奨事項を確認できます。
 
 クラスタ、ネットワーク、およびサポートの詳細のセットアップが完了している必要があります。
 

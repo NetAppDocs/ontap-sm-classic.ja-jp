@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: sap, hana, provisioning, basic, template, online, help, system, manager 
 summary: System Manager を使用して、 SAP HANA の基本テンプレートを簡単にプロビジョニングできます。 
 ---
-= 基本テンプレートのプロビジョニング
+= System Manager - ONTAP 9.7 以前を使用して、基本テンプレートをプロビジョニングします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 SAP HANA の基本テンプレートを簡単にプロビジョニングできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SAP HANA の基本テンプレートを簡単にプロビジョニングできます。
 
 クラスタ管理者は、基本テンプレートを設定してアプリケーションをプロビジョニングできます。ここでは、 * SAP HANA Server * を設定する例を示します。
 

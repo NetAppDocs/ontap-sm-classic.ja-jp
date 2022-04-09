@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, role, create, user, access, control, online, help 
 summary: System Manager を使用して、アクセス制御ユーザロールを作成できます。 
 ---
-= ロール
+= System Manager - ONTAP 9.7 以前のバージョンでロールを管理します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、アクセス制御ユーザロールを作成できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、アクセス制御ユーザロールを作成できます。
 
 
 

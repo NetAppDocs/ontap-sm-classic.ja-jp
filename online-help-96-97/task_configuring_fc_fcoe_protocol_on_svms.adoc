@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: online, help, configure, fc, protocol, fcoe, svm, online, help, system, manager 
 summary: Storage Virtual Machine （ SVM ）で SAN ホスト用に FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。 
 ---
-= SVM で FC プロトコルと FCoE プロトコルを設定
+= System Manager - ONTAP 9.7 以前を使用して、 SVM に FC プロトコルと FCoE プロトコルを設定します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）で SAN ホスト用に FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。
+ONTAP 9.7 以前で利用可能な System Manager クラシックを使用して、 SAN ホスト用の Storage Virtual Machine （ SVM ）で FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。
 
 .作業を開始する前に
 * クラスタで FCP ライセンスが有効になっている必要があります。

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: add, microsoft, sql, server, san, system, manager, online, help, enhanced, tab 
 summary: Enhanced タブを使用して、 Microsoft SQL Server over SAN のインスタンスを System Manager に追加できます。 
 ---
-= System Manager に Microsoft SQL Server over SAN を追加します
+= ONTAP 9.7 以前のシステムマネージャに、 Microsoft SQL Server over SAN を追加します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Enhanced タブを使用して、 Microsoft SQL Server over SAN のインスタンスを System Manager に追加できます。
+拡張タブを使用して、 Microsoft SQL Server over SAN のインスタンスを ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に追加できます。
 
 次の手順では、 * Microsoft SQL Server * インスタンスを SAN 経由で System Manager に追加する方法について説明します。エクスポートプロトコルとして SMB を選択できるのは、 CIFS 用のライセンスがクラスタに設定されている場合のみです。この設定は Storage Virtual Machine （ SVM ）で行う必要があります。
 

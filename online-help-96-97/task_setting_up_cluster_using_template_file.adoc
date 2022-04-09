@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, cluster, template, file, system, manager, online, help, autosupport 
 summary: System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、 .xlsx または .csv のいずれかの形式でダウンロードできます。 
 ---
-= テンプレートファイルを使用してクラスタをセットアップ
+= System Manager - ONTAP 9.7 以前のバージョンでテンプレートファイルを使用してクラスタをセットアップします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に付属のテンプレートファイルを使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことでクラスタをセットアップできます。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。
 
 .このタスクについて
 * ONTAP 9.1 以降をサポートするクラスタの場合、 ONTAP 9.1 以降を実行しているストレージシステムのみを追加できます。

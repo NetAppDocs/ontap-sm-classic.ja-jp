@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: applications, window, svm, online, help, storage, virtual, machine, online, help, action, icon, tab, column 
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）内のアプリケーションのリストを表示できます。リストには、各アプリケーションに関する詳細情報が表示されます。 
 ---
-= アプリケーションウィンドウ
+= System Manager のアプリケーションウィンドウ - ONTAP 9.7 以前
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Storage Virtual Machine （ SVM ）内のアプリケーションのリストを表示できます。リストには、各アプリケーションに関する詳細情報が表示されます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）内のアプリケーションのリストを表示できます。リストには、各アプリケーションに関する詳細情報が表示されます。
 
 
 

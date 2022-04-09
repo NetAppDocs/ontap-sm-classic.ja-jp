@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, configure, system, manager, option, online, help 
 summary: System Manager に対して、ロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。 
 ---
-= System Manager オプションを設定
+= System Manager オプションを設定します（ ONTAP 9.7 以前）
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager に対して、ロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。
 
 オプションは、 System Manager のログインウィンドウから設定できます。ただし、非アクティブ時のタイムアウト値を指定するには、アプリケーションにログインする必要があります。
 

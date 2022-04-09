@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: online, help, cluster, update, window, tab, update, command, button, history, tab 
 summary: クラスタの更新ウィンドウを使用すると、クラスタの自動更新を無停止で実行したり、シングルノードクラスタの停止を伴う更新を実行したりできます。 
 ---
-= クラスタの更新ウィンドウ
+= System Manager - ONTAP 9.7 以前のバージョンでのクラスタの更新ウィンドウ
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-クラスタの更新ウィンドウを使用すると、クラスタの自動更新を無停止で実行したり、シングルノードクラスタの停止を伴う更新を実行したりできます。
+クラスタの更新ウィンドウを使用すると、クラスタの自動更新を無停止で実行できます。また、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、シングルノードクラスタを停止させながら更新することもできます。
 
 
 

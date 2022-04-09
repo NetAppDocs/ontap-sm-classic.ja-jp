@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help 
 summary: ネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。 
 ---
-= ネットワークをセットアップする
+= System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。
 
 クラスタのセットアップが完了している必要があります。
 

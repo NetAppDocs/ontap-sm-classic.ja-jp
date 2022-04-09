@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: storage, service, definition, online, help, performance, factor 
 summary: ONTAP には、対応する最小パフォーマンス要因にマッピングされた事前定義されたストレージサービスが含まれています。 
 ---
-= ストレージサービスの定義
+= System Manager - ONTAP 9.7 以前のストレージサービスの定義
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP には、対応する最小パフォーマンス要因にマッピングされた事前定義されたストレージサービスが含まれています。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）には、対応する最小パフォーマンス要因にマッピングされた事前定義済みのストレージサービスが含まれています。
 
 クラスタまたは SVM で実際に使用可能なストレージサービスは、 SVM 内のアグリゲートを構成するストレージのタイプによって決まります。
 

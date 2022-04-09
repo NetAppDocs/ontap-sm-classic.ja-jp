@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, assign, disk, node, online, help 
 summary: System Manager を使用して未割り当てディスクの所有権を特定のノードに割り当てることで、アグリゲートやストレージプールの容量を拡張することができます。 
 ---
-= ノードへのディスクの割り当て
+= System Manager - ONTAP 9.7 以前を使用して、ディスクをノードに割り当てます
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して未割り当てディスクの所有権を特定のノードに割り当てることで、アグリゲートやストレージプールの容量を拡張することができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して未割り当てディスクの所有権を特定のノードに割り当てることで、アグリゲートやストレージプールの容量を拡張することができます。
 
 .このタスクについて
 * ディスクの割り当ては、次の条件に当てはまる場合に実行できます。

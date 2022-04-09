@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: ldap, system, manager, configure, server, online, help, user, information 
 summary: System Manager を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。 
 ---
-= LDAP
+= ONTAP 9.7 以前の System Manager で LDAP サーバを設定します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。
+ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。
 
 
 

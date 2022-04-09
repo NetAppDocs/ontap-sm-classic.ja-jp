@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, storage, create, manage, ipspace, broadcast, domain, subnet, network, interface, ethernet, port, fc, fcoe, adapter, online, help 
 summary: System Manager を使用して、 IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、ストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ 
 ---
-= ネットワークの管理
+= System Manager - ONTAP 9.7 以前を使用してネットワークを管理します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、ストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ
+IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ
 
 
 

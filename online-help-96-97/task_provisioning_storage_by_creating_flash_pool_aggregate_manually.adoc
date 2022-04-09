@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, system, manager, storage, create, flash, pool, aggregate, manually, online, help, hdd 
 summary: System Manager を使用して、 Flash Pool アグリゲートを手動で作成したり、既存の HDD アグリゲートに SSD を追加して Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。 
 ---
-= Flash Pool アグリゲートを手動で作成してストレージをプロビジョニングする
+= System Manager - ONTAP 9.7 以前を使用して、ストレージをプロビジョニングし、 Flash Pool アグリゲートを手動で作成します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Flash Pool アグリゲートを手動で作成したり、既存の HDD アグリゲートに SSD を追加して Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Flash Pool アグリゲートを手動で作成したり、 SSD を追加して既存の HDD アグリゲートを Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。
 
 .作業を開始する前に
 * Flash Pool アグリゲートの SSD 層のサイズと構成について、プラットフォームとワークロードそれぞれに固有なベストプラクティスに注意する必要があります。

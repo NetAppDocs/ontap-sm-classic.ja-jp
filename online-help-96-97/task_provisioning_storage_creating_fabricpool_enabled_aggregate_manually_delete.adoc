@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, create, fabricpool, aggregate, manually, system, manager, online, help, ssd 
 summary: System Manager を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。 
 ---
-= FabricPool 対応アグリゲートを手動で作成してストレージをプロビジョニングする
+= System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成してストレージをプロビジョニングします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。
 
 .作業を開始する前に
 * クラウド階層を作成し、 SSD アグリゲートが配置されたクラスタに接続しておく必要があります。

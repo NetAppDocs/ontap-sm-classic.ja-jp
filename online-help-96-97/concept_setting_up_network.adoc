@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, system, manager, cluster, range 
 summary: ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。 
 ---
-= ネットワークをセットアップする
+= System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークをセットアップできます。ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。
 
 
 

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, worm, provision, storage, create, snaplock, aggregate, online, help 
 summary: System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。 
 ---
-= SnapLock アグリゲートを手動で作成してストレージをプロビジョニングする
+= System Manager ONTAP 9.7 以前を使用して、 SnapLock アグリゲートを手動で作成します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。
+System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。
 
 SnapLock ライセンスが追加されている必要があります。
 

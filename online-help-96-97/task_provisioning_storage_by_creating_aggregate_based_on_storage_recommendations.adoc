@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, create, aggregate, recommendation, system, manager, online, help 
 summary: System Manager を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。 
 ---
-= ストレージの推奨事項に基づいてアグリゲートを作成してストレージをプロビジョニングする
+= System Manager - ONTAP 9.7 以前を使用して、ストレージの推奨事項に基づいてアグリゲートを作成します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。
 
 .このタスクについて
 * Cloud Volumes ONTAP 、 ONTAP Select 、 MetroCluster の各構成では、ストレージに関する推奨事項に基づいてアグリゲートを作成することはできません。

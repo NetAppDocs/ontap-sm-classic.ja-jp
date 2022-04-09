@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: prepare, switchover, switchback, operation, system, manager, online, help 
 summary: System Manager 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。 
 ---
-= スイッチオーバーとスイッチバックの処理を準備しています
+= System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。
+ONTAP System Manager クラシック 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。
 
 .手順
 . サイト B の災害からリカバリする場合は、次の手順を実行する必要があります。

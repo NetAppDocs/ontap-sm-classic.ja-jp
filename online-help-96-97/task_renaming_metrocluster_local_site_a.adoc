@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, metrocluster, rename, local, site, cluster, online, help 
 summary: System Manager を使用して、クラスタの MetroCluster ローカルサイト（サイト A ）の名前を変更できます。 
 ---
-= MetroCluster ローカルサイト（サイト A ）の名前変更
+= MetroCluster ローカルサイト（サイト A ）の名前を System Manger ONTAP 9.7 以前の名前に変更します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、クラスタの MetroCluster ローカルサイト（サイト A ）の名前を変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の MetroCluster ローカルサイト（サイト A ）の名前を変更できます。
 
 .手順
 . [*Configuration*>*Configuration Updates*] をクリックします。

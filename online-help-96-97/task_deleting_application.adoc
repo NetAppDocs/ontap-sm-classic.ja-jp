@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: delete, application, provisioned 
 summary: プロビジョニングされたアプリケーションが不要になった場合は削除できます。 
 ---
-= アプリケーションを削除しています
+= System Manager - ONTAP 9.7 以前を使用してアプリケーションを削除します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-プロビジョニングされたアプリケーションが不要になった場合は削除できます。
+プロビジョニングされたアプリケーションが不要になった場合は、 ONTAP System Manager クラシック（ 9.7 以前のバージョンで利用可能）を使用して削除できます。
 
 クラスタ管理者は、プロビジョニングしたアプリケーションが不要になった場合に削除することができます。次の手順の例では、 *NAS Container * アプリケーションを削除する方法を説明します。
 

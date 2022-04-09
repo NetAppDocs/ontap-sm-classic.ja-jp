@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, cluster, ontap, system, manager, online, help, management, network 
 summary: ONTAP 9.1 以降では、 ONTAP System Manager を使用して、クラスタの作成、ノード管理ネットワークやクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことにより、クラスタをセットアップできます。 
 ---
-= ONTAP System Manager を使用してクラスタをセットアップする
+= ONTAP System Manager ONTAP 9.7 以前を使用してクラスタをセットアップします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP 9.1 以降では、 ONTAP System Manager を使用して、クラスタの作成、ノード管理ネットワークやクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことにより、クラスタをセットアップできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことで、クラスタをセットアップできます。
 
 .作業を開始する前に
 * 少なくとも 1 つのノードのノード管理 IP アドレスを設定しておく必要があります。

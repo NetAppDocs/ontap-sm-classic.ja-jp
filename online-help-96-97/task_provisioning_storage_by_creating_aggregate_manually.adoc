@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager 
 summary: HDD のみまたは SSD のみで構成されるアグリゲートは、 System Manager を使用して手動で作成できます。 
 ---
-= アグリゲートを手動で作成してストレージをプロビジョニングする
+= System Manager - ONTAP 9.7 以前を使用してストレージをプロビジョニングするためのアグリゲートを手動で作成します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-HDD のみまたは SSD のみで構成されるアグリゲートは、 System Manager を使用して手動で作成できます。
+HDD のみまたは SSD のみで構成されるアグリゲートは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して手動で作成できます。
 
 ディスクはすべて同じサイズである必要があります。
 

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: flexvol, create, volume, online, help 
 summary: データ用の FlexVol ボリュームは、 System Manager のボリュームの作成ダイアログボックスを使用して作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。 
 ---
-= FlexVol ボリュームを作成します
+= System Manager ONTAP 9.7 以前を使用して FlexVol ボリュームを作成します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-データ用の FlexVol ボリュームは、 System Manager のボリュームの作成ダイアログボックスを使用して作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。
+データ用の FlexVol ボリュームは、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）のボリュームの作成ダイアログボックスを使用して作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。
 
 .作業を開始する前に
 * クラスタにルート以外のアグリゲートと Storage Virtual Machine （ SVM ）が含まれている必要があります。

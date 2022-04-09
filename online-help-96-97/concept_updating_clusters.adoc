@@ -4,10 +4,10 @@ sidebar: sidebar
 keywords: update, clusters, online, help, system, manager 
 summary: System Manager を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。MetroCluster 構成のクラスタも更新できます。 
 ---
-= クラスタの更新
+= System Manager - ONTAP 9.7 以前を使用してクラスタを更新します
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。MetroCluster 構成のクラスタも更新できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ハイアベイラビリティ（ HA ）ペアのクラスタまたは個々のノードを更新できます。MetroCluster 構成のクラスタも更新できます。

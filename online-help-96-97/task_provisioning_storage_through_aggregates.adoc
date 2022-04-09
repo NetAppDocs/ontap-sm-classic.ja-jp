@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool 
 summary: ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じてストレージを手動で作成することもできます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。 
 ---
-= アグリゲートを使用したストレージのプロビジョニング
+= System Manager - ONTAP 9.7 以前を使用して、アグリゲートを使用してストレージをプロビジョニングします
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じてストレージを手動で作成することもできます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。
+ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じて、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用し、手動でアグリゲートを作成できます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。
 
 アグリゲートを作成するための十分なスペアディスクが必要です。
 
