@@ -5,6 +5,7 @@ keywords: edit, dns, configurations, online, help, system, manager
 summary: System Manager を使用して、 DNS 設定を一元管理するためのホスト情報を追加できます。ドメイン名や IP アドレスを変更する場合に、 DNS の詳細を変更できます。 
 ---
 = DNS 設定を編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

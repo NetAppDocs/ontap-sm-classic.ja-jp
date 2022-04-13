@@ -5,6 +5,7 @@ keywords: system, manager, dashboard, window, multiple, panel, online, help
 summary: ダッシュボードウィンドウには、システムとそのパフォーマンスについての累積情報をわかりやすく表示した複数のパネルがあります。 
 ---
 = System Manager - ONTAP 9.7 以前のダッシュボードウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

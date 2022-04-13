@@ -5,6 +5,7 @@ keywords: system, manager, role, create, user, access, control, online, help
 summary: System Manager を使用して、アクセス制御ユーザロールを作成できます。 
 ---
 = System Manager - ONTAP 9.7 以前のバージョンでロールを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

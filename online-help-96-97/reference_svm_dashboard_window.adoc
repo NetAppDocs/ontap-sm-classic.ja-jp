@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: svm, dashboard, detail, online, help 
 summary: ダッシュボードは、 Storage Virtual Machine （ SVM ）とそのパフォーマンスについて、履歴を含めた情報をわかりやすく表示します。ダッシュボードウィンドウでは、設定されているプロトコル、容量の上限に近づいているボリューム、パフォーマンスなど、 SVM に関連する重要な情報を確認できます。 
 ---
-= SVM のダッシュボードウィンドウ
+= System Manager の ONTAP ダッシュボードウィンドウ - 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ダッシュボードは、 Storage Virtual Machine （ SVM ）とそのパフォーマンスについて、履歴を含めた情報をわかりやすく表示します。ダッシュボードウィンドウでは、設定されているプロトコル、容量の上限に近づいているボリューム、パフォーマンスなど、 SVM に関連する重要な情報を確認できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のダッシュボードウィンドウでは、 Storage Virtual Machine （ SVM ）とそのパフォーマンスについての累積情報がわかりやすく表示されます。ダッシュボードウィンドウでは、設定されているプロトコル、容量の上限に近づいているボリューム、パフォーマンスなど、 SVM に関連する重要な情報を確認できます。
 
 
 

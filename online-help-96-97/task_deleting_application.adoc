@@ -5,6 +5,7 @@ keywords: delete, application, provisioned
 summary: プロビジョニングされたアプリケーションが不要になった場合は削除できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用してアプリケーションを削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

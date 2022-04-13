@@ -5,6 +5,7 @@ keywords: record, iscsi, initiator, node, linux, host, configure, storage, syste
 summary: ストレージシステムの設定時に使用できるように、 Linux ホストの iSCSI イニシエータノード名を記録しておく必要があります。 
 ---
 = iSCSI ノード名を記録
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

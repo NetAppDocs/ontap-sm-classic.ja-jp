@@ -5,6 +5,7 @@ keywords: system, manager, update, mirror, vault, relationship, online, help
 summary: System Manager を使用して、スケジュールされていない差分更新を手動で開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。 
 ---
 = ミラーとバックアップ関係を更新しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

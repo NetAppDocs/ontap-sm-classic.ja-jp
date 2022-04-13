@@ -5,6 +5,7 @@ keywords: wizard, process, creating, create, storage, virtual, machine, svm, dom
 summary: ウィザードを使用して、新しい Storage Virtual Machine （ SVM ）の作成から、 Domain Name System （ DNS ；ドメインネームシステム）の設定、データ論理インターフェイス（ LIF ）の作成、 CIFS サーバの設定、ボリュームの作成と共有までの一連の処理を実行することができます。 
 ---
 = CIFS ボリュームと共有を含む新しい SVM を作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

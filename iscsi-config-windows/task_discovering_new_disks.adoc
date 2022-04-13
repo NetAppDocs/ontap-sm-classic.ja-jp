@@ -5,6 +5,7 @@ keywords: lun, storage, virtual, machine, svm, disk, windows, host, system, manu
 summary: Storage Virtual Machine （ SVM ）の LUN は、 Windows ホストではディスクとして表示されます。LUN のディスクを新たにシステムに追加した場合、そのディスクは自動的には検出されません。手動でディスクを再スキャンして検出する必要があります。 
 ---
 = 新しいディスクを検出します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

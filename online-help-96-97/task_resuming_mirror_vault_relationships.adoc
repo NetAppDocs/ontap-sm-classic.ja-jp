@@ -5,6 +5,7 @@ keywords: resume, mirror, vault, relationship, online, help, system, manager
 summary: ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。 
 ---
 = ミラーとバックアップ関係を再開しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

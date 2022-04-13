@@ -5,6 +5,7 @@ keywords: nondisruptive, expand, exist, cluster, ha, pair, expansion, overview
 summary: HA ペアを追加すると、既存のクラスタを迅速かつ無停止で拡張できます。クラスタを拡張すると、クラスタのパフォーマンスが向上し、使用可能なストレージ容量が増えます。 
 ---
 = クラスタの拡張の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

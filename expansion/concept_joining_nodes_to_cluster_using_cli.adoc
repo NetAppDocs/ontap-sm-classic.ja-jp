@@ -5,6 +5,7 @@ keywords: install, controller, module, cluster, setup, command, join nodes to th
 summary: 新しく設置したコントローラモジュールの準備ができたら、 cluster setup コマンドを使用して各モジュールをクラスタに追加できます。 
 ---
 = CLI を使用してクラスタにノードを追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

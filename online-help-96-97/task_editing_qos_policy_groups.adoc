@@ -5,6 +5,7 @@ keywords: edit, qos, policy, group, group, dialog, system, manager, online, help
 summary: System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。 
 ---
 = QoS ポリシーグループの編集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

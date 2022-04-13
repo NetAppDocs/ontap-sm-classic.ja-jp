@@ -5,6 +5,7 @@ keywords: create, lun, wizard, igroup, map, create a lun
 summary: LUN の作成には LUN 作成ウィザードを使用します。このウィザードでは、 igroup を作成し、作成した igroup に LUN をマッピングします。これにより、指定したホストから LUN にアクセスできるようになります。 
 ---
 = LUN を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

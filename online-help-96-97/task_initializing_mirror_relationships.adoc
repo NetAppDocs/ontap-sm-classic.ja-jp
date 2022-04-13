@@ -5,6 +5,7 @@ keywords: initialize, mirror, relationship, baseline, transfer, online, help
 summary: ミラー関係を開始する際には、関係を初期化する必要があります。関係を初期化すると、ソースボリュームからデスティネーションへのデータのベースライン転送が実行されます。System Manager を使用して、作成時に初期化していないミラー関係を初期化することができます。 
 ---
 = ミラー関係を初期化中です
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

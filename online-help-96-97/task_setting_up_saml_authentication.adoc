@@ -5,6 +5,7 @@ keywords: set, up, saml, authentication, security, assertion, markup, idp, onlin
 summary: リモートユーザが System Manager にログインする前にセキュアな Identity Provider （ IdP ；アイデンティティプロバイダ）を使用して認証されるように、 Security Assertion Markup Language （ SAML ；セキュリティアサーションマークアップ言語）認証をセットアップできます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して SAML 認証をセットアップします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

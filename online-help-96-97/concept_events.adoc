@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: event, log, notification, system, manager, online, help, view 
 summary: System Manager を使用して、イベントログやイベント通知を表示できます。 
 ---
-= イベント
+= System Manager - ONTAP 9.7 以前を使用してイベントを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、イベントログやイベント通知を表示できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、イベントログとイベント通知を表示できます。
 
 
 

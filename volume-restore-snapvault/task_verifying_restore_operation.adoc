@@ -5,6 +5,7 @@ keywords: perform, restore, operation, snapvault, backup, destination, volume, v
 summary: SnapVault バックアップデスティネーションボリュームからのリストア処理の実行後、ソースクラスタでリストア処理のステータスを確認する必要があります。 
 ---
 = リストア処理を検証
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

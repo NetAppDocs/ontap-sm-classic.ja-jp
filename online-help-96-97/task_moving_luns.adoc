@@ -5,6 +5,7 @@ keywords: move, lun, qtree, storage, virtual, machine, svm, online, help
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）内で、あるボリュームの LUN を別のボリュームまたは qtree に移動できます。ハイパフォーマンスディスクを含むアグリゲートでホストされているボリュームに LUN を移動すると、 LUN へのアクセス速度が向上します。 
 ---
 = LUN を移動中です
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

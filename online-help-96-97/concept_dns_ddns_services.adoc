@@ -5,6 +5,7 @@ keywords: dns, ddns, service, system, manager, manage, online, help, edit, setti
 summary: System Manager を使用して、 DNS / DDNS サービスを管理できます。 
 ---
 = DNS/DDNS サービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: online, help, system, manager, manage, schedule, storage
 summary: System Manager を使用して、ストレージシステムのスケジュールを作成および管理できます。 
 ---
 = スケジュール
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

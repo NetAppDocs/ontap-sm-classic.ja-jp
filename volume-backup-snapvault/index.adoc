@@ -5,6 +5,7 @@ keywords: content, configure, snapvault, backup, relationship, volume, cluster, 
 summary: 異なるクラスタにあるボリューム間の SnapVault バックアップ関係を簡単に設定できます。SnapVault バックアップには、読み取り専用の一連のバックアップコピーが格納されます。これらのコピーはデスティネーションボリュームに配置され、データが破損した場合や失われた場合のデータのリストアに使用できます。 
 ---
 = SnapVault によるボリュームのバックアップの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: schedule, automatic, creation, snapshot, copy, online, help 
 summary: System Manager を使用して、ボリュームの自動 Snapshot コピーを自動作成するスケジュールを設定できます。コピーを作成する時間と頻度を指定できます。保存する Snapshot コピーの数も指定できます。 
 ---
-= Snapshot コピーの自動作成をスケジュール設定しています
+= System Manager ONTAP 9.7 以前を使用して、 Snapshot コピーの自動作成をスケジュールします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ボリュームの自動 Snapshot コピーを自動作成するスケジュールを設定できます。コピーを作成する時間と頻度を指定できます。保存する Snapshot コピーの数も指定できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリュームの自動 Snapshot コピーを自動作成するスケジュールを設定できます。コピーを作成する時間と頻度を指定できます。保存する Snapshot コピーの数も指定できます。
 
 .手順
 . [* ストレージ *>* ボリューム *] をクリックします。

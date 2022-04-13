@@ -5,6 +5,7 @@ keywords: hba, utility, enable, view, worldwide, port, name, wwpn, fc, port, tro
 summary: HBA ユーティリティを使用して、各 FC ポートの World Wide Port Name （ WWPN ）を確認することができます。このユーティリティは、 FC の問題のトラブルシューティングにも役立ちます。 
 ---
 = HBA ユーティリティを HBA ベンダーからインストール
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

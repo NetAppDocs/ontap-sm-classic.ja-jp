@@ -5,6 +5,7 @@ keywords: cifs, system, manager, online, help, storage, add , delete, home, dire
 summary: System Manager を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。 
 ---
 = ホームディレクトリパスを追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

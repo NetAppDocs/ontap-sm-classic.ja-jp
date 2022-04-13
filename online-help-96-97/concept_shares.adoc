@@ -4,10 +4,11 @@ sidebar: sidebar
 keywords: online, help, share, system, manager, qtress, cifs, create, edit, manage, share, access, stop, home, directory, configure, smb 
 summary: System Manager を使用して、共有を作成、編集、管理できます。 
 ---
-= 共有
+= System Manager - ONTAP 9.7 以前を使用して共有を管理します
+:allow-uri-read: 
 
 
-System Manager を使用して、共有を作成、編集、管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、共有を作成、編集、管理できます。
 
 
 

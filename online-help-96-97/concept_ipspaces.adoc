@@ -5,6 +5,7 @@ keywords: ipspace, edit,rename, system, manager, manage, online, help
 summary: System Manager を使用して、 IPspace を作成および管理できます。 
 ---
 = System Manager を使用して ONTAP 9.7 以前を管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

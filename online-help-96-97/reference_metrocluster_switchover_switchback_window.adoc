@@ -5,6 +5,7 @@ keywords: metrocluster, switchover, switchback, operations, window, command, but
 summary: System Manager 9.6 以降では、 MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウを使用して、ネゴシエート（計画的）スイッチオーバーまたはサイト / クラスタ（サイト B ）から別のサイト / クラスタ（サイト A ）への計画外スイッチオーバーを開始できます。サイト B でメンテナンスや修復を実行したら、サイト A からサイト B へのスイッチバックを開始し、このウィンドウで処理のステータスを確認できます。 
 ---
 = MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

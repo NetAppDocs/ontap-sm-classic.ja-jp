@@ -5,6 +5,7 @@ keywords: node, cluster, configuring, configure, autosupport, network, expansion
 summary: 両方のノードをクラスタに追加したら、 AutoSupport を設定し、 SP ネットワークを完了して、新しく追加したノードの設定を完了する必要があります。 
 ---
 = 拡張を完了
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: delete, local, windows, group, systems, manager, online, help, svm, ri
 summary: Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合は、 System Manager を使用して SVM から削除することができます。 
 ---
 = Windows ローカルグループを削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

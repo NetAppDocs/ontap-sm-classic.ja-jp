@@ -5,6 +5,7 @@ keywords: documentation, restore, data, destination, volume, test, backed-up, so
 summary: バックアップしたデータをテストする場合やソースボリュームが失われた場合にデスティネーションボリュームからデータをリストアする方法については、別のドキュメントで説明しています。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

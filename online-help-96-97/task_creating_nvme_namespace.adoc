@@ -5,6 +5,7 @@ keywords: system, manager, create, nvme, namespace, svm, logical, blocks, online
 summary: System Manager を使用して、 1 つ以上の NVMe ネームスペースを作成し、各ネームスペースを Storage Virtual Machine （ SVM ）内のホストまたはホストセットに接続できます。NVMe ネームスペースは、論理ブロックにフォーマット可能な大容量のメモリです。各ネームスペースを 1 つの NVMe サブシステムにマッピングできます。 
 ---
 = NVMe ネームスペースを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

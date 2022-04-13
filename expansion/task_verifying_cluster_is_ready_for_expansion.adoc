@@ -5,6 +5,7 @@ keywords: expand, cluster, verify, plan, configuration, require, network, inform
 summary: クラスタの拡張を開始する前に、計画した構成を確認し、必要なネットワーク情報を収集し、必要に応じてスイッチを追加または交換する必要があります。 
 ---
 = クラスタを拡張する準備が完了していることを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

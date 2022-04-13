@@ -5,6 +5,7 @@ keywords: create, protection, policies, online, help, system, manager
 summary: System Manager を使用して、非同期ミラーポリシー、バックアップポリシー、またはミラーとバックアップのポリシーを作成し、作成したポリシーをデータ保護関係に適用することができます。 
 ---
 = 保護ポリシーを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: configure, iscsi, exist, storage, virtual, machine, svm, wizard, proto
 summary: 既存の Storage Virtual Machine （ SVM ）で iSCSI を設定し、 LUN とその格納先ボリュームを作成するまでを、 1 つのウィザードで実行することができます。この手順は、 iSCSI プロトコルがすでに有効になっていて、 SVM での設定はまだ完了していない場合に実行この情報は、 iSCSI をまだ設定していない SVM に複数のプロトコルを設定するケースを想定しています。 
 ---
 = 既存の SVM で iSCSI を設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

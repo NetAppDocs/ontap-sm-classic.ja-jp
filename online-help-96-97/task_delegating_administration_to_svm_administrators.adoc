@@ -5,6 +5,7 @@ keywords: online, help, delegate, administration, svm, administrator
 summary: Storage Virtual Machine （ SVM ）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、必要に応じてその管理を SVM 管理者に委譲できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 SVM 管理者に管理を委譲します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

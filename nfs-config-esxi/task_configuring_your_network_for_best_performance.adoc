@@ -5,6 +5,7 @@ keywords: ethernet, network, performance, configuration, value, configure, confi
 summary: イーサネットネットワークによってパフォーマンスは大きく変わります。特定の設定値を選択することで、ネットワークのパフォーマンスを最大限に高めることができます。 
 ---
 = 最適なパフォーマンスを実現できるようにネットワークを設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

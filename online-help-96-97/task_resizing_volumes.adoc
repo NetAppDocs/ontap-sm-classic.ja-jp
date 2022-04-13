@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: resize, volume, capacity, snapshot, copy, online, help 
 summary: ボリュームがいっぱいになってきたら、ボリュームのサイズを増やすか、いくつかの Snapshot コピーを削除するか、または Snapshot リザーブを調整します。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。 
 ---
-= ボリュームのサイズを変更中です
+= System Manager - ONTAP 9.7 以前を使用してボリュームのサイズを変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ボリュームがいっぱいになってきたら、ボリュームのサイズを増やすか、いくつかの Snapshot コピーを削除するか、または Snapshot リザーブを調整します。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。
+ボリュームの容量がフルに近くなったら、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリュームのサイズを拡張するか、いくつかの Snapshot コピーを削除するか、または Snapshot リザーブを調整します。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。
 
 .このタスクについて
 * 自動拡張が設定されたボリュームの場合、ボリュームの増大分に基づいて、ボリュームの自動拡張の上限を変更できます。

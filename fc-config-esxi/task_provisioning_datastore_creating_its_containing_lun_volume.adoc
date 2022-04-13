@@ -5,6 +5,7 @@ keywords: datastore, contain, virtual, machine, vmdk, esxi, host, provision, lun
 summary: データストアには、 ESXi ホストの仮想マシンとその VMDK が格納されます。ESXi ホストのデータストアは、ストレージクラスタの LUN にプロビジョニングします。 
 ---
 = データストアをプロビジョニングし、そのデータストアを格納する LUN とボリュームを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

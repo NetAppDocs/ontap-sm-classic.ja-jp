@@ -5,6 +5,7 @@ keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new n
 summary: 新しいをセットアップするには、新しいを作成し、 NFS を有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。 
 ---
 = 新しい NFS-enabled を作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: delete, mirror, relationships, online, help, snapshot, copy
 summary: ミラー関係を削除して、ボリュームのソースとデスティネーションの間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。 
 ---
 = ミラー関係を削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

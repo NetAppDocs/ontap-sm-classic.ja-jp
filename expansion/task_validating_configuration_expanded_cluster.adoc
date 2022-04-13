@@ -5,6 +5,7 @@ keywords: expand, cluster, validate, configuration, config, advisor, command, he
 summary: クラスタを拡張したら、 Config Advisor を実行し、クラスタの健全性とクラスタレプリケーションリングを確認するコマンドを使用して、構成を検証する必要があります。 
 ---
 = 拡張したクラスタの構成を検証
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

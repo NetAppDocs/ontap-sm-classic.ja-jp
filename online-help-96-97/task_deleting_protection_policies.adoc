@@ -5,6 +5,7 @@ keywords: delete, protection, policies, online, help, system, manager
 summary: 保護ポリシーが不要になった場合は、 System Manager を使用して削除できます。 
 ---
 = 保護ポリシーを削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

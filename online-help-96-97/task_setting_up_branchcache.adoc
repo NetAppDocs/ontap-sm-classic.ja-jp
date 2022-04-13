@@ -5,6 +5,7 @@ keywords: cifs, svm, system, manager, online, help, branchcache, set, up, modify
 summary: System Manager を使用すると、 CIFS 対応の Storage Virtual Machine （ SVM ）で BranchCache を設定して、要求元のクライアントのローカルコンピュータにコンテンツをキャッシュすることができます。 
 ---
 = BranchCache をセットアップしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

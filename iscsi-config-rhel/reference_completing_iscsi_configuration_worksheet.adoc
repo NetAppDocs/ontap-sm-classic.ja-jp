@@ -5,6 +5,7 @@ keywords: iscsi, identifier, network, address, storage, configuration, informati
 summary: iSCSI の設定タスクを実行するには、 iSCSI 識別子、ネットワークアドレス、およびストレージ構成情報が必要です。 
 ---
 = iSCSI 構成ワークシートに記入
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, flexgroup, volumes, online, help, system, manager 
 summary: System Manager FlexGroup を使用して、不要になった FlexGroup ボリュームを削除できます。 
 ---
-= FlexGroup ボリュームを削除しています
+= System Manager - ONTAP 9.7 以前を使用して FlexGroup ボリュームを削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager FlexGroup を使用して、不要になった FlexGroup ボリュームを削除できます。
+ONTAP FlexGroup ボリュームが不要になった場合は、 FlexGroup System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してボリュームを削除できます。
 
 .作業を開始する前に
 * FlexGroup ボリュームのジャンクションパスがアンマウントされている必要があります。

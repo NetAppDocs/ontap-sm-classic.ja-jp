@@ -5,6 +5,7 @@ keywords: quiescing, mirror, vault, relationship, system, manager, snapshot, onl
 summary: System Manager を使用して、 Snapshot コピーを作成する前にデスティネーションボリュームを休止して、安定した状態にすることができます。休止処理を実行すると、アクティブなデータ転送が完了したあと、ミラーとバックアップ関係の以降の転送が実行されなくなります。 
 ---
 = ミラーとバックアップ関係を休止しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

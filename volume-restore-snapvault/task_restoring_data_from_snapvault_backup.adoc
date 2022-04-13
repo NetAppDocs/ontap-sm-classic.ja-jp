@@ -5,6 +5,7 @@ keywords: snapvault, backup, destination, volume, perform, restore, operation, b
 summary: SnapVault バックアップデスティネーションボリュームを選択したら、リストア処理を実行する必要があります。バックアップしたデータをテストする場合は新しいボリュームにリストアし、データが失われたか破損した場合は既存のボリュームにリストアします。 
 ---
 = SnapVault バックアップからデータをリストアする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

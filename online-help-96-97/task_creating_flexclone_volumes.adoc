@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, flexclone, volume, system, manager, online, help 
 summary: 既存の FlexVol の書き込み可能なポイントインタイムコピーが必要なときは、 System Manager を使用して FlexClone ボリュームを作成できます。たとえば、テスト用にボリュームのコピーを作成したり、他のユーザに本番環境のデータへのアクセスは許可せずにテスト用のボリュームへのアクセスを提供したりすることができます。 
 ---
-= FlexClone ボリュームの作成
+= System Manager - ONTAP 9.7 以前を使用して FlexClone ボリュームを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-既存の FlexVol の書き込み可能なポイントインタイムコピーが必要なときは、 System Manager を使用して FlexClone ボリュームを作成できます。たとえば、テスト用にボリュームのコピーを作成したり、他のユーザに本番環境のデータへのアクセスは許可せずにテスト用のボリュームへのアクセスを提供したりすることができます。
+既存の FlexVol の書き込み可能なポイントインタイムコピーが必要なときは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexClone ボリュームを作成できます。たとえば、テスト用にボリュームのコピーを作成したり、他のユーザに本番環境のデータへのアクセスは許可せずにテスト用のボリュームへのアクセスを提供したりすることができます。
 
 .作業を開始する前に
 * ストレージシステムに FlexClone ライセンスがインストールされている必要があります。

@@ -5,6 +5,7 @@ keywords: reverse, resync, mirror, relationship, system, manager, online, help
 summary: System Manager を使用して、以前に解除したミラー関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。 
 ---
 = ミラー関係を逆再同期しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

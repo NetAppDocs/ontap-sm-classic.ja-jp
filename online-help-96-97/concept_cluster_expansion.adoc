@@ -5,6 +5,7 @@ keywords: cluster, expanision, system, manager, storage, size, capabilities, add
 summary: System Manager を使用して、互換性のあるノードをクラスタに追加し、ノードのネットワークの詳細を設定することで、ストレージのサイズと容量を拡張できます。ノードの概要を確認することもできます。 
 ---
 = System Manager を使用したクラスタの拡張 - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

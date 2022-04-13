@@ -5,6 +5,7 @@ keywords: system, manager, volume, manual, cutover, lun, report, node, advance, 
 summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用してボリュームを移動し、手動カットオーバーを実施するかどうかを決定できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。 
 ---
 = ボリューム移動の方法とタイミングを計画します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

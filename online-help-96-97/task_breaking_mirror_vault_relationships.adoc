@@ -5,6 +5,7 @@ keywords: break, mirror, vault, relationship, system, manger, online, help, clie
 summary: ソースボリュームを使用できなくなった場合にクライアントアプリケーションからデスティネーションボリュームのデータにアクセスできるようにするには、 System Manager を使用して、ミラーとバックアップ関係を解除します。デスティネーションボリュームでデータを提供しながら、ソースボリュームを修理または交換したり、ソースボリュームを更新したり、システムの元の構成を再確立したりできます。 
 ---
 = ミラーとバックアップ関係を解除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

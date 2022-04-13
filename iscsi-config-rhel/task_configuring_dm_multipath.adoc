@@ -5,6 +5,7 @@ keywords: dm-multipath, manage, path, linux, host, storage, cluster, configuring
 summary: DM-Multipath は、 Linux ホストとストレージクラスタの間の複数のパスを管理します。Linux ホストから SCSI デバイスとして認識される LUN で DM-Multipath を設定すると、パスやコンポーネントで障害が発生した場合でも Linux ホストからストレージクラスタの LUN にアクセスできるようになります。 
 ---
 = DM-Multipath を設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

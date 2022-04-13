@@ -5,6 +5,7 @@ keywords: add, nfs, volume, svm, configure, configuring, export, policy, verify,
 summary: NFS 対応 SVM に NFS ボリュームを追加するには、ボリュームを作成して設定し、エクスポートポリシーを作成し、 UNIX 管理ホストからのアクセスを確認します。その後、 NFS クライアントアクセスを設定することができます。 
 ---
 = NFS 対応 SVM に NFS ボリュームを追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

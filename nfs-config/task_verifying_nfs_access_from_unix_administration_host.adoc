@@ -5,6 +5,7 @@ keywords: configure, nfs, access, storage, virtual, machine, svm, verify, config
 summary: Storage Virtual Machine （ SVM ）に対する NFS アクセスの設定が完了したら、正しく設定されていることを確認する必要があります。設定を確認するには、 NFS 管理ホストにログインし、 SVM に対するデータの読み取りと書き込みが可能かどうかを確認します。 
 ---
 = UNIX 管理ホストから NFS アクセスを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

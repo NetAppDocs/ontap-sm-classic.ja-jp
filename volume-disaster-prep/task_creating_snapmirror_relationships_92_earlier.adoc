@@ -5,6 +5,7 @@ keywords: create, snapmirror, relationship, source, volume, cluster, destination
 summary: ディザスタリカバリ用にデータをレプリケートするには、ピア関係にあるそれぞれのクラスタのソースボリュームとデスティネーションボリュームの間で SnapMirror 関係を作成する必要があります。 
 ---
 = SnapMirror 関係を作成（ ONTAP 9.2 以前）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

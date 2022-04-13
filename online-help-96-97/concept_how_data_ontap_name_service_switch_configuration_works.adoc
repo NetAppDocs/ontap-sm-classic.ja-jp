@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: ontap, name, service, switch, configuration, works, unix, system, online, help 
 summary: ONTAP では、 UNIX システムの /etc/nsswitch.conf ファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。 
 ---
-= ONTAP のネームサービススイッチ設定の仕組み
+= System Manager での ONTAP ネームサービススイッチの設定の仕組み - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

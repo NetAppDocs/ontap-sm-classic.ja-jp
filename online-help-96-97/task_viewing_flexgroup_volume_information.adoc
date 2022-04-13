@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexgroup, volume, graphical, online, help, system, manager 
 summary: System Manager を使用して FlexGroup ボリュームに関する情報を表示できます。FlexGroup ボリュームの割り当てスペース、保護ステータス、およびパフォーマンスがグラフィカルに表示されます。 
 ---
-= FlexGroup ボリューム情報を表示しています
+= System Manager - ONTAP 9.7 以前を使用して、 FlexGroup ボリュームの情報を表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して FlexGroup ボリュームに関する情報を表示できます。FlexGroup ボリュームの割り当てスペース、保護ステータス、およびパフォーマンスがグラフィカルに表示されます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexGroup ボリュームに関する情報を表示できます。FlexGroup ボリュームの割り当てスペース、保護ステータス、およびパフォーマンスがグラフィカルに表示されます。
 
 また、 FlexGroup ボリュームに使用できる Snapshot コピーや FlexGroup ボリュームのデータ保護関係のほか、レイテンシ、 IOPS 、およびスループットを基準に、 FlexGroup ボリュームの平均パフォーマンス指標、読み取りパフォーマンス指標、書き込みパフォーマンス指標も確認できます。
 

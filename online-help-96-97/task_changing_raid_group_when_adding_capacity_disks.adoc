@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: change, raid, group, add, capacity, disk, online, help, hdd 
 summary: アグリゲートにデータディスク（ HDD ）を追加するときに、ディスクを追加する RAID グループを System Manager で変更することができます。 
 ---
-= データディスクを追加する際に RAID グループを変更する
+= System Manager - ONTAP 9.7 以前を使用してデータディスクを追加する場合は、 RAID グループを変更してください
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-アグリゲートにデータディスク（ HDD ）を追加するときに、ディスクを追加する RAID グループを System Manager で変更することができます。
+アグリゲートにデータディスク（ HDD ）を追加するときに、 ONTAP System Manager クラシック（ ONTAP 9.7 以前でサポート）を使用して、ディスクを追加する RAID グループを変更できます。
 
 .このタスクについて
 * RAID タイプが RAID-DP であり、 FSAS または MSATA タイプのディスクをサイズが 10TB 以上の場合、それらを追加できるのは「特別な RAID グループ」のみで、「新規 RAID グループ」または「すべての RAID グループ」には追加できません。

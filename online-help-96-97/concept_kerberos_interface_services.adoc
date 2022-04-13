@@ -5,6 +5,7 @@ keywords: kerberos, interface, service, system, manager, manage, online, help, e
 summary: System Manager を使用して、 Kerberos インターフェイスサービスを管理できます。 
 ---
 = Kerberos インターフェイスサービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

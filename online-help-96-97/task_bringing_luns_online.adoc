@@ -5,6 +5,7 @@ keywords: bring, lun, online, management, tab, online, help, system, manager
 summary: System Manager の LUN の管理タブを使用して、選択した LUN をオンラインにし、ホストで使用できるようにすることができます。 
 ---
 = LUN をオンラインにしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

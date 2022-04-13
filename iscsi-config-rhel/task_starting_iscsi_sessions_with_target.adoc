@@ -5,6 +5,7 @@ keywords: linux, host, iscsi, connection, node, target, storage, cluster, establ
 summary: Linux ホストには、ストレージクラスタ内の各ノード（ターゲット）との iSCSI 接続が必要です。セッションはホストから確立します。 
 ---
 = ターゲットとの iSCSI セッションを開始します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

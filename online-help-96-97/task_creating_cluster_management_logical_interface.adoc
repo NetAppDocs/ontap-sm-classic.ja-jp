@@ -5,6 +5,7 @@ keywords: system, manager, online, help, create, cluster, management, logical, i
 summary: System Manager を使用して、クラスタ管理論理インターフェイス（ LIF ）を作成し、クラスタに単一の管理インターフェイスを提供できます。この LIF は、クラスタのあらゆるアクティビティの管理に使用できます。 
 ---
 = クラスタ管理論理インターフェイスを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

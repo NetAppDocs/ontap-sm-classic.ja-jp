@@ -5,6 +5,7 @@ keywords: edit, mirror, vault, relationship, system, manager, online, help
 summary: System Manager を使用して、選択したポリシーやスケジュールを変更することで、ミラーとバックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。 
 ---
 = ミラーとバックアップ関係を編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

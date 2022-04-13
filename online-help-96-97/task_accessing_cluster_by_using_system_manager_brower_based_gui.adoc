@@ -5,6 +5,7 @@ keywords: access, cluster, ontap, system, maanger, graphic, interface, online, h
 summary: コマンドラインインターフェイスではなくグラフィカルインターフェイスを使用してクラスタにアクセスして管理するには、 ONTAP System Manager を使用します。 System Manager は ONTAP に搭載されている Web サービスでデフォルトで有効になっており、ブラウザを使用してアクセスできます。 
 ---
 = ONTAP System Manager のブラウザベースのグラフィカルインターフェイスを使用したクラスタへのアクセス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

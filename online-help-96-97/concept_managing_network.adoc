@@ -5,6 +5,7 @@ keywords: system, manager, storage, create, manage, ipspace, broadcast, domain, 
 summary: System Manager を使用して、 IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、ストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ 
 ---
 = System Manager - ONTAP 9.7 以前を使用してネットワークを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

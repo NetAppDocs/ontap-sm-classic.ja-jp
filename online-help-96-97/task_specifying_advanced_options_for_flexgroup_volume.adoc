@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexclone, volume, specify, advanced, create, options, online, help 
 summary: FlexGroup ボリュームを作成するときに、 FlexGroup ボリュームに関連付けるオプションを指定できます。 
 ---
-= FlexGroup ボリュームのアドバンストオプションの指定
+= System Manager - ONTAP 9.7 以前を使用して、 FlexGroup ボリュームのアドバンストオプションを指定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FlexGroup ボリュームを作成するときに、 FlexGroup ボリュームに関連付けるオプションを指定できます。
+FlexGroup ボリュームを作成するときに、 ONTAP System Manager クラシック（ ONTAP 9.7 以前でサポート）を使用して、 FlexGroup ボリュームに関連付けるオプションを指定できます。
 
 .手順
 . [ FlexGroup の作成 *] ウィンドウで、をクリックします image:../media/advanced_options.gif[""] をクリックして、アドバンストオプションを指定します。

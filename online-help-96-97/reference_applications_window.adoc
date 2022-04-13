@@ -5,6 +5,7 @@ keywords: applications, window, svm, online, help, storage, virtual, machine, on
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）内のアプリケーションのリストを表示できます。リストには、各アプリケーションに関する詳細情報が表示されます。 
 ---
 = System Manager のアプリケーションウィンドウ - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

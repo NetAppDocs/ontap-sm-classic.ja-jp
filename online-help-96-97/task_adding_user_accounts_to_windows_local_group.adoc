@@ -5,6 +5,7 @@ keywords: add, user, accounts, windows, local, group, active, directory, online,
 summary: System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。 
 ---
 = Windows ローカルグループにユーザアカウントを追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

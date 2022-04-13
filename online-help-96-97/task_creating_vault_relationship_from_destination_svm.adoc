@@ -5,6 +5,7 @@ keywords: system, manager, create, vault, relationship, destination, svm, online
 summary: System Manager を使用して、バックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。 
 ---
 = デスティネーション SVM からバックアップ関係を作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

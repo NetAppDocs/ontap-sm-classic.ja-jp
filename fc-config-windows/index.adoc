@@ -6,6 +6,7 @@ summary: Windows ホストコンピュータで、 Storage Virtual Machine に F
 ---
 = Windows 向けの FC 構成の概要
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

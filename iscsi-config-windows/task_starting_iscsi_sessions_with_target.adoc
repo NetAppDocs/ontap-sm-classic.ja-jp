@@ -5,6 +5,7 @@ keywords: windows, host, iscsi, connection, cluster, establish, sessions, initia
 summary: Windows ホストには、クラスタ内の各ノードへの iSCSI 接続が必要です。ホストからセッションを確立するには、ホストの iSCSI Initiator Properties （ iSCSI イニシエータのプロパティ）ダイアログボックスを使用します。 
 ---
 = ターゲットとの iSCSI セッションを開始します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

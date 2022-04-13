@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, raid, configuration, aggregate, online, help 
 summary: アグリゲートを作成するときに、そのアグリゲートの RAID タイプや RAID グループサイズのオプションのデフォルト値を System Manager で変更することができます。 
 ---
-= アグリゲート作成時の RAID 設定の変更
+= System Manager - ONTAP 9.7 以前を使用してアグリゲートを作成する際に RAID 構成を変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-アグリゲートを作成するときに、そのアグリゲートの RAID タイプや RAID グループサイズのオプションのデフォルト値を System Manager で変更することができます。
+アグリゲートを作成する際、 ONTAP の System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、アグリゲートの RAID タイプオプションと RAID グループサイズオプションのデフォルト値を変更できます。
 
 アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、選択できる RAID タイプは RAID-TEC のみです。
 

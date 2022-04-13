@@ -5,6 +5,7 @@ keywords: system, manager, flexcache, volume, information, online, help
 summary: System Manager 9.6 以降では、 FlexCache ボリュームに関する情報を表示できます。FlexCache ボリュームの割り当てスペースとパフォーマンスがグラフィカルに表示されます。 
 ---
 = FlexCache ボリューム情報を表示しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

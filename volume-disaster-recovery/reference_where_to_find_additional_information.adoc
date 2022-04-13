@@ -5,6 +5,7 @@ keywords: information, volume-level, disaster, recovery, relationship, method, p
 summary: 追加情報を使用すると、ボリュームレベルのディザスタリカバリ関係を管理したり、別のディザスタリカバリ方式でデータリソースの可用性を保護したりできます。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

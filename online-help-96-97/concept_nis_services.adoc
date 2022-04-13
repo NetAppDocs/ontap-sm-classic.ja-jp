@@ -5,6 +5,7 @@ keywords: online, help, system, manager, nis, services, add, edit, manage, netwo
 summary: System Manager を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。 
 ---
 = NIS サービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: wizard, process, creating, create, storage, virtual, machine, svm, con
 summary: ウィザードを使用して、 Storage Virtual Machine （ SVM ）の作成から、 Domain Name System （ DNS ；ドメインネームシステム）の設定、データ論理インターフェイス（ LIF ）の作成、 NFS の有効化、 NIS の設定、ボリュームの作成とエクスポートまでの一連の処理を実行することができます。 
 ---
 = NFS ボリュームを含む新しい SVM を作成してエクスポート
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

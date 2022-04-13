@@ -5,6 +5,7 @@ keywords: configuration, provision, task, storage, esxi, host, plug-in, vcenter,
 summary: では、 ESXi ホストでストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化します。は、 vCenter Server のプラグインです。 
 ---
 = をインストールします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

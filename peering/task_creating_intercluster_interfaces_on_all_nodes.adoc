@@ -5,6 +5,7 @@ keywords: cluster, communicate, logical, interface, lif, intercluster, create, i
 summary: ONTAP 9.2 以前の ONTAP 9 リリースでの ONTAP System Manager の「クラシック」インターフェイスを使用して、ピアリングに使用するクラスタ間 LIF を作成できます。 
 ---
 = すべてのノードにクラスタ間インターフェイスを作成（ ONTAP 9.2 以前）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

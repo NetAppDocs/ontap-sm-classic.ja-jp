@@ -5,6 +5,7 @@ keywords: clients, share, ntfs, file, permission, windows, explorer, modify, acl
 summary: 準備ができたら、エクスプローラで NTFS ファイル権限を設定し、 System Manager で共有 ACL を変更して、選択したクライアントに共有へのアクセスを許可することができます。設定が完了したら、該当するユーザまたはグループがボリュームにアクセスできることを確認してください。 
 ---
 = CIFS クライアントアクセスを設定して確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

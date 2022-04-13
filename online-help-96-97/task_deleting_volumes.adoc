@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, delete, volumes, system, manager, flexvol, volume 
 summary: ボリュームに含まれているデータが不要になった場合、またはボリュームに含まれているデータを別の場所にコピーした場合は、 System Manager を使用して FlexVol ボリュームを削除できます。ボリュームを削除すると、そのボリューム内のすべてのデータが破棄され、そのデータは回復できません。 
 ---
-= ボリュームの削除
+= System Manager - ONTAP 9.7 以前を使用してボリュームを削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ボリュームに含まれているデータが不要になった場合、またはボリュームに含まれているデータを別の場所にコピーした場合は、 System Manager を使用して FlexVol ボリュームを削除できます。ボリュームを削除すると、そのボリューム内のすべてのデータが破棄され、そのデータは回復できません。
+ボリュームに含まれているデータが不要になった場合、またはボリュームに含まれているデータを別の場所にコピーした場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexVol ボリュームを削除できます。ボリュームを削除すると、そのボリューム内のすべてのデータが破棄され、そのデータは回復できません。
 
 FlexVol ボリュームを削除するには、次の条件を満たしている必要があります。
 

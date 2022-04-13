@@ -5,6 +5,7 @@ keywords: source, volume, unavailable, verify, offline, identify, destination, v
 summary: ソースボリュームを使用できないときは、ソースボリュームがオフラインになっていることを確認し、データアクセスのためにアクティブ化する必要があるデスティネーションボリュームを確認する必要があります。 
 ---
 = ソースボリュームのステータスを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

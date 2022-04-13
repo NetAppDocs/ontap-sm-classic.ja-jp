@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, administrator, system, manager, online, help 
 summary: Storage Virtual Machine （ SVM ）管理者は、クラスタ管理者によって割り当てられた権限に応じて、 SVM およびそのリソース（ボリューム、プロトコル、サービスなど）を管理できます。SVM 管理者は、 SVM を作成、変更、または削除できません。 
 ---
-= SVM の管理
+= System Manager を使用して ONTAP 9.7 以前を管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）管理者は、クラスタ管理者によって割り当てられた権限に応じて、 SVM およびそのリソース（ボリューム、プロトコル、サービスなど）を管理できます。SVM 管理者は、 SVM を作成、変更、または削除できません。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）では、クラスタ管理者によって割り当てられた権限に応じて、 Storage Virtual Machine （ SVM ）管理者が SVM とそのリソース（ボリューム、プロトコル、サービスなど）を管理できます。SVM 管理者は、 SVM を作成、変更、または削除できません。
 
 [NOTE]
 ====

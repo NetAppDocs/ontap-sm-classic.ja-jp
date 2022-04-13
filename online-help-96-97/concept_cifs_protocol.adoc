@@ -5,6 +5,7 @@ keywords: cif, protocol, system, manager, enable, configure, server, client, fil
 summary: System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。 
 ---
 = CIFS プロトコル
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

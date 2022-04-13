@@ -1,19 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_portsets.html 
-sidebar: sidebar 
-keywords: delete, port, sets, system, manager, online, help 
-summary: System Manager を使用して、不要になったポートセットを削除できます。 
+redirect: ontap-sm-classic/online-help-96-97/task_creating_portsets.html 
 ---
-= ポートセットを削除します
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
-
-[role="lead"]
-System Manager を使用して、不要になったポートセットを削除できます。
-
-.手順
-. [ * ストレージ * > * LUNs * ] をクリックします。
-. [ * ポートセット * ] タブで、 1 つまたは複数のポートセットを選択し、 [ * 削除 * ] をクリックします。
-. 削除を確認するには、 * Delete * をクリックします。
 

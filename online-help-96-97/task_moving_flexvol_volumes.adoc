@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: move, flexvol, volume, aggregate, system, manager, online, help 
 summary: System Manager を使用して、容量利用率やパフォーマンスを向上させるために、 FlexVol を別のアグリゲートまたは別のノードに無停止で移動できます。 
 ---
-= FlexVol ボリュームを移動しています
+= System Manager - ONTAP 9.7 以前を使用して FlexVol ボリュームを移動します
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、容量利用率やパフォーマンスを向上させるために、 FlexVol を別のアグリゲートまたは別のノードに無停止で移動できます。
+ONTAP System Manager classic （ ONTAP 9.7 以前でサポート）を使用すると、無停止で FlexVol ボリュームを別のアグリゲートまたは別のノードに移動して、容量利用率とパフォーマンスを向上させることができます。
 
 データ保護ボリュームを移動する場合は、ボリュームを移動する前にデータ保護のミラー関係を初期化する必要があります。
 

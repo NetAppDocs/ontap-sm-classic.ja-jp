@@ -5,6 +5,7 @@ keywords: resume, mirror, relationship, normal, data, transfer, online, help
 summary: 休止していたミラー関係を再開することができます。関係を再開すると、ミラーデスティネーションへの通常のデータ転送が再開され、ミラー処理もすべて再開されます。 
 ---
 = ミラー関係を再開しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: update, cluster, metrocluster, configuration, online, help
 summary: System Manager を使用して、 MetroCluster 構成のクラスタを更新できます。クラスタの更新以外の処理は、すべて両方のクラスタで実行する必要があります。 
 ---
 = MetroCluster 構成のクラスタを System Manager ONTAP 9.7 以前を使用して更新する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

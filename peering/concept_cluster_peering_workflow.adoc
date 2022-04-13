@@ -5,6 +5,7 @@ keywords: set, relationship, cluster, peer, creating, create, intercluster, logi
 summary: ピア関係を設定するには、各クラスタでピアリングの準備を行い、各クラスタの各ノードにクラスタ間論理インターフェイス（ LIF ）を作成し、クラスタピア関係を設定してから SVM ピア関係を設定します。 
 ---
 = クラスタと SVM のピア関係作成ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

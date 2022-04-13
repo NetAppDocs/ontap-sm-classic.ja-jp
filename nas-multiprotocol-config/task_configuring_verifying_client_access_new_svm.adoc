@@ -5,6 +5,7 @@ keywords: configure, client, access, unix, ntfs, file, modify, share, acl, add, 
 summary: 準備ができたら、 UNIX または NTFS のファイル権限を設定し、共有 ACL の変更とエクスポートルールの追加を行って、クライアントアクセスを設定することができます。設定が完了したら、該当するユーザまたはグループがボリュームにアクセスできることを確認してください。 
 ---
 = CIFS および NFS のクライアントアクセスを設定して確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

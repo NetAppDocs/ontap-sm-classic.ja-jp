@@ -5,6 +5,7 @@ keywords: guidelines, lun, multiprotocol, type, operating, system, host, layout,
 summary: LUN マルチプロトコルタイプ、つまりオペレーティングシステムのタイプは、 LUN にアクセスするホストのオペレーティングシステムを指定します。また、 LUN のデータレイアウト、および LUN の最小サイズと最大サイズも決定します。 
 ---
 = LUN マルチプロトコルタイプの使用に関するガイドライン
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

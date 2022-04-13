@@ -5,6 +5,7 @@ keywords: controller, module, physical, install, power, configure, node-mangemen
 summary: コントローラモジュールを物理的に設置したら、各モジュールの電源をオンにして、そのノード管理 LIF を設定できます。 
 ---
 = ノード管理 LIF を設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

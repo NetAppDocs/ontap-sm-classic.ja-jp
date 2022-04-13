@@ -5,6 +5,7 @@ keywords: delte, local, windows, user, account, system, manager, online, help, c
 summary: Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 System Manager を使用して SVM から削除することができます。 
 ---
 = Windows ローカルユーザアカウントを削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

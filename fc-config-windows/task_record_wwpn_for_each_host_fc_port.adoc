@@ -5,6 +5,7 @@ keywords: worldwide, port, name, wwpn, require, zone, fc, switch, create, igroup
 summary: World Wide Port Name （ WWPN ）は、 FC スイッチのゾーニングと、ホストから LUN にアクセスできる igroup の作成に必要です。 
 ---
 = 各ホスト FC ポートの WWPN を記録します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

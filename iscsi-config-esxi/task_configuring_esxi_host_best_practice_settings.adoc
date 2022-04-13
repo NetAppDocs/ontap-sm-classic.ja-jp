@@ -5,6 +5,7 @@ keywords: ensure, host, multipath, practice, setting, esxi, loss, iscsi, storage
 summary: ESXi ホストが iSCSI 接続またはストレージフェイルオーバーイベントの損失を正しく管理できるように、ホストのマルチパスとベストプラクティスの設定が正しいことを確認する必要があります。 
 ---
 = ESXi ホストのベストプラクティスを設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

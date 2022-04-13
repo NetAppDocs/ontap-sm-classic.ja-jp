@@ -5,6 +5,7 @@ keywords: nfs, access, exist, create, data, logical, interface, lif, configure, 
 summary: 既存のに NFS アクセスを追加するには、まずデータ論理インターフェイス（ LIF ）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。 
 ---
 = 既存のに NFS アクセスを追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

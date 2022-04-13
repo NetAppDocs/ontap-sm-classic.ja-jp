@@ -5,6 +5,7 @@ keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, 
 summary: ONTAP System Manager 従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に FC サービスをセットアップし、 LUN をプロビジョニングし、 ESX ホストコンピュータで FC HBA を使用して LUN をデータストアとして使用できるように設定できます。 
 ---
 = VSC を使用した ESXi 向けの FC の設定の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

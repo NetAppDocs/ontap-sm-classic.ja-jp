@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: trace, file, access, diagnost, error, svm, system, manager, online, help 
 summary: System Manager 9.6 以降では、 Storage Virtual Machine （ SVM ）の CIFS / NFS ファイルアクセスエラーを診断できます。 
 ---
-= ファイルアクセスのトレースによる SVM のアクセスエラー診断
+= ファイルアクセスをトレースして、 System Manager を備えた SVM のアクセスエラーを診断します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

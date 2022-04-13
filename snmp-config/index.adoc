@@ -5,6 +5,7 @@ keywords: content, configure, snmp, cluster, management, level, add, communities
 summary: ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用すると、クラスタ管理レベルで SNMP を設定し、コミュニティ、セキュリティユーザ、トラップホストを追加し、 SNMP 通信をテストできます。 
 ---
 = SNMP 設定の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

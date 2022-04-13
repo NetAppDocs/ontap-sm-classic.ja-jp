@@ -5,6 +5,7 @@ keywords: nondisruptive, data, volume, node, storage, virtual, machine, svm, ont
 summary: ONTAP 9.7 以前の ONTAP System Manager のクラシックインターフェイスを使用すると、 ONTAP 9 クラスタの同じ Storage Virtual Machine （ SVM ）内のノード間で、データボリュームを無停止で移動できます。 
 ---
 = ボリューム移動の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

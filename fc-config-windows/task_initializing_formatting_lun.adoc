@@ -5,6 +5,7 @@ keywords: lun, access, windows, host, partition, file, system, initialize, lun, 
 summary: Windows ホストから初めてアクセスした時点では、新しい LUN にはパーティションやファイルシステムは設定されていません。LUN を初期化し、必要に応じてファイルシステムでフォーマットする必要があります。 
 ---
 = LUN を初期化してフォーマット
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

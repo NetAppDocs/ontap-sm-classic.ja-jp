@@ -5,6 +5,7 @@ keywords: edit, vault, relationships, system, manager, online, help, cluster, sc
 summary: System Manager を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、新しいポリシーまたはスケジュールを作成して、バックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。 
 ---
 = バックアップ関係を編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

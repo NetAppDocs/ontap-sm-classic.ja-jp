@@ -5,6 +5,7 @@ keywords: abort, snapshot, copy, transfer, online, help, system, manager
 summary: System Manager を使用して、現在実行中のデータ転送を中止または停止することができます。 
 ---
 = Snapshot コピーの転送を中止します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

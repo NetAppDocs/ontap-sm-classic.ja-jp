@@ -5,6 +5,7 @@ keywords: online, help, delete, qos, policy, groups, system, manager
 summary: System Manager を使用して、不要になったストレージ QoS ポリシーグループを削除できます。 
 ---
 = QoS ポリシーグループの削除
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

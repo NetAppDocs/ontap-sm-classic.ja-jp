@@ -5,6 +5,7 @@ keywords: edit, protection, policies, online, help, system, manager
 summary: System Manager を使用して、保護ポリシーを変更し、変更後のポリシーをデータ保護関係に適用することができます。 
 ---
 = 保護ポリシーを編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: metrocluster, switchover, switchback, workflow, online, help, offline, maintenance 
 summary: System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。 
 ---
-= System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて
+= MetroCluster のスイッチオーバーとスイッチバックについて
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

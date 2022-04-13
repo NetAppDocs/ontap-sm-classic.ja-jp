@@ -5,6 +5,7 @@ keywords: require, fc, intiator, target, wwpn, storage, configuration, informati
 summary: FC の設定タスクを実行するには、 FC イニシエータとターゲットの WWPN 、およびストレージの構成情報が必要です。 
 ---
 = FC 構成ワークシートに記入
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

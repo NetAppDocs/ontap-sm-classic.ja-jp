@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, manager, ethernet, port, create, online, help, create, interface, group, lacp, vlan, settings, duplex, mode, speed, mtu, size,  port, nodes, fcp, 
 summary: System Manager を使用して、イーサネットポートを作成および管理できます。 
 ---
-= イーサネットポート
+= System Manager - ONTAP 9.7 以前を使用してイーサネットポートを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、イーサネットポートを作成および管理できます。
+ONTAP システムクラシック（ ONTAP 9.7 以前で使用可能）を使用して、イーサネットポートを作成および管理できます。
 
 
 

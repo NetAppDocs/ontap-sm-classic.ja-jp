@@ -2135,7 +2135,6 @@
   <block id="c3a278123d3b287069e73f2ccdfcdb00" category="list-text">Edit DNS/DDNS Settings * ダイアログボックスで、 * DDNS service * チェックボックスをオンにして DDNS を有効にします。</block>
   <block id="f7b5d29d3967c0e03bc5980c91dd7809" category="paragraph">DDNS を無効にするには、 * DDNS サービス * チェックボックスの選択を解除します。</block>
   <block id="eb542e78bdc6ea5852e480ad8e4002de" category="inline-xref-macro">DNS / DDNS サービスウィンドウ</block>
-  <block id="99a93d93826462f137fad465fd937816" category="summary">System Manager を使用して、 Flash Pool アグリゲートを手動で作成したり、既存の HDD アグリゲートに SSD を追加して Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。</block>
   <block id="95637d1c1eb22cb1979aeffae82294cd" category="doc">Flash Pool アグリゲートを手動で作成してストレージをプロビジョニングする</block>
   <block id="b06cb13f1b387a05cf34a10fd25c49c6" category="list-text">Flash Pool アグリゲートの SSD 層のサイズと構成について、プラットフォームとワークロードそれぞれに固有なベストプラクティスに注意する必要があります。</block>
   <block id="6f7017b28fd2cc703df185f2b3d20b38" category="list-text">すべての HDD を初期化する必要があります。</block>
@@ -2294,7 +2293,6 @@
   <block id="bfbdd213dc0c96bd5a4685c9d9e706d9" category="list-text">* 優先される Active Directory サーバ *</block>
   <block id="605a966451580dc3de6e24ed46014a9e" category="paragraph">LDAP クライアント設定ごとに優先される Active Directory サーバを表示します。</block>
   <block id="4a837bd68570795a80aec059aabab8d5" category="summary">System Manager を使用して、ボリュームのデフォルトの階層化ポリシーを変更することで、ボリュームのデータが非アクティブになったときにクラウド階層に移動するかどうかを制御できます。</block>
-  <block id="486b7ceacff4684ac92133f8cff97922" category="doc">ボリュームの階層化ポリシーを変更する</block>
   <block id="f402a6845c9046061a89b08fdd05b4a5" category="list-text">階層化ポリシーを変更するボリュームを選択し、 * その他の操作 * &gt; * 階層化ポリシーの変更 * をクリックします。</block>
   <block id="7f82cd9186cfbeeb4de6a40f2ed09242" category="list-text">「 * 階層化ポリシー * 」リストから必要な階層化ポリシーを選択し、「 * 保存 * 」をクリックします。</block>
   <block id="7b43fc84a8b717582430cc69f49d403f" category="summary">コマンドラインインターフェイス（ CLI ）ではなくグラフィカルインターフェイスを使用してクラスタにアクセスして管理するには、 ONTAP System Manager を使用します。 System Manager は ONTAP に搭載されている Web サービスでデフォルトで有効になっており、ブラウザを使用してアクセスできます。</block>
@@ -2646,7 +2644,6 @@
   <block id="3a501d3a65994d497f5cb40fb393ac8c" category="paragraph">cron 形式のスケジュールを指定する場合に選択します。</block>
   <block id="85b46078a35291049ac1edfa07e75f35" category="paragraph">スケジュールを割り当てない</block>
   <block id="a26531ddd22c342a5bd9860ea919b50d" category="paragraph">「 * なし * 」を選択します。</block>
-  <block id="a47c67997db7944e30aba3e2e51c1ee6" category="summary">System Manager を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。</block>
   <block id="b9b83c03586f346b6fdd8afa94f2839d" category="doc">ストレージの推奨事項に基づいてアグリゲートを作成してストレージをプロビジョニングする</block>
   <block id="f527ab93e764b9b968cad6273c5a0f1c" category="list-text">Cloud Volumes ONTAP 、 ONTAP Select 、 MetroCluster の各構成では、ストレージに関する推奨事項に基づいてアグリゲートを作成することはできません。</block>
   <block id="3efcf0a9999f2a8e8d0650f90fe62f04" category="list-text">エラーがある場合は画面に表示されます。</block>
@@ -2939,7 +2936,6 @@
   <block id="7a5a6f53dcdfc76ae7c96d343e78aaf6" category="inline-xref-macro">バックアップ関係のボリュームのリストア</block>
   <block id="6121a20dc7eb934ce44aed9290d905e6" category="paragraph"><block ref="6121a20dc7eb934ce44aed9290d905e6" category="inline-xref-macro-rx"></block></block>
   <block id="f6dd46455d557f9e0e43796aa301d505" category="summary">System Manager を使用して、データ保護（ DP ）ボリュームのボリューム名を変更することができます。ソースボリュームで Storage Efficiency が有効になっていない場合に、デスティネーションボリュームでのみ Storage Efficiency を有効にすることもできます。</block>
-  <block id="761dd49e617c96f3ef82d574fa85ed47" category="doc">データ保護ボリュームを編集する</block>
   <block id="6f8e108386883828bf4e2883d1ec9c63" category="paragraph">ミラー DP ボリュームの Storage Efficiency を変更することはできません。</block>
   <block id="0eeb1aa23f1d51ee66065f798b055934" category="list-text">SVM * フィールドのドロップダウンメニューから、編集する DP ボリュームが配置されている Storage Virtual Machine （ SVM ）を選択します。</block>
   <block id="76e928ab5ae3ed083003358eb3d08df2" category="list-text">変更するボリュームを選択し、 * 編集 * をクリックします。</block>
@@ -3185,7 +3181,6 @@
   <block id="4035a86a26405778c19a0a74f93e4a53" category="list-text">イニシエータクラスタにアクセスし、 * ピアリングの検証 * をクリックします。</block>
   <block id="b492ac6ca8fec67cce92c6fbc7983fcd" category="paragraph">System Manager を使用してピア関係を作成する場合、暗号化ステータスはデフォルトで「 enabled 」になります。</block>
   <block id="920138b399cc42c578279aee26e1cee6" category="summary">アグリゲートにデータディスク（ HDD ）を追加するときに、ディスクを追加する RAID グループを System Manager で変更することができます。</block>
-  <block id="486db80e214969368aa95f6e3dbf401c" category="doc">データディスクを追加する際に RAID グループを変更する</block>
   <block id="a769aeea6af374cb782f74c884264af6" category="list-text">RAID タイプが RAID-DP であり、 FSAS または MSATA タイプのディスクをサイズが 10TB 以上の場合、それらを追加できるのは「特別な RAID グループ」のみで、「新規 RAID グループ」または「すべての RAID グループ」には追加できません。</block>
   <block id="feeafe69c36bd3b86c436715b8756b42" category="paragraph">これらのディスクは、既存のアグリゲートのサイズにダウンサイズされて追加されます。</block>
   <block id="c0dc75dda54a85e13e66da3d0e3862bf" category="list-text">RAID グループが RAID-TEC の場合 'FSAS または MSATA タイプのディスクを 10 TB 以上のサイズで追加する場合は ' すべての RAID グループ ' 新しい RAID グループ ' および特別な RAID グループに追加できます</block>
@@ -3285,13 +3280,11 @@
   <block id="107bea07d2bf29e67c0aa91b72728753" category="paragraph">SNMP サーバのセキュリティ形式が表示されます。</block>
   <block id="f4c0fc1a228f243144f99ec4c1441785" category="doc">イニシエータホスト</block>
   <block id="5965aeb6244778b6539f2a5da4d3e3c9" category="summary">System Manager を使用して Storage Virtual Machine （ SVM ）を起動することで、 SVM からデータアクセスを提供できます。</block>
-  <block id="f9943ddf5967ac3bbe9d22b664e14432" category="doc">SVM の起動</block>
   <block id="e236d336e04f19a5f31aaeba921e7a28" category="list-text">開始する SVM を選択し、 * Start * をクリックします。</block>
   <block id="c19970592d059062d7ce4832bb7a7720" category="paragraph">SVM によるクライアントへのデータの提供が開始されます。</block>
   <block id="889a321e318f05b5fb89e005542f07fb" category="summary">System Manager でサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。</block>
   <block id="c0521c6560bb3da41948d242d0662a6b" category="doc">サービスプロセッサ</block>
   <block id="6abaf57d8d2cb59f5b00aeb51688432d" category="summary">System Manager を使用して、クラスタ内の SVM を管理できます。</block>
-  <block id="500569e3cc0764260a592cb176921ca3" category="doc">Storage Virtual Machine</block>
   <block id="cfb1817554a9587603f20a10cafefb6f" category="summary">ユーザウィンドウを使用して、ユーザアカウントの管理、ユーザのパスワードのリセット、およびすべてのユーザアカウントに関する情報の表示を行うことができます。</block>
   <block id="745b499282804290b186150f300b21d2" category="doc">ユーザーウィンドウ</block>
   <block id="35ffcd504fd9c4346e78cdf8a1e2ca26" category="paragraph">ユーザーの追加ダイアログボックスを開きます。このダイアログボックスで、ユーザーアカウントを追加できます。</block>
@@ -4223,7 +4216,6 @@
   <block id="69652e6bb3633aa3452c369375e43a5d" category="list-text">ユーザのアクセスを指定した一連のコマンドのみに制限する。</block>
   <block id="5532eb5ab3c7da9f38233b13c89e0642" category="list-text">ONTAP API とそれに対応するコマンドラインインターフェイス（ CLI ）コマンドを表示する。</block>
   <block id="e585e44dccf71e62f3ca9f6f39a8666d" category="summary">Storage Virtual Machine （ SVM ）を含む問題のトラブルシューティングを行う場合、 SVM を削除する場合、または SVM からのデータアクセスを停止する場合は、 System Manager を使用して SVM を停止できます。</block>
-  <block id="04d9728a7229fc8f080a43c27602f266" category="doc">SVM の停止</block>
   <block id="4eb2840288285e214da738e885c04583" category="paragraph">SVM に接続されているすべてのクライアントを切断する必要があります。</block>
   <block id="285f87674ead8fb752e089d8048f041b" category="paragraph">SVM の停止時に SVM にクライアントが接続されていると、データの損失が発生する可能性があります。</block>
   <block id="d3d5618773817b8f5aee633041f33b6e" category="list-text">Storage Failover （ SFO ；ストレージフェイルオーバー）中は SVM を停止できません。</block>
@@ -4553,7 +4545,6 @@
   <block id="0c58e43ce8eb3d3e47a4152e6ef220f3" category="paragraph">休止できるのは、 SnapMirror 済み状態のミラー関係のみです。</block>
   <block id="380aacf30b9d9d5e46d2e23835ee2c3f" category="list-text">休止するミラー関係を選択します。</block>
   <block id="3406bf4d129c489b0840176d38ffa1fb" category="list-text">確認のチェックボックスをオンにし、 * 休止 * をクリックします。</block>
-  <block id="1116cd5308713dce06806b71a7e197fa" category="summary">System Manager を使用して、クラスタの MetroCluster ローカルサイト（サイト A ）の名前を変更できます。</block>
   <block id="83519546c0907279c9042a2ad400f3a2" category="list-text">[*Configuration*&gt;*Configuration Updates*] をクリックします。</block>
   <block id="d463cc8cd485894dda55a3f4689dc89c" category="list-text">クラスタ名の更新 * をクリックします。</block>
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">テキストボックスで名前を更新し、 * 送信 * をクリックします。</block>
@@ -4606,7 +4597,6 @@
   <block id="2fd6126fa3f88440d17a08acb69bb2fa" category="paragraph"><block ref="2fd6126fa3f88440d17a08acb69bb2fa" category="inline-link-rx"></block></block>
   <block id="ce9b88380a7479d671cbb0be2c4ca817" category="summary">System Manager では、 Snapshot コピーディレクトリ（ .snapshot ）を非表示にして、ボリュームディレクトリを表示したときに Snapshot コピーディレクトリが表示されないようにすることができます。デフォルトでは、 .snapshot ディレクトリは表示されます。</block>
   <block id="2351a6123d510e63bb4101f4b402b71d" category="doc">Snapshot コピーディレクトリを非表示にします</block>
-  <block id="27f5a0e574a9808d28498d44d0da46cc" category="paragraph">System Manager では、 Snapshot コピー・ディレクトリ（ .snapshot ）を非表示にして、ボリューム・ディレクトリを表示したときに Snapshot コピー・ディレクトリが表示されないようにすることができます。デフォルトでは '.snapshot ディレクトリは表示されます</block>
   <block id="8cf5dc9ae66d953d3133a8c869276df8" category="list-text">非表示にする Snapshot コピーディレクトリのボリュームを選択します。</block>
   <block id="53f2257ede212fca318ea5e1d7f85e39" category="list-text">[ スナップショットディレクトリ（ .snapshot ）を表示する * （ Make snapshot directory （ .snapshot ） visible * ） ] オプションが選択されていないことを確認し、 [ * OK* ] をクリックします。</block>
   <block id="f28683e827ded257fe710b386a82152c" category="summary">System Manager を使用して、定義されたスケジュール以外の時間にボリュームの Snapshot コピーを作成して、特定の時点のファイルシステムの状態をキャプチャすることができます。</block>
@@ -4741,7 +4731,6 @@
   <block id="0ce6eb76fea207d15765d474a1aebee8" category="list-text">ストレージシステムへの接続にユーザが使用するパスワードを入力し、確認のためにもう一度入力します。</block>
   <block id="3347f086676ffecffa7c1d19b9b65055" category="list-text">1 つまたは複数のユーザーログイン方法を追加し、 * 追加 * をクリックします。</block>
   <block id="537075282f9f557a7b9d6b978e1b560b" category="summary">Storage Virtual Machine （ SVM ）管理者は、クラスタ管理者によって割り当てられた権限に応じて、 SVM およびそのリソース（ボリューム、プロトコル、サービスなど）を管理できます。SVM 管理者は、 SVM を作成、変更、または削除できません。</block>
-  <block id="fbd4e59c8af915c2fd3fc339c7391c48" category="doc">SVM の管理</block>
   <block id="d41286a049acbf37823935a946b5dc24" category="paragraph">SVM 管理者は、 System Manager にログインできません。</block>
   <block id="3e40d59c66b9c1ab3255570f543ae202" category="paragraph">SVM 管理者は、次の管理作業のすべてまたは一部を実施できます。</block>
   <block id="af79ec0df6bf28a9a3499a754c9fa5f2" category="list-text">データアクセスプロトコルの設定</block>
@@ -4789,7 +4778,6 @@
   <block id="c3708408f9dc6c088c7305bb9f73b132" category="paragraph">ミラーとバックアップ関係は、 SnapMirror 済みの状態である必要があります。</block>
   <block id="674715c13a8ed577fb9173a56349da63" category="list-text">休止するミラーとバックアップ関係を選択し、 * Operations * &gt; * Quiesce * をクリックします。</block>
   <block id="29dae394602a437c321ae57db948174e" category="paragraph">実行中の転送がない場合、転送ステータスは Quiesced と表示されます。転送が進行中の場合、転送は影響を受けず、転送が完了するまで転送ステータスは Quiescing と表示されます。</block>
-  <block id="3913cc3a62bd1a6ecc7cab1127219820" category="summary">System Manager を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。</block>
   <block id="656f14abca9be3df0c2f539b6ce643ec" category="doc">FabricPool 対応アグリゲートを手動で作成してストレージをプロビジョニングする</block>
   <block id="22ab6a49788fb366e3696241368765e1" category="list-text">クラウド階層を作成し、 SSD アグリゲートが配置されたクラスタに接続しておく必要があります。</block>
   <block id="523ea82bc2d95d0ab17b71c6afa24f78" category="list-text">オンプレミスのクラウド階層を作成しておく必要があります。</block>
@@ -5299,7 +5287,6 @@
   <block id="cb1f53f2fe4537c68f1f786193251f4e" category="paragraph">IdP の設定後にユーザが完全修飾ドメイン名（ FQDN ）、 IPv6 、またはクラスタ管理 LIF を使用してログインしようとすると、 IdP の設定で指定したホストシステムの IP アドレスに IP アドレスが自動的に変更されます。</block>
   <block id="8242b7aa2af544cf2f93afd197e27cf3" category="paragraph"><block ref="8242b7aa2af544cf2f93afd197e27cf3" category="inline-xref-macro-rx"></block></block>
   <block id="caffe237e203deff7da0ba170f501be9" category="summary">System Manager を使用すると、選択したボリュームについて保存されているすべての Snapshot コピーのリストを、ボリュームウィンドウの下部ペインにある Snapshot コピータブで確認できます。このリストを使用して、 Snapshot コピーの名前変更、リストア、または削除を実行できます。</block>
-  <block id="afb06f6c37afcb47dce31324a1e67ce0" category="doc">保存された Snapshot コピーのリストを表示しています</block>
   <block id="2a24310e6b3a5ba6e7bf061cbda5a983" category="paragraph">一度に表示できる Snapshot コピーのボリュームは 1 つだけです。</block>
   <block id="ac7f70dc67c04109b95c51b4fdfba0f2" category="list-text">保存された Snapshot コピーを表示するボリュームの横にあるプラス記号（ + ）をクリックします。</block>
   <block id="7fdd237ea3a5f91bb2e3e75533d62fcf" category="list-text">Show More Details * リンクをクリックすると、ボリュームに関する詳細情報が表示されます。</block>
@@ -5769,7 +5756,6 @@
   <block id="b63b907f53d81d2df933f194c997dca6" category="list-text">ジョブマネージャの初期化状態に関する情報を表示する</block>
   <block id="224d2019f36419ff9f94b0e265889946" category="paragraph">完了したジョブの結果は、イベントログで確認できます。</block>
   <block id="225462897706db04ac0f2ef21f46db48" category="summary">System Manager を使用して、ボリュームを作成、編集、削除できます。</block>
-  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="doc">個のボリューム</block>
   <block id="dd0d7fb0d943afdd167daa971c00ef96" category="paragraph">クラスタ内のすべてのボリュームにアクセスするには、ボリュームタブを使用するか、 * SVM * &gt; * ボリューム * を使用して SVM に固有のボリュームにアクセスします。</block>
   <block id="5283be92496e2188f016eeaf229d3adc" category="paragraph">ボリュームタブは、 CIFS および NFS のライセンスが有効になっている場合にのみ表示されます。</block>
   <block id="dcc823df11c912eae85ac0b7d29f9f70" category="doc">SSD を既存のストレージプールに追加する場合と新規作成する場合の考慮事項</block>
@@ -5792,7 +5778,6 @@
   <block id="770568aadb0164c6b59d8b2ed54504b6" category="list-text">最大スループット制限を指定します。</block>
   <block id="68cff514ab4514c3956b601fa1b78577" category="list-text">最大スループット制限を指定しない場合は、自動的に「無制限」という値が表示されます。</block>
   <block id="a56e31822510cde8f8a20d6f36849aa7" category="summary">System Manager を使用して、ディスクを管理できます。</block>
-  <block id="2d4aef30a49a581a6ed89ce840054235" category="doc">ディスク</block>
   <block id="edda3972d1bc3950c540b7172745645c" category="paragraph"><block ref="edda3972d1bc3950c540b7172745645c" category="inline-link-rx"></block></block>
   <block id="70894d5c0a41692947485c0d0a19e60a" category="inline-link">FlexArray 仮想化のインストール要件およびリファレンス</block>
   <block id="b42d776faedad51898dbe5bf906051a2" category="paragraph"><block ref="b42d776faedad51898dbe5bf906051a2" category="inline-link-rx"></block></block>
@@ -6175,7 +6160,6 @@
   <block id="0eaa462e55e1d8376cc9023fdbd18edc" category="section-title">その他の種類のアプリケーションの LUN 設定</block>
   <block id="56ab3020d43ec572db51d38bbe462f70" category="paragraph">各 LUN はボリューム内にプロビジョニングされます。LUN のスペースは、指定したサイズに基づいてプロビジョニングされます。ノード間ですべての LUN の負荷分散が実行されます。</block>
   <block id="f72e3dbe9da7fc9540594b7b452b8f47" category="summary">System Manager のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。</block>
-  <block id="731176f618de66279ca536edba19fda6" category="doc">アグリゲート情報を表示する</block>
   <block id="58e12ddff1a5e5562a24f79cdb06e88f" category="list-text">アグリゲート名をクリックすると、選択したアグリゲートの詳細が表示されます。</block>
   <block id="9131d88a602d5260b75ab1942da4f89b" category="summary">System Manager のイニシエータグループの編集ダイアログボックスを使用して、イニシエータグループの既存のイニシエータの名前を変更できます。</block>
   <block id="332f7443ce6f845f0e4612a1953702d0" category="list-text">イニシエータグループ * タブで、イニシエータが属するイニシエータグループを選択し、 * Edit * をクリックします。</block>
@@ -6359,7 +6343,6 @@
   <block id="33ebaf0798e7ca01ef22a5e89b3cb821" category="list-text">SVM * フィールドのドロップダウンメニューから、削除するクォータが配置されている Storage Virtual Machine （ SVM ）を選択します。</block>
   <block id="ede1cd90312d02c6f76edf683fca51e9" category="list-text">削除するクォータを 1 つ以上選択し、 * 削除 * をクリックします。</block>
   <block id="330c5bad0b924f532120259d86b27ed2" category="summary">System Manager を使用して、 IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、ストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ</block>
-  <block id="7621005c14d22f767bd63bed4e2745b6" category="summary">System Manager を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。</block>
   <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">SnapLock アグリゲートを手動で作成してストレージをプロビジョニングする</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock ライセンスが追加されている必要があります。</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 構成では、 SnapLock エンタープライズアグリゲートのみを作成できます。</block>
@@ -6373,7 +6356,6 @@
   <block id="758b1fa6642bb6e583d5dfe9db39496c" category="paragraph">現在のシステム時間が正しいことを確認してください。ComplianceClock はシステム時間に基づいて設定され、設定後に変更または停止することはできません。</block>
   <block id="7da47c87ec001355ddc9edb16297193f" category="paragraph">デフォルトでは、 SnapLock Compliance アグリゲートに対しては無効になります。</block>
   <block id="1fa8dd542d2fae039e92f70b51cc6e23" category="summary">アグリゲートを作成するときに、そのアグリゲートの RAID タイプや RAID グループサイズのオプションのデフォルト値を System Manager で変更することができます。</block>
-  <block id="2718b6e0152d5c1349dd7f416082ac66" category="doc">アグリゲート作成時の RAID 設定の変更</block>
   <block id="ca3971ca02e76186c25b81c7ea125a0b" category="paragraph">アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、選択できる RAID タイプは RAID-TEC のみです。</block>
   <block id="74b43bb7df75cb36f7895c84a13f4f1e" category="list-text">[ ストレージ階層 * ] ウィンドウで、 [ アグリゲートの追加 ] をクリックします。</block>
   <block id="bb5c54f6a392f839afc1d64e643a0634" category="list-text">Create Aggregate * （アグリゲートの作成）ダイアログボックスで、次の手順を実行します。</block>
@@ -7323,7 +7305,6 @@
   <block id="e3094dcca3c90e0404f8f6620d6d3e28" category="doc">NetApp Volume Encryption とは</block>
   <block id="8c8af40da222cbac0bff786868bc7034" category="summary">ボリュームギャランティ（スペースギャランティとも呼ばれます）の設定により、ボリュームのスペースを包含アグリゲートから割り当てる方法が決まります。ボリュームに対してスペースを事前に割り当てるか、または事前割り当てを行わないオプションがあります。</block>
   <block id="955fe453e5261738851ba4d70d70892c" category="doc">FlexVol のボリュームギャランティの動作</block>
-  <block id="54b6db373e9f4ac0a0a85d80cc64601e" category="paragraph">ボリュームギャランティ（ _ スペースギャランティ _ とも呼ばれます）の設定により、ボリュームのスペースを包含アグリゲートから割り当てる方法が決まります。ボリュームに対してスペースを事前に割り当てるか、または事前割り当てを行わないオプションがあります。</block>
   <block id="fb2eb77fed82bf83784845af476371c1" category="paragraph">ギャランティ設定はボリュームの属性です。</block>
   <block id="afe5ba5f8fcedd120647fc4f696e58ce" category="paragraph">ギャランティは、新しいボリュームを作成するときに設定します。また、新しいギャランティ用の十分な空きスペースがある場合、既存のボリュームのギャランティを変更することもできます。</block>
   <block id="5c8602e07e396abf44907a7d5f7220a4" category="paragraph">ボリューム・ギャランティ・タイプには 'volume` ( デフォルト・タイプ ) または 'none' を指定できます</block>
@@ -7445,7 +7426,6 @@
   <block id="68c108e21b2dc328a04cb3dffa4fc567" category="list-text">ターゲットストレージシステムに FC アダプタが存在する必要があります。</block>
   <block id="2032e42d068de0b5c9b14cc72e4941c1" category="list-text">必要に応じて、 [ スタート * ] または [ * 停止 * ] をクリックします。</block>
   <block id="e64cdcc5568074885bc2f1f62cb42498" category="summary">System Manager を使用して、不要になった Storage Virtual Machine （ SVM ）をストレージシステム構成から削除できます。</block>
-  <block id="dc6d7ae43f87c3c6d3a96f58cfe48c95" category="doc">SVM を削除します</block>
   <block id="aa2bdf0e8ac65883b0c03f4abb816916" category="list-text">すべてのボリュームの Snapshot コピー、データ保護（ DP ）ミラー、および負荷共有（ LS ）ミラーを無効にします</block>
   <block id="5d64ab7bfa4adc7082888e551c41dfa6" category="paragraph">LS ミラーを無効にするには、コマンドラインインターフェイス（ CLI ）を使用する必要があります。</block>
   <block id="3c0f44d9258b69f36161ab812c2389ca" category="list-text">SVM を削除する場合は、 SVM に属する igroup を手動ですべて削除します</block>
@@ -7533,7 +7513,6 @@
   <block id="4201cf9b4144790a1c7a903f60d587fc" category="list-text">目的のボリュームを展開します。</block>
   <block id="4d819dd5de8d257701277c985c8db295" category="list-text">削除する Snapshot コピーを選択します。</block>
   <block id="568315afd92645514bff29a2959e8bd7" category="summary">ONTAP で FabricPool 対応アグリゲート用のオブジェクトストアとして使用する StorageGRID で認証を行うには、 StorageGRID CA 証明書をクラスタにインストールします。</block>
-  <block id="6ad8a00150e0e05d28b74a9f28b35765" category="doc">StorageGRID を使用する場合は、 CA 証明書をインストールします</block>
   <block id="d2d620fd7d1fb0dbdfbd0fb2b4a54257" category="list-text">StorageGRID システムのドキュメントに従って、グリッド管理インターフェイスを使用して StorageGRID システムの CA 証明書をコピーします。</block>
   <block id="48a5f7c99378f2d27c95069bdd9674ef" category="inline-link">StorageGRID 11.3 管理者ガイド</block>
   <block id="75201fadc49750ef9be4144eafd4f2eb" category="paragraph"><block ref="75201fadc49750ef9be4144eafd4f2eb" category="inline-link-rx"></block></block>
@@ -7829,7 +7808,6 @@
   <block id="9016d5061a6515b14774e6c2825cc3d9" category="paragraph">詳細領域には、ストレージシステムの日付、時刻、タイムゾーン、 NTP サービス、およびタイムサーバに関する情報が表示されます。</block>
   <block id="fb181f669d39591bbd65ed67ac50ab2e" category="paragraph"><block ref="fb181f669d39591bbd65ed67ac50ab2e" category="inline-xref-macro-rx"></block></block>
   <block id="8f50629dd45de7407dad3db066f531f8" category="summary">System Manager を使用して、ボリューム内の Snapshot コピーの有効期限を延長できます。</block>
-  <block id="d350e75ae7a5c7ad6eef719c1e71a497" category="doc">Snapshot コピーの有効期限を延長します</block>
   <block id="996fced7fe48e7529cc6f1df1cf049d5" category="paragraph">システムに SnapLock ライセンスがインストールされている必要があります。</block>
   <block id="e59b55c8820313bd52068fc83a2870ec" category="paragraph">有効期限を延長できるのは、 SnapLock for SnapVault 関係のデスティネーションとして設定されているデータ保護（ DP ）ボリューム内の Snapshot コピーだけです。</block>
   <block id="091d86872e20a4e592b634c65b44fd89" category="list-text">ボリュームを選択します。</block>
@@ -7939,14 +7917,12 @@
   <block id="d129f6c98e37c0be76c2f406b61b16fe" category="doc">クラスタの管理</block>
   <block id="70d81d76e7e6ddb8148c26b4474cd931" category="summary">System Manager を使用して、特定の認証方式が設定されていないイニシエータに対して使用されるデフォルトの iSCSI 認証方式を変更できます。</block>
   <block id="f3a94bcb82040980e2f12ee0d098a87a" category="list-text">[ * イニシエータ・セキュリティ * ] タブの [ * デフォルト・セキュリティ * ] 領域で、 [ * 編集 * ] をクリックします。</block>
-  <block id="f3076d47f0a8e6e8030cc9f70a0b04c6" category="summary">HDD のみまたは SSD のみで構成されるアグリゲートは、 System Manager を使用して手動で作成できます。</block>
   <block id="44d0299d0fc31a880b954ccc657a0d6e" category="doc">アグリゲートを手動で作成してストレージをプロビジョニングする</block>
   <block id="97dba5acf15587b71ee98a554fe289f3" category="paragraph">ディスクはすべて同じサイズである必要があります。</block>
   <block id="00a75fb35e6e77311b62e8e94339e5e0" category="list-text">ONTAP Select で 4 ノードクラスタのアグリゲートを作成する場合、デフォルトではミラーアグリゲートのオプションが選択されます。</block>
   <block id="00e5021250b8b5eb737448724650f488" category="list-text">アグリゲートを作成するには、次の手順</block>
   <block id="869b0ba50e4548099c13ba0a119077e2" category="paragraph">指定した構成でアグリゲートが作成され、アグリゲートウィンドウのアグリゲートのリストに追加されます。</block>
   <block id="c61db8023a8003d406a9d6e84bb3d46b" category="summary">System Manager のダッシュボードを使用すると、 Storage Virtual Machine （ SVM ）の健常性とパフォーマンスを監視できます。</block>
-  <block id="d771c94303decbc5643c8d035a2226a7" category="doc">SVM の監視</block>
   <block id="47c6d23fe6018f762f19575354d78a86" category="list-text">監視する SVM を選択します。</block>
   <block id="e2e9bd59ef81e97b3160bf63305a192c" category="list-text">ダッシュボードパネル内の詳細情報を確認します。</block>
   <block id="724df5a92e209fc5ea4d218769de6e3e" category="summary">System Manager を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。</block>
@@ -8935,9 +8911,7 @@
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP コマンドラインインターフェイス（ CLI ）で設定しますが、この手順では説明しません。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
   <block id="d6e768218203e5e5304006b8efd0112a" category="summary">System Manager を使用して、不要になったポートセットを削除できます。</block>
-  <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">ポートセットを削除します</block>
   <block id="3c5def4b4418a1419950919985135d29" category="list-text">[ * ポートセット * ] タブで、 1 つまたは複数のポートセットを選択し、 [ * 削除 * ] をクリックします。</block>
-  <block id="63ce9611974d55c52bba91d03b2470a4" category="summary">System Manager では、ポートセットを作成して LUN へのアクセスを制限することができます。</block>
   <block id="6158f107c175e5e253737a4a6ef1c91c" category="doc">ポートセットを作成します</block>
   <block id="bb2bf2751a5bbb740612ba8bffdc099d" category="list-text">ポートセットに関連付けるネットワークインターフェイスを選択してください。</block>
   <block id="1ec1c4d3de6304fa2f8701345f97b93b" category="summary">System Manager を使用して、イニシエータグループを作成できます。イニシエータグループを使用すると、特定の LUN へのホストアクセスを制御できます。イニシエータがアクセスできる LIF を制限するには、ポートセットを使用します。</block>
@@ -8956,7 +8930,6 @@
   <block id="61696bbbffe81f0015841f4828a83f8f" category="paragraph">ポートセットリストの下の領域には、選択したポートセットに関連付けられているネットワークインターフェイスとイニシエータグループに関する詳細が表示されます。</block>
   <block id="d9eaa6e43a91e86b923e03b379f9bbc3" category="summary">System Manager のイニシエータグループの編集ダイアログボックスを使用して、既存のイニシエータグループとそのオペレーティングシステムの名前を変更できます。イニシエータをイニシエータグループに追加したり、イニシエータグループから削除したりできます。また、イニシエータグループに関連付けられているポートセットを変更することもできます。</block>
   <block id="e2485f3cbd62161860676b0d2a07c9ce" category="summary">System Manager のポートセットタブを使用して、ポートセットに関連する設定を編集できます。</block>
-  <block id="1ac31f1ad654d973d0519bf199c050af" category="doc">ポートセットを編集します</block>
   <block id="0c0018980666258d7f22a8d9a061f1d5" category="list-text">[ * ポートセット * ] タブで、編集するポートセットを選択し、 [ * 編集 ] をクリックします。</block>
   <block id="4147675dfdaf47726b2bef9cf232aa84" category="list-text">ポートセットを更新します。</block>
   <block id="0ff4e590ab4228f68c6e92c2925a6247" category="list-text">「 lun portset show 」コマンドを使用して、ポートセットが存在するかどうかを確認します。</block>
@@ -9010,7 +8983,6 @@
   <block id="8b8233970ae93cddab3fcb0f038a19cf" category="paragraph">System Manager を使用して、シンボリックリンクの設定、共有に対するユーザやグループのアクセス権、共有へのアクセスの種類など、共有設定を変更することができます。また、 Hyper-V による共有の継続的可用性や Access-Based Enumeration （ ABE ；アクセスベースの列挙）を有効または無効にすることもできます。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
   <block id="2d6ca664e165a57792b1b59ede4c3890" category="paragraph">共有が継続的可用性に対して有効になっているかどうかが表示されます。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
   <block id="41aef6f60f95609aa7b5ca4777bfe44c" category="paragraph">共有が継続的に利用できるように有効になっているか無効になっているかを示します。System Manager 9.6 以降では、 FlexGroup ボリュームの継続的可用性がサポートされます。</block>
-  <block id="65a3184d0628d233da52a61b95ebef0a" category="doc">クラウド階層を設定および管理する</block>
   <block id="33f78bbdf1a758d02b55487b2ecd80c7" category="list-text">Alibaba Cloud （ System Manager 9.6 以降）</block>
   <block id="89bd3502717f9fe37639e6b2651dcc4e" category="section-title">アグリゲートをクラウド階層に接続する</block>
   <block id="5cbe705dc8cf70f45fa4d74042a1e60d" category="list-text">* すべて（ System Manager 9.6 以降） *</block>
@@ -9028,9 +9000,7 @@
   <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを表示、管理、削除できます。</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に FC プロトコルと FCoE プロトコルを設定します</block>
   <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">ONTAP 9.7 以前で利用可能な System Manager クラシックを使用して、 SAN ホスト用の Storage Virtual Machine （ SVM ）で FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
-  <block id="1ca0759a68a2eaf6550dc49f288c51b4" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成してストレージをプロビジョニングします</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。</block>
-  <block id="5dd9e9509ab5aefe612f4c31cb783c33" category="doc">System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager クラシック 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager - ONTAP 9.7 以前を使用してハイアベイラビリティペアを作成します</block>
   <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ノンストップオペレーションやフォールトトレランスに必要なハードウェアの冗長性を確保するハイアベイラビリティ（ HA ）ペアを作成できます。</block>
@@ -9075,7 +9045,6 @@
   <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。</block>
   <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを設定します</block>
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の事前定義されたアプリケーションテンプレートを使用して、既存のアプリケーションテンプレートを基にした新しい設定を作成できます。その後、 ONTAP でアプリケーションのインスタンスをプロビジョニングできます。</block>
-  <block id="9b84593697ca85e724b3024c5d49b880" category="doc">System Manager クラシック - ONTAP 9.7 以前を使用した MetroCluster のスイッチオーバーとスイッチバックについて</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager - ONTAP 9.7 以前を使用して SVM を作成します</block>
   <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、すべての構成を設定して Storage Virtual Machine （ SVM ）を作成し、データをただちに提供することができます。クラスタには 1 つ以上の SVM を配置できます。</block>
@@ -9088,7 +9057,6 @@
   <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">MetroCluster ローカルサイト（サイト A ）の名前を System Manger ONTAP 9.7 以前の名前に変更します</block>
   <block id="8b0ad44ba508767c489eaba84b40e7dd" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の MetroCluster ローカルサイト（サイト A ）の名前を変更できます。</block>
   <block id="a725a02a41f5b8ff1387ed326ce28ae0" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします</block>
-  <block id="bddf9d6dc523b359adf8edeffa510c91" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</block>
   <block id="7b7dfa770e15135a2305b1e8fda21d7f" category="doc">System Manager - ONTAP 9.7 以前のサポートページをセットアップします</block>
   <block id="c8711d5f23fdbe3f98b8104eb091ef3b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、サポートページを設定できます。クラスタセットアップの最後のステップはサポートページのセットアップです。このステップでは、イベント通知を設定し、シングルノードクラスタの場合はシステムバックアップも設定します。</block>
   <block id="bc701f734e8403c8ec9d20c515d85272" category="doc">System Manager - ONTAP 9.7 以前を使用して、クラスタの日時設定を管理します</block>
@@ -9096,12 +9064,10 @@
   <block id="f0fe373cafde86319d4749debcc801a1" category="doc">System Manager - ONTAP 9.7 以前でストレージの推奨事項を確認します</block>
   <block id="52ff43f011435f293e7816a453ee9dda" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のストレージウィンドウを使用して、アグリゲートの作成に関する推奨事項を確認できます。</block>
   <block id="d08159a440a303f7b3b7c94dc1935c5a" category="doc">System Manager - ONTAP 9.7 以前を使用して、アグリゲートを使用してストレージをプロビジョニングします</block>
-  <block id="874b9a4c9e5f670484a41edbf145c405" category="paragraph">ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じて、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用し、手動でアグリゲートを作成できます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。</block>
   <block id="9d802381a15c252491a9d7ee663aff69" category="doc">ONTAP 9.7 以前の場合は、 System Manager で SNMP を設定します</block>
   <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の SVM を監視するように SNMP を設定できます。</block>
   <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">ONTAP 9.7 以前の System Manager で LDAP サーバを設定します</block>
   <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。</block>
-  <block id="05f8fe4988a6b907042484cd11d40fb5" category="doc">System Manager - ONTAP 9.7 以前を使用して、ストレージをプロビジョニングし、 Flash Pool アグリゲートを手動で作成します</block>
   <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Flash Pool アグリゲートを手動で作成したり、 SSD を追加して既存の HDD アグリゲートを Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。</block>
   <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします</block>
   <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークをセットアップできます。ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。</block>
@@ -9139,7 +9105,6 @@
   <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して未割り当てディスクの所有権を特定のノードに割り当てることで、アグリゲートやストレージプールの容量を拡張することができます。</block>
   <block id="29f339b530105eca42ac732c2bd2a766" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークを管理します</block>
   <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ</block>
-  <block id="e9019df4e5838c4a22d6a9fa885721a4" category="doc">System Manager - ONTAP 9.7 以前を使用してストレージをプロビジョニングするためのアグリゲートを手動で作成します</block>
   <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">HDD のみまたは SSD のみで構成されるアグリゲートは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して手動で作成できます。</block>
   <block id="489980c7967cf6ae840737bc9670c341" category="doc">System Manager ONTAP 9.7 以前を使用して FlexVol ボリュームを作成します</block>
   <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">データ用の FlexVol ボリュームは、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）のボリュームの作成ダイアログボックスを使用して作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。</block>
@@ -9153,4 +9118,205 @@
   <block id="5cee01395e3051dd380249b88316b378" category="paragraph">ONTAP System Manager クラシックのダッシュボードウィンドウ（ ONTAP 9.7 以前で使用可能）には、複数のパネルがあり、システムとそのパフォーマンスについての累積情報をわかりやすく表示できます。</block>
   <block id="a36ead175efb45759fee5f11ce0d539b" category="doc">MetroCluster 構成のクラスタを System Manager ONTAP 9.7 以前を使用して更新する</block>
   <block id="5b53589c41b3f02720bf43be353e0006" category="paragraph">ONTAP MetroCluster 構成のクラスタを更新するには、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用します。クラスタの更新以外の処理は、すべて両方のクラスタで実行する必要があります。</block>
+  <block id="3110731840fac8ce0c3cd829403f4290" category="doc">System Manager ONTAP 9.7 以前で StorageGRID を使用する場合は、 CA 証明書をインストールします</block>
+  <block id="0757fb4809f44fa933d240553b7b6912" category="paragraph">ONTAP で FabricPool 対応アグリゲート用のオブジェクトストアとして StorageGRID で認証するには、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してクラスタに StorageGRID CA 証明書をインストールします。</block>
+  <block id="dd83afac5120b65ffebb24cab48e69ca" category="doc">ONTAP 9.7 以前のシステムで SVM を起動します</block>
+  <block id="f5390b21564b672a29d380d58be78523" category="paragraph">Storage Virtual Machine （ SVM ）を起動すると、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Storage Virtual Machine （ SVM ）からデータアクセスを提供できます。</block>
+  <block id="1a14e924b725d213f7adeaa02fec40a1" category="doc">System Manager - ONTAP 9.7 以前を使用して、ストレージ QoS にボリュームを割り当てます</block>
+  <block id="783bb0aaffc5cf358c9dd3abebdbfeb4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexVol ボリュームと FlexGroup ボリュームをストレージ QoS ポリシーグループに割り当てることで、それらのボリュームのスループットを制限できます。System Manager を使用して、新しいボリュームに対するストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられているボリュームに対するストレージ QoS の詳細を変更したりできます。</block>
+  <block id="9b858301380b70de8704b68de8476d9d" category="doc">System Manager - ONTAP 9.7 以前を使用してボリュームを削除します</block>
+  <block id="d87145d51d1b2884ca6f3a0458a70b6d" category="paragraph">ボリュームに含まれているデータが不要になった場合、またはボリュームに含まれているデータを別の場所にコピーした場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexVol ボリュームを削除できます。ボリュームを削除すると、そのボリューム内のすべてのデータが破棄され、そのデータは回復できません。</block>
+  <block id="9cbd8bc357a78901e45e24781f8eb615" category="doc">スイッチオーバーとスイッチバックの処理を準備</block>
+  <block id="a75e8acf7cda75c2cae76c182cea9cc1" category="doc">System Manager - ONTAP 9.7 以前を使用して、 AutoSupport 通知を管理します</block>
+  <block id="65cb7b95d3e9511248e4d454f7a1000b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージシステムの健常性の監視に役立つ AutoSupport 通知を設定できます。</block>
+  <block id="1f13cccfbc69a5a3b13b2cb14ee1c9e6" category="doc">System Manager - ONTAP 9.7 以前を使用してストレージプールを管理します</block>
+  <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージプールを作成し、 SSD を複数の Flash Pool アグリゲートで共有できるようにすることができます。</block>
+  <block id="98f75cb448f7e82e01fb789642587098" category="doc">System Manager を使用してハードウェアキャッシュを管理する - ONTAP 9.7 以前</block>
+  <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ハードウェアキャッシュモジュールを管理できます。</block>
+  <block id="abb7c046c422db37c0202c07166a8eab" category="doc">System Manager - ONTAP 9.7 以前を使用してボリュームのサイズを変更します</block>
+  <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">ボリュームの容量がフルに近くなったら、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリュームのサイズを拡張するか、いくつかの Snapshot コピーを削除するか、または Snapshot リザーブを調整します。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。</block>
+  <block id="082fcd43395a78c9af7e1c1aede841c9" category="doc">System Manager ONTAP 9.7 以前を使用してアグリゲートをミラーリングします</block>
+  <block id="7320e70f830697cfb3f68adab3cec989" category="paragraph">ONTAP System Manager 従来型（ ONTAP 9.7 以前で利用可能）を使用すると、単一のアグリゲート内でデータをリアルタイムでミラーリングすることで、データを保護し、耐障害性を高めることができます。アグリゲートをミラーすると、ディスクおよびアレイ LUN への接続における単一点障害が排除されます。</block>
+  <block id="d7a551057ba910463c17513387122618" category="doc">System Manager - ONTAP 9.7 以前を使用してディスクを管理します</block>
+  <block id="4408c783f4f77dad27b39a90a5feb7d2" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してディスクを管理できます。</block>
+  <block id="13ed9e2c3b1a0f1c9c3cecfdcb6d4dda" category="doc">System Manager - ONTAP 9.7 以前を使用してアグリゲートを編集します</block>
+  <block id="3b13e7cb85c51b588c07d756c83a4a87" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、必要に応じて、既存のアグリゲートのアグリゲート名、 RAID タイプ、および RAID グループサイズを変更できます。</block>
+  <block id="3771b41752bfca2054ec5755865b482f" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーの有効期限を延長します</block>
+  <block id="d85ed9eda73fd8e5db559e1601f30742" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリューム内の Snapshot コピーの有効期限を延長できます。</block>
+  <block id="2f9e6facffd1709fd0c4ced278a4fba3" category="doc">System Manager - ONTAP 9.7 以前を使用して、アグリゲート間またはノード間で FlexVol ボリュームを移動します</block>
+  <block id="19796b89ac32544f126c40a751121b43" category="paragraph">ONTAP System Manager 従来型（ ONTAP 9.7 以前で利用可能）を使用すると、 FlexVol ボリュームを別のアグリゲートまたは別のノードに無停止で移動し、容量利用率とパフォーマンスを向上させることができます。</block>
+  <block id="d17167f859ab660bcd122310b3a38a75" category="doc">System Manager のジャンクションパスウィンドウ - ONTAP 9.7 以前</block>
+  <block id="886fa4451232ae283617085858a8c0d6" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。</block>
+  <block id="db3926b0ec24b4f88e29703ea58bc16f" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FlexGroup ボリュームのステータスを変更します</block>
+  <block id="fe3379c0654ba52a8a0b29adde9d8be1" category="paragraph">ONTAP ボリュームをオフラインにするとき、 FlexGroup ボリュームをオンラインに戻すとき、または FlexGroup ボリュームへのアクセスを制限するときに、 FlexGroup System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexGroup ボリュームのステータスを変更できます。</block>
+  <block id="260858e8977a52f6d47878262745f66e" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Storage Virtual Machine を管理します</block>
+  <block id="2caaa90e2bce16c3aba0effa58711285" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の SVM を管理できます。</block>
+  <block id="ae158ab24ee57d6a67c8f4e3f4a7e90b" category="doc">System Manager - ONTAP 9.7 以前の互換性のあるスペアディスク</block>
+  <block id="f128392fa134f31a1502c8ed3637ad2d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、互換性のあるスペアディスクとは、アグリゲート内の他のディスクとプロパティが一致するディスクです。HDD （データディスク）を追加して既存のアグリゲートのサイズを拡張する場合、またはアグリゲートの RAID タイプを RAID4 から RAID-DP に変更する場合は、十分な数の互換性のあるスペアディスクがアグリゲートに含まれている必要があります。</block>
+  <block id="18301a38fb3760d7cb97dad4b1d2599d" category="doc">HDD を System Manger ONTAP 9.7 以前のバージョンと混在させる場合は、実質的 ONTAP ディスクタイプを使用できます</block>
+  <block id="df9545bad1db11f3501d986a6f905cba" category="paragraph">Data ONTAP 8.1 以降では、特定の ONTAP ディスクタイプは、アグリゲートの作成、アグリゲートへの追加、およびスペアの管理を行う目的において同じタイプとみなされます。ONTAP は、各ディスクタイプに実質的ディスクタイプを割り当てます。ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、実質的ディスクタイプが同じ HDD を混在させることができます。</block>
+  <block id="bf9b16e0387db17699d2c4fc1baba097" category="doc">System Manager - ONTAP 9.7 以前を使用して FlexGroup ボリュームのサイズを変更します</block>
+  <block id="d589fdcb9092becde1e801dfcd1b6604" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexGroup ボリュームのサイズを変更できます。</block>
+  <block id="2230ca0c05e882ffa2b9620b8251c500" category="doc">System Manager - ONTAP 9.7 以前を使用して LUN を管理します</block>
+  <block id="6354f0e3d86ddcd54108d4692014c357" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LUN を管理できます。</block>
+  <block id="acd9f72a750973c775f7c74901de1aa0" category="doc">System Manager - ONTAP 9.7 以前を使用してジョブを管理します</block>
+  <block id="7989a225df196b007589af79666e70d3" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ジョブ情報の表示やジョブの進捗状況の監視などのジョブタスクを管理できます。</block>
+  <block id="1045e5c18e1edaf07510e674034a2c4b" category="doc">System Manager とホットスペアとの相互運用性 - ONTAP 9.7 以前</block>
+  <block id="ecb29c7e1f3a774425bf27baeca43dbf" category="paragraph">ホットスペアは、ストレージシステムに割り当てられているものの、どの RAID グループでも使用されていないディスクです。ホットスペアはデータを含んでおらず、 RAID グループで障害が発生した場合にその RAID グループに割り当てられます。ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、最大のディスクをホットスペアとして使用します。</block>
+  <block id="e70ed8bf17f4b1ec8524926f1784ce3c" category="doc">System Manager - ONTAP 9.7 以前を使用してサブネットを管理します</block>
+  <block id="73e0901fe629a1a67c0cacc2516714fc" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、サブネットを管理できます。</block>
+  <block id="aa37cb2b059a6d509b9b2bfa658ada55" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FC SAN 向けに最適化された LUN を作成します</block>
+  <block id="f12733f8853d7d5497887694a9179133" category="paragraph">AFF プラットフォームでのクラスタの初期セットアップ時に、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FC SAN 向けに最適化された LUN を作成できます。</block>
+  <block id="045188e8a2806c9af0fda73b23646157" category="doc">ファイルアクセスをトレースして、 System Manager を備えた SVM のアクセスエラーを診断します</block>
+  <block id="161a8d482d96b458b5f0e8083816b376" category="doc">System Manager を備えた SVM について - ONTAP 9.7 以前</block>
+  <block id="b1db62d410edb71e46e88f8c71ab00e1" category="doc">System Manager - ONTAP 9.7 以前を使用してノードを管理します</block>
+  <block id="a677afad0374affce57fedbf72410cb1" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内のノードの詳細を表示できます。</block>
+  <block id="1a6846191e0b0078fd24ea7d76b2c05e" category="doc">System Manager の Trace File Access ウィンドウ</block>
+  <block id="d6e8676418a94beed8523624094e57c7" category="paragraph">ONTAP System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスで問題が発生した場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。</block>
+  <block id="cc774f8540dbfb34aa191e2c20a49885" category="doc">System Manager - ONTAP 9.7 以前を使用してイベントを管理します</block>
+  <block id="b2a11b91caffbacb865048a18d41d038" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、イベントログとイベント通知を表示できます。</block>
+  <block id="e7a6e7217e446a13b382282b2b783a7d" category="doc">System Manager - ONTAP 9.7 以前を使用して、ボリュームの階層化ポリシーを変更します</block>
+  <block id="b0840da7c2d193991dbd527ac430b4c0" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリュームのデフォルトの階層化ポリシーを変更し、ボリュームのデータが非アクティブになったときにクラウド階層に移動するかどうかを制御できます。</block>
+  <block id="93f0c42c8700a499f980d8388d2cab50" category="doc">System Manager - ONTAP 9.7 以前を使用してアグリゲートを削除します</block>
+  <block id="5254fc23a12f39bde3374b001a0c5410" category="paragraph">アグリゲート内のデータが不要になったときは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してアグリゲートを削除できます。ただし、ルートアグリゲートは、システム構成情報が含まれているルートボリュームがあるため、削除できません。</block>
+  <block id="f90b8f3b8ba120f60f456a06decf74c0" category="doc">System Manager - ONTAP 9.7 以前を使用して Snapshot コピーを削除します</block>
+  <block id="50200ce262d86119ff2b812c7a743175" category="paragraph">ディスクスペースを節約したり解放したりする場合、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Snapshot コピーを削除できます。また、不要になった Snapshot コピーを削除することもできます。</block>
+  <block id="028e84497f474466e2a2081b10b23d72" category="doc">System Manager - ONTAP 9.7 以前を使用して FlexVol ボリュームを移動します</block>
+  <block id="da5bfecaebdd8c2ad3a66e2c39ce73d9" category="paragraph">ONTAP System Manager classic （ ONTAP 9.7 以前でサポート）を使用すると、無停止で FlexVol ボリュームを別のアグリゲートまたは別のノードに移動して、容量利用率とパフォーマンスを向上させることができます。</block>
+  <block id="72d74e64b0929a9c7c7bc7f3554b4c9d" category="doc">System Manager - ONTAP 9.7 以前を使用して FlexClone ボリュームを作成します</block>
+  <block id="c0aa985c97a56f85399e054f26e6fb91" category="paragraph">既存の FlexVol の書き込み可能なポイントインタイムコピーが必要なときは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexClone ボリュームを作成できます。たとえば、テスト用にボリュームのコピーを作成したり、他のユーザに本番環境のデータへのアクセスは許可せずにテスト用のボリュームへのアクセスを提供したりすることができます。</block>
+  <block id="296d3389cd2112082ce2545f02d9782a" category="doc">System Manager - ONTAP 9.7 以前を使用して、重複排除処理を実行します</block>
+  <block id="c1704396b0a08ab03516a9295fa05265" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで利用可能）を使用すると、重複排除を FlexVol ボリュームの作成直後に実行するか、またはスケジュールを設定して、指定した時間に実行することができます。</block>
+  <block id="15fcc128691817e5d018f6a6c28490a5" category="doc">System Manager を使用してボリュームのサイズを変更するためのオプション - ONTAP 9.7 以前</block>
+  <block id="d72908bbda40336f9f8c28c9e474bf46" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）のボリュームのサイズ変更ウィザードを使用して、ボリュームのサイズ変更、 Snapshot リザーブの調整、 Snapshot コピーの削除、変更の結果の動的な表示を行うことができます。</block>
+  <block id="8e5d707678bf42772cd958910a63a685" category="doc">System Manager - ONTAP 9.7 以前を使用してボリュームのプロパティを編集します</block>
+  <block id="58e12808aee592a68ef0eba7de9b2fad" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリューム名、セキュリティ形式、フラクショナルリザーブ、およびスペースギャランティなどのボリュームプロパティを変更できます。また、 Storage Efficiency の設定（重複排除スケジュール、重複排除ポリシー、圧縮）、およびスペース再生利用の設定も変更できます。</block>
+  <block id="1ce0e12cfe117c5cdf15da3fff9c9971" category="doc">System Manager - ONTAP 9.7 以前を使用してアグリゲートを作成する場合のストレージの推奨事項</block>
+  <block id="4cfa7a50c86e4712589b7525645c62d7" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークインターフェイスを管理します</block>
+  <block id="5c12d3be28256f2a4159aafabfc61e42" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネットワークインターフェイスを作成および管理できます。</block>
+  <block id="bf71aa2b8c5f54397eaee604bf7831a5" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FlexClone ボリュームを親ボリュームからスプリットします</block>
+  <block id="76055aecc2a31bf17fb90bcf64dacbd8" category="paragraph">FlexClone ボリュームで親ボリュームのディスクスペースではなく独自のディスクスペースを使用する場合は、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexClone ボリュームを親ボリュームからスプリットできます。スプリットした FlexClone ボリュームは通常の FlexVol になります。</block>
+  <block id="695827db13701a3500b6c8651644d09e" category="doc">System Manager - ONTAP 9.7 以前を使用して、ボリュームで Storage Efficiency を有効にします</block>
+  <block id="33541cf90bfd4d58d20417a84690177a" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Storage Efficiency を有効にし、ボリュームで重複排除とデータ圧縮の両方を設定したり重複排除のみを設定したりして、ストレージスペースを節約できます。ボリュームの作成時に有効にしなかった場合は、あとからボリュームを編集して Storage Efficiency を有効にすることができます。</block>
+  <block id="5b371b102ea46126c749a29c392ca705" category="doc">System Manager - ONTAP 9.7 以前のバージョンでの FlexVol のボリュームギャランティについて</block>
+  <block id="29b15d73a4d19af69979765c099c885d" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexVol ボリュームのボリュームギャランティを設定できます。ボリュームギャランティ（ _ スペースギャランティ _ とも呼ばれます）の設定により、ボリュームのスペースを包含アグリゲートから割り当てる方法が決まります。ボリュームに対してスペースを事前に割り当てるか、または事前割り当てを行わないオプションがあります。</block>
+  <block id="460ef1a79f16380a75f477525964a4be" category="doc">System Manager - ONTAP 9.7 以前を使用してデータディスクを追加する場合は、 RAID グループを変更してください</block>
+  <block id="e31888bc00e75b0a569b90a67074a027" category="paragraph">アグリゲートにデータディスク（ HDD ）を追加するときに、 ONTAP System Manager クラシック（ ONTAP 9.7 以前でサポート）を使用して、ディスクを追加する RAID グループを変更できます。</block>
+  <block id="460c3e77c3b95862cf077b04e0ed05f9" category="doc">System Manager の ONTAP ダッシュボードウィンドウ - 9.7 以前</block>
+  <block id="fbb2fea1add63830545d846f7b655c11" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のダッシュボードウィンドウでは、 Storage Virtual Machine （ SVM ）とそのパフォーマンスについての累積情報がわかりやすく表示されます。ダッシュボードウィンドウでは、設定されているプロトコル、容量の上限に近づいているボリューム、パフォーマンスなど、 SVM に関連する重要な情報を確認できます。</block>
+  <block id="c922fd39e8f56b38cdfc9e6adc78364a" category="doc">System Manager - ONTAP 9.7 以前のバージョンを使用して SVM を停止します</block>
+  <block id="f26e641bb98d9f44dfd9c7506e1b457b" category="paragraph">Storage Virtual Machine （ SVM ）を含む問題 のトラブルシューティングを行う場合、 SVM を削除する場合、または SVM からのデータアクセスを停止する場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して SVM を停止できます。</block>
+  <block id="7c6d1dca7d79a2df349d430a5b8ce40a" category="doc">System Manager のストレージ階層ウィンドウ - ONTAP 9.7 以前</block>
+  <block id="53defb9df9eef38cdf0fb069a4e6c0df" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 およびイヤエで使用可能）のストレージ階層ウィンドウを使用して、クラスタ全体のスペースの詳細を表示したり、アグリゲートの詳細を追加および表示したりできます。</block>
+  <block id="0dd92fd6a18034a59856f359a0593b88" category="doc">System Manager - ONTAP 9.7 以前を使用してシステムアラートを管理します</block>
+  <block id="7b1aed01f19d6b501620e7b6e1f439a0" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタのさまざまな要素を監視できます。</block>
+  <block id="e4eae7223fd7b9e79b07c5e61638f505" category="summary">ONTAP System Manager クラシックを使用して、ポートセットを作成、削除、および編集できます。</block>
+  <block id="93a63ce7da85170f60f10d702a5e8c85" category="doc">ONTAP 9.7 以前のシステムでポートセットを管理します</block>
+  <block id="0d553351168d2ec2a019b1b7d719386c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ポートセットを作成、削除、および編集できます。</block>
+  <block id="0e5b9208e3815bdfce5fbc2df62bbbb0" category="paragraph">ONTAP System Manager クラシックを使用して、ポートセットを作成し、 LUN へのアクセスを制限できます。</block>
+  <block id="57c0533d398adb4e7f062a380c074a16" category="doc">System Manager を使用して ONTAP 9.7 以前を作成します</block>
+  <block id="44d085e7c22d7a56b01ae83977fb0c9b" category="paragraph">空きスペースがある場合、 ONTAP System Manager クラシック（ ONTAP 9.8 以前で使用可能）を使用して、既存のアグリゲート、ボリューム、または qtree の LUN を作成できます。既存のボリュームに LUN を作成したり、その LUN に対する新しい FlexVol を作成したりできます。また、ワークロードのパフォーマンスを管理するためにストレージ QoS を有効にすることもできます。</block>
+  <block id="d71ba3f941027cc222ab286f261aedf9" category="doc">System Manager - ONTAP 9.7 以前を使用してイニシエータグループを管理します</block>
+  <block id="910b66eacc00a33b3e1faebd757ca4d0" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、イニシエータグループを管理できます。イニシエータグループを使用すると、特定の LUN へのホストアクセスを制御できます。イニシエータがアクセスできる LIF を制限するには、ポートセットを使用します。</block>
+  <block id="836f907e1a3a35e35703941bae06b845" category="doc">System Manager ONTAP 9.7 以前を使用して、 Snapshot コピーの自動作成をスケジュールします</block>
+  <block id="b9398918d0de6151ca1aff623f0c17c7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリュームの自動 Snapshot コピーを自動作成するスケジュールを設定できます。コピーを作成する時間と頻度を指定できます。保存する Snapshot コピーの数も指定できます。</block>
+  <block id="d9e6d8e6a2ca786c481dd6690be859ce" category="doc">System Manager を使用して ONTAP 9.7 以前を管理します</block>
+  <block id="cb87a5fa5dbaf563dbe88745b9c0a81a" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）では、クラスタ管理者によって割り当てられた権限に応じて、 Storage Virtual Machine （ SVM ）管理者が SVM とそのリソース（ボリューム、プロトコル、サービスなど）を管理できます。SVM 管理者は、 SVM を作成、変更、または削除できません。</block>
+  <block id="8765671729c223f5f4694a4ef71cb193" category="doc">ONTAP 9.7 以前の場合は、 System Manager の Storage Virtual Machine ウィンドウが開きます</block>
+  <block id="25e3b196bc56cb5950cd2980999e170c" category="paragraph">Storage Virtual Machine （ SVM ）を管理して、 Storage Virtual Machine に関する情報を表示するには、 ONTAP System Manger クラシック（ ONTAP 9.7 以前で使用可能）の Storage Virtual Machines ウィンドウを使用します。</block>
+  <block id="73c207a42b40373fefb0af90abd1979a" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーからボリュームをリストアします</block>
+  <block id="d4cbecd9711501cce40a217a06f17419" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、以前に作成した Snapshot コピーに記録されている状態にボリュームをリストアして、失われた情報を取得できます。Snapshot コピーからボリュームをリストアすると、既存のボリューム構成は上書きされます。Snapshot コピーの作成後にボリューム内のデータに加えた変更はすべて失われます。</block>
+  <block id="c62b17c39d98166166c739b7d4d531eb" category="doc">System Manager - ONTAP 9.7 以前でディスクタイプとディスク rpm を表示する場合のルール</block>
+  <block id="410f33bf36cbdc8a618b8734f70c5e9b" category="paragraph">アグリゲートを作成してデータディスクを追加する際には、 ONTAP の System Manager クラシック（ ONTAP 9.7 以前で使用可能）にディスクタイプとディスク rpm の表示に適用されるルールを理解しておく必要があります。</block>
+  <block id="0f30c5e6c317bd8eb9fc9e68e6f0c982" category="doc">System Manager - ONTAP 9.7 以前のバージョンを使用して SVM を削除します</block>
+  <block id="e6a7146a29f981f3a340dced716dbd0b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージシステム構成から不要になった Storage Virtual Machine （ SVM ）を削除できます。</block>
+  <block id="758283d20b238eeae3e2986d007f26df" category="doc">System Manager - ONTAP 9.7 以前を使用してデータディスクを追加します</block>
+  <block id="451c8f10f38f828c2a5ffd50c30f5fd0" category="paragraph">データディスクを追加することによって、既存のルート以外のアグリゲートまたはディスクを含むルートアグリゲートのサイズを拡張できます。System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、選択した ONTAP ディスクタイプの HDD または SSD を追加したり、 RAID グループオプションを変更したりできます。</block>
+  <block id="792b6fc652efe5c12bdde6f0e2a81957" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネットワークを設定してクラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</block>
+  <block id="791fb6897de9ba0f6af6f3e585743f78" category="doc">System Manager - ONTAP 9.7 以前を使用して FlexClone ファイルを作成します</block>
+  <block id="0d546e0a897b8e0f0ea2077f8b428cc8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、親ファイルの書き込み可能なコピーである FlexClone ファイルを作成できます。これらのコピーを使用して、アプリケーションをテストできます。</block>
+  <block id="f506739702d824c3af46ea35fd4ac572" category="doc">System Manager - ONTAP 9.7 以前を使用してアグリゲートを作成する際に RAID 構成を変更します</block>
+  <block id="cb074bad8fd5d0e553d0bfd70c9cab9d" category="paragraph">アグリゲートを作成する際、 ONTAP の System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、アグリゲートの RAID タイプオプションと RAID グループサイズオプションのデフォルト値を変更できます。</block>
+  <block id="3eb9d14d679a513a2ad3548435228392" category="doc">System Manager - ONTAP 9.7 以前を使用してディスクの情報を表示します</block>
+  <block id="cc67f4075ab5923fe75e7ef7ad848467" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）のディスクウィンドウを使用して、ディスクの名前、サイズ、およびコンテナの詳細、およびデータディスクとキャッシュディスクに関するグラフィカルな情報を表示できます。</block>
+  <block id="cb04500583790052d53c9e7a9de1fbe3" category="doc">System Manager - ONTAP 9.7 以前のバージョンで LUN を削除します</block>
+  <block id="7a95b46291ab7b9daf01e27e659653d6" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LUN を削除し、 LUN で使用されていたスペースを包含アグリゲートや包含ボリュームに戻すことができます。</block>
+  <block id="5ed5b84d36c171fac20f225616064bee" category="doc">System Manager - ONTAP 9.7 以前のバージョンで ONTAP からディスクタイプが報告される仕組み</block>
+  <block id="3c7ee44668a1f1b1e5a142859b005dbd" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、各ディスクにディスクタイプが関連付けられます。ONTAP では、一部のディスクタイプについて業界標準とは違う名称を使用します。 ONTAP のディスクタイプと業界標準のディスクタイプとの対応を確認し、混乱しないようにしてください。</block>
+  <block id="a40a48cd8df9555b5ff7a430e651ccec" category="doc">System Manager - ONTAP 9.7 以前を使用して、重複排除スケジュールを変更します</block>
+  <block id="780048f038aaba104e03e259610e2a9a" category="paragraph">重複排除を手動で実行するか、自動で実行するか、指定したスケジュールで実行するかを選択することで、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して重複排除スケジュールを変更できます。</block>
+  <block id="ae31194d11d9f6f40dc1383a9c9b1149" category="doc">System Manager ONTAP 9.7 以前を使用して、ソース SVM からミラー関係を作成します</block>
+  <block id="094497dfe6a525ccce05a6611e29e110" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソース Storage Virtual Machine （ SVM ）からミラー関係を作成し、ミラーポリシーとミラースケジュールを割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。</block>
+  <block id="f87363de91a44888ba803f5cb7e20111" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成したり、要件に応じて手動でアグリゲートを作成したりできます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。</block>
+  <block id="93b06c5d026d7f6a708ab6de3cfb5a15" category="section-title">System Manager - ONTAP 9.7 以前のバージョンでアグリゲートを手動で作成します</block>
+  <block id="5bd7f238c43d37e955c094a904e83733" category="section-title">System Manager - ONTAP 9.7 以前を使用して、 Flash Pool アグリゲートを手動で作成します</block>
+  <block id="b27b332d5e45bf641d4fd65ed64ad8d3" category="section-title">System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成します</block>
+  <block id="521d64edb3b9891946bd12a9d48b9ea5" category="doc">System Manager のボリュームウィンドウ - ONTAP 9.7 以前</block>
+  <block id="7b924d1c798de9911d3b4b00feb3c254" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の Volumes （ボリューム）ウィンドウを使用して、 FlexVol ボリュームと FlexGroup ボリュームを管理できます。System Manager 9.6 以降では、 FlexCache ボリュームも管理できます。</block>
+  <block id="5b74ba9a7ffd896fcb8e28ff4e17b348" category="doc">System Manager - ONTAP 9.7 以前を使用して、クラウド階層を設定および管理します</block>
+  <block id="7d613ace3ff4e6c511496c52961bf228" category="paragraph">クラウド階層の設定と管理には、 ONTAP System Manger クラシック（ ONTAP 9.7 以前で利用可能）を使用できます。データを複数の階層に格納すると、ストレージシステムの効率を高めることができます。ストレージ階層の管理には、 FabricPool 対応アグリゲートを使用します。クラウド階層には、アクセス頻度に基づいてデータが格納されます。</block>
+  <block id="d8ac47900f5609e8fb7c0cf3d0cafa6c" category="doc">System Manager - ONTAP 9.7 以前を使用して SSD を追加してキャッシュをプロビジョニングします</block>
+  <block id="9360df4545304fb67b44a38c013b4f7d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SSD をストレージプールまたは専用 SSD として追加してキャッシュをプロビジョニングできます。SSD を追加することで、パーティショニングされたディスクを含まない非ルートアグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換したり、既存の Flash Pool アグリゲートのキャッシュサイズを拡張したりできます。</block>
+  <block id="aab5e3cd425b154cb96d27c6f7249138" category="doc">System Manager - ONTAP 9.7 以前を使用してアグリゲートを管理します</block>
+  <block id="9a37af394d1d31dd77ff0d7043b0269b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、セキュリティ、バックアップ、パフォーマンス、およびデータ共有に関するさまざまな要件をサポートするアグリゲートを作成できます。</block>
+  <block id="9eaabf477a7dc35139f9ed298b9aebf7" category="doc">System Manager - ONTAP 9.7 以前では、 Snapshot コピーのディレクトリを非表示にします</block>
+  <block id="481139aa8583dcea897dcba753f87952" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Snapshot コピーディレクトリ（ .snapshot ）を非表示にして、ボリュームディレクトリを表示したときに Snapshot コピーディレクトリが表示されないようにすることができます。デフォルトでは '.snapshot ディレクトリは表示されます</block>
+  <block id="c0014c2b6229814e063f56dde287f680" category="doc">System Manager - ONTAP 9.7 以前のバージョンで、マルチディスクキャリアを安全に取り外すタイミングを確認します</block>
+  <block id="db7ebba5086857b5a8654dbcdf3c3f1d" category="paragraph">マルチディスクキャリアを安全に取り外す準備ができる前に取り外すと、 RAID グループがデグレード状態になったり、ストレージが停止してしまうこともあります。ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、マルチディスクキャリアを安全に取り外せるかどうかを確認することができます。</block>
+  <block id="79ad24ed86d559168db1de0b426a2c01" category="doc">System Manager - ONTAP 9.7 以前を使用して SVM を監視します</block>
+  <block id="7f569a3c39232bb00a96ba6af81c2b64" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のダッシュボードを使用すると、 Storage Virtual Machine （ SVM ）の健常性とパフォーマンスを監視できます。</block>
+  <block id="f5b7bd55239093cd9cc1e21e645b1dd4" category="doc">System Manager - ONTAP 9.7 以前を使用して FlexGroup ボリュームを削除します</block>
+  <block id="b2248261263fafbd0f4108203fda4392" category="paragraph">ONTAP FlexGroup ボリュームが不要になった場合は、 FlexGroup System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してボリュームを削除できます。</block>
+  <block id="b370847994c3d23b844ca1e55d46d7a0" category="doc">System Manager でボリュームを管理する - ONTAP 9.7 以前</block>
+  <block id="a27a4fe05bc74404abef4983a840d677" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ボリュームを作成、編集、および削除できます。</block>
+  <block id="1a9c869a6bfc17032518e267afda3fe5" category="doc">System Manager ONTAP 9.7 以前を使用して、 VMware 用の NFS データストアを作成します</block>
+  <block id="414d44592771786254f784e9d856900c" category="paragraph">VMware 用 NFS データストアの作成ウィザードは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）で使用して、 VMware 用の NFS データストアを作成できます。NFS データストアのボリュームを作成し、 NFS データストアにアクセスする ESX サーバを指定できます。</block>
+  <block id="5ef671179cc9a38819a2cefa50caf463" category="doc">System Manager - ONTAP 9.7 以前を使用してボリュームのステータスを変更します</block>
+  <block id="617d0f1352346b807c2aeb129b502d38" category="paragraph">ボリュームをオフラインにするとき、オンラインに戻すとき、またはボリュームへのアクセスを制限するときに、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexVol ボリュームのステータスを変更できます。</block>
+  <block id="9dbcf0e843a9a11dcb9cc2dfbbe27734" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーリザーブを設定します</block>
+  <block id="f50b407a6a008ed2a2681714c08c97bb" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリューム内の Snapshot コピー用にスペース（割合で測定）を予約できます。Snapshot コピーリザーブを設定すると、 Snapshot コピー用ディスクスペースが十分に確保され、アクティブなファイルシステムのスペースが Snapshot コピーによって使用されることがなくなります。</block>
+  <block id="6eb2b573b575a1c5351324690e7d62ae" category="doc">System Manager - ONTAP 9.7 以前を使用して、ディスクをノードに再割り当てします</block>
+  <block id="190f9ec4f52503d35888c252ab746728" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、スペアディスクの所有権をノード間で再割り当てし、アグリゲートやストレージプールの容量を拡張することができます。</block>
+  <block id="9298dd1b53067fbddee607d176c77775" category="doc">System Manager - ONTAP 9.7 以前を使用してイーサネットポートを管理します</block>
+  <block id="2da457cc70f41e8d72a0321dda42ec28" category="paragraph">ONTAP システムクラシック（ ONTAP 9.7 以前で使用可能）を使用して、イーサネットポートを作成および管理できます。</block>
+  <block id="1f5a64b9025574c884f81e9e1098c75f" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FC / FCoE アダプタと NVMe アダプタを管理します</block>
+  <block id="a9a3133ec55e6f2440f5dad3b6c8f994" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FC / FCoE アダプタと NVMe アダプタを管理できます。</block>
+  <block id="eea76ef6e75facd7fe5458d28c6aa51b" category="doc">System Manager - ONTAP 9.7 以前を使用してアレイ LUN を管理します</block>
+  <block id="15251827b733b2121efb7e442aa6166e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、既存のアグリゲートにアレイ LUN を割り当て、アレイ LUN を管理できます。</block>
+  <block id="7cfd7e3c448ffc86090e645a5d92ce95" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FlexVol ボリュームのスペースリザベーションを使用します</block>
+  <block id="ec05e9ce96b047af3f9ddcda38e0e416" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、スペースリザベーションを使用して FlexVol ボリュームをプロビジョニングできます。シンプロビジョニングを使用すると、すべてのストレージが使用中でないかぎり、アグリゲートの実際の使用可能容量よりも多くのストレージを割り当てることが可能です。</block>
+  <block id="5a9c388627c2a7fd685dccf436f83c83" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FlexGroup ボリュームの情報を表示します</block>
+  <block id="f977f31d16f4b8a41207c6826103623d" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexGroup ボリュームに関する情報を表示できます。FlexGroup ボリュームの割り当てスペース、保護ステータス、およびパフォーマンスがグラフィカルに表示されます。</block>
+  <block id="af278e4cbaba5d7640f03c7d8ccd3a53" category="doc">System Manager のディスクウィンドウ - ONTAP 9.7 以前</block>
+  <block id="de93e474f59d689bd502d50a3463819e" category="paragraph">ONTAP システムマネージャのディスクウィンドウ（ ONTAP 9.7 以前で使用可能）を使用すると、ストレージシステム内のすべてのディスクを表示できます。</block>
+  <block id="258afb30ae69ea72441de6bfa02ded92" category="doc">System Manager - ONTAP 9.7 以前を使用して共有を管理します</block>
+  <block id="47e145cac11e2ed21e19d35136895102" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、共有を作成、編集、管理できます。</block>
+  <block id="fa1e16b1d3064c5c2a9c506c6f66ea7e" category="doc">System Manager - ONTAP 9.7 以前を使用して、データ保護ボリュームを編集します</block>
+  <block id="e74561cb08f6414ff25ebff5204738b7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データ保護（ DP ）ボリュームのボリューム名を変更できます。ソースボリュームで Storage Efficiency が有効になっていない場合に、デスティネーションボリュームでのみ Storage Efficiency を有効にすることもできます。</block>
+  <block id="eb4ab168a8612623af24820fd4d8ba27" category="doc">ONTAP 9.7 以前の System Manger を使用して、 Flash Pool の統計を表示する</block>
+  <block id="b4b7fb40eb76e5a84d19a4d9485efbd2" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、選択した Flash Pool アグリゲートの SSD 階層に対するリアルタイムの読み取り / 書き込みワークロードを表示できます。</block>
+  <block id="446a5bde28bd136730438a9fe67a7ebb" category="doc">System Manager - ONTAP 9.7 以前のバージョンを使用して、アグリゲートの情報を表示します</block>
+  <block id="4fc62bd4381c61d9b0eb0fc112db2afd" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。</block>
+  <block id="0c9f27e77bdffacf8be52b8f641b1bdf" category="doc">System Manager - ONTAP 9.7 以前を使用して、ソース SVM からバックアップ関係を作成します</block>
+  <block id="59a8e82d0ecf8665b9a61a8ba2cce46c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソース Storage Virtual Machine （ SVM ）からバックアップ関係を作成し、バックアップポリシーをバックアップ関係に割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。</block>
+  <block id="d301c6c98637b2c2de49130b18671be6" category="list-text">一部のプラットフォームでは、デスティネーションクラスタで SnapVault ライセンスまたは SnapMirror ライセンスに加えて Data Protection Optimization \ （ DPO ）ライセンスが有効になっていれば、ソースクラスタで SnapVault ライセンスまたは SnapMirror ライセンスが有効になっていなくてもかまいません。</block>
+  <block id="57ffc515c49079616f5691ed4f8fa780" category="doc">System Manager - ONTAP 9.7 以前を使用して、定義されたスケジュール以外で Snapshot コピーを作成します</block>
+  <block id="1d45d9d0c9a71495df6b9725beb0809b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、定義されたスケジュール以外の時間にボリュームの Snapshot コピーを作成して、特定の時点のファイルシステムの状態をキャプチャできます。</block>
+  <block id="b5e11383d258d5112b66b2a434e871e5" category="doc">System Manager ONTAP 9.7 以前を使用して FlexGroup ボリュームを作成します</block>
+  <block id="ef9ca88818c14d3a07cdf3c9c6202300" category="paragraph">ONTAP System Manager の従来型機能（ ONTAP 9.7 以前で使用可能）を使用すると、特定のアグリゲートを選択するかシステムで推奨されるアグリゲートを選択して FlexGroup ボリュームを作成できます。FlexGroup ボリュームには複数のボリュームを含めることができ、各ボリュームを個別にではなくグループとして管理できます。</block>
+  <block id="7395f98b92ba1f806cd25f3b2816516d" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM の設定を編集します</block>
+  <block id="d81698ba423ea22b301cb1579d9e6433" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）のプロパティ（ネームサービススイッチ、ネームマッピングスイッチ、アグリゲートリストなど）を編集できます。</block>
+  <block id="564791b987f0846ef3c17ad7e3a475c2" category="doc">System Manager - ONTAP 9.7 以前を使用して、保存された Snapshot コピーのリストを表示します</block>
+  <block id="3a529a084aa6539c3cf0ff1e6a82eebb" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、選択したボリュームについて保存されているすべての Snapshot コピーのリストを、ボリュームウィンドウの下部ペインにある Snapshot コピータブで確認できます。このリストを使用して、 Snapshot コピーの名前変更、リストア、または削除を実行できます。</block>
+  <block id="eb91db7a154c4738b91d02ca57922942" category="doc">System Manager での ONTAP ネームサービススイッチの設定の仕組み - ONTAP 9.7 以前</block>
+  <block id="8d63c85c86a43bf30719d6251feabb88" category="doc">FlexClone ボリューム階層 ONTAP 9.7 以前を表示します</block>
+  <block id="3a59cafcf4d62062327f96774d795d5a" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexClone ボリュームとその親ボリュームの階層を表示できます。</block>
+  <block id="9e7629b024a19ce191f9724ba2c07b02" category="doc">System Manager - ONTAP 9.7 以前を使用して、ソース SVM からミラーとバックアップ関係を作成します</block>
+  <block id="4294daeb8f01399c15370d2868cbc7b1" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソース Storage Virtual Machine （ SVM ）からミラーとバックアップ関係を作成できます。この関係を作成すると、ソースボリュームからデスティネーションボリュームにデータを定期的に転送して、データの保護を強化できます。また、ソースボリュームのバックアップを作成して、データを長期にわたって保持することもできます。</block>
+  <block id="b329fa01fe87d8d90f34efa118dbbf38" category="doc">System Manager - ONTAP 9.7 以前でのアプリケーション固有の LUN 設定</block>
+  <block id="6026e37739019281574463fdebf2054d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 AFF クラスタで FC SAN 向けに最適化された LUN を作成する際に、 Oracle や SQL などのアプリケーションがサポートされます。LUN サイズなどの LUN 設定は、各アプリケーションに固有なルールに従って決まります。SQL および Oracle の場合、 LUN 設定は自動的に作成されます。</block>
+  <block id="402229f8ce0167d0a78bbd044f5164cf" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FlexGroup ボリュームのアドバンストオプションを指定します</block>
+  <block id="97da1d3682fa19cce007f55dd00e9257" category="paragraph">FlexGroup ボリュームを作成するときに、 ONTAP System Manager クラシック（ ONTAP 9.7 以前でサポート）を使用して、 FlexGroup ボリュームに関連付けるオプションを指定できます。</block>
+  <block id="afa4b033845a11aaf03224d5f3b87aaa" category="doc">Snapshot コピーの名前を System Manager - ONTAP 9.7 以前のバージョンに変更します</block>
+  <block id="5d535a61cd876447a88890d18f058a60" category="paragraph">整理や管理をしやすくするため、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Snapshot コピーの名前を変更できます。</block>
 </blocks>

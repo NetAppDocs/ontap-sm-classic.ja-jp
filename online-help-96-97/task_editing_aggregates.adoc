@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, edit, aggregates, raid, type, group, size, online, help 
 summary: System Manager を使用して、既存のアグリゲートのアグリゲート名、 RAID タイプ、 RAID グループサイズを必要に応じて変更できます。 
 ---
-= アグリゲートの編集
+= System Manager - ONTAP 9.7 以前を使用してアグリゲートを編集します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、既存のアグリゲートのアグリゲート名、 RAID タイプ、 RAID グループサイズを必要に応じて変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、必要に応じて、既存のアグリゲートのアグリゲート名、 RAID タイプ、および RAID グループサイズを変更できます。
 
 アグリゲートの RAID タイプを RAID4 から RAID-DP に変更するには、ホットスペアを除く十分な数の互換性のあるスペアディスクがアグリゲートに含まれている必要があります。
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: view, aggregate, information, online, help, system, manager 
 summary: System Manager のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。 
 ---
-= アグリゲート情報を表示する
+= System Manager - ONTAP 9.7 以前のバージョンを使用して、アグリゲートの情報を表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のアグリゲートウィンドウを使用して、アグリゲートの名前、ステータス、およびスペースに関する情報を表示できます。
 
 .手順
 . 次のいずれかの方法を選択します。

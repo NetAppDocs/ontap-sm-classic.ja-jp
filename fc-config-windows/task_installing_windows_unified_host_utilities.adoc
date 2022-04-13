@@ -5,6 +5,7 @@ keywords: windows, unified, host, utilities, installation, program, set, registr
 summary: Windows Unified Host Utilities には、ネットアップの ONTAP および E シリーズのプラットフォームにおけるストレージシステムの動作を Windows ホストが正しく処理できるように、必要な Windows のレジストリパラメータと HBA パラメータを設定するインストールプログラムが含まれています。 
 ---
 = Windows Unified Host Utilities をインストールする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: port, create, iscsi, associate, software, adapter, support, multipath,
 summary: iSCSI 用に作成したポートは、マルチパスをサポートするために iSCSI ソフトウェアアダプタに関連付ける必要があります。 
 ---
 = iSCSI ポートを iSCSI ソフトウェアアダプタにバインド
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

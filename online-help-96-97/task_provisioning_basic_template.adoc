@@ -5,6 +5,7 @@ keywords: sap, hana, provisioning, basic, template, online, help, system, manage
 summary: System Manager を使用して、 SAP HANA の基本テンプレートを簡単にプロビジョニングできます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、基本テンプレートをプロビジョニングします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

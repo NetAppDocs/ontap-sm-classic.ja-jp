@@ -5,6 +5,7 @@ keywords: cluster, peer, connectivity, port, ip, address, subnet, firewall, clus
 summary: ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用してクラスタピアリングをセットアップする前に、接続、ポート、 IP アドレス、サブネット、ファイアウォール、 とクラスタの命名要件が満たされている。 
 ---
 = クラスタピアリングの前提条件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, m
 summary: Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。 
 ---
 = SVM 関係
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

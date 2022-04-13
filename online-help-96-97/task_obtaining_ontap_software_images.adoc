@@ -5,6 +5,7 @@ keywords: online, help, obtain, ontap, software, image, netapp, support, site, o
 summary: ONTAP 9.4 以降では、 ONTAP ソフトウェアイメージをネットアップサポートサイトからローカルフォルダにコピーできます。ONTAP 9.3 以前からのアップグレードの場合は、 ONTAP ソフトウェアイメージをネットワーク上の HTTP サーバまたは FTP サーバにコピーする必要があります。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 ONTAP ソフトウェアイメージを取得します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

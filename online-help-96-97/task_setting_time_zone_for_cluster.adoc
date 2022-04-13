@@ -5,6 +5,7 @@ keywords: system, manager, set, up, time, zone, cluster, modify, server, ntp
 summary: System Manager の Edit Date and Time ダイアログボックスを使用して、クラスタのタイムゾーンを手動で設定または変更できます。クラスタにタイムサーバを追加することもできます。 
 ---
 = クラスタのタイムゾーンを設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

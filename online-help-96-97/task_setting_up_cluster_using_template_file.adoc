@@ -5,6 +5,7 @@ keywords: set, up, cluster, template, file, system, manager, online, help, autos
 summary: System Manager に組み込みのテンプレートファイルを使用してクラスタをセットアップできます。クラスタを作成し、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行います。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、 .xlsx または .csv のいずれかの形式でダウンロードできます。 
 ---
 = System Manager - ONTAP 9.7 以前のバージョンでテンプレートファイルを使用してクラスタをセットアップします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

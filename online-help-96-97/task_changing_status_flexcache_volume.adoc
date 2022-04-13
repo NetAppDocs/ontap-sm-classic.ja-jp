@@ -5,6 +5,7 @@ keywords: flexcache, volume, change, status,online, help
 summary: System Manager 9.6 以降 FlexCache では、 FlexCache ボリュームをオフラインまたはオンラインにしたり、 FlexCache ボリュームへのアクセスを制限したりするときに、ボリュームのステータスを変更できます。 
 ---
 = FlexCache ボリュームのステータス変更
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

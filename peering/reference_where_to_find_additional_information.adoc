@@ -5,6 +5,7 @@ keywords: successful, create, cluster, peer, relationship, protect, availability
 summary: クラスタピア関係の作成が完了すると、データの可用性を保護することができます。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

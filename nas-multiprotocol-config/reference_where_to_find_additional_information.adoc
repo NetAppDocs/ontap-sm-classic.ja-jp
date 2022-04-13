@@ -5,6 +5,7 @@ keywords: test, cifs, nfs, client, access, perform, advanced, configuration, san
 summary: CIFS および NFS のクライアントアクセスをテストしたあと、 CIFS と NFS の高度な設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、 SVM のルートボリュームを保護する必要があります。このような目標の達成に役立つ包括的なコンテンツやテクニカルレポートをご用意しています。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

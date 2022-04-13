@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, snapshot, copy, online, help, system, manager 
 summary: ディスクスペースを節約したり解放したりする場合、 System Manager を使用して Snapshot コピーを削除できます。また、不要になった Snapshot コピーを削除することもできます。 
 ---
-= Snapshot コピーを削除しています
+= System Manager - ONTAP 9.7 以前を使用して Snapshot コピーを削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ディスクスペースを節約したり解放したりする場合、 System Manager を使用して Snapshot コピーを削除できます。また、不要になった Snapshot コピーを削除することもできます。
+ディスクスペースを節約したり解放したりする場合、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Snapshot コピーを削除できます。また、不要になった Snapshot コピーを削除することもできます。
 
 使用中またはロック状態の Snapshot コピーを削除する場合は、 Snapshot コピーを使用しているアプリケーションからそのコピーを解放しておく必要があります。
 

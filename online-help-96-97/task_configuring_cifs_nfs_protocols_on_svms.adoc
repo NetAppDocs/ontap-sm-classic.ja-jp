@@ -5,6 +5,7 @@ keywords: system, manager, configuring, cifs, nfs, protocols, svm, online, help
 summary: System Manager で Storage Virtual Machine （ SVM ）の CIFS プロトコルおよび NFS プロトコルを設定して、 NAS クライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 SVM に CIFS プロトコルと NFS プロトコルを設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

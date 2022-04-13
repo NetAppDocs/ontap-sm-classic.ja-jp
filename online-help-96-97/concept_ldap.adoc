@@ -5,6 +5,7 @@ keywords: ldap, system, manager, configure, server, online, help, user, informat
 summary: System Manager を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。 
 ---
 = ONTAP 9.7 以前の System Manager で LDAP サーバを設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

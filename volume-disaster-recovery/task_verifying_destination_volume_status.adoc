@@ -5,6 +5,7 @@ keywords: break, snapmirror, relationship, verify, destination, volume, access, 
 summary: SnapMirror 関係を解除したら、デスティネーションボリュームに読み取り / 書き込みアクセスが設定されていること、およびデスティネーションボリュームの設定がソースボリュームと同じであることを確認する必要があります。 
 ---
 = デスティネーションボリュームのステータスを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

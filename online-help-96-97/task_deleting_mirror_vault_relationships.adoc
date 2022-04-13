@@ -5,6 +5,7 @@ keywords: system, manager, mirror, vault, relationship, source, destination, del
 summary: System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のミラーとバックアップ関係を終了し、ソースボリュームから Snapshot コピーを解放できます。 
 ---
 = ミラーとバックアップ関係を削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

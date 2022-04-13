@@ -5,6 +5,7 @@ keywords: virutal, storage, console, vsc, vmware, vsphere, automate, configurati
 summary: Virtual Storage Console for VMware vSphere を使用すると、 ESXi ホストでネットアップの FC ストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。Virtual Storage Console は vCenter Server のプラグインです。 
 ---
 = Virtual Storage Console をインストールします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

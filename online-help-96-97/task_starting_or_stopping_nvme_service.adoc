@@ -5,6 +5,7 @@ keywords: start, stop, nvme, service, online, help, adaptor, namespace
 summary: NVMe サービスを使用すると、ネームスペースで使用する NVMe アダプタを管理できます。System Manager では、 NVMe サービスを開始してアダプタをオンラインにすることができます。NVMe サービスを停止すると、 NVMe アダプタがオフラインになり、ネームスペースにアクセスできなくなります。 
 ---
 = NVMe サービスを開始および停止しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

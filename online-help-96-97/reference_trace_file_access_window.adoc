@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, commnd, button, trace, file, access, window, online, help, cif, entry, list 
 summary: System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスに問題がある場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。 
 ---
-= [ ファイルアクセスのトレース ] ウィンドウ
+= System Manager の Trace File Access ウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスに問題がある場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。
+ONTAP System Manager 9.6 以降では、 CIFS または NFS プロトコルを使用して SVM のファイルと共有へのアクセスで問題が発生した場合に、ファイルアクセスのトレースウィンドウを使用して問題を診断できます。
 
 
 

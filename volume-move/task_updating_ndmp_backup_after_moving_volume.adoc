@@ -5,6 +5,7 @@ keywords: volume, move, tape, ndmp, configuration, moving, baseline, migrate, ba
 summary: 移動したボリュームが特定の設定の NDMP を使用してテープにバックアップされていた場合、ボリュームの移動後に次のいずれかの操作を実行して、ボリュームのバックアップを引き続き正常に続行することができます。 ベースラインを作成するか、移動したボリュームを含むノードにバックアップ LIF を移行します。 
 ---
 = ボリューム移動後に NDMP バックアップを更新する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

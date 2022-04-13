@@ -5,6 +5,7 @@ keywords: expand, cluster, configure, service, processor, sp, network, node, man
 summary: クラスタを拡張したら、新しいノードでサービスプロセッサネットワークを設定する必要があります。 
 ---
 = サービスプロセッサネットワークを設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

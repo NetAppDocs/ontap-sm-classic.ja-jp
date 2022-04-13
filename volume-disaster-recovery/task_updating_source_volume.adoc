@@ -5,6 +5,7 @@ keywords: resynchronize, resynchronizing, source, volume, update, activate, upda
 summary: 再同期の完了後、ソースボリュームをアクティブ化する前に、ソースボリュームを更新して最新の変更内容をすべて反映することができます。 
 ---
 = ソースボリュームを更新
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

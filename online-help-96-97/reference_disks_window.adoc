@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: command, button, disk, window, inventory, detail, online, help 
 summary: ディスクウィンドウを使用すると、ストレージシステム内のすべてのディスクを表示できます。 
 ---
-= ディスクウィンドウ
+= System Manager のディスクウィンドウ - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ディスクウィンドウを使用すると、ストレージシステム内のすべてのディスクを表示できます。
+ONTAP システムマネージャのディスクウィンドウ（ ONTAP 9.7 以前で使用可能）を使用すると、ストレージシステム内のすべてのディスクを表示できます。
 
 
 

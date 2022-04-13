@@ -5,6 +5,7 @@ keywords: nfs, access, volume, exist, storage, virtual, machine, svm, system man
 summary: ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームへの NFS アクセスを簡単に設定できます。 
 ---
 = NFS 構成の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

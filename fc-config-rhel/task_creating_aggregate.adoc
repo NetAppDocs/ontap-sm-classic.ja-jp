@@ -5,6 +5,7 @@ keywords: exist, aggregate, create, physical, storage, volume, create an aggrega
 summary: 既存のアグリゲートを使用しない場合は、プロビジョニングするボリュームに物理ストレージを提供するアグリゲートを新規に作成します。 
 ---
 = アグリゲートを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

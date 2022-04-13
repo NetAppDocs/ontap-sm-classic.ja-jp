@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: add, capacity, disk, online, help, aggregate 
 summary: データディスクを追加することによって、既存のルート以外のアグリゲートまたはディスクを含むルートアグリゲートのサイズを拡張できます。System Manager を使用して、選択した ONTAP ディスクタイプの HDD または SSD を追加したり、 RAID グループオプションを変更したりできます。 
 ---
-= データディスクを追加します
+= System Manager - ONTAP 9.7 以前を使用してデータディスクを追加します
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-データディスクを追加することによって、既存のルート以外のアグリゲートまたはディスクを含むルートアグリゲートのサイズを拡張できます。System Manager を使用して、選択した ONTAP ディスクタイプの HDD または SSD を追加したり、 RAID グループオプションを変更したりできます。
+データディスクを追加することによって、既存のルート以外のアグリゲートまたはディスクを含むルートアグリゲートのサイズを拡張できます。System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、選択した ONTAP ディスクタイプの HDD または SSD を追加したり、 RAID グループオプションを変更したりできます。
 
 .作業を開始する前に
 * アグリゲートがオンラインになっている必要があります。

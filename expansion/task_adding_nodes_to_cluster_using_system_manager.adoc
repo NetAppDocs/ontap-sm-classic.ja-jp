@@ -5,6 +5,7 @@ keywords: system, manager, increase, size, capabilities, capability, storage, no
 summary: System Manager を使用して、既存のクラスタにノードを追加し、ストレージシステムのサイズと容量を拡張できます。この機能は、クラスタバージョンが ONTAP 9.2 の場合、 System Manager で自動的に有効になります。 
 ---
 = System Manager を使用して、クラスタにノードを追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

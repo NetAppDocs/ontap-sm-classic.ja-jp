@@ -5,6 +5,7 @@ keywords: add, cifs, volume, cifs-enabled, svm, involves, creating, create, conf
 summary: CIFS 対応 SVM に CIFS ボリュームを追加するには、ボリュームを作成して設定し、共有を作成して権限を設定し、 Windows 管理ホストからのアクセスを確認します。その後、 CIFS クライアントアクセスを設定することができます。 
 ---
 = CIFS 対応 SVM に CIFS ボリュームを追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

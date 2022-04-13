@@ -5,6 +5,7 @@ keywords: minimize, data, access, disruption, activating, activate, destination,
 summary: デスティネーションボリュームが格納された SVM で必要な設定を行うことで、デスティネーションボリュームをアクティブ化する際のデータアクセスの中断を最小限に抑えることができます。 NAS 環境については LIF 、 CIFS 共有、エクスポートポリシーなど、 SAN 環境については LIF やイニシエータグループなどを設定する必要があります。 
 ---
 = データアクセス用のデスティネーション SVM をセットアップ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

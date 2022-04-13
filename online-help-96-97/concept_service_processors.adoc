@@ -5,6 +5,7 @@ keywords: service, processors, monitor, manage, storage, system, manager, temper
 summary: System Manager でサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。 
 ---
 = System Manager - ONTAP 9.7 以前のバージョンでサービスプロセッサを使用します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

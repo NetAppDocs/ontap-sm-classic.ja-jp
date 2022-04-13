@@ -5,6 +5,7 @@ keywords: join, install, node, cluster, run, ontap, upgrade, downgrade
 summary: 新しく設置したノードをクラスタに追加する前に、ノードで実行されている ONTAP のバージョンがクラスタと同じであることを確認する必要があります。ノードが異なるバージョンを実行している場合は、クラスタと一致するようにノードをアップグレードまたはダウングレードする必要があります。 
 ---
 = ノードをアップグレードまたはダウングレードする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

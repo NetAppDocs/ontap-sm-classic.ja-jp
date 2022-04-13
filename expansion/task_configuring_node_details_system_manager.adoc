@@ -5,6 +5,7 @@ keywords: system, manager, configure, node, management, lif, service, processor,
 summary: System Manager を使用して、新しく追加したノードのノード管理 LIF およびサービスプロセッサを設定できます。 
 ---
 = System Manager でノードの詳細を設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

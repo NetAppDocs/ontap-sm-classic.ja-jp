@@ -5,6 +5,7 @@ keywords: move, moving, volume, method, operation, plan, timing, system, manager
 summary: ボリュームを移動する前に、ボリューム移動処理の方法を選択し、いつ実行するかを計画する必要があります。ボリュームは System Manager を使用して移動できます。移動後に NDMP バックアップ設定の更新が必要になる場合があります。 
 ---
 = ボリューム移動ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

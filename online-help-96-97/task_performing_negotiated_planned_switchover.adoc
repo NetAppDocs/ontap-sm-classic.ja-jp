@@ -5,6 +5,7 @@ keywords: online, help, perform, negotiated, switchover, system, help
 summary: System Manager 9.6 以降では、 MetroCluster サイトのネゴシエート（計画的）スイッチオーバーを開始できます。この処理は、サイトでディザスタリカバリのテストや計画的なメンテナンスを実行する場合に役立ちます。 
 ---
 = ネゴシエートスイッチオーバーの実行
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

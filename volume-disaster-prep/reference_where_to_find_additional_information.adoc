@@ -5,6 +5,7 @@ keywords: documentation, activate, destination, volume, test, disaster, recovery
 summary: ディザスタリカバリの設定をテストする場合や災害の発生時にデスティネーションボリュームをアクティブ化する方法については、別のドキュメントで説明しています。災害発生後にソースボリュームを再アクティブ化する方法も、それらのドキュメントで確認できます。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

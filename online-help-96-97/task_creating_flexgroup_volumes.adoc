@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, flexgroup, volume, online, help, system, manager 
 summary: FlexGroup ボリュームには複数のボリュームを含めることができ、各ボリュームを個別にではなくグループとして管理できます。System Manager を使用して、特定のアグリゲートを選択するかシステムで推奨されるアグリゲートを選択して FlexGroup ボリュームを作成できます。 
 ---
-= FlexGroup ボリュームを作成します
+= System Manager ONTAP 9.7 以前を使用して FlexGroup ボリュームを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FlexGroup ボリュームには複数のボリュームを含めることができ、各ボリュームを個別にではなくグループとして管理できます。System Manager を使用して、特定のアグリゲートを選択するかシステムで推奨されるアグリゲートを選択して FlexGroup ボリュームを作成できます。
+ONTAP System Manager の従来型機能（ ONTAP 9.7 以前で使用可能）を使用すると、特定のアグリゲートを選択するかシステムで推奨されるアグリゲートを選択して FlexGroup ボリュームを作成できます。FlexGroup ボリュームには複数のボリュームを含めることができ、各ボリュームを個別にではなくグループとして管理できます。
 
 .このタスクについて
 * 作成できるのは読み書き可能（ rw ） FlexGroup ボリュームのみです。

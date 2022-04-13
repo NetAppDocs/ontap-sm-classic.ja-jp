@@ -5,6 +5,7 @@ keywords: initialize, vault, relationship, system, manager, flexvol, online, hel
 summary: System Manager を使用して、作成時に初期化していないバックアップ関係を初期化することができます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。 
 ---
 = バックアップ関係を初期化しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

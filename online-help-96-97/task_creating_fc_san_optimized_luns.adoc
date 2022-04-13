@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, fc, san, optimized, lun, system, manager, online, help 
 summary: AFF プラットフォームでのクラスタの初期セットアップ時に、 System Manager を使用して FC SAN 向けに最適化された LUN を作成できます。 
 ---
-= FC SAN 向けに最適化された LUN を作成
+= System Manager - ONTAP 9.7 以前を使用して、 FC SAN 向けに最適化された LUN を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF プラットフォームでのクラスタの初期セットアップ時に、 System Manager を使用して FC SAN 向けに最適化された LUN を作成できます。
+AFF プラットフォームでのクラスタの初期セットアップ時に、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FC SAN 向けに最適化された LUN を作成できます。
 
 .作業を開始する前に
 * LUN を含まない AFF_SAN_DEFAULT_SVM という名前の Storage Virtual Machine （ SVM ）を 1 つだけ作成しておく必要があります。

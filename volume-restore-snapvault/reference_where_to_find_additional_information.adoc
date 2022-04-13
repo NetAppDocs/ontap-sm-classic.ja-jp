@@ -5,6 +5,7 @@ keywords: information, manage, snapvault, backup, relationship, method, data, pr
 summary: 追加情報を使用すると、 SnapVault バックアップ関係を管理したり、他の方法でデータ保護を行ってデータリソースの可用性を保護したりすることができます。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

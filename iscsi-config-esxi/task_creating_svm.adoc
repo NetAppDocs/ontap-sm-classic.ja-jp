@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, iscsi, target, host, access, lun, logi
 summary: Storage Virtual Machine （ SVM ）はホストから LUN にアクセスする際の iSCSI ターゲットを提供します。SVM を作成すると、 LUN へのパスを提供する論理インターフェイス（ LIF ）も作成されます。SVM を作成すると、ユーザのデータ機能と管理機能をクラスタ内の他のユーザと分離できます。 
 ---
 = 新しい SVM を作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

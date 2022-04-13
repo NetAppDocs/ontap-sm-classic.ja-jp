@@ -5,6 +5,7 @@ keywords: storage, service, definition, online, help, performance, factor
 summary: ONTAP には、対応する最小パフォーマンス要因にマッピングされた事前定義されたストレージサービスが含まれています。 
 ---
 = System Manager - ONTAP 9.7 以前のストレージサービスの定義
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: system, manager, volume, window, flexgroup, volume, online, help 
 summary: ボリュームウィンドウを使用して、 FlexVol ボリュームと FlexGroup ボリュームを管理できます。System Manager 9.6 以降では、 FlexCache ボリュームも管理できます。 
 ---
-= Volumes （ボリューム）ウィンドウ
+= System Manager のボリュームウィンドウ - ONTAP 9.7 以前
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ボリュームウィンドウを使用して、 FlexVol ボリュームと FlexGroup ボリュームを管理できます。System Manager 9.6 以降では、 FlexCache ボリュームも管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の Volumes （ボリューム）ウィンドウを使用して、 FlexVol ボリュームと FlexGroup ボリュームを管理できます。System Manager 9.6 以降では、 FlexCache ボリュームも管理できます。
 
 ディザスタリカバリ用に設定された Storage Virtual Machine （ SVM ）のボリュームについては、 System Manager で表示したり管理したりすることはできません。代わりに CLI を使用する必要があります。
 

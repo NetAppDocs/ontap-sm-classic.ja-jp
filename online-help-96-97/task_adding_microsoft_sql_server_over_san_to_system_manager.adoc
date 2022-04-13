@@ -5,6 +5,7 @@ keywords: add, microsoft, sql, server, san, system, manager, online, help, enhan
 summary: Enhanced タブを使用して、 Microsoft SQL Server over SAN のインスタンスを System Manager に追加できます。 
 ---
 = ONTAP 9.7 以前のシステムマネージャに、 Microsoft SQL Server over SAN を追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

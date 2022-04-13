@@ -5,6 +5,7 @@ keywords: generating, generate, autosupport, message, start, expansion, expand, 
 summary: クラスタを拡張する直前に、拡張プロセスを開始することを示す AutoSupport メッセージを送信する必要があります。 
 ---
 = 拡張開始の AutoSupport メッセージを生成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

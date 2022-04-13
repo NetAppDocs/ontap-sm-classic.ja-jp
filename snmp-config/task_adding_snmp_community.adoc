@@ -5,6 +5,7 @@ keywords: system, manager, add, community, administrative, storage, virtual, mac
 summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、 SNMPv1 または SNMPv2c を実行しているクラスタの管理 Storage Virtual Machine （ SVM ）にコミュニティを追加できます。System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。 
 ---
 = SNMP コミュニティを追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

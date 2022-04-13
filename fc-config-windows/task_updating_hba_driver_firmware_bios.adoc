@@ -5,6 +5,7 @@ keywords: fc, host, bus, adapter, hba, windows, run, support, driver, firmware, 
 summary: Windows ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。 
 ---
 = HBA のドライバ、ファームウェア、 BIOS を更新
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

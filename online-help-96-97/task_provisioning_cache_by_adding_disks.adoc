@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: ssd, system, manager, storage, pool, root, aggregate, provision, cache, online, help, ssd, disks, flash, pool 
 summary: System Manager を使用して、 SSD をストレージプールまたは専用 SSD として追加してキャッシュをプロビジョニングできます。SSD を追加することで、パーティショニングされたディスクを含まない非ルートアグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換したり、既存の Flash Pool アグリゲートのキャッシュサイズを拡張したりできます。 
 ---
-= SSD の追加によるキャッシュのプロビジョニング
+= System Manager - ONTAP 9.7 以前を使用して SSD を追加してキャッシュをプロビジョニングします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 SSD をストレージプールまたは専用 SSD として追加してキャッシュをプロビジョニングできます。SSD を追加することで、パーティショニングされたディスクを含まない非ルートアグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換したり、既存の Flash Pool アグリゲートのキャッシュサイズを拡張したりできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SSD をストレージプールまたは専用 SSD として追加してキャッシュをプロビジョニングできます。SSD を追加することで、パーティショニングされたディスクを含まない非ルートアグリゲートまたはルートアグリゲートを Flash Pool アグリゲートに変換したり、既存の Flash Pool アグリゲートのキャッシュサイズを拡張したりできます。
 
 .このタスクについて
 * 追加された SSD キャッシュはアグリゲートのサイズには反映されず、アグリゲートが最大サイズのときでも SSD RAID グループを追加できます。

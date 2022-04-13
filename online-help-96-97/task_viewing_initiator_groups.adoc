@@ -5,6 +5,7 @@ keywords: view, initiator, group, lun, system, manager, online, help
 summary: System Manager のイニシエータグループタブを使用して、すべてのイニシエータグループとそれらのイニシエータグループにマッピングされているイニシエータ、およびイニシエータグループにマッピングされている LUN と LUN ID を表示できます。 
 ---
 = igroup を表示しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

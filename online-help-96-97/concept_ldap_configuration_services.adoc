@@ -5,6 +5,7 @@ keywords: ldap, configuration, service, system, manager, online, help, storage, 
 summary: System Manager を使用して、 LDAP 設定を管理できます。 
 ---
 = LDAP 設定サービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, disk, manage, online, help 
 summary: System Manager を使用して、ディスクを管理できます。 
 ---
-= ディスク
+= System Manager - ONTAP 9.7 以前を使用してディスクを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ディスクを管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してディスクを管理できます。
 
 * 関連情報 *
 

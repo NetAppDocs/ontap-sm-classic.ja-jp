@@ -5,6 +5,7 @@ keywords: online, help, edit, local, windows, group, properties, active, directo
 summary: System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。 
 ---
 = Windows ローカルグループのプロパティを編集します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, monitor, cluster, health, alerts, delete, 
 summary: System Manager を使用して、クラスタのさまざまな要素を監視できます。 
 ---
-= システムアラート
+= System Manager - ONTAP 9.7 以前を使用してシステムアラートを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、クラスタのさまざまな要素を監視できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタのさまざまな要素を監視できます。
 
 
 

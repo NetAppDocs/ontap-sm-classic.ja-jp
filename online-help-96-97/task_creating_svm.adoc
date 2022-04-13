@@ -5,6 +5,7 @@ keywords: svm, create, storage, virtual, machine, online, help
 summary: Storage Virtual Machine （ SVM ）ウィンドウを使用すると、設定が完了した SVM を作成できます。作成した SVM にストレージオブジェクトを作成すると、 SVM からデータが提供されるようになります。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 SVM を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

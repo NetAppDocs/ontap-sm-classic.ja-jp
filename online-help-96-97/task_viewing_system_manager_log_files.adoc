@@ -5,6 +5,7 @@ keywords: view, ontap, system, manager, log, file, online, help
 summary: System Manager の使用中に問題が発生した場合は、テクニカルサポートにログファイルを送信して問題解決を手助けしてもらうことができます。System Manager のログファイルは、 ONTAP のログファイルと同じ mlog ディレクトリに保存されています。 
 ---
 = System Manager ログファイルの表示 - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

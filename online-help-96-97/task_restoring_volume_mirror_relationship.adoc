@@ -5,6 +5,7 @@ keywords: restore, volume, mirror, relationship, snapmirror, online, help, syste
 summary: バージョンに依存しないミラー関係の場合、ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。 
 ---
 = ミラー関係のボリュームのリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: document, fc, configuration, additional, information, vmware, document
 summary: FC 構成について理解するのに役立つその他のドキュメントを紹介します。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

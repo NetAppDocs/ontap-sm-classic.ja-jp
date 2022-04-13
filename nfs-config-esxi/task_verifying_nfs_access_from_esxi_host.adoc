@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, verify, nfs, access, creating, create, vir
 summary: データストアのプロビジョニングが完了したら、データストアに仮想マシンを作成して電源をオンにすることで、 ESXi ホストに NFS アクセスが許可されていることを確認できます。 
 ---
 = ESXi ホストからの NFS アクセスを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

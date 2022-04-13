@@ -5,6 +5,7 @@ keywords: quiesce, mirror, relationship, system, manager, online, help
 summary: System Manager を使用して、 Snapshot コピーを作成する前にミラーデスティネーションを休止して、安定した状態にすることができます。休止処理を実行すると、アクティブなミラー転送が完了したあと、ミラーリング関係の以降の転送が実行されなくなります。 
 ---
 = ミラー関係を休止しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

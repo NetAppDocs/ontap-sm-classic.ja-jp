@@ -5,6 +5,7 @@ keywords: create, flexvol, volume, data, optional, default, security, style, inh
 summary: データを格納する FlexVol ボリュームを作成する必要があります。ボリュームのデフォルトのセキュリティ形式は、必要に応じて変更することができます。デフォルトでは、ルートボリュームのセキュリティ形式が継承されます。また、ボリュームのネームスペース内の場所も必要に応じて変更できます。デフォルトでは、 Storage Virtual Machine （ SVM ）のルートボリュームに配置されます。 
 ---
 = ボリュームを作成して設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

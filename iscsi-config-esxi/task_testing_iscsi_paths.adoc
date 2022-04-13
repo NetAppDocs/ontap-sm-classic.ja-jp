@@ -5,6 +5,7 @@ keywords: storage, failover, data, mobility, path, host, node, cluster, advertis
 summary: ストレージフェイルオーバーやデータ移動が適切に行われるようにするには、ホストからストレージクラスタ内のすべてのノードへのパスが 2 つあることを確認する必要があります。iSCSI ターゲットからアドバタイズされるパスの数は限られているため、ホストからストレージクラスタポートに ping を送信する必要があります。 
 ---
 = ホストからストレージクラスタへの iSCSI パスをテストします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

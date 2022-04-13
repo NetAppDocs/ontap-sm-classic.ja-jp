@@ -5,6 +5,7 @@ keywords: system, manager, configure, fc, fcoe, protocol, online, help, change, 
 summary: System Manager を使用して、 FC / FCoE プロトコルを設定できます。 
 ---
 = FC/FCoE プロトコル
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

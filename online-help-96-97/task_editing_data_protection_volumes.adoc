@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: edit, data, protection, system, manager, online, help, dp, volume 
 summary: System Manager を使用して、データ保護（ DP ）ボリュームのボリューム名を変更することができます。ソースボリュームで Storage Efficiency が有効になっていない場合に、デスティネーションボリュームでのみ Storage Efficiency を有効にすることもできます。 
 ---
-= データ保護ボリュームを編集する
+= System Manager - ONTAP 9.7 以前を使用して、データ保護ボリュームを編集します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、データ保護（ DP ）ボリュームのボリューム名を変更することができます。ソースボリュームで Storage Efficiency が有効になっていない場合に、デスティネーションボリュームでのみ Storage Efficiency を有効にすることもできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データ保護（ DP ）ボリュームのボリューム名を変更できます。ソースボリュームで Storage Efficiency が有効になっていない場合に、デスティネーションボリュームでのみ Storage Efficiency を有効にすることもできます。
 
 ミラー DP ボリュームの Storage Efficiency を変更することはできません。
 

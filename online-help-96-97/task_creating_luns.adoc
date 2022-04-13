@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, lun, system, manager, qtree, online, help 
 summary: 空きスペースがある場合、 System Manager を使用して、既存のアグリゲート、ボリューム、または qtree の LUN を作成できます。既存のボリュームに LUN を作成したり、その LUN に対する新しい FlexVol を作成したりできます。また、ワークロードのパフォーマンスを管理するためにストレージ QoS を有効にすることもできます。 
 ---
-= LUNs を作成します
+= System Manager を使用して ONTAP 9.7 以前を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-空きスペースがある場合、 System Manager を使用して、既存のアグリゲート、ボリューム、または qtree の LUN を作成できます。既存のボリュームに LUN を作成したり、その LUN に対する新しい FlexVol を作成したりできます。また、ワークロードのパフォーマンスを管理するためにストレージ QoS を有効にすることもできます。
+空きスペースがある場合、 ONTAP System Manager クラシック（ ONTAP 9.8 以前で使用可能）を使用して、既存のアグリゲート、ボリューム、または qtree の LUN を作成できます。既存のボリュームに LUN を作成したり、その LUN に対する新しい FlexVol を作成したりできます。また、ワークロードのパフォーマンスを管理するためにストレージ QoS を有効にすることもできます。
 
 LUN ID を指定した場合、 System Manager は LUN を追加する前に ID の有効性をチェックします。LUN ID の指定を省略すると、 ONTAP ソフトウェアにより自動的に LUN ID が割り当てられます。
 

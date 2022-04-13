@@ -5,6 +5,7 @@ keywords: manage, cluster, system, manager, online, help
 summary: System Manager を使用して、クラスタを管理できます。 
 ---
 = クラスタの管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

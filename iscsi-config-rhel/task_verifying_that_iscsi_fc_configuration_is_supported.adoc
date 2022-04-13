@@ -5,6 +5,7 @@ keywords: reliable, operation, verify, iscsi, configuration, support, verify tha
 summary: 安定した運用を実現するために、 iSCSI 構成全体がサポートされることを確認する必要があります。 
 ---
 = iSCSI 構成がサポートされていることを確認します。
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

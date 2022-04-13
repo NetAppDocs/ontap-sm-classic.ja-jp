@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexgroup, volume, status, change, online, help 
 summary: FlexGroup ボリューム FlexGroup をオフラインにするとき、オンラインに戻すとき、または FlexGroup ボリュームへのアクセスを制限するときに、 System Manager を使用して、 FlexGroup ボリュームのステータスを変更できます。 
 ---
-= FlexGroup ボリュームのステータス変更
+= System Manager - ONTAP 9.7 以前を使用して、 FlexGroup ボリュームのステータスを変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FlexGroup ボリューム FlexGroup をオフラインにするとき、オンラインに戻すとき、または FlexGroup ボリュームへのアクセスを制限するときに、 System Manager を使用して、 FlexGroup ボリュームのステータスを変更できます。
+ONTAP ボリュームをオフラインにするとき、 FlexGroup ボリュームをオンラインに戻すとき、または FlexGroup ボリュームへのアクセスを制限するときに、 FlexGroup System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexGroup ボリュームのステータスを変更できます。
 
 System Manager では、 FlexGroup ボリュームのコンスティチュエントレベルの管理はサポートされません。
 

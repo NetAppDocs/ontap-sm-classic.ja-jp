@@ -5,6 +5,7 @@ keywords: creating, create, intercluster, logical, interface, lif, enable, netwo
 summary: ONTAP 9.3 以降 ONTAP では、 ONTAP System Manager の「クラシック」インターフェイスを使用してクラスタ間論理インターフェイス（ LIF ）を作成し、その LIF をクラスタネットワークがノードと通信できるようにすることができます。クラスタ間 LIF は、ピア関係を作成する各クラスタの各ノードで、ピアリングに使用する各 IPspace 内に作成する必要があります。 
 ---
 = クラスタ間 LIF の作成（ ONTAP 9.3 以降）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

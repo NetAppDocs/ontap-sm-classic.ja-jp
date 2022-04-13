@@ -1,29 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_initiators_from_initiator_group.html 
-sidebar: sidebar 
-keywords: delete, initiator, group, system, manager, online, help 
-summary: System Manager のイニシエータグループタブを使用して、イニシエータを削除できます。イニシエータグループからイニシエータを削除するには、イニシエータのイニシエータグループとの関連付けを解除する必要があります。 
+redirect: ontap-sm-classic/online-help-96-97/task_creating_initiator_groups.html 
 ---
-= イニシエータグループからのイニシエータの削除
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
 
-[role="lead"]
-System Manager のイニシエータグループタブを使用して、イニシエータを削除できます。イニシエータグループからイニシエータを削除するには、イニシエータのイニシエータグループとの関連付けを解除する必要があります。
-
-削除するイニシエータを含むイニシエータグループにマッピングされているすべての LUN は、手動でマッピング解除する必要があります。
-
-.手順
-. [ * ストレージ * > * LUNs * ] をクリックします。
-. イニシエータグループ * タブで、イニシエータを削除するイニシエータグループを選択し、 * Edit * をクリックします。
-. イニシエータグループの編集 * ダイアログボックスで、 * Initiators * タブをクリックします。
-. テキストボックスからイニシエータを選択して削除し、 * 保存 * をクリックします。
-+
-イニシエータのイニシエータグループとの関連付けが解除されます。
-
-
-
-* 関連情報 *
-
-xref:reference_luns_window.adoc[LUN ウィンドウ]

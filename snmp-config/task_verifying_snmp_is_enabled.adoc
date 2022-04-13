@@ -5,6 +5,7 @@ keywords: system, manager, verify, snmp, enable, cluster, verify that snmp is en
 summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタで SNMP が有効になっているかどうかを確認できます。 
 ---
 = SNMP が有効になっていることを確認します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, manager, lun, access, cluster, tab, online, help 
 summary: System Manager を使用して、 LUN を管理できます。 
 ---
-= LUN
+= System Manager - ONTAP 9.7 以前を使用して LUN を管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 LUN を管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LUN を管理できます。
 
 クラスタ内のすべての LUN には、 LUN タブを使用してアクセスできます。また、 SVM に固有の LUN には、 * SVM * > * LUNs * を使用してアクセスできます。
 

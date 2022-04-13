@@ -5,6 +5,7 @@ keywords: configuring, configure, creating, create, aggregate, workflow, goal-cr
 summary: NFS を設定するには、必要に応じてアグリゲートを作成してから、目的に応じたワークフローに従います。 NFS 対応 SVM を新規に作成するか、既存の SVM への NFS アクセスを設定するか、すでに NFS アクセスの設定が完了している既存の SVM に NFS ボリュームを追加するかによってワークフローが異なります。 
 ---
 = NFS の設定ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

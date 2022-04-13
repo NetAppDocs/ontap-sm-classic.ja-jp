@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: stop, svm, online, help, system, manager, storage, virtual, machine 
 summary: Storage Virtual Machine （ SVM ）を含む問題のトラブルシューティングを行う場合、 SVM を削除する場合、または SVM からのデータアクセスを停止する場合は、 System Manager を使用して SVM を停止できます。 
 ---
-= SVM の停止
+= System Manager - ONTAP 9.7 以前のバージョンを使用して SVM を停止します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）を含む問題のトラブルシューティングを行う場合、 SVM を削除する場合、または SVM からのデータアクセスを停止する場合は、 System Manager を使用して SVM を停止できます。
+Storage Virtual Machine （ SVM ）を含む問題 のトラブルシューティングを行う場合、 SVM を削除する場合、または SVM からのデータアクセスを停止する場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して SVM を停止できます。
 
 SVM に接続されているすべてのクライアントを切断する必要があります。
 

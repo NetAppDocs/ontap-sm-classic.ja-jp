@@ -5,6 +5,7 @@ keywords: system, manager, windows, create, manager, user, account, online, help
 summary: System Manager を使用して、 Windows のグループやユーザアカウントを作成および管理できます。 
 ---
 = Windows の場合
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

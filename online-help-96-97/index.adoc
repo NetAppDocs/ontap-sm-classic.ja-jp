@@ -5,6 +5,7 @@ keywords: system, manager, online, help, management, interface, understand, clus
 summary: System Manager は、グラフィカルな管理インターフェイスで、ストレージシステムおよびストレージオブジェクト（ディスク、ボリューム、アグリゲートなど）の管理やストレージシステムに関連する一般的な管理作業を Web ブラウザから実行できます。クラスタ管理者は、クラスタとそのリソースを System Manager ですべて管理できます。 
 ---
 = OnCommand ® System Manager を使用したクラスタ管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

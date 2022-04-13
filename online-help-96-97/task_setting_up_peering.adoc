@@ -5,6 +5,7 @@ keywords: set, up, peering, intercluster, logical, interfaces, lif, node, online
 summary: ピアリングのセットアップでは、各ノードでクラスタ間論理インターフェイス（ LIF ）を作成してから、クラスタピア関係を作成し、 SVM ピア関係を作成します。 
 ---
 = System Manager - ONTAP 9.7 以前を使用してピアリングをセットアップします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

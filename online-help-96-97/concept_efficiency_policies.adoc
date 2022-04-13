@@ -5,6 +5,7 @@ keywords: efficiency, policy, system, manager, create, edit, delete, online, hel
 summary: System Manager を使用して、効率化ポリシーを作成、編集、削除できます。 
 ---
 = 効率化ポリシー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

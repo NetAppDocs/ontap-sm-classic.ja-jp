@@ -5,6 +5,7 @@ keywords: online, help, create, flexcache, volume, system, manager
 summary: System Manager 9.6 以降では、 FlexCache ボリュームを作成できます。 
 ---
 = FlexCache ボリュームを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

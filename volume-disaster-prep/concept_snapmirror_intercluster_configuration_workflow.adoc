@@ -5,6 +5,7 @@ keywords: preparing, prepare, volume, disaster, recovery, verify, cluster, peer,
 summary: ボリュームのディザスタリカバリの準備では、クラスタピア関係を確認し、ピア関係にある双方のクラスタのボリューム間で SnapMirror 関係を作成し、データアクセスのためのデスティネーション SVM を設定して、 SnapMirror 関係を定期的に監視します。 
 ---
 = ボリュームのディザスタリカバリの準備ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

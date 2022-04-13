@@ -5,6 +5,7 @@ keywords: understand, space, reservation, lun, volume, guarantee, online, help
 summary: スペースリザベーション設定（ボリュームギャランティとの組み合わせ）と LUN のスペース予約の関係を知っておくと、スペースリザベーションを無効にした場合の影響や、 LUN 設定とボリューム設定の特定の組み合わせが有用でない理由を理解することができます。 
 ---
 = LUN のスペースリザベーションについて理解する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

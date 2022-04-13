@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, information, active, directory-based, 
 summary: Storage Virtual Machine （ SVM ）が Active Directory ベースの Lightweight Directory Access Protocol （ LDAP ）からユーザ情報を取得するように設定する場合は、 LDAP クライアントを作成し、 SVM に対して有効にして、ユーザ情報の他のソースよりも LDAP を優先するように設定する必要があります。 
 ---
 = LDAP を設定（既存の SVM への NFS アクセスを設定）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

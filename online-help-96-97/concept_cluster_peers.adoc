@@ -5,6 +5,7 @@ keywords: cluster, peer, data, replication, snapmirror, snapvault, flexcache, sy
 summary: SnapMirror テクノロジと SnapVault テクノロジを使用したデータレプリケーションや、 MetroCluster 構成で FlexCache ボリュームと SyncMirror テクノロジを使用したデータレプリケーションを行うには、クラスタ間にピア関係を設定することが必要になります。System Manager を使用して、 2 つのクラスタ間にピア関係を設定できます。 2 つのクラスタを連携させて、クラスタ間でリソースを共有できるようになります。 
 ---
 = System Manager とクラスタピア - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: reset, cifs, domain, controller, system, manager, online, help
 summary: System Manager を使用して、指定したドメインについて、ドメインコントローラへの CIFS 接続をリセットできます。ドメインコントローラ情報をリセットしないと、原因が接続エラーを発生させる可能性があります。 
 ---
 = CIFS ドメインコントローラをリセットしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

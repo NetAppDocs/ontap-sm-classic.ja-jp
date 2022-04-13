@@ -5,6 +5,7 @@ keywords: system, manager, update, cluster, name, online, help
 summary: System Manager を使用して、必要に応じてクラスタの名前を変更することができます。 
 ---
 = クラスタ名を更新しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

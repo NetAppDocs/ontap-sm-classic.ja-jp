@@ -5,6 +5,7 @@ keywords: windows, user, access, volume, create, cifs, restrict, access, modify,
 summary: ボリュームへのアクセスを Windows ユーザに許可する前に、ボリュームに CIFS 共有を作成し、共有のアクセス制御リスト（ ACL ）を変更してアクセスを制限する必要があります。 
 ---
 = 共有を作成して権限を設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

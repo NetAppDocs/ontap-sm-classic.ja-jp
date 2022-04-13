@@ -5,6 +5,7 @@ keywords: snmpv3, offer, advance, security, passphrase, encryption, system, mana
 summary: ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタレベルで SNMPv3 ユーザを追加できます。 
 ---
 = SNMPv3 セキュリティユーザを追加します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

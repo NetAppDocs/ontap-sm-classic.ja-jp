@@ -5,6 +5,7 @@ keywords: system, manager, flexcache, resize, volume, online, help
 summary: System Manager 9.6 以降では、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexCache ボリュームのサイズを変更できます。 
 ---
 = FlexCache のサイズを変更しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, local, window, group, online, help, system, manager
 summary: System Manager を使用して Windows ローカルグループを作成し、 Storage Virtual Machine （ SVM ）に格納されたデータに SMB 接続経由でアクセスする際の認証に使用できます。また、管理アクティビティの実行時にグループのメンバーが利用できるユーザ権限と機能を定義した権限を割り当てることができます。 
 ---
 = Windows ローカルグループを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

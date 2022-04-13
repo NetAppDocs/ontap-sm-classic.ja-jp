@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, host, datacenter, cluster, storage, virtua
 summary: データセンターの ESXi ホストに対して最初のデータストアをプロビジョニングする前に、クラスタまたは特定の Storage Virtual Machine （ SVM ）を Virtual Storage Console for VMware vSphere に追加する必要があります。クラスタを追加すると、クラスタ内の任意の SVM でストレージをプロビジョニングできるようになります。 
 ---
 = ストレージクラスタまたは SVM を VSC for VMware vSphere に追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

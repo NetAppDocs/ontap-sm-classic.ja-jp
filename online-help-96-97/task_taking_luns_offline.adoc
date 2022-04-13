@@ -5,6 +5,7 @@ keywords: take, lun, offline, online, help, management, system, manager
 summary: System Manager の LUN の管理タブを使用して、選択した LUN をオフラインにし、ブロックプロトコルアクセスできないようにすることができます。 
 ---
 = LUN をオフラインにしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

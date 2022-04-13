@@ -5,6 +5,7 @@ keywords: source, volume, online, resynchronize, data, destination, replicate, r
 summary: ソースボリュームがオンライン状態になったら、デスティネーションボリュームとソースボリュームの間でデータを再同期して、デスティネーションボリュームの最新のデータをレプリケートする必要があります。 
 ---
 = ソースボリュームを再同期
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

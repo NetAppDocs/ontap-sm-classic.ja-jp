@@ -5,6 +5,7 @@ keywords: system, manager, create, edit, manage, export, policy, online, help, v
 summary: System Manager を使用して、エクスポートポリシーを作成、編集、管理できます。 
 ---
 = エクスポートポリシー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

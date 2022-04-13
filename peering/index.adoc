@@ -5,6 +5,7 @@ keywords: cluster, administrator, create, authenticated, peer, relationship, svm
 summary: クラスタ管理者は、異なるクラスタのボリューム間でデータがレプリケートされるように、認証されたクラスタと SVM 間のピア関係を作成してクラスタ間の相互通信を可能にすることができます。 
 ---
 = クラスタと SVM のピアリングの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

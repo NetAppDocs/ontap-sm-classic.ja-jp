@@ -5,6 +5,7 @@ keywords: icon, application, interface, dashboard, window, online, help, icon
 summary: インターフェイスのアイコンからは、システムや処理に関する情報を一目で把握できます。 
 ---
 = アプリケーションインターフェイスで使用されるアイコン
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

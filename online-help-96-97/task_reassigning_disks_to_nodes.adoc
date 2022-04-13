@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, reassign, disks, node, online, help, node, aggregate, storage, pool 
 summary: System Manager を使用してスペアディスクを別のノードに再割り当てすることで、アグリゲートやストレージプールの容量を拡張することができます。 
 ---
-= ノードへのディスクの再割り当て
+= System Manager - ONTAP 9.7 以前を使用して、ディスクをノードに再割り当てします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用してスペアディスクを別のノードに再割り当てすることで、アグリゲートやストレージプールの容量を拡張することができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、スペアディスクの所有権をノード間で再割り当てし、アグリゲートやストレージプールの容量を拡張することができます。
 
 .このタスクについて
 * ディスクの再割り当ては、次の条件に当てはまる場合に実行できます。

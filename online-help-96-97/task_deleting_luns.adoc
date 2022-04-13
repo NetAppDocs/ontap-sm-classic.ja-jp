@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, lun, system, manager, online, help, aggregate 
 summary: System Manager を使用して LUN を削除し、 LUN で使用されていたスペースを包含アグリゲートや包含ボリュームに戻すことができます。 
 ---
-= LUN を削除しています
+= System Manager - ONTAP 9.7 以前のバージョンで LUN を削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して LUN を削除し、 LUN で使用されていたスペースを包含アグリゲートや包含ボリュームに戻すことができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LUN を削除し、 LUN で使用されていたスペースを包含アグリゲートや包含ボリュームに戻すことができます。
 
 .作業を開始する前に
 * LUN をオフラインにする必要があります。

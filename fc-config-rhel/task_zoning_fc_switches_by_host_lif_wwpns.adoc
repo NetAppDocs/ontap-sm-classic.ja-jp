@@ -5,6 +5,7 @@ keywords: zoning, fc, switch, enable, host, connect, storage, limit, number, pat
 summary: FC スイッチをゾーニングすることで、ホストをストレージに接続し、パスの数を制限することができます。スイッチのゾーニングはスイッチの管理インターフェイスで設定します。 
 ---
 = ホストと LIF WWPN で FC スイッチをゾーニング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

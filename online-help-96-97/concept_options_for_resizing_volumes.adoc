@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: option, resize, volume, wizard, snapshot, reserve, snapshot, copy, results, view, online, help 
 summary: ボリュームのサイズ変更ウィザードを使用して、ボリュームのサイズ変更、 Snapshot リザーブの調整、 Snapshot コピーの削除、変更の結果の動的な表示を行うことができます。 
 ---
-= ボリュームのサイズ変更のオプション
+= System Manager を使用してボリュームのサイズを変更するためのオプション - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ボリュームのサイズ変更ウィザードを使用して、ボリュームのサイズ変更、 Snapshot リザーブの調整、 Snapshot コピーの削除、変更の結果の動的な表示を行うことができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）のボリュームのサイズ変更ウィザードを使用して、ボリュームのサイズ変更、 Snapshot リザーブの調整、 Snapshot コピーの削除、変更の結果の動的な表示を行うことができます。
 
 ボリュームのサイズ変更ウィザードには、ボリューム内の現在のスペース割り当てを示す棒グラフが表示されます。このグラフには、使用スペースと空きスペースの量も表示されます。ボリュームの Snapshot リザーブのサイズを変更すると、このグラフは変更を反映して動的に更新されます。
 

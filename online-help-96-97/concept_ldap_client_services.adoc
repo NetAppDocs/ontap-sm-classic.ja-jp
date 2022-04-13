@@ -5,6 +5,7 @@ keywords: ldap, client, service, system, manager, add, edit, delete, client, con
 summary: System Manager を使用して、 LDAP クライアント設定を追加、編集、削除できます。 
 ---
 = LDAP クライアントサービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

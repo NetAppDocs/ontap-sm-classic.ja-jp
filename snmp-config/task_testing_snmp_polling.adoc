@@ -5,6 +5,7 @@ keywords: configure, snmp, verify, poll, cluster, test, test snmp poll
 summary: SNMP を設定したら、クラスタをポーリングできることを確認する必要があります。 
 ---
 = SNMP ポーリングのテスト
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

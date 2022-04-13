@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, snapshot, copy, outside, defined, schedule, online, help, system, manager 
 summary: System Manager を使用して、定義されたスケジュール以外の時間にボリュームの Snapshot コピーを作成して、特定の時点のファイルシステムの状態をキャプチャすることができます。 
 ---
-= 定義されたスケジュール以外で Snapshot コピーを作成します
+= System Manager - ONTAP 9.7 以前を使用して、定義されたスケジュール以外で Snapshot コピーを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、定義されたスケジュール以外の時間にボリュームの Snapshot コピーを作成して、特定の時点のファイルシステムの状態をキャプチャすることができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、定義されたスケジュール以外の時間にボリュームの Snapshot コピーを作成して、特定の時点のファイルシステムの状態をキャプチャできます。
 
 .手順
 . [* ストレージ *>* ボリューム *] をクリックします。

@@ -5,6 +5,7 @@ keywords: successful, test, nfs, client, access, configuration, san, protocol, c
 summary: NFS クライアントアクセスをテストしたあと、 NFS の追加設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、のルートボリュームを保護する必要があります。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。 
 ---
 = 追加情報の参照先
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

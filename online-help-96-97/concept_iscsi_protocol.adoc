@@ -5,6 +5,7 @@ keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, i
 summary: System Manager を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。 
 ---
 = iSCSI プロトコル
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: rename, snapshot, copy, system, manager, online, help 
 summary: 整理や管理をしやすくするため、 System Manager を使用して Snapshot コピーの名前を変更できます。 
 ---
-= Snapshot コピーの名前を変更中です
+= Snapshot コピーの名前を System Manager - ONTAP 9.7 以前のバージョンに変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-整理や管理をしやすくするため、 System Manager を使用して Snapshot コピーの名前を変更できます。
+整理や管理をしやすくするため、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Snapshot コピーの名前を変更できます。
 
 SnapVault 関係にある SnapLock DP ボリュームの（ WORM 状態にコミットされている） Snapshot コピーの名前は変更できません。
 

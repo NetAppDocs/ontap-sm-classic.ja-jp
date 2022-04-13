@@ -5,6 +5,7 @@ keywords: create, cluster, peer, relationship, cluster, system-generated, passph
 summary: 2 つのクラスタ間にクラスタピア関係を作成するには、システム生成のパスフレーズおよびリモートクラスタのクラスタ間 LIF の IP アドレスを指定します。 
 ---
 = クラスタピア関係を作成する（ ONTAP 9.3 以降）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

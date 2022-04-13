@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, aggregates, system, manager, online, help, root 
 summary: アグリゲート内のデータが不要になったときは、 System Manager を使用してそのアグリゲートを削除できます。ただし、ルートアグリゲートは、システム構成情報が含まれているルートボリュームがあるため、削除できません。 
 ---
-= アグリゲートを削除中
+= System Manager - ONTAP 9.7 以前を使用してアグリゲートを削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-アグリゲート内のデータが不要になったときは、 System Manager を使用してそのアグリゲートを削除できます。ただし、ルートアグリゲートは、システム構成情報が含まれているルートボリュームがあるため、削除できません。
+アグリゲート内のデータが不要になったときは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してアグリゲートを削除できます。ただし、ルートアグリゲートは、システム構成情報が含まれているルートボリュームがあるため、削除できません。
 
 .作業を開始する前に
 * アグリゲートに含まれている FlexVol および関連付けられている Storage Virtual Machine （ SVM ）をすべて削除する必要があります。

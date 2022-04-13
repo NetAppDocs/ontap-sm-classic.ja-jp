@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: rule, online, help, create, aggregate, add, capacity, disk, rpm 
 summary: アグリゲートを作成してデータディスクを追加する際には、ディスクタイプとディスク rpm の表示に関するルールを理解しておく必要があります。 
 ---
-= ディスクタイプおよびディスク rpm の表示ルール
+= System Manager - ONTAP 9.7 以前でディスクタイプとディスク rpm を表示する場合のルール
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-アグリゲートを作成してデータディスクを追加する際には、ディスクタイプとディスク rpm の表示に関するルールを理解しておく必要があります。
+アグリゲートを作成してデータディスクを追加する際には、 ONTAP の System Manager クラシック（ ONTAP 9.7 以前で使用可能）にディスクタイプとディスク rpm の表示に適用されるルールを理解しておく必要があります。
 
 ディスクタイプの混在オプションとディスク rpm の混在オプションが有効でない場合は、実際のディスクタイプとディスク rpm が表示されます。
 

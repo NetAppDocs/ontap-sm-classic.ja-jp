@@ -5,6 +5,7 @@ keywords: ensure, esxi, practice, setting, correct, host, loss, nfs, connection,
 summary: ESXi ホストが NFS 接続またはストレージの損失を正しく管理できるように、 ESXi ホストのベストプラクティス設定が正しいことを確認する必要があります。 
 ---
 = ESXi ホストのベストプラクティスを設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

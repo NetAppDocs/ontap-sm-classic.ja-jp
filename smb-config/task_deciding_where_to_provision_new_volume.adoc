@@ -5,6 +5,7 @@ keywords: create, cifs, volume, place, exist, storage, virtual, machine, svm, co
 summary: 新しい CIFS ボリュームを作成する前に、そのボリュームを既存の Storage Virtual Machine （ SVM ）に配置するかどうかを決め、既存の SVM に配置する場合はどのような設定が必要になるかについても確認しておく必要があります。これにより、ワークフローが決まります。 
 ---
 = 新しいボリュームをプロビジョニングする場所を決定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

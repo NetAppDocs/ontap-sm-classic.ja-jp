@@ -5,6 +5,7 @@ keywords: configure, configuring, snmp, enabling, enable, optional, snmpv1, snmp
 summary: SNMP の設定には、 SNMP の有効化、 SNMPv1 または SNMPv2c コミュニティの設定（オプション）、 SNMPv3 ユーザの追加、 SNMP トラップホストの追加、 SNMP ポーリングとトラップのテストが含まれます。 
 ---
 = SNMP の設定ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

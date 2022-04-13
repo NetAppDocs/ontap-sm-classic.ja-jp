@@ -5,6 +5,7 @@ keywords: update, cifs, group, policy, configuration, online, help, enable, disa
 summary: CLI を使用してポリシー設定を変更した場合は、変更後にグループポリシーを更新する必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーを更新できます。 
 ---
 = CIFS グループポリシー設定を更新する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

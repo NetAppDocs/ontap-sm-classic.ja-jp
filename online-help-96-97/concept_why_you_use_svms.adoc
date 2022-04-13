@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: svm, data, access, nondisruptive, operation, scalability, security, online, help 
 summary: SVM は、ストレージシステムと同様に、物理ストレージまたはコントローラに関係なく、クライアントにデータアクセスを提供します。SVM には、ノンストップオペレーション、優れた拡張性、セキュリティ、ユニファイドストレージなどの利点があります。 
 ---
-= SVM の使用目的
+= System Manager を備えた SVM について - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

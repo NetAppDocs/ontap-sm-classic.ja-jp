@@ -5,6 +5,7 @@ keywords: flexcache, volume, online, help, advanced, options, specify
 summary: System Manager 9.6 以降では、 FlexCache ボリュームを編集する際に、 FlexCache ボリュームに関連付けるアドバンストオプションを指定できます。 
 ---
 = FlexCache ボリュームのアドバンストオプションの指定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

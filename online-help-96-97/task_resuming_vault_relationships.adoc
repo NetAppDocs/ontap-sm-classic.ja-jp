@@ -5,6 +5,7 @@ keywords: resume, vault, relationship, online, help, system, manager, data, tran
 summary: System Manager を使用して、休止中のバックアップ関係を再開できます。関係を再開すると、デスティネーション FlexVol ボリュームへの通常のデータ転送が再開され、バックアップアクティビティもすべて再開されます。 
 ---
 = バックアップ関係を再開しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, nfs, volume, exist, configuration, workflow, decide where to p
 summary: NFS ボリュームを作成する前に、そのボリュームを既存のボリュームに配置するかどうかを決め、既存のボリュームに配置する場合はどのような設定が必要になるかについても確認しておく必要があります。これにより、ワークフローが決まります。 
 ---
 = 新しいボリュームをプロビジョニングする場所を決定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: nfs, client, configuration, esxi, workflow, nfs client configuration f
 summary: NFS を使用して ESXi ホストでストレージを使用できるようにするには、でボリュームをプロビジョニングし、 ESXi ホストから NFS エクスポートに接続します。 
 ---
 = ESXi ワークフロー向けの NFS クライアント構成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

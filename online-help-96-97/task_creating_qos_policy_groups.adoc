@@ -5,6 +5,7 @@ keywords: online, help, create, qos, policy, groups, system, manager, quality, s
 summary: System Manager でストレージ QoS ポリシーグループを作成して、ワークロードのスループットを制限したり、ワークロードのパフォーマンスを監視したりすることができます。 
 ---
 = QoS ポリシーグループを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

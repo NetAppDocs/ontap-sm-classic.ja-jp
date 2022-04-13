@@ -4,10 +4,11 @@ sidebar: sidebar
 keywords: aggregates, system, manager, security, backup, performance, data, sharing, classic, online, help, window 
 summary: System Manager を使用して、セキュリティ、バックアップ、パフォーマンス、およびデータ共有に関するさまざまな要件をサポートするアグリゲートを作成できます。 
 ---
-= アグリゲート
+= System Manager - ONTAP 9.7 以前を使用してアグリゲートを管理します
+:allow-uri-read: 
 
 
-System Manager を使用して、セキュリティ、バックアップ、パフォーマンス、およびデータ共有に関するさまざまな要件をサポートするアグリゲートを作成できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、セキュリティ、バックアップ、パフォーマンス、およびデータ共有に関するさまざまな要件をサポートするアグリゲートを作成できます。
 
 
 

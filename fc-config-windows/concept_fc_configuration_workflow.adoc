@@ -5,6 +5,7 @@ keywords: storage, available, host, fc, provision, volume, lun, storage, virtual
 summary: FC を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。 
 ---
 = FC 構成のワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

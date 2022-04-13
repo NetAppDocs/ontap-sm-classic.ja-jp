@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, online, help, resize, flexgroup, volume, resources 
 summary: System Manager を使用して、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexGroup ボリュームのサイズを変更できます。 
 ---
-= FlexGroup のサイズを変更しています
+= System Manager - ONTAP 9.7 以前を使用して FlexGroup ボリュームのサイズを変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexGroup ボリュームのサイズを変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexGroup ボリュームのサイズを変更できます。
 
 .作業を開始する前に
 * FlexGroup ボリュームのサイズを変更するには、既存のアグリゲートに十分な空きスペースが必要です。

@@ -5,6 +5,7 @@ keywords: record, iscsi, initiator, node, program, windows, host, record the isc
 summary: Windows ホストの iSCSI イニシエータプログラムから iSCSI イニシエータノード名を記録しておく必要があります。 
 ---
 = iSCSI イニシエータノード名を記録
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

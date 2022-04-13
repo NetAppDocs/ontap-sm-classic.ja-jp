@@ -5,6 +5,7 @@ keywords: view, lun, information, manangement, online, help
 summary: System Manager の LUN の管理タブでは、名前、ステータス、サイズ、タイプなど、 LUN に関する詳細を確認できます。 
 ---
 = LUN 情報を表示しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: data, center, create, cluster, online, help, system, manager
 summary: ONTAP System Manager を使用して、データセンターのクラスタを作成およびセットアップできます。 
 ---
 = System Manager - ONTAP 9.7 以前のバージョンでクラスタを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, initiator, group, system, manager, online, help, port, set, dial
 summary: System Manager のイニシエータグループの編集ダイアログボックスを使用して、既存のイニシエータグループとそのオペレーティングシステムの名前を変更できます。イニシエータをイニシエータグループに追加したり、イニシエータグループから削除したりできます。また、イニシエータグループに関連付けられているポートセットを変更することもできます。 
 ---
 = igroup を編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

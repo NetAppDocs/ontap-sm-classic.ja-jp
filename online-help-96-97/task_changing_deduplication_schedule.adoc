@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: change, deduplication, schedule, online, help, system, manager 
 summary: System Manager を使用して、重複排除を手動で実行するか、自動で実行するか、指定したスケジュールで実行するかを選択して、重複排除スケジュールを変更できます。 
 ---
-= 重複排除スケジュールを変更する
+= System Manager - ONTAP 9.7 以前を使用して、重複排除スケジュールを変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、重複排除を手動で実行するか、自動で実行するか、指定したスケジュールで実行するかを選択して、重複排除スケジュールを変更できます。
+重複排除を手動で実行するか、自動で実行するか、指定したスケジュールで実行するかを選択することで、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して重複排除スケジュールを変更できます。
 
 .手順
 . [* ストレージ *>* ボリューム *] をクリックします。

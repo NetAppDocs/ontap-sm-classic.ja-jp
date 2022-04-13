@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, mirror, relationship, source, lvm, system, manager, online, help 
 summary: System Manager を使用して、ミラー関係をソース Storage Virtual Machine （ SVM ）から作成し、ミラーポリシーとミラースケジュールを割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。 
 ---
-= ソース SVM からミラー関係を作成
+= System Manager ONTAP 9.7 以前を使用して、ソース SVM からミラー関係を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ミラー関係をソース Storage Virtual Machine （ SVM ）から作成し、ミラーポリシーとミラースケジュールを割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソース Storage Virtual Machine （ SVM ）からミラー関係を作成し、ミラーポリシーとミラースケジュールを割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。
 
 .作業を開始する前に
 * ソースクラスタとデスティネーションクラスタで SnapMirror ライセンスが有効になっている必要があります。

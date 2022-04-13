@@ -5,6 +5,7 @@ keywords: nfs, access, exist, svm, creating, create, data, lif, configuring, con
 summary: 既存の SVM への NFS アクセスを追加するには、データ LIF を作成し、必要に応じて NIS を設定し、ボリュームをプロビジョニングし、ボリュームをエクスポートして、エクスポートポリシーを設定します。 
 ---
 = 既存の SVM に NFS アクセスを追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, flexgroup, volume, system, volume, online, help
 summary: System Manager 9.6 以降では、既存の FlexGroup ボリュームのプロパティを編集できます。 
 ---
 = FlexGroup ボリュームを編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

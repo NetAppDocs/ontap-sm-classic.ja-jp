@@ -5,6 +5,7 @@ keywords: prepare, cluster, expansion, node-locked, license, verify, system, hea
 summary: クラスタを拡張する準備をするには、ノードロックライセンスを追加し、システムヘルスを確認し、クラスタの設定をバックアップし、 AutoSupport メッセージを生成する必要があります。 
 ---
 = クラスタを拡張する準備をします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

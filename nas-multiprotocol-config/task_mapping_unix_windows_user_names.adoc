@@ -5,6 +5,7 @@ keywords: windows, unix, user, acconut, map, user, access, file, permission, ntf
 summary: Windows と UNIX の両方のユーザアカウントが混在するサイトでは、 UNIX ファイル権限が設定されたファイルに Windows ユーザがアクセスしたり、 NTFS ファイル権限が設定されたファイルに UNIX ユーザがアクセスしたりできるように、ネームマッピングを使用して設定する必要があります。ネームマッピングは、暗黙的なマッピング、変換ルール、およびデフォルトユーザを任意に組み合わせて設定できます。 
 ---
 = UNIX と Windows のユーザ名をマッピング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

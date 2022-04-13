@@ -5,6 +5,7 @@ keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, 
 summary: System Manager を使用して、以前に解除したミラーとバックアップ関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。デスティネーションボリュームでデータを提供しながら、ソースを修理または交換したり、ソースを更新したり、システムの元の構成を再確立したりできます。 
 ---
 = ミラーとバックアップ関係を逆再同期しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, view, manage, delete, software, licenses, cluster, no
 summary: System Manager を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを表示、管理、削除できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用してライセンスを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

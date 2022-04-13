@@ -5,6 +5,7 @@ keywords: activating, activate, destination, volume, configure, data, access, na
 summary: デスティネーションボリュームをアクティブ化したら、データにアクセスできるようにそのボリュームを設定する必要があります。NAS クライアントと SAN ホストは、ソースボリュームが再アクティブ化されるまでの間、デスティネーションボリュームのデータにアクセスできます。 
 ---
 = データアクセス用のデスティネーションボリュームを設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

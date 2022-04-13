@@ -5,6 +5,7 @@ keywords: online, help, protection, policy, system, manager, create, edit, delet
 summary: System Manager を使用して、保護ポリシーを作成、編集、削除できます。 
 ---
 = 保護ポリシー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

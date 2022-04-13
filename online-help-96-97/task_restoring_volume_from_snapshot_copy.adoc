@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: restore, volume, snapshot, copy, system, manager, online, help 
 summary: System Manager を使用すると、以前に作成した Snapshot コピーに記録されている状態にボリュームをリストアして、失われた情報を取得できます。Snapshot コピーからボリュームをリストアすると、既存のボリューム構成は上書きされます。Snapshot コピーの作成後にボリューム内のデータに加えた変更はすべて失われます。 
 ---
-= Snapshot コピーからのボリュームのリストア
+= System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーからボリュームをリストアします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用すると、以前に作成した Snapshot コピーに記録されている状態にボリュームをリストアして、失われた情報を取得できます。Snapshot コピーからボリュームをリストアすると、既存のボリューム構成は上書きされます。Snapshot コピーの作成後にボリューム内のデータに加えた変更はすべて失われます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、以前に作成した Snapshot コピーに記録されている状態にボリュームをリストアして、失われた情報を取得できます。Snapshot コピーからボリュームをリストアすると、既存のボリューム構成は上書きされます。Snapshot コピーの作成後にボリューム内のデータに加えた変更はすべて失われます。
 
 .作業を開始する前に
 * システムに SnapRestore ライセンスがインストールされている必要があります。

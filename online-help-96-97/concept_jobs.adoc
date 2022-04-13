@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: jobs, system, manager, job, task, display, information, progress, asynchronous, volume, operation, copy, move, mirror, data, queue, cluster, administrator, online, help 
 summary: System Manager を使用して、ジョブ情報の表示やジョブの進捗状況の監視などのジョブタスクを管理できます。 
 ---
-= ジョブ
+= System Manager - ONTAP 9.7 以前を使用してジョブを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ジョブ情報の表示やジョブの進捗状況の監視などのジョブタスクを管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ジョブ情報の表示やジョブの進捗状況の監視などのジョブタスクを管理できます。
 
 
 

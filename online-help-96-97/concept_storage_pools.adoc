@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, storage, pools, ssd, flash, pool, aggregates, online, help, create, 
 summary: System Manager を使用してストレージプールを作成すると、 SSD を複数の Flash Pool アグリゲートで共有できるようになります。 
 ---
-= ストレージプール
+= System Manager - ONTAP 9.7 以前を使用してストレージプールを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用してストレージプールを作成すると、 SSD を複数の Flash Pool アグリゲートで共有できるようになります。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージプールを作成し、 SSD を複数の Flash Pool アグリゲートで共有できるようにすることができます。
 
 
 

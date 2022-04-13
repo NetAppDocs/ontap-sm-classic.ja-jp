@@ -5,6 +5,7 @@ keywords: install, controller, exist, cluster, installation, setup, instruction,
 summary: 既存のクラスタに追加するコントローラを設置する場合は、該当するセットアップガイドの最初の 3 つの手順に従う必要があります。 
 ---
 = コントローラを取り付けます
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

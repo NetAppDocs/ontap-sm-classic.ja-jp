@@ -5,6 +5,7 @@ keywords: expand, cluster, advance, privilege, backup, file, configuration, info
 summary: クラスタを拡張する前に、 advanced 権限でバックアップファイルを作成して、クラスタ構成の情報を保存し、必要に応じてノード構成を保存する必要があります。 
 ---
 = クラスタ構成をバックアップ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: install, controller, module, reuse, maintenance, mode, ha, state, hard
 summary: 新しく取り付けたコントローラモジュールが、新しいものではなく再利用されたものである場合は、メンテナンスモードに切り替えて、モジュールの HA の状態が HA に設定されていることを確認する必要があります。 
 ---
 = ハードウェアレベルの HA が有効になっていることを確認する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

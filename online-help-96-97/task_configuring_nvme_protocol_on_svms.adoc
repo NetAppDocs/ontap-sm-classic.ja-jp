@@ -5,6 +5,7 @@ keywords: configure, nvme, protocol, svm, system, manager, namespaces, online, h
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）に NVMe プロトコルを設定できます。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 SVM に NVMe プロトコルを設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: rulw, assign, storage, object, policy, group, svm, nested, online, hel
 summary: ストレージ QoS ポリシーグループにストレージオブジェクトを割り当てる際のルールを把握しておく必要があります。 
 ---
 = ポリシーグループへのストレージオブジェクトの割り当てに関するルール
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

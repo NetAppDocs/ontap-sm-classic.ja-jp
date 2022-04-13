@@ -5,6 +5,7 @@ keywords: configuration, update, system, manager, administration, detail, storag
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。 
 ---
 = System Manager を使用した構成の更新 - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, clone, nvme, namespace, nqn, online, help
 summary: System Manager では、ネームスペースをクローニングすることで同じ設定のネームスペースを簡単に作成できます。クローニングしたネームスペースは、別のホスト NQN にマッピングできます。 
 ---
 = NVMe ネームスペースをクローニングする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

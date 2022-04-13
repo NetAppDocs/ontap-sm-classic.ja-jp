@@ -5,6 +5,7 @@ keywords: linux, unified, host, utilities, sanlun, utility, netapp, lun, report,
 summary: Linux Unified Host Utilities ソフトウェアに、 sanlun ユーティリティというネットアップの LUN レポートツールが含まれています。このユーティリティを使用してストレージクラスタノードに関する情報を表示できます。 
 ---
 = Linux Unified Host Utilities をインストールし、 I/O パフォーマンスを最適化します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

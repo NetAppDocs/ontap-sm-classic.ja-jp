@@ -5,6 +5,7 @@ keywords: add, node, cluster, configure, autosupport, node, configuring, configu
 summary: クラスタにノードを追加したら、そのノードに AutoSupport を設定する必要があります。 
 ---
 = 新しいノードで AutoSupport を設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

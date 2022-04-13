@@ -5,6 +5,7 @@ keywords: mount, datastore, host, access, storage, provision, automatic, add, vm
 summary: データストアをマウントすると、ホストからストレージにアクセスできるようになります。でプロビジョニングしたデータストアは、自動的にホストまたはクラスタにマウントされます。ホストへのデータストアのマウントは、ホストを VMware 環境に追加したあとに必要になる場合があります。 
 ---
 = ホストにデータストアをマウントします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: online, help, kerberos, realm, service, system, manager, svm, edit, se
 summary: System Manager を使用して、 Kerberos Realm サービスを作成および管理できます。 
 ---
 = Kerberos Realm サービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

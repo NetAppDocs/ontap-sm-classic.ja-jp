@@ -5,6 +5,7 @@ keywords: storage, esx, iscsi, provision, volume, lun, virtual, machine, svm, vm
 summary: iSCSI を使用して ESXi ホストでストレージを利用できるようにするには、 Virtual Storage Console for VMware vSphere を使用して Storage Virtual Machine 上にボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。 
 ---
 = iSCSI の構成ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

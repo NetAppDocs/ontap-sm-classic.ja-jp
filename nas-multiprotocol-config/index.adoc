@@ -5,6 +5,7 @@ keywords: smb, cifs, nfs, access, volume, exist, storage, virtual, machine, svm
 summary: 新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスと NFS アクセスの両方を簡単に設定できます。 
 ---
 = SMB と NFS のマルチプロトコル構成の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

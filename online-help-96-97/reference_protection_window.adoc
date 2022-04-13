@@ -5,6 +5,7 @@ keywords: command, buttons, protection, window, relationship, vault, mirror, onl
 summary: 保護ウィンドウを使用して、ミラー関係、バックアップ関係、ミラーとバックアップ関係を作成および管理したり、それらの関係の詳細を表示したりできます。Protection ウィンドウには、負荷共有（ LS ）関係と移行データ保護（ TDP ）関係は表示されません。 
 ---
 = 保護ウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

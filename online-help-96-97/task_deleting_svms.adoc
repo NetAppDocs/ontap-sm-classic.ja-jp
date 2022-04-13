@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, delete, svm, online, help, storage, virtual, machine 
 summary: System Manager を使用して、不要になった Storage Virtual Machine （ SVM ）をストレージシステム構成から削除できます。 
 ---
-= SVM を削除します
+= System Manager - ONTAP 9.7 以前のバージョンを使用して SVM を削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、不要になった Storage Virtual Machine （ SVM ）をストレージシステム構成から削除できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージシステム構成から不要になった Storage Virtual Machine （ SVM ）を削除できます。
 
 次の作業を完了しておきます。
 

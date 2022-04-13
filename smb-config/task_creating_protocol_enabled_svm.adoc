@@ -5,6 +5,7 @@ keywords: cifs-enabled, svm, involve, cifs, volume, share, add, map, dns, server
 summary: CIFS 対応 SVM を新規にセットアップするには、新しい SVM を作成して CIFS ボリュームと共有を設定し、 DNS サーバでマッピングを追加し、 Windows 管理ホストからの CIFS アクセスを確認します。その後、 CIFS クライアントアクセスを設定することができます。 
 ---
 = CIFS 対応 SVM を新規に作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

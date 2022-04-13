@@ -5,6 +5,7 @@ keywords: edit, nvme, namespace, online, help, system, manager
 summary: System Manager では、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。 
 ---
 = NVMe ネームスペースを編集する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

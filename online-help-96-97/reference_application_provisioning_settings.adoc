@@ -5,6 +5,7 @@ keywords: application, provisioning, setting, microsoft, sql, database, applicat
 summary: データベース、サーバ、または仮想デスクトップの基本テンプレートまたは拡張テンプレートを設定する場合は、 System Manager で詳細を指定する必要があります。アプリケーションのプロビジョニングが完了したら、詳細を編集し、サイズ変更（拡張のみ）を指定できます。このセクションでは、各テンプレートのフィールドについて説明します。特定のアプリケーションのプロビジョニングまたは設定の編集に必要なフィールドのみが表示されます。 
 ---
 = System Manager のアプリケーションプロビジョニング設定 - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

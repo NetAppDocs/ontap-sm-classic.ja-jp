@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, oracle, sql, lun, application, specific, online, help 
 summary: System Manager では、 AFF クラスタで FC SAN 向けに最適化された LUN を作成する際、 Oracle や SQL などのアプリケーションがサポートされます。LUN サイズなどの LUN 設定は、各アプリケーションに固有なルールに従って決まります。SQL および Oracle の場合、 LUN 設定は自動的に作成されます。 
 ---
-= アプリケーション固有の LUN 設定
+= System Manager - ONTAP 9.7 以前でのアプリケーション固有の LUN 設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager では、 AFF クラスタで FC SAN 向けに最適化された LUN を作成する際、 Oracle や SQL などのアプリケーションがサポートされます。LUN サイズなどの LUN 設定は、各アプリケーションに固有なルールに従って決まります。SQL および Oracle の場合、 LUN 設定は自動的に作成されます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 AFF クラスタで FC SAN 向けに最適化された LUN を作成する際に、 Oracle や SQL などのアプリケーションがサポートされます。LUN サイズなどの LUN 設定は、各アプリケーションに固有なルールに従って決まります。SQL および Oracle の場合、 LUN 設定は自動的に作成されます。
 
 クラスタに複数のノードがある場合、 System Manager は API で選択された最初の 2 つのノードだけを使用して LUN を作成します。2 つのノードにはそれぞれデータアグリゲートがすでに作成されています。アグリゲートの使用可能容量と同じサイズのボリュームがそれぞれ作成されます。ボリュームはシンプロビジョニングされ、 LUN のスペースリザベーションは無効になっています。
 

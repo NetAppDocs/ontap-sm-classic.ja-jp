@@ -5,6 +5,7 @@ keywords: name, mapping, system, manager, specify, user, platform, online, help,
 summary: System Manager を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。 
 ---
 = ネームマッピング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

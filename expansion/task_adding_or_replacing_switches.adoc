@@ -5,6 +5,7 @@ keywords: expand, cluster, ensure, configuration, switch, exist, port, add, repl
 summary: クラスタを拡張する前に、拡張後の構成がクラスタスイッチでサポートされることを確認する必要があります。スイッチレスクラスタの場合は、スイッチを追加する必要があります。 
 ---
 = スイッチを追加または交換します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

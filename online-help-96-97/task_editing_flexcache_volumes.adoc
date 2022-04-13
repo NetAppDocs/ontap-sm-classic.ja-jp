@@ -5,6 +5,7 @@ keywords: online, help, edit, flexcache, vaolume, system, manager
 summary: System Manager 9.6 以降では、既存の FlexCache ボリュームのプロパティを編集できます。 
 ---
 = FlexCache ボリュームを編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

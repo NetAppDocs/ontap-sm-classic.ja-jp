@@ -5,6 +5,7 @@ keywords: rename, local, windows, user, system, manager, online, help
 summary: System Manager を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。 
 ---
 = Windows ローカルユーザの名前変更
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

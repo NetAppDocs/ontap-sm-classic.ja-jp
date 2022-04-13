@@ -5,6 +5,7 @@ keywords: perform, unplanned, switchover, system, manager, metrocluster, site, o
 summary: System Manager 9.6 以降では、 MetroCluster サイトの計画外スイッチオーバーを開始できます。この処理は、システム停止や災害が発生した場合に役立ちます。 
 ---
 = 計画外スイッチオーバーの実行
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

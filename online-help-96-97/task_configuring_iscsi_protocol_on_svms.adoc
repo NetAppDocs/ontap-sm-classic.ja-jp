@@ -5,6 +5,7 @@ keywords: system, manager, iscsi, protocol, svm, online, help, lif, portset
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）に iSCSI プロトコルを設定して、ブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 SVM に iSCSI プロトコルを設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

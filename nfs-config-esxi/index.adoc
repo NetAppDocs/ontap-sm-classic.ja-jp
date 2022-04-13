@@ -5,6 +5,7 @@ keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, ove
 summary: ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 ESXi ホストから ONTAP ボリュームを使用するデータストアへの NFS アクセスを簡単に設定できます。 
 ---
 = VSC を使用した ESXi 向けの NFS の設定の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

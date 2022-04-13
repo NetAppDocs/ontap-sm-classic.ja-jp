@@ -5,6 +5,7 @@ keywords: cluster, feature, node-locked, license, entitle, functionality, add, a
 summary: クラスタにノードロックライセンスを使用する機能がある場合は、新しいノード用にノードロックライセンスがインストールされていることを確認する必要があります。 
 ---
 = ノードロックライセンスを追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

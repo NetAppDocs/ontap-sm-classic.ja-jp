@@ -5,6 +5,7 @@ keywords: delete, flexcache, volume, system, manager, online, help
 summary: System Manager 9.6 以降では、不要になった FlexCache を削除できます。 
 ---
 = FlexCache ボリュームを削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

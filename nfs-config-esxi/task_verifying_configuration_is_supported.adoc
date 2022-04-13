@@ -5,6 +5,7 @@ keywords: reliable, operation, verify, configuration, support, nfs, verify that 
 summary: 安定した運用を実現するために、構成全体がサポートされることを確認する必要があります。に、 NFS と Virtual Storage Console でサポートされる構成を示します。 
 ---
 = 構成がサポートされていることを確認します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

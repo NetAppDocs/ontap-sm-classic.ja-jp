@@ -5,6 +5,7 @@ keywords: update, singe, node, cluster, system, manager, online, help
 summary: System Manager を使用して、シングルノードクラスタを更新できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用してシングルノードクラスタを更新します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

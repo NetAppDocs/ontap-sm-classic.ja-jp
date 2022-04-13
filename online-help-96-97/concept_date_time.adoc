@@ -5,6 +5,7 @@ keywords: date, time, settings, cluster, system, manager, online, help
 summary: System Manager を使用して、クラスタの日付と時刻の設定を管理できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、クラスタの日時設定を管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

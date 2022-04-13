@@ -5,6 +5,7 @@ keywords: edit, local, window, user, properties, system, manager, online, help
 summary: System Manager を使用して、 Windows ローカルユーザアカウントを編集し、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。 
 ---
 = Windows ローカルユーザのプロパティを編集する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

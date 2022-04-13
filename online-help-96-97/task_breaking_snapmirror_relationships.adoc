@@ -5,6 +5,7 @@ keywords: snapmirror, break, relationship, dp, rw, online, help
 summary: SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。 
 ---
 = SnapMirror 関係を解除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

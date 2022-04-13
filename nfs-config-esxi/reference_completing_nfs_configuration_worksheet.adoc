@@ -5,6 +5,7 @@ keywords: network, address, storage, configuration, information, perform, nfs, c
 summary: NFS クライアントの設定タスクを実行するには、ネットワークアドレスおよびストレージ構成情報が必要です。 
 ---
 = NFS クライアント設定ワークシートに記入
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

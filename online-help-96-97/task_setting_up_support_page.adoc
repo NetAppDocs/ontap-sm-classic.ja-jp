@@ -5,6 +5,7 @@ keywords: set, up, support, page, cluster, setup, online, help
 summary: クラスタセットアップの最後のステップはサポートページのセットアップです。このステップでは、イベント通知を設定し、シングルノードクラスタの場合はシステムバックアップも設定します。 
 ---
 = System Manager - ONTAP 9.7 以前のサポートページをセットアップします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

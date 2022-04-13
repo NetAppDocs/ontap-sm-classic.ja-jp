@@ -5,6 +5,7 @@ keywords: online, help, assign, group, membership, user, account, online, help, 
 summary: System Manager を使用してユーザアカウントにグループメンバーシップを割り当てることで、特定のグループに関連付けられている権限をユーザに付与することができます。 
 ---
 = ユーザアカウントへのグループメンバーシップの割り当て
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

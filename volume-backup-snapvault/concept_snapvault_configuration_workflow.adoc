@@ -5,6 +5,7 @@ keywords: configuring, configure, snapvault, backup, relationship, verify, clust
 summary: SnapVault バックアップ関係の設定では、クラスタピア関係を確認し、ソースボリュームとデスティネーションボリュームの間に SnapVault 関係を作成し、 SnapVault 関係を監視します。 
 ---
 = SnapVault バックアップの設定ワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

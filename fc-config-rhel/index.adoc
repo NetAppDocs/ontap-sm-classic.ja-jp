@@ -6,6 +6,7 @@ summary: Storage Virtual Machine に FC サービスをセットアップし、 
 ---
 = Red Hat Enterprise Linux 向けの FC の設定の概要
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

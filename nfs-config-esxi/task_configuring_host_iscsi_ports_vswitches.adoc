@@ -5,6 +5,7 @@ keywords: esxi, host, network, port, nfs, connection, storage, cluster, configur
 summary: ESXi ホストには、ストレージクラスタへの NFS 接続用のネットワークポートが必要です。 
 ---
 = ホストポートと vSwitch を設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

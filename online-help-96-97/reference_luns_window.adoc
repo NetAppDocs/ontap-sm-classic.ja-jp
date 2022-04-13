@@ -5,6 +5,7 @@ keywords: online, help, lun, management, window, command, button, initiator, por
 summary: LUN ウィンドウを使用して、 LUN の作成と管理、および LUN に関する情報の表示を行うことができます。イニシエータグループやイニシエータ ID を追加、編集、削除することもできます。 
 ---
 = LUN ウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

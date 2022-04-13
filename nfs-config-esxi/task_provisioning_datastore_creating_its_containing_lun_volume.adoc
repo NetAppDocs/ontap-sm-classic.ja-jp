@@ -5,6 +5,7 @@ keywords: datastore, virtual, machine, vmdk, esxi, host, provision, storage, clu
 summary: データストアには、 ESXi ホストの仮想マシンとその VMDK が格納されます。ESXi ホストのデータストアは、ストレージクラスタのボリュームにプロビジョニングします。 
 ---
 = データストアをプロビジョニングしてその格納先ボリュームを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

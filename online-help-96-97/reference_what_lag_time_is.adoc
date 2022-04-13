@@ -5,6 +5,7 @@ keywords: lag, time, online, help, system, logs
 summary: 遅延時間は、ソースシステムよりデスティネーションシステムが遅延している時間の長さです。 
 ---
 = 遅延時間とは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

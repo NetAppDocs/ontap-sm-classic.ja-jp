@@ -5,6 +5,7 @@ keywords: metrocluster, perform, switchback, system, manager, online, help
 summary: System Manager 9.6 以降では、スイッチオーバー処理の完了後にスイッチバック処理を実行して、元の MetroCluster サイト（サイト B ）に制御を戻すことができます。 
 ---
 = スイッチバックを実行しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

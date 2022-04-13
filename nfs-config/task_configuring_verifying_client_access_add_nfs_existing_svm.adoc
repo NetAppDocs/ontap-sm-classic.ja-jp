@@ -5,6 +5,7 @@ keywords: 'client, access, share, unix, file, permission, administration, host, 
 summary: 準備ができたら、 UNIX 管理ホストで UNIX ファイル権限を設定し、 System Manager でエクスポートルールを追加して、選択したクライアントに共有へのアクセスを許可することができます。設定が完了したら、該当するユーザまたはグループがボリュームにアクセスできることを確認してください。 
 ---
 = NFS クライアントアクセスを設定して確認（既存の SVM への NFS アクセスを設定）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

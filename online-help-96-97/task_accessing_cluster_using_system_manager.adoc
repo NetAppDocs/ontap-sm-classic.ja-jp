@@ -5,6 +5,7 @@ keywords: access, clister, ontap, system, manager, graphic, interface, lif, node
 summary: コマンドラインインターフェイスではなくグラフィカルインターフェイスを使用してクラスタにアクセスして管理するには、 ONTAP System Manager を使用します。 System Manager は ONTAP に搭載されている Web サービスでデフォルトで有効になっており、ブラウザを使用してアクセスできます。 
 ---
 = System Manager - ONTAP 9.7 以前のブラウザベースのグラフィカルインターフェイスを使用してクラスタにアクセスします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

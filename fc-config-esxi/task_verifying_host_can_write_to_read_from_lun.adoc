@@ -5,6 +5,7 @@ keywords: lun, verify, write, data, verify that the host can write to and read f
 summary: LUN を使用する前に、ホストが LUN のデータを読み取りおよび書き込みできることを確認する必要があります。 
 ---
 = ホストが LUN に対して読み取りと書き込みを実行できることを確認します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

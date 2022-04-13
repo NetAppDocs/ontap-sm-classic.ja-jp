@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: mirror, aggregate, system, manager, data, lun, array, online, help 
 summary: System Manager を使用して単一のアグリゲート内のデータをリアルタイムでミラーすることで、データを保護し、耐障害性を高めることができます。アグリゲートをミラーすると、ディスクおよびアレイ LUN への接続における単一点障害が排除されます。 
 ---
-= アグリゲートのミラーリング
+= System Manager ONTAP 9.7 以前を使用してアグリゲートをミラーリングします
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して単一のアグリゲート内のデータをリアルタイムでミラーすることで、データを保護し、耐障害性を高めることができます。アグリゲートをミラーすると、ディスクおよびアレイ LUN への接続における単一点障害が排除されます。
+ONTAP System Manager 従来型（ ONTAP 9.7 以前で利用可能）を使用すると、単一のアグリゲート内でデータをリアルタイムでミラーリングすることで、データを保護し、耐障害性を高めることができます。アグリゲートをミラーすると、ディスクおよびアレイ LUN への接続における単一点障害が排除されます。
 
 アグリゲートをミラーリングするには、他のプールに十分な空きディスクが必要です。
 

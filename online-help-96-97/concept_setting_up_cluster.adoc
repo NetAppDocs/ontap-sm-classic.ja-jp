@@ -5,6 +5,7 @@ keywords: online, help, cluster, configuration, information, ha, pair, node, man
 summary: クラスタのセットアップでは、設定情報を収集し、クラスタ管理インターフェイスとノード管理インターフェイスを作成し、ライセンスの追加、クラスタ時間の設定、 HA ペアの監視を行います。 
 ---
 = クラスタをセットアップする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

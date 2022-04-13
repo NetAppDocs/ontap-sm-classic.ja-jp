@@ -5,6 +5,7 @@ keywords: multipath, device, verify, host, data, verify that the host can write 
 summary: マルチパスデバイスを使用する前に、ホストがマルチパスデバイスのデータを読み取りおよび書き込みできることを確認する必要があります。 
 ---
 = ホストによるマルチパスデバイスに対する読み取りと書き込みを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

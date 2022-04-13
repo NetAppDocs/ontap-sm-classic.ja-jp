@@ -5,6 +5,7 @@ keywords: identify, snapvault, backup, destination, volume, restore, data, sourc
 summary: ソースボリュームのデータが破損した場合や失われた場合にデータをリストアする SnapVault バックアップデスティネーションボリュームを特定する必要があります。 
 ---
 = SnapVault バックアップのデスティネーションボリュームを特定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

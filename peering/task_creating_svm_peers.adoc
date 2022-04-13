@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, peer, enable, establish, relationship,
 summary: ONTAP 9.3 以降では、 ONTAP 9.7 まで ONTAP System Manager の「クラシック」インターフェイスを使用して SVM ピア関係を作成できます。Storage Virtual Machine （ SVM ）ピアリングでは、データ保護のために 2 つの SVM 間のピア関係を確立できます。 
 ---
 = SVM ピア関係を作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

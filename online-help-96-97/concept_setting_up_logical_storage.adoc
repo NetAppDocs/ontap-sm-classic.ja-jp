@@ -5,6 +5,7 @@ keywords: online, help, set, up, logical, storage, svm, volume
 summary: 論理ストレージのセットアップでは、 Storage Virtual Machine （ SVM ）とボリュームを作成します。 
 ---
 = System Manager classic - ONTAP 9.7 以前を使用して論理ストレージをセットアップします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

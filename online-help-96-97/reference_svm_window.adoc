@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, window, svm, online, help, command, button, peer 
 summary: Storage Virtual Machines （ SVM ）ウィンドウを使用して、 Storage Virtual Machine （ SVM ）を管理したりその情報を表示したりできます。 
 ---
-= Storage Virtual Machine ウィンドウ
+= ONTAP 9.7 以前の場合は、 System Manager の Storage Virtual Machine ウィンドウが開きます
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machines （ SVM ）ウィンドウを使用して、 Storage Virtual Machine （ SVM ）を管理したりその情報を表示したりできます。
+Storage Virtual Machine （ SVM ）を管理して、 Storage Virtual Machine に関する情報を表示するには、 ONTAP System Manger クラシック（ ONTAP 9.7 以前で使用可能）の Storage Virtual Machines ウィンドウを使用します。
 
 ディザスタリカバリ（ DR ）用に設定された SVM は、 System Manager で管理（作成、削除、開始、または停止）できません。また、ディザスタリカバリ用に設定された SVM に関連付けられたストレージオブジェクトも、アプリケーションインターフェイスで表示できません。
 

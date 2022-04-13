@@ -5,6 +5,7 @@ keywords: system, manager, edit, node, name, online, help
 summary: System Manager を使用して、必要に応じてノードの名前を変更することができます。 
 ---
 = ノード名を編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

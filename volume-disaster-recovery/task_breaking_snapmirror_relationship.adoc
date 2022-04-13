@@ -5,6 +5,7 @@ keywords: quiesce, break, snapmirror, relationship, activate, destination, volum
 summary: デスティネーションボリュームをアクティブ化するには、 SnapMirror 関係を休止して解除する必要があります。休止した時点で、以降の SnapMirror データ転送は無効になります。 
 ---
 = SnapMirror 関係を解除
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

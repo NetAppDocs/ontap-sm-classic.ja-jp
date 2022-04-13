@@ -5,6 +5,7 @@ keywords: system, manager, create, manage, broadcast, domain, online, help, edit
 summary: System Manager を使用して、ブロードキャストドメインを作成および管理できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用してブロードキャストドメインを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

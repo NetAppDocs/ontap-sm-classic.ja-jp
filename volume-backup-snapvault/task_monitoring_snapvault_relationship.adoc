@@ -5,6 +5,7 @@ keywords: periodically, monitor, status, snapvault, relationship, ensure, data, 
 summary: SnapVault 関係のステータスを定期的に監視して、デスティネーションボリュームへのデータのバックアップが指定したスケジュールに従って実行されていることを確認する必要があります。 
 ---
 = SnapVault 関係を監視
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

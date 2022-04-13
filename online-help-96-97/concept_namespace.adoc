@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: junction, path, window, system, manager, mount, unmount, flexvol, volume, svm, namespace, online, help, policies, export 
 summary: System Manager のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。 
 ---
-= ジャンクションパス
+= System Manager のジャンクションパスウィンドウ - ONTAP 9.7 以前
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）のジャンクションパスウィンドウを使用して、 FlexVol ボリュームを SVM ネームスペースのジャンクションにマウントまたはアンマウントできます。
 
 
 

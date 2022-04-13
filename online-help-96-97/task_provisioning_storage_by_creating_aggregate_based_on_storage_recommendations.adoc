@@ -1,36 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html 
-sidebar: sidebar 
-keywords: provision, storage, create, aggregate, recommendation, system, manager, online, help 
-summary: System Manager を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。 
+redirect: ontap-sm-classic/online-help-96-97/task_provisioning_storage_through_aggregates.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用して、ストレージの推奨事項に基づいてアグリゲートを作成します
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
-
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。
-
-.このタスクについて
-* Cloud Volumes ONTAP 、 ONTAP Select 、 MetroCluster の各構成では、ストレージに関する推奨事項に基づいてアグリゲートを作成することはできません。
-* エラーがある場合は画面に表示されます。
-+
-エラーを修正してストレージの推奨事項に基づいてアグリゲートを作成するか、アグリゲートを手動で作成することができます。
-
-
-
-.手順
-. 次のいずれかの方法を使用してアグリゲートを作成します。
-+
-** [ * アプリケーションと階層 * > * ストレージ階層 * > * アグリゲートの追加 * ] をクリックします。
-** [ * ストレージ * > * アグリゲートとディスク * > * アグリゲート * > * 作成 * ] をクリックします。
-
-
-. ストレージの推奨事項を確認し、 * Submit * をクリックします。
-+
-情報ダイアログボックスにアグリゲートのステータスが表示されます。
-
-. Run in Background * （バックグラウンドで実行）をクリックして、 * Aggregates * ウィンドウに移動します。
-. 更新 * をクリックすると、作成されたアグリゲートが表示されます。
 

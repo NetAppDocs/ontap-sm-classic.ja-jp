@@ -5,6 +5,7 @@ keywords: content, destination, activate, volume, disaster, reactivate, source, 
 summary: ONTAP System Manager クラシックインターフェイス（ ONTAP 9.7 以前）を使用して、災害発生後にデスティネーションボリュームを簡単にアクティブ化し、 ONTAP でソースボリュームを再アクティブ化できます。 
 ---
 = ボリュームディザスタリカバリの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

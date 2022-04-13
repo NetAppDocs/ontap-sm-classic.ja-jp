@@ -5,6 +5,7 @@ keywords: fc, host, bus, adapter, hba, esx, support, driver, firmware, bio, upda
 summary: ESX ホストの FC ホストバスアダプタでサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。 
 ---
 = HBA のドライバ、ファームウェア、 BIOS を更新
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

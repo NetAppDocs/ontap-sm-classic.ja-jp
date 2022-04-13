@@ -5,6 +5,7 @@ keywords: set, up, volume, disaster, recovery, verify, source, destination, clus
 summary: ディザスタリカバリの設定を開始する前に、ソースクラスタとデスティネーションクラスタがピアとして設定され、ピア関係を通じて相互に通信していることを確認する必要があります。 
 ---
 = クラスタピア関係と SVM ピア関係を確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

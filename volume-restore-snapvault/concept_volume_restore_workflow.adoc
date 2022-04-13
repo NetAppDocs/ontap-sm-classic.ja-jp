@@ -5,6 +5,7 @@ keywords: source, volume, data, corrupt, restore, snapvault, backup, destination
 summary: ソースボリュームを使用できない場合やデータが破損した場合は、 SnapVault バックアップからリストアできます。SnapVault バックアップからボリュームをリストアするときは、 SnapVault デスティネーションボリュームを選択し、新しいボリュームまたは既存のボリュームにリストアして、リストア処理を確認します。 
 ---
 = ボリュームリストアのワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

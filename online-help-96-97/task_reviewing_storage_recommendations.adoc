@@ -5,6 +5,7 @@ keywords: review, storage, recommendation, window, online, help, create, aggrega
 summary: ストレージウィンドウでは、アグリゲートの作成に関するストレージの推奨事項を確認できます。 
 ---
 = System Manager - ONTAP 9.7 以前でストレージの推奨事項を確認します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: assign, volumes, storage, qos, online, help, flexgroup, online, help, quality, serice 
 summary: FlexVol ボリュームと FlexGroup ボリュームをストレージ QoS ポリシーグループに割り当てることで、それらのボリュームのスループットを制限することができます。System Manager を使用して、新しいボリュームに対するストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられているボリュームに対するストレージ QoS の詳細を変更したりできます。 
 ---
-= ストレージ QoS にボリュームを割り当てます
+= System Manager - ONTAP 9.7 以前を使用して、ストレージ QoS にボリュームを割り当てます
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FlexVol ボリュームと FlexGroup ボリュームをストレージ QoS ポリシーグループに割り当てることで、それらのボリュームのスループットを制限することができます。System Manager を使用して、新しいボリュームに対するストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられているボリュームに対するストレージ QoS の詳細を変更したりできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexVol ボリュームと FlexGroup ボリュームをストレージ QoS ポリシーグループに割り当てることで、それらのボリュームのスループットを制限できます。System Manager を使用して、新しいボリュームに対するストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられているボリュームに対するストレージ QoS の詳細を変更したりできます。
 
 .このタスクについて
 * ストレージ QoS を割り当てることができるのは、オンラインの読み書き可能（ rw ）ボリュームだけです。

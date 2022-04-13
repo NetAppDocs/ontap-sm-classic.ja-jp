@@ -5,6 +5,7 @@ keywords: storage, virutal, machine, svm, fc, target, host, access, lun, logical
 summary: Storage Virtual Machine は、ホストから LUN にアクセスする際の FC ターゲットを提供します。 
 ---
 = 新しい SVM を作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, initiator, online, help, group, dialog, system, manager
 summary: System Manager のイニシエータグループの編集ダイアログボックスを使用して、イニシエータグループの既存のイニシエータの名前を変更できます。 
 ---
 = イニシエータを編集中
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

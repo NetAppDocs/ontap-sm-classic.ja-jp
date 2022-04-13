@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, network, interface, create, manage, online, help, create, lif, intercluster, svm, migrate, data 
 summary: System Manager を使用して、ネットワークインターフェイスを作成および管理できます。 
 ---
-= ネットワークインターフェイス
+= System Manager - ONTAP 9.7 以前を使用してネットワークインターフェイスを管理します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ネットワークインターフェイスを作成および管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネットワークインターフェイスを作成および管理できます。
 
 
 

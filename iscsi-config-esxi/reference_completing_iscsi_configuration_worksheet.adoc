@@ -5,6 +5,7 @@ keywords: network, address, storage, configuration, information, perform, iscsi,
 summary: iSCSI の設定タスクを実行するには、ネットワークアドレスおよびストレージ構成情報が必要です。 
 ---
 = iSCSI 構成ワークシートへの記入
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

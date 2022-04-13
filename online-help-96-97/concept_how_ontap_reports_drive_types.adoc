@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: ontap, report, disk, type, industry, standards, sas, fc, storage, array, online, help 
 summary: ONTAP では、各ディスクにディスクタイプが関連付けられます。ONTAP では、一部のディスクタイプについて業界標準とは違う名称を使用します。 ONTAP のディスクタイプと業界標準のディスクタイプとの対応を確認し、混乱しないようにしてください。 
 ---
-= ONTAP で使用されるディスクタイプ名
+= System Manager - ONTAP 9.7 以前のバージョンで ONTAP からディスクタイプが報告される仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP では、各ディスクにディスクタイプが関連付けられます。ONTAP では、一部のディスクタイプについて業界標準とは違う名称を使用します。 ONTAP のディスクタイプと業界標準のディスクタイプとの対応を確認し、混乱しないようにしてください。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、各ディスクにディスクタイプが関連付けられます。ONTAP では、一部のディスクタイプについて業界標準とは違う名称を使用します。 ONTAP のディスクタイプと業界標準のディスクタイプとの対応を確認し、混乱しないようにしてください。
 
 ONTAP のマニュアルでは、特に指定がないかぎり、ディスクタイプとは ONTAP で使用するディスクタイプを指します。_RAID ディスクタイプ _ は、特定のディスクが RAID で果たす役割を表します。ONTAP ディスクタイプとは関係ありません。
 

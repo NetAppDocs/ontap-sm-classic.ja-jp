@@ -5,6 +5,7 @@ keywords: snapshot, manager, system, create, manage, policy, storage, online, he
 summary: System Manager を使用して、ストレージシステムの Snapshot ポリシーを作成および管理できます。 
 ---
 = Snapshot ポリシー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

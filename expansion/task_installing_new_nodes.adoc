@@ -5,6 +5,7 @@ keywords: cluster, install, controller, configure, node-management, run, ontap, 
 summary: クラスタの準備が完了したら、コントローラを設置し、ノード管理 LIF を設定する必要があります。 
 ---
 = 新しいノードをインストール
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

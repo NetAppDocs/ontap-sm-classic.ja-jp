@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: edit, volume, properties, online, help, deduplication, system, manager 
 summary: System Manager を使用して、ボリューム名、セキュリティ形式、フラクショナルリザーブ、およびスペースギャランティなどのボリュームプロパティを変更できます。また、 Storage Efficiency の設定（重複排除スケジュール、重複排除ポリシー、圧縮）、およびスペース再生利用の設定も変更できます。 
 ---
-= ボリュームプロパティを編集しています
+= System Manager - ONTAP 9.7 以前を使用してボリュームのプロパティを編集します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ボリューム名、セキュリティ形式、フラクショナルリザーブ、およびスペースギャランティなどのボリュームプロパティを変更できます。また、 Storage Efficiency の設定（重複排除スケジュール、重複排除ポリシー、圧縮）、およびスペース再生利用の設定も変更できます。
+System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリューム名、セキュリティ形式、フラクショナルリザーブ、およびスペースギャランティなどのボリュームプロパティを変更できます。また、 Storage Efficiency の設定（重複排除スケジュール、重複排除ポリシー、圧縮）、およびスペース再生利用の設定も変更できます。
 
 ボリューム暗号化を有効にするには、 System Manager を使用してボリューム暗号化ライセンスをインストールし、コマンドラインインターフェイス（ CLI ）を使用して「 key-manager setup 」を有効にしておく必要があります。「 key-manager setup 」を有効にした後、 Web ブラウザを更新する必要があります。
 

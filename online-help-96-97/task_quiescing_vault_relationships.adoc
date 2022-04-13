@@ -5,6 +5,7 @@ keywords: system, manager, online, help, quiescing, vault, relationship, data, t
 summary: System Manager を使用して、バックアップ関係を休止することでデスティネーション FlexVol へのデータ転送を無効にすることができます。 
 ---
 = バックアップ関係を休止しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

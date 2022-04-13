@@ -5,6 +5,7 @@ keywords: cluster, configure, san, lif, add, update, path, lun, node, update lun
 summary: クラスタが SAN 用に構成されている場合は、新しく追加したノードに SAN LIF を作成し、パスを更新する必要があります。 
 ---
 = 新しいノードの LUN パスを更新します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

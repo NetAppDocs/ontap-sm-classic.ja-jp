@@ -5,6 +5,7 @@ keywords: system, manager, view, cifs, domain, information, online, help
 summary: System Manager を使用して、ストレージシステムに接続されているドメインコントローラとサーバに関する情報を表示できます。 
 ---
 = CIFS ドメイン情報の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

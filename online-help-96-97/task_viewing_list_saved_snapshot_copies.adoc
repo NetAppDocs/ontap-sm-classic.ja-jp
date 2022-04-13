@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: view, list, saved, snapshot, copy, system, manager, online, help 
 summary: System Manager を使用すると、選択したボリュームについて保存されているすべての Snapshot コピーのリストを、ボリュームウィンドウの下部ペインにある Snapshot コピータブで確認できます。このリストを使用して、 Snapshot コピーの名前変更、リストア、または削除を実行できます。 
 ---
-= 保存された Snapshot コピーのリストを表示しています
+= System Manager - ONTAP 9.7 以前を使用して、保存された Snapshot コピーのリストを表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用すると、選択したボリュームについて保存されているすべての Snapshot コピーのリストを、ボリュームウィンドウの下部ペインにある Snapshot コピータブで確認できます。このリストを使用して、 Snapshot コピーの名前変更、リストア、または削除を実行できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、選択したボリュームについて保存されているすべての Snapshot コピーのリストを、ボリュームウィンドウの下部ペインにある Snapshot コピータブで確認できます。このリストを使用して、 Snapshot コピーの名前変更、リストア、または削除を実行できます。
 
 ボリュームはオンラインである必要があります。
 

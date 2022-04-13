@@ -5,6 +5,7 @@ keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, sy
 summary: ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。 
 ---
 = System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

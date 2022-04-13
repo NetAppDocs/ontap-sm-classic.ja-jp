@@ -5,6 +5,7 @@ keywords: system, manager, storage, tiers, aggregates, security, requirements, b
 summary: System Manager を使用して、セキュリティ、バックアップ、パフォーマンス、およびデータ共有に関するさまざまな要件に対応するアグリゲートを作成できます。 
 ---
 = ストレージ階層
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

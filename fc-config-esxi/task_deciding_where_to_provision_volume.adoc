@@ -5,6 +5,7 @@ keywords: provision, volume, contain, lun, exist, storage, virtual, machine, svm
 summary: LUN を格納するボリュームをプロビジョニングする前に、そのボリュームを既存の Storage Virtual Machine に追加するか、そのボリューム用に新しい SVM を作成するかを決める必要があります。既存の SVM に追加する場合は、 FC の設定も必要になる可能性があります。 
 ---
 = ボリュームをプロビジョニングする場所を決定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

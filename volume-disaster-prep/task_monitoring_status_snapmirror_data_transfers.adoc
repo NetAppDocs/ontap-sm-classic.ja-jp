@@ -5,6 +5,7 @@ keywords: periodical, monitor, status, snapmirror, relationship, ensure, data, s
 summary: SnapMirror 関係のステータスを定期的に監視して、 SnapMirror データ転送が指定したスケジュールに従って実行されていることを確認する必要があります。 
 ---
 = SnapMirror データ転送のステータスを監視します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

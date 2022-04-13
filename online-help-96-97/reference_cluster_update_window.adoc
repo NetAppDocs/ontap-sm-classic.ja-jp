@@ -5,6 +5,7 @@ keywords: online, help, cluster, update, window, tab, update, command, button, h
 summary: クラスタの更新ウィンドウを使用すると、クラスタの自動更新を無停止で実行したり、シングルノードクラスタの停止を伴う更新を実行したりできます。 
 ---
 = System Manager - ONTAP 9.7 以前のバージョンでのクラスタの更新ウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, enable, storage, efficiency, volume, deduplication, online, help 
 summary: System Manager を使用して Storage Efficiency を有効にして、ボリュームで重複排除とデータ圧縮の両方を設定したり重複排除のみを設定したりして、ストレージスペースを節約できます。ボリュームの作成時に有効にしなかった場合は、あとからボリュームを編集して Storage Efficiency を有効にすることができます。 
 ---
-= ボリュームで Storage Efficiency を有効にします
+= System Manager - ONTAP 9.7 以前を使用して、ボリュームで Storage Efficiency を有効にします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して Storage Efficiency を有効にして、ボリュームで重複排除とデータ圧縮の両方を設定したり重複排除のみを設定したりして、ストレージスペースを節約できます。ボリュームの作成時に有効にしなかった場合は、あとからボリュームを編集して Storage Efficiency を有効にすることができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Storage Efficiency を有効にし、ボリュームで重複排除とデータ圧縮の両方を設定したり重複排除のみを設定したりして、ストレージスペースを節約できます。ボリュームの作成時に有効にしなかった場合は、あとからボリュームを編集して Storage Efficiency を有効にすることができます。
 
 .作業を開始する前に
 * ボリュームはオンラインである必要があります。

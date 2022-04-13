@@ -5,6 +5,7 @@ keywords: add, rule, default, export, policy, client, access, nfsv3, nfs, client
 summary: デフォルトのエクスポートポリシーにルールを追加して、すべてのクライアントに NFSv3 経由でのアクセスを許可する必要があります。このようなルールを追加しないと、 Storage Virtual Machine （ SVM ）とそのボリュームに対する NFS クライアントのアクセスがすべて拒否されます。 
 ---
 = SVM ルートボリュームのエクスポートポリシーを開く（既存の SVM への NFS アクセスの設定）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

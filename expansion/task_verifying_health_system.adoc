@@ -5,6 +5,7 @@ keywords: expand, cluster, verify, component, healthy, config, advisor, tool, ru
 summary: クラスタを拡張する前に、 Config Advisor ツールを実行し、複数の ONTAP CLI コマンドを実行して、クラスタのすべてのコンポーネントが正常であることを確認する必要があります。 
 ---
 = システムの健全性を確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

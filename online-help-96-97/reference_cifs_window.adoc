@@ -5,6 +5,7 @@ keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online
 summary: CIFS ウィンドウを使用して、 CIFS サーバの設定、ドメインコントローラの管理、 UNIX シンボリックマッピングの管理、 BranchCache の設定を行うことができます。 
 ---
 = CIFS ウィンドウ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

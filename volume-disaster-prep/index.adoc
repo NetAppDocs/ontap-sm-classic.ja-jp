@@ -5,6 +5,7 @@ keywords: content, protect, source, volume, peer, ontap, cluster, preparation, d
 summary: ディザスタリカバリに備えて、ピア関係にある ONTAP クラスタのソースボリュームを簡単に保護することができます。このコンテンツは、ボリュームのディザスタリカバリのためにピア関係にあるクラスタ間の SnapMirror 関係を設定および監視する場合にご利用ください。タスクの背景にある概念については、本書では詳しく説明していません。 
 ---
 = ボリュームのディザスタリカバリの準備の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

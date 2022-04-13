@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexvol, change, status, volume, online, help, system, manager 
 summary: ボリュームをオフラインにするとき、オンラインに戻すとき、またはボリュームへのアクセスを制限するときに、 System Manager を使用して、 FlexVol ボリュームのステータスを変更できます。 
 ---
-= ボリュームのステータスを変更する
+= System Manager - ONTAP 9.7 以前を使用してボリュームのステータスを変更します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ボリュームをオフラインにするとき、オンラインに戻すとき、またはボリュームへのアクセスを制限するときに、 System Manager を使用して、 FlexVol ボリュームのステータスを変更できます。
+ボリュームをオフラインにするとき、オンラインに戻すとき、またはボリュームへのアクセスを制限するときに、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexVol ボリュームのステータスを変更できます。
 
 .作業を開始する前に
 * ボリュームをボリュームコピー処理または SnapMirror レプリケーション処理のターゲットにする場合は、ボリュームを制限状態にする必要があります。

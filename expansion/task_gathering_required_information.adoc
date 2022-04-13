@@ -5,6 +5,7 @@ keywords: expand, cluster, network, information, require, configure, node-manage
 summary: クラスタを拡張する前に、あとで両方のノードのノード管理 LIF およびサービスプロセッサの IP アドレスを設定する際に必要となるネットワーク情報を入手する必要があります。 
 ---
 = 必要なネットワーク情報を収集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

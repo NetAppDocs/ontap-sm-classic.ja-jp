@@ -5,6 +5,7 @@ keywords: delete, vault, relationship, system, manager, online, help, snapshot, 
 summary: System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のバックアップ関係を終了し、ソースから Snapshot コピーを解放できます。 
 ---
 = バックアップ関係を削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

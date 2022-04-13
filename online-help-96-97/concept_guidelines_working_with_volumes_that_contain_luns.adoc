@@ -5,6 +5,7 @@ keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot,
 summary: LUN を含む FlexVol を操作する場合、 Snapshot コピーのデフォルト設定を変更する必要があります。LUN のレイアウトを最適化して管理を簡易化することもできます。 
 ---
 = LUN を含む FlexVol の操作に関するガイドライン
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

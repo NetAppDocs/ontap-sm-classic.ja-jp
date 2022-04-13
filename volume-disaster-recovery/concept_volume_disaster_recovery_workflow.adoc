@@ -5,6 +5,7 @@ keywords: volume, disaster recovery, workflow, activating, activate, destination
 summary: ボリュームのディザスタリカバリのワークフローには、デスティネーションボリュームのアクティブ化、データアクセスのためのデスティネーションボリュームの設定、および元のソースボリュームの再アクティブ化が含まれます。 
 ---
 = ボリュームディザスタリカバリのワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, create, node, management, logical, interface, online,
 summary: System Manager を使用して、クラスタ内の特定のノードを管理するための専用のノード管理論理インターフェイス（ LIF ）を作成できます。この LIF は、ノードのシステムメンテナンスを管理するために使用できます。 
 ---
 = ノード管理論理インターフェイスを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

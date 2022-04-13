@@ -5,6 +5,7 @@ keywords: system, manager, configure, snmp, svm, cluster, online, help, test, tr
 summary: System Manager を使用して、クラスタ内の SVM を監視するように SNMP を設定できます。 
 ---
 = ONTAP 9.7 以前の場合は、 System Manager で SNMP を設定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

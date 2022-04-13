@@ -5,6 +5,7 @@ keywords: storage, available, host, iscsi, provision, volume, lun, storage, virt
 summary: iSCSI を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。 
 ---
 = iSCSI の構成とプロビジョニングのワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

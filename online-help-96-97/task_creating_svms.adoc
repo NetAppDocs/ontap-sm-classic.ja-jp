@@ -5,6 +5,7 @@ keywords: create, svm, system, manager, cluster, online, help
 summary: System Manager を使用してすべての構成を設定して Storage Virtual Machine （ SVM ）を作成すると、その SVM ですぐにデータを提供することができます。クラスタには 1 つ以上の SVM を配置できます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して SVM を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

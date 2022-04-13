@@ -4,11 +4,12 @@ sidebar: sidebar
 keywords: node, system, manager, view, detail, cluster, online, help 
 summary: System Manager を使用して、クラスタ内のノードの詳細を表示できます。 
 ---
-= ノード
+= System Manager - ONTAP 9.7 以前を使用してノードを管理します
+:allow-uri-read: 
 
 
 [role="lead"]
-System Manager を使用して、クラスタ内のノードの詳細を表示できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内のノードの詳細を表示できます。
 
 
 

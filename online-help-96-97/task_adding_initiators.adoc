@@ -5,6 +5,7 @@ keywords: online, help, add, initiator, system, help, group, lun, online, help
 summary: System Manager を使用して、イニシエータグループにイニシエータを追加できます。所属先のイニシエータグループが LUN にマッピングされると、イニシエータはその LUN にアクセスできるようになります。 
 ---
 = イニシエータを追加する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

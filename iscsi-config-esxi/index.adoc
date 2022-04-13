@@ -5,6 +5,7 @@ keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, h
 summary: ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）を使用すると、 Storage Virtual Machine （ SVM ）に iSCSI サービスを簡単にセットアップし、 LUN をプロビジョニングし、 ESXi ホストコンピュータで iSCSI イニシエータを使用して LUN を使用できるようにすることができます。 
 ---
 = VSC を使用した ESXi 向けの iSCSI 設定の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

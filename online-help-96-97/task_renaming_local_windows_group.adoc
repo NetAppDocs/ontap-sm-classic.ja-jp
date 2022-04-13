@@ -5,6 +5,7 @@ keywords: rename, local, windows, group, system, manager, online, help
 summary: System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。 
 ---
 = Windows ローカルグループの名前変更
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

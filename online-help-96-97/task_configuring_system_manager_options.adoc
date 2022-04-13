@@ -5,6 +5,7 @@ keywords: system, manager, configure, system, manager, option, online, help
 summary: System Manager に対して、ロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。 
 ---
 = System Manager オプションを設定します（ ONTAP 9.7 以前）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

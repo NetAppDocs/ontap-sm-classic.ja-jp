@@ -5,6 +5,7 @@ keywords: content, restore, volume, snapvault, vault, backup, ontap, data, loss,
 summary: データが失われた場合に、 ONTAP の SnapVault バックアップからボリュームを迅速にリストアできます。 
 ---
 = SnapVault によるボリュームリストアの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

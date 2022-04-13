@@ -5,6 +5,7 @@ keywords: plug-in, software, library, integrate, vmware, virtual, disk, librarie
 summary: このプラグインは、 ESXi ホストにインストールされた VMware 仮想ディスクライブラリを統合するソフトウェアライブラリです。NFS Plug-in for VMware VAAI をダウンロードしてインストールすると、コピーオフロードやスペースリザベーションオプションを使用して、クローニング処理のパフォーマンスを向上させることができます。 
 ---
 = NFS Plug-in for VMware VAAI を導入します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: physical, storage, set, up, online, help, disk, node, spare, aggregate
 summary: 物理ストレージのセットアップでは、ノードにディスクを割り当て、スペアディスクを初期化し、アグリゲートを作成します。 
 ---
 = 物理ストレージをセットアップする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

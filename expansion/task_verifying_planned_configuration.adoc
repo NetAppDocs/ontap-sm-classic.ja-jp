@@ -5,6 +5,7 @@ keywords: expand, cluster, ensure, follow, plan, configuration, support, require
 summary: クラスタを拡張する前に、計画した構成がサポートされていること、必要なライセンスがあること、サイトが対応していること、クラスタスイッチが拡張をサポートしていること、既存のノードが同じバージョンの ONTAP 9 を使用していることを確認する必要があります。 
 ---
 = 計画した構成を確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

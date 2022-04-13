@@ -5,6 +5,7 @@ keywords: resynchronize, resynchronizing, data, destination, volume, source, act
 summary: デスティネーションボリュームからソースボリュームにデータを再同期したら、 SnapMirror 関係を解除してソースボリュームをアクティブ化する必要があります。その後、デスティネーションボリュームを再同期して、再アクティブ化したソースボリュームを保護します。 
 ---
 = ソースボリュームを再アクティブ化
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

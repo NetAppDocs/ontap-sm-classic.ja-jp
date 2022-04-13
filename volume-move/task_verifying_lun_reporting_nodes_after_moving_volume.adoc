@@ -5,6 +5,7 @@ keywords: volume, lun, destination, aggregate, high-availability, ha, pair, onta
 summary: LUN レポートノードを追加して、最適化された LUN パスを維持することができます。 
 ---
 = ボリュームの移動後に LUN レポートノードを確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

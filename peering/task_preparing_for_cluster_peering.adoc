@@ -5,6 +5,7 @@ keywords: create, creating, cluster, peer, relationship, verify, time, synchroni
 summary: ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用してクラスタピア関係を作成する前に、各クラスタの時刻が外部 Network Time Protocol （ NTP ；ネットワークタイムプロトコル）サーバと同期されていることを確認し、使用するサブネット、ポート、およびパスフレーズを特定する必要があります。 
 ---
 = クラスタピアリングを準備
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

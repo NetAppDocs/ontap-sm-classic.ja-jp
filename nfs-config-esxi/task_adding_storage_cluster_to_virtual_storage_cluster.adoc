@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, host, datacenter, cluster, add, enable, st
 summary: データセンターの ESXi ホストに対して最初のデータストアをプロビジョニングする前に、のクラスタまたは固有のを追加する必要があります。クラスタを追加すると、クラスタ内の任意のにストレージをプロビジョニングできるようになります。 
 ---
 = ストレージクラスタを VSC に追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

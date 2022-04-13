@@ -5,6 +5,7 @@ keywords: system, manager, quota, online, help, view, activate, deactivate, info
 summary: System Manager を使用して、クォータを作成、編集、削除できます。 
 ---
 = クォータ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

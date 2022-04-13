@@ -5,6 +5,7 @@ keywords: system, manager, add, traphost, snmp, notification, trap, protocol, ge
 summary: ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用して、クラスタでトラップが生成されたときに SNMP 通知（ SNMP トラッププロトコルデータユニット）を受信するトラップホスト（ SNMP マネージャ）を追加できます。 
 ---
 = SNMP トラップホストを追加します。
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

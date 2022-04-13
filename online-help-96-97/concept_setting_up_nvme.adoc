@@ -5,6 +5,7 @@ keywords: NVMe, protocol, online, help, svm, system, manager, namespace, host, s
 summary: System Manager を使用して、 SVM に NVMe プロトコルを設定できます。SVM で NVMe プロトコルを有効にすると、ネームスペースをプロビジョニングしてホストとサブシステムに割り当てることができます。 
 ---
 = NVMe をセットアップしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

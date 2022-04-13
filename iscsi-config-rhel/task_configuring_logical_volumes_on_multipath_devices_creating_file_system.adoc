@@ -5,6 +5,7 @@ keywords: linux, host, access, iscsi, device, lun, partition, file, system, mult
 summary: Linux ホストから新しい SCSI デバイス（ LUN ）に最初にアクセスした時点では、パーティションやファイルシステムはありません。パーティショニングされたマルチパスデバイスを使用する場合は、最初に基盤となる SCSI デバイスをパーティショニングする必要があります。また、マルチパスデバイスに論理ボリュームを作成したり、必要に応じてファイルシステムを作成したりすることもできます。 
 ---
 = マルチパスデバイスで論理ボリュームを設定し、ファイルシステムを作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

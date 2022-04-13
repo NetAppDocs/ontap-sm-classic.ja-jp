@@ -5,6 +5,7 @@ keywords: restore, volume, mirror, vault, relationship, online, help, snapshot, 
 summary: ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアします。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。 
 ---
 = ミラーとバックアップ関係のボリュームのリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

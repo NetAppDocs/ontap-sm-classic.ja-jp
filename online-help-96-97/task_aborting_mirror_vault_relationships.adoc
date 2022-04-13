@@ -5,6 +5,7 @@ keywords: abort, mirror, vault, relationship, online, help, data, transfer
 summary: データ転送を停止する必要がある場合は、ボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。 
 ---
 = ミラーとバックアップ関係を中止しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
