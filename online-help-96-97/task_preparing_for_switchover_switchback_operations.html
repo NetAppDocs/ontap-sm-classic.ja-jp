@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します</title>
+  <title>スイッチオーバーとスイッチバックの処理を準備</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します" />
+  <meta property="og:title" content="スイッチオーバーとスイッチバックの処理を準備" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_preparing_for_switchover_switchback_operations.html" />
 	<meta property="og:description" content="System Manager 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_preparing_for_switchover_switchback_operations.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_preparing_for_switchover_switchback_operations.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[スイッチオーバーとスイッチバックの処理を準備](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_preparing_for_switchover_switchback_operations.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_preparing_for_switchover_switchback_operations.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -5342,20 +5342,22 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">System Manager クラシック - ONTAP 9.6 以降を使用して、スイッチオーバーとスイッチバックの処理を準備します</h1>
+  <h1 class="n-doc__component-detail-heading">スイッチオーバーとスイッチバックの処理を準備</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-09 01:49:03 +0000">04/09/2022</time>
+    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
 <p>ONTAP System Manager クラシック 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。</p>
 </div>
@@ -5401,6 +5403,36 @@
 <p>リモートサイト（サイト B ）をローカルサイト（サイト A ）から起動する場合は、サイト B で System Manager 9.6 以降のバージョンが実行されていることを確認します。</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="metrocluster-ローカルサイトサイト-a-の名前を-system-manger-ontap-9-7-以前の名前に変更します">MetroCluster ローカルサイト（サイト A ）の名前を System Manger ONTAP 9.7 以前の名前に変更します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の MetroCluster ローカルサイト（サイト A ）の名前を変更できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[<strong>Configuration</strong>&gt;*Configuration Updates*] をクリックします。</p>
+</li>
+<li>
+<p>クラスタ名の更新 * をクリックします。</p>
+</li>
+<li>
+<p>テキストボックスで名前を更新し、 * 送信 * をクリックします。</p>
+<div class="paragraph">
+<p>MetroCluster サイト A のステータスを表示すると更新後の名前を確認できます。</p>
+</div>
+</li>
+<li>
+<p>リモートサイト（サイト B ）から MetroCluster サイト A を表示するときに更新された名前を表示するには、リモートサイト（サイト B ）の CLI で「 cluster peer modify -local-name 」コマンドを実行します</p>
+</li>
+</ol>
+</div>
+</div>
 </div>
 
     </article>

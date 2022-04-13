@@ -5349,15 +5349,17 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-09 01:49:03 +0000">04/09/2022</time>
+    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>ストレージの推奨事項に基づいてアグリゲートを作成できます。また、要件に応じて、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用し、手動でアグリゲートを作成できます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。</p>
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成したり、要件に応じて手動でアグリゲートを作成したりできます。System Manager を使用して、 1 つ以上のボリュームにストレージを提供するための Flash Pool アグリゲート、 SnapLock アグリゲート、および FabricPool 対応アグリゲートを作成できます。</p>
 </div>
 <div class="paragraph">
 <p>アグリゲートを作成するための十分なスペアディスクが必要です。</p>
@@ -5379,16 +5381,566 @@
 <p>最初は単一のチェックサムタイプのアグリゲートを作成しておき、あとで別のチェックサムタイプのストレージを追加します。</p>
 </div>
 </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="system-manager-ontap-9-7-以前を使用してストレージの推奨事項に基づいてアグリゲートを作成します">System Manager - ONTAP 9.7 以前を使用して、ストレージの推奨事項に基づいてアグリゲートを作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。</p>
+</div>
+<div class="ulist">
+<div class="title">このタスクについて</div>
+<ul>
+<li>
+<p>Cloud Volumes ONTAP 、 ONTAP Select 、 MetroCluster の各構成では、ストレージに関する推奨事項に基づいてアグリゲートを作成することはできません。</p>
+</li>
+<li>
+<p>エラーがある場合は画面に表示されます。</p>
+<div class="paragraph">
+<p>エラーを修正してストレージの推奨事項に基づいてアグリゲートを作成するか、アグリゲートを手動で作成することができます。</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>次のいずれかの方法を使用してアグリゲートを作成します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>[ * アプリケーションと階層 * &gt; * ストレージ階層 * &gt; * アグリゲートの追加 * ] をクリックします。</p>
+</li>
+<li>
+<p>[ * ストレージ * &gt; * アグリゲートとディスク * &gt; * アグリゲート * &gt; * 作成 * ] をクリックします。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>ストレージの推奨事項を確認し、 * Submit * をクリックします。</p>
+<div class="paragraph">
+<p>情報ダイアログボックスにアグリゲートのステータスが表示されます。</p>
+</div>
+</li>
+<li>
+<p>Run in Background * （バックグラウンドで実行）をクリックして、 * Aggregates * ウィンドウに移動します。</p>
+</li>
+<li>
+<p>更新 * をクリックすると、作成されたアグリゲートが表示されます。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="system-manager-ontap-9-7-以前のバージョンでアグリゲートを手動で作成します">System Manager - ONTAP 9.7 以前のバージョンでアグリゲートを手動で作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>HDD のみまたは SSD のみで構成されるアグリゲートは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して手動で作成できます。</p>
+</div>
+<div class="paragraph">
+<p>ディスクはすべて同じサイズである必要があります。</p>
+</div>
+<div class="ulist">
+<div class="title">このタスクについて</div>
+<ul>
+<li>
+<p>ONTAP Select で 4 ノードクラスタのアグリゲートを作成する場合、デフォルトではミラーアグリゲートのオプションが選択されます。</p>
+</li>
+<li>
+<p>ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。</p>
+</li>
+<li>
+<p>アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、選択できる RAID タイプは RAID-TEC のみです。</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>次のいずれかの方法を使用してアグリゲートを作成します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>[ * アプリケーションと階層 * &gt; * ストレージ階層 * &gt; * アグリゲートの追加 * ] をクリックします。</p>
+</li>
+<li>
+<p>[ * ストレージ * &gt; * アグリゲートとディスク * &gt; * アグリゲート * &gt; * 作成 * ] をクリックします。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>アグリゲートを作成するには、 * アグリゲートを手動で作成 * オプションを有効にしてください。</p>
+</li>
+<li>
+<p>アグリゲートを作成するには、次の手順</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>アグリゲート名、ディスクタイプ、およびアグリゲートに含めるディスクまたはパーティションの数を指定します。</p>
+<div class="paragraph">
+<p>ディスクサイズが最大のディスクグループに対して、最小限のホットスペアのルールが適用されます。</p>
+</div>
+</li>
+<li>
+<p>アグリゲートの RAID 構成を変更します。</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>[ 変更（ Change ） ] をクリックします。</p>
+</li>
+<li>
+<p>RAID 構成の変更ダイアログボックスで、 RAID タイプと RAID グループサイズを指定します。</p>
+<div class="paragraph">
+<p>共有ディスクでは、 RAID DP と RAID-TEC の 2 つの RAID タイプがサポートされます。</p>
+</div>
+</li>
+<li>
+<p>[ 保存（ Save ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>アグリゲートをミラーする場合は、 [ このアグリゲートをミラーリングする * ] チェックボックスをオンにします。</p>
+<div class="paragraph">
+<p>MetroCluster 構成の場合、ミラーされていないアグリゲートは作成できません。したがって、 MetroCluster 構成では、ミラーリングオプションがデフォルトで有効になります。</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>指定した構成でアグリゲートが作成され、アグリゲートウィンドウのアグリゲートのリストに追加されます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="system-manager-ontap-9-7-以前を使用して-flash-pool-アグリゲートを手動で作成します">System Manager - ONTAP 9.7 以前を使用して、 Flash Pool アグリゲートを手動で作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Flash Pool アグリゲートを手動で作成したり、 SSD を追加して既存の HDD アグリゲートを Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。</p>
+</div>
+<div class="ulist">
+<div class="title">作業を開始する前に</div>
+<ul>
+<li>
+<p>Flash Pool アグリゲートの SSD 層のサイズと構成について、プラットフォームとワークロードそれぞれに固有なベストプラクティスに注意する必要があります。</p>
+</li>
+<li>
+<p>すべての HDD を初期化する必要があります。</p>
+</li>
+<li>
+<p>アグリゲートに SSD を追加する場合は、既存の SSD と専用の SSD がすべて同じサイズである必要があります。</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">このタスクについて</div>
+<ul>
+<li>
+<p>Flash Pool アグリゲートの作成にはパーティショニングされた SSD は使用できません。</p>
+</li>
+<li>
+<p>キャッシュソースがストレージプールの場合、アグリゲートをミラーすることはできません。</p>
+</li>
+<li>
+<p>ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。</p>
+</li>
+<li>
+<p>アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、 RAID-TEC のみを使用できます。</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>次のいずれかの方法を使用してアグリゲートを作成します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>[ * アプリケーションと階層 * &gt; * ストレージ階層 * &gt; * アグリゲートの追加 * ] をクリックします。</p>
+</li>
+<li>
+<p>[ * ストレージ * &gt; * アグリゲートとディスク * &gt; * アグリゲート * &gt; * 作成 * ] をクリックします。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>アグリゲートを作成するには、 * アグリゲートを手動で作成 * オプションを有効にしてください。</p>
+</li>
+<li>
+<p>アグリゲートの作成 * ウィンドウで、アグリゲート名、ディスクタイプ、およびアグリゲートに HDD を含めるディスクまたはパーティションの数を指定します。</p>
+</li>
+<li>
+<p>アグリゲートをミラーする場合は、 [ このアグリゲートをミラーリングする * ] チェックボックスをオンにします。</p>
+<div class="paragraph">
+<p>MetroCluster 構成の場合、ミラーされていないアグリゲートは作成できません。したがって、 MetroCluster 構成では、ミラーリングオプションがデフォルトで有効になります。</p>
+</div>
+</li>
+<li>
+<p>[ * このアグリゲートで Flash Pool キャッシュを使用する * ] をクリックします。</p>
+</li>
+<li>
+<p>キャッシュソースを指定します。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">キャッシュソース</th>
+<th class="tableblock halign-left valign-top">作業</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>ストレージプール</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>キャッシュソースとして * ストレージプール * を選択します。</p>
+</li>
+<li>
+<p>キャッシュを提供するストレージプールを選択し、キャッシュサイズを指定します。</p>
+</li>
+<li>
+<p>必要に応じて RAID タイプを変更します。</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>専用 SSD</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>キャッシュソースとして専用 SSD * を選択します。</p>
+</li>
+<li>
+<p>アグリゲートに含める SSD のサイズと数を選択します。</p>
+</li>
+<li>
+<p>必要に応じて RAID 構成を変更します。</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>[ 変更（ Change ） ] をクリックします。</p>
+</li>
+<li>
+<p>RAID 構成の変更ダイアログボックスで、 RAID タイプと RAID グループサイズを指定します。</p>
+</li>
+<li>
+<p>[ 保存（ Save ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>指定した構成で Flash Pool アグリゲートが作成され、アグリゲートウィンドウのアグリゲートのリストに追加されます。</p>
+</div>
+</div>
+</div>
+<h1 id="system-manager-ontap-9-7-以前を使用して-snaplock-アグリゲートを手動で作成します" class="sect0">System Manager ONTAP 9.7 以前を使用して、 SnapLock アグリゲートを手動で作成します</h1>
+<div class="paragraph">
+<p>System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。</p>
+</div>
+<div class="paragraph">
+<p>SnapLock ライセンスが追加されている必要があります。</p>
+</div>
+<div class="ulist">
+<div class="title">このタスクについて</div>
+<ul>
+<li>
+<p>MetroCluster 構成では、 SnapLock エンタープライズアグリゲートのみを作成できます。</p>
+</li>
+<li>
+<p>アレイ LUN については、 SnapLock Enterprise アグリゲートのみがサポートされます。</p>
+</li>
+<li>
+<p>ONTAP 9.0 以降では、ディスクサイズが 10TB 以上のアグリゲートを作成できます。</p>
+</li>
+<li>
+<p>アグリゲートディスクのディスクタイプが FSAS または MSATA で、ディスクサイズが 10TB 以上の場合、 RAID-TEC のみを使用できます。</p>
+</li>
+<li>
+<p>ONTAP 9.1 以降では、 AFF プラットフォーム上に SnapLock アグリゲートを作成できます。</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>次のいずれかの方法を使用して SnapLock アグリゲートを作成します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>[ * アプリケーションと階層 * &gt; * ストレージ階層 * &gt; * アグリゲートの追加 * ] をクリックします。</p>
+</li>
+<li>
+<p>[ * ストレージ * &gt; * アグリゲートとディスク * &gt; * アグリゲート * &gt; * 作成 * ] をクリックします。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>アグリゲートを作成するには、 * アグリゲートを手動で作成 * オプションを有効にしてください。</p>
+</li>
+<li>
+<p>SnapLock アグリゲートを作成するには、次の手順を</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>アグリゲート名、ディスクタイプ、およびアグリゲートに含めるディスクまたはパーティションの数を指定します。</p>
+<div class="paragraph">
+<p>SnapLock Compliance アグリゲートの名前は、作成後に変更することはできません。</p>
+</div>
+<div class="paragraph">
+<p>ディスクサイズが最大のディスクグループに対して、最小限のホットスペアのルールが適用されます。</p>
+</div>
+</li>
+<li>
+<p>アグリゲートの RAID 構成を変更します。</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>[ 変更（ Change ） ] をクリックします。</p>
+</li>
+<li>
+<p>RAID 構成の変更ダイアログボックスで、 RAID タイプと RAID グループサイズを指定します。</p>
+<div class="paragraph">
+<p>共有ディスクでは RAID タイプとして RAID-DP と RAID-TEC の 2 つがサポートされます。</p>
+</div>
+</li>
+<li>
+<p>[ 保存（ Save ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>SnapLock タイプを指定します。</p>
+</li>
+<li>
+<p>システム ComplianceClock を初期化していない場合は、 [Initialize ComplianceClock *] チェックボックスをオンにします。</p>
+<div class="paragraph">
+<p>このオプションは、 ComplianceClock がすでにノードで初期化されている場合は表示されません。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>現在のシステム時間が正しいことを確認してください。ComplianceClock はシステム時間に基づいて設定され、設定後に変更または停止することはできません。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>アグリゲートをミラーする場合は、 [ このアグリゲートをミラーリングする * ] チェックボックスをオンにします。</p>
+<div class="paragraph">
+<p>MetroCluster 構成の場合、ミラーされていないアグリゲートは作成できません。したがって、 MetroCluster 構成では、ミラーリングオプションがデフォルトで有効になります。</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>デフォルトでは、 SnapLock Compliance アグリゲートに対しては無効になります。</p>
+</div>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<h1 id="system-manager-ontap-9-7-以前を使用して-fabricpool-対応アグリゲートを手動で作成します" class="sect0">System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成します</h1>
+<div class="paragraph">
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。</p>
+</div>
+<div class="ulist">
+<div class="title">作業を開始する前に</div>
+<ul>
+<li>
+<p>クラウド階層を作成し、 SSD アグリゲートが配置されたクラスタに接続しておく必要があります。</p>
+</li>
+<li>
+<p>オンプレミスのクラウド階層を作成しておく必要があります。</p>
+</li>
+<li>
+<p>クラウド階層とアグリゲートの間に専用のネットワーク接続が確立されている必要があります。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>次のオブジェクトストアをクラウド階層として使用できます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>StorageGRID</p>
+</li>
+<li>
+<p>Alibaba Cloud （ System Manager 9.6 以降）</p>
+</li>
+<li>
+<p>Amazon Web Services （ AWS ） Simple Storage Service （ S3 ）</p>
+</li>
+<li>
+<p>Amazon Web Services （ AWS ） Commercial Cloud Service （ C2S ）</p>
+</li>
+<li>
+<p>Microsoft Azure Blob Storage</p>
+</li>
+<li>
+<p>IBM クラウド</p>
+</li>
+<li>
+<p>Google Cloud</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>オンプレミスの Azure サービスである Azure Stack はサポートされていません。</p>
+</li>
+<li>
+<p>StorageGRID 以外のオブジェクトストアをクラウド階層として使用する場合は、 FabricPool 容量ライセンスが必要です。</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>次のいずれかの方法を使用して FabricPool 対応アグリゲートを作成します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>[ * アプリケーションと階層 * &gt; * ストレージ階層 * &gt; * アグリゲートの追加 * ] をクリックします。</p>
+</li>
+<li>
+<p>[ * ストレージ * &gt; * アグリゲートとディスク * &gt; * アグリゲート * &gt; * 作成 * ] をクリックします。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>アグリゲートを作成するには、 * アグリゲートを手動で作成 * オプションを有効にしてください。</p>
+</li>
+<li>
+<p>FabricPool 対応アグリゲートを作成します。</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>アグリゲート名、ディスクタイプ、およびアグリゲートに含めるディスクまたはパーティションの数を指定します。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>FabricPool 対応アグリゲートは、オールフラッシュ（オール SSD ）アグリゲートでのみサポートされます。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>ディスクサイズが最大のディスクグループに対して、最小限のホットスペアのルールが適用されます。</p>
+</div>
+</li>
+<li>
+<p>アグリゲートの RAID 構成を変更します。</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>[ 変更（ Change ） ] をクリックします。</p>
+</li>
+<li>
+<p>RAID 構成の変更ダイアログボックスで、 RAID タイプと RAID グループサイズを指定します。</p>
+<div class="paragraph">
+<p>共有ディスクでは RAID タイプとして RAID-DP と RAID-TEC の 2 つがサポートされます。</p>
+</div>
+</li>
+<li>
+<p>[ 保存（ Save ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>「 * FabricPool * 」チェックボックスを選択し、リストからクラウド階層を選択します。</p>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+<div class="ulist">
+<ul>
 <li>
 <p>関連情報 *</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p><a href="reference_aggregates_window.html">アグリゲートウィンドウに戻ります</a></p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
-<p><a href="reference_storage_tiers_window.html">ストレージ階層ウィンドウに戻ります</a></p>
+<p><a href="concept_how_storage_pool_works.html">ストレージプールの仕組み</a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.netapp.com/us/media/tr-4070.pdf" target="_blank" rel="noopener">"ネットアップテクニカルレポート 4070 ：『 Flash Pool Design and Implementation 』"</a></p>
 </div>
 
     </article>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>アグリゲート間またはノード間で FlexVol ボリュームを移動する</title>
+  <title>System Manager - ONTAP 9.7 以前を使用して、アグリゲート間またはノード間で FlexVol ボリュームを移動します</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="アグリゲート間またはノード間で FlexVol ボリュームを移動する" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 以前を使用して、アグリゲート間またはノード間で FlexVol ボリュームを移動します" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html" />
 	<meta property="og:description" content="System Manager を使用して、容量利用率やパフォーマンスを向上させるために、 FlexVol を別のアグリゲートまたは別のノードに無停止で移動できます。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[アグリゲート間またはノード間で FlexVol ボリュームを移動する](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 以前を使用して、アグリゲート間またはノード間で FlexVol ボリュームを移動します](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -5342,22 +5342,24 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">アグリゲート間またはノード間で FlexVol ボリュームを移動する</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 以前を使用して、アグリゲート間またはノード間で FlexVol ボリュームを移動します</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:24:57 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>System Manager を使用して、容量利用率やパフォーマンスを向上させるために、 FlexVol を別のアグリゲートまたは別のノードに無停止で移動できます。</p>
+<p>ONTAP System Manager 従来型（ ONTAP 9.7 以前で利用可能）を使用すると、 FlexVol ボリュームを別のアグリゲートまたは別のノードに無停止で移動し、容量利用率とパフォーマンスを向上させることができます。</p>
 </div>
 <div class="paragraph">
 <p>データ保護（ DP ）ボリュームを移動する場合は、ボリュームを移動する前にデータ保護のミラー関係を初期化する必要があります。</p>
@@ -5420,6 +5422,48 @@
 <p>[ 移動（ Move ） ] をクリックします。</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ボリューム移動のための手動でのカットオーバーのトリガー">ボリューム移動のための手動でのカットオーバーのトリガー</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ボリューム移動処理では、ボリュームがカットオーバー保留フェーズになったときに、 System Manager を使用して手動でカットオーバーをトリガーすることができます。カットオーバーの時間を設定し、その時間内にカットオーバーの操作が失敗した場合にシステムで実行する処理を設定できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[ * ストレージ * &gt; * SVMs * ] をクリックします。</p>
+</li>
+<li>
+<p>SVM を選択し、 * SVM 設定 * をクリックします。</p>
+</li>
+<li>
+<p>[* Volumes （ボリューム） ] タブをクリックします</p>
+</li>
+<li>
+<p>ボリューム移動操作を開始したボリュームを展開します。</p>
+</li>
+<li>
+<p>Show More Details * リンクをクリックすると、ボリュームに関する詳細情報が表示されます。</p>
+</li>
+<li>
+<p>概要 * タブで、 * カットオーバー * をクリックします。</p>
+</li>
+<li>
+<p>カットオーバー * （ * Cutover * ）ダイアログボックスで、 * 詳細オプション * （ * Advanced Options * ）をクリックします。</p>
+</li>
+<li>
+<p>カットオーバー操作とカットオーバー期間を指定します。</p>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div>
+</div>
 </div>
 
     </article>

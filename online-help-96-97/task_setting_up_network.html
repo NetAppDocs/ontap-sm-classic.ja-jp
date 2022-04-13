@@ -5349,15 +5349,17 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-09 01:49:03 +0000">04/09/2022</time>
+    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークを設定することで、クラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</p>
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネットワークを設定してクラスタ、ノード、およびサービスプロセッサを管理できます。また、ネットワークウィンドウを使用して、 DNS および NTP の詳細も設定できます。</p>
 </div>
 <div class="paragraph">
 <p>クラスタのセットアップが完了している必要があります。</p>
@@ -5375,6 +5377,237 @@
 <p>IP アドレス範囲を無効にして、クラスタ管理、ノード管理、およびサービスプロセッサ管理の各ネットワークの IP アドレスを個別に入力することができます。</p>
 </li>
 </ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ip-アドレス範囲を有効にした状態でのネットワークの設定">IP アドレス範囲を有効にした状態でのネットワークの設定</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>IP アドレス範囲を有効にしてネットワークを設定することができます。IP アドレス範囲を使用すると、同じネットマスク範囲または異なるネットマスク範囲の IP アドレスを入力できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[IP アドレス範囲 *] フィールドに IP アドレスの範囲を入力し、 [ 適用 *] をクリックします。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">オプション</th>
+<th class="tableblock halign-left valign-top">説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>同じネットマスクの IP アドレスの範囲を使用しています</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>IP アドレスの範囲を入力し、 * 適用 * をクリックします。IP アドレスがクラスタ管理、ノード管理、およびサービスプロセッサ管理のネットワークに順番に適用されます。</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>異なるネットマスクの IP アドレスの範囲を使用する</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>各 IP アドレス範囲を別々の行に入力し、 * 適用 * をクリックします。最初の IP アドレスがクラスタ管理に適用され、残りの IP アドレスがノード管理とサービスプロセッサ管理のネットワークに順番に適用されます。</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>クラスタ管理、ノード管理、およびサービスプロセッサ管理の IP アドレス範囲を入力した場合、それらのフィールドの IP アドレスの値を手動で変更することはできません。すべての IP アドレスが IPv4 アドレスであることを確認してください。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>ネットマスクとゲートウェイの詳細を入力します。</p>
+</li>
+<li>
+<p>Port * フィールドで、クラスタ管理用のポートを選択します。</p>
+</li>
+<li>
+<p>ノード管理の「 * Port * 」フィールドに「 * e0m * 」が指定されていない場合は、ポートの詳細を入力します。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>デフォルトでは、 Port フィールドには e0M と表示されます。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>サービスプロセッサ管理のデフォルト値を上書きする場合は、必須のゲートウェイの詳細が入力されていることを確認します。</p>
+</li>
+<li>
+<p><strong>DNS Details</strong> フィールドを有効にした場合は、 DNS サーバーの詳細を入力します。</p>
+</li>
+<li>
+<p>[NTP Details] * フィールドを有効にした場合は、 NTP サーバの詳細を入力します。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>代替 NTP サーバの詳細はオプションです。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>[Submit （送信） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="次に何をするか">次に何をするか</h3>
+<div class="paragraph">
+<p>サポートページにイベント通知を入力して、クラスタのセットアップを続行します。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ip-アドレス範囲を無効にした状態でのネットワークの設定">IP アドレス範囲を無効にした状態でのネットワークの設定</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>IP アドレス範囲を無効にしてネットワークを設定することができます。この場合、クラスタ管理、ノード管理、およびサービスプロバイダの各ネットワークの IP アドレスを個別に入力します。</p>
+</div>
+<div class="paragraph">
+<p>ネットワークページで IP アドレス範囲 * が無効になっている場合は、クラスタ管理、ノード管理、およびサービスプロセッサの各ネットワークの IP アドレスを個別に入力します。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>クラスタ管理 IP アドレスを「 * クラスタ管理 IP アドレス * 」フィールドに入力します。</p>
+</li>
+<li>
+<p>クラスタ管理のネットマスクの詳細を入力します。</p>
+</li>
+<li>
+<p>クラスタ管理のゲートウェイの詳細を入力します。</p>
+</li>
+<li>
+<p>Port * フィールドで、クラスタ管理用のポートを選択します。</p>
+</li>
+<li>
+<p>ノードを管理するためにネットマスクとゲートウェイの詳細を指定する場合は、「クラスタ管理 * のネットマスクとゲートウェイの設定を保持する」チェックボックスをオフにして、ネットマスクとゲートウェイの詳細を入力します。</p>
+</li>
+<li>
+<p>ノード管理 IP アドレスを * Node Management * フィールドに入力します。</p>
+</li>
+<li>
+<p>ノード管理の「 * Port * 」フィールドに「 * e0m * 」が指定されていない場合は、ポートの詳細を入力します。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>デフォルトでは、 Port フィールドには e0M と表示されます。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>サービスプロセッサ管理用のネットマスクとゲートウェイの詳細を入力します。</p>
+</li>
+<li>
+<p>サービスプロセッサの IP 管理アドレスを「 * Service Processor Management * 」フィールドに入力します。</p>
+</li>
+<li>
+<p><strong>DNS Details</strong> フィールドを有効にした場合は、 DNS サーバーの詳細を入力します。</p>
+</li>
+<li>
+<p>[NTP Details] * フィールドを有効にした場合は、 NTP サーバの詳細を入力します。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>代替 NTP サーバの詳細はオプションです。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>[Submit （送信） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="次に何をするか-2">次に何をするか</h3>
+<div class="paragraph">
+<p>サポートページにイベント通知を入力して、クラスタのセットアップを続行します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F">"サービスプロセッサとは何ですか？また、どのように使用しますか？"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI">"CLI を使用して clustered Data ONTAP 8.2 以降で NTP を設定およびトラブルシューティングする方法"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/ontap-9/index.jsp">"ONTAP 9 ドキュメンテーション・センター"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_network_window.html">[ ネットワーク </a> ウィンドウ]</p>
+</div>
+<div class="paragraph">
+<p><a href="reference_configuration_updates_window.html">[ 構成の更新 </a> ウィンドウ]</p>
+</div>
+<div class="paragraph">
+<p><a href="reference_date_time_window.html">[ 日付と時刻 </a> ウィンドウ]</p>
+</div>
+<div class="paragraph">
+<p><a href="reference_service_processors_window.html">サービスプロセッサウィンドウ</a></p>
+</div>
+</div>
+</div>
 </div>
 
     </article>
