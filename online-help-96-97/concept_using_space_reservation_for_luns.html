@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>LUN のスペースリザベーションについて理解する</title>
+  <title>System Manager - ONTAP 9.7 以前での LUN のスペースリザベーションについて理解している必要があります</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="LUN のスペースリザベーションについて理解する" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 以前での LUN のスペースリザベーションについて理解している必要があります" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html" />
 	<meta property="og:description" content="スペースリザベーション設定（ボリュームギャランティとの組み合わせ）と LUN のスペース予約の関係を知っておくと、スペースリザベーションを無効にした場合の影響や、 LUN 設定とボリューム設定の特定の組み合わせが有用でない理由を理解することができます。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[LUN のスペースリザベーションについて理解する](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_using_space_reservation_for_luns.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 以前での LUN のスペースリザベーションについて理解している必要があります](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_using_space_reservation_for_luns.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">LUN のスペースリザベーションについて理解する</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 以前での LUN のスペースリザベーションについて理解している必要があります</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
+    <time datetime="2022-04-14 22:29:54 +0000">04/14/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>スペースリザベーション設定（ボリュームギャランティとの組み合わせ）と LUN のスペース予約の関係を知っておくと、スペースリザベーションを無効にした場合の影響や、 LUN 設定とボリューム設定の特定の組み合わせが有用でない理由を理解することができます。</p>
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のスペースリザベーション設定（ボリュームギャランティとの組み合わせ）と LUN のスペース予約の関係を知っておくと、スペースリザベーションを無効にした場合の影響を理解することができます。また、 LUN とボリューム設定の特定の組み合わせが有用でない理由について理解することもできます。</p>
 </div>
 <div class="paragraph">
 <p>スペースリザベーションを有効にして LUN （スペースリザーブ LUN ）を格納するボリュームギャランティを設定している場合、作成時にボリュームの空きスペースが LUN 用に確保されます。このリザーブスペースのサイズは LUN のサイズで決まります。ボリュームの他のストレージオブジェクト（他の LUN 、ファイル、 Snapshot コピーなど）はこのスペースを使用できません。</p>
