@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: efficiency, policy, system, manager, create, edit, delete, online, help, flexvol, window 
 summary: System Manager を使用して、効率化ポリシーを作成、編集、削除できます。 
 ---
-= 効率化ポリシー
+= System Manager - ONTAP 9.7 以前を使用して効率化ポリシーを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、効率化ポリシーを作成、編集、削除できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、効率化ポリシーを作成、編集、削除できます。
 
 
 

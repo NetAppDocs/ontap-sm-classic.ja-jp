@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: ldap, client, service, system, manager, add, edit, delete, client, configuration, online, help, cluster, level, storage, virtual, machine, 
 summary: System Manager を使用して、 LDAP クライアント設定を追加、編集、削除できます。 
 ---
-= LDAP クライアントサービス
+= ONTAP 9.7 以前の System Manager で LDAP クライアントサービスを設定します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 LDAP クライアント設定を追加、編集、削除できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LDAP クライアント設定を追加、編集、および削除できます。
 
 
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, create, edit, delete, qtree, partition, data, policies, svm 
 summary: System Manager を使用して、 qtree を作成、編集、削除できます。 
 ---
-= qtree
+= System Manager - ONTAP 9.7 以前を使用して qtree を管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 qtree を作成、編集、削除できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 qtree を作成、編集、および削除できます。
 
 
 

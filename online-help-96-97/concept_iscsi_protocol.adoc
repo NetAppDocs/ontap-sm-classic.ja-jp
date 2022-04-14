@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help, initiate, disable, enable, dialog, box, security, authentication, default 
 summary: System Manager を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。 
 ---
-= iSCSI プロトコル
+= System Manager - ONTAP 9.7 以前で iSCSI プロトコルを設定します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して iSCSI プロトコルを設定できます。これにより、 TCP / IP で SCSI プロトコルを使用してブロックデータをホストに転送できます。
 
 
 

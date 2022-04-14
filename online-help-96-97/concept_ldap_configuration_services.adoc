@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: ldap, configuration, service, system, manager, online, help, storage, virtual, machine, ldap, client, window 
 summary: System Manager を使用して、 LDAP 設定を管理できます。 
 ---
-= LDAP 設定サービス
+= System Manager - ONTAP 9.7 以前を使用して LDAP 構成を管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 LDAP 設定を管理できます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LDAP 設定を管理できます。
 
 
 

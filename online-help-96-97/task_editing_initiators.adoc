@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, initiator, online, help, group, dialog, system, manager 
 summary: System Manager のイニシエータグループの編集ダイアログボックスを使用して、イニシエータグループの既存のイニシエータの名前を変更できます。 
 ---
-= イニシエータを編集中
+= System Manager - ONTAP 9.7 以前を使用してイニシエータを編集します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager のイニシエータグループの編集ダイアログボックスを使用して、イニシエータグループの既存のイニシエータの名前を変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の * イニシエータグループの編集 * ダイアログボックスを使用して、イニシエータグループ内の既存のイニシエータの名前を変更できます。
 
 .手順
 . [ * ストレージ * > * LUNs * ] をクリックします。

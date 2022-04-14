@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, system, manager, nis, services, add, edit, manage, network, information, service, domain, svm, modify, command 
 summary: System Manager を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。 
 ---
-= NIS サービス
+= ONTAP 9.7 以前の System Manager を使用して NIS サービスを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

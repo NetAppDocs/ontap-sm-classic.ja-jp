@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, configure, fc, fcoe, protocol, online, help, change, node, name, fibre, channel, san, start, stop 
 summary: System Manager を使用して、 FC / FCoE プロトコルを設定できます。 
 ---
-= FC/FCoE プロトコル
+= System Manager - ONTAP 9.7 以前で FC / FCoE プロトコルを設定します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 FC / FCoE プロトコルを設定できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FC / FCoE プロトコルを設定できます。
 
 
 

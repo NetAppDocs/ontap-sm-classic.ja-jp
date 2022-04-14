@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot, copy, simplify, administration 
 summary: LUN を含む FlexVol を操作する場合、 Snapshot コピーのデフォルト設定を変更する必要があります。LUN のレイアウトを最適化して管理を簡易化することもできます。 
 ---
-= LUN を含む FlexVol の操作に関するガイドライン
+= System Manager ONTAP 9.7 以前を使用する場合の LUN を含む FlexVol の操作に関するガイドライン
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-LUN を含む FlexVol を操作する場合、 Snapshot コピーのデフォルト設定を変更する必要があります。LUN のレイアウトを最適化して管理を簡易化することもできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 LUN を含む FlexVol を操作する場合、 Snapshot コピーのデフォルト設定を変更する必要があります。LUN のレイアウトを最適化して管理を簡易化することもできます。
 
 Snapshot コピーは、 SnapMirror 、 SyncMirror 、ダンプとリストア、 ndmpcopy など、多くのオプション機能で必要となります。
 

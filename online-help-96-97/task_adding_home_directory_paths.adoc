@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cifs, system, manager, online, help, storage, add , delete, home, directory 
 summary: System Manager を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。 
 ---
-= ホームディレクトリパスを追加します
+= ホームディレクトリパスの管理 - ONTAP 9.7 以前
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。
 
 .手順
 . [ * ストレージ * > * SVMs * ] をクリックします。

@@ -176,7 +176,7 @@ MetroCluster 構成の場合、ミラーされていないアグリゲートは�
 
 
 
-= System Manager ONTAP 9.7 以前を使用して、 SnapLock アグリゲートを手動で作成します
+== System Manager ONTAP 9.7 以前を使用して、 SnapLock アグリゲートを手動で作成します
 
 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。
 
@@ -242,7 +242,7 @@ MetroCluster 構成の場合、ミラーされていないアグリゲートは�
 
 
 
-= System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成します
+== System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成します
 
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。
 

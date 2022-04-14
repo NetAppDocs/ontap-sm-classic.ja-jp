@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: kerberos, interface, service, system, manager, manage, online, help, edit, configuration, buttons, command, window 
 summary: System Manager を使用して、 Kerberos インターフェイスサービスを管理できます。 
 ---
-= Kerberos インターフェイスサービス
+= System Manager - ONTAP 9.7 以前を使用して、 Kerberos インターフェイスサービスを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Kerberos インターフェイスサービスを管理できます。
+Kerberos インターフェイスサービスの管理には、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。
 
 
 

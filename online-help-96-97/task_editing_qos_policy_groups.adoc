@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, qos, policy, group, group, dialog, system, manager, online, help 
 summary: System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。 
 ---
-= QoS ポリシーグループの編集
+= System Manager ONTAP 9.7 以前を使用して、 QoS ポリシーグループを編集します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のポリシーグループの編集ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。
 
 .このタスクについて
 * System Manager 9.5 では、パフォーマンスがオールフラッシュで最適化されている場合にのみ最小スループット制限を設定できます。System Manager 9.6 では、 ONTAP Select Premium システムにも最小スループット制限を設定できます。

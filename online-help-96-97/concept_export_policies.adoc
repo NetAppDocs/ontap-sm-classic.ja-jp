@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, create, edit, manage, export, policy, online, help, volume, rules, svm, qtree, rename 
 summary: System Manager を使用して、エクスポートポリシーを作成、編集、管理できます。 
 ---
-= エクスポートポリシー
+= System Manager - ONTAP 9.7 以前を使用してエクスポートポリシーを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、エクスポートポリシーを作成、編集、管理できます。
+ONTAP System Manager classic （ 9.7 以前のバージョンで利用可能）を使用して、エクスポートポリシーを作成、編集、管理できます。
 
 
 

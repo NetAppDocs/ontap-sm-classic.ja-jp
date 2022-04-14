@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, delete, qos, policy, groups, system, manager 
 summary: System Manager を使用して、不要になったストレージ QoS ポリシーグループを削除できます。 
 ---
-= QoS ポリシーグループの削除
+= System Manager - ONTAP 9.7 以前を使用して、 QoS ポリシーグループを削除します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、不要になったストレージ QoS ポリシーグループを削除できます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、不要になったストレージ QoS ポリシーグループを削除できます。
 
 ポリシーグループに割り当てられているすべてのストレージオブジェクトの割り当てを解除しておく必要があります。
 

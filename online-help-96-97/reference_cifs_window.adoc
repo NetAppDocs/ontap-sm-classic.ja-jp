@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online, help 
 summary: CIFS ウィンドウを使用して、 CIFS サーバの設定、ドメインコントローラの管理、 UNIX シンボリックマッピングの管理、 BranchCache の設定を行うことができます。 
 ---
-= CIFS ウィンドウ
+= System Manager の CIFS ウィンドウ - ONTAP 9.7 以前
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-CIFS ウィンドウを使用して、 CIFS サーバの設定、ドメインコントローラの管理、 UNIX シンボリックマッピングの管理、 BranchCache の設定を行うことができます。
+System Manager （ ONTAP 9.7 以前）の CIFS ウィンドウを使用して、 CIFS サーバの設定、ドメインコントローラの管理、 UNIX シンボリックマッピングの管理、および BranchCache の設定を行うことができます。
 
 
 

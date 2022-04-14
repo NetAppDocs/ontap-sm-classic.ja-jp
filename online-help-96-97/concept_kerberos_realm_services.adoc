@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, kerberos, realm, service, system, manager, svm, edit, security, strong, nfs, authentication, microsoft, ntlm, ntlm v2, client 
 summary: System Manager を使用して、 Kerberos Realm サービスを作成および管理できます。 
 ---
-= Kerberos Realm サービス
+= System Manager - ONTAP 9.7 以前を使用して Kerberos Realm サービスを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Kerberos Realm サービスを作成および管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Kerberos Realm サービスを作成および管理できます。
 
 
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: move, lun, qtree, storage, virtual, machine, svm, online, help 
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）内で、あるボリュームの LUN を別のボリュームまたは qtree に移動できます。ハイパフォーマンスディスクを含むアグリゲートでホストされているボリュームに LUN を移動すると、 LUN へのアクセス速度が向上します。 
 ---
-= LUN を移動中です
+= System Manager ONTAP 9.7 以前を使用して LUN を移動します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Storage Virtual Machine （ SVM ）内で、あるボリュームの LUN を別のボリュームまたは qtree に移動できます。ハイパフォーマンスディスクを含むアグリゲートでホストされているボリュームに LUN を移動すると、 LUN へのアクセス速度が向上します。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）内で、格納先ボリュームから別のボリュームまたは qtree に LUN を移動できます。ハイパフォーマンスディスクを含むアグリゲートでホストされているボリュームに LUN を移動すると、 LUN へのアクセス速度が向上します。
 
 .このタスクについて
 * 同じボリューム内の qtree に LUN を移動することはできません。

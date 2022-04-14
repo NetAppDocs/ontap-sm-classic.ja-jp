@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: qos, quality, service, assign, lun, storage, system, manager, lun, online, help, policy, group 
 summary: System Manager を使用して LUN をストレージ QoS ポリシーグループに割り当てることで、 LUN のスループットを制限できます。新しい LUN にストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられている LUN に対するストレージ QoS の詳細を変更したりできます。 
 ---
-= ストレージ QoS に LUN を割り当てています
+= System Manager - ONTAP 9.7 以前を使用して、ストレージ QoS に LUN を割り当てます
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して LUN をストレージ QoS ポリシーグループに割り当てることで、 LUN のスループットを制限できます。新しい LUN にストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられている LUN に対するストレージ QoS の詳細を変更したりできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して LUN をストレージ QoS ポリシーグループに割り当てることで、 LUN のスループットを制限できます。新しい LUN にストレージ QoS を割り当てたり、すでにポリシーグループに割り当てられている LUN に対するストレージ QoS の詳細を変更したりできます。
 
 .このタスクについて
 * ポリシーグループに次のストレージオブジェクトが割り当てられている場合、 LUN にストレージ QoS を割り当てることはできません。

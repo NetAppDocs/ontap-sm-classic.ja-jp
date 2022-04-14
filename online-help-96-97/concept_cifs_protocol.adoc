@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cif, protocol, system, manager, enable, configure, server, client, file, cluster, online, help, set up, general, properties, edit 
 summary: System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。 
 ---
-= CIFS プロトコル
+= System Manager - ONTAP 9.7 以前で CIFS プロトコルを設定します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ上のファイルにアクセスできるように設定することができます。
 
 
 

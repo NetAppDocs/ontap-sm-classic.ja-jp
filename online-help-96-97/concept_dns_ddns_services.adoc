@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: dns, ddns, service, system, manager, manage, online, help, edit, settings, command, button 
 summary: System Manager を使用して、 DNS / DDNS サービスを管理できます。 
 ---
-= DNS/DDNS サービス
+= System Manager - ONTAP 9.7 以前を使用して、 DNS / DDNS サービスを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 DNS / DDNS サービスを管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 DNS / DDNS サービスを管理できます。
 
 
 

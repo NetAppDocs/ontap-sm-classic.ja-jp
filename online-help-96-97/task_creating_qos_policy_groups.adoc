@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, create, qos, policy, groups, system, manager, quality, service 
 summary: System Manager でストレージ QoS ポリシーグループを作成して、ワークロードのスループットを制限したり、ワークロードのパフォーマンスを監視したりすることができます。 
 ---
-= QoS ポリシーグループを作成する
+= System Manager - ONTAP 9.7 以前を使用して QoS ポリシーグループを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager でストレージ QoS ポリシーグループを作成して、ワークロードのスループットを制限したり、ワークロードのパフォーマンスを監視したりすることができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージ QoS ポリシーグループを作成し、ワークロードのスループットを制限したり、ワークロードのパフォーマンスを監視したりすることができます。
 
 .手順
 . [ * ストレージ * > * SVMs * ] をクリックします。

@@ -4,14 +4,20 @@ sidebar: sidebar
 keywords: update, cifs, group, policy, configuration, online, help, enable, disable, modify, reload, set, up 
 summary: CLI を使用してポリシー設定を変更した場合は、変更後にグループポリシーを更新する必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーを更新できます。 
 ---
-= CIFS グループポリシー設定を更新する
+= ONTAP 9.7 以前の System Manager を使用して、 CIFS グループポリシーの設定を管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-CLI を使用してポリシー設定を変更した場合は、変更後にグループポリシーを更新する必要があります。System Manager の CIFS ウィンドウを使用して、グループポリシーを更新できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の CIFS ウィンドウを使用して、グループポリシーを更新および管理できます。
+
+
+
+== CIFS グループポリシー設定を更新する
+
+CLI を使用してポリシー設定を変更した場合は、変更後にグループポリシーを更新する必要があります。
 
 .手順
 . [ * ストレージ * > * SVMs * ] をクリックします。

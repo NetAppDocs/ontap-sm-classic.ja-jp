@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, lun, properties, online, help, system, manager 
 summary: System Manager の LUN プロパティダイアログボックスを使用して、 LUN の名前、概要、サイズ、スペースリザベーション設定、またはマッピングされているイニシエータホストを変更できます。 
 ---
-= LUN を編集しています
+= System Manager ONTAP 9.7 以前を使用して LUN を編集します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager の LUN プロパティダイアログボックスを使用して、 LUN の名前、概要、サイズ、スペースリザベーション設定、またはマッピングされているイニシエータホストを変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の LUN プロパティダイアログボックスを使用して、 LUN の名前、概要 、サイズ、スペースリザベーション設定、またはマッピングされたイニシエータホストを変更できます。
 
 LUN のサイズを変更するときは、その LUN を使用しているホストのタイプやアプリケーションに対して推奨されている手順をホスト側で実行する必要があります。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: guidelines, lun, multiprotocol, type, operating, system, host, layout, data, minimum, maximum, size, online, help 
 summary: LUN マルチプロトコルタイプ、つまりオペレーティングシステムのタイプは、 LUN にアクセスするホストのオペレーティングシステムを指定します。また、 LUN のデータレイアウト、および LUN の最小サイズと最大サイズも決定します。 
 ---
-= LUN マルチプロトコルタイプの使用に関するガイドライン
+= System Manager - ONTAP 9.7 以前で LUN マルチプロトコルタイプを使用する場合のガイドライン
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-LUN マルチプロトコルタイプ、つまりオペレーティングシステムのタイプは、 LUN にアクセスするホストのオペレーティングシステムを指定します。また、 LUN のデータレイアウト、および LUN の最小サイズと最大サイズも決定します。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 LUN マルチプロトコルタイプまたはオペレーティングシステムタイプによって、 LUN にアクセスするホストのオペレーティングシステムが指定されます。また、 LUN のデータレイアウト、および LUN の最小サイズと最大サイズも決定します。
 
 [NOTE]
 ====

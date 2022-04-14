@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, nvme, namespace, online, help, system, manager 
 summary: System Manager では、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。 
 ---
-= NVMe ネームスペースを編集する
+= System Manger ONTAP 9.7 以前を使用して、 NVMe ネームスペースを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager では、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。
 
 このウィンドウで変更できるのは NVMe サブシステムの設定だけです。ネームスペースのその他の詳細情報は編集できません。
 

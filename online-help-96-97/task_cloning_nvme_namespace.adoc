@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, clone, nvme, namespace, nqn, online, help 
 summary: System Manager では、ネームスペースをクローニングすることで同じ設定のネームスペースを簡単に作成できます。クローニングしたネームスペースは、別のホスト NQN にマッピングできます。 
 ---
-= NVMe ネームスペースをクローニングする
+= System Manager - ONTAP 9.7 以前を使用して、 NVMe ネームスペースのクローンを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager では、ネームスペースをクローニングすることで同じ設定のネームスペースを簡単に作成できます。クローニングしたネームスペースは、別のホスト NQN にマッピングできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、ネームスペースをクローニングすることで同じ設定のネームスペースを簡単に作成できます。クローニングしたネームスペースは、別のホスト NQN にマッピングできます。
 
 ネームスペースをクローニングするには、 FlexClone ライセンスが必要です。
 

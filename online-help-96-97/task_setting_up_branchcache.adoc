@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cifs, svm, system, manager, online, help, branchcache, set, up, modify, settings, delete 
 summary: System Manager を使用すると、 CIFS 対応の Storage Virtual Machine （ SVM ）で BranchCache を設定して、要求元のクライアントのローカルコンピュータにコンテンツをキャッシュすることができます。 
 ---
-= BranchCache をセットアップしています
+= System Manager ONTAP 9.7 以前を使用して BranchCache を設定します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用すると、 CIFS 対応の Storage Virtual Machine （ SVM ）で BranchCache を設定して、要求元のクライアントのローカルコンピュータにコンテンツをキャッシュすることができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 CIFS 対応の Storage Virtual Machine （ SVM ）で BranchCache を設定し、要求元のクライアントのローカルコンピュータにコンテンツをキャッシュすることができます。
 
 .作業を開始する前に
 * CIFS のライセンスが有効になっていて、 CIFS サーバが設定されている必要があります。

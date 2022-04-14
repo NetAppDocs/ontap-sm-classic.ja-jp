@@ -4,13 +4,19 @@ sidebar: sidebar
 keywords: system, manager, add, preferred, domain, controller, online, help, dns, edit, modify, delete 
 summary: System Manager では、 DNS を介してドメインコントローラが自動的に検出されます。必要に応じて、特定のドメインに対する優先ドメインコントローラのリストにドメインコントローラを追加することができます。 
 ---
-= 優先ドメインコントローラを追加する
+= System Manager - ONTAP 9.7 以前を使用して、優先ドメインコントローラを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、優先ドメインコントローラを管理できます
+
+
+
+== 優先ドメインコントローラを追加する
+
 System Manager では、 DNS を介してドメインコントローラが自動的に検出されます。必要に応じて、特定のドメインに対する優先ドメインコントローラのリストにドメインコントローラを追加することができます。
 
 .手順

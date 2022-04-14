@@ -1,27 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_initiators.html 
-sidebar: sidebar 
-keywords: online, help, add, initiator, system, help, group, lun, online, help 
-summary: System Manager を使用して、イニシエータグループにイニシエータを追加できます。所属先のイニシエータグループが LUN にマッピングされると、イニシエータはその LUN にアクセスできるようになります。 
+redirect: ontap-sm-classic/online-help-96-97/task_creating_initiator_groups.html 
 ---
-= イニシエータを追加する
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-System Manager を使用して、イニシエータグループにイニシエータを追加できます。所属先のイニシエータグループが LUN にマッピングされると、イニシエータはその LUN にアクセスできるようになります。
-
-.手順
-. [ * ストレージ * > * LUNs * ] をクリックします。
-. [* LUN 管理 * ] タブで、イニシエータを追加するイニシエータ・グループを選択し、 [* 編集 ] をクリックします。
-. イニシエータグループの編集 * ダイアログボックスで、 * イニシエータ * をクリックします。
-. [ 追加（ Add ） ] をクリックします。
-. イニシエータ名を指定し、「 * OK 」をクリックします。
-. [ 保存して閉じる ] をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_luns_window.adoc[LUN ウィンドウ]
