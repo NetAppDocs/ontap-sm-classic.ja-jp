@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: hardware, cache, system, manager, manage, online, help, flash, 
 summary: System Manager を使用して、ハードウェアキャッシュモジュールを管理できます。 
 ---
-= System Manager を使用してハードウェアキャッシュを管理する - ONTAP 9.7 以前
+= System Manager - ONTAP 9.7 以前を使用してハードウェアキャッシュを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

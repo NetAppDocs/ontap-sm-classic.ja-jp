@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, system, manager, add, edit, manage, account, login, online, help, cluster, administration, online, help, modify, lock, delete, unlock, create 
 summary: System Manager を使用して、クラスタユーザアカウントを追加、編集、管理し、ユーザがストレージシステムにアクセスする際のログイン方法を指定できます。 
 ---
-= System Manager - ONTAP 9.7 以前を使用してクラスタユーザアカウントを管理します
+= System Manager - ONTAP 9.7 以前を使用してユーザアカウントを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

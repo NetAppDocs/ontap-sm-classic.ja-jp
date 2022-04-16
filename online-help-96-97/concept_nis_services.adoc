@@ -11,7 +11,7 @@ summary: System Manager を使用して、 Network Information Service （ NIS �
 
 
 [role="lead"]
-System Manager を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。
 
 
 
