@@ -1160,10 +1160,8 @@
   <block id="982fca9c7818ccb19d65f539ee14cf72" category="paragraph">既存の SVM で CIFS と NFS を有効にしていない場合は、この手順に従ってください。</block>
   <block id="a15677c03b18981256e9de73817c9522" category="list-text">CIFS と NFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する CIFS アクセスと NFS アクセスを追加します。</block>
   <block id="6b7c7970bdcb41db6688672f56b80678" category="inline-link-macro">既存の SVM に CIFS アクセスと NFS アクセスを追加</block>
-  <block id="871bdd2745272ce820d059036f01ecc9" category="paragraph"><block ref="871bdd2745272ce820d059036f01ecc9" category="inline-link-macro-rx"></block></block>
   <block id="98b3b77c540ef88bfdae983c9ec431a5" category="list-text">CIFS および NFS のマルチプロトコルアクセスの設定が完了している既存の SVM でボリュームをプロビジョニングする場合は、ボリュームを直接作成して設定できます。</block>
   <block id="4738c89fba99cbd003e7a9ba8bca4895" category="inline-link-macro">ボリュームを作成して設定</block>
-  <block id="42d5b9eba7a6508e91e316b417dfd94e" category="paragraph"><block ref="42d5b9eba7a6508e91e316b417dfd94e" category="inline-link-macro-rx"></block></block>
   <block id="67afeea773bae0456047fb544b7c465f" category="summary">クラスタの拡張を開始する前に、計画した構成を確認し、必要なネットワーク情報を収集し、必要に応じてスイッチを追加または交換する必要があります。</block>
   <block id="20c8c1f94a4276c9e961cb14f57dc523" category="doc">クラスタを拡張する準備が完了していることを確認</block>
   <block id="ca4d696c3c3d4566b032bf5cba740486" category="summary">両方のノードをクラスタに追加したら、 AutoSupport を設定し、 SP ネットワークを完了して、新しく追加したノードの設定を完了する必要があります。</block>
@@ -3157,7 +3155,6 @@
   <block id="4d443a7d53fb1e8ee63439724cd8b260" category="list-text">* % 使用済み *</block>
   <block id="090b791e65cf988e8357fe1280107241" category="list-text">* 音量 *</block>
   <block id="c8aefd69cf3fd3ee4f045175ae7aff94" category="summary">System Manager を使用して、選択したポリシーやスケジュールを変更することで、ミラーとバックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。</block>
-  <block id="892f7f19144422ba8b2ab9a8a70baa33" category="doc">ミラーとバックアップ関係を編集しています</block>
   <block id="a3672634259ae0b565520dc23a8b3111" category="paragraph">バージョンに依存しないミラー関係、バックアップ関係、またはミラーとバックアップ関係について、ポリシーのタイプを変更することで関係のタイプを変更することができます。</block>
   <block id="1e6d016df1b9eaf71db6291df19fd610" category="list-text">変更するミラーとバックアップ関係を選択し、 * 編集 * をクリックします。</block>
   <block id="d254a68c48559342ea0c1a4fcc0a6be6" category="paragraph">[* 参照 ] をクリックし、既存のスケジュールを選択します。</block>
@@ -3823,7 +3820,6 @@
   <block id="c16aa9249afc503b1d9abe09cc35cd71" category="list-text">* none * ：ピア関係は暗号化されません。</block>
   <block id="9750464be12c1a01681042cd15915063" category="list-text">* tls_psk * ：ピア関係は暗号化されています。</block>
   <block id="a919b2052fc9a66fd57aa5c1173eef87" category="summary">System Manager を使用して、必要に応じてノードの名前を変更することができます。</block>
-  <block id="69fa390d09c57cdac463283ea781e39b" category="doc">ノード名を編集しています</block>
   <block id="55d39636d1d05d13802eb2fb2db89a4c" category="list-text">[ * ノード * ] タブで、名前を変更するノードを選択し、 [ ノード名の編集 ] をクリックします。</block>
   <block id="2dfe3592e31a21358544f237cb1ef204" category="list-text">ノード名の編集 * （ Edit Node Name * ）ダイアログボックスでノードの新しい名前を入力し、 * 送信 * （ Submit * ）をクリックします。</block>
   <block id="49dc14bd6bb3abfc6863be30c6ab13dc" category="summary">System Manager を使用して、特定のドメインに対して設定されている優先ドメインコントローラの IP アドレスを変更することができます。</block>
@@ -4147,7 +4143,6 @@
   <block id="9c9a0c9ae151b8faccd99cacb2c5cfd7" category="paragraph"><block ref="9c9a0c9ae151b8faccd99cacb2c5cfd7" category="inline-link-rx"></block></block>
   <block id="831d5630e653da6abaa112ccec4c1297" category="summary">Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。</block>
   <block id="8e3c3ed2b2343d5ec6f650bb4929ecaa" category="doc">SVM 関係</block>
-  <block id="81b1005335563dfa4d868949da148162" category="paragraph">System Manager を使用して、 SVM 間のミラー関係やミラーとバックアップ関係を作成および管理できます。</block>
   <block id="8e34b98fb807bcec3ed66f97d3a91f5f" category="summary">効率化ポリシーウィンドウを使用して、効率化ポリシーに関する情報を作成、表示、管理できます。</block>
   <block id="f701c7ead9417fe1e606f37b596ad3b3" category="doc">[ 効率化ポリシー ] ウィンドウ</block>
   <block id="b43c8eb1c33715c77d2644f12fe561c3" category="paragraph">効率化ポリシーの追加ダイアログボックスを開きます。このダイアログボックスで、指定した期間（スケジュールベース）、またはボリュームデータの変更率が指定したしきい値（しきい値ベース）に達したときに、ボリュームに対して重複排除処理を実行できます。</block>
@@ -4407,7 +4402,6 @@
   <block id="524a91ab8883b38a2a1617323e2d15c4" category="list-text">[* iSCSI * ] ウィンドウの [ サービス * ] タブで、 [ * 編集 ] をクリックします。</block>
   <block id="cb3b486ada0c2d1f1fdeec5074e2efdb" category="list-text">Edit iSCSI Service Configuration * （ iSCSI サービス構成の編集）ダイアログボックスの * Target Alias （ターゲットエイリアス） * フィールドに iSCSI エイリアスを入力し、 * OK * をクリックします。</block>
   <block id="7a719753b5cc693e70eaafdf4df13427" category="summary">ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。</block>
-  <block id="7888353c7236831cd355df22d4f32ddc" category="doc">ミラーとバックアップ関係を再開しています</block>
   <block id="1ca316d456bfc783136ef2cbef4e0b6c" category="paragraph">解除されたミラーとバックアップ関係をコマンドラインインターフェイス（ CLI ）で休止した場合は、 System Manager で再開することはできません。CLI を使用して関係を再開してください。</block>
   <block id="cdbe1ccd7399a1701afc2c94069ee6d8" category="list-text">再開するミラーとバックアップ関係を選択し、 * Operations * &gt; * Resume * をクリックします。</block>
   <block id="06895a249469b7de4c423243bf6e23fc" category="list-text">確認のチェックボックスをオンにし、 * Resume * （続行）をクリックします。</block>
@@ -4418,7 +4412,6 @@
   <block id="c10a7f4927ffc0a67a152b6bd7a850a1" category="list-text">承認するアラートを選択し、 [* Acknowledge * （確認） ] をクリックします。</block>
   <block id="5c885a7f69d642e609b2c5918b9feb4b" category="list-text">名前を入力し、 * Acknowledge * （確認）をクリックします。</block>
   <block id="0218bfc8c15044ba0898def79386160d" category="summary">System Manager を使用して、以前に解除したミラーとバックアップ関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。</block>
-  <block id="3fc1b317f5c52a61b2ce404f0930f389" category="doc">ミラーとバックアップ関係を再同期しています</block>
   <block id="858a9fdccf693c25652e60fe165a03c2" category="paragraph">ソースクラスタとデスティネーションクラスタ、およびソースとデスティネーションの Storage Virtual Machine （ SVM ）でピア関係が確立されている必要があります。</block>
   <block id="67b4ed20481864137b35102fa97434d4" category="paragraph">再同期処理を実行する前に、次の点に注意してください。</block>
   <block id="c000c692ee9195361c8adde986ec77f8" category="list-text">再同期操作を実行すると、デスティネーションボリュームの内容がソースの内容で上書きされます。</block>
@@ -4574,7 +4567,6 @@
   <block id="5652939fb504000d7345b9925e453202" category="list-text">NFS 設定の編集 * ダイアログボックスで、必要な変更を行います。</block>
   <block id="f36d18dddd479e5588589bf74c5a026e" category="inline-xref-macro">NFS ウィンドウ</block>
   <block id="e32032d2625b9284ad549f09b76e2c69" category="summary">System Manager を使用して、クラスタのパスワードをリセットできます。</block>
-  <block id="21d8ed0c68269db4607db532dc48b719" category="doc">クラスタのパスワードを変更しています</block>
   <block id="c8e1776bcb8e14a20836e0b5ce91b012" category="list-text">[* Cluster Details* （クラスタの詳細） ] ペインで、 [ * パスワードの変更 * ] をクリックします。</block>
   <block id="86a3ce2e49a66addd99e3ee6c6a90b1f" category="list-text">[ パスワードの変更 *] ダイアログボックスで、新しいパスワードを指定し、確認のために新しいパスワードを入力し、 [ *Change* ] をクリックします。</block>
   <block id="1d0d544f1b31a0e6bfadcc298162e9d6" category="summary">System Manager を使用して、効率化ポリシーを作成、編集、削除できます。</block>
@@ -4827,7 +4819,6 @@
   <block id="0e85ca1e4d57aca2bfeec85967a5fa5d" category="list-text">言語属性はソースボリュームと同じになります。</block>
   <block id="79cb3b7c5f95f37b5ec81add1aa77ad1" category="paragraph">デスティネーション FlexVol ボリュームがソース FlexVol ボリュームとは別の SVM にある場合は、 2 つの SVM 間にピア関係が作成されます（存在しない場合）。</block>
   <block id="0760716a254661585d034a675f162e3c" category="summary">ソースボリュームを使用できなくなった場合にクライアントアプリケーションからデスティネーションボリュームのデータにアクセスできるようにするには、 System Manager を使用して、ミラーとバックアップ関係を解除します。デスティネーションボリュームでデータを提供しながら、ソースボリュームを修理または交換したり、ソースボリュームを更新したり、システムの元の構成を再確立したりできます。</block>
-  <block id="46028a2c1b4bef1391f5a1c1ff1fb4ec" category="doc">ミラーとバックアップ関係を解除します</block>
   <block id="688950239c93be2f7637b1baa95b42d6" category="list-text">ミラーとバックアップ関係が休止状態またはアイドル状態である必要があります。</block>
   <block id="6667b21a600772c7ea0e910cc1960334" category="list-text">デスティネーションボリュームを Storage Virtual Machine （ SVM ）ネームスペースにマウントしておく必要があります。</block>
   <block id="5baafab505d4d55220ba92160de4bc45" category="paragraph">ONTAP システムと SolidFire ストレージシステムの間のミラー関係を解除できます。</block>
@@ -4960,7 +4951,6 @@
   <block id="47abe13b2a60b5f0e9065d0977f52a7a" category="list-text">* プライマリグループ名 *</block>
   <block id="0d06fe1a1d959e7ea187917e90351a64" category="paragraph">ユーザが属するグループの名前が表示されます。</block>
   <block id="94f3878cec50cf8a0b62544782eb89e8" category="summary">ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアします。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。</block>
-  <block id="766163c41cbf7db64655222598e82908" category="doc">ミラーとバックアップ関係のボリュームのリストア</block>
   <block id="2968058455bc581de51103de28bc77e3" category="list-text">ソースクラスタとデスティネーションクラスタの両方、またはソースボリュームを含むノードとデスティネーションボリュームを含むノードの両方で、 SnapMirror ライセンスと SnapVault ライセンスが有効になっている必要があります。</block>
   <block id="214f1a9a6c2a9f20704d0eff07db7e6e" category="list-text">ソースアグリゲートやリストア処理の対象となるその他のアグリゲートは 64 ビットである必要があります。</block>
   <block id="fca1c3dc65515cc415cf2281d754d36f" category="list-text">ONTAP 9.2 以前のバージョンを実行しているクラスタから SAML 認証が有効になっているリモートクラスタに接続する場合は、リモートクラスタでパスワードベースの認証も有効にする必要があります。</block>
@@ -5999,7 +5989,6 @@
   <block id="dc9d37a202e296240d704411fe802886" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexGroup ボリュームのサイズが変更されます。ボリュームに対して許容される最小サイズがサイズのフィールドの横に表示されます。</block>
   <block id="624ba68c42fd00942764f808571c9670" category="paragraph">新しいリソースを追加して FlexGroup ボリュームを拡張する場合は、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （アドバンストオプション）。を参照してください <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>。</block>
   <block id="8c6693cc07f98ea3023a538d6ad1d8c5" category="summary">System Manager を使用して AutoSupport 設定を変更し、 E メール通知の送信に使用する E メールアドレスを指定したり、複数の E メールホスト名を追加したりできます。</block>
-  <block id="4cbbb191083a19d601fab9ea45cb9bae" category="doc">AutoSupport 設定の編集</block>
   <block id="7299f317822d19bde80be6f950f9bef3" category="list-text">AutoSupport 設定を変更するノードを選択し、 * 編集 * をクリックします。</block>
   <block id="1cdaba677267c6c6791e6f28c8d3bc2a" category="list-text">[*Email Recipient*] タブで、電子メール通知の送信元の電子メールアドレスを入力し、電子メール受信者と各電子メール受信者のメッセージコンテンツを指定してから、メールホストを追加します。</block>
   <block id="928dcd47ab1dba532e19a4b381cfdbd5" category="paragraph">E メールアドレスはホストごとに 5 つまで追加できます。</block>
@@ -6691,7 +6680,6 @@
   <block id="8a9933d1b53dd6f17d6ec97c4891fc28" category="list-text">AutoSupport のステータスに変更内容が正しく表示されることを確認します。</block>
   <block id="4f0b7bb576d3c8fa91bf3496e68c038e" category="doc">ミラーされたアグリゲートの機能</block>
   <block id="ecb19c57a1e9d7470da7d5ef2ad7af05" category="summary">System Manager を使用して、 DNS 設定を一元管理するためのホスト情報を追加できます。ドメイン名や IP アドレスを変更する場合に、 DNS の詳細を変更できます。</block>
-  <block id="6512b12b32b809d4608dd877b15b931f" category="doc">DNS 設定を編集しています</block>
   <block id="56ede0d35b454d21ee6de6db7e02eef1" category="list-text">[*Cluster Details*] ペインで、 [Edit DNS Configuration*] をクリックします。</block>
   <block id="7731c0e23c3a06d337ee5d4f9e42e00f" category="list-text">[DNS Domains] 領域で、 DNS ドメイン名を追加または変更します。</block>
   <block id="3f2d272e6d922715f76b0113cd25a362" category="list-text">[* Name Servers* （ネームサーバ * ） ] 領域で、 IP アドレスを追加または変更します。</block>
@@ -7061,7 +7049,6 @@
   <block id="2c8dfcc823a858dcc0c124552a13f9fd" category="summary">System Manager を使用して、ストレージシステムの Snapshot ポリシーを作成および管理できます。</block>
   <block id="623fb58af5512173351f2a5e63dd6d85" category="doc">Snapshot ポリシー</block>
   <block id="f62b3e5859b206499e7a44a289ca9733" category="summary">System Manager を使用して、作成時に初期化していないミラーとバックアップ関係を初期化することができます。関係を初期化すると、ソースボリュームからデスティネーションへ全データのベースライン転送が実行されます。</block>
-  <block id="6a157a29e95317dcc5c7ba48a6d5e6bf" category="doc">ミラーとバックアップ関係を初期化しています</block>
   <block id="194940f508e4816ec6049ab532d382b3" category="list-text">初期化するミラーとバックアップ関係を選択し、 * Operations * &gt; * Initialize * をクリックします。</block>
   <block id="e416e315e41641912fdc726174c2b70c" category="list-text">確認のチェックボックスをオンにし、 [Initialize （初期化） ] をクリックします。</block>
   <block id="57174ed0aaf39bc07bfaedc78339bef3" category="list-text">[ 保護（ Protection ） ] ウィンドウで関係のステータスを確認します。</block>
@@ -7135,7 +7122,6 @@
   <block id="b92ca4bcca6aa47dec20b94435c6f38c" category="summary">System Manager を使用して、クォータを作成、編集、削除できます。</block>
   <block id="fb0d8a1c841cd92afd4cb16ddedaeed5" category="doc">クォータ</block>
   <block id="d410173001a34ef0bf33d098e9df782e" category="summary">バージョンに依存しないミラー関係の場合、ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。</block>
-  <block id="c531ca95860694d5ed26adc4a1a9a6eb" category="doc">ミラー関係のボリュームのリストア</block>
   <block id="16d958e78d1cca90f901c3fe80893940" category="list-text">ソースクラスタとデスティネーションクラスタの両方、またはソースボリュームを含むノードとデスティネーションボリュームを含むノードの両方で、 SnapMirror ライセンスが有効になっている必要があります。</block>
   <block id="662b5c7cd59abb0fc0ef5a08a466d0c4" category="list-text">ONTAP 9.2 以前のバージョンを実行しているクラスタから Security Assertion Markup Language （ SAML ）認証が有効になっているリモートクラスタに接続する場合は、リモートクラスタでパスワードベースの認証も有効にする必要があります。</block>
   <block id="4309f4e5604478417206b1336d6ac8f1" category="list-text">MetroCluster 構成のソースの Storage Virtual Machine （ SVM ）とデスティネーションの SVM の間でミラー関係が確立されたボリュームはリストアできません。</block>
@@ -7307,7 +7293,6 @@
   <block id="6138ee6e3595264422fd2af16143707f" category="inline-link">ネットアップテクニカルレポート 3965 ：『 NetApp Thin Provisioning Deployment and Implementation Data ONTAP 8.1 （ 7-Mode ）』</block>
   <block id="a65894b5e65e1b79567c981dd1c9864f" category="paragraph"><block ref="a65894b5e65e1b79567c981dd1c9864f" category="inline-link-rx"></block></block>
   <block id="9472ca14a963b3463ffacfba144d853c" category="summary">SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。</block>
-  <block id="2c13690cfe030889afa3cd68b6befe59" category="paragraph">SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。SnapMirror 関係を解除すると、デスティネーションボリュームのタイプが「データ保護」（ DP ）から「読み書き可能」（ RW ）に変わります。</block>
   <block id="fddb60ada1cd638223649f65cdd12a8c" category="list-text">SnapMirror デスティネーションが休止状態またはアイドル状態になっている必要があります。</block>
   <block id="6d9c53721983e127a1600326b186618a" category="list-text">デスティネーションボリュームでデータを提供しながら、ソースを修理または交換したり、ソースを更新したり、システムの元の構成を再確立したりできます。</block>
   <block id="3ac9fdedc3058e0bb62f8afbd7231a51" category="list-text">ONTAP システムと SolidFire ストレージシステムの間の SnapMirror 関係を解除できます。</block>
@@ -7486,7 +7471,6 @@
   <block id="f9d4712df61a2f97d40fa05e581a6dbe" category="paragraph"><block ref="f9d4712df61a2f97d40fa05e581a6dbe" category="inline-xref-macro-rx"></block></block>
   <block id="c985af8fba9d9fa14f971f90f37de08b" category="doc">ネームマッピングの変換ルール</block>
   <block id="fdd229b59553630eae6caa0098c8c8c2" category="paragraph">ONTAP システムには、 SVM ごとに一連の変換ルールが保存されています。各ルールは、 a_pattern_ と a_replacement _ の 2 つの要素で構成されます。変換は該当するリストの先頭から開始され、最初に一致したルールに基づいて実行されます。パターンは UNIX 形式の正規表現です。リプレースメントは、 UNIX の ed プログラムと同様に、パターンの部分式を表すエスケープシーケンスを含む文字列です。</block>
-  <block id="97c1385e84acdf8323725c547cbd4d20" category="doc">ミラーとバックアップ関係を更新しています</block>
   <block id="0f1936a33cb31a39e597a795d7fe6ec8" category="paragraph">ミラーとバックアップ関係が初期化され、 SnapMirror 済みの状態である必要があります。</block>
   <block id="fb5e019f9c42298f7f16f864e0e4f01e" category="list-text">データを更新するミラー関係を選択し、 * Operations * &gt; * Update * をクリックします。</block>
   <block id="66a90644b0ac4440d8fb12bcd3baa112" category="list-text">転送に使用するネットワーク帯域幅を制限するには、「 * 転送帯域幅を * に制限」を選択し、最大転送速度を指定します。</block>
@@ -7534,7 +7518,6 @@
   <block id="12d863663219ca11a60e18912f9d77e0" category="list-text">重複排除スケジュールを必要に応じて変更します。</block>
   <block id="5874224252f9cf3d3fea759bc537dc53" category="summary">クラスタのセットアップでは、設定情報を収集し、クラスタ管理インターフェイスとノード管理インターフェイスを作成し、ライセンスの追加、クラスタ時間の設定、 HA ペアの監視を行います。</block>
   <block id="7fcd701d4af64e601a44499f2f83f92c" category="summary">System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のミラーとバックアップ関係を終了し、ソースボリュームから Snapshot コピーを解放できます。</block>
-  <block id="ab244eb12fcb754ef620220e669a2a95" category="doc">ミラーとバックアップ関係を削除しています</block>
   <block id="d5bd834a78b5440108ac98fb1ce7877e" category="list-text">ミラーとバックアップ関係を削除する前に、その関係を解除することが推奨されます。</block>
   <block id="550c5da5e953dd75d25c213771288b7b" category="list-text">関係を再作成するには、コマンドラインインターフェイス（ CLI ）を使用して、ソースボリュームから再同期操作を実行する必要があります。</block>
   <block id="b256050a5b646fd77eecf8d35d755564" category="list-text">削除するミラーとバックアップ関係を選択し、 * 削除 * をクリックします。</block>
@@ -7676,7 +7659,6 @@
   <block id="b4f6c829b49d72208011654bdc5cacec" category="list-text">ボリュームを保護するには、 * 保護 * タブで * ボリューム保護 * を有効にします。</block>
   <block id="0ed79c6602c851e2dd015429ca786025" category="list-text">[* 保護 *] タブで、 [* レプリケーション *] タイプを選択します。</block>
   <block id="1aa8e9743f0339f1d0756bf4ae45e629" category="summary">IP アドレス範囲を有効にしてネットワークを設定することができます。IP アドレス範囲を使用すると、同じネットマスク範囲または異なるネットマスク範囲の IP アドレスを入力できます。</block>
-  <block id="7aa46ceb46b55e1584c5199b992f5235" category="doc">IP アドレス範囲を有効にした状態でのネットワークの設定</block>
   <block id="785e7abdebfba0c077f70ba137de92d3" category="list-text">[IP アドレス範囲 *] フィールドに IP アドレスの範囲を入力し、 [ 適用 *] をクリックします。</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">オプション</block>
   <block id="fda3d70d690cf239a0df47903d8ca82c" category="paragraph">同じネットマスクの IP アドレスの範囲を使用しています</block>
@@ -7814,7 +7796,6 @@
   <block id="a51cdd177454df0c74c1e98b4717528d" category="list-text">両方のサイトが 2 ノード構成（各クラスタにノードが 2 つ）で動作している。シングルノード構成または 4 ノード構成のサイトは、 System Manager を使用したスイッチオーバーとスイッチバックの処理でサポートされていません。</block>
   <block id="0a0204716d35d72d94269db60a34deb3" category="list-text">リモートサイト（サイト B ）をローカルサイト（サイト A ）から起動する場合は、サイト B で System Manager 9.6 以降のバージョンが実行されていることを確認します。</block>
   <block id="cc50a237602ba64e6ef106a4a2aa2f10" category="summary">System Manager を使用して、必要に応じてクラスタの名前を変更することができます。</block>
-  <block id="38ff23bba4944bd809f80b302e2ed29e" category="doc">クラスタ名を更新しています</block>
   <block id="16010775e9ee35b25c4ede9cc10954ec" category="list-text">[* Cluster Details* （クラスタの詳細） ] ペインで、 [* クラスタ名の更新 * ] をクリックします。</block>
   <block id="a6fcfbcbef725f9196844bcecfa79262" category="list-text">クラスタ名の更新 * （ Update Cluster Name * ）ダイアログボックスで、クラスタの新しい名前を指定し、 * 送信 * （ Submit * ）をクリックします。</block>
   <block id="c30a7a03ca5bc6a61c5554f47389c63a" category="summary">クライアントアクセスに Kerberos 認証を使用する場合は、既存の Kerberos Realm を使用するように Storage Virtual Machine （ SVM ）を設定する必要があります。System Manager を使用して Kerberos Realm 設定を作成し、 SVM が NFS に Kerberos セキュリティサービスを使用できるようにすることができます。</block>
@@ -9394,4 +9375,83 @@
   <block id="fc127a3a51a884e1e04b66f7100eb154" category="doc">System Manager - ONTAP 9.7 以前を使用してハードウェアキャッシュを管理します</block>
   <block id="fb51c3b2e9d4cd4cc77e73bd0865c088" category="doc">System Manager - ONTAP 9.7 以前を使用してユーザアカウントを管理します</block>
   <block id="42a891d2a7e8934b2961de24740a46a6" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Network Information Service （ NIS ）ドメインを追加、編集、管理できます。</block>
+  <block id="b4c3e51a3e6d798ba155eeaa53407e21" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を初期化します</block>
+  <block id="0130053042b2477edae683b3c8cffd02" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、作成時に初期化していないミラーとバックアップ関係を初期化することができます。関係を初期化すると、ソースボリュームからデスティネーションへ全データのベースライン転送が実行されます。</block>
+  <block id="d7aa241cdf6608a93d68cc08a17358c5" category="doc">System Manager - ONTAP 9.7 以前のバージョンを使用して、ミラー関係のボリュームをリストアします</block>
+  <block id="15f33799830d7062ead6409ca8ffcd26" category="paragraph">バージョンに依存しないミラー関係の場合、 ONTAP System Manager の従来の機能（ ONTAP 9.7 以前で使用可能）を使用して、ソースデータが破損して使用できなくなった場合に、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。</block>
+  <block id="afa61f1b1307e790cdbfbb6214754282" category="doc">System Manager - ONTAP 9.7 以前を使用して、デスティネーション SVM からバックアップ関係を作成します</block>
+  <block id="43683d217f4463f8f72a79932ddb4a19" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からバックアップ関係を作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。</block>
+  <block id="7a8704124255fce54a5d048005dbb2c7" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を再開します</block>
+  <block id="4395babd19d50d84f219edbe94c24fa2" category="paragraph">ミラーとバックアップ関係が休止中の場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。</block>
+  <block id="fe17196f3e0914a4cec43667071b4869" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を解除します</block>
+  <block id="a63d94092a796634808ee226f75b5367" category="paragraph">ソースボリュームを使用できなくなった場合にクライアントアプリケーションからデスティネーションボリュームのデータにアクセスできるようにするには、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラーとバックアップ関係を解除します。デスティネーションボリュームでデータを提供しながら、ソースボリュームを修理または交換したり、ソースボリュームを更新したり、システムの元の構成を再確立したりできます。</block>
+  <block id="aba0d4534cb127db2509180202369c03" category="doc">System Manager - ONTAP 9.7 以前を使用して、クラスタのタイムゾーンを設定します</block>
+  <block id="d8c48a42a81a8438050a9c7c83cafecc" category="paragraph">ONTAP System Manager classic （ ONTAP 9.7 以前で使用可能）の日付と時刻の編集ダイアログボックスを使用して、クラスタのタイムゾーンを手動で設定または変更できます。クラスタにタイムサーバを追加することもできます。</block>
+  <block id="e069e09d59568675b506a5631c4b22b7" category="doc">System Manager を使用した SVM 関係 - ONTAP 9.7 以前</block>
+  <block id="26db8af5ab588089d2d0b8f377dadc4d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SVM 間のミラー関係およびミラーとバックアップ関係を作成および管理できます。Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。</block>
+  <block id="c48810549c92e77a74367bf1cec6df93" category="doc">System Manager - ONTAP 9.7 以前を使用して HA ペアを監視します</block>
+  <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内のすべてのハイアベイラビリティ（ HA ）ペアについて、ノードのステータスとインターコネクトのステータスを監視できます。テイクオーバーやギブバックが有効になっているかどうかや発生したかどうかの情報のほか、現在実行できない場合はその理由も確認できます。</block>
+  <block id="262333fc510a217309de41b775906e37" category="doc">System Manager - ONTAP 9.7 以前を使用して、ロールを作成して管理します</block>
+  <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ロールを作成および管理できます。</block>
+  <block id="92bd79c670ac94d203248da956241472" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を休止します</block>
+  <block id="602631b50dbbeb1ccbb9df20a76a9ec9" category="paragraph">ONTAP FlexVol クラシック（ ONTAP 9.7 以前で使用可能）を使用して、バックアップ関係を休止することでデスティネーションボリュームへのデータ転送を無効にすることができます。</block>
+  <block id="8702a816375d4468a1fdafddd89c5aac" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を削除します</block>
+  <block id="70e3cca159c9dc14434a83eef0cbe103" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソースボリュームとデスティネーションボリューム間のミラーとバックアップ関係を終了し、ソースボリュームから Snapshot コピーを解放できます。</block>
+  <block id="18f944a43803893b3abefe4cddb83100" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーの転送を中止します</block>
+  <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、現在実行中のデータ転送を中止または停止できます。</block>
+  <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">System Manager - ONTAP 9.7 以前を使用してクラスタをセットアップします</block>
+  <block id="9b4bd0e05bd59040708e0e8eef3ef34c" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用してクラスタをセットアップできます。</block>
+  <block id="db95e3b8fcea0a5c57d5d6584105ea6a" category="doc">System Manager - ONTAP 9.7 以前のバージョンの保護ウィンドウ</block>
+  <block id="ee9bd4dddb5496bd38976d668f5dbc30" category="paragraph">保護ウィンドウと ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係、バックアップ関係、ミラーとバックアップ関係を作成および管理したり、それらの関係の詳細を表示したりできます。Protection ウィンドウには、負荷共有（ LS ）関係と移行データ保護（ TDP ）関係は表示されません。</block>
+  <block id="7c9bd76bd294b7e14d1899d0c2068e90" category="doc">System Manager - ONTAP 9.7 以前のバージョンを使用してバックアップ関係を削除します</block>
+  <block id="652e2e8c89320862132487366920ad01" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソースボリュームとデスティネーションボリュームの間のバックアップ関係を終了し、ソースから Snapshot コピーを解放できます。</block>
+  <block id="1aafe4488fd8fc784e00f6d40348c9a5" category="doc">System Manager - ONTAP 9.7 以前を使用してミラーとバックアップ関係を逆再同期します</block>
+  <block id="a2c1f6a60da92875a0951c6009bb7dd6" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラーとバックアップ関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。デスティネーションボリュームでデータを提供しながら、ソースを修理または交換したり、ソースを更新したり、システムの元の構成を再確立したりできます。</block>
+  <block id="d39135bbda4e5047a54cca0689614d8f" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を再開します</block>
+  <block id="3c428bd6f5566acb4c28884599bf5cff" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、休止中のバックアップ関係を再開できます。関係を再開すると、デスティネーション FlexVol ボリュームへの通常のデータ転送が再開され、バックアップアクティビティもすべて再開されます。</block>
+  <block id="8388d4a13ab57698a5224ad8bdbe742b" category="doc">System Manager - ONTAP 9.7 以前のバージョンでバックアップ関係のボリュームをリストアします</block>
+  <block id="115d8c0acb5172464ab31dee9470acc0" category="paragraph">ソースデータが破損して使用できなくなった場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前のバージョンで使用可能）を使用して、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。</block>
+  <block id="9c46fcf4193cc27f57e062a5cfbca4e7" category="doc">System Manager - ONTAP 9.7 以前を使用してライセンスを追加します</block>
+  <block id="b4a324d3ca1064db7f2646901a62eb2c" category="paragraph">工場出荷時にソフトウェアがインストールされていない場合やソフトウェアライセンスを追加する場合は、 ONTAP System Manager classic （ ONTAP 9.7 以前で利用可能）を使用してソフトウェアライセンスを追加できます。</block>
+  <block id="fe8b3faa5a96053a132d3f57a58e12f1" category="paragraph">ストレージシステムソフトウェアが工場出荷時にインストールされている場合は、 System Manager によってそのソフトウェアがライセンスのリストに自動的に追加されます。</block>
+  <block id="598204bea84a425b3062a08d37f16547" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー転送を中止します</block>
+  <block id="d3e29f1540288a85f0960a5f58cb1f30" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データ転送が完了する前にボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
+  <block id="244f91d9d12bd9740caec32708a6b318" category="doc">System Manager - ONTAP 9.7 以前のバージョンで Windows ローカルユーザアカウントを削除します</block>
+  <block id="ce5ff83bcd1ab1b41de67636913d780c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。 Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 SVM から削除する。</block>
+  <block id="845e4f773bf2fd938fd9f7abbe76d11d" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を再同期します</block>
+  <block id="5c5eba880c02239001f4b222d1724c18" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。</block>
+  <block id="4cfe8e7f20b3f6aa84c77b061d1df0fe" category="doc">System Manager - ONTAP 9.7 以前のバージョンの Windows ウィンドウ</block>
+  <block id="56384d0058f4049f1a25b56477095e11" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ウィンドウを使用できます。Windows ウィンドウを使用して、クラスタの各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。</block>
+  <block id="f2ee0f2878a7ea4f311d171d771d6b26" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を更新します</block>
+  <block id="5b82e2713cfb8916eb2d29f19181f641" category="paragraph">ONTAP System Manager Classic （ ONTAP 9.7 以前で使用可能）を使用すると、スケジュールされていない差分更新を手動で開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。</block>
+  <block id="548556d1faeba7eb8637f682210271a4" category="doc">System Manager ONTAP 9.7 以前を使用したローカル UNIX ユーザおよびグループ</block>
+  <block id="ba30e9183e00613e181d1a9648c4d68c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザとグループのリストを管理できます。</block>
+  <block id="da9328160e0d110b694b5ee04fd15dcc" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を初期化します</block>
+  <block id="fec24ee3dcf73c82d9b795514beb980c" category="paragraph">ONTAP System Manager classic （ ONTAP 9.7 以前で使用可能）を使用して、関係の作成時に初期化していない場合、バックアップ関係を初期化できます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。</block>
+  <block id="2728c5c503ed3526a9c5c82ee2d862ad" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を編集します</block>
+  <block id="a05bae97cbda30a89351578dd63c58c2" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、新しいポリシーまたはスケジュールを作成して、バックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。</block>
+  <block id="e00972bdf55dbd8d6817ccc7b7bd882e" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を休止します</block>
+  <block id="5d18e12d84ec51a00ddf7d35536cd47c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Snapshot コピーを作成する前にデスティネーションボリュームを休止して安定した状態にすることができます。休止処理を実行すると、アクティブなデータ転送が完了したあと、ミラーとバックアップ関係の以降の転送が実行されなくなります。</block>
+  <block id="c7611e5724a43af42cd618696ddbde06" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を更新します</block>
+  <block id="348c7f611493f56a2e14dfb2a4d55799" category="doc">System Manager - ONTAP 9.7 以前のバージョンで、ミラーとバックアップ関係にあるボリュームをリストアします</block>
+  <block id="83ed915429df41c7b9156b8c6991f060" category="doc">System Manager - ONTAP 9.7 以前を使用して、デスティネーション SVM からミラーとバックアップ関係を作成します</block>
+  <block id="5a1aeae3ca24aad60bedbba9c3361a53" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からミラーとバックアップ関係を作成できます。この関係を作成すると、ソースボリュームからデスティネーションボリュームにデータを定期的に転送して、データの保護を強化できます。また、ソースボリュームのバックアップを作成して、データを長期にわたって保持することもできます。</block>
+  <block id="72a40f368bff858b4091b43eb7172fc7" category="doc">System Manager - ONTAP 9.7 以前を使用して SnapMirror 関係を解除します</block>
+  <block id="8cbc7e1408126f1ff5a2916af875f4bd" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapMirror 関係を解除できます。SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。SnapMirror 関係を解除すると、デスティネーションボリュームのタイプが「データ保護」（ DP ）から「読み書き可能」（ RW ）に変わります。</block>
+  <block id="58aa7c8a67f411fb22d80b3830bcd784" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を編集します</block>
+  <block id="2a5c883848e9cc772501982a7b32b9f0" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、選択したポリシーまたはスケジュールを変更することで、ミラーとバックアップ関係を編集できます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。</block>
+  <block id="1e4f433097152201c34a89a43b006635" category="doc">System Manager - ONTAP 9.7 以前を使用して、休止していたミラー関係を再開します</block>
+  <block id="1996f4fb463ea1c709660660d37eb896" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、休止中のミラー関係を再開できます。関係を再開すると、ミラーデスティネーションへの通常のデータ転送が再開され、ミラー処理もすべて再開されます。</block>
+  <block id="94b62c27be996324d0173ca83ba2629b" category="doc">System Manager を使用したネームマッピング - ONTAP 9.7 以前</block>
+  <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。</block>
+  <block id="706d088ecb014b185975448770e848fa" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成して管理します</block>
+  <block id="9dd1a3bc9b77bce7cd8a13454090a064" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成および管理できます。</block>
+  <block id="45a11fec0e7239fbcf37cef2902890d3" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を逆再同期します</block>
+  <block id="e04d733170c775fa5ecebcaa3ee8a458" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラー関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。</block>
+  <block id="d40cfc39f79f1537f0808a3b5576751a" category="doc">System Manager ONTAP 9.7 以前を使用して、デスティネーション SVM からミラー関係を作成します</block>
+  <block id="b77843c3f8ae61a4d70a598fdb4c0c1e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からミラー関係を作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。</block>
+  <block id="eb1d31c51189f9c044e0d58aeef738ca" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を再同期します</block>
+  <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラーとバックアップ関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。</block>
+  <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
+  <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
 </blocks>

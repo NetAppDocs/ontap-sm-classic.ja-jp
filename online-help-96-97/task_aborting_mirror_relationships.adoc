@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: abort, mirror, transfer, online, help, volume, replication 
 summary: データ転送が完了する前に、ボリュームのレプリケーション操作を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。 
 ---
-= ミラー転送を中止します
+= System Manager - ONTAP 9.7 以前を使用してミラー転送を中止します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-データ転送が完了する前に、ボリュームのレプリケーション操作を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データ転送が完了する前にボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。
 
 .手順
 . [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。

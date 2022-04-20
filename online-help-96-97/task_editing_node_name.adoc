@@ -1,20 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_node_name.html 
-sidebar: sidebar 
-keywords: system, manager, edit, node, name, online, help 
-summary: System Manager を使用して、必要に応じてノードの名前を変更することができます。 
+redirect: ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html 
 ---
-= ノード名を編集しています
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-System Manager を使用して、必要に応じてノードの名前を変更することができます。
-
-.手順
-. [ * Configuration * ] > [* Cluster*] > [* Configuration Updates* ] をクリックします。
-. [ * ノード * ] タブで、名前を変更するノードを選択し、 [ ノード名の編集 ] をクリックします。
-. ノード名の編集 * （ Edit Node Name * ）ダイアログボックスでノードの新しい名前を入力し、 * 送信 * （ Submit * ）をクリックします。
 

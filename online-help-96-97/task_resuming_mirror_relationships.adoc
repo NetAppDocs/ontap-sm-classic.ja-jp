@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resume, mirror, relationship, normal, data, transfer, online, help 
 summary: 休止していたミラー関係を再開することができます。関係を再開すると、ミラーデスティネーションへの通常のデータ転送が再開され、ミラー処理もすべて再開されます。 
 ---
-= ミラー関係を再開しています
+= System Manager - ONTAP 9.7 以前を使用して、休止していたミラー関係を再開します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-休止していたミラー関係を再開することができます。関係を再開すると、ミラーデスティネーションへの通常のデータ転送が再開され、ミラー処理もすべて再開されます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、休止中のミラー関係を再開できます。関係を再開すると、ミラーデスティネーションへの通常のデータ転送が再開され、ミラー処理もすべて再開されます。
 
 解除されたミラー関係をコマンドラインインターフェイス（ CLI ）で休止した場合は、 System Manager で再開することはできません。CLI を使用して関係を再開してください。
 

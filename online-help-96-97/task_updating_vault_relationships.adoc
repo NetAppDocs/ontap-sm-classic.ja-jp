@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: update, vault, relationship, online, help, system, manager 
 summary: System Manager を使用して、スケジュールされていない差分更新を手動で開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。 
 ---
-= バックアップ関係を更新しています
+= System Manager - ONTAP 9.7 以前を使用してバックアップ関係を更新します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、スケジュールされていない差分更新を手動で開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。
+ONTAP System Manager Classic （ ONTAP 9.7 以前で使用可能）を使用すると、スケジュールされていない差分更新を手動で開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。
 
 バックアップ関係を初期化しておく必要があります。
 

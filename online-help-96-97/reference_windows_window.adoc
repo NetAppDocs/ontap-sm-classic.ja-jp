@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, command, buttons, group 
 summary: Windows ウィンドウを使用して、クラスタ上の各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。 
 ---
-= Windows ウィンドウ
+= System Manager - ONTAP 9.7 以前のバージョンの Windows ウィンドウ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Windows ウィンドウを使用して、クラスタ上の各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ウィンドウを使用できます。Windows ウィンドウを使用して、クラスタの各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。
 
 
 

@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, create, mirror, vault, relationship, destination, svm, online, help 
 summary: System Manager を使用して、ミラーとバックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成することができます。この関係を作成すると、ソースボリュームからデスティネーションボリュームにデータを定期的に転送して、データの保護を強化できます。また、ソースボリュームのバックアップを作成して、データを長期にわたって保持することもできます。 
 ---
-= デスティネーション SVM からミラーとバックアップ関係を作成
+= System Manager - ONTAP 9.7 以前を使用して、デスティネーション SVM からミラーとバックアップ関係を作成します
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ミラーとバックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成することができます。この関係を作成すると、ソースボリュームからデスティネーションボリュームにデータを定期的に転送して、データの保護を強化できます。また、ソースボリュームのバックアップを作成して、データを長期にわたって保持することもできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からミラーとバックアップ関係を作成できます。この関係を作成すると、ソースボリュームからデスティネーションボリュームにデータを定期的に転送して、データの保護を強化できます。また、ソースボリュームのバックアップを作成して、データを長期にわたって保持することもできます。
 
 .作業を開始する前に
 * デスティネーションクラスタで ONTAP 8.3.2 以降が実行されている必要があります。

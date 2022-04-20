@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: create, mirror, relationship, destination, svm, online, help, system, manager 
 summary: ONTAP System Manager を使用して、ミラー関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。 
 ---
-= デスティネーション SVM からミラー関係を作成
+= System Manager ONTAP 9.7 以前を使用して、デスティネーション SVM からミラー関係を作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP System Manager を使用して、ミラー関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からミラー関係を作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。
 
 .作業を開始する前に
 * ソースクラスタで ONTAP 8.2.2 以降が実行されている必要があります。

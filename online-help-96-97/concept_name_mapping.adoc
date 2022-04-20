@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: name, mapping, system, manager, specify, user, platform, online, help, command, button, rules 
 summary: System Manager を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。 
 ---
-= ネームマッピング
+= System Manager を使用したネームマッピング - ONTAP 9.7 以前
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。
 
 
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: initialize, mirror, vault, relationship, online, help, system, manager 
 summary: System Manager を使用して、作成時に初期化していないミラーとバックアップ関係を初期化することができます。関係を初期化すると、ソースボリュームからデスティネーションへ全データのベースライン転送が実行されます。 
 ---
-= ミラーとバックアップ関係を初期化しています
+= System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を初期化します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、作成時に初期化していないミラーとバックアップ関係を初期化することができます。関係を初期化すると、ソースボリュームからデスティネーションへ全データのベースライン転送が実行されます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、作成時に初期化していないミラーとバックアップ関係を初期化することができます。関係を初期化すると、ソースボリュームからデスティネーションへ全データのベースライン転送が実行されます。
 
 ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。
 

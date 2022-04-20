@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, online, help, quiescing, vault, relationship, data, transfer, flexvol 
 summary: System Manager を使用して、バックアップ関係を休止することでデスティネーション FlexVol へのデータ転送を無効にすることができます。 
 ---
-= バックアップ関係を休止しています
+= System Manager - ONTAP 9.7 以前を使用してバックアップ関係を休止します
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、バックアップ関係を休止することでデスティネーション FlexVol へのデータ転送を無効にすることができます。
+ONTAP FlexVol クラシック（ ONTAP 9.7 以前で使用可能）を使用して、バックアップ関係を休止することでデスティネーションボリュームへのデータ転送を無効にすることができます。
 
 .手順
 . [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。

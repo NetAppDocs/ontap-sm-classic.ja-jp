@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, unix, svm, online, help, command, button, group, tab, storage, virtual, machine 
 summary: System Manager を使用して、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザおよびグループのリストを管理できます。 
 ---
-= 「 UNIX 」
+= System Manager ONTAP 9.7 以前を使用したローカル UNIX ユーザおよびグループ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザおよびグループのリストを管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザとグループのリストを管理できます。
 
 
 

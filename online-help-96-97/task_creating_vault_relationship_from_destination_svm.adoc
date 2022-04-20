@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, create, vault, relationship, destination, svm, online, help 
 summary: System Manager を使用して、バックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。 
 ---
-= デスティネーション SVM からバックアップ関係を作成
+= System Manager - ONTAP 9.7 以前を使用して、デスティネーション SVM からバックアップ関係を作成します
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、バックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からバックアップ関係を作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。
 
 .作業を開始する前に
 * ソースクラスタで ONTAP 8.2.2 以降が実行されている必要があります。

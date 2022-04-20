@@ -26,10 +26,10 @@ link:task_creating_new_svm.md#["基本的な SVM を作成"]
 
 * CIFS と NFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する CIFS アクセスと NFS アクセスを追加します。
 +
-link:concept_adding_nas_access_to_existing_svm.md#["既存の SVM に CIFS アクセスと NFS アクセスを追加"]
+link:concept_adding_nas_access_to_existing_svm.html["既存の SVM に CIFS アクセスと NFS アクセスを追加"]
 
 * CIFS および NFS のマルチプロトコルアクセスの設定が完了している既存の SVM でボリュームをプロビジョニングする場合は、ボリュームを直接作成して設定できます。
 +
-link:task_creating_configuring_volume.md#["ボリュームを作成して設定"]
+link:task_creating_configuring_volume.html["ボリュームを作成して設定"]
 
 

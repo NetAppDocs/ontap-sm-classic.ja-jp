@@ -4,16 +4,14 @@ sidebar: sidebar
 keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, machine, help, create, data, transfer 
 summary: Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。 
 ---
-= SVM 関係
+= System Manager を使用した SVM 関係 - ONTAP 9.7 以前
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。
-
-System Manager を使用して、 SVM 間のミラー関係やミラーとバックアップ関係を作成および管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SVM 間のミラー関係およびミラーとバックアップ関係を作成および管理できます。Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。
 
 
 

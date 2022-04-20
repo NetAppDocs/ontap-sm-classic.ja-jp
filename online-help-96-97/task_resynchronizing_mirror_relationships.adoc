@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resync, mirror, relationship, operation, online, help 
 summary: 以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。 
 ---
-= ミラー関係を再同期中です
+= System Manager - ONTAP 9.7 以前を使用してミラー関係を再同期します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。
 
 ソースクラスタとデスティネーションクラスタ、およびソース SVM とデスティネーション SVM でピア関係が確立されている必要があります。
 

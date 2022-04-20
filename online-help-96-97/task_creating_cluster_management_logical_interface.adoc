@@ -1,66 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_cluster_management_logical_interface.html 
-sidebar: sidebar 
-keywords: system, manager, online, help, create, cluster, management, logical, interface 
-summary: System Manager を使用して、クラスタ管理論理インターフェイス（ LIF ）を作成し、クラスタに単一の管理インターフェイスを提供できます。この LIF は、クラスタのあらゆるアクティビティの管理に使用できます。 
+redirect: ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html 
 ---
-= クラスタ管理論理インターフェイスを作成する
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-System Manager を使用して、クラスタ管理論理インターフェイス（ LIF ）を作成し、クラスタに単一の管理インターフェイスを提供できます。この LIF は、クラスタのあらゆるアクティビティの管理に使用できます。
-
-.手順
-. [ * Configuration * ] > [* Cluster*] > [* Configuration Updates* ] をクリックします。
-. [* Cluster Details* ] ペインで、 [* Create Cluster-management LIF* ] をクリックします。
-. Create Cluster-Management LIF * ダイアログボックスで、クラスタ管理 LIF の名前を指定します。
-. クラスタ管理 LIF に IP アドレスを割り当てます。
-+
-|===
-| 状況 | 作業 
-
-
- a| 
-サブネットを使用して IP アドレスを指定します
- a| 
-.. サブネットを使用する * を選択します。
-.. Add Details ダイアログボックスで、 IP アドレスを割り当てるサブネットを選択します。
-+
-クラスタ間 LIF の場合、選択した IPspace に関連付けられているサブネットだけが表示されます。
-
-.. LIF に特定の IP アドレスを割り当てる場合は、「 * 特定の IP アドレスを使用する * 」を選択して、 IP アドレスを入力します。
-+
-指定した IP アドレスがサブネット内にない場合、追加されます。
-
-.. [OK] をクリックします。
-
-
-
-
- a| 
-サブネットを使用せずに手動で IP アドレスを指定します
- a| 
-.. サブネットなし * を選択します。
-.. [ 詳細の追加 ] ダイアログボックスで、次の手順を実行します。
-+
-... IP アドレスとネットワークマスクまたはプレフィックスを指定します。
-... オプション：ゲートウェイを指定します。
-... Destination フィールドにデフォルト値を使用しない場合は、新しい宛先値を指定します。
-+
-値を指定しない場合は、 IP アドレスファミリーに基づいてデフォルト値が Destination フィールドに入力されます。
-
-
-
-+
-ルートが存在しない場合は、ゲートウェイとデスティネーションに基づいて新しいルートが自動的に作成されます。
-
-.. [OK] をクリックします。
-
-
-|===
-. [ ポートの詳細 * （ Port details * ） ] 領域から必要なポートを選択します。
-. [ 作成（ Create ） ] をクリックします。
 

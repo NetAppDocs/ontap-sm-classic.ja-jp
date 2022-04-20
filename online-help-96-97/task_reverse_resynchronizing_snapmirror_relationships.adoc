@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: reverse, resync, mirror, relationship, system, manager, online, help 
 summary: System Manager を使用して、以前に解除したミラー関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。 
 ---
-= ミラー関係を逆再同期しています
+= System Manager - ONTAP 9.7 以前を使用してミラー関係を逆再同期します
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、以前に解除したミラー関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラー関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。
 
 ソースボリュームはオンラインである必要があります。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resume, mirror, vault, relationship, online, help, system, manager 
 summary: ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。 
 ---
-= ミラーとバックアップ関係を再開しています
+= System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を再開します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。
+ミラーとバックアップ関係が休止中の場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。
 
 解除されたミラーとバックアップ関係をコマンドラインインターフェイス（ CLI ）で休止した場合は、 System Manager で再開することはできません。CLI を使用して関係を再開してください。
 

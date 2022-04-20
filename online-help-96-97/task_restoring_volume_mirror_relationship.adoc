@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: restore, volume, mirror, relationship, snapmirror, online, help, system, manager 
 summary: バージョンに依存しないミラー関係の場合、ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。 
 ---
-= ミラー関係のボリュームのリストア
+= System Manager - ONTAP 9.7 以前のバージョンを使用して、ミラー関係のボリュームをリストアします
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-バージョンに依存しないミラー関係の場合、ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。
+バージョンに依存しないミラー関係の場合、 ONTAP System Manager の従来の機能（ ONTAP 9.7 以前で使用可能）を使用して、ソースデータが破損して使用できなくなった場合に、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。
 
 .作業を開始する前に
 * ソースクラスタとデスティネーションクラスタの両方、またはソースボリュームを含むノードとデスティネーションボリュームを含むノードの両方で、 SnapMirror ライセンスが有効になっている必要があります。

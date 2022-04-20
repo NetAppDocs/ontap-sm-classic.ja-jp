@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: snapmirror, break, relationship, dp, rw, online, help 
 summary: SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。 
 ---
-= SnapMirror 関係を解除します
+= System Manager - ONTAP 9.7 以前を使用して SnapMirror 関係を解除します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。SnapMirror 関係を解除すると、デスティネーションボリュームのタイプが「データ保護」（ DP ）から「読み書き可能」（ RW ）に変わります。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapMirror 関係を解除できます。SnapMirror ソースを使用できなくなり、クライアントアプリケーションからミラーデスティネーションのデータにアクセスできるようにする場合は、 SnapMirror 関係を解除する必要があります。SnapMirror 関係を解除すると、デスティネーションボリュームのタイプが「データ保護」（ DP ）から「読み書き可能」（ RW ）に変わります。
 
 .作業を開始する前に
 * SnapMirror デスティネーションが休止状態またはアイドル状態になっている必要があります。

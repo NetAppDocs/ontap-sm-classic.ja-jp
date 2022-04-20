@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: delete, vault, relationship, system, manager, online, help, snapshot, copy 
 summary: System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のバックアップ関係を終了し、ソースから Snapshot コピーを解放できます。 
 ---
-= バックアップ関係を削除しています
+= System Manager - ONTAP 9.7 以前のバージョンを使用してバックアップ関係を削除します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のバックアップ関係を終了し、ソースから Snapshot コピーを解放できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ソースボリュームとデスティネーションボリュームの間のバックアップ関係を終了し、ソースから Snapshot コピーを解放できます。
 
 関係を解放すると、バックアップ関係で使用されているベース Snapshot コピーがソースボリュームから完全に削除されます。バックアップ関係を再作成するには、コマンドラインインターフェイス（ CLI ）を使用して、ソースボリュームから再同期操作を実行する必要があります。
 

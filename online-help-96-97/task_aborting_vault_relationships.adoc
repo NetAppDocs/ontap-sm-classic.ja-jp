@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: abort, snapshot, copy, transfer, online, help, system, manager 
 summary: System Manager を使用して、現在実行中のデータ転送を中止または停止することができます。 
 ---
-= Snapshot コピーの転送を中止します
+= System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーの転送を中止します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、現在実行中のデータ転送を中止または停止することができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、現在実行中のデータ転送を中止または停止できます。
 
 .手順
 . [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。

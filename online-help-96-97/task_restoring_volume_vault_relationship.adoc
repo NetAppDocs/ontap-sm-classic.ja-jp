@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, restore, volume, vault, relationship, online, help, snapshot, copy 
 summary: ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアします。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。 
 ---
-= バックアップ関係のボリュームのリストア
+= System Manager - ONTAP 9.7 以前のバージョンでバックアップ関係のボリュームをリストアします
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-ソースデータが破損して使用できなくなった場合は、 System Manager を使用して、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアします。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。
+ソースデータが破損して使用できなくなった場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前のバージョンで使用可能）を使用して、ソースボリュームまたはその他のボリュームに Snapshot コピーをリストアできます。元のデータをデスティネーションボリュームの Snapshot コピーで置き換えることができます。
 
 .作業を開始する前に
 * ソースストレージシステムとデスティネーションストレージシステムの両方、またはソースボリュームを含むノードとデスティネーションボリュームを含むノードの両方で、 SnapMirror ライセンスが有効になっている必要があります。

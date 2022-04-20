@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: initialize, vault, relationship, system, manager, flexvol, online, help 
 summary: System Manager を使用して、作成時に初期化していないバックアップ関係を初期化することができます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。 
 ---
-= バックアップ関係を初期化しています
+= System Manager - ONTAP 9.7 以前を使用してバックアップ関係を初期化します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、作成時に初期化していないバックアップ関係を初期化することができます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。
+ONTAP System Manager classic （ ONTAP 9.7 以前で使用可能）を使用して、関係の作成時に初期化していない場合、バックアップ関係を初期化できます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。
 
 ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。
 

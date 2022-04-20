@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resynchronize, mirror, vault, relationships, system, manager, online, help 
 summary: System Manager を使用して、以前に解除したミラーとバックアップ関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。 
 ---
-= ミラーとバックアップ関係を再同期しています
+= System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を再同期します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、以前に解除したミラーとバックアップ関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラーとバックアップ関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。
 
 ソースクラスタとデスティネーションクラスタ、およびソースとデスティネーションの Storage Virtual Machine （ SVM ）でピア関係が確立されている必要があります。
 

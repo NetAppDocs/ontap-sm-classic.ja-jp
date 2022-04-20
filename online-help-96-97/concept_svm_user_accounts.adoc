@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, create, manage, online, help, storage, virtual, machine, svm, user, account, password, change, lock, unlock , command, button 
 summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成および管理できます。 
 ---
-= ユーザ
+= System Manager - ONTAP 9.7 以前を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成して管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成および管理できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成および管理できます。
 
 
 
