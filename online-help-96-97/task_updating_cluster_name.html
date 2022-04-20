@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>クラスタ名を更新しています</title>
+  <title>System Manager - ONTAP 9.7 以前を使用してクラスタをセットアップします</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="クラスタ名を更新しています" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 以前を使用してクラスタをセットアップします" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html" />
 	<meta property="og:description" content="System Manager を使用して、必要に応じてクラスタの名前を変更することができます。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[クラスタ名を更新しています](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_updating_cluster_name.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 以前を使用してクラスタをセットアップします](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_updating_cluster_name.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -5342,21 +5342,34 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">クラスタ名を更新しています</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 以前を使用してクラスタをセットアップします</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
+    <time datetime="2022-04-20 21:51:23 +0000">04/20/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
+<p>ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用してクラスタをセットアップできます。</p>
+</div>
+<div class="paragraph">
+<p>クラスタのセットアップでは、設定情報を収集し、クラスタ管理インターフェイスとノード管理インターフェイスを作成し、ライセンスの追加、クラスタ時間の設定、 HA ペアの監視を行います。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="クラスタ名を更新">クラスタ名を更新</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>System Manager を使用して、必要に応じてクラスタの名前を変更することができます。</p>
 </div>
 <div class="olist arabic">
@@ -5372,6 +5385,335 @@
 <p>クラスタ名の更新 * （ Update Cluster Name * ）ダイアログボックスで、クラスタの新しい名前を指定し、 * 送信 * （ Submit * ）をクリックします。</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="クラスタのパスワードを変更">クラスタのパスワードを変更</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager を使用して、クラスタのパスワードをリセットできます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[ * Configuration * ] &gt; [* Cluster*] &gt; [* Configuration Updates* ] をクリックします。</p>
+</li>
+<li>
+<p>[* Cluster Details* （クラスタの詳細） ] ペインで、 [ * パスワードの変更 * ] をクリックします。</p>
+</li>
+<li>
+<p>[ パスワードの変更 <strong>] ダイアログボックスで、新しいパスワードを指定し、確認のために新しいパスワードを入力し、 [ *Change</strong> ] をクリックします。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="dns-設定を編集します">DNS 設定を編集します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager を使用して、 DNS 設定を一元管理するためのホスト情報を追加できます。ドメイン名や IP アドレスを変更する場合に、 DNS の詳細を変更できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[ * Configuration * ] &gt; [* Cluster*] &gt; [* Configuration Updates* ] をクリックします。</p>
+</li>
+<li>
+<p>[<strong>Cluster Details</strong>] ペインで、 [Edit DNS Configuration*] をクリックします。</p>
+</li>
+<li>
+<p>[DNS Domains] 領域で、 DNS ドメイン名を追加または変更します。</p>
+</li>
+<li>
+<p>[* Name Servers* （ネームサーバ * ） ] 領域で、 IP アドレスを追加または変更します。</p>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="クラスタ管理論理インターフェイスを作成する">クラスタ管理論理インターフェイスを作成する</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager を使用して、クラスタ管理論理インターフェイス（ LIF ）を作成し、クラスタに単一の管理インターフェイスを提供できます。この LIF は、クラスタのあらゆるアクティビティの管理に使用できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[ * Configuration * ] &gt; [* Cluster*] &gt; [* Configuration Updates* ] をクリックします。</p>
+</li>
+<li>
+<p>[* Cluster Details* ] ペインで、 [* Create Cluster-management LIF* ] をクリックします。</p>
+</li>
+<li>
+<p>Create Cluster-Management LIF * ダイアログボックスで、クラスタ管理 LIF の名前を指定します。</p>
+</li>
+<li>
+<p>クラスタ管理 LIF に IP アドレスを割り当てます。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">状況</th>
+<th class="tableblock halign-left valign-top">作業</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>サブネットを使用して IP アドレスを指定します</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>サブネットを使用する * を選択します。</p>
+</li>
+<li>
+<p>Add Details ダイアログボックスで、 IP アドレスを割り当てるサブネットを選択します。</p>
+<div class="paragraph">
+<p>クラスタ間 LIF の場合、選択した IPspace に関連付けられているサブネットだけが表示されます。</p>
+</div>
+</li>
+<li>
+<p>LIF に特定の IP アドレスを割り当てる場合は、「 * 特定の IP アドレスを使用する * 」を選択して、 IP アドレスを入力します。</p>
+<div class="paragraph">
+<p>指定した IP アドレスがサブネット内にない場合、追加されます。</p>
+</div>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>サブネットを使用せずに手動で IP アドレスを指定します</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>サブネットなし * を選択します。</p>
+</li>
+<li>
+<p>[ 詳細の追加 ] ダイアログボックスで、次の手順を実行します。</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>IP アドレスとネットワークマスクまたはプレフィックスを指定します。</p>
+</li>
+<li>
+<p>オプション：ゲートウェイを指定します。</p>
+</li>
+<li>
+<p>Destination フィールドにデフォルト値を使用しない場合は、新しい宛先値を指定します。</p>
+<div class="paragraph">
+<p>値を指定しない場合は、 IP アドレスファミリーに基づいてデフォルト値が Destination フィールドに入力されます。</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>ルートが存在しない場合は、ゲートウェイとデスティネーションに基づいて新しいルートが自動的に作成されます。</p>
+</div>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>[ ポートの詳細 * （ Port details * ） ] 領域から必要なポートを選択します。</p>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ノード名を編集します">ノード名を編集します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager を使用して、必要に応じてノードの名前を変更することができます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[ * Configuration * ] &gt; [* Cluster*] &gt; [* Configuration Updates* ] をクリックします。</p>
+</li>
+<li>
+<p>[ * ノード * ] タブで、名前を変更するノードを選択し、 [ ノード名の編集 ] をクリックします。</p>
+</li>
+<li>
+<p>ノード名の編集 * （ Edit Node Name * ）ダイアログボックスでノードの新しい名前を入力し、 * 送信 * （ Submit * ）をクリックします。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ノード管理論理インターフェイスを作成します">ノード管理論理インターフェイスを作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager を使用して、クラスタ内の特定のノードを管理するための専用のノード管理論理インターフェイス（ LIF ）を作成できます。この LIF は、ノードのシステムメンテナンスを管理するために使用できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[ * Configuration * ] &gt; [* Cluster*] &gt; [* Configuration Updates* ] をクリックします。</p>
+</li>
+<li>
+<p>ノード * タブで、ノード管理 LIF を作成するノードを選択し、 * ノード管理 LIF の作成 * をクリックします。</p>
+</li>
+<li>
+<p>Create Node-Management LIF * ダイアログボックスで、ノード管理 LIF の名前を指定します。</p>
+</li>
+<li>
+<p>ノード管理 LIF に IP アドレスを割り当てます。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">状況</th>
+<th class="tableblock halign-left valign-top">作業</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>サブネットを使用して IP アドレスを指定します</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>サブネットを使用する * を選択します。</p>
+</li>
+<li>
+<p>Add Details ダイアログボックスで、 IP アドレスを割り当てるサブネットを選択します。</p>
+<div class="paragraph">
+<p>クラスタ間 LIF の場合、選択した IPspace に関連付けられているサブネットだけが表示されます。</p>
+</div>
+</li>
+<li>
+<p>LIF に特定の IP アドレスを割り当てる場合は、「 * 特定の IP アドレスを使用する * 」を選択して、 IP アドレスを入力します。</p>
+<div class="paragraph">
+<p>指定した IP アドレスがサブネット内にない場合、追加されます。</p>
+</div>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>サブネットを使用せずに手動で IP アドレスを指定します</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>サブネットなし * を選択します。</p>
+</li>
+<li>
+<p>[ 詳細の追加 ] ダイアログボックスで、次の手順を実行します。</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>IP アドレスとネットワークマスクまたはプレフィックスを指定します。</p>
+</li>
+<li>
+<p>オプション：ゲートウェイを指定します。</p>
+</li>
+<li>
+<p>Destination フィールドにデフォルト値を使用しない場合は、新しい宛先値を指定します。</p>
+<div class="paragraph">
+<p>値を指定しない場合は、 IP アドレスファミリーに基づいてデフォルト値が Destination フィールドに入力されます。</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>ルートが存在しない場合は、ゲートウェイとデスティネーションに基づいて新しいルートが自動的に作成されます。</p>
+</div>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>ポートの詳細 * 領域から必要なポートを選択します。</p>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="次に何をするか">次に何をするか</h3>
+<div class="paragraph">
+<p>既存のノード管理 LIF を削除する場合は、コマンドラインインターフェイス（ CLI ）を使用する必要があります。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="autosupport-の設定を編集します">AutoSupport の設定を編集します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>System Manager を使用して AutoSupport 設定を変更し、 E メール通知の送信に使用する E メールアドレスを指定したり、複数の E メールホスト名を追加したりできます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>* をクリックします<span class="image"><img src="../media/nas_bridge_202_icon_settings_olh_96_97.gif" alt=""></span><strong>&gt;</strong> AutoSupport * 。</p>
+</li>
+<li>
+<p>AutoSupport 設定を変更するノードを選択し、 * 編集 * をクリックします。</p>
+</li>
+<li>
+<p>[<strong>Email Recipient</strong>] タブで、電子メール通知の送信元の電子メールアドレスを入力し、電子メール受信者と各電子メール受信者のメッセージコンテンツを指定してから、メールホストを追加します。</p>
+<div class="paragraph">
+<p>E メールアドレスはホストごとに 5 つまで追加できます。</p>
+</div>
+</li>
+<li>
+<p>[ その他 ] タブで、電子メールメッセージを配信する転送プロトコルを選択し、 HTTP または HTTPS プロキシサーバの詳細を指定します。</p>
+</li>
+<li>
+<p>[OK] をクリックします。</p>
+</li>
+</ol>
+</div>
+</div>
 </div>
 
     </article>
