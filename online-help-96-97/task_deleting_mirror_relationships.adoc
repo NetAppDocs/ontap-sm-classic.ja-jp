@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: delete, mirror, relationships, online, help, snapshot, copy 
 summary: ミラー関係を削除して、ボリュームのソースとデスティネーションの間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。 
 ---
-= ミラー関係を削除しています
+= System Manager - ONTAP 9.7 以前のバージョンを使用してミラー関係を削除します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ミラー関係を削除して、ボリュームのソースとデスティネーションの間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係を削除し、ソースボリュームとデスティネーションボリューム間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。
 
 ミラー関係を削除する前に、その関係を解除することが推奨されます。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: delete, local, windows, group, systems, manager, online, help, svm, rights 
 summary: Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合は、 System Manager を使用して SVM から削除することができます。 
 ---
-= Windows ローカルグループを削除する
+= System Manager - ONTAP 9.7 以前を使用して、ローカル Windows グループを削除します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合は、 System Manager を使用して SVM から削除することができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。 Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合に Storage Virtual Machine （ SVM ）から削除する。
 
 .このタスクについて
 * ローカルグループを削除すると、そのグループのメンバーシップのレコードが削除されます。

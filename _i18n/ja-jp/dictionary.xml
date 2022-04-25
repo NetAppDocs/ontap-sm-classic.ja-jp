@@ -3031,7 +3031,6 @@
   <block id="4a570d9461a3a24f9545013613537a51" category="paragraph">次の図では、 SVM vs3 がポリシーグループ pg2 に割り当てられています。ストレージ階層のオブジェクト（ SVM vs3 ）がポリシーグループに割り当てられているため、ボリューム vol4 またはボリューム vol5 をポリシーグループに割り当てることはできません。</block>
   <block id="8ce995370c9e714eb5c14a96b94ad814" category="summary">System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。</block>
   <block id="d6b3e82d5d3d8841735df1e166044e95" category="doc">Windows ローカルグループにユーザアカウントを追加します</block>
-  <block id="0564dbc035c43056e3635c928371a602" category="paragraph">System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。</block>
   <block id="c453c2ae57359c623decc0fd8b03ae1f" category="paragraph">Windows ローカルグループのメンバーを追加する場合は、次の点に注意する必要があります。</block>
   <block id="92ad10331cf39490bae951d388432656" category="list-text">Windows ローカルグループを別の Windows ローカルグループに追加することはできません。</block>
   <block id="37b8a61b5fe27d9d36d85bb4434aab1e" category="list-text">ユーザ名にスペースを含むユーザアカウントは、 System Manager では追加できません。</block>
@@ -3926,7 +3925,6 @@
   <block id="d214a939449dd420c63eb5e03c605a79" category="list-text">SNMP 設定の編集 * （ Edit SNMP Settings * ）ダイアログボックスで、 * トラップホスト * （ Trap hosts * ）タブを選択し、 * トラップの有効化 * （ * Enable traps * ）チェックボックスを選択または選択解除して、それぞれ SNMP トラップを有効または無効にします。</block>
   <block id="7389ea20d819b1c391f9a10eabd5aad7" category="list-text">SNMP トラップを有効にする場合は、トラップの送信先ホストのホスト名または IP アドレスを追加します。</block>
   <block id="f370a4a148925079b15117f7cd76fe2d" category="summary">データ転送を停止する必要がある場合は、ボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
-  <block id="02ae21f4b0ddb0676206c2c495690f3d" category="doc">ミラーとバックアップ関係を中止しています</block>
   <block id="e7413b72328d779c799ba2723d5ad558" category="list-text">データ転送を停止するミラーとバックアップ関係を選択し、 * Operations * &gt; * Abort * をクリックします。</block>
   <block id="ce99fd1f40a25439cb6244c37ddad5f1" category="list-text">[ 転送を中止する * ] チェックボックスをオンにして、操作を確定します。</block>
   <block id="9b14937d874cffa7b0102b94f2948e6a" category="list-text">転送済みデータを保持する場合は、 * 転送済みデータを保持 * チェックボックスを選択します。</block>
@@ -5794,7 +5792,6 @@
   <block id="f4fad5bde7f7a3d4bb61f5d78a5ea502" category="list-text">ジャンクションパス * ウィンドウの * エクスポートポリシー * 列に、ボリュームに適用したエクスポートポリシーが表示されていることを確認します。</block>
   <block id="4124642190805770b8ea067ef13b67a4" category="paragraph">デフォルトのエクスポートポリシーが選択したエクスポートポリシーに置き換えられます。</block>
   <block id="136dd5d0414a62d4b3656dd07d0e3ed5" category="summary">System Manager を使用して、 Windows ローカルユーザアカウントを編集し、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。</block>
-  <block id="868c5f63dfaa98d3d0269baf4d958a21" category="paragraph">System Manager を使用して、 Windows ローカルユーザアカウントを編集して、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。</block>
   <block id="29085bd39c9a2ab55bafef6a551bde17" category="list-text">[*Users*] タブで、 [*Edit*] をクリックします。</block>
   <block id="a292e6b20e984807fe7fc7fbab57a006" category="list-text">[ ユーザーの変更 *] ウィンドウで、必要な変更を行います。</block>
   <block id="91650f5965ba3fed5dc9af6ebcf68e26" category="paragraph">Windows ローカルユーザアカウントの属性が変更され、 * Users * タブに表示されます。</block>
@@ -7710,7 +7707,6 @@
   <block id="cb225f46cb74898cf3cfedd2c5325eee" category="paragraph">新しいエクスポートポリシーを作成するか、既存のポリシーを選択できます。デフォルトでは、 qtree のエクスポートポリシーは、選択したボリュームのものと同じになります。</block>
   <block id="44187f372172e810c36fd415c4399c59" category="list-text">qtree とユーザクォータのスペース使用制限</block>
   <block id="cdca416bdc3d69f2edc7f12283194616" category="summary">System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。</block>
-  <block id="50f5d074df8e2b372c9d565c9a3e877d" category="paragraph">System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。</block>
   <block id="9f527bf76f30148a40343c0526b8e1e5" category="paragraph">Windows ローカルグループのメンバーを追加または削除するときは、次の点に注意する必要があります。</block>
   <block id="b5c8d2634d49789495b71d677a5e7e2d" category="list-text">special_Everyone グループにユーザを追加したり、このユーザを削除したりすることはできません。</block>
   <block id="71da504c4c1b677d770fba449511d7fc" category="list-text">[ * グループ * ] タブで、 [ * 編集 * ] をクリックします。</block>
@@ -9454,4 +9450,34 @@
   <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラーとバックアップ関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
+  <block id="7fc9d2dac7a3691a556388235669f20b" category="doc">System Manager ONTAP 9.7 以前のバージョンで Windows ローカルユーザアカウントを作成します</block>
+  <block id="9b2dd0ee538f3cddaa6439a695abe2c2" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）に格納されたデータへの SMB 接続経由でのアクセスの認証に使用できる Windows ローカルユーザアカウントを作成できます。Windows ローカルユーザアカウントは、 CIFS セッションを作成する際の認証にも使用できます。</block>
+  <block id="78ea6627cbe9ebae6d874bc681df76f6" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルグループにユーザアカウントを追加します</block>
+  <block id="3a7f7d9913063f7ef0a2e90629eb8ad8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。</block>
+  <block id="f11fdf178e9f4a585ed4c804386ba193" category="doc">System Manager - ONTAP 9.7 以前を使用して、ローカル Windows グループを削除します</block>
+  <block id="f6b214ba0427d69a51c88da91749df47" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。 Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合に Storage Virtual Machine （ SVM ）から削除する。</block>
+  <block id="07fd8f3ebecaf5b0ee6df0eeaacf4cd1" category="doc">System Manager - ONTAP 9.7 以前のバージョンを使用してミラー関係を削除します</block>
+  <block id="2add29dba3f579e7873ffccebda39883" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係を削除し、ソースボリュームとデスティネーションボリューム間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。</block>
+  <block id="650ead9da4264c25a8ec4bac6caf3103" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を初期化します</block>
+  <block id="2d257bc7ad7971ece9f3c5a9f7a360ab" category="paragraph">ミラー関係を開始する際には、関係を初期化する必要があります。関係を初期化すると、ソースボリュームからデスティネーションへのデータのベースライン転送が実行されます。ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、作成時に初期化していないミラー関係を初期化することができます。</block>
+  <block id="54c694780bc0d73c45bd41e05288e37b" category="doc">Windows ローカルグループの名前を System Manager - ONTAP 9.7 以前の名前に変更します</block>
+  <block id="eb95faffa28da69a4bf5e7047d2c7f4c" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、ローカル Windows グループの名前をわかりやすい名前に変更できます。</block>
+  <block id="665c825107a5830a82d2b69e5aeff554" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を中止します</block>
+  <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">データ転送を停止する場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
+  <block id="af744edfa9643645796a3d01c80db4bc" category="doc">System Manager - ONTAP 9.7 以前を使用して、ユーザアカウントにグループメンバーシップを割り当てます</block>
+  <block id="dc70272f593f6af1c12f7efe72a0e330" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、特定のグループに関連付けられている権限をユーザアカウントに割り当てることができます。</block>
+  <block id="0d3bbe8b78353d5562dabcf969cc1dae" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を更新します</block>
+  <block id="1eddf35781858e6d7b51ae77406277d1" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、スケジュールされていないデスティネーションのミラー更新を開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。</block>
+  <block id="48eed03d602d577542605f9afa7f0012" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を編集します</block>
+  <block id="e666de52884b241977ae2e4598f2e051" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、ポリシーまたはスケジュールを作成して、ミラー関係を編集することができます。</block>
+  <block id="a51dbb033d276fe1b15f5efb9a2e6916" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を休止します</block>
+  <block id="6b20144c3e0fa3b348c35e826c79a3f5" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Snapshot コピーを作成する前にミラーデスティネーションを休止して安定した状態にすることができます。休止処理を実行すると、アクティブなミラー転送が完了したあと、ミラーリング関係の以降の転送が実行されなくなります。</block>
+  <block id="85d0833b56faab64ea27240a6f082070" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザのパスワードをリセットします</block>
+  <block id="55e67ad0368005cd9a055b4b179ef69e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ローカルユーザのパスワードをリセットできます。パスワードのリセットは、たとえば、現在のパスワードが漏れた場合やパスワードを忘れた場合などに行います。</block>
+  <block id="66a86df29a3df9220ad1f1c90164d7d6" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザのプロパティを編集します</block>
+  <block id="504f000909a925ba4f74f21133bc0319" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、既存のユーザのフルネームや概要 を変更する場合や、ユーザアカウントを有効または無効にする場合に、 Windows ローカルユーザアカウントを変更できます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。</block>
+  <block id="d839a28bf3542d56602749c26fa7c3f0" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルグループのプロパティを編集します</block>
+  <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加および削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。</block>
+  <block id="1721ba418668b0e222dfb8cb45448455" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザの名前を変更します</block>
+  <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。</block>
 </blocks>

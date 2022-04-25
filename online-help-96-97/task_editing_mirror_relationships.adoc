@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, edit, mirror, relationships, online, help 
 summary: System Manager を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、ポリシーまたはスケジュールを作成して、ミラー関係を編集することができます。 
 ---
-= ミラー関係を編集しています
+= System Manager - ONTAP 9.7 以前を使用してミラー関係を編集します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、ポリシーまたはスケジュールを作成して、ミラー関係を編集することができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、ポリシーまたはスケジュールを作成して、ミラー関係を編集することができます。
 
 .このタスクについて
 * Data ONTAP 8.2.1 のボリュームと ONTAP 8.3 以降のボリュームの間に作成されたミラー関係は編集できません。

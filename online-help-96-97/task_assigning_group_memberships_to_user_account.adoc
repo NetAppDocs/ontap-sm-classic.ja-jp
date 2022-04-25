@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, assign, group, membership, user, account, online, help, system, manager 
 summary: System Manager を使用してユーザアカウントにグループメンバーシップを割り当てることで、特定のグループに関連付けられている権限をユーザに付与することができます。 
 ---
-= ユーザアカウントへのグループメンバーシップの割り当て
+= System Manager - ONTAP 9.7 以前を使用して、ユーザアカウントにグループメンバーシップを割り当てます
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用してユーザアカウントにグループメンバーシップを割り当てることで、特定のグループに関連付けられている権限をユーザに付与することができます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、特定のグループに関連付けられている権限をユーザアカウントに割り当てることができます。
 
 .作業を開始する前に
 * ユーザを追加するグループが存在している必要があります。

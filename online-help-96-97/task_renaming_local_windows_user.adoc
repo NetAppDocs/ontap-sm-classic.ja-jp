@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: rename, local, windows, user, system, manager, online, help 
 summary: System Manager を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。 
 ---
-= Windows ローカルユーザの名前変更
+= System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザの名前を変更します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。
 
 .このタスクについて
 * 新しいユーザ名は前のユーザ名と同じドメインに作成する必要があります。

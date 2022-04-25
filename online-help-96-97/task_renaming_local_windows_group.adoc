@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: rename, local, windows, group, system, manager, online, help 
 summary: System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。 
 ---
-= Windows ローカルグループの名前変更
+= Windows ローカルグループの名前を System Manager - ONTAP 9.7 以前の名前に変更します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。
+ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、ローカル Windows グループの名前をわかりやすい名前に変更できます。
 
 .このタスクについて
 * 新しいグループ名は古いグループ名と同じドメインに作成する必要があります。

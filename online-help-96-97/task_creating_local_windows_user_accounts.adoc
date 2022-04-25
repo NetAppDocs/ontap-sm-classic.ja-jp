@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: create, local, windows, user, account, online, help, system, manager, svm, cifs 
 summary: System Manager を使用して Windows ローカルユーザアカウントを作成し、 Storage Virtual Machine （ SVM ）に格納されたデータに SMB 接続経由でアクセスする際の認証に使用できます。Windows ローカルユーザアカウントは、 CIFS セッションを作成する際の認証にも使用できます。 
 ---
-= Windows ローカルユーザアカウントを作成します
+= System Manager ONTAP 9.7 以前のバージョンで Windows ローカルユーザアカウントを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して Windows ローカルユーザアカウントを作成し、 Storage Virtual Machine （ SVM ）に格納されたデータに SMB 接続経由でアクセスする際の認証に使用できます。Windows ローカルユーザアカウントは、 CIFS セッションを作成する際の認証にも使用できます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）に格納されたデータへの SMB 接続経由でのアクセスの認証に使用できる Windows ローカルユーザアカウントを作成できます。Windows ローカルユーザアカウントは、 CIFS セッションを作成する際の認証にも使用できます。
 
 .作業を開始する前に
 * SVM 用に CIFS サーバが設定されている必要があります。

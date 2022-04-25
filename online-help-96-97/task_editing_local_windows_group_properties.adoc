@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, edit, local, windows, group, properties, active, directory 
 summary: System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。 
 ---
-= Windows ローカルグループのプロパティを編集します
+= System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルグループのプロパティを編集します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。
+ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加および削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。
 
 Windows ローカルグループのメンバーを追加または削除するときは、次の点に注意する必要があります。
 
