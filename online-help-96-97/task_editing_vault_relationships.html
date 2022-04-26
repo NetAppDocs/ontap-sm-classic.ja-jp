@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>System Manager - ONTAP 9.7 以前を使用してバックアップ関係を編集します</title>
+  <title>System Manager - ONTAP 9.7 以前を使用してバックアップ関係を管理します</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="System Manager - ONTAP 9.7 以前を使用してバックアップ関係を編集します" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 以前を使用してバックアップ関係を管理します" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" />
 	<meta property="og:description" content="System Manager を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、新しいポリシーまたはスケジュールを作成して、バックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 以前を使用してバックアップ関係を編集します](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_vault_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 以前を使用してバックアップ関係を管理します](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_vault_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -292,13 +292,13 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -5342,22 +5342,32 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を編集します</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を管理します</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-20 21:51:23 +0000">04/20/2022</time>
+    <time datetime="2022-04-26 20:49:02 +0000">04/26/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、新しいポリシーまたはスケジュールを作成して、バックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。</p>
+<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション SVM からバックアップ関係を作成するだけでなく、バックアップ関係を更新、再開、休止、初期化、および削除できます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="関係を編集します">関係を編集します</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、新しいポリシーまたはスケジュールを作成して、バックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。</p>
 </div>
 <div class="paragraph">
 <p>ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。</p>
@@ -5513,6 +5523,391 @@
 </div>
 <div class="paragraph">
 <p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="関係を初期化">関係を初期化</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、作成時に初期化していないバックアップ関係を初期化することができます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。</p>
+</div>
+<div class="paragraph">
+<p>ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
+</li>
+<li>
+<p>初期化する関係を選択し、 * Operations * &gt; * Initialize * をクリックします。</p>
+</li>
+<li>
+<p>[* Initialize （初期化） ] ウィンドウで、 [* Initialize （初期化） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Snapshot コピーが作成されてデスティネーションに転送されます。</p>
+</div>
+<div class="paragraph">
+<p>この Snapshot コピーは、以降の差分 Snapshot コピーのベースラインとして使用されます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="デスティネーション-svm-から関係を作成">デスティネーション SVM から関係を作成</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、バックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。</p>
+</div>
+<div class="ulist">
+<div class="title">作業を開始する前に</div>
+<ul>
+<li>
+<p>ソースクラスタで ONTAP 8.2.2 以降が実行されている必要があります。</p>
+</li>
+<li>
+<p>ソースクラスタとデスティネーションクラスタの両方で SnapVault ライセンスまたは SnapMirror ライセンスが有効になっている必要があります。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>一部のプラットフォームでは、デスティネーションクラスタで SnapVault ライセンスまたは SnapMirror ライセンスに加えて DPO ライセンスが有効になっていれば、ソースクラスタで SnapVault ライセンスまたは SnapMirror ライセンスが有効になっていなくてもかまいません。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。</p>
+</li>
+<li>
+<p>デスティネーション SVM の使用可能なスペースを確保する必要があります。</p>
+</li>
+<li>
+<p>ソースアグリゲートとデスティネーションアグリゲートはどちらも 64 ビットである必要があります。</p>
+</li>
+<li>
+<p>読み書き可能（ rw ）タイプのソースボリュームを用意しておく必要があります。</p>
+</li>
+<li>
+<p>バックアップ（ XDP ）ポリシーが存在する必要があります。</p>
+<div class="paragraph">
+<p>バックアップポリシーが存在しない場合は、新規に作成するか、自動的に割り当てられるデフォルトのバックアップポリシー（ XDPDefault ）を使用する必要があります。</p>
+</div>
+</li>
+<li>
+<p>FlexVol ボリュームがオンラインであり、読み取り / 書き込み可能である必要があります。</p>
+</li>
+<li>
+<p>SnapLock アグリゲートのタイプが同じである必要があります。</p>
+</li>
+<li>
+<p>ONTAP 9.2 以前のバージョンを実行しているクラスタから SAML 認証が有効になっているリモートクラスタに接続する場合は、リモートクラスタでパスワードベースの認証を有効にする必要があります。</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">このタスクについて</div>
+<ul>
+<li>
+<p>System Manager ではカスケード関係はサポートされません。</p>
+<div class="paragraph">
+<p>たとえば、関係のデスティネーションボリュームを別の関係のソースボリュームにすることはできません。</p>
+</div>
+</li>
+<li>
+<p>MetroCluster 構成の同期元の SVM と同期先の SVM の間にバックアップ関係を作成することはできません。</p>
+</li>
+<li>
+<p>MetroCluster 構成の同期元の SVM 間にバックアップ関係を作成できます。</p>
+</li>
+<li>
+<p>同期元の SVM のボリュームからデータ提供用の SVM のボリュームへのバックアップ関係を作成できます。</p>
+</li>
+<li>
+<p>データ提供用の SVM のボリュームから同期元の SVM のデータ保護（ DP ）ボリュームへのバックアップ関係を作成できます。</p>
+</li>
+<li>
+<p>バックアップ関係は、 SnapLock 以外のボリューム（プライマリ）と SnapLock のデスティネーションボリューム（セカンダリ）の間でのみ作成できます。</p>
+</li>
+<li>
+<p>一度に保護できるボリュームは最大 25 個です。</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
+</li>
+<li>
+<p>[ リレーションシップ *] ウィンドウで、 [ 作成 *] をクリックします。</p>
+</li>
+<li>
+<p>[* SVM を参照 * ] ダイアログボックスで、デスティネーションボリュームの SVM を選択します。</p>
+</li>
+<li>
+<p>[ 保護関係の作成 * （ Create Protection Relationship Relationship * ） ] ダイアログボックスで、 [ 関係タイプ * （ Relationship Type * ） ] ドロップダウンリストから [ * ボールト * （ * Vault * ） ] を選択する。</p>
+</li>
+<li>
+<p>クラスタ、 SVM 、およびソースボリュームを指定します。</p>
+<div class="paragraph">
+<p>指定したクラスタで ONTAP 9.3 より前のバージョンの ONTAP ソフトウェアが実行されている場合、ピア関係が設定された SVM だけが表示されます。指定したクラスタで ONTAP 9.3 以降が実行されている場合は、ピア関係が設定された SVM と許可された SVM が表示されます。</p>
+</div>
+</li>
+<li>
+<p>ボリューム名サフィックスを入力します。</p>
+<div class="paragraph">
+<p>ボリューム名サフィックスをソースボリュームの名前に追加したものがデスティネーションボリュームの名前として使用されます。</p>
+</div>
+</li>
+<li>
+<p>SnapLock ボリュームを作成する場合は、デフォルトの保持期間を指定します。</p>
+<div class="paragraph">
+<p>デフォルトの保持期間は、 1~70 年、または Infinite Volume の任意の値に設定できます。</p>
+</div>
+</li>
+<li>
+<p>* 参照 * をクリックし、バックアップポリシーを変更します。</p>
+</li>
+<li>
+<p>既存のスケジュールのリストから関係のスケジュールを選択します。</p>
+</li>
+<li>
+<p>バックアップ関係を初期化するには、 * Initialize Relationship * を選択します。</p>
+</li>
+<li>
+<p>SnapLock アグリゲートを有効にし、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを選択します。</p>
+</li>
+<li>
+<p>FabricPool 対応アグリゲートを有効にし、適切な階層化ポリシーを選択します。</p>
+</li>
+<li>
+<p>選択したボリュームでラベルが一致するかどうかを確認するには、 * Validate * をクリックします。</p>
+</li>
+<li>
+<p>[ 作成（ Create ） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>デスティネーションボリュームを作成するように選択した場合は、タイプが _dp_is のボリュームが次のデフォルト設定で作成されます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>自動拡張は有効になります。</p>
+</li>
+<li>
+<p>重複排除はユーザの設定に応じて有効または無効になります。設定しない場合は、ソースボリュームの設定と同じになります。</p>
+</li>
+<li>
+<p>圧縮は無効になります。</p>
+</li>
+<li>
+<p>言語属性はソースボリュームと同じになります。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>デスティネーションボリュームとソースボリュームの間のバックアップ関係が作成されます。関係を初期化するように選択した場合は、ベース Snapshot コピーがデスティネーションボリュームに転送されます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="関係を更新します">関係を更新します</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、スケジュールされていない差分更新を手動で開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。</p>
+</div>
+<div class="paragraph">
+<p>バックアップ関係を初期化しておく必要があります。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
+</li>
+<li>
+<p>データを更新する関係を選択し、 * Operations * &gt; * Update * をクリックします。</p>
+</li>
+<li>
+<p>次のいずれかのオプションを選択します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>「ポリシーに従う」を選択し、ソースボリュームとデスティネーションボリュームの間の最新の共通の Snapshot コピーから差分転送を実行します。</p>
+</li>
+<li>
+<p>Select Snapshot copy * を選択し、転送する Snapshot コピーを指定します。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>転送に使用するネットワーク帯域幅を制限し、最大転送速度を指定するには、「 * 転送帯域幅を * に制限」を選択します。</p>
+</li>
+<li>
+<p>[ 更新（ Update ） ] をクリックします。</p>
+</li>
+<li>
+<p>[ * 詳細 * ] タブで転送ステータスを確認します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="関係を削除します">関係を削除します</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、ソースボリュームとデスティネーションボリュームの間のバックアップ関係を終了し、ソースから Snapshot コピーを解放できます。</p>
+</div>
+<div class="paragraph">
+<p>関係を解放すると、バックアップ関係で使用されているベース Snapshot コピーがソースボリュームから完全に削除されます。バックアップ関係を再作成するには、コマンドラインインターフェイス（ CLI ）を使用して、ソースボリュームから再同期操作を実行する必要があります。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
+</li>
+<li>
+<p>バックアップ関係を削除するボリュームを選択し、 * 削除 * をクリックします。</p>
+</li>
+<li>
+<p>確認のチェックボックスをオンにし、 * 削除 * をクリックします。</p>
+<div class="paragraph">
+<p>ベース Snapshot コピーを解放するチェックボックスを選択すると、バックアップ関係に使用されているベース Snapshot コピーもソースボリュームから削除できます。</p>
+</div>
+<div class="paragraph">
+<p>関係を解放せずに、バックアップ関係に対して作成されたベース Snapshot コピーをソースボリュームから削除するには、 CLI を使用してソースクラスタに対して解放処理を実行する必要があります。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="関係を再開">関係を再開</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、休止中のバックアップ関係を再開できます。関係を再開すると、デスティネーション FlexVol ボリュームへの通常のデータ転送が再開され、バックアップアクティビティもすべて再開されます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
+</li>
+<li>
+<p>データ転送を再開する関係を選択し、 * Operations * &gt; * Resume * をクリックします。</p>
+</li>
+<li>
+<p>[* Resume （続行） ] ウィンドウで、 [* Resume （続行） ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>通常のデータ転送が再開されます。関係に対して転送がスケジュールされている場合、その転送は次回のスケジュールから開始されます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="関係を休止します">関係を休止します</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>System Manager を使用して、バックアップ関係を休止することでデスティネーション FlexVol へのデータ転送を無効にすることができます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
+</li>
+<li>
+<p>スケジュールされたデータ転送を停止する関係を選択し、 * Operations * &gt; * Quiesce * をクリックします。</p>
+</li>
+<li>
+<p>[ * 休止 ] ウィンドウで、 [ * 休止 ] をクリックします。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>実行中の転送がない場合、転送ステータスは Quiesced と表示されます。転送が進行中の場合、転送は影響を受けず、転送が完了するまで転送ステータスは Quiescing と表示されます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>関連情報 *</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+</div>
+</div>
 </div>
 
     </article>

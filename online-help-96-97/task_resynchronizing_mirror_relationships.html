@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>System Manager - ONTAP 9.7 以前を使用してミラー関係を再同期します</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="System Manager - ONTAP 9.7 以前を使用してミラー関係を再同期します" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" />
-	<meta property="og:description" content="以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。">
-  <meta name="keywords" content=" resync, mirror, relationship, operation, online, help"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/ja-jp/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -53,6 +53,9 @@
   <link rel="stylesheet" href="/ja-jp/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
   <!-- Canonical url -->
   <link rel='stylesheet' href='/ja-jp/ontap-sm-classic/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    pageRedirect("https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html");
+    function pageRedirect(url) { location.href = url; }
+  </script><script>
     if (document.location.hostname === "docs.netapp.com") {
       var head = document.getElementsByTagName('head')[0];
       var onetrustConsent = document.createElement("script");
@@ -169,7 +172,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 以前を使用してミラー関係を再同期します](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_resynchronizing_mirror_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_resynchronizing_mirror_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/ontap-sm-classic/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -292,13 +295,13 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_resynchronizing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -5342,87 +5345,23 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 以前を使用してミラー関係を再同期します</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-20 21:51:23 +0000">04/20/2022</time>
+    <time datetime="2022-04-26 20:49:02 +0000">04/26/2022</time>
     
   
 
 
 </p>
 
-<div class="paragraph lead">
-<p>ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。</p>
-</div>
 <div class="paragraph">
-<p>ソースクラスタとデスティネーションクラスタ、およびソース SVM とデスティネーション SVM でピア関係が確立されている必要があります。</p>
-</div>
-<div class="ulist">
-<div class="title">このタスクについて</div>
-<ul>
-<li>
-<p>再同期操作を実行すると、ミラーデスティネーションの内容がソースボリュームの内容で上書きされます。</p>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注記">
-</td>
-<td class="content">
-<div class="ulist">
-<ul>
-<li>
-<p>SnapLock 準拠ボリュームでは、アクティブファイルシステム内で共通の Snapshot コピーに関連するデータ変更は、現在のボリュームに設定されている有効期限まではロックされた Snapshot コピーに保持されます。</p>
-<div class="paragraph">
-<p>ボリュームの有効期限がすでに過ぎているか設定されていない場合は、 Snapshot コピーおよび共通の Snapshot コピーが 30 日間ロックされます。共通の Snapshot コピーからロックされた最新の Snapshot コピーまでの間の中間の Snapshot コピーはすべて削除されます。</p>
-</div>
-</li>
-<li>
-<p>SnapLock Compliance ボリューム以外のボリュームでは、ベースの Snapshot コピーが作成されたあとにデスティネーションボリュームに書き込まれた新しいデータが原因によって失われる可能性があります。</p>
-</li>
-</ul>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li>
-<p>Protection ウィンドウの Last Transfer Error フィールドで再同期操作を実行するように推奨された場合は、まず関係を解除してから再同期処理を実行する必要があります。</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">手順</div>
-<ol class="arabic">
-<li>
-<p>[* 保護 <strong>&gt;] 、 [</strong> ボリューム関係 *] の順にクリックします。</p>
-</li>
-<li>
-<p>再同期するミラー関係を選択します。</p>
-</li>
-<li>
-<p>[* Operations] * &gt; [* Resync] をクリックします。</p>
-</li>
-<li>
-<p>確認のチェックボックスをオンにし、 * Resync * をクリックします。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>関連情報 *</p>
-</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p><a href="reference_protection_window.html">保護ウィンドウ</a></p>
+<p>=
+:allow-uri-read:</p>
 </div>
 
     </article>
