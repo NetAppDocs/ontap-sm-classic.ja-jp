@@ -1,28 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_mirror_relationships.html 
-sidebar: sidebar 
-keywords: delete, mirror, relationships, online, help, snapshot, copy 
-summary: ミラー関係を削除して、ボリュームのソースとデスティネーションの間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= System Manager - ONTAP 9.7 以前のバージョンを使用してミラー関係を削除します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係を削除し、ソースボリュームとデスティネーションボリューム間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。
-
-ミラー関係を削除する前に、その関係を解除することが推奨されます。
-
-.手順
-. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
-. 削除するミラー関係を選択し、 * Delete * をクリックします。
-. 確認のチェックボックスを選択してミラー関係を削除し、ベース Snapshot コピーを解放して、 * Delete * をクリックします。
-
-
-関係が削除され、ソースボリュームのベース Snapshot コピーが削除されます。
-
-* 関連情報 *
-
-xref:reference_protection_window.adoc[保護ウィンドウ]

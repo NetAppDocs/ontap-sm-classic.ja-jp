@@ -1,33 +1,8 @@
 ---
 permalink: online-help-96-97/task_reverse_resynchronizing_mirror_vault_relationships.html 
-sidebar: sidebar 
-keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, online, help 
-summary: System Manager を使用して、以前に解除したミラーとバックアップ関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。デスティネーションボリュームでデータを提供しながら、ソースを修理または交換したり、ソースを更新したり、システムの元の構成を再確立したりできます。 
+redirect: online-help-96-97/task_editing_mirror_vault_relationships.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用してミラーとバックアップ関係を逆再同期します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラーとバックアップ関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。デスティネーションボリュームでデータを提供しながら、ソースを修理または交換したり、ソースを更新したり、システムの元の構成を再確立したりできます。
-
-ソースボリュームはオンラインである必要があります。
-
-.このタスクについて
-* 逆再同期を実行すると、ソースボリュームの内容がデスティネーションボリュームの内容で上書きされます。
-+
-[NOTE]
-====
-逆再同期処理を実行すると、ソースボリュームで原因のデータが失われる可能性があります。
-
-====
-* 逆再同期の実行時は、関係のポリシーが MirrorAndVault に設定され、スケジュールが None に設定されます。
-
-
-.手順
-. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
-. 反転するミラーとバックアップ関係を選択し、 * Operations * > * Reverse Resync * をクリックします。
-. 確認のチェックボックスをオンにし、 * 逆再同期 * をクリックします。
 

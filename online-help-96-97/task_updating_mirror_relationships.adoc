@@ -1,34 +1,8 @@
 ---
 permalink: online-help-96-97/task_updating_mirror_relationships.html 
-sidebar: sidebar 
-keywords: online, help, update, mirror, relationship, unscheduled 
-summary: スケジュールされていないデスティネーションのミラー更新を開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用してミラー関係を更新します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、スケジュールされていないデスティネーションのミラー更新を開始できます。予定された停電、スケジュールされた保守、またはデータ移行によるデータ損失を防ぐために、手動更新が必要になる場合があります。
-
-ミラー関係は SnapMirror 済みの状態である必要があります。
-
-.手順
-. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
-. データを更新するミラー関係を選択し、 * Operations * > * Update * をクリックします。
-. 次のいずれかのオプションを選択します。
-+
-** ソースボリュームとデスティネーションボリュームの間の最新の共通の Snapshot コピーに基づく差分転送を実行するには、「 * on demand * 」を選択します。
-** Select Snapshot copy * を選択し、転送する Snapshot コピーを指定します。
-
-
-. 転送に使用するネットワーク帯域幅を制限するには、「 * 転送帯域幅を * に制限」を選択し、最大転送速度を指定します。
-. [ 更新（ Update ） ] をクリックします。
-. [ * 詳細 * ] タブで転送ステータスを確認します。
-
-
-* 関連情報 *
-
-xref:reference_protection_window.adoc[保護ウィンドウ]

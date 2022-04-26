@@ -1,30 +1,8 @@
 ---
 permalink: online-help-96-97/task_initializing_vault_relationships.html 
-sidebar: sidebar 
-keywords: initialize, vault, relationship, system, manager, flexvol, online, help 
-summary: System Manager を使用して、作成時に初期化していないバックアップ関係を初期化することができます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用してバックアップ関係を初期化します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager classic （ ONTAP 9.7 以前で使用可能）を使用して、関係の作成時に初期化していない場合、バックアップ関係を初期化できます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。
-
-ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。
-
-.手順
-. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
-. 初期化する関係を選択し、 * Operations * > * Initialize * をクリックします。
-. [* Initialize （初期化） ] ウィンドウで、 [* Initialize （初期化） ] をクリックします。
-
-
-Snapshot コピーが作成されてデスティネーションに転送されます。
-
-この Snapshot コピーは、以降の差分 Snapshot コピーのベースラインとして使用されます。
-
-* 関連情報 *
-
-xref:reference_protection_window.adoc[保護ウィンドウ]

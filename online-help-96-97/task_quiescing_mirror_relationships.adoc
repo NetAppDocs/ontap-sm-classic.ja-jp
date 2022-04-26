@@ -1,27 +1,8 @@
 ---
 permalink: online-help-96-97/task_quiescing_mirror_relationships.html 
-sidebar: sidebar 
-keywords: quiesce, mirror, relationship, system, manager, online, help 
-summary: System Manager を使用して、 Snapshot コピーを作成する前にミラーデスティネーションを休止して、安定した状態にすることができます。休止処理を実行すると、アクティブなミラー転送が完了したあと、ミラーリング関係の以降の転送が実行されなくなります。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用してミラー関係を休止します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Snapshot コピーを作成する前にミラーデスティネーションを休止して安定した状態にすることができます。休止処理を実行すると、アクティブなミラー転送が完了したあと、ミラーリング関係の以降の転送が実行されなくなります。
-
-休止できるのは、 SnapMirror 済み状態のミラー関係のみです。
-
-.手順
-. [* 保護 *>] 、 [* ボリューム関係 *] の順にクリックします。
-. 休止するミラー関係を選択します。
-. [* 操作 *>] [ * 休止 ] をクリックします。
-. 確認のチェックボックスをオンにし、 * 休止 * をクリックします。
-
-
-* 関連情報 *
-
-xref:reference_protection_window.adoc[保護ウィンドウ]
