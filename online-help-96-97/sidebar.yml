@@ -40,27 +40,10 @@ entries:
   url: "/online-help-96-97/task_configuring_system_manager_options.html"
 - title: ONTAP System Manager ログファイルを表示します
   url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-- title: System Manager を使用してクラスタを設定する
-  url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
-  entries:
-  - title: ONTAP System Manager のブラウザベースのグラフィカルインターフェイスを使用してクラスタにアクセスします
-    url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
 - title: クラスタをセットアップする
   entries:
-  - title: クラスタ名を更新
+  - title: クラスタをセットアップする
     url: "/online-help-96-97/task_updating_cluster_name.html"
-  - title: クラスタのパスワードを変更
-    url: "/online-help-96-97/task_changing_password.html"
-  - title: DNS 設定を編集します
-    url: "/online-help-96-97/task_editing_dns_configurations.html"
-  - title: クラスタ管理論理インターフェイスを作成する
-    url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-  - title: ノード名を編集します
-    url: "/online-help-96-97/task_editing_node_name.html"
-  - title: ノード管理論理インターフェイスを作成します
-    url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-  - title: AutoSupport の設定を編集します
-    url: "/online-help-96-97/task_editing_autosupport_settings.html"
   - title: ライセンスを追加します
     url: "/online-help-96-97/task_adding_licenses.html"
   - title: クラスタのタイムゾーンを設定します
@@ -77,17 +60,6 @@ entries:
     url: "/online-help-96-97/task_zeroing_disks.html"
   - title: アグリゲートを使用したストレージのプロビジョニング
     url: "/online-help-96-97/task_provisioning_storage_through_aggregates.html"
-    entries:
-    - title: ストレージの推奨事項に基づいてアグリゲートを作成してストレージをプロビジョニングする
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html"
-    - title: アグリゲートを手動で作成してストレージをプロビジョニングする
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html"
-    - title: Flash Pool アグリゲートを手動で作成してストレージをプロビジョニングする
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html"
-    - title: SnapLock アグリゲートを手動で作成してストレージをプロビジョニングする
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
-    - title: FabricPool 対応アグリゲートを手動で作成してストレージをプロビジョニングする
-      url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
 - title: SVMs を作成します
   url: "/online-help-96-97/task_creating_svms.html"
   entries:
@@ -110,24 +82,10 @@ entries:
 - title: ピアリングをセットアップする
   url: "/online-help-96-97/task_setting_up_peering.html"
 - title: クラスタを管理します
-  url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
   entries:
-  - title: クォーラムとイプシロンについて理解する
-    url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
   - title: ダッシュボードウィンドウ
     url: "/online-help-96-97/reference_dashboard_window.html"
-    entries:
-    - title: ダッシュボードを使用してクラスタを監視する
-      url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
-  - title: 設定の更新
-    url: "/online-help-96-97/concept_configuration_update.html"
-    entries:
-    - title: SVM 管理の詳細を設定します
-      url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-    - title: "[ 構成の更新 ] ウィンドウ"
-      url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster のスイッチオーバーとスイッチバック
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
     entries:
     - title: MetroCluster のスイッチオーバーとスイッチバックのワークフロー
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -221,7 +179,6 @@ entries:
 - title: FC / FCoE アダプタと NVMe アダプタ
   url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
 - title: ストレージ階層
-  url: "/online-help-96-97/task_editing_aggregates.html"
   entries:
   - title: アグリゲートを編集する
     url: "/online-help-96-97/task_editing_aggregates.html"
@@ -593,8 +550,7 @@ entries:
   url: "/online-help-96-97/concept_roles_delete.html"
 - title: "「 UNIX 」"
   url: "/online-help-96-97/concept_unix.html"
-- title: Windows ローカルグループを作成します
-  url: "/online-help-96-97/task_creating_local_user_group.html"
+- title: Windows の場合
   entries:
   - title: Windows ローカルグループを作成します
     url: "/online-help-96-97/task_creating_local_user_group.html"
@@ -632,16 +588,8 @@ entries:
       url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
     - title: ミラー関係を削除します
       url: "/online-help-96-97/task_deleting_mirror_relationships.html"
-    - title: ミラー関係を編集します
+    - title: ミラー関係を管理します
       url: "/online-help-96-97/task_editing_mirror_relationships.html"
-    - title: ミラー関係を初期化
-      url: "/online-help-96-97/task_initializing_mirror_relationships.html"
-    - title: ミラー関係を更新する
-      url: "/online-help-96-97/task_updating_mirror_relationships.html"
-    - title: ミラー関係を休止しています
-      url: "/online-help-96-97/task_quiescing_mirror_relationships.html"
-    - title: ミラー関係を再開
-      url: "/online-help-96-97/task_resuming_mirror_relationships.html"
     - title: SnapMirror 関係を解除します
       url: "/online-help-96-97/task_breaking_snapmirror_relationships.html"
     - title: ミラー関係を再同期
