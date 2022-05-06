@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: snapshot, manager, system, create, manage, policy, storage, online, help 
 summary: System Manager を使用して、ストレージシステムの Snapshot ポリシーを作成および管理できます。 
 ---
-= Snapshot ポリシー
+= System Manager - ONTAP 9.7以前を使用してSnapshotポリシーを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager を使用して、ストレージシステムの Snapshot ポリシーを作成および管理できます。
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ストレージシステム内のSnapshotポリシーを作成および管理できます。
 
 
 

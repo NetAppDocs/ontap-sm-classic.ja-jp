@@ -9443,4 +9443,10 @@
   <block id="94abed87672787fb153772c9fb63614e" category="section-title">関係を解除します</block>
   <block id="14a98e8a343b35168e84061fb6deab29" category="paragraph">ミラーとバックアップ関係が休止中の場合、 System Manager を使用して関係を再開できます。関係を再開すると、デスティネーションボリュームへの通常のデータ転送が再開され、保護アクティビティもすべて再開されます。</block>
   <block id="5a1525d50d3d3d93a88bf7e478ee0f10" category="sidebar">ミラー関係を管理します</block>
+  <block id="b7ec724705dfb51c3e3d8c7338ee51cc" category="doc">System Manager - ONTAP 9.7以前を使用して保護ポリシーを管理します</block>
+  <block id="121e126ccb3ed9f1bd655bd54fdcda6f" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、保護ポリシーを作成、編集、削除できます。</block>
+  <block id="811e46b365614dad2afccbb5744217f7" category="doc">System Manager - ONTAP 9.7以前を使用してSnapshotポリシーを管理します</block>
+  <block id="92526cba00250769d0d0d584b6d93ce4" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ストレージシステム内のSnapshotポリシーを作成および管理できます。</block>
+  <block id="f3400c7c7f134d2f8f2f30b279b5c285" category="doc">System Manager - ONTAP 9.7以前を使用してスケジュールを管理します</block>
+  <block id="c934845b8edbac9b1640d3a858f83f4a" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ストレージシステムのスケジュールを作成および管理できます。</block>
 </blocks>
