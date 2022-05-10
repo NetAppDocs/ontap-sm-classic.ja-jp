@@ -15,6 +15,14 @@ ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用
 
 
 
+== Snapshot ポリシーについて
+
+Snapshot ポリシーはボリュームに適用されるポリシーで、 Snapshot コピーを作成するスケジュールと各スケジュールで作成可能な Snapshot コピーの最大数を指定します。Snapshot ポリシーには最大 5 つのスケジュールが含まれます。
+
+バックアップ関係では、 SnapMirror ラベル属性を使用して、ソースボリュームから Snapshot コピーが選択されます。バックアップポリシールールで設定されたラベルを持つ Snapshot コピーだけが SnapVault 処理でレプリケートされます。ソースボリュームに割り当てる Snapshot ポリシーに SnapMirror ラベル属性を含める必要があります。
+
+
+
 == Snapshot ポリシーを作成する
 
 System Manager で Snapshot ポリシーを作成して、自動的に作成される Snapshot コピーの最大数と頻度を指定できます。
@@ -53,14 +61,6 @@ System Manager を使用して Snapshot ポリシーを削除できます。1 �
 . Snapshot ポリシーを選択し、 * Delete * をクリックします。
 . 確認のチェックボックスをオンにし、 * 削除 * をクリックします。
 
-
-
-
-== Snapshot ポリシーについて
-
-Snapshot ポリシーはボリュームに適用されるポリシーで、 Snapshot コピーを作成するスケジュールと各スケジュールで作成可能な Snapshot コピーの最大数を指定します。Snapshot ポリシーには最大 5 つのスケジュールが含まれます。
-
-バックアップ関係では、 SnapMirror ラベル属性を使用して、ソースボリュームから Snapshot コピーが選択されます。バックアップポリシールールで設定されたラベルを持つ Snapshot コピーだけが SnapVault 処理でレプリケートされます。ソースボリュームに割り当てる Snapshot ポリシーに SnapMirror ラベル属性を含める必要があります。
 
 
 

@@ -144,8 +144,6 @@ entries:
     url: "/online-help-96-97/task_updating_single_node_clusters.html"
   - title: クラスタを無停止で更新
     url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-  - title: クラスタを無停止で更新
-    url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
   - title: クラスタの更新ウィンドウ
     url: "/online-help-96-97/reference_cluster_update_window.html"
 - title: クラスタの日付と時刻の設定
@@ -200,8 +198,6 @@ entries:
     url: "/online-help-96-97/task_viewing_aggregate_information.html"
   - title: StorageGRID を使用する場合の CA 証明書のインストール
     url: "/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html"
-  - title: FlexVol ボリュームの移動の仕組み
-    url: "/online-help-96-97/concept_how_moving_volume_works.html"
   - title: 実質的 ONTAP ディスクタイプを使用して HDD を混在させる方法
     url: "/online-help-96-97/reference_effective_data_ontap_disk_types.html"
   - title: 互換性のあるスペアディスクとは
@@ -210,10 +206,6 @@ entries:
     url: "/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html"
   - title: ディスクタイプおよびディスク rpm の表示ルール
     url: "/online-help-96-97/concept_rules_for_mixing_disk_types_disk_rpms.html"
-  - title: ミラーされたアグリゲートの機能
-    url: "/online-help-96-97/concept_how_mirrored_aggregates_work.html"
-  - title: FabricPool とは
-    url: "/online-help-96-97/concept_what_fabricpool_is.html"
   - title: アグリゲートの作成に関するストレージの推奨事項
     url: "/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html"
   - title: ストレージ階層ウィンドウに戻ります
@@ -226,21 +218,14 @@ entries:
   url: "/online-help-96-97/concept_storage_pools.html"
 - title: ノードへのディスクの再割り当て
   url: "/online-help-96-97/task_reassigning_disks_to_nodes.html"
+- title: ディスク
   entries:
   - title: ディスク情報を表示します
     url: "/online-help-96-97/task_viewing_disk_information.html"
   - title: ONTAP で使用されるディスクタイプ名
     url: "/online-help-96-97/concept_how_ontap_reports_drive_types.html"
-  - title: ディスクに最低限必要なホットスペアの数
-    url: "/online-help-96-97/concept_minimum_number_hot_spares_you_should_have.html"
-  - title: マルチディスクキャリアのディスクのスペアに関する要件
-    url: "/online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html"
-  - title: マルチディスクキャリアのストレージシェルフのシェルフ構成に関する要件
-    url: "/online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html"
   - title: マルチディスクキャリアを安全に取り外せるかどうかを確認します
     url: "/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html"
-  - title: RAID グループのサイジングに関する考慮事項
-    url: "/online-help-96-97/concept_considerations_for_sizing_raid_groups.html"
   - title: ディスクウィンドウ
     url: "/online-help-96-97/reference_disks_window.html"
 - title: アレイ LUN
@@ -259,8 +244,6 @@ entries:
   url: "/online-help-96-97/concept_jobs.html"
 - title: Flash Pool 統計情報
   url: "/online-help-96-97/concept_flash_pool_statistics.html"
-- title: 論理ストレージを管理します
-  url: "/online-help-96-97/concept_managing_logical_storage.html"
 - title: SVM のダッシュボードウィンドウ
   url: "/online-help-96-97/reference_svm_dashboard_window.html"
   entries:
@@ -278,8 +261,6 @@ entries:
     url: "/online-help-96-97/reference_managing_svms.html"
   - title: ファイルアクセスのトレースによる SVM のアクセスエラー診断
     url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-  - title: SVMs のタイプ
-    url: "/online-help-96-97/concept_types_svms.html"
   - title: SVM の使用目的
     url: "/online-help-96-97/concept_why_you_use_svms.html"
   - title: ONTAP のネームサービススイッチ設定の仕組み
@@ -333,9 +314,6 @@ entries:
     url: "/online-help-96-97/task_running_deduplication_operations.html"
   - title: アグリゲート間またはノード間で FlexVol ボリュームを移動する
     url: "/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html"
-    entries:
-    - title: ボリューム移動のための手動でのカットオーバーのトリガー
-      url: "/online-help-96-97/task_manually_triggering_cutover_phase.html"
   - title: ストレージ QoS にボリュームを割り当てます
     url: "/online-help-96-97/task_assigning_volumes_to_storage_qos.html"
   - title: ソース SVM からミラー関係を作成
@@ -376,28 +354,12 @@ entries:
     url: "/online-help-96-97/task_changing_status_flexcache_volume.html"
   - title: FlexCache ボリュームを削除します
     url: "/online-help-96-97/task_deleting_flexcache_volumes.html"
-  - title: NetApp Volume Encryption とは
-    url: "/online-help-96-97/concept_what_netapp_volume_encryption_is.html"
-  - title: Snapshot 設定
-    url: "/online-help-96-97/concept_snapshot_configuration.html"
   - title: FlexVol のボリュームギャランティの動作
     url: "/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html"
-  - title: FlexClone ボリュームとスペースギャランティ
-    url: "/online-help-96-97/concept_flexclone_volumes_space_guarantees.html"
-  - title: FlexVol ボリュームを使用したシンプロビジョニングによる効率化
-    url: "/online-help-96-97/concept_thin_provisioning_for_greater_efficiencies_using_flexvol_volumes.html"
   - title: FlexVol ボリュームでスペースリザベーションを使用する
     url: "/online-help-96-97/concept_using_space_reservation_with_flexvol_volumes.html"
-  - title: Storage Efficiency の利点
-    url: "/online-help-96-97/concept_benefits_storage_efficiency.html"
-  - title: データ圧縮と重複排除
-    url: "/online-help-96-97/concept_data_compression_deduplication.html"
-  - title: 重複排除の使用に関するガイドラインを次に示します
-    url: "/online-help-96-97/reference_guidelines_for_using_deduplication.html"
   - title: ボリュームのサイズ変更のオプション
     url: "/online-help-96-97/concept_options_for_resizing_volumes.html"
-  - title: ボリュームを移動する際の考慮事項
-    url: "/online-help-96-97/concept_considerations_when_moving_volumes.html"
   - title: Volumes （ボリューム）ウィンドウ
     url: "/online-help-96-97/reference_volumes_window.html"
 - title: ジャンクションパス
