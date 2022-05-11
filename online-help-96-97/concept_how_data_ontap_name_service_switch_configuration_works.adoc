@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: ontap, name, service, switch, configuration, works, unix, system, online, help 
 summary: ONTAP では、 UNIX システムの /etc/nsswitch.conf ファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。 
 ---
-= System Manager での ONTAP ネームサービススイッチの設定の仕組み - ONTAP 9.7 以前
+= System ManagerでのONTAP ネームサービススイッチの設定について- ONTAP 9.7以前
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP は 'UNIX システム上の /etc/nsswitch.conf ファイルと同等のテーブルにネーム・サービス構成情報を格納しますこのテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）では、UNIXシステムの/etc/nsswitch.confファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。
 
 ONTAP ネームサービススイッチテーブルは、 ONTAP が特定の種類のネームサービス情報を取得する際にどのネームサービスソースをどの順番で参照するかを決定します。ONTAP では、 SVM ごとに個別のネームサービススイッチテーブルが保持されます。
 

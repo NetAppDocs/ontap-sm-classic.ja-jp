@@ -1,49 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_user_accounts_to_windows_local_group.html 
-sidebar: sidebar 
-keywords: add, user, accounts, windows, local, group, active, directory, online, help 
-summary: System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルグループにユーザアカウントを追加します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。
-
-.作業を開始する前に
-* ユーザを追加するグループが存在している必要があります。
-* グループに追加するユーザが存在している必要があります。
-
-
-Windows ローカルグループのメンバーを追加する場合は、次の点に注意する必要があります。
-
-* 特殊なグループ _Everyone にユーザーを追加することはできません。
-* Windows ローカルグループを別の Windows ローカルグループに追加することはできません。
-* ユーザ名にスペースを含むユーザアカウントは、 System Manager では追加できません。
-+
-ユーザアカウントは、名前を変更するか、コマンドラインインターフェイス（ CLI ）を使用して追加できます。
-
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
-. [ グループ *] タブで、ユーザーを追加するグループを選択し、 [ メンバーの追加 *] をクリックします。
-. [ メンバーの追加 *] ウィンドウで、次のいずれかの操作を実行します。
-+
-** 特定のローカルグループに追加する Active Directory ユーザまたは Active Directory グループを指定します。
-** Storage Virtual Machine （ SVM ）の使用可能なローカルユーザのリストからユーザを選択します。
-
-
-. [OK] をクリックします。
-
-
-追加したユーザーは、 [*Groups] タブの [User] タブに一覧表示されます。
-
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]

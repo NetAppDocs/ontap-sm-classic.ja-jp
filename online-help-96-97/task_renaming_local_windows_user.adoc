@@ -1,42 +1,8 @@
 ---
 permalink: online-help-96-97/task_renaming_local_windows_user.html 
-sidebar: sidebar 
-keywords: rename, local, windows, user, system, manager, online, help 
-summary: System Manager を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザの名前を変更します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。
-
-.このタスクについて
-* 新しいユーザ名は前のユーザ名と同じドメインに作成する必要があります。
-* 指定するユーザ名は次の要件を満たす必要があります。
-+
-** 20 文字以内にする必要があります
-** 末尾をピリオドにすることはできません
-** カンマは使用できません
-** 次の印字可能文字を含めることはできません： " / \ [ ] ： | <> + = ；？* @
-** ASCII 範囲 1~31 の印字できない文字を含めることはできません
-
-
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
-. [*Users*] タブで、名前を変更するユーザーを選択し、 [*Rename*] をクリックします。
-. [ ユーザー名の変更 *] ウィンドウで、ユーザーの新しい名前を指定します。
-. 新しい名前を確認し、 * 名前の変更 * をクリックします。
-
-
-ユーザー名が変更され、新しい名前が ［ * ユーザー * ］ タブに表示されます。
-
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]

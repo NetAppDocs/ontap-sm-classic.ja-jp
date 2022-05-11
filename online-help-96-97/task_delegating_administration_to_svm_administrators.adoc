@@ -11,7 +11,7 @@ summary: Storage Virtual Machine （ SVM ）を最終的な運用状態に、ま
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、必要に応じて System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して SVM の管理を SVM 管理者に委譲できます。
+Storage Virtual Machine（SVM）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、System Manager Classic（ONTAP 9.7以前で利用可能）を使用して、必要に応じてSVMの管理をSVM管理者に委譲できます。
 
 SVM 管理者は、 System Manager を使用して委譲された SVM を管理することはできませ委譲された SVM を管理するには CLI を使用する必要があります。
 

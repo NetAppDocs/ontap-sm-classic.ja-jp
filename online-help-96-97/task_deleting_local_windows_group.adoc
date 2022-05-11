@@ -1,38 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_local_windows_group.html 
-sidebar: sidebar 
-keywords: delete, local, windows, group, systems, manager, online, help, svm, rights 
-summary: Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合は、 System Manager を使用して SVM から削除することができます。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用して、ローカル Windows グループを削除します
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。 Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合に Storage Virtual Machine （ SVM ）から削除する。
-
-.このタスクについて
-* ローカルグループを削除すると、そのグループのメンバーシップのレコードが削除されます。
-* ファイルシステムは変更されません。
-+
-このグループを参照するファイルやディレクトリに対する Windows セキュリティ記述子は調整されません。
-
-* 特殊な「 Everyone 」グループは削除できません。
-* BUILTIN\Administrators や BUILTIN\Users などの組み込みのグループは削除できません。
-
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
-. [ * グループ * ] タブで、削除するグループを選択し、 [ * 削除 * ] をクリックします。
-. [ 削除（ Delete ） ] をクリックします。
-
-
-ローカルグループとそのメンバーシップのレコードが削除されます。
-
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]

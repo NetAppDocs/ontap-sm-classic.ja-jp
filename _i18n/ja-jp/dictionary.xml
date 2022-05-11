@@ -2061,7 +2061,6 @@
   <block id="c7d17f1c51ff263944f02795d06225d4" category="list-text">* 編集 * 。</block>
   <block id="0fdd64c67b391f453d8deff7cc18edb5" category="paragraph">NVMe サブシステムの編集ダイアログボックスを開きます。このダイアログボックスで、既存の NVMe サブシステムを編集できます。</block>
   <block id="982e8d0d8545eaa0bfefc3acc0b029ca" category="paragraph">NVMe サブシステムの削除の確認ダイアログボックスを開きます。このダイアログボックスで、既存の NVMe サブシステムを削除できます。</block>
-  <block id="180eabc93d08acecb1687f9851773dd4" category="summary">Windows ウィンドウを使用して、クラスタ上の各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。</block>
   <block id="f9aa0ac6f93a50d6e5146c27fccd2309" category="doc">Windows ウィンドウ</block>
   <block id="07f25664c3f8ce2fabe8378a2d146041" category="section-title">[ ユーザー ] タブ</block>
   <block id="b2ad1c81340fc72b3ad3bc04fceb78b1" category="paragraph">ユーザタブを使用して、 SVM に対してローカルな Windows ユーザを表示できます。</block>
@@ -2101,28 +2100,6 @@
   <block id="a6f61712592d083a36b68c99a9b5c1be" category="paragraph">選択したグループに関連付けられている権限のリストが表示されます。</block>
   <block id="1e80c1b5ea4b7ab424e23b0decfa2203" category="list-text">* ユーザー *</block>
   <block id="fc0de9f2009ac4ca0b6d02078444e884" category="paragraph">選択したグループに関連付けられているローカルユーザのリストが表示されます。</block>
-  <block id="353defc72b13f3a77c49cafd47a18f85" category="inline-xref-macro">Windows ローカルグループを作成します</block>
-  <block id="062a96abb34aeabcd661fe53ff6d0f67" category="paragraph"><block ref="062a96abb34aeabcd661fe53ff6d0f67" category="inline-xref-macro-rx"></block></block>
-  <block id="47bd057b7e78287419e44beb57703163" category="inline-xref-macro">Windows ローカルグループのプロパティを編集します</block>
-  <block id="b80648ef025c5ea02acc457020ec1e8d" category="paragraph"><block ref="b80648ef025c5ea02acc457020ec1e8d" category="inline-xref-macro-rx"></block></block>
-  <block id="d133389e50f76f674468f0d082cd1910" category="inline-xref-macro">Windows ローカルグループへのユーザアカウントの追加</block>
-  <block id="7ed88928e7016b091b8c4596b8e95add" category="paragraph"><block ref="7ed88928e7016b091b8c4596b8e95add" category="inline-xref-macro-rx"></block></block>
-  <block id="6d297e6ee8e712fad346d42edbf6cd0f" category="inline-xref-macro">Windows ローカルグループの名前変更</block>
-  <block id="85ddf1407638d5a906efda51df5d189d" category="paragraph"><block ref="85ddf1407638d5a906efda51df5d189d" category="inline-xref-macro-rx"></block></block>
-  <block id="d3bd00e016659cf41f88b175f8e09b18" category="inline-xref-macro">Windows ローカルグループを削除する</block>
-  <block id="3a20813ea7be9a13e5794ca34063eb09" category="paragraph"><block ref="3a20813ea7be9a13e5794ca34063eb09" category="inline-xref-macro-rx"></block></block>
-  <block id="56d1938baf1fa0304fdcd806bf92e633" category="inline-xref-macro">Windows ローカルユーザアカウントの作成</block>
-  <block id="a2db5067f9a477847c309b62a8490902" category="paragraph"><block ref="a2db5067f9a477847c309b62a8490902" category="inline-xref-macro-rx"></block></block>
-  <block id="06016aaf0c61780292224353dfb4fd7d" category="inline-xref-macro">Windows ローカルユーザのプロパティを編集する</block>
-  <block id="eb32a7dd062223b1911ec0ef4fedbc08" category="paragraph"><block ref="eb32a7dd062223b1911ec0ef4fedbc08" category="inline-xref-macro-rx"></block></block>
-  <block id="b87dc40a9cd444db0c33c9cf74977997" category="inline-xref-macro">ユーザアカウントへのグループメンバーシップの割り当て</block>
-  <block id="26e94c84696a247976f4b39fa3059512" category="paragraph"><block ref="26e94c84696a247976f4b39fa3059512" category="inline-xref-macro-rx"></block></block>
-  <block id="997dbd5307d22b7702dc5f4c707fdf7a" category="inline-xref-macro">Windows ローカルユーザの名前変更</block>
-  <block id="61601b0988240bea36d346aacc5d63cf" category="paragraph"><block ref="61601b0988240bea36d346aacc5d63cf" category="inline-xref-macro-rx"></block></block>
-  <block id="8b917c2f83bfcaf6934f91be79327f41" category="inline-xref-macro">Windows ローカルユーザのパスワードをリセットする</block>
-  <block id="b90d7983b2f2b479f5b65acdf16870ba" category="paragraph"><block ref="b90d7983b2f2b479f5b65acdf16870ba" category="inline-xref-macro-rx"></block></block>
-  <block id="1a2cba277657c8539943792db01884d1" category="inline-xref-macro">Windows ローカルユーザアカウントを削除する</block>
-  <block id="fdec4bbe4c2e43d23f5f3b23a89d4c24" category="paragraph"><block ref="fdec4bbe4c2e43d23f5f3b23a89d4c24" category="inline-xref-macro-rx"></block></block>
   <block id="77e94689c71185890296261f8f70316c" category="summary">System Manager を使用して、ストレージシステムで DDNS を有効または無効にすることができます。</block>
   <block id="97828bdfb44537f14ec09c787a06a220" category="list-text">DNS はデフォルトでは有効になっています。</block>
   <block id="4473b8467c030280e92d35c71f7ecabe" category="list-text">DDNS はデフォルトでは無効になっています。</block>
@@ -2753,7 +2730,6 @@
   <block id="f281da0fe811eac88acde2280bf587d9" category="list-text">ポートの詳細 * 領域から必要なポートを選択します。</block>
   <block id="113b1102569683a55450bd74f85c4c8c" category="paragraph">既存のノード管理 LIF を削除する場合は、コマンドラインインターフェイス（ CLI ）を使用する必要があります。</block>
   <block id="930b0860c7527125a76f25809e0703f5" category="summary">SVM は、ストレージシステムと同様に、物理ストレージまたはコントローラに関係なく、クライアントにデータアクセスを提供します。SVM には、ノンストップオペレーション、優れた拡張性、セキュリティ、ユニファイドストレージなどの利点があります。</block>
-  <block id="77e82b2e710b5cc9c6dfa16efeddeaea" category="doc">SVM の使用目的</block>
   <block id="d17c0f2e2f7e28fc8d4e127ccf97a5f8" category="paragraph">SVM には次の利点があります。</block>
   <block id="08061c765228f998eb55b78218211344" category="list-text">マルチテナンシー</block>
   <block id="faeaca9a4b8921db5f5b6c4d9f4b4945" category="paragraph">SVM は、セキュアマルチテナンシーの基本ユニットであり、ストレージインフラをパーティショニングすることで、複数の独立したストレージシステムが存在するように見せることができます。これらのパーティションでは、データと管理が分離されます。</block>
@@ -3024,7 +3000,6 @@
   <block id="4d7a8062759f54b374ed2e12415f4e15" category="paragraph">ファイルをポリシーグループに追加します</block>
   <block id="c4926190a2af3e87ae46701d36ad049b" category="paragraph">そのファイルを含むボリュームまたは SVM</block>
   <block id="4a570d9461a3a24f9545013613537a51" category="paragraph">次の図では、 SVM vs3 がポリシーグループ pg2 に割り当てられています。ストレージ階層のオブジェクト（ SVM vs3 ）がポリシーグループに割り当てられているため、ボリューム vol4 またはボリューム vol5 をポリシーグループに割り当てることはできません。</block>
-  <block id="8ce995370c9e714eb5c14a96b94ad814" category="summary">System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。</block>
   <block id="d6b3e82d5d3d8841735df1e166044e95" category="doc">Windows ローカルグループにユーザアカウントを追加します</block>
   <block id="c453c2ae57359c623decc0fd8b03ae1f" category="paragraph">Windows ローカルグループのメンバーを追加する場合は、次の点に注意する必要があります。</block>
   <block id="92ad10331cf39490bae951d388432656" category="list-text">Windows ローカルグループを別の Windows ローカルグループに追加することはできません。</block>
@@ -4002,8 +3977,6 @@
   <block id="3a71163e8277a081f3cf5d7f9b823cd1" category="summary">クラウド階層は、アクセス頻度の低いデータ用のストレージとして利用できます。オールフラッシュ（オール SSD ）アグリゲートをクラウド階層に接続して、使用頻度の低いデータを格納できます。データをクラウド階層に移動するかどうかは、階層化ポリシーで制御できます。</block>
   <block id="ea4618b7ed508a14c12bc3a263a32b44" category="doc">クラウド階層および階層化ポリシーとは</block>
   <block id="42b7e25a71681a76cd72b0e00db4e593" category="paragraph">ボリュームには次のいずれかの階層化ポリシーを設定できます。</block>
-  <block id="90918480fa4e99c8612248c6fc0bef9b" category="summary">ONTAP System Manager を使用して、ミラー関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。</block>
-  <block id="b172911abb23c845e5cc62ee1144120d" category="doc">デスティネーション SVM からミラー関係を作成</block>
   <block id="51d72e45a596cfa27c02a2a159bafdbf" category="list-text">ソースクラスタで ONTAP 8.2.2 以降が実行されている必要があります。</block>
   <block id="208422d393d81fd80ce985f7ba94b5d6" category="list-text">ソースクラスタとデスティネーションクラスタで SnapMirror ライセンスが有効になっている必要があります。</block>
   <block id="e5dcf8e974aee4d148314722cbaa272b" category="paragraph">一部のプラットフォームでは、デスティネーションクラスタで SnapMirror ライセンスに加えて Data Protection Optimization （ DPO ）ライセンスが有効になっていれば、ソースクラスタで SnapMirror ライセンスが有効になっていなくてもかまいません。</block>
@@ -4660,7 +4633,6 @@
   <block id="b5d9cab92eb83c805fd03967954b52c8" category="summary">Kerberos を使用して SVM と NFS クライアント間の認証を強化すると、セキュアな NFS 通信を実現することができます。NFS に Kerberos を設定すると、 NFS クライアントとストレージシステム間の通信の整合性とセキュリティが向上します。</block>
   <block id="7bcfe62a89850496a49500438de98c3d" category="summary">System Manager を使用して、 qtree を作成、編集、削除できます。</block>
   <block id="48b9817af3fdae7035b6862c98196584" category="doc">qtree</block>
-  <block id="167f6dae62c5e6a04290b4be80be116e" category="summary">System Manager を使用して、不要になったストレージ QoS ポリシーグループを削除できます。</block>
   <block id="7d0973962863fbba831179ad8a119586" category="paragraph">ポリシーグループに割り当てられているすべてのストレージオブジェクトの割り当てを解除しておく必要があります。</block>
   <block id="cd8b8d46f76eda836496f2292b3eec3b" category="list-text">[* Policies] ペインで、 [* QoS Policy Groups] をクリックします。</block>
   <block id="530e5f35c1250f24027e3a75918a7380" category="list-text">[* QoS ポリシーグループ *] ウィンドウで、削除するポリシーグループを選択し、 [ 削除 *] をクリックします。</block>
@@ -5016,8 +4988,6 @@
   <block id="819aa7db437f104cac55b21e1b98c91f" category="list-text">[*Base DN*] と [*TCP Port*] を指定します。</block>
   <block id="fa19e45f0c7971c2a0a4dfe83b8694ac" category="list-text">バインド * をクリックし、認証の詳細を指定します。</block>
   <block id="c076e7171f87bf601582215d048e77ea" category="list-text">追加した LDAP クライアントが表示されていることを確認します。</block>
-  <block id="cfb186e8e8f985739a805db1f3042725" category="summary">System Manager を使用して、 QoS ポリシーグループを作成、編集、削除できます。</block>
-  <block id="d652696dcf63b8343a323a9db5a7743c" category="doc">QoS ポリシーグループ</block>
   <block id="5a26ea6c20bde8846f2b48b64dfb4bdb" category="paragraph">Storage Pools （ストレージプール）ウィンドウを使用して、 SSD の専用キャッシュ（ _ ストレージプール _ ）を作成、表示、管理できます。ストレージプールはルート以外のアグリゲートに関連付けて SSD キャッシュを提供したり、 Flash Pool アグリゲートに関連付けてサイズを拡張したりできます。</block>
   <block id="7e650899ddc6de525db67a8fe6d37285" category="paragraph">ストレージプールの作成ダイアログボックスを開きます。このダイアログボックスで、ストレージプールを作成できます。</block>
   <block id="ae71b4167e636a76f2731be20242b073" category="list-text">* ディスクの追加 *</block>
@@ -5272,7 +5242,6 @@
   <block id="428e5b78c3d1a89e75811ecdd738b297" category="paragraph"><block ref="428e5b78c3d1a89e75811ecdd738b297" category="inline-xref-macro-rx"></block></block>
   <block id="6bbaafbdef150c899eef328db1d6fadc" category="summary">ストレージシステムシャーシを交換し、同じファイバチャネル SAN で再利用した場合、状況によっては、交換したストレージシステムのノード名が重複することがあります。ストレージシステムのノード名は System Manager を使用して変更できます。</block>
   <block id="969550f744e4b195d9375c6e2077429d" category="list-text">新しい名前を入力し、「 * OK * 」をクリックします。</block>
-  <block id="3241edb94f07e6bbf7cba493631ff2c6" category="summary">System Manager の Edit Policy Group ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。</block>
   <block id="20ce37acd2082db423c612d41df0cb50" category="list-text">編集する QoS ポリシーグループを選択し、 * Edit * をクリックします。</block>
   <block id="673e9537e0f6270432536a3d148d4573" category="list-text">最小スループット制限を指定しない場合は、 IOPS 、 B/ 秒、 KB/ 秒、 MB/ 秒などの単位で最大スループット制限を設定できます。</block>
   <block id="5c5c7ddc00ec7405fc1756a5d41d88e6" category="list-text">最大スループット制限値を指定しないとスループット制限なしと設定され、指定した単位は無視されることとなります。</block>
@@ -5766,7 +5735,6 @@
   <block id="90e8f503c006b3b42a85831cbaedb226" category="list-text">エクスポートポリシーを選択し、 * Change * をクリックします。</block>
   <block id="f4fad5bde7f7a3d4bb61f5d78a5ea502" category="list-text">ジャンクションパス * ウィンドウの * エクスポートポリシー * 列に、ボリュームに適用したエクスポートポリシーが表示されていることを確認します。</block>
   <block id="4124642190805770b8ea067ef13b67a4" category="paragraph">デフォルトのエクスポートポリシーが選択したエクスポートポリシーに置き換えられます。</block>
-  <block id="136dd5d0414a62d4b3656dd07d0e3ed5" category="summary">System Manager を使用して、 Windows ローカルユーザアカウントを編集し、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。</block>
   <block id="29085bd39c9a2ab55bafef6a551bde17" category="list-text">[*Users*] タブで、 [*Edit*] をクリックします。</block>
   <block id="a292e6b20e984807fe7fc7fbab57a006" category="list-text">[ ユーザーの変更 *] ウィンドウで、必要な変更を行います。</block>
   <block id="91650f5965ba3fed5dc9af6ebcf68e26" category="paragraph">Windows ローカルユーザアカウントの属性が変更され、 * Users * タブに表示されます。</block>
@@ -6389,7 +6357,6 @@
   <block id="ede9933eff1aef52ded605fdd2da7b4c" category="list-text">反転するミラー関係を選択します。</block>
   <block id="70d8823a38e57bab845203653cdf497f" category="list-text">確認のチェックボックスをオンにし、 * 逆再同期 * をクリックします。</block>
   <block id="13acd017c093c0fa1be1bc16063c90ff" category="summary">System Manager を使用して、バックアップ関係をデスティネーション Storage Virtual Machine （ SVM ）から作成し、バックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。</block>
-  <block id="abf829b25449f6273d3b487ca5bdc3b3" category="doc">デスティネーション SVM からバックアップ関係を作成</block>
   <block id="f81d94da893507b75a42e53d0a0f6269" category="list-text">ソースクラスタとデスティネーションクラスタの両方で SnapVault ライセンスまたは SnapMirror ライセンスが有効になっている必要があります。</block>
   <block id="068e601c4c1e7ed2160e788bc0b238fa" category="paragraph">一部のプラットフォームでは、デスティネーションクラスタで SnapVault ライセンスまたは SnapMirror ライセンスに加えて DPO ライセンスが有効になっていれば、ソースクラスタで SnapVault ライセンスまたは SnapMirror ライセンスが有効になっていなくてもかまいません。</block>
   <block id="7061d45dd6a4f0e8d5d773df177e0c50" category="paragraph">バックアップポリシーが存在しない場合は、新規に作成するか、自動的に割り当てられるデフォルトのバックアップポリシー（ XDPDefault ）を使用する必要があります。</block>
@@ -6906,7 +6873,6 @@
   <block id="127a60be7e2ff20673c9e2640a38d56b" category="list-text">確認のチェックボックスをオンにし、 * はい * をクリックします。</block>
   <block id="42689ee599bc64326991ed2e55c7ba76" category="summary">ONTAP では、 UNIX システムの /etc/nsswitch.conf ファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。</block>
   <block id="11ecca466cf7d0414068166a18ced5fb" category="doc">ONTAP のネームサービススイッチ設定の仕組み</block>
-  <block id="ba391662b97a68cd90e097636183ae6a" category="paragraph">ONTAP は 'UNIX システム上の /etc/nsswitch.conf ファイルと同等のテーブルにネーム・サービス構成情報を格納しますこのテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。</block>
   <block id="9f653e5e126214d4e873f166f86c7741" category="paragraph">ONTAP ネームサービススイッチテーブルは、 ONTAP が特定の種類のネームサービス情報を取得する際にどのネームサービスソースをどの順番で参照するかを決定します。ONTAP では、 SVM ごとに個別のネームサービススイッチテーブルが保持されます。</block>
   <block id="4b1baf48f4e54654bd11cef62acb5066" category="section-title">データベースタイプ</block>
   <block id="9369fc76099afac2c2202ec93cdbf317" category="paragraph">テーブルには、次の各データベースタイプについてネームサービスのリストが格納されます。</block>
@@ -7119,7 +7085,6 @@
   <block id="5776a377df8b6840a9d9309a368f77c2" category="paragraph">Flash Cache モジュールには、データ読み取り要求が処理されるに従って少しずつデータが取り込まれます。データ読み取り要求の処理は、 Flash Cache モジュールの方がディスクよりも高速であるため、 Flash Cache モジュールを利用するとストレージシステムのパフォーマンスが向上します。</block>
   <block id="70691dd89812cf75957ebdaf55623ac2" category="paragraph">Flash Cache モジュールで処理されるデータ読み取り要求は、ディスクで処理されるデータ読み取り要求に代わるものであるため、ストレージシステムのパフォーマンスがどの程度向上するかは、代わりに処理されるディスク読み取りによって決まります。ストレージシステムのパフォーマンスに対する Flash Cache モジュールの影響を判断するには、 Flash Cache モジュールにデータが含まれている場合に、 Hardware Cache ウィンドウに読み取りワークロードのグラフを表示する必要があります。</block>
   <block id="67afc4e0e90df274c0b2c4cf2b605d06" category="summary">System Manager を使用して、ストレージシステムがユーザの CIFS ホームディレクトリの場所を解決するために使用するパスを 1 つ以上指定できます。</block>
-  <block id="7e07ef4fefaf5e9f135056d576316043" category="doc">ホームディレクトリパスを追加します</block>
   <block id="400d42a3a13da986cd2cf283dd4c1d7c" category="list-text">[ 構成 *] タブの [ ホームディレクトリ *] 領域で、 [ 管理 *] をクリックします。</block>
   <block id="c60fbd277b3cf8a2b3392b0da74d7c91" category="list-text">[ ホーム・ディレクトリの管理 * ] ダイアログ・ボックスで ' ストレージ・システムがユーザーの CIFS ホーム・ディレクトリの検索に使用するパスを指定します</block>
   <block id="ba43a0b415d67a230fa5cc9655cb4818" category="list-text">[ * 追加 ] をクリックし、 [ * 保存して閉じる * ] をクリックします。</block>
@@ -8439,7 +8404,6 @@
   <block id="53a0710f5e25fe7ea5d759fe8308ba35" category="sidebar">Windows ローカルグループのプロパティを編集します</block>
   <block id="730ce1a760d9d8d3ab561b2e0382f3d1" category="sidebar">Windows ローカルグループの名前を変更します</block>
   <block id="558aa2f18b78022662b4fc5b1372aaa2" category="sidebar">Windows ローカルグループを削除します</block>
-  <block id="a61ef4381ae27c3f4823d95f1b2c7c23" category="sidebar">Windows ローカルユーザのプロパティを編集します</block>
   <block id="db5cb060d3f1c56dc4a35fce5a867ee4" category="sidebar">Windows ローカルユーザの名前を変更します</block>
   <block id="f8d149e2f560d043fee27559bcf3940e" category="sidebar">Windows ローカルユーザのパスワードをリセットします</block>
   <block id="747db15d84dfaabaf70d11952f46c2a0" category="sidebar">Windows ローカルユーザアカウントを削除します</block>
@@ -8890,13 +8854,11 @@
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster のスイッチオーバーとスイッチバックについて</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe サブシステムとは</block>
   <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">System Manager - ONTAP 9.7 以前を使用してライセンスを管理します</block>
-  <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを表示、管理、削除できます。</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に FC プロトコルと FCoE プロトコルを設定します</block>
   <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">ONTAP 9.7 以前で利用可能な System Manager クラシックを使用して、 SAN ホスト用の Storage Virtual Machine （ SVM ）で FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager クラシック 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager - ONTAP 9.7 以前を使用してハイアベイラビリティペアを作成します</block>
-  <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ノンストップオペレーションやフォールトトレランスに必要なハードウェアの冗長性を確保するハイアベイラビリティ（ HA ）ペアを作成できます。</block>
   <block id="c25f011b08f295a29bbd500b17b738ed" category="doc">System Manager を使用した構成の更新 - ONTAP 9.7 以前</block>
   <block id="1c82fcdf598db00f440965ba676c0e66" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。</block>
   <block id="8e4cfdd5f2a44a82c383c0562730105b" category="doc">System Manager ログファイルの表示 - ONTAP 9.7 以前</block>
@@ -8911,7 +8873,6 @@
   <block id="54ff26b2647f3f25676cb99009476209" category="doc">System Manager - ONTAP 9.7 以前を使用して、クラスタを無停止で更新します</block>
   <block id="4feeea0248e0f62412823f11324a2100" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クライアントデータへのアクセスを中断することなく、 ONTAP 8.3.1 以降を実行しているハイアベイラビリティ（ HA ）ペアのクラスタまたは個別のノードを特定のバージョンの ONTAP ソフトウェアに更新できます。</block>
   <block id="f99033f8018d74566de6d90275ee7175" category="doc">System Manager を使用したクラスタの拡張 - ONTAP 9.7 以前</block>
-  <block id="ab015a1f9aac7b895e136cdfb521e9b8" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、互換性のあるノードをクラスタに追加し、ノードのネットワークの詳細を設定することで、ストレージのサイズと容量を拡張できます。ノードの概要を確認することもできます。</block>
   <block id="947070ca8b26d7d7b190fdd46f44d0fa" category="doc">System Manager ONTAP 9.7 以前を使用してスペアディスクを初期化します</block>
   <block id="39369ff883ac37576eeaa48e7091dfba" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、すべてのデータを消去し、ディスクに 0 を書き込むことでスペアディスクをフォーマットすることができます。これらのディスクは新しいアグリゲートで使用できます。</block>
   <block id="41900314c94464c2e9abd692d4c2e94a" category="doc">System Manager - ONTAP 9.7 以前を使用して、 MetroCluster 以外の構成のクラスタを更新します</block>
@@ -8919,7 +8880,6 @@
   <block id="8d74ad77222f6c5c38989bad7372cf2c" category="doc">System Manager - ONTAP 9.7 以前のバージョンでクラスタを作成します</block>
   <block id="f9c28b17c0f35d7a3c72a8e6a546dfee" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データセンター内にクラスタを作成およびセットアップできます。</block>
   <block id="5fc170c97be608be88f22779966c7146" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に NVMe プロトコルを設定します</block>
-  <block id="aa89074fcbd4c0c8d0bb294d295d2ebf" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）に NVMe プロトコルを設定できます。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。</block>
   <block id="75e42471a0f30f0b5291750d4a05d20a" category="doc">System Manager - ONTAP 9.7 以前を使用して、ストレージの推奨事項に基づいてアグリゲートを作成します</block>
   <block id="efbc0ad8b6d2eb58efb50697f164d765" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。</block>
   <block id="bc77434a988ceef6c953803fe2e06881" category="doc">System Manager - ONTAP 9.7 以前のバージョンでのクラスタの更新ウィンドウ</block>
@@ -8933,10 +8893,8 @@
   <block id="6179ae55d1fadeff01dd8976b5bedda7" category="doc">System Manager - ONTAP 9.7 以前を使用して、 ONTAP ソフトウェアイメージを取得します</block>
   <block id="78916d18eac9a0b8102e2b7f6a492589" category="paragraph">ONTAP ソフトウェアイメージは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）で取得できます。ONTAP 9.4 以降では、 ONTAP ソフトウェアイメージをネットアップサポートサイトからローカルフォルダにコピーできます。ONTAP 9.3 以前からのアップグレードの場合は、 ONTAP ソフトウェアイメージをネットワーク上の HTTP サーバまたは FTP サーバにコピーする必要があります。</block>
   <block id="f5db4f9448aaa78931200f9e088d969e" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に iSCSI プロトコルを設定します</block>
-  <block id="1adc906cf717845ffb29f00022c0366f" category="paragraph">Storage Virtual Machine （ SVM ）で iSCSI プロトコルを設定して、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
   <block id="4010f2b8e90ddf85f94ac358d78075c1" category="doc">System Manager - ONTAP 9.7 以前のバージョンでサービスプロセッサを使用します</block>
   <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のサービスプロセッサを使用して、ストレージシステムの温度、電圧、電流、ファン速度などのパラメータを監視および管理できます。</block>
-  <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを設定します</block>
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の事前定義されたアプリケーションテンプレートを使用して、既存のアプリケーションテンプレートを基にした新しい設定を作成できます。その後、 ONTAP でアプリケーションのインスタンスをプロビジョニングできます。</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager - ONTAP 9.7 以前を使用して SVM を作成します</block>
@@ -8944,7 +8902,6 @@
   <block id="b1f5b741f97f88d2a27fe9554d96e5ae" category="doc">System Manager - ONTAP 9.7 以前のバージョンでテンプレートファイルを使用してクラスタをセットアップします</block>
   <block id="80c57d2dae86d5f969cedfa286a5d186" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に付属のテンプレートファイルを使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことでクラスタをセットアップできます。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。</block>
   <block id="981ccff974ccd38feb11b98749f62f33" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM 管理者に管理を委譲します</block>
-  <block id="2916098ae0e238c3e38a1a47b1301eb5" category="paragraph">Storage Virtual Machine （ SVM ）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、必要に応じて System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して SVM の管理を SVM 管理者に委譲できます。</block>
   <block id="428c89fe51366d100675e40d7d32fb93" category="doc">ONTAP 9.7 以前のシステムマネージャに、 Microsoft SQL Server over SAN を追加します</block>
   <block id="5da48fe095f84368a16a22547d62a3a4" category="paragraph">拡張タブを使用して、 Microsoft SQL Server over SAN のインスタンスを ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に追加できます。</block>
   <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">MetroCluster ローカルサイト（サイト A ）の名前を System Manger ONTAP 9.7 以前の名前に変更します</block>
@@ -8991,7 +8948,6 @@
   <block id="50899d0b2190a949520b49e445d23355" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ブロードキャストドメインを作成および管理できます。</block>
   <block id="ab4ae87bc3c1b004cb0873b4af4ea2d7" category="doc">ONTAP System Manager ONTAP 9.7 以前を使用してクラスタをセットアップします</block>
   <block id="cf0a65ee8a0e04ae720f439289af1cf4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことで、クラスタをセットアップできます。</block>
-  <block id="44de48291f65b93f6b91ae71158fc5a0" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM を作成します</block>
   <block id="d8df04e394d1d658fc87637c0e78fe19" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 Storage Virtual Machine （ SVM ）ウィンドウを使用して完全に設定された SVM を作成できます。作成した SVM にストレージオブジェクトを作成すると、 SVM からデータが提供されるようになります。</block>
   <block id="a5fa5f03b1c7f0fd168b52120c524434" category="doc">System Manager - ONTAP 9.7 以前を使用して、ディスクをノードに割り当てます</block>
   <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して未割り当てディスクの所有権を特定のノードに割り当てることで、アグリゲートやストレージプールの容量を拡張することができます。</block>
@@ -9003,7 +8959,6 @@
   <block id="f3c0856ca60c4724a7753f39aeb21072" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを編集します</block>
   <block id="9de97ea20bea358cafe2c052eb4fe156" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、プロビジョニングされたアプリケーションを編集し、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりできます。</block>
   <block id="a30fa0b5cb2afd6f435aa35fc7ca5745" category="doc">System Manager - ONTAP 9.7 以前を使用して SAML 認証をセットアップします</block>
-  <block id="d7099498f421b4701bba3cabee8125eb" category="paragraph">ONTAP 9.7 以前で利用可能な ONTAP System Manager クラシックを使用して、 Security Assertion Markup Language （ SAML ）認証をセットアップできます。リモートユーザは、 System Manager にログインする前に、セキュアなアイデンティティプロバイダ（ IdP ）を通じて認証されます。</block>
   <block id="463c29b806262e410f8af6e29a986e1f" category="doc">System Manager - ONTAP 9.7 以前のバージョンでロールを管理します</block>
   <block id="7ca34b48f8debce3ee45d8476624ffa9" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、アクセス制御ユーザロールを作成できます。</block>
   <block id="d75e944167c8ce0dfa9e0ab1a4a7da5e" category="doc">System Manager - ONTAP 9.7 以前のダッシュボードウィンドウ</block>
@@ -9025,7 +8980,6 @@
   <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージプールを作成し、 SSD を複数の Flash Pool アグリゲートで共有できるようにすることができます。</block>
   <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ハードウェアキャッシュモジュールを管理できます。</block>
   <block id="abb7c046c422db37c0202c07166a8eab" category="doc">System Manager - ONTAP 9.7 以前を使用してボリュームのサイズを変更します</block>
-  <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">ボリュームの容量がフルに近くなったら、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリュームのサイズを拡張するか、いくつかの Snapshot コピーを削除するか、または Snapshot リザーブを調整します。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。</block>
   <block id="082fcd43395a78c9af7e1c1aede841c9" category="doc">System Manager ONTAP 9.7 以前を使用してアグリゲートをミラーリングします</block>
   <block id="7320e70f830697cfb3f68adab3cec989" category="paragraph">ONTAP System Manager 従来型（ ONTAP 9.7 以前で利用可能）を使用すると、単一のアグリゲート内でデータをリアルタイムでミラーリングすることで、データを保護し、耐障害性を高めることができます。アグリゲートをミラーすると、ディスクおよびアレイ LUN への接続における単一点障害が排除されます。</block>
   <block id="d7a551057ba910463c17513387122618" category="doc">System Manager - ONTAP 9.7 以前を使用してディスクを管理します</block>
@@ -9169,7 +9123,6 @@
   <block id="6eb2b573b575a1c5351324690e7d62ae" category="doc">System Manager - ONTAP 9.7 以前を使用して、ディスクをノードに再割り当てします</block>
   <block id="190f9ec4f52503d35888c252ab746728" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、スペアディスクの所有権をノード間で再割り当てし、アグリゲートやストレージプールの容量を拡張することができます。</block>
   <block id="9298dd1b53067fbddee607d176c77775" category="doc">System Manager - ONTAP 9.7 以前を使用してイーサネットポートを管理します</block>
-  <block id="2da457cc70f41e8d72a0321dda42ec28" category="paragraph">ONTAP システムクラシック（ ONTAP 9.7 以前で使用可能）を使用して、イーサネットポートを作成および管理できます。</block>
   <block id="1f5a64b9025574c884f81e9e1098c75f" category="doc">System Manager - ONTAP 9.7 以前を使用して、 FC / FCoE アダプタと NVMe アダプタを管理します</block>
   <block id="a9a3133ec55e6f2440f5dad3b6c8f994" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FC / FCoE アダプタと NVMe アダプタを管理できます。</block>
   <block id="eea76ef6e75facd7fe5458d28c6aa51b" category="doc">System Manager - ONTAP 9.7 以前を使用してアレイ LUN を管理します</block>
@@ -9199,7 +9152,6 @@
   <block id="d81698ba423ea22b301cb1579d9e6433" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）のプロパティ（ネームサービススイッチ、ネームマッピングスイッチ、アグリゲートリストなど）を編集できます。</block>
   <block id="564791b987f0846ef3c17ad7e3a475c2" category="doc">System Manager - ONTAP 9.7 以前を使用して、保存された Snapshot コピーのリストを表示します</block>
   <block id="3a529a084aa6539c3cf0ff1e6a82eebb" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、選択したボリュームについて保存されているすべての Snapshot コピーのリストを、ボリュームウィンドウの下部ペインにある Snapshot コピータブで確認できます。このリストを使用して、 Snapshot コピーの名前変更、リストア、または削除を実行できます。</block>
-  <block id="eb91db7a154c4738b91d02ca57922942" category="doc">System Manager での ONTAP ネームサービススイッチの設定の仕組み - ONTAP 9.7 以前</block>
   <block id="8d63c85c86a43bf30719d6251feabb88" category="doc">FlexClone ボリューム階層 ONTAP 9.7 以前を表示します</block>
   <block id="3a59cafcf4d62062327f96774d795d5a" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 FlexClone ボリュームとその親ボリュームの階層を表示できます。</block>
   <block id="9e7629b024a19ce191f9724ba2c07b02" category="doc">System Manager - ONTAP 9.7 以前を使用して、ソース SVM からミラーとバックアップ関係を作成します</block>
@@ -9221,10 +9173,8 @@
   <block id="ecd381c0c9a48e73098f8004e8c10e3e" category="paragraph">ONTAP System Manager classic （ ONTAP 9.7 以前で利用可能）の * イニシエータグループの編集 * ダイアログボックスを使用して、既存のイニシエータグループとそのオペレーティングシステムの名前を変更できます。イニシエータをイニシエータグループに追加したり、イニシエータグループから削除したりできます。また、イニシエータグループに関連付けられているポートセットを変更することもできます。</block>
   <block id="d7585e12a7f0f4136389a429e2368762" category="doc">System Manager ONTAP 9.7 以前を使用する場合の LUN を含む FlexVol の操作に関するガイドライン</block>
   <block id="2824153741cd9295699331cee1553264" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）では、 LUN を含む FlexVol を操作する場合、 Snapshot コピーのデフォルト設定を変更する必要があります。LUN のレイアウトを最適化して管理を簡易化することもできます。</block>
-  <block id="46ca4b6cc5dac93b4008f7f8137a3f2f" category="doc">System Manager - ONTAP 9.7 以前を使用して、 QoS ポリシーグループを削除します</block>
   <block id="89d43162b83abf7f18e1c6fe6e0118ff" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、不要になったストレージ QoS ポリシーグループを削除できます。</block>
   <block id="8d9f570ceab703410bf1da67b4eac8de" category="doc">System Manager - ONTAP 9.7 以前を使用してエクスポートポリシーを管理します</block>
-  <block id="f01f89371c1f36dc3a254c24e66496c7" category="paragraph">ONTAP System Manager classic （ 9.7 以前のバージョンで利用可能）を使用して、エクスポートポリシーを作成、編集、管理できます。</block>
   <block id="7d454c0153d457c8b1a040bcf2526a4e" category="doc">System Manager - ONTAP 9.7 以前を使用して LDAP 構成を管理します</block>
   <block id="1e3b64ae2d873ab61309237ca2a73b01" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 LDAP 設定を管理できます。</block>
   <block id="15c3dcb90397a49e222b75d1658a98b8" category="doc">System Manager - ONTAP 9.7 以前で FC / FCoE プロトコルを設定します</block>
@@ -9283,9 +9233,7 @@
   <block id="e5f80dc702947309680d1afbeea7cd5a" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 DNS / DDNS サービスを管理できます。</block>
   <block id="40ac4c7cdd68bb2416925b40af178901" category="doc">System Manager - ONTAP 9.7 以前を使用して NVMe サービスを開始および停止します</block>
   <block id="917b92acb38ad7b6209e26de91ce38a9" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して NVMe サービスを開始し、アダプタをオンラインにすることができます。NVMe サービスを使用すると、ネームスペースで使用する NVMe アダプタを管理できます。NVMe サービスを停止すると、 NVMe アダプタがオフラインになり、ネームスペースにアクセスできなくなります。</block>
-  <block id="ef9299f4d9ab701bc7d83decc9611053" category="doc">System Manager ONTAP 9.7 以前を使用して、 QoS ポリシーグループを編集します</block>
   <block id="980ea682ed148899940453682116cf28" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のポリシーグループの編集ダイアログボックスを使用して、既存のストレージ QoS ポリシーグループの名前と最大スループットを変更できます。</block>
-  <block id="c6569c9c8109bf4cd2f35a096e9a806e" category="doc">System Manager - ONTAP 9.7 以前を使用して QoS ポリシーグループを作成します</block>
   <block id="6685e05ba41f861ad9bf8b5d50878022" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージ QoS ポリシーグループを作成し、ワークロードのスループットを制限したり、ワークロードのパフォーマンスを監視したりすることができます。</block>
   <block id="78207357f350ce56fd3fa8e2a7391ce2" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Kerberos インターフェイスサービスを管理します</block>
   <block id="381ccce315fd379442a9e0a646822167" category="paragraph">Kerberos インターフェイスサービスの管理には、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。</block>
@@ -9324,10 +9272,6 @@
   <block id="fe8b3faa5a96053a132d3f57a58e12f1" category="paragraph">ストレージシステムソフトウェアが工場出荷時にインストールされている場合は、 System Manager によってそのソフトウェアがライセンスのリストに自動的に追加されます。</block>
   <block id="598204bea84a425b3062a08d37f16547" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー転送を中止します</block>
   <block id="d3e29f1540288a85f0960a5f58cb1f30" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、データ転送が完了する前にボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
-  <block id="244f91d9d12bd9740caec32708a6b318" category="doc">System Manager - ONTAP 9.7 以前のバージョンで Windows ローカルユーザアカウントを削除します</block>
-  <block id="ce5ff83bcd1ab1b41de67636913d780c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。 Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 SVM から削除する。</block>
-  <block id="4cfe8e7f20b3f6aa84c77b061d1df0fe" category="doc">System Manager - ONTAP 9.7 以前のバージョンの Windows ウィンドウ</block>
-  <block id="56384d0058f4049f1a25b56477095e11" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ウィンドウを使用できます。Windows ウィンドウを使用して、クラスタの各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。</block>
   <block id="548556d1faeba7eb8637f682210271a4" category="doc">System Manager ONTAP 9.7 以前を使用したローカル UNIX ユーザおよびグループ</block>
   <block id="ba30e9183e00613e181d1a9648c4d68c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用すると、各 Storage Virtual Machine （ SVM ）のローカル UNIX ユーザとグループのリストを管理できます。</block>
   <block id="348c7f611493f56a2e14dfb2a4d55799" category="doc">System Manager - ONTAP 9.7 以前のバージョンで、ミラーとバックアップ関係にあるボリュームをリストアします</block>
@@ -9337,32 +9281,11 @@
   <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネームマッピングエントリを指定し、異なるプラットフォームのユーザをマッピングできます。</block>
   <block id="706d088ecb014b185975448770e848fa" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成して管理します</block>
   <block id="9dd1a3bc9b77bce7cd8a13454090a064" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）ユーザアカウントを作成および管理できます。</block>
-  <block id="45a11fec0e7239fbcf37cef2902890d3" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を逆再同期します</block>
-  <block id="e04d733170c775fa5ecebcaa3ee8a458" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、以前に解除したミラー関係を再確立できます。逆再同期操作を実行すると、ソースボリュームとデスティネーションボリュームの機能が入れ替わります。</block>
-  <block id="d40cfc39f79f1537f0808a3b5576751a" category="doc">System Manager ONTAP 9.7 以前を使用して、デスティネーション SVM からミラー関係を作成します</block>
-  <block id="b77843c3f8ae61a4d70a598fdb4c0c1e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション Storage Virtual Machine （ SVM ）からミラー関係を作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
-  <block id="7fc9d2dac7a3691a556388235669f20b" category="doc">System Manager ONTAP 9.7 以前のバージョンで Windows ローカルユーザアカウントを作成します</block>
-  <block id="9b2dd0ee538f3cddaa6439a695abe2c2" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）に格納されたデータへの SMB 接続経由でのアクセスの認証に使用できる Windows ローカルユーザアカウントを作成できます。Windows ローカルユーザアカウントは、 CIFS セッションを作成する際の認証にも使用できます。</block>
-  <block id="78ea6627cbe9ebae6d874bc681df76f6" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルグループにユーザアカウントを追加します</block>
-  <block id="3a7f7d9913063f7ef0a2e90629eb8ad8" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループ（そのグループに関連付けられた権限をユーザに割り当てる場合）を Windows ローカルグループに追加できます。</block>
-  <block id="f11fdf178e9f4a585ed4c804386ba193" category="doc">System Manager - ONTAP 9.7 以前を使用して、ローカル Windows グループを削除します</block>
-  <block id="f6b214ba0427d69a51c88da91749df47" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用できます。 Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合に Storage Virtual Machine （ SVM ）から削除する。</block>
-  <block id="54c694780bc0d73c45bd41e05288e37b" category="doc">Windows ローカルグループの名前を System Manager - ONTAP 9.7 以前の名前に変更します</block>
-  <block id="eb95faffa28da69a4bf5e7047d2c7f4c" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、ローカル Windows グループの名前をわかりやすい名前に変更できます。</block>
   <block id="665c825107a5830a82d2b69e5aeff554" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を中止します</block>
   <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">データ転送を停止する場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
-  <block id="af744edfa9643645796a3d01c80db4bc" category="doc">System Manager - ONTAP 9.7 以前を使用して、ユーザアカウントにグループメンバーシップを割り当てます</block>
-  <block id="dc70272f593f6af1c12f7efe72a0e330" category="paragraph">ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、特定のグループに関連付けられている権限をユーザアカウントに割り当てることができます。</block>
-  <block id="85d0833b56faab64ea27240a6f082070" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザのパスワードをリセットします</block>
-  <block id="55e67ad0368005cd9a055b4b179ef69e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ローカルユーザのパスワードをリセットできます。パスワードのリセットは、たとえば、現在のパスワードが漏れた場合やパスワードを忘れた場合などに行います。</block>
-  <block id="66a86df29a3df9220ad1f1c90164d7d6" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザのプロパティを編集します</block>
-  <block id="504f000909a925ba4f74f21133bc0319" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、既存のユーザのフルネームや概要 を変更する場合や、ユーザアカウントを有効または無効にする場合に、 Windows ローカルユーザアカウントを変更できます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。</block>
-  <block id="d839a28bf3542d56602749c26fa7c3f0" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルグループのプロパティを編集します</block>
   <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加および削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。</block>
-  <block id="1721ba418668b0e222dfb8cb45448455" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Windows ローカルユーザの名前を変更します</block>
-  <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。</block>
   <block id="a5e43690037a175b3839475cc48dd350" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を管理します</block>
   <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション SVM からバックアップ関係を作成するだけでなく、バックアップ関係を更新、再開、休止、初期化、および削除できます。</block>
   <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">関係を編集します</block>
@@ -9373,7 +9296,6 @@
   <block id="779ce943bfcf388aea4fa5a5a1d45974" category="section-title">関係を再開</block>
   <block id="f667840b03e4954209dac92efcf77cc2" category="section-title">関係を休止します</block>
   <block id="6101faf64442e938a7c3e24db1680122" category="doc">System Manager - ONTAP 9.7 以前を使用してミラー関係を管理します</block>
-  <block id="b6ca78baa0afadbb225947cd6831fefc" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係を管理できます。休止したミラー関係の再開に加え、ミラー関係の更新、休止、初期化、再確立、削除、および編集を行うことができます。</block>
   <block id="aa6105e2616d9aaebd65575bdf43d7d1" category="paragraph">System Manager を使用して、ミラー関係を削除し、ソースボリュームとデスティネーションボリュームの間のミラー関係を完全に終了できます。ミラー関係を削除すると、ソースボリュームのベース Snapshot コピーが削除されます。</block>
   <block id="c635a3eba9f55669cb810f90f9277156" category="section-title">関係を再同期する</block>
   <block id="d0ac2d242af3fab7034e0c66a45bf889" category="paragraph">System Manager を使用して、以前に解除したミラー関係を再確立できます。再同期操作を実行して、災害によってソースボリュームが機能しなくなった状態からリカバリできます。</block>
@@ -9400,4 +9322,37 @@
   <block id="4eb9fc48340d0d596cecceb0f28dd73e" category="sidebar">SVM関係</block>
   <block id="a4730321aa25d81da462f897cef15c5a" category="sidebar">保護ポリシーを管理する</block>
   <block id="58733b37e2507dd15a2f998c25576e58" category="sidebar">Snapshotポリシーを管理します</block>
+  <block id="076b3009a5eb0edfa535a82b14793721" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ノンストップオペレーションやフォールトトレランスに必要なハードウェアの冗長性を確保するハイアベイラビリティ（HA）ペアを作成できます。</block>
+  <block id="3e93649f77d7cfa982900e4f1b48d43c" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、互換性のあるノードをクラスタに追加し、ノードのネットワークの詳細を設定することで、ストレージのサイズと容量を拡張できます。ノードの概要を確認することもできます。</block>
+  <block id="2793842ff7183e071c1a8bb6d693ac96" category="doc">System Manager - ONTAP 9.7以前を使用してQoSポリシーグループを管理します</block>
+  <block id="3c53da1bd0376e2967661b018ac0b35f" category="doc">System Manager - ONTAP 9.7以前を使用してアプリケーションを設定します</block>
+  <block id="73c40768abe75066d59468c43d6697ac" category="paragraph">ボリュームがいっぱいになってきたら、ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ボリュームのサイズを拡張したり、いくつかのSnapshotコピーを削除したり、Snapshotリザーブを調整したりできます。System Manager のボリュームのサイズ変更ウィザードを使用して、空きスペースを増やすことができます。</block>
+  <block id="f689d15a9acb85ee5a20447fbdc07cf4" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、エクスポートポリシーを作成、編集、管理できます。</block>
+  <block id="c61b8028f650abffd119f84f09d17f74" category="doc">System Manager - ONTAP 9.7以前のバージョンでSVMを作成します</block>
+  <block id="14d79d2eef1d80cd2470e785b15178f8" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを表示、管理、削除できます。</block>
+  <block id="071e9f0551cf1151fad07c37ea207e3b" category="paragraph">Storage Virtual Machine（SVM）でNVMeプロトコルを設定するには、System Managerクラシック（ONTAP 9.7以前で使用可能）を使用します。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。</block>
+  <block id="74a9c6f7d15b41facbe48a228851099c" category="paragraph">System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でiSCSIプロトコルを設定してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
+  <block id="2b80954c6a85fe8e039a494c6c625853" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係を管理できます。更新、作成、休止、初期化、再確立、 休止していたミラー関係の再開に加え、ミラー関係の削除と編集を行います。</block>
+  <block id="f46cf6c1e84fb12f13b7c06207146a43" category="section-title">デスティネーションSVMからミラー関係を作成</block>
+  <block id="42ba35aabcb38bd0b0a5d5bc89d84095" category="paragraph">System Managerを使用して、ミラー関係をデスティネーションStorage Virtual Machine（SVM）から作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。</block>
+  <block id="25d48c749559d1d4de21242c0c742b97" category="paragraph">ONTAP システムマネージャクラシック（ONTAP 9.7以前で使用可能）を使用して、イーサネットポートを作成および管理できます。</block>
+  <block id="c0d6806b68a3d39f90734f6ab8a3f56a" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Security Assertion Markup Language（SAML）認証をセットアップできます。リモートユーザは、 System Manager にログインする前に、セキュアなアイデンティティプロバイダ（ IdP ）を通じて認証されます。</block>
+  <block id="f25e8077183eab2cecad23a8ec6c295a" category="paragraph">Storage Virtual Machine（SVM）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、System Manager Classic（ONTAP 9.7以前で利用可能）を使用して、必要に応じてSVMの管理をSVM管理者に委譲できます。</block>
+  <block id="e92b960df6e994d41ee05b6df147afe7" category="doc">System ManagerでのONTAP ネームサービススイッチの設定について- ONTAP 9.7以前</block>
+  <block id="1d29c318268409714ed0dd949adf99ad" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）では、UNIXシステムの/etc/nsswitch.confファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。</block>
+  <block id="ac92ac41cea62dfecd5b5dd772bfc78d" category="doc">System Manager - ONTAP 9.7以前を使用して、Windowsローカルグループを管理します</block>
+  <block id="117de31f8c0ba42bc57096e5ad9df35b" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ローカルWindowsグループを管理できます。グループのプロパティ、メンバーシップ、アカウントを変更したり、特定の権限をグループに割り当てることができます。</block>
+  <block id="c26abfeeb59d33979108c70a5f4c57eb" category="paragraph">System Managerを使用して、ローカルユーザ、Active Directoryユーザ、またはActive Directoryグループ（そのグループに関連付けられた権限をユーザに割り当てる場合）をWindowsローカルグループに追加できます。</block>
+  <block id="208b83729d67a14e4d8cd56f6db1a70c" category="section-title">Windowsローカルユーザのプロパティを編集します</block>
+  <block id="868c5f63dfaa98d3d0269baf4d958a21" category="paragraph">System Manager を使用して、 Windows ローカルユーザアカウントを編集して、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。</block>
+  <block id="8c848ffd60aae82bfdeaecc9cdc6e72c" category="section-title">グループメンバーシップをユーザアカウントに割り当てます</block>
+  <block id="f53fc6841153532fcb131ddc59517703" category="section-title">ウィンドウ</block>
+  <block id="52b7bdea477857b0549009ded6ed1610" category="paragraph">System Managerを使用して、Windowsウィンドウを開くことができます。Windows ウィンドウを使用して、クラスタの各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。</block>
+  <block id="9b588f149e145ccee960f124c5e3d417" category="sidebar">SVMの概要</block>
+  <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">ONTAP ネームサービススイッチの設定について</block>
+  <block id="30596850a631eadcd506fbd754bed204" category="sidebar">ホームディレクトリパスを管理します</block>
+  <block id="03a7b9a6c19575b0318568c1fb99f27c" category="sidebar">CIFSのグループポリシー設定を管理します</block>
+  <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">QoSポリシーグループを管理します</block>
+  <block id="2b61817f1a7e0ede39b016bc3fafe939" category="sidebar">ローカルWindowsグループ</block>
+  <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">バックアップ関係を管理</block>
 </blocks>

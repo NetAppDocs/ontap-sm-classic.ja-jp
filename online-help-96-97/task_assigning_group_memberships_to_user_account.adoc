@@ -1,36 +1,8 @@
 ---
 permalink: online-help-96-97/task_assigning_group_memberships_to_user_account.html 
-sidebar: sidebar 
-keywords: online, help, assign, group, membership, user, account, online, help, system, manager 
-summary: System Manager を使用してユーザアカウントにグループメンバーシップを割り当てることで、特定のグループに関連付けられている権限をユーザに付与することができます。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= System Manager - ONTAP 9.7 以前を使用して、ユーザアカウントにグループメンバーシップを割り当てます
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP システムマネージャクラシック（ ONTAP 9.7 以前で使用可能）を使用して、特定のグループに関連付けられている権限をユーザアカウントに割り当てることができます。
-
-.作業を開始する前に
-* ユーザを追加するグループが存在している必要があります。
-* グループに追加するユーザが存在している必要があります。
-
-
-特殊なグループ _Everyone にユーザーを追加することはできません。
-
-.手順
-. [ * ストレージ * > * SVMs * ] をクリックします。
-. SVM を選択し、 * SVM 設定 * をクリックします。
-. [* Host Users and Groups* （ホストユーザーとグループ * ） ] ペインで、 [* Windows* ] をクリックします。
-. [*Users*] タブで、グループメンバーシップを割り当てるユーザーアカウントを選択し、 [ グループに追加 ] をクリックします。
-. [ グループの追加 *] ウィンドウで、ユーザーアカウントを追加するグループを選択します。
-. [OK] をクリックします。
-
-
-選択したすべてのグループのメンバーシップがユーザアカウントに割り当てられ、それらのグループに関連付けられている権限がユーザに付与されます。
-
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]

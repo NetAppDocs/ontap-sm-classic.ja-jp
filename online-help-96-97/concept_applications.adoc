@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: application, predefined, template, system, manager, configuration, provision 
 summary: System Manager の事前定義されたアプリケーションテンプレートを使用して、既存のアプリケーションテンプレートを基にした設定を新たに作成することができます。その後、 ONTAP でアプリケーションのインスタンスをプロビジョニングできます。 
 ---
-= System Manager - ONTAP 9.7 以前を使用してアプリケーションを設定します
+= System Manager - ONTAP 9.7以前を使用してアプリケーションを設定します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
