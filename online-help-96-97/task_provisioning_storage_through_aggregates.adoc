@@ -29,7 +29,7 @@ System Manager を使用して次の操作を実行することはできませ�
 
 
 
-== System Manager - ONTAP 9.7 以前を使用して、ストレージの推奨事項に基づいてアグリゲートを作成します
+== ストレージの推奨事項に基づいてアグリゲートを作成
 
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージの推奨事項に基づいてアグリゲートを作成できます。ストレージシステムの構成が System Manager で分析され、作成するアグリゲートの数、利用可能なノード、利用可能なスペアディスクなど、ストレージの推奨事項が提示されます。
 
@@ -58,7 +58,7 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 
 
 
-== System Manager - ONTAP 9.7 以前のバージョンでアグリゲートを手動で作成します
+== アグリゲートを手動で作成する
 
 HDD のみまたは SSD のみで構成されるアグリゲートは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して手動で作成できます。
 
@@ -107,7 +107,7 @@ MetroCluster 構成の場合、ミラーされていないアグリゲートは�
 
 
 
-== System Manager - ONTAP 9.7 以前を使用して、 Flash Pool アグリゲートを手動で作成します
+== Flash Poolアグリゲートを手動で作成する
 
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Flash Pool アグリゲートを手動で作成したり、 SSD を追加して既存の HDD アグリゲートを Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。
 
@@ -176,7 +176,7 @@ MetroCluster 構成の場合、ミラーされていないアグリゲートは�
 
 
 
-== System Manager ONTAP 9.7 以前を使用して、 SnapLock アグリゲートを手動で作成します
+== SnapLock アグリゲートを手動で作成する
 
 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。
 
@@ -242,7 +242,7 @@ MetroCluster 構成の場合、ミラーされていないアグリゲートは�
 
 
 
-== System Manager - ONTAP 9.7 以前を使用して、 FabricPool 対応アグリゲートを手動で作成します
+== FabricPool対応アグリゲートを手動で作成する
 
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。
 
@@ -307,7 +307,5 @@ FabricPool 対応アグリゲートは、オールフラッシュ（オール SS
 
 
 * 関連情報 *
-
-xref:concept_how_storage_pool_works.adoc[ストレージプールの仕組み]
 
 http://www.netapp.com/us/media/tr-4070.pdf["ネットアップテクニカルレポート 4070 ：『 Flash Pool Design and Implementation 』"^]

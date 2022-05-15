@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, create, edit, delete, volume, tab, cif, nfs, online, help 
 summary: System Manager を使用して、ボリュームを作成、編集、削除できます。 
 ---
-= System Manager でボリュームを管理する - ONTAP 9.7 以前
+= System Manager - ONTAP 9.7以前を使用してボリュームを管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
