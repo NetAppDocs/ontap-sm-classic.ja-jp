@@ -20,7 +20,7 @@ ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用
 == Windows ローカルグループのプロパティを編集します
 
 [role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加および削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。
+System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。
 
 Windows ローカルグループのメンバーを追加または削除するときは、次の点に注意する必要があります。
 
@@ -203,7 +203,7 @@ xref:reference_windows_window.adoc[Windows ウィンドウ]
 
 
 
-= Windows ローカルグループを削除します
+== Windows ローカルグループを削除します
 
 [role="lead"]
 Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合は、 System Manager を使用して SVM から削除することができます。
@@ -313,7 +313,7 @@ xref:reference_windows_window.adoc[Windows ウィンドウ]
 
 
 
-= グループメンバーシップをユーザアカウントに割り当てます
+== グループメンバーシップをユーザアカウントに割り当てます
 
 [role="lead"]
 System Manager を使用してユーザアカウントにグループメンバーシップを割り当てることで、特定のグループに関連付けられている権限をユーザに付与することができます。
@@ -342,7 +342,7 @@ xref:reference_windows_window.adoc[Windows ウィンドウ]
 
 
 
-= Windows ローカルユーザの名前を変更します
+== Windows ローカルユーザの名前を変更します
 
 [role="lead"]
 System Manager を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。
@@ -377,7 +377,7 @@ xref:reference_windows_window.adoc[Windows ウィンドウ]
 
 
 
-= Windows ローカルユーザのパスワードをリセットします
+== Windows ローカルユーザのパスワードをリセットします
 
 [role="lead"]
 System Manager を使用して、 Windows ローカルユーザのパスワードをリセットできます。パスワードのリセットは、たとえば、現在のパスワードが漏れた場合やパスワードを忘れた場合などに行います。
@@ -411,7 +411,7 @@ xref:reference_windows_window.adoc[Windows ウィンドウ]
 
 
 
-= Windows ローカルユーザアカウントを削除します
+== Windows ローカルユーザアカウントを削除します
 
 [role="lead"]
 Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 System Manager を使用して SVM から削除することができます。

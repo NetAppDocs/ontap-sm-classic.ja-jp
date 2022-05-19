@@ -4,14 +4,6 @@ title: System Manager 9.6 および 9.7 を使用したクラスタ管理
 entries:
 - title: System Manager について理解する
   url: "/online-help-96-97/index.html"
-- title: アプリケーションインターフェイスで使用されるアイコン
-  url: "/online-help-96-97/reference_icons_used_application_interface.html"
-- title: System Manager ウィンドウのレイアウト
-  url: "/online-help-96-97/reference_windows_layout.html"
-- title: ウィンドウレイアウトのカスタマイズ
-  url: "/online-help-96-97/reference_window_layout_customization.html"
-- title: ONTAP System Manager の機能拡張
-  url: "/online-help-96-97/concept_system_manager_enhancements.html"
 - title: ONTAP System Manager を使用してクラスタをセットアップする
   entries:
   - title: テンプレートファイルを使用してクラスタをセットアップします
@@ -154,10 +146,16 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: ユーザ
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
+  entries:
+  - title: ロール
+    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: ロール
   url: "/online-help-96-97/concept_roles.html"
 - title: ネットワークを管理します
   url: "/online-help-96-97/concept_managing_network.html"
+  entries:
+  - title: "[ ネットワーク ] ウィンドウ"
+    url: "/online-help-96-97/reference_network_window.html"
 - title: IPspace
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: ブロードキャストドメイン
@@ -255,17 +253,18 @@ entries:
     url: "/online-help-96-97/reference_managing_svms.html"
   - title: ファイルアクセスのトレースによる SVM のアクセスエラー診断
     url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-  - title: SVMの概要
+  - title: SVM の使用目的
     url: "/online-help-96-97/concept_why_you_use_svms.html"
-  - title: ONTAP ネームサービススイッチの設定について
+  - title: ONTAP のネームサービススイッチ設定の仕組み
     url: "/online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html"
   - title: Storage Virtual Machine ウィンドウ
     url: "/online-help-96-97/reference_svm_window.html"
   - title: "[ ファイルアクセスのトレース ] ウィンドウ"
     url: "/online-help-96-97/reference_trace_file_access_window.html"
-- title: ボリュームプロパティを編集します
-  url: "/online-help-96-97/task_editing_volume_properties.html"
+- title: 個のボリューム
   entries:
+  - title: ボリュームプロパティを編集します
+    url: "/online-help-96-97/task_editing_volume_properties.html"
   - title: データ保護ボリュームを編集
     url: "/online-help-96-97/task_editing_data_protection_volumes.html"
   - title: ボリュームを削除します
@@ -410,11 +409,11 @@ entries:
 - title: CIFS プロトコル
   url: "/online-help-96-97/concept_cifs_protocol.html"
   entries:
-  - title: ホームディレクトリパスを管理します
+  - title: ホームディレクトリパスを追加します
     url: "/online-help-96-97/task_adding_home_directory_paths.html"
   - title: CIFS ドメインコントローラをリセットします
     url: "/online-help-96-97/task_resetting_cifs_domain_controllers.html"
-  - title: CIFSのグループポリシー設定を管理します
+  - title: CIFS グループポリシー設定を更新する
     url: "/online-help-96-97/task_updating_cifs_group_policy_configuration.html"
   - title: BranchCache をセットアップする
     url: "/online-help-96-97/task_setting_up_branchcache.html"
@@ -447,9 +446,13 @@ entries:
   url: "/online-help-96-97/concept_export_policies.html"
 - title: 効率化ポリシー
   url: "/online-help-96-97/concept_efficiency_policies.html"
-- title: QoSポリシーグループを管理します
+- title: QoS ポリシーグループを作成する
   url: "/online-help-96-97/task_creating_qos_policy_groups.html"
   entries:
+  - title: QoS ポリシーグループを削除する
+    url: "/online-help-96-97/task_deleting_qos_policy_groups.html"
+  - title: QoS ポリシーグループを編集する
+    url: "/online-help-96-97/task_editing_qos_policy_groups.html"
   - title: ポリシーグループへのストレージオブジェクトの割り当てに関するルール
     url: "/online-help-96-97/concept_rules_for_assigning_storage_objects_to_policy_groups.html"
 - title: NIS サービス
@@ -462,18 +465,44 @@ entries:
   url: "/online-help-96-97/concept_kerberos_realm_services.html"
 - title: DNS/DDNS サービス
   url: "/online-help-96-97/concept_dns_ddns_services.html"
-- title: ユーザ
+- title: SVMユーザ
   url: "/online-help-96-97/concept_svm_user_accounts.html"
 - title: ロール
   url: "/online-help-96-97/concept_roles_delete.html"
 - title: "「 UNIX 」"
   url: "/online-help-96-97/concept_unix.html"
-- title: ローカルWindowsグループ
-  url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
+- title: Windows の場合
+  entries:
+  - title: Windows ローカルグループを作成します
+    url: "/online-help-96-97/task_creating_local_user_group.html"
+  - title: Windows ローカルグループのプロパティを編集します
+    url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
+  - title: Windows ローカルグループにユーザアカウントを追加します
+    url: "/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html"
+  - title: Windows ローカルグループの名前を変更します
+    url: "/online-help-96-97/task_renaming_local_windows_group.html"
+  - title: Windows ローカルグループを削除します
+    url: "/online-help-96-97/task_deleting_local_windows_group.html"
+  - title: Windows ローカルユーザアカウントを作成します
+    url: "/online-help-96-97/task_creating_local_windows_user_accounts.html"
+  - title: Windows ローカルユーザのプロパティを編集します
+    url: "/online-help-96-97/task_editing_local_windows_user_properties.html"
+  - title: ユーザアカウントへのグループメンバーシップの割り当て
+    url: "/online-help-96-97/task_assigning_group_memberships_to_user_account.html"
+  - title: Windows ローカルユーザの名前を変更します
+    url: "/online-help-96-97/task_renaming_local_windows_user.html"
+  - title: Windows ローカルユーザのパスワードをリセットします
+    url: "/online-help-96-97/task_changing_password_for_windows_local_users.html"
+  - title: Windows ローカルユーザアカウントを削除します
+    url: "/online-help-96-97/task_deleting_local_windows_user_account.html"
+  - title: Windows ウィンドウ
+    url: "/online-help-96-97/reference_windows_window.html"
 - title: ネームマッピング
   url: "/online-help-96-97/concept_name_mapping.html"
 - title: ミラー関係
   entries:
+  - title: デスティネーション SVM からミラー関係を作成
+    url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
   - title: ミラー関係を管理します
     url: "/online-help-96-97/task_editing_mirror_relationships.html"
   - title: SnapMirror 関係を解除します
@@ -486,12 +515,16 @@ entries:
     url: "/online-help-96-97/task_restoring_volume_mirror_relationship.html"
 - title: バックアップ関係
   entries:
-  - title: バックアップ関係を管理
+  - title: デスティネーション SVM からバックアップ関係を作成
+    url: "/online-help-96-97/task_creating_vault_relationship_from_destination_svm.html"
+  - title: ミラー関係を管理します
     url: "/online-help-96-97/task_editing_vault_relationships.html"
   - title: Snapshot コピーの転送を中止する
     url: "/online-help-96-97/task_aborting_vault_relationships.html"
   - title: バックアップ関係のボリュームをリストアする
     url: "/online-help-96-97/task_restoring_volume_vault_relationship.html"
+  - title: SnapVault バックアップとは
+    url: "/online-help-96-97/concept_what_snapvault_backup_is.html"
 - title: ミラーとバックアップ関係
   entries:
   - title: ミラーとバックアップ関係を管理します

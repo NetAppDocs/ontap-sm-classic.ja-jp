@@ -1968,7 +1968,6 @@
   <block id="9be5107b34684c6d6f07fc8f3a5e7912" category="list-text">SVM の複数のボリュームまたは qtree に同じエクスポートポリシーを割り当て、同一のクライアントアクセス制御を実行する。ボリュームまたは qtree ごとに新しいエクスポートポリシーを作成する必要はありません。</block>
   <block id="515cefadfd6af4f7ede12a8911a09780" category="paragraph">クライアントが適用可能なエクスポートポリシーで許可されていないアクセス要求を行うと、権限拒否のメッセージが表示され、その要求は失敗します。クライアントがエクスポートポリシーのどのルールにも一致しない場合、アクセスは拒否されます。エクスポートポリシーが空の場合は、すべてのアクセスが暗黙的に拒否されます。</block>
   <block id="5b5a7b680e035cb0a9b7133960d430db" category="paragraph">エクスポートポリシーは、 ONTAP を実行しているシステム上で動的に変更できます。</block>
-  <block id="636a8855963f727473bac2df49f2eeb8" category="doc">ウィンドウレイアウトのカスタマイズ</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* フィルタリング *</block>
   <block id="deb3f2a63d57c6bce0c958914fba9a4d" category="summary">システムヘルスアラートの詳細については、 System Alerts （システムアラート）ウィンドウを参照してください。また、アラートの承認、削除、および抑制もこのウィンドウから実行できます。</block>
   <block id="9830254c3fdd4b989ca7485ca0cff864" category="doc">System Alerts （システムアラート）ウィンドウ</block>
@@ -2157,9 +2156,7 @@
   <block id="e9348fc2c8cf0b2d2f91f9daabb340aa" category="list-text">Snapshot コピー用に確保するボリュームスペースの割合を入力または選択し、 * OK * をクリックします。</block>
   <block id="9654bc3b838c00a4a9f4859cf6844f4a" category="inline-xref-macro">Volumes （ボリューム）ウィンドウ</block>
   <block id="d88f061c81320f88a51f587c7a64b902" category="paragraph"><block ref="d88f061c81320f88a51f587c7a64b902" category="inline-xref-macro-rx"></block></block>
-  <block id="64ede1136b38d05639150dc84ce2ca68" category="summary">遅延時間は、ソースシステムよりデスティネーションシステムが遅延している時間の長さです。</block>
   <block id="bb7c4cc3390268168d4d4a8537f329d6" category="doc">遅延時間とは</block>
-  <block id="78453587fd66d72075a252c52b6e2713" category="paragraph">遅延時間は、現在の時刻と、デスティネーションシステムに正常に転送された最後の Snapshot コピーのタイムスタンプとの差です。ソースシステムとデスティネーションシステムのクロックが同期されていないかぎり、遅延時間は常に、最後に成功した転送の時間以上になります。遅延時間の計算ではタイムゾーンの時差が自動的に含められます。</block>
   <block id="9703064f9cac6be7028eadf010151aa7" category="doc">ミラー関係</block>
   <block id="b05a6d37156804dc7b1e2c6ea9f572db" category="summary">System Manager を使用して Storage Efficiency を有効にして、ボリュームで重複排除とデータ圧縮の両方を設定したり重複排除のみを設定したりして、ストレージスペースを節約できます。ボリュームの作成時に有効にしなかった場合は、あとからボリュームを編集して Storage Efficiency を有効にすることができます。</block>
   <block id="98baa37b57c30822b4af91a1fb878b18" category="doc">ボリュームで Storage Efficiency を有効にします</block>
@@ -2581,7 +2578,6 @@
   <block id="4ad33e0d007341fed44926497c80259b" category="list-text">[ * ネットワーク * ] タブをクリックします。</block>
   <block id="63b92e6d6c29f0dee5081db251b8fbdd" category="list-text">[*IPspaces *] タブで、 [*Create] をクリックします。</block>
   <block id="caa833fee856462c7c2d04fa48804047" category="list-text">Create IPspaces * ダイアログボックスで、作成する IPspace の名前を指定します。</block>
-  <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager ウィンドウのレイアウト</block>
   <block id="da1f9aa178114b8d7b3ae1a118b9633f" category="summary">System Manager の LUN の管理タブを使用して、選択した LUN をオンラインにし、ホストで使用できるようにすることができます。</block>
   <block id="ef50835fdda9b89e011ae3fd8bd8a366" category="doc">LUN をオンラインにしています</block>
   <block id="5ac718bd67533fe75657fd6fb6f196c2" category="paragraph">LUN にアクセスしているすべてのホストアプリケーションを、停止または同期させる必要があります。</block>
@@ -4064,8 +4060,6 @@
   <block id="f06042e47576771d0c65a51ca5c7541c" category="list-text">必要な BranchCache のバージョンを選択します。</block>
   <block id="59406f02575f2b06b6431d26a4c205c2" category="paragraph">デフォルトでは、クライアントでサポートされるすべてのバージョンが選択されます。</block>
   <block id="b3c3b87b37229702f86d01c2013dc543" category="list-text">[ セットアップ ] をクリックします。</block>
-  <block id="82e0fa489db30f304e5c422ca5c4ed7a" category="summary">インターフェイスのアイコンからは、システムや処理に関する情報を一目で把握できます。</block>
-  <block id="c87aa7ccb86776af182c8ff69abdb4af" category="doc">アプリケーションインターフェイスで使用されるアイコン</block>
   <block id="baa9c79245f7884810c575121d7d6a37" category="section-title">ダッシュボードウィンドウのアイコン</block>
   <block id="eb95543f6e7e801ae8e527cfe8873f85" category="paragraph">ストレージシステムのダッシュボードを表示すると、次のアイコンが表示されます。</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">をクリックします。</block>
@@ -5110,7 +5104,6 @@
   <block id="5c8f3e60df679922b81c83ee379c5f40" category="list-text">MetroCluster 構成の場合、 System Manager でディスクを割り当てることはできません。</block>
   <block id="1796c10a8658ad63233422dfb6d0adb4" category="list-text">割り当てるディスクを選択し、 * assign * をクリックします。</block>
   <block id="f83e2b71e950078fd1e49c8f30f164b5" category="list-text">ディスクの割り当て * ダイアログボックスで、ディスクを割り当てるノードを選択します。</block>
-  <block id="54398abab76b88472b675eabf1995da2" category="doc">ONTAP System Manager の機能拡張</block>
   <block id="1f06c32e4284c548639b045d1a680c1f" category="doc">ONTAP で動的ホームディレクトリを有効にする方法</block>
   <block id="ddb6804ce83c0756809d4eaa0da80de7" category="paragraph">ONTAP ホームディレクトリを使用すると、 SMB 共有を設定し、ユーザと一連の変数に基づいてさまざまなディレクトリにマッピングすることができます。ユーザごとに別個の共有を作成するのではなく、 1 つの共有を設定し、いくつかのホームディレクトリパラメータを指定して、エントリポイント（共有）とホームディレクトリ（ SVM 上のディレクトリ）間の関係をユーザ単位で定義します。</block>
   <block id="47d8b0af5d2931cb4e847ec858c73ecf" category="paragraph">ゲストユーザとしてログインしたユーザは、ホームディレクトリを持ちません。また、他のユーザのホームディレクトリにアクセスすることはできません。ユーザとディレクトリのマッピング方法を決定する 4 つの変数があります。</block>
@@ -9276,7 +9269,6 @@
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
   <block id="665c825107a5830a82d2b69e5aeff554" category="doc">System Manager - ONTAP 9.7 以前を使用して、ミラーとバックアップ関係を中止します</block>
   <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">データ転送を停止する場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
-  <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加および削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。</block>
   <block id="a5e43690037a175b3839475cc48dd350" category="doc">System Manager - ONTAP 9.7 以前を使用してバックアップ関係を管理します</block>
   <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、デスティネーション SVM からバックアップ関係を作成するだけでなく、バックアップ関係を更新、再開、休止、初期化、および削除できます。</block>
   <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">関係を編集します</block>
@@ -9339,13 +9331,6 @@
   <block id="8c848ffd60aae82bfdeaecc9cdc6e72c" category="section-title">グループメンバーシップをユーザアカウントに割り当てます</block>
   <block id="f53fc6841153532fcb131ddc59517703" category="section-title">ウィンドウ</block>
   <block id="52b7bdea477857b0549009ded6ed1610" category="paragraph">System Managerを使用して、Windowsウィンドウを開くことができます。Windows ウィンドウを使用して、クラスタの各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。</block>
-  <block id="9b588f149e145ccee960f124c5e3d417" category="sidebar">SVMの概要</block>
-  <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">ONTAP ネームサービススイッチの設定について</block>
-  <block id="30596850a631eadcd506fbd754bed204" category="sidebar">ホームディレクトリパスを管理します</block>
-  <block id="03a7b9a6c19575b0318568c1fb99f27c" category="sidebar">CIFSのグループポリシー設定を管理します</block>
-  <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">QoSポリシーグループを管理します</block>
-  <block id="2b61817f1a7e0ede39b016bc3fafe939" category="sidebar">ローカルWindowsグループ</block>
-  <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">バックアップ関係を管理</block>
   <block id="848dcad0446ea1d6a218cfce14bd4f83" category="section-title">ストレージの推奨事項に基づいてアグリゲートを作成</block>
   <block id="1a0931643fb40c6c47be73fc4d6e036b" category="section-title">アグリゲートを手動で作成する</block>
   <block id="7aa7ed2830461848d8d830ea0a310cd8" category="section-title">Flash Poolアグリゲートを手動で作成する</block>
@@ -9353,4 +9338,12 @@
   <block id="2ccebd804a2ce77ca906d0e7b9c74307" category="section-title">FabricPool対応アグリゲートを手動で作成する</block>
   <block id="d0e7a5e3372fc34ff0c77624a2bb33ac" category="doc">System Manager - ONTAP 9.7以前を使用してボリュームを管理します</block>
   <block id="5cf0222128789f408e97a1222d101d9b" category="doc">System Manager - ONTAP 9.7以前を使用して、SVMユーザアカウントを作成および管理します</block>
+  <block id="77e82b2e710b5cc9c6dfa16efeddeaea" category="sidebar">SVM の使用目的</block>
+  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="sidebar">個のボリューム</block>
+  <block id="7e07ef4fefaf5e9f135056d576316043" category="sidebar">ホームディレクトリパスを追加します</block>
+  <block id="34c8cc3c55629eebeca9a7f5b7b3536d" category="sidebar">SVMユーザ</block>
+  <block id="a61ef4381ae27c3f4823d95f1b2c7c23" category="sidebar">Windows ローカルユーザのプロパティを編集します</block>
+  <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">ユーザアカウントへのグループメンバーシップの割り当て</block>
+  <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">デスティネーション SVM からミラー関係を作成</block>
+  <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">デスティネーション SVM からバックアップ関係を作成</block>
 </blocks>
