@@ -2760,7 +2760,6 @@
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">[Submit （送信） ] をクリックします。</block>
   <block id="5dd430cf1c4aa7ded7c4c6a9aef0eedb" category="inline-xref-macro">NVMe ネームスペースウィンドウ</block>
   <block id="1f669ee0b6ce0a42888b9d369175bf8f" category="paragraph"><block ref="1f669ee0b6ce0a42888b9d369175bf8f" category="inline-xref-macro-rx"></block></block>
-  <block id="4ce4dda529d7d70f9c36d022aa9449c8" category="summary">System Manager を使用して、ロールを作成および管理できます。</block>
   <block id="a5cd3ed116608dac017f14c046ea56bf" category="doc">ロール</block>
   <block id="6ba7b5d818acb6cab3137d4c011e2db2" category="inline-link">管理者認証と RBAC</block>
   <block id="68c16964c51f57dc952df1961ce1ee35" category="paragraph"><block ref="68c16964c51f57dc952df1961ce1ee35" category="inline-link-rx"></block></block>
@@ -3595,10 +3594,7 @@
   <block id="9c5f4c720655efa44a639aa6731684c3" category="paragraph">使用状況に関係なく、ノードロックライセンスがすべてのノードにインストールされている場合やサイトライセンスがクラスタにインストールされている場合は、使用権のリスクは発生しません。</block>
   <block id="88183b946cc5f0e8c96b2e66e1c74a7e" category="list-text">不明です</block>
   <block id="9812430032475277f82a0bc3792be99d" category="paragraph">API が、クラスタまたはクラスタ内のノードに関連付けられた使用権のリスクに関連するデータを取得できないことがある場合、そのリスクは不明です。</block>
-  <block id="c1edbc4c9e061c62e85d9779adb916f3" category="summary">System Manager を使用してアクセス制御ロールを追加し、そのロールのユーザがアクセスできるコマンドまたはコマンドディレクトリを指定できます。また、ロールに付与するコマンドやコマンドディレクトリへのアクセスレベルを制御したり、環境でコマンドやコマンドディレクトリを指定するクエリを指定したりすることもできます。</block>
   <block id="680bc53c2140210b4a76bfa69cdc2535" category="doc">ロールを追加します</block>
-  <block id="7267345a94face97a0b4b2e735d51b1d" category="list-text">[* SVM User Details] ペインで、 [* Roles] をクリックします。</block>
-  <block id="7fb2d686fde24abfccde92f263682945" category="list-text">[ 役割の追加 *] ダイアログボックスで、役割名を指定し、役割属性を追加します。</block>
   <block id="f210a25eaf89fa55ced5c9c77e0b242b" category="summary">System Manager を使用して、共有を作成、編集、管理できます。</block>
   <block id="d272c069ec4cbb05fe03c3ff588a12e2" category="doc">共有</block>
   <block id="7ff3ceafbcd5dee311465939c5c2c592" category="summary">System Manager を使用して、ボリューム名、セキュリティ形式、フラクショナルリザーブ、およびスペースギャランティなどのボリュームプロパティを変更できます。また、 Storage Efficiency の設定（重複排除スケジュール、重複排除ポリシー、圧縮）、およびスペース再生利用の設定も変更できます。</block>
@@ -4383,7 +4379,6 @@
   <block id="1290983ba5fc87ec0fc668a784e88af4" category="paragraph">サービスプロセッサリストの下の領域には、 IP アドレス、ネットワークマスク（ IPv4 ）、プレフィックス長（ IPv6 ）、ゲートウェイ、 IP ソース、 MAC アドレス、ファームウェアバージョン、ファームウェアの自動更新が有効かどうかなどの一般的な詳細情報。</block>
   <block id="5d15711e0f0051e3f2159baa0ec89265" category="paragraph"><block ref="5d15711e0f0051e3f2159baa0ec89265" category="inline-xref-macro-rx"></block></block>
   <block id="cfa566be6299e9e3d5fade67a78c3e74" category="summary">System Manager では、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。</block>
-  <block id="9ec7401b6f04c416e336acd652043b73" category="paragraph">このウィンドウで変更できるのは NVMe サブシステムの設定だけです。ネームスペースのその他の詳細情報は編集できません。</block>
   <block id="f7e3bbd4fe5c0d8ca1b63838f152aa81" category="list-text">* NVMe ネームスペースウィンドウ * で、編集するネームスペースを選択します。</block>
   <block id="f675a7bc5b1163c3b4fcd04df9e2b068" category="list-text">サブシステムのオプションを選択します。</block>
   <block id="579a46a917d784198fe18b644fe1a692" category="list-text">なし：このオプションを選択すると、このネームスペースに対する既存のサブシステムのマッピングのみが解除されます。選択したネームスペースにサブシステムがマッピングされていない場合は、このオプションが自動的に選択されます。</block>
@@ -7578,9 +7573,6 @@
   <block id="7cc04bec7d4720b1418723a2aa6915df" category="paragraph">クラスタ管理、ノード管理、およびサービスプロセッサ管理の IP アドレス範囲を入力した場合、それらのフィールドの IP アドレスの値を手動で変更することはできません。すべての IP アドレスが IPv4 アドレスであることを確認してください。</block>
   <block id="2389c265c5a2b20d1eec9fa4207667b9" category="list-text">サービスプロセッサ管理のデフォルト値を上書きする場合は、必須のゲートウェイの詳細が入力されていることを確認します。</block>
   <block id="38f0eb0f612b86d404cbdaf0799a8395" category="summary">System Manager を使用して、ストレージシステムで iSCSI サービスを開始または停止できます。</block>
-  <block id="af2ea4d8f843befba34328807ddef7e2" category="paragraph">System Manager を使用して、アクセス制御ロールのコマンドまたはコマンドディレクトリへのアクセスを変更して、指定したコマンドセットのみにユーザのアクセスを制限できます。</block>
-  <block id="184d7287e45870df2985a70608171872" category="list-text">変更するロールを選択し、 * 編集 * をクリックします。</block>
-  <block id="db9e97c1b3b403653857d8198470a678" category="list-text">ロール属性を変更し、 * 変更 * をクリックします。</block>
   <block id="50c4cc924cb76c8c589ba3ab4e13dcd8" category="doc">ノードのネットワークの詳細を設定</block>
   <block id="926d209b43e6189068be5c1e0f6f8885" category="doc">MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウ</block>
   <block id="5c30f783149aeed9a56b4ee6168ea7d9" category="list-text">* サイト B からサイト A へのスイッチオーバー *</block>
@@ -9194,8 +9186,6 @@
   <block id="92b5cfb7c1fce1eb7a3e8af80d9f9e4c" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クォータを作成、編集、および削除できます。</block>
   <block id="f8206d5822aae59ab25ac11cfd0db3b1" category="doc">System Manager ONTAP 9.7 以前を使用して LUN を移動します</block>
   <block id="f6eab1b0f1e3aecbf6c1fc2d5b6d1f3d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）内で、格納先ボリュームから別のボリュームまたは qtree に LUN を移動できます。ハイパフォーマンスディスクを含むアグリゲートでホストされているボリュームに LUN を移動すると、 LUN へのアクセス速度が向上します。</block>
-  <block id="932602fa5fa764793ab1fa81fc0be6d7" category="doc">System Manger ONTAP 9.7 以前を使用して、 NVMe ネームスペースを編集する</block>
-  <block id="727ece68052790d13859f0d00c5bc97d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。</block>
   <block id="3ab7fd8a82e1834d805386fd9d48097b" category="doc">System Manager - ONTAP 9.7 以前を使用してイニシエータグループを表示します</block>
   <block id="2e7e039707010ae5e778413a23bbe402" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の * イニシエータグループ * タブを使用すると、これらのイニシエータグループにマッピングされているすべてのイニシエータグループとイニシエータグループ、およびイニシエータグループにマッピングされている LUN と LUN ID を表示できます。</block>
   <block id="a662f5c9c50a29062ff6977d842954f0" category="doc">System Manager - ONTAP 9.7 以前で iSCSI プロトコルを設定します</block>
@@ -9242,8 +9232,6 @@
   <block id="26db8af5ab588089d2d0b8f377dadc4d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SVM 間のミラー関係およびミラーとバックアップ関係を作成および管理できます。Storage Virtual Machine （ SVM ）ディザスタリカバリ（ DR ）は、 SVM レベルのディザスタリカバリ機能で、 SVM のコンスティチュエントボリュームに含まれるデータおよび SVM の設定をリカバリすることができます。</block>
   <block id="c48810549c92e77a74367bf1cec6df93" category="doc">System Manager - ONTAP 9.7 以前を使用して HA ペアを監視します</block>
   <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内のすべてのハイアベイラビリティ（ HA ）ペアについて、ノードのステータスとインターコネクトのステータスを監視できます。テイクオーバーやギブバックが有効になっているかどうかや発生したかどうかの情報のほか、現在実行できない場合はその理由も確認できます。</block>
-  <block id="262333fc510a217309de41b775906e37" category="doc">System Manager - ONTAP 9.7 以前を使用して、ロールを作成して管理します</block>
-  <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ロールを作成および管理できます。</block>
   <block id="18f944a43803893b3abefe4cddb83100" category="doc">System Manager - ONTAP 9.7 以前を使用して、 Snapshot コピーの転送を中止します</block>
   <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、現在実行中のデータ転送を中止または停止できます。</block>
   <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">System Manager - ONTAP 9.7 以前を使用してクラスタをセットアップします</block>
@@ -9346,4 +9334,7 @@
   <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">ユーザアカウントへのグループメンバーシップの割り当て</block>
   <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">デスティネーション SVM からミラー関係を作成</block>
   <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">デスティネーション SVM からバックアップ関係を作成</block>
+  <block id="5320519656008cb5df3f08380e301995" category="doc">System Manager - ONTAP 9.7以前を使用して、NVMeネームスペースを編集します</block>
+  <block id="e98d8ae8fa01fcc5c723de5567d4b5a5" category="paragraph">ONTAP システムマネージャクラシック（ONTAP 9.7以前で使用可能）を使用して、ネームスペースがマッピングされているサブシステムを変更することでネームスペースを編集できます。</block>
+  <block id="e605d3c73e4fdd4e52aaf2c1465605c6" category="paragraph">このウィンドウで変更できるのはNVMeサブシステムの設定だけです。ネームスペースのその他の詳細情報は編集できません。</block>
 </blocks>
