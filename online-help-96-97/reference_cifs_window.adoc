@@ -11,7 +11,7 @@ summary: CIFS ウィンドウを使用して、 CIFS サーバの設定、ドメ
 
 
 [role="lead"]
-System Manager （ ONTAP 9.7 以前）の CIFS ウィンドウを使用して、 CIFS サーバの設定、ドメインコントローラの管理、 UNIX シンボリックマッピングの管理、および BranchCache の設定を行うことができます。
+ONTAP System ManagerのCIFSウィンドウ（ONTAP 9.7以前で使用可能）を使用して、CIFSサーバの設定、ドメインコントローラの管理、UNIXシンボリックマッピングの管理、およびBranchCacheの設定を行うことができます。
 
 
 

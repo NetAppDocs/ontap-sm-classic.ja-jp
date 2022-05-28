@@ -11,7 +11,7 @@ summary: System Manager では、 DNS を介してドメインコントローラ
 
 
 [role="lead"]
-ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、優先ドメインコントローラを管理できます
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、優先ドメインコントローラを管理できます。
 
 
 

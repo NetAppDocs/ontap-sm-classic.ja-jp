@@ -6,11 +6,9 @@ summary: System Manager を使用して、ローカルユーザ、 Active Direct
 ---
 = System Manager - ONTAP 9.7以前を使用して、Windowsローカルグループを管理します
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
-
-
-
-== System Manager - ONTAP 9.7以前を使用して、Windowsローカルグループを管理します
 
 [role="lead"]
 ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ローカルWindowsグループを管理できます。グループのプロパティ、メンバーシップ、アカウントを変更したり、特定の権限をグループに割り当てることができます。
@@ -19,7 +17,6 @@ ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用
 
 == Windows ローカルグループのプロパティを編集します
 
-[role="lead"]
 System Manager を使用して、ローカルユーザ、 Active Directory ユーザ、または Active Directory グループを追加または削除して、ローカルグループのメンバーシップを管理することができます。グループに割り当てられる権限やグループの概要を変更して、グループを簡単に識別することができます。
 
 Windows ローカルグループのメンバーを追加または削除するときは、次の点に注意する必要があります。
@@ -50,15 +47,10 @@ Windows ローカルグループのメンバーを追加または削除すると
 
 Windows ローカルグループの設定が変更され、変更内容が * グループ * タブに表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルグループを作成します
 
-[role="lead"]
 System Manager を使用して Windows ローカルグループを作成し、 Storage Virtual Machine （ SVM ）に格納されたデータに SMB 接続経由でアクセスする際の認証に使用できます。また、管理アクティビティの実行時にグループのメンバーが利用できるユーザ権限と機能を定義した権限を割り当てることができます。
 
 SVM 用に CIFS サーバが設定されている必要があります。
@@ -121,15 +113,10 @@ SVM 用に CIFS サーバが設定されている必要があります。
 
 Windows ローカルグループが作成され、 [ グループ ] ウィンドウに表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルグループにユーザアカウントを追加します
 
-[role="lead"]
 System Managerを使用して、ローカルユーザ、Active Directoryユーザ、またはActive Directoryグループ（そのグループに関連付けられた権限をユーザに割り当てる場合）をWindowsローカルグループに追加できます。
 
 .作業を開始する前に
@@ -163,15 +150,10 @@ Windows ローカルグループのメンバーを追加する場合は、次の
 
 追加したユーザーは、 [*Groups] タブの [User] タブに一覧表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルグループの名前を変更します
 
-[role="lead"]
 System Manager を使用して、 Windows ローカルグループの名前をわかりやすい名前に変更できます。
 
 .このタスクについて
@@ -197,15 +179,10 @@ System Manager を使用して、 Windows ローカルグループの名前を�
 
 ローカルグループ名が変更され、グループウィンドウに新しい名前が表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルグループを削除します
 
-[role="lead"]
 Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス権の定義やグループメンバーへの SVM のユーザ権限の割り当てに使用する Windows ローカルグループが不要になった場合は、 System Manager を使用して SVM から削除することができます。
 
 .このタスクについて
@@ -228,15 +205,10 @@ Storage Virtual Machine （ SVM ）に格納されたデータへのアクセス
 
 ローカルグループとそのメンバーシップのレコードが削除されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルユーザアカウントを作成します
 
-[role="lead"]
 System Manager を使用して Windows ローカルユーザアカウントを作成し、 Storage Virtual Machine （ SVM ）に格納されたデータに SMB 接続経由でアクセスする際の認証に使用できます。Windows ローカルユーザアカウントは、 CIFS セッションを作成する際の認証にも使用できます。
 
 .作業を開始する前に
@@ -285,15 +257,10 @@ Windows ローカルユーザの名前は次の要件を満たす必要があり
 
 Windows ローカルユーザアカウントが作成され、選択したグループのメンバーシップが割り当てられます。ユーザーアカウントは、 *Users* タブに表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windowsローカルユーザのプロパティを編集します
 
-[role="lead"]
 System Manager を使用して、 Windows ローカルユーザアカウントを編集して、既存のユーザのフルネームや概要を変更したり、ユーザアカウントを有効または無効にしたりできます。また、ユーザアカウントに割り当てられたグループメンバーシップを変更することもできます。
 
 .手順
@@ -307,15 +274,10 @@ System Manager を使用して、 Windows ローカルユーザアカウント�
 
 Windows ローカルユーザアカウントの属性が変更され、 * Users * タブに表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == グループメンバーシップをユーザアカウントに割り当てます
 
-[role="lead"]
 System Manager を使用してユーザアカウントにグループメンバーシップを割り当てることで、特定のグループに関連付けられている権限をユーザに付与することができます。
 
 .作業を開始する前に
@@ -336,15 +298,10 @@ System Manager を使用してユーザアカウントにグループメンバ�
 
 選択したすべてのグループのメンバーシップがユーザアカウントに割り当てられ、それらのグループに関連付けられている権限がユーザに付与されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルユーザの名前を変更します
 
-[role="lead"]
 System Manager を使用して、 Windows ローカルユーザアカウントの名前をわかりやすい名前に変更できます。
 
 .このタスクについて
@@ -371,15 +328,10 @@ System Manager を使用して、 Windows ローカルユーザアカウント�
 
 ユーザー名が変更され、新しい名前が ［ * ユーザー * ］ タブに表示されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルユーザのパスワードをリセットします
 
-[role="lead"]
 System Manager を使用して、 Windows ローカルユーザのパスワードをリセットできます。パスワードのリセットは、たとえば、現在のパスワードが漏れた場合やパスワードを忘れた場合などに行います。
 
 設定するパスワードは次の基準を満たしている必要があります。
@@ -405,15 +357,10 @@ System Manager を使用して、 Windows ローカルユーザのパスワー�
 . 新しいパスワードを確認し、 [* リセット * ] をクリックします。
 
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == Windows ローカルユーザアカウントを削除します
 
-[role="lead"]
 Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 認証や SVM に格納されたデータへのアクセス権の定義に使用する Windows ローカルユーザアカウントが不要になった場合は、 System Manager を使用して SVM から削除することができます。
 
 .このタスクについて
@@ -431,26 +378,21 @@ Storage Virtual Machine （ SVM ）の CIFS サーバへのローカルの CIFS 
 
 ローカルユーザアカウントとそのグループメンバーシップのエントリが削除されます。
 
-* 関連情報 *
-
-xref:reference_windows_window.adoc[Windows ウィンドウ]
-
 
 
 == ウィンドウ
 
-[role="lead"]
 System Managerを使用して、Windowsウィンドウを開くことができます。Windows ウィンドウを使用して、クラスタの各 Storage Virtual Machine （ SVM ）の Windows ローカルユーザとローカルグループのリストを管理できます。Windows のローカルユーザおよびローカルグループは、認証やネームマッピングに使用できます。
 
 
 
-== [ ユーザー ] タブ
+=== [ ユーザー ] タブ
 
 ユーザタブを使用して、 SVM に対してローカルな Windows ユーザを表示できます。
 
 
 
-== コマンドボタン
+=== コマンドボタン
 
 * * 作成 * 。
 +
@@ -484,7 +426,7 @@ Create User ダイアログボックスを開きます。このダイアログ�
 
 
 
-== ユーザリスト
+=== ユーザリスト
 
 * * 名前 *
 +
@@ -506,7 +448,7 @@ Create User ダイアログボックスを開きます。このダイアログ�
 
 
 
-== ユーザーの詳細領域
+=== ユーザーの詳細領域
 
 * * グループ *
 +
@@ -516,13 +458,13 @@ Create User ダイアログボックスを開きます。このダイアログ�
 
 
 
-== [ グループ ] タブ
+=== [ グループ ] タブ
 
 SVM に対してローカルな Windows グループを追加、編集、削除するには、グループタブを使用します。
 
 
 
-== コマンドボタン
+=== コマンドボタン
 
 * * 作成 * 。
 +
@@ -552,7 +494,7 @@ Create Group ダイアログボックスを開きます。このダイアログ�
 
 
 
-== グループリスト（ Groups List ）
+=== グループリスト（ Groups List ）
 
 * * 名前 *
 +
@@ -566,7 +508,7 @@ Create Group ダイアログボックスを開きます。このダイアログ�
 
 
 
-== グループの詳細領域
+=== グループの詳細領域
 
 * * 特権 *
 +

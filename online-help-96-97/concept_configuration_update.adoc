@@ -11,7 +11,7 @@ summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）�
 
 
 [role="lead"]
-ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を設定できます。
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）管理の詳細を設定できます。
 
 
 
