@@ -449,11 +449,9 @@ entries:
   url: "/online-help-96-97/concept_svm_user_accounts.html"
 - title: "「 UNIX 」"
   url: "/online-help-96-97/concept_unix.html"
-- title: Windows の場合
+- title: ローカルWindowsグループ
   entries:
-  - title: Windows ローカルグループを作成します
-    url: "/online-help-96-97/task_creating_local_user_group.html"
-  - title: Windows ローカルグループのプロパティを編集します
+  - title: Windowsローカルグループを管理します
     url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
 - title: ネームマッピング
   url: "/online-help-96-97/concept_name_mapping.html"

@@ -2,7 +2,7 @@
 permalink: online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html 
 sidebar: sidebar 
 keywords: split, flexclone, volume, parent, online, help, disk, space 
-summary: FlexClone ボリュームで親ボリュームのディスクスペースではなく独自のディスクスペースを使用する場合、 System Manager を使用して FlexClone ボリュームを親からスプリットできます。スプリットした FlexClone ボリュームは通常の FlexVol になります。 
+summary: System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、FlexCloneボリュームを親ボリュームからスプリットできます。スプリットした FlexClone ボリュームは通常の FlexVol になります。親ボリュームのディスクスペースが使用され続け、ストレージ効率が維持されます。 
 ---
 = System Manager - ONTAP 9.7 以前を使用して、 FlexClone ボリュームを親ボリュームからスプリットします
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: FlexClone ボリュームで親ボリュームのディスクスペー�
 
 
 [role="lead"]
-FlexClone ボリュームで親ボリュームのディスクスペースではなく独自のディスクスペースを使用する場合は、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して FlexClone ボリュームを親ボリュームからスプリットできます。スプリットした FlexClone ボリュームは通常の FlexVol になります。
+System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、FlexCloneボリュームを親ボリュームからスプリットできます。スプリットした FlexClone ボリュームは通常の FlexVol になります。親ボリュームのディスクスペースが使用され続け、ストレージ効率が維持されます。
 
 FlexClone ボリュームはオンラインである必要があります。
 
