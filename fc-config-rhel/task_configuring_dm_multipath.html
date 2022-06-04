@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">日本語</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">日本語</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/index.html">
         System Manager Classic のドキュメント
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:21:26 +0000">06/04/2022</time>
     
   
 
@@ -4738,10 +4730,16 @@
 <li>
 <p>除外するネットアップ以外の SCSI デバイスがある場合は、「 multipath.conf 」ファイルの blacklist セクションにそのデバイスの World Wide Identifier （ WWID ）を入力します。</p>
 <div class="paragraph">
-<p>ネットアップ以外の SCSI デバイスの WWID を表示するには、除外するデバイスで次のコマンドを入力します。「 S csc_device_name 」は、「 /lib/udev/scsi_id-gud/dev/scsi_device_name 」と指定したデバイスです</p>
+<p>ネットアップ以外のSCSIデバイスのWWIDを表示するには、除外するデバイスで次のコマンドを入力します。「scsi_device_name」は、指定するデバイスです。</p>
 </div>
 <div class="paragraph">
-<p>たとえば '/dev/sda が除外するネットアップ以外の SCSI デバイスである場合は '/lib/udev/scsi_id -gud /dev/sda と入力します</p>
+<p>`/lib/udev/scsi_id -gud /dev/scsi_device_name</p>
+</div>
+<div class="paragraph">
+<p>たとえば'/dev/sdaが除外するネットアップ以外のSCSIデバイスである場合は&#8217;次のように入力します</p>
+</div>
+<div class="paragraph">
+<p>`/lib/udev/scsi_id -gud /dev/sda</p>
 </div>
 <div class="paragraph">
 <p>デバイスの WWID が表示されます。この WWID をコピーして「 multipath.conf 」ファイルに貼り付けることができます。</p>
@@ -4775,7 +4773,10 @@
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>ブートローダーのカーネル行の末尾に「 rdloaddriver=scsi_dh_alua 」という文字列を追加して、ネットアップ推奨の DM-Multipath 設定を有効にします</p>
+<p>ブートローダーのカーネル行の末尾に次の文字列を追加して、ネットアップ推奨のDM-Multipath設定を有効にします。</p>
+<div class="paragraph">
+<p>「rdloaddriver=scsi_dh_alua」のように入力します</p>
+</div>
 </li>
 </ol>
 </div>
@@ -4784,10 +4785,16 @@
 </div>
 </li>
 <li>
-<p>DM-Multipath デーモン /etc/init.d/multipathd start を起動します</p>
+<p>DM-Multipathデーモンを開始します。</p>
+<div class="paragraph">
+<p>/etc/init.d/multipathd start`</p>
+</div>
 </li>
 <li>
-<p>マルチパスサービスをブートシーケンスに追加して、マルチパスデーモンが常にシステムブート中に開始されるようにします。「 chkconfig multipathd on 」</p>
+<p>マルチパスサービスをブートシーケンスに追加して、マルチパスデーモンがシステムのブート時に常に開始されるようにします。</p>
+<div class="paragraph">
+<p>'chkconfig multipathd on`</p>
+</div>
 </li>
 <li>
 <p>Linux ホストをリブートします。</p>
@@ -4952,4 +4959,5 @@ ro root=/dev/mapper/vg_ibmx3650210104-lv_root rd_NO_LUKS LANG=en_US.UTF-8 rd_NO_
     </script>
     <script src='/ja-jp/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/ja-jp/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/ja-jp/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

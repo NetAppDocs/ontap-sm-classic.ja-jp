@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">日本語</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">日本語</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ja-jp/ontap-sm-classic/index.html">
         System Manager Classic のドキュメント
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:17:15 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:21:26 +0000">06/04/2022</time>
     
   
 
@@ -4808,18 +4800,15 @@
 <p>ルートボリュームのセキュリティ形式</p>
 </li>
 <li>
-<p>ルートアグリゲート： SVM のデフォルトの言語設定は C.UTF-8 です。</p>
+<p>ルートアグリゲート</p>
+<div class="paragraph">
+<p>SVMのデフォルトの言語設定はC.UTF-8です。</p>
+</div>
 <div class="paragraph">
 <p>デフォルトでは、空きスペースが最も多いアグリゲートが SVM のルートボリュームのコンテナとして選択されます。デフォルトのセキュリティ形式とルートアグリゲートは、選択したプロトコルに基づいて選択されます。</p>
 </div>
 <div class="paragraph">
-<p>+ CIFS プロトコル、または CIFS プロトコルと他のプロトコルの組み合わせを選択した場合は、セキュリティ形式は NTFS に設定されます。NFS 、 iSCSI 、 NVMe 、 FC / FCoE の各プロトコル、またはそれらのプロトコルの組み合わせを選択した場合は、セキュリティ形式は UNIX に設定されます。</p>
-</div>
-<div class="paragraph">
-<p>[+]</p>
-</div>
-</li>
-</ul>
+<p>CIFSプロトコル、またはCIFSプロトコルと他のプロトコルの組み合わせを選択した場合は、セキュリティ形式はNTFSに設定されます。NFS 、 iSCSI 、 NVMe 、 FC / FCoE の各プロトコル、またはそれらのプロトコルの組み合わせを選択した場合は、セキュリティ形式は UNIX に設定されます。</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -4835,9 +4824,11 @@
 </tr>
 </table>
 </div>
+</li>
+</ul>
+</div>
 <div class="paragraph">
-<p>+
-+ MetroCluster 構成では、クラスタに含まれるアグリゲートのみが表示されます。</p>
+<p>MetroCluster 構成では、クラスタに含まれるアグリゲートのみが表示されます。</p>
 </div>
 </li>
 <li>
@@ -4847,7 +4838,7 @@
 </div>
 </li>
 <li>
-<p>プロトコルを使用してデータにアクセスするようにデータ LIF を設定する場合は、ターゲットエイリアス、サブネット、およびノードあたりの LIF 数を指定します。</p>
+<p>*オプション：プロトコルを使用してデータにアクセスするようにデータLIFを設定する場合は、ターゲットエイリアス、サブネット、ノードあたりのLIF数を指定します。</p>
 <div class="paragraph">
 <p>LIF のポートセットの数を変更するには、「 * Review or Modify LIFs configuration （ Advanced Settings ） * 」チェックボックスを選択します。</p>
 </div>
@@ -4856,16 +4847,16 @@
 </div>
 </li>
 <li>
-<p>SVM のクレデンシャルの詳細を指定して、 SnapManager や SnapDrive などのホスト側アプリケーションを SVM 管理者に対して有効にします。</p>
+<p>*オプション：SVMのクレデンシャルを指定して、SnapDrive やSnapManager などのホスト側アプリケーションをSVM管理者に対して有効にします。</p>
 </li>
 <li>
-<p>NVMe 以外のプロトコルを使用する場合は、 * Create a new LIF for SVM management * をクリックして SVM 管理用の新しい LIF を作成し、ポートセットと IP アドレスを指定します。指定できるオプションは、新しい管理 LIF のサブネットはありません。</p>
+<p><strong>オプション：</strong> NVMe以外のプロトコルを使用する場合、* Create a new LIF for SVM management *をクリックしてSVM管理用の新しいLIFを作成し、ポートセットとIPアドレスに新しい管理LIFのサブネットの有無を指定します。</p>
 <div class="paragraph">
 <p>CIFS プロトコルと NFS プロトコルのデータ LIF には、デフォルトで管理アクセスが付与されます。新しい管理 LIF は必要な場合にのみ作成する必要があります。iSCSI および FC の場合、データプロトコルと管理プロトコルで 1 つの LIF を共有できないため、 SVM 管理 LIF が必要になります。</p>
 </div>
 </li>
 <li>
-<p>NVMe プロトコルを使用する場合は、 ONTAP 9.5 以降で、 SVM セットアップウィザードの 2 ページ目で各ノードに少なくとも 1 つの LIF を設定してください。 * NVMe プロトコルを設定 *</p>
+<p><strong>オプション：</strong> ONTAP 9.5以降では、SVMセットアップウィザードの2ページ目で各ノードに少なくとも1つのLIFを設定します。* NVMeプロトコルを設定。*</p>
 <div class="paragraph">
 <p>HA ペアの各ノードに対して少なくとも 1 つの LIF を設定する必要があります。LIF はノードごとに 2 つ指定することもできます。設定アイコンをクリックすると、 LIF の設定が 1 つまたは 2 つに切り替わります。</p>
 </div>
@@ -5037,4 +5028,5 @@
     </script>
     <script src='/ja-jp/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/ja-jp/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/ja-jp/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>
