@@ -19,7 +19,7 @@ summary: 新しいマルチプロトコルボリュームを作成する前に�
 
 * 新しい SVM にボリュームをプロビジョニングする場合は、基本的な SVM を作成します。
 +
-link:task_creating_new_svm.md#["基本的な SVM を作成"]
+link:task_creating_new_svm.html["基本的な SVM を作成"]
 
 +
 既存の SVM で CIFS と NFS を有効にしていない場合は、この手順に従ってください。

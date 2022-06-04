@@ -138,7 +138,6 @@
   <block id="bcae685fd81100483c46f5ac55f04b94" category="list-text">ファイルを元のディスク上の別のフォルダにコピーします。</block>
   <block id="f4a53150af9473f0a0fb88fd4deb9ab5" category="list-text">コピーしたファイルを元のファイルと比較します。</block>
   <block id="447c480edfc72e3b0525b42ae4e7891e" category="paragraph">Windows コマンドプロンプトで「 comp 」コマンドを使用して、 2 つのファイルを比較できます。</block>
-  <block id="814cbb8785ec2a44ae98055846f9708a" category="list-text">LUN を含むストレージクラスタノードをフェイルオーバーし、 LUN のファイルに引き続きアクセスできるかどうかを確認します。</block>
   <block id="2978979215c956f9a343db6071be5419" category="list-text">ネイティブ DSM を使用して LUN へのパスを表示し、パスの数が適切であることを確認します。</block>
   <block id="8458b3abc14c6227e63342e9faf4f773" category="paragraph">LUN の作成先のストレージクラスタノードへのパスとパートナーノードへのパスが 2 つずつ確立されている必要があります。</block>
   <block id="dae7b289b1804cda13c330c774259643" category="summary">安定した運用を実現するために、 iSCSI 構成全体がサポートされることを確認する必要があります。</block>
@@ -244,7 +243,6 @@
   <block id="61ceb75a60cdb7e57e4c2b109575b00e" category="paragraph">クラスタ内の各ノードの iSCSI データ LIF 用に、 2 つの IP アドレスを含むサブネットが必要です。高可用性を実現するには、 2 つのネットワークが必要です。SVM の作成時に LIF を作成すると、 ONTAP によって固有の IP アドレスが割り当てられます。</block>
   <block id="eedeb9528eb5c3fa6d80323cc3ec2c54" category="paragraph">iSCSI トラフィックは、可能であれば別々の物理ネットワークまたは VLAN に分離します。</block>
   <block id="68590b080312bc4c33859e13ec54e698" category="image-alt">この図は 4 つのノードを示しています</block>
-  <block id="80dc3ecd4f6aadf044d7779a372b1f61" category="paragraph">LIF のサブネット： * _ _ _ ** _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</block>
   <block id="cbab63f8dcffbcddb5d83a6ed92b3448" category="cell">ノードまたは LIF ：ポートの接続先スイッチ</block>
   <block id="75ba8d70e3692ba200f0e0df37b4d2ae" category="cell">IP アドレス</block>
   <block id="a85b22fe65b9e8fef1530964d6b1e3ab" category="cell">ネットワークマスク</block>
@@ -692,9 +690,7 @@
   <block id="c8dc78fc3d48b06305de87cc8c0ea5c3" category="list-text">言語設定はデフォルトの C.UTF-8 のままにします。</block>
   <block id="52186766a78f9b4a1e4f9810017ecef4" category="paragraph">NFS クライアントと SMB / CIFS クライアントの両方で国際文字の表示をサポートしている場合は、 ONTAP 9.5 以降で提供されている * UTF8MB4 * 言語コードの使用を検討してください。</block>
   <block id="bb4ec6130a0516fe699116c0defeaa52" category="paragraph">あとで作成するボリュームでもこの言語が継承されます。ボリュームの言語を変更することはできません。</block>
-  <block id="ef3056e992ff7bbd69b26237d1c64256" category="list-text">CIFS プロトコルを有効にした場合は、セキュリティ形式を * unix * に変更します。</block>
   <block id="9021f90351684df4791529591da0c123" category="paragraph">CIFS プロトコルを選択した場合、セキュリティ形式がデフォルトで NTFS に設定されます。</block>
-  <block id="0d6ecf62b256b48491e9831ef800b3c1" category="list-text">SVM ルートボリュームを格納するルートアグリゲートを選択します。</block>
   <block id="866c1a32e23c5fe94a6448bf104b3006" category="paragraph">選択したルートボリュームのアグリゲートがデータボリュームの場所に対応していない。データボリュームのアグリゲートは、あとでストレージをプロビジョニングするときに自動的に選択されます。</block>
   <block id="8b0f54715687f5e5119bca67faecceeb" category="list-text">DNS Configuration * 領域で、デフォルトの DNS 検索ドメインとネームサーバが、この SVM に使用する DNS 検索ドメインであることを確認します。</block>
   <block id="61fdd78784ba84b471f9e9b93785d37e" category="list-text">Configure CIFS/NFS protocol * ページの * Data LIF Configuration * セクションで、クライアントがデータへのアクセスに使用する LIF の詳細を指定します。</block>
@@ -843,12 +839,8 @@
   <block id="8cf1420c6fd5960ffc332e97d3cf207e" category="doc">ホストによるマルチパスデバイスに対する読み取りと書き込みを確認</block>
   <block id="eafea6a1a12e4d3a8bd09c23ccd6949c" category="paragraph">アクセスするストレージクラスタノードの Linux ホストで DM-Multipath が設定されている必要があります。</block>
   <block id="6645e8c9675d014cfeae9ff554d4632b" category="paragraph">マルチパスデバイスの対応するストレージクラスタノードがパートナーノードにフェイルオーバーできるように設定されている場合、ノードのフェイルオーバー時にデータを読み取れることを確認する必要があります。この検証は本番環境のストレージクラスタでは実行できない場合があります。</block>
-  <block id="da1becf2fc02b14183b2561191af671a" category="list-text">指定したマルチパスデバイスでいくつかの I/O を実行します。「 d if = /dev/zero of = &lt;multipath_device_name \&gt;</block>
-  <block id="22e185d6985fca3d9b6ef3c0f43b2664" category="list-text">統計情報を更新する秒数を指定して、マルチパスデバイス上で I/O が実行されていることを確認します（例： 2 秒ごと）。「 iostat 2 」</block>
   <block id="d68d398e812f1b47817e723314c20efa" category="paragraph">マルチパスデバイスで I/O が実行されている場合、さまざまな I/O カウンタの出力が動的に変化し、マルチパスデバイスで I/O が正常に実行されていることがわかります。</block>
-  <block id="8f1c00c71aa06ef26f5d1b54f0ea4444" category="list-text">可能であれば、ストレージクラスタノードで「 takeover 」コマンドを実行します。「 storage failover takeover -ofnode &lt;node_name \&gt;</block>
   <block id="9d53399459dd5c35ceedc5c94ba7500b" category="list-text">「 iostat 」コマンドを再実行して、マルチパスデバイスで I/O がまだ実行されていることを確認します。</block>
-  <block id="21fca969e85be726091fe64d00f87b9b" category="list-text">ストレージクラスタノードで「 giveback 」コマンドを実行します。「 storage failover giveback -ofnode &lt;node_name \&gt;</block>
   <block id="72c4a67dacad190f59ac9305b06ec73a" category="list-text">iostat 出力をチェックして 'I/O がまだ実行中であることを確認します</block>
   <block id="17eee827b1f070a64f5112268212d2a0" category="paragraph">テストに失敗した場合は、 FC サービスが実行されていることを確認し、 DM-Multipath の設定とマルチパスデバイスへの FC パスをもう一度確認してください。</block>
   <block id="19a407d170f115d9d071ed3eaed3b0df" category="summary">Linux ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。</block>
@@ -929,13 +921,10 @@
   <block id="82ff2830f349f71cd76b32826e2d5f3d" category="paragraph">これらは 'nanlun lun lun show コマンドを入力したときに表示されないデバイスです</block>
   <block id="de5c870253ff48f858a6bd5e17d9236c" category="list-text">除外するネットアップ以外の SCSI デバイスがある場合は、「 multipath.conf 」ファイルの blacklist セクションにそのデバイスの World Wide Identifier （ WWID ）を入力します。</block>
   <block id="fbded7cf8eaa171bb04ad74428e5113b" category="paragraph">ネットアップ以外の SCSI デバイスの WWID を表示するには、除外するデバイスで次のコマンドを入力します。「 S csc_device_name 」は、「 /lib/udev/scsi_id-gud/dev/scsi_device_name 」と指定したデバイスです</block>
-  <block id="b97d0e570f542edc59889cd810d5f6bc" category="paragraph">たとえば '/dev/sda が除外するネットアップ以外の SCSI デバイスである場合は '/lib/udev/scsi_id -gud /dev/sda と入力します</block>
   <block id="34685a26c7d26f1e9d08d36342215c8f" category="paragraph">デバイスの WWID が表示されます。この WWID をコピーして「 multipath.conf 」ファイルに貼り付けることができます。</block>
   <block id="d69d92eb747bb0448fc17fb3819235e9" category="paragraph">「 multipath.conf 」ファイルの blacklist セクションを示した次の例では、 WWID 「 3600508e000000000753250f933cc4606 」のネットアップ以外の SCSI デバイスを除外しています。</block>
   <block id="37ff374b19dc03eafe431542442696c2" category="list-text">除外するデバイスがない場合は、「 multipath.conf 」ファイルの _wwid 行を削除します。</block>
   <block id="0ed3f71b72d6e39d73422ff843314d23" category="list-text">ブートローダーのカーネル行の末尾に「 rdloaddriver=scsi_dh_alua 」という文字列を追加して、ネットアップ推奨の DM-Multipath 設定を有効にします</block>
-  <block id="f5aba4c30c3d13c89b8c3a2f66936759" category="list-text">DM-Multipath デーモン /etc/init.d/multipathd start を起動します</block>
-  <block id="573a5e139ca51f55749e8a0d572b90f9" category="list-text">マルチパスサービスをブートシーケンスに追加して、マルチパスデーモンが常にシステムブート中に開始されるようにします。「 chkconfig multipathd on 」</block>
   <block id="29b7d085ed0000da522cbd280520075f" category="list-text">Linux ホストをリブートします。</block>
   <block id="b97b9bae4c85d4c331774956a89f62b3" category="list-text">「 cat /proc/cmdline 」を実行したときに、出力に「 rdloaddriver 」設定が表示されることを確認します。</block>
   <block id="a17ae323fb9c26a2f6ec8fbb209885b4" category="paragraph">カーネルに渡されるいくつかのブートオプションの 1 つとして 'rdloaddriver 設定が表示されます</block>
@@ -988,7 +977,6 @@
   <block id="86c85b25fddcb2fb272562998532a2c7" category="doc">新しい SCSI デバイス（ LUN ）とマルチパスデバイスを検出</block>
   <block id="4ef08b572d0e527c1263f0c9aa6e0b29" category="paragraph">Linux OS ディストリビューションの一部である「 g3_utils 」パッケージに含まれる「 re scan 」スクリプトのコピーが必要です。</block>
   <block id="5e3b915450d773878b64f00560f5813f" category="list-text">新しい SCSI デバイス（ LUN ）を検出し 'LUN に対応するマルチパス・デバイスを作成します</block>
-  <block id="89a4d12be7404e06f5aa6d92a786ffba" category="list-text">DM-Multipath の設定を確認してください : 「マルチパス」</block>
   <block id="7293ec7db160acce9f7ae49252d83947" category="paragraph">次のような出力が表示され、各 NetApp LUN の推奨設定が示されます。</block>
   <block id="e678d0bb7ba127b7d111fd1f779403b1" category="summary">Storage Virtual Machine （ SVM ）はホストから LUN にアクセスする際の FC ターゲットを提供します。SVM を作成すると、論理インターフェイス（ LIF ）と LUN およびその格納先ボリュームも作成されます。SVM を作成すると、ユーザのデータ機能と管理機能をクラスタ内の他のユーザと分離できます。</block>
   <block id="e36001e48d4f8ae90d72b08c12f29b01" category="image-alt">UNIX セキュリティ形式の SVM を作成する場合の図</block>
@@ -1031,7 +1019,6 @@
   <block id="79429ce43a5431ccff80c94467c838a4" category="paragraph">たとえば、 UNIX ユーザとドメインの Windows ユーザを双方向にマッピングできます。</block>
   <block id="6c80c210a121bee3f6f6c2dec7d0b1ac" category="list-text">デフォルトユーザを使用すると、暗黙的なマッピングやネームマッピングの変換ルールでマッピングされないすべてのユーザにユーザ名を割り当てることができます。</block>
   <block id="8e37b66518ae82bca5b089ae4eca3009" category="paragraph">SVM には、デフォルトの UNIX ユーザ「 pcuser 」が設定されていますが、デフォルトの Windows ユーザは設定されていません。</block>
-  <block id="3064494f3bf5fb9b80cad52a53ad436f" category="list-text">UNIX ユーザアカウントと Windows ユーザアカウントを双方向に変換するネームマッピングを作成します。</block>
   <block id="329ce9310c7feceac853043de2a63639" category="list-text">[* Host Users and Groups] ペインで、 [* 名前のマッピング * ] をクリックします。</block>
   <block id="a285d507faab7498617c7bd3206f8a34" category="list-text">[ * 追加 ] をクリックし、デフォルトの * Windows から UNIX* 方向を維持してから、 Windows ユーザーが UNIX ファイルアクセス権を使用するファイルにアクセスしようとしたときに UNIX 資格情報を生成する正規表現を作成します。</block>
   <block id="7714e8888aa08608e8a447fb3ab9d4c4" category="paragraph">次のエントリでは、 ENG ドメイン内のすべての Windows ユーザが同じ名前の UNIX ユーザに変換されます。パターン「 ENG\\(.+) 」により、「 ENG\\` 」という接頭辞を持つすべての Windows ユーザ名が検索され、リプレースメント「 \1' 」により、ユーザ名以外をすべて削除することで UNIX ユーザ名が作成されます。</block>
@@ -1040,15 +1027,10 @@
   <block id="c1e86253a06b1199cf51c60a7a41c955" category="paragraph">次のエントリでは、すべての UNIX ユーザが ENG ドメイン内の同じ名前の Windows ユーザに変換されます。パターン「 (.+) 」は任意の UNIX 名を検出し、リプレースメント「 ENG\\\1' 」はユーザ名の前に「 ENG\\ 」を挿入することで Windows バージョンを作成します。</block>
   <block id="36ecec98e25c67239e72871d41fdf59d" category="image-alt">UNIX から Windows へのエントリのスクリーンショット</block>
   <block id="529c9549c2b514c7a355c9443293dba4" category="list-text">ルールが適用される順序は各ルールの位置によって決まるため、結果を参照して、想定した順序になっていることを確認する必要があります。</block>
-  <block id="9c2a7b8d442b8939f2196073f4c82cb7" category="inline-xref">#手順 _8BDAF68A77864AAF680961CE879940</block>
-  <block id="37075983fb11ef7edddca2cab820e046" category="inline-xref">#手順 _E730068645DB4303B61744DB632A9803</block>
-  <block id="4b25a11c05c6f454e5e14fd85c95b7ac" category="list-text">手順を繰り返します <block ref="3651ce08149af1a6331095ff0f3e48e0" category="inline-xref-macro-rx"></block> から <block ref="6b83a27180bcd86d3e3f688cf1372175" category="inline-xref-macro-rx"></block> SVM 上のすべてのドメインおよび名前をマッピングします。</block>
-  <block id="160c1f9407602456cd4c40e0c210c8a2" category="list-text">デフォルトの Windows ユーザを作成します。</block>
   <block id="ef69199e1bfd8429546a8eb90493c2c4" category="list-text">LDAP ユーザ、 NIS ユーザ、または SVM のローカルユーザのいずれかとして、 Windows ユーザアカウントを作成します。</block>
   <block id="2f1ab1ad2a5d28dddce71f29aa89ccb3" category="paragraph">ローカルユーザーを使用する場合は、 [ ホストユーザーとグループ ] ウィンドウ枠の *Windows* の下にアカウントを作成できます。</block>
   <block id="59d46f1dd678a565a60f72647f993047" category="list-text">デフォルトの Windows ユーザを設定するには、 [* Protocols] ペインで *NFS*&gt;*Edit* を選択し、ユーザ名を入力します。</block>
   <block id="01bda084a794e294dca394a745aa00c8" category="paragraph">たとえば、「 unixusers 」という名前のローカル Windows ユーザを作成し、デフォルトの Windows ユーザとして設定できます。</block>
-  <block id="78c3843c6f37081dc906270371e7e8b6" category="list-text">デフォルトの pcuser 以外のユーザを使用する場合は、デフォルトの UNIX ユーザを設定します。</block>
   <block id="f955bac1f27289e23897b49c0b70ab45" category="list-text">LDAP ユーザ、 NIS ユーザ、または SVM のローカルユーザのいずれかとして、 UNIX ユーザアカウントを作成します。</block>
   <block id="365ffe4ad6b975ce6e6748166ba12350" category="paragraph">ローカルユーザーを使用する場合は、 [ ホストユーザーとグループ ] ウィンドウ枠の [*UNIX* ] の下にアカウントを作成できます。</block>
   <block id="281e9a015316aad7dfb6b10218549537" category="list-text">デフォルトの UNIX ユーザを設定するには、「 * Protocols * 」ペインで * cifs * &gt; * Options * を選択し、ユーザ名を入力します。</block>
@@ -1142,7 +1124,6 @@
   <block id="22e9c10e8b5210f81d06c6c6127d20e0" category="doc">基本的な SVM を作成</block>
   <block id="50b597438707002c5dc447214a494bd4" category="list-text">この SVM を追加する Active Directory （ AD ）ドメインと SVM を追加するために必要なクレデンシャル</block>
   <block id="43ae0b93bb25dfad0e22a7b6989015a5" category="paragraph">マルチプロトコルアクセス用の SVM を作成するときは、 Storage Virtual Machine （ SVM ）のセットアップウィンドウのプロビジョニングセクションは使用しません。これらのセクションを使用すると、マルチプロトコルアクセスに対応した単一のボリュームではなく、 2 つのボリュームが作成されます。ボリュームのプロビジョニングは、このあとのワークフローで実行できます。</block>
-  <block id="99da357b54d7db625b8825141a3944b6" category="list-text">適切なセキュリティ形式が設定されていることを確認します。</block>
   <block id="fdcf3c8d51b2260ef85550b0fa9da4d6" category="paragraph">選択したルートボリュームのアグリゲートがデータボリュームの場所に対応していない。データボリュームのアグリゲートは、これとは別にあとで選択します。</block>
   <block id="c0a9145d648282dec9ceec2d2cddc1ee" category="list-text">「 CIFS ストレージ用のボリュームのプロビジョニング」領域をスキップします。これは、マルチプロトコルアクセスではなく、 CIFS アクセス専用のボリュームをプロビジョニングするためです。</block>
   <block id="006b7ad9b893c787722ef736b3caeeba" category="list-text">NFS ストレージ用のボリュームのプロビジョニング * 領域をスキップします。これは、 NFS アクセス専用のボリュームをプロビジョニングするためで、マルチプロトコルアクセスには対応していません。</block>
@@ -1156,7 +1137,6 @@
   <block id="9bd5b0b73d9e7f529507148a100be624" category="paragraph">新しいマルチプロトコルボリュームを作成する前に、そのボリュームを既存の Storage Virtual Machine （ SVM ）に配置するかどうかを決め、既存の SVM に配置する場合はどのような設定が必要になるかについても確認しておく必要があります。これにより、ワークフローが決まります。</block>
   <block id="aeb38a19bd9630e8b09f881897085c75" category="list-text">新しい SVM にボリュームをプロビジョニングする場合は、基本的な SVM を作成します。</block>
   <block id="d7074fb645d07c741e392b6ace23db1e" category="inline-link-macro">基本的な SVM を作成</block>
-  <block id="8ad6ee98147e49785921b21f1eb4a8e6" category="paragraph"><block ref="8ad6ee98147e49785921b21f1eb4a8e6" category="inline-link-macro-rx"></block></block>
   <block id="982fca9c7818ccb19d65f539ee14cf72" category="paragraph">既存の SVM で CIFS と NFS を有効にしていない場合は、この手順に従ってください。</block>
   <block id="a15677c03b18981256e9de73817c9522" category="list-text">CIFS と NFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する CIFS アクセスと NFS アクセスを追加します。</block>
   <block id="6b7c7970bdcb41db6688672f56b80678" category="inline-link-macro">既存の SVM に CIFS アクセスと NFS アクセスを追加</block>
@@ -1477,7 +1457,6 @@
   <block id="f279e20e016955df9fcb499956193b6d" category="list-text">ソースボリュームとデスティネーションボリューム間の SnapMirror 関係を選択し、 * Operations * &gt; * Update * をクリックします。</block>
   <block id="e087fde17030168d1d6828a4db2c04ba" category="list-text">ソースボリュームとデスティネーションボリュームの間の最も新しい共通の Snapshot コピーに基づく差分転送を実行します。</block>
   <block id="612c396cc4358d4a35672217227c116c" category="list-text">ONTAP 9.2 以前：「 * on demand * 」オプションを選択します。</block>
-  <block id="6acf38e93f126c4efef95f565e1e2f37" category="list-text">転送に使用するネットワーク帯域幅を制限するには、転送帯域幅を * に制限するを選択し、最大転送速度を指定します。</block>
   <block id="04252e4e5460971d7f33943bd841f366" category="list-text">[ 更新（ Update ） ] をクリックします。</block>
   <block id="be9e090ef1b19ac88c8b3bb7d6f8c11a" category="list-text">転送ステータスが [Idle] であり、前回の転送タイプが [*Details*] タブの [Update] であることを確認します。</block>
   <block id="4fc2789571357f7a9806f4b669aa3c44" category="image-alt">SnapMirror 関係の詳細</block>
@@ -1587,7 +1566,6 @@
   <block id="362eae92e9aef954fb7134a2e4cc28ae" category="list-text">適切な NFS エクスポートポリシーを作成します。</block>
   <block id="816df9dee4f652f89c74521ca02e3801" category="list-text">適切なクォータルールを作成します。</block>
   <block id="5eae0f939d1832b75a8792b44eade3bf" category="list-text">SAN LIF を作成</block>
-  <block id="045923be6b5cac4799406e3cd1602061" category="list-text">ポートセットを設定します。</block>
   <block id="dcd03ce41d1d9c6cc9cf3e083214abb2" category="list-text">イニシエータグループを設定する。</block>
   <block id="806bd2060360da6ee8d453e81ba3a341" category="list-text">FC を使用する場合、 SAN クライアントから LIF にアクセスできるように FC スイッチをゾーニングします。</block>
   <block id="08779ad510704e697e31499315d9d6a5" category="paragraph">ソースボリュームが格納された SVM に変更を加えた場合は、デスティネーションボリュームが格納された SVM にそれらの変更を手動でレプリケートする必要があります。</block>
@@ -1759,9 +1737,7 @@
   <block id="73bea672702aeaf2059c37ca278ade84" category="list-text">データストアに新しいフォルダを作成し、そのフォルダにファイルをアップロードします。</block>
   <block id="cfe6221ffbc35c7128aca6b66552953e" category="paragraph">クライアント統合プラグインのインストールが必要になる場合があります。</block>
   <block id="2a3cef292a31130c6d6d554681d7e6a6" category="list-text">書き込んだファイルにアクセスできることを確認します。</block>
-  <block id="dee9e27f3d036fd5a5856843ca73ba40" category="list-text">LUN を含むクラスタノードをフェイルオーバーし、ファイルに対して引き続き書き込みおよび読み取り可能かどうかを確認します。</block>
   <block id="ee0a37f011954c1a9240daf79085eebc" category="paragraph">テストに失敗した場合は、ストレージクラスタで iSCSI サービスが実行されていることを確認し、 LUN への iSCSI パスをチェックしてください。</block>
-  <block id="b11b2195a9c008ad8202668f0c9faefc" category="list-text">クラスタノードをフェイルオーバーした場合は、ノードをギブバックし、すべての LIF をホームポートに戻します。</block>
   <block id="edda059722776384e89df1284c92009f" category="list-text">ESXi クラスタの場合は、クラスタの各 ESXi ホストのデータストアを表示し、アップロードしたファイルが表示されることを確認します。</block>
   <block id="f099cc983634cf3dce93ff92bc019c98" category="inline-link">高可用性管理</block>
   <block id="99ad6f34e6aa8a7521dce54db9779a6f" category="paragraph"><block ref="99ad6f34e6aa8a7521dce54db9779a6f" category="inline-link-rx"></block></block>
@@ -1783,7 +1759,6 @@
   <block id="0c7889397ffcf367a547e457fbe3495a" category="list-text">SVM で CIFS プロトコルが許可されている必要があります。</block>
   <block id="7f6435ca837d12ff06cfff58992df531" category="list-text">[*permission] フィールドで、 [*Change] をクリックします。</block>
   <block id="bb3112e54507860cd12a19609ff8f1ee" category="list-text">Everyone グループを選択し、 * Remove * をクリックします。</block>
-  <block id="0b95db3f00815c0be1aa8cd0e13aac8a" category="list-text">Add * をクリックし、 SVM を含む Windows Active Directory ドメインで定義されている管理者グループの名前を入力します。</block>
   <block id="4c077ab81df7e869d35893b62a5dba50" category="list-text">新しい管理者グループを選択し、 * Full Control * を選択します。</block>
   <block id="a0f7a5807b62b0e8f3f7146631afe1cb" category="doc">SMB / CIFS の設定の概要</block>
   <block id="757c8c32637c786ebe366a83368200d8" category="list-text">新しいボリュームを NTFS ファイル権限を使用して保護する。</block>
@@ -1791,7 +1766,6 @@
   <block id="d394446eb19387f789ade51cc4c8a9d6" category="doc">CIFS 対応 SVM に CIFS ボリュームを追加</block>
   <block id="b29df742a402d10128c9fb12df7ce2af" category="paragraph">SVM で CIFS の設定が完了している必要があります。</block>
   <block id="1c4d3b9f9c2419b820df026601cf0ef1" category="paragraph">System Manager で新しいボリュームを作成すると、デフォルトでは、ボリューム名をジャンクション名として使用してルートボリュームにマウントされます。CIFS 共有を設定するときは、ジャンクションパスとジャンクション名を使用します。</block>
-  <block id="ec7ac513c1bae0a0aee73e35bcad5bf0" category="paragraph">+ image: ../media/namespace_1_Before_sm.gif [ この図は説明が付随しています ]</block>
   <block id="773b51ca4c8758ba2b6a954547dd5fd8" category="list-text">セキュリティ形式が NTFS であることを確認します。</block>
   <block id="2dac646c0bfe27f6302ba264cc5cc5bc" category="paragraph">Windows 管理者権限でアクセスを確認します。</block>
   <block id="08f792f322b2135f3373345b38662442" category="summary">ウィザードを使用して、新しい Storage Virtual Machine （ SVM ）の作成から、 Domain Name System （ DNS ；ドメインネームシステム）の設定、データ論理インターフェイス（ LIF ）の作成、 CIFS サーバの設定、ボリュームの作成と共有までの一連の処理を実行することができます。</block>
@@ -2182,7 +2156,6 @@
   <block id="d2f3d739f34f3a67a57689b9130b2acc" category="summary">System Manager を使用して、バックアップ関係をソース Storage Virtual Machine （ SVM ）から作成し、そのバックアップ関係にバックアップポリシーを割り当てて SnapVault を作成することができます。システムでデータの消失や破損が発生した場合、 SnapVault デスティネーションからバックアップデータをリストアできます。</block>
   <block id="687a44b765642bd1fd0e595cf9c4c8ea" category="doc">ソース SVM からバックアップ関係を作成</block>
   <block id="07103dfe33032eb0f1df0cf9a2442f54" category="list-text">ソースクラスタとデスティネーションクラスタの両方で SnapVault ライセンスまたは SnapMirror ライセンスが有効になっている必要があります。</block>
-  <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">[+]</block>
   <block id="7567a691846fdc56083873e14c5b6afb" category="list-text">ソースクラスタとデスティネーションクラスタ、およびソース SVM とデスティネーション SVM で正常なピア関係が確立されている必要があります。</block>
   <block id="ecc33d42f8c06785ae87c725e58c8d29" category="list-text">デスティネーションアグリゲートの使用可能なスペースを確保する必要があります。</block>
   <block id="589d4071cccf1b123b7e08ca86dfa5b8" category="list-text">ソースアグリゲートとデスティネーションアグリゲートはどちらも 64 ビットである必要があります。</block>
@@ -2582,7 +2555,6 @@
   <block id="3e546954bbbe83065eb0be3316ec913d" category="list-text">[* LUN 管理 * ] タブで、オンラインにする LUN を 1 つ以上選択します。</block>
   <block id="7c7d517f76db23a8dad768ae23527e0e" category="list-text">[ ステータス *] 、 [ オンライン *] の順にクリックします。</block>
   <block id="364c307372fcc0153d71bc076ccc634a" category="summary">System Manager を使用して、クラスタの既存のポリシーまたはスケジュールを選択するか、新しいポリシーまたはスケジュールを作成して、バックアップ関係を編集することができます。ただし、既存のポリシーやスケジュールのパラメータを編集することはできません。</block>
-  <block id="e82df844135071f9f9b9d5f3009f28bf" category="doc">バックアップ関係を編集しています</block>
   <block id="f78c14bbdd8cf61d76cd0f69c4c12017" category="paragraph">ソースクラスタとデスティネーションクラスタで正常なピア関係が確立されている必要があります。</block>
   <block id="6ff6df86873403eae9118bafd06d40d7" category="list-text">[* 保護 *&gt;] 、 [* ボリューム関係 *] の順にクリックします。</block>
   <block id="8079966851f2f8df4df08ef3ab57d112" category="list-text">ポリシーまたはスケジュールを変更するバックアップ関係を選択し、 * 編集 * をクリックします。</block>
@@ -2682,7 +2654,6 @@
   <block id="e54d6f4c00bbf4bda2f4cfb5e26ce554" category="inline-xref-macro">iSCSI ウィンドウ</block>
   <block id="cf7e5af013c561e4441064bb2e7f5e49" category="inline-xref-macro">SVM で iSCSI プロトコルを設定します</block>
   <block id="aea360b94eba5ad45f55e615a1e58409" category="paragraph"><block ref="aea360b94eba5ad45f55e615a1e58409" category="inline-xref-macro-rx"></block></block>
-  <block id="da2bbe144e916e296ed5dc9811bf144b" category="doc">ミラー関係を再開しています</block>
   <block id="d0301e8aa18e111d6fd24af281e7819f" category="paragraph">解除されたミラー関係をコマンドラインインターフェイス（ CLI ）で休止した場合は、 System Manager で再開することはできません。CLI を使用して関係を再開してください。</block>
   <block id="cd10025bb0c0201ed512834fc9a96785" category="list-text">再開するミラー関係を選択します。</block>
   <block id="f26c9bab431f20ebf17a8c7caea082a1" category="list-text">[* オペレーション * &gt; * 再開 * （ Operations * &gt; * Resume * ） ] をクリック</block>
@@ -2784,7 +2755,6 @@
   <block id="d6e51623193cab65d28affa7ae8c5a14" category="paragraph">代わりに CLI を使用する必要があります。</block>
   <block id="6ff45ebcc792fafbae716cca45e99ae3" category="list-text">SnapLock ボリューム上で LUN を移動することはできません。</block>
   <block id="13f236a15d69cc0eabc8f7306eb9587f" category="list-text">[* LUN 管理 * ] タブで、 LUN のリストから移動する LUN を選択し、 [* 移動 ] をクリックします。</block>
-  <block id="e8b72b1985238debde0bbec4931a92b7" category="list-text">デフォルト名を変更する場合は、 * LUN の移動 * ダイアログボックスの * 移動オプション * 領域で、 LUN の新しい名前を指定します。</block>
   <block id="1859eb8f910a0841fb15ff7e7a4c13a6" category="list-text">LUN の移動先のストレージオブジェクトを選択し、次のいずれかの操作を実行します。</block>
   <block id="60ec5e9a46e1668c5c9c5ff67488c9f7" category="cell">LUN の移動先</block>
   <block id="0a8e79b3205b3a64a57b517f0ae4c0d5" category="list-text">新しいボリュームを作成するアグリゲートを選択します。</block>
@@ -2850,50 +2820,7 @@
   <block id="1ec8a2212830954a5cf05a3bb95a60e4" category="paragraph">選択した保護関係に割り当てられているポリシーに関する詳細が表示されます。このタブには、指定したラベルに一致するソースボリュームの SnapMirror ラベルと Snapshot コピーのスケジュールも表示されます。</block>
   <block id="71309fe3ee13dab501ac1eb7bd73c9f7" category="list-text">* 「 Snapshot Copies 」タブ *</block>
   <block id="f473da473262cfc8881ca92b0648ec45" category="paragraph">選択した保護関係の Snapshot コピー数と SnapMirror ラベル、および最新の Snapshot コピーのタイムスタンプが表示されます。</block>
-  <block id="9df77f352fe8af196ad1f007287467d4" category="inline-xref-macro">ソース SVM からミラー関係を作成</block>
-  <block id="5fdecc87c0cc3346757293eec17afae4" category="paragraph"><block ref="5fdecc87c0cc3346757293eec17afae4" category="inline-xref-macro-rx"></block></block>
-  <block id="ecf80fc7664f86a933e9a07a0d4eee22" category="inline-xref-macro">デスティネーション SVM からミラー関係を作成</block>
-  <block id="538cb934fadf011ac8ba562703d8acd2" category="paragraph"><block ref="538cb934fadf011ac8ba562703d8acd2" category="inline-xref-macro-rx"></block></block>
-  <block id="fc5c3c2350af9d0e63b1504d15a18066" category="inline-xref-macro">ミラー関係を削除しています</block>
-  <block id="2765931fc5b9bf74199f231fa058f1f4" category="paragraph"><block ref="2765931fc5b9bf74199f231fa058f1f4" category="inline-xref-macro-rx"></block></block>
-  <block id="93b4528dbefcfb3939090f015ce3f24e" category="inline-xref-macro">ミラー関係を編集しています</block>
-  <block id="abfe344be016c5e5dcf02225c4647369" category="paragraph"><block ref="abfe344be016c5e5dcf02225c4647369" category="inline-xref-macro-rx"></block></block>
-  <block id="9a927852a99f3837e71592eebd39eeaf" category="inline-xref-macro">ミラー関係を初期化中です</block>
-  <block id="c2f7333694e875233b54ff4845f4f392" category="paragraph"><block ref="c2f7333694e875233b54ff4845f4f392" category="inline-xref-macro-rx"></block></block>
-  <block id="bc60a1cc8724ac173fab9fc8d8b7ce75" category="inline-xref-macro">ミラー関係を更新しています</block>
-  <block id="4057a107e037f8515e0f5d83e0b11030" category="paragraph"><block ref="4057a107e037f8515e0f5d83e0b11030" category="inline-xref-macro-rx"></block></block>
-  <block id="c9008a0fd008c144eeb9aa7edbda15ce" category="inline-xref-macro">ミラー関係を休止しています</block>
-  <block id="0fb20d6e9647246ea7dda638b248252d" category="paragraph"><block ref="0fb20d6e9647246ea7dda638b248252d" category="inline-xref-macro-rx"></block></block>
-  <block id="839531f266dda42979d02ad316ae2b8e" category="paragraph"><block ref="839531f266dda42979d02ad316ae2b8e" category="inline-xref-macro-rx"></block></block>
-  <block id="476ae0ff6d538c876bb858bf767ef19a" category="inline-xref-macro">SnapMirror 関係を解除します</block>
-  <block id="ed851fd0e6c13cd6338b557eb31159e4" category="paragraph"><block ref="ed851fd0e6c13cd6338b557eb31159e4" category="inline-xref-macro-rx"></block></block>
-  <block id="37e81588d3f4e8a37846a86fd20c7d2e" category="inline-xref-macro">ミラー関係を再同期中です</block>
-  <block id="8fd8d3986ae46f1becb03b9b0080b186" category="paragraph"><block ref="8fd8d3986ae46f1becb03b9b0080b186" category="inline-xref-macro-rx"></block></block>
   <block id="6b01752671edd586d6f4e2dd7801f722" category="inline-xref-macro">ミラー関係を逆再同期しています</block>
-  <block id="fe22f3a2e1da68f89125bd8d029a6223" category="paragraph"><block ref="fe22f3a2e1da68f89125bd8d029a6223" category="inline-xref-macro-rx"></block></block>
-  <block id="127cdee63f6fcb6589694fce6bcc5fcd" category="inline-xref-macro">ミラー転送を中止します</block>
-  <block id="ebb54f7a065c5fe43457dc3e5004ef04" category="paragraph"><block ref="ebb54f7a065c5fe43457dc3e5004ef04" category="inline-xref-macro-rx"></block></block>
-  <block id="e619023cf12156e17a2637103e83c3ce" category="inline-xref-macro">SnapVault バックアップとは</block>
-  <block id="acdc7fed53eca59f5bb261a56950d091" category="paragraph"><block ref="acdc7fed53eca59f5bb261a56950d091" category="inline-xref-macro-rx"></block></block>
-  <block id="1bfbf1dfc2bef4839e7e80eff9879cef" category="inline-xref-macro">ソース SVM からバックアップ関係を作成</block>
-  <block id="f0a5910390c7b2249824772f9c86886c" category="paragraph"><block ref="f0a5910390c7b2249824772f9c86886c" category="inline-xref-macro-rx"></block></block>
-  <block id="c7f4c2f4ed3b3b73cdf4235f15324ed1" category="inline-xref-macro">デスティネーション SVM からバックアップ関係を作成</block>
-  <block id="616c701c786e6f2153d77e79d888641d" category="paragraph"><block ref="616c701c786e6f2153d77e79d888641d" category="inline-xref-macro-rx"></block></block>
-  <block id="99153e1d531856ab921bc76a4c68d469" category="inline-xref-macro">バックアップ関係を削除しています</block>
-  <block id="00ef0a208ca439657a2b6dcf866cf07c" category="paragraph"><block ref="00ef0a208ca439657a2b6dcf866cf07c" category="inline-xref-macro-rx"></block></block>
-  <block id="9452bc8c02a9d50fa16ff9f7adb9af92" category="paragraph"><block ref="9452bc8c02a9d50fa16ff9f7adb9af92" category="inline-xref-macro-rx"></block></block>
-  <block id="de7515718f5c1329383f8b2018f19fe3" category="inline-xref-macro">バックアップ関係を初期化しています</block>
-  <block id="0869892d3320f2558c369911f9847e96" category="paragraph"><block ref="0869892d3320f2558c369911f9847e96" category="inline-xref-macro-rx"></block></block>
-  <block id="424bb05f23cfcded7a9f02faa6e557c0" category="inline-xref-macro">バックアップ関係を更新しています</block>
-  <block id="232a15ca1a4503596d8aed0ff857a3d2" category="paragraph"><block ref="232a15ca1a4503596d8aed0ff857a3d2" category="inline-xref-macro-rx"></block></block>
-  <block id="2f501562cadd518589ef14265b84c908" category="inline-xref-macro">バックアップ関係を休止しています</block>
-  <block id="e9dcac91018bd585175fc2cba054855c" category="paragraph"><block ref="e9dcac91018bd585175fc2cba054855c" category="inline-xref-macro-rx"></block></block>
-  <block id="8fa59a9b14a71b5fb2e28ae4121bfdd1" category="inline-xref-macro">バックアップ関係を再開しています</block>
-  <block id="4c59bcafa6e6d1cd49a0c1f0ca35a8c1" category="paragraph"><block ref="4c59bcafa6e6d1cd49a0c1f0ca35a8c1" category="inline-xref-macro-rx"></block></block>
-  <block id="7c30126e21e33e10679b2074d87d41a9" category="inline-xref-macro">Snapshot コピーの転送を中止します</block>
-  <block id="48d4f2eabf70fde158d275655b28ef3f" category="paragraph"><block ref="48d4f2eabf70fde158d275655b28ef3f" category="inline-xref-macro-rx"></block></block>
-  <block id="7a5a6f53dcdfc76ae7c96d343e78aaf6" category="inline-xref-macro">バックアップ関係のボリュームのリストア</block>
-  <block id="6121a20dc7eb934ce44aed9290d905e6" category="paragraph"><block ref="6121a20dc7eb934ce44aed9290d905e6" category="inline-xref-macro-rx"></block></block>
   <block id="f6dd46455d557f9e0e43796aa301d505" category="summary">System Manager を使用して、データ保護（ DP ）ボリュームのボリューム名を変更することができます。ソースボリュームで Storage Efficiency が有効になっていない場合に、デスティネーションボリュームでのみ Storage Efficiency を有効にすることもできます。</block>
   <block id="6f8e108386883828bf4e2883d1ec9c63" category="paragraph">ミラー DP ボリュームの Storage Efficiency を変更することはできません。</block>
   <block id="0eeb1aa23f1d51ee66065f798b055934" category="list-text">SVM * フィールドのドロップダウンメニューから、編集する DP ボリュームが配置されている Storage Virtual Machine （ SVM ）を選択します。</block>
@@ -2901,7 +2828,6 @@
   <block id="dd3fb0c65163daf9e0f45a4f2b3c7526" category="list-text">Edit Data Protection Volume * （データ保護ボリュームの編集）ダイアログボックスで、ボリューム名を変更します。</block>
   <block id="5e4cb536b4f56a4bfa600f7ac662692a" category="list-text">Enable Storage Efficiency * オプションが選択されていることを確認します。</block>
   <block id="76b29b574b00f0fbddf63421159b3ebf" category="paragraph">ボリュームで Storage Efficiency がすでに有効になっている場合、このチェックボックスはデフォルトで選択されます。</block>
-  <block id="1dddcce2bedcbc6ac7b96c4d4ed94a20" category="list-text">[ 詳細設定 *] タブをクリックして、次の手順を実行します。</block>
   <block id="248fa3d2a71d90da3a5df7cd739e4b14" category="list-text">ボリュームに割り当てるキャッシングポリシーを選択します。</block>
   <block id="769601a678bff5cee56bc8e85756d1c2" category="list-text">ボリュームのキャッシュデータの保持優先度を選択します。</block>
   <block id="8efbf0147b80c7203d909e8f9bcdbbf4" category="paragraph">これらのオプションは、 Flash Pool アグリゲートに含まれるデータ保護 FlexVol に対してのみ使用できます。</block>
@@ -3074,7 +3000,6 @@
   <block id="007b7d03a426d6cca62405aa81f91212" category="paragraph">ネットワークページで IP アドレス範囲 * が無効になっている場合は、クラスタ管理、ノード管理、およびサービスプロセッサの各ネットワークの IP アドレスを個別に入力します。</block>
   <block id="1c6b4d7d0c0b167b282a50ea2a5bb880" category="list-text">クラスタ管理 IP アドレスを「 * クラスタ管理 IP アドレス * 」フィールドに入力します。</block>
   <block id="9a1f18925ec9dddb39866f21c172b74a" category="list-text">クラスタ管理のネットマスクの詳細を入力します。</block>
-  <block id="21ec32404dbf9d00cbb34eb2742ff647" category="list-text">クラスタ管理のゲートウェイの詳細を入力します。</block>
   <block id="fa445a83c3c37b69adb1766e7a38a97e" category="list-text">Port * フィールドで、クラスタ管理用のポートを選択します。</block>
   <block id="1a4f004da5bdbf2f9c6f79381e8dfa04" category="list-text">ノードを管理するためにネットマスクとゲートウェイの詳細を指定する場合は、「クラスタ管理 * のネットマスクとゲートウェイの設定を保持する」チェックボックスをオフにして、ネットマスクとゲートウェイの詳細を入力します。</block>
   <block id="bb8d13481729f7c081cb38097602338a" category="list-text">ノード管理 IP アドレスを * Node Management * フィールドに入力します。</block>
@@ -3165,7 +3090,6 @@
   <block id="0990cb73474e39c5535e3973cf58c2d5" category="paragraph">System Manager は ' デフォルトで ' すべての RAID グループにデータ・ディスクを追加します</block>
   <block id="114c9385eb89085073e3cb9906eee045" category="list-text">[*RAID Group Selection*] ダイアログ・ボックスで '[*Add Disks to *] オプションを使用して 'RAID グループを [New RAID group] または [Specific RAID group] として指定します</block>
   <block id="48b61783f7f5e590f2bd9932506c4670" category="paragraph">共有ディスクは ' 新しい RAID グループオプションにのみ追加できます</block>
-  <block id="bc4ab5e0d5e65728ae5fa6fffdc1f71c" category="paragraph">ミラーされたアグリゲートの場合、 Add Capacity ダイアログボックスに、選択した数の 2 倍のディスクが追加されることを示す情報が表示されます。</block>
   <block id="473273238391b9113d05c9e9f2de3b78" category="list-text">キャパシティの追加 * （ Add Capacity ）ダイアログボックスで、 * はい * （ * Yes ）をクリックしてデータディスクを追加します。</block>
   <block id="1a3b2eb7e10d2d6597e735a6a0e60593" category="paragraph">選択したアグリゲートにデータディスクが追加され、アグリゲートのサイズが拡張されます。</block>
   <block id="c298a532b653cb46d724e3223bc37770" category="paragraph"><block ref="c298a532b653cb46d724e3223bc37770" category="inline-xref-macro-rx"></block></block>
@@ -3207,7 +3131,6 @@
   <block id="8dac7eb0cabd077c16a31dcb267df19e" category="paragraph">既存のポリシーグループを選択してください</block>
   <block id="bfcebe27400f64c7e208a0e6a8d88439" category="list-text">[ ポリシーグループの選択 ] ダイアログボックスで、 [ 既存のポリシーグループ *] を選択し、 [*Choose*] をクリックして既存のポリシーグループを選択します。</block>
   <block id="78b0033e0f5ed630ead1c86de31630ea" category="paragraph">ポリシーグループが複数のオブジェクトに割り当てられている場合、指定した最大スループットはそれらのオブジェクトの合計スループットです。</block>
-  <block id="d823518925883a02978856511e67c73b" category="list-text">選択した LUN のリストを確認する LUN の数を指定するリンクをクリックし、リストから LUN を削除する場合は「 * 破棄」をクリックします。</block>
   <block id="ba2b6965f1429665ea4dd3fdb7b4c7e7" category="paragraph">このリンクは、複数の LUN を選択した場合にのみ表示されます。</block>
   <block id="639a1bdb6de85b0fdcef8600f153f51e" category="doc">SNMP ウィンドウ</block>
   <block id="b4083c217a8fe8d606320f8a151c3927" category="paragraph">SNMP ウィンドウでは、システムの現在の SNMP 設定を確認できます。システムの SNMP 設定の変更、 SNMP プロトコルの有効化、およびトラップホストの追加も行うことができます。</block>
@@ -3340,14 +3263,12 @@
   <block id="37265f40cdc34be32c9ae6f815b30a13" category="list-text">ネットグループ。ネットグループ名の前にアットマーク（ @ ）が付いているネットグループ。例： @netgroup</block>
   <block id="3592f164460dc354f02b3bceeb42193a" category="list-text">先頭にピリオド（ . ）が付いたドメイン名として使用できます。たとえば、 .example.com などです</block>
   <block id="70a228a80db4d29eff6376735526bd13" category="paragraph">10.1.12.10-10.1.12.70 のように、 IP アドレスの範囲を入力することはできません。この形式のエントリはテキスト文字列と解釈され、ホスト名として扱われます。</block>
-  <block id="919b44ff134404e867f139c5aab34c9e" category="paragraph">+ IPv4 アドレス「 0.0.0.0 /0 」を入力して、すべてのホストにアクセスできるようにします。</block>
   <block id="219d905520c46965bfe04e75786e0513" category="list-text">ルールインデックス番号を変更する場合は、適切なルールインデックス番号を選択します。</block>
   <block id="0aeeabfe3131d90dc35602477fef0dea" category="list-text">1 つ以上のアクセスプロトコルを選択します。</block>
   <block id="7ecb039fe3bfb63f15d75ea801b1f34c" category="paragraph">アクセスプロトコルを選択しなかった場合、デフォルト値の「 any 」がエクスポートルールに割り当てられます。</block>
   <block id="483e83085bb4da1ef476423345d5703b" category="list-text">1 つ以上のセキュリティタイプとアクセスルールを選択します。</block>
   <block id="995a367b0339947fbff6a1b20306032f" category="list-text">選択したエクスポートポリシーの * エクスポートルール * タブで、追加したエクスポートルールが表示されていることを確認します。</block>
   <block id="969b0252736087a46b858a67c123eab1" category="summary">System Manager のイニシエータグループタブを使用して、イニシエータを削除できます。イニシエータグループからイニシエータを削除するには、イニシエータのイニシエータグループとの関連付けを解除する必要があります。</block>
-  <block id="c599e3a17497c8e97289dc5a0bd24a9a" category="doc">イニシエータグループからのイニシエータの削除</block>
   <block id="dd797f60923957fd486189fea83c6075" category="paragraph">削除するイニシエータを含むイニシエータグループにマッピングされているすべての LUN は、手動でマッピング解除する必要があります。</block>
   <block id="cadd43d5300cdd3d32035c7a7754fcc3" category="list-text">イニシエータグループ * タブで、イニシエータを削除するイニシエータグループを選択し、 * Edit * をクリックします。</block>
   <block id="7b1541759596d2d314f7caaa9cb5dc82" category="list-text">イニシエータグループの編集 * ダイアログボックスで、 * Initiators * タブをクリックします。</block>
@@ -3431,11 +3352,7 @@
   <block id="8cd74462feeb2d9fd551c0332e38e202" category="paragraph">SVM にアグリゲートが割り当てられていないと、 SVM 管理者はボリュームを作成できません。</block>
   <block id="ca7e064d4dc8de530a6854d97b5c0076" category="doc">FlexCache ボリュームを編集しています</block>
   <block id="96899718bec48d4de3010b9825cde391" category="list-text">変更する FlexCache ボリュームを選択し、 * 編集 * をクリックします。</block>
-  <block id="36dd889edd56613ece93737a3a6683aa" category="list-text">FlexCache ボリュームの新しい名前を、「 FlexCache Volume * 」の「 * Volume * 」フィールドに入力します。</block>
-  <block id="9c2d5484d71433686d773e644b3fc69a" category="list-text">FlexCache ボリュームの新しいサイズを * FlexCache Volume * の * Size * フィールドに入力し、ドロップダウンメニューから単位を選択します。</block>
-  <block id="46155bb8e220c41ce0b56e02cf97f430" category="list-text">暗号化を有効または無効にします。</block>
   <block id="bfe5f75f6fc858468e2007ad5daf140b" category="inline-link-macro">FlexCache ボリュームの詳細設定</block>
-  <block id="1ac02bfdaf414a50042d47a131e43144" category="list-text">をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexCache ボリュームの詳細設定を変更します。を参照してください <block ref="4aa5b8ffba7fb44e3974191d1beac02c" category="inline-link-macro-rx"></block>。</block>
   <block id="00dd38a84a52b78303bb10d5409eb2d9" category="list-text">[Generate Peering Passphrase]( ピアリングパスフレーズの生成 ) を</block>
   <block id="590c98302fe91a04312e9327e28dbf4f" category="paragraph">[Generate Peering Passphrase] ダイアログウィンドウが表示されます。</block>
   <block id="986133c6a16199a611ea548ebb552827" category="list-text">次のフィールドを設定します。</block>
@@ -3443,7 +3360,6 @@
   <block id="a164f17ba3160c163f2e7e0c8edc263d" category="list-text">* SVM 権限 * ：次のいずれかを選択します。</block>
   <block id="84dc57eb8fc2bd2265789357a6cf5de2" category="list-text">* すべての SVM * ：クラスタへのアクセスをすべての SVM に許可します。</block>
   <block id="ddb4e1a95af589d76e374ac93cfa87b2" category="list-text">* 選択した SVM * 。クラスタへのアクセスを許可する SVM を指定します。指定するフィールドで SVM 名を選択します。</block>
-  <block id="fbe884d8766afea6eb4343a1f9737405" category="list-text">リモートクラスタの有効なクラスタバージョンが ONTAP 9.6 より前の場合はチェックボックスを選択します。選択しないとクラスタピアリングが生成されません。</block>
   <block id="0f71ca2a8ec1ae386f82613bdeda2558" category="list-text">[*Generate] をクリックしてパスフレーズを生成します。</block>
   <block id="d41804d7e716cd47cf1462c4f4207796" category="paragraph">生成が完了すると、パスフレーズが記載されたメッセージが表示されます。</block>
   <block id="61af2d88f51ea2fe0f60c8f4cee790f1" category="list-text">パスフレーズを E メールで送信するかコピーする場合は、次のいずれかを実行します。</block>
@@ -3651,7 +3567,6 @@
   <block id="fbdb1939f712c3c4b98533bfba7c7938" category="list-text">[ スケジュール ] を選択し、スケジュール名とスケジュールの詳細を指定します。</block>
   <block id="807b301068ea1b83c43cba7b478da27f" category="paragraph">必要に応じて、効率化ポリシーの最大実行時間を指定できます。</block>
   <block id="bf54ab48107f6fc69d8d8d6f1c3140e6" category="list-text">「 * ChangeLog Threshold * 」を選択し、ボリュームデータの変更についてのしきい値を指定します。</block>
-  <block id="b8cd7d0028a5acf35f27924683f7aaa7" category="list-text">クライアント処理へのパフォーマンスの影響を軽減するには、 QoS ポリシーをバックグラウンドに設定する * チェックボックスを選択します。</block>
   <block id="871ac2bbc8bb7001d1eca30357b778c7" category="summary">LUN ウィンドウを使用して、 LUN の作成と管理、および LUN に関する情報の表示を行うことができます。イニシエータグループやイニシエータ ID を追加、編集、削除することもできます。</block>
   <block id="f75b1a3cc1020765ed0c34ecb7d09f14" category="section-title">[LUN Management] タブをクリックします</block>
   <block id="b40b2ff37b1df120a9c034862df1cf05" category="paragraph">このタブでは、 LUN の作成、クローニング、削除、移動、およびそれらの設定の編集を行うことができます。また、 LUN をストレージ QoS ポリシーグループに割り当てることもできます。</block>
@@ -3713,11 +3628,6 @@
   <block id="96bdd47bf9f26bc4ff8e4b6347d9ee94" category="paragraph"><block ref="96bdd47bf9f26bc4ff8e4b6347d9ee94" category="inline-xref-macro-rx"></block></block>
   <block id="b1d9a77843056b99370cba5cb555c27b" category="inline-xref-macro">igroup を作成しています</block>
   <block id="a2f0d48ce6857c209ab1569cf936d202" category="paragraph"><block ref="a2f0d48ce6857c209ab1569cf936d202" category="inline-xref-macro-rx"></block></block>
-  <block id="61a87a665f09af00c05b11658bd3304d" category="inline-xref-macro">igroup を削除します</block>
-  <block id="a4a4a59d46519a279699267144b3aca8" category="paragraph"><block ref="a4a4a59d46519a279699267144b3aca8" category="inline-xref-macro-rx"></block></block>
-  <block id="551051c23ee0088b06b04af5b250ab07" category="inline-xref-macro">イニシエータを追加中</block>
-  <block id="8294d5bb89fea411bf5e233ca7d6a4d3" category="paragraph"><block ref="8294d5bb89fea411bf5e233ca7d6a4d3" category="inline-xref-macro-rx"></block></block>
-  <block id="623ea366bfdef716a0ca0017cfb625f8" category="paragraph"><block ref="623ea366bfdef716a0ca0017cfb625f8" category="inline-xref-macro-rx"></block></block>
   <block id="67f4cb8829ab7e9a9f73f6d8e163cca1" category="inline-xref-macro">LUN を編集しています</block>
   <block id="33442f8ea00e19d3ca6d3a8cffdb5924" category="paragraph"><block ref="33442f8ea00e19d3ca6d3a8cffdb5924" category="inline-xref-macro-rx"></block></block>
   <block id="5eeab9bd0f768f24917d9797105850f2" category="paragraph"><block ref="5eeab9bd0f768f24917d9797105850f2" category="inline-xref-macro-rx"></block></block>
@@ -3880,7 +3790,6 @@
   <block id="f370a4a148925079b15117f7cd76fe2d" category="summary">データ転送を停止する必要がある場合は、ボリュームのレプリケーション処理を中止できます。スケジュールされた更新、手動更新、または最初のデータ転送を中止できます。</block>
   <block id="e7413b72328d779c799ba2723d5ad558" category="list-text">データ転送を停止するミラーとバックアップ関係を選択し、 * Operations * &gt; * Abort * をクリックします。</block>
   <block id="ce99fd1f40a25439cb6244c37ddad5f1" category="list-text">[ 転送を中止する * ] チェックボックスをオンにして、操作を確定します。</block>
-  <block id="9b14937d874cffa7b0102b94f2948e6a" category="list-text">転送済みデータを保持する場合は、 * 転送済みデータを保持 * チェックボックスを選択します。</block>
   <block id="bb8ff4695840b5ed0008de0d847a484e" category="summary">System Manager を使用して、シングルノードクラスタを更新できます。</block>
   <block id="8c7df3f93f783cb5f0e8c0794bacded8" category="list-text">クラスタで ONTAP 9.4 以降が実行されている必要があります。</block>
   <block id="010c8c583e9f5d5af3598c0df4db8122" category="list-text">ネットアップサポートサイトからネットワーク上の HTTP サーバ、 FTP サーバ、またはローカルシステムにソフトウェアイメージをコピーしておき、ノードからイメージにアクセスできるようにする必要があります。</block>
@@ -3945,7 +3854,6 @@
   <block id="2fd31c025fae94406db26f660b0bcce6" category="list-text">[ 続行 ] をクリックして、ファイルトレースプロセスを開始します。</block>
   <block id="10e8bbfe3840d1904e9ee75029024bb1" category="list-text">選択した SVM のファイルまたは共有へのアクセスに使用しているプロトコルを選択します。</block>
   <block id="0fddf3ba5354d0302fcdd3f1a444e4ab" category="list-text">[ * ユーザー名 * ] フィールドに、ファイルまたは共有にアクセスしようとしているユーザーの名前を入力します。</block>
-  <block id="1e641e95009f8948c6d6b7b4ded412fc" category="list-text">をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> 詳細を指定してトレースの範囲を限定します。</block>
   <block id="a1d52fca6609f6ceae1e7b0dc368c1a2" category="paragraph">[ 詳細オプション ] ダイアログボックスでは、次の詳細を指定できます。</block>
   <block id="9430c8c9455d0a71e88758d5f0cb5f9c" category="list-text">* クライアント IP アドレス * ：クライアントの IP アドレスを指定します。</block>
   <block id="0a2be69058c2dadb60ef8bd4f7128b12" category="list-text">* ファイル * ：トレースするファイル名またはファイルパスを指定します。</block>
@@ -3954,12 +3862,10 @@
   <block id="bd8666969886eb0dc26ca52323f2b393" category="paragraph">トレースが開始され、結果テーブルが表示されます。ユーザがファイルアクセス要求時にエラーを受け取るまで、このテーブルは空です。結果リストは 15 秒ごとに更新され、新しいものから順にメッセージが表示されます。</block>
   <block id="eaec0f10aec09c6be8e5f5e9cefde382" category="list-text">該当するユーザに、ファイルへのアクセスを 60 分以内に試すように伝えます。</block>
   <block id="372a55239036bf10a1280207eb05c728" category="paragraph">トレース期間中に指定のユーザ名に対してエラーが発生すると、拒否されたファイルアクセス要求の詳細が結果リストに表示されます。「理由」列には、ユーザがファイルにアクセスできない原因となった理由が表示されます。</block>
-  <block id="199b38a7f4c8faa458072b0c76d10122" category="list-text">結果テーブルの * 理由 * 列で、 * 権限の表示 * をクリックして、ユーザーがアクセスしようとしているファイルの権限を表示します。</block>
   <block id="a8bb4bbf1d306b898b5cf5f776b07504" category="list-text">「 Synchronize 」、「 Read Control 」、「 Read Attributes 」、「 Execute 」、「 Read EA 」に対してアクセスが許可されていないというメッセージがトレース結果に表示される場合、 「 Write 」または「 Read 」は、表示されている一連の権限に必要なアクセスが付与されていないことを示します。権限の実際のステータスを表示するには、表示されたリンクから権限を表示する必要があります。</block>
   <block id="0e3fef7fcc9fc8317517bcef5a11fdb7" category="list-text">CIFS プロトコルを指定した場合は、有効なファイル権限と共有権限ダイアログボックスが表示され、ユーザがアクセスしようとしている共有とファイルに関連付けられているファイル権限と共有権限の両方が一覧表示されます。</block>
   <block id="4a45e916c0a869371cc31c91a923d95b" category="list-text">NFS プロトコルを指定した場合は、有効なファイル権限ダイアログボックスが表示され、ユーザがアクセスしようとしているファイルに関連付けられているファイル権限の一覧が表示されます。チェック・マークは権限が付与されていることを示し 'X は権限が付与されていないことを示します</block>
   <block id="3c6d939a67b238992cb339772ca12a39" category="paragraph">[OK] をクリックして、 [ ファイルアクセスのトレース（ Trace File Access ） ] ウィンドウに戻ります。</block>
-  <block id="7dde757dc363a6c50d333fe016b78c72" category="list-text">結果リストには、読み取り専用データが表示されます。トレース結果について、次の操作を実行できます。</block>
   <block id="a7b5c83908ad9daaf85f841d341a7360" category="list-text">[ * クリップボードにコピー * ] をクリックして、結果をクリップボードにコピーします。</block>
   <block id="2538dc141227d9a0706c848d12ccc029" category="list-text">トレース結果のエクスポート（ Export Trace Results ） * をクリックして、結果をカンマ区切り値（ CSV ）ファイルにエクスポートします。</block>
   <block id="b7434387d50a2d8d6d366fb362c92ed6" category="list-text">トレース操作を終了するには、 * トレースを停止 * をクリックします。</block>
@@ -4004,7 +3910,6 @@
   <block id="9ffa7b367acb56314d82389a4f8a9161" category="list-text">iSCSI プロトコルは、 SVM の作成時に設定することも、あとで設定することもできます。</block>
   <block id="9bbc5f35fb8651a6ffce5eec2b4a4fe1" category="list-text">SnapLock アグリゲートは、ボリュームの自動作成の対象としては考慮されません。</block>
   <block id="230e838f45889ac22c478383116abb0d" category="list-text">SVM の作成時に iSCSI プロトコルを設定していない場合は、 * Storage * &gt; * SVMs * をクリックします。</block>
-  <block id="c5afc18847d5134c1fbdf66cf5fb8b7c" category="list-text">「 * ネットワーク・アクセス * 」セクションで、 iSCSI ターゲットのエイリアスを指定します。</block>
   <block id="57c098ce4aac8173ef970632fbb33ab2" category="paragraph">エイリアス名の最大文字数は 128 文字です。ターゲットのエイリアスを指定しない場合は、 SVM 名がエイリアスとして使用されます。</block>
   <block id="715cd58a186a3d89100b1cb299fa8a9a" category="list-text">単一のノードに割り当てることができる iSCSI LIF の数を指定します。</block>
   <block id="1a1adbb4b4b6b0ec4409019e817fa772" category="paragraph">ノードあたりの LIF の最小数は 1 です。最大数は、ノード全体の「 up 」状態のすべてのポートの最小数です。最大値が奇数の場合は、 1 つ前の偶数が最大値とみなされます。最小値と最大値の範囲に任意の偶数を選択できます。</block>
@@ -4018,7 +3923,6 @@
   <block id="e76f14bb67b78cbbdcdc6c78eb7a60cc" category="paragraph">クラスタに CNS カードが設定されている場合は、 [*CNA*] を選択する必要があります。</block>
   <block id="eb2b3acfbfbe5007664d6a71a3423bec" category="paragraph">クラスタに ifgrp が設定されている場合は、「 * インターフェイスグループ * 」を選択する必要があります。</block>
   <block id="6c0d053b4d6cc01653782bee2360519d" category="paragraph">ifgrp ポートはブロードキャストドメインに追加する必要があります。</block>
-  <block id="917e9e3f2f584f4d2b943275f80ffaab" category="list-text">iSCSI プロトコルを設定する際に、 LUN サイズ、 LUN の OS タイプ、およびホストイニシエータの詳細を指定して iSCSI ストレージ用の LUN をプロビジョニングします。</block>
   <block id="9c9ee2c8ea7f98076a8dcd6452769468" category="list-text">自動生成された iSCSI LIF の設定を確認または変更する場合は、「 * LIF 設定の確認または変更（詳細設定） * 」を選択します。</block>
   <block id="7fd31df98ddac562f9edfc81fd908cd3" category="paragraph">変更できるのは、 LIF 名とホームポートだけです。ポートセットは、デフォルトでは最小値に設定されます。一意のエントリを指定する必要があります。重複した LIF 名を指定すると、 System Manager によって末尾に番号が付加されます。</block>
   <block id="2f2c687def439613da9b0e5e0dda737a" category="paragraph">選択したポートセットに基づいて、 LIF がラウンドロビン方式でポートセットに割り当てられます。これにより、ノードまたはポートで障害が発生した場合の冗長性が確保されます。</block>
@@ -4077,7 +3981,6 @@
   <block id="43623b24ff4be4e0e0174dccd5d4446a" category="list-text">次のいずれかのオプションを選択します。</block>
   <block id="cabe09eb47f8180f7a49cb27edc848e3" category="list-text">「ポリシーに従う」を選択し、ソースボリュームとデスティネーションボリュームの間の最新の共通の Snapshot コピーから差分転送を実行します。</block>
   <block id="c2ef7db44d444b2bc60cd293642439da" category="list-text">Select Snapshot copy * を選択し、転送する Snapshot コピーを指定します。</block>
-  <block id="614425ddd9c0c19df182d6b12dcf8587" category="list-text">転送に使用するネットワーク帯域幅を制限し、最大転送速度を指定するには、「 * 転送帯域幅を * に制限」を選択します。</block>
   <block id="4008ad6e979c55ae93e1f7787dae5dd4" category="list-text">[ * 詳細 * ] タブで転送ステータスを確認します。</block>
   <block id="1a338a0125606cec8e5c7726fb825bb3" category="summary">スペースリザベーションを使用して FlexVol ボリュームをプロビジョニングすることができます。シンプロビジョニングを使用すると、すべてのストレージが使用中でないかぎり、アグリゲートの実際の使用可能容量よりも多くのストレージを割り当てることが可能です。</block>
   <block id="ad827755bcf72a1a0c1d376a49bb50d4" category="doc">FlexVol ボリュームでスペースリザベーションを使用する</block>
@@ -4127,7 +4030,6 @@
   <block id="11914c672e3cd936c7deb61e1884f726" category="list-text">クローニングする FlexVol ボリュームをボリュームのリストから選択します。</block>
   <block id="3b7dc8a03f132099cb5e661ca67e7f2b" category="list-text">[ * その他の操作 * &gt; * クローン * &gt; * 作成 * &gt; * ボリューム * ] をクリックします。</block>
   <block id="b52fa349e02fc423cd809413081b4462" category="list-text">作成する FlexClone ボリュームの名前を入力します。</block>
-  <block id="56d8a5161aaeb4f0c6b11b7d1fdc9d88" category="list-text">新しい FlexClone ボリュームのシンプロビジョニングを有効にする場合は、「 * シンプロビジョニング * 」を選択します。</block>
   <block id="0da4c89bab26fcdcae18b031bf059fda" category="paragraph">デフォルトでは、この設定は親ボリュームの設定と同じになります。</block>
   <block id="b3d35a7f44f1f348b6e644f6c080dc15" category="list-text">Snapshot コピーを作成するか既存の Snapshot コピーを選択して、 FlexClone ボリュームを作成するためのベースの Snapshot コピーとして使用します。</block>
   <block id="3d21780b984ca2e4e7255b52f2f48820" category="summary">LDAP Configuration ウィンドウを使用して、アクティブな LDAP クライアントを Storage Virtual Machine （ SVM ）レベルで編集または削除できます。</block>
@@ -4307,7 +4209,6 @@
   <block id="71bffb6a33e98f88fab832116ed7dced" category="list-text">次のいずれかの設定を変更する場合は、 [ 詳細オプション ] アイコンをクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> [ 拡張オプション * ] ダイアログウィンドウを表示して、変更を行うことができます。</block>
   <block id="466c4f4287d2b270a412473911428058" category="list-text">クラウド階層へのアクセスに使用するポート番号</block>
   <block id="f2a1cbf8ea8f7901f12aa799b104a80d" category="list-text">クラウド階層へのデータのセキュアな転送を可能にする * SSL * オプションを有効または無効にします</block>
-  <block id="82970d7e87d88995a577eba21fb99b05" category="list-text">StorageGRID 用のクラウド階層を追加する場合や IBM Cloud Object Storage 環境（ Cleversafe など）を FabricPool で使用する場合は、 CA 証明書を指定する必要があります。「 * オブジェクトストア証明書 * 」トグルボタンを移動し、証明書の内容をコピーして、 CA 証明書を指定します。次に、署名済み証明書に証明書の内容を貼り付けます。</block>
   <block id="846157e13041477296aa4bd573165d69" category="list-text">IPspace * リストから、クラウド階層への接続に使用する IPspace を選択します。</block>
   <block id="54858ad892c97f264ca1c890f5029ccf" category="list-text">保存 * をクリックしてクラウド階層を保存します。</block>
   <block id="c5c541bfd008ab19608ae3520ad088ea" category="list-text">アグリゲートを保存して接続 * をクリックしてクラウド階層を保存し、クラウド階層にアグリゲートを接続します。</block>
@@ -4482,9 +4383,7 @@
   <block id="e801d2be7b11bcc8807e4f9a7c173b7f" category="paragraph">MetroCluster サイト A のステータスを表示すると更新後の名前を確認できます。</block>
   <block id="e9551f243e2860df3b1dfddc05a6cf7f" category="list-text">リモートサイト（サイト B ）から MetroCluster サイト A を表示するときに更新された名前を表示するには、リモートサイト（サイト B ）の CLI で「 cluster peer modify -local-name 」コマンドを実行します</block>
   <block id="fa8ddae57fb0b13c4eb7a2f3b7deaa99" category="doc">FlexCache ボリュームのアドバンストオプションの指定</block>
-  <block id="443a7f3e7ab189cba1285850af1e34f2" category="list-text">[Edit FlexCache volume*]( ボリュームの編集 ) ウィンドウで ' をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> をクリックして、アドバンストオプションを指定します。</block>
   <block id="cc6147bf70776e78f1689c5b5ec50cdf" category="paragraph">[ 詳細オプション ] ウィンドウが表示されます。このセクションにはセクション（左側の列の見出し）があり、さまざまなオプションを指定できます。</block>
-  <block id="fcbe4d48f9aa24f885d9f09f49297419" category="list-text">「 * 一般的な詳細」セクションでは、ボリュームの権限を編集できます。</block>
   <block id="ffe0fe06e388737190c902ee2d01f847" category="list-text">アグリゲートセクションでは、アグリゲートの選択 * の切り替えボタンを有効にしてベストプラクティスのデフォルト設定を上書きし、アグリゲートのリストから選択することができます。</block>
   <block id="1c3a4cfcb29e850fca2fc4fb1a8dbd80" category="list-text">Storage Efficiency * セクションでは、ボリュームで圧縮機能や重複排除機能を有効にできます。</block>
   <block id="d7bd78485ffd94a32f7b750ad6f647e2" category="paragraph">FlexCache ボリュームに対しては、重複排除はデフォルトで有効になりません。指定したボリュームサイズが重複排除の実行に必要な最大サイズよりも大きい場合、 System Manager はデフォルトの重複排除スケジュールを使用します。</block>
@@ -4715,7 +4614,6 @@
   <block id="f2aa61683a2df1f14e7f72b286210639" category="list-text">アグリゲート名、ディスクタイプ、およびアグリゲートに含めるディスクまたはパーティションの数を指定します。</block>
   <block id="59db0ed8544433dd23a45a0d049cb7cb" category="paragraph">FabricPool 対応アグリゲートは、オールフラッシュ（オール SSD ）アグリゲートでのみサポートされます。</block>
   <block id="ce8699c2a6822cb9ceaef1439411b1f8" category="paragraph">ディスクサイズが最大のディスクグループに対して、最小限のホットスペアのルールが適用されます。</block>
-  <block id="9e7dd6ea2ff22cb9c2cb410935bfb717" category="list-text">アグリゲートの RAID 構成を変更します。</block>
   <block id="edb9b94b0f951a6474959d410132bf0f" category="paragraph">共有ディスクでは RAID タイプとして RAID-DP と RAID-TEC の 2 つがサポートされます。</block>
   <block id="512824ad0f34e8da9a22c730c2971318" category="list-text">「 * FabricPool * 」チェックボックスを選択し、リストからクラウド階層を選択します。</block>
   <block id="5d58862708092e061ce3b8fd0ab910c0" category="summary">Junction Path メニューを使用して、 Storage Virtual Machine （ SVM ）の NAS ネームスペースを管理できます。</block>
@@ -4786,7 +4684,6 @@
   <block id="eb53ad6b29e4928c761d2c0603ffdb80" category="paragraph">FlexCache を作成するには、 FlexCache 容量ライセンスが必要です。</block>
   <block id="a57d03d1c0981c5a08acdef16460ea79" category="list-text">[* Volumes （ * ボリューム） ] ウィンドウで、 [* Create * （作成） ] &gt; [* FlexCache * （ * ボリューム） ] をクリックします</block>
   <block id="c8c00d655110d4b263ca641854427914" category="paragraph">Create FlexCache （ボリュームの作成）ウィンドウが表示されます。</block>
-  <block id="0ebe68638311330eca50bf75f46e2c46" category="list-text">[* Origin Volume] 領域の次のフィールドには、 FlexCache ボリュームを作成する元のボリュームの値が表示されます。これらは変更できます。</block>
   <block id="638e1df605e935795578a57443f7ab34" category="list-text">* クラスタ * ：ドロップダウン・メニューを使用して、元のボリュームに関連付けられたクラスタを選択します。</block>
   <block id="24a9c659e34ab6bddc02e34e9540d8f5" category="list-text">* SVM * ：ドロップダウンメニューを使用して、元のボリュームが格納されている SVM を選択します。</block>
   <block id="1117c14a1fd17506c4f46c2581274851" category="paragraph">ピア関係が許可されているがまだ設定されていない SVM を選択した場合、 System Manager でピア関係を設定できます。</block>
@@ -4958,7 +4855,6 @@
   <block id="d7136d5fa400af12c61e7895ce8b6f4c" category="list-text">通常のボリュームを SnapLock ボリュームにマウントすることはできません。</block>
   <block id="25836051a9ebcf86877686aab182c317" category="list-text">SVM * フィールドのドロップダウンメニューから、ボリュームをマウントする SVM を選択します。</block>
   <block id="8640234f7b23f77ab42777658770f977" category="list-text">[ マウント ] をクリックし、マウントするボリュームを選択します。</block>
-  <block id="80db61a8810eb12f8d010b7c302df8bf" category="list-text">デフォルトのジャンクション名を変更する場合は、新しい名前を指定します。</block>
   <block id="131fb442e1d82015a842d3684b48bf68" category="list-text">「 * Browse * 」をクリックし、ボリュームをマウントするジャンクションパスを選択します。</block>
   <block id="3d16a3466cd757103f4eded59fa38e5c" category="list-text">[OK] をクリックし、 [ マウント *] をクリックします。</block>
   <block id="ecb83a46b38b5f0b8404cedad45602da" category="list-text">新しいジャンクションパスを「 * Details * 」タブで確認します。</block>
@@ -5044,9 +4940,7 @@
   <block id="8b67fe4a8360adcbe23648c3e5ee6dbd" category="list-text">[ リレーションシップ *] ウィンドウで、 [ 作成 *] をクリックします。</block>
   <block id="83b6411829c7d0236fd0a0156d021d3f" category="list-text">[ 保護関係の作成 * （ Create Protection Relationship Relationship * ） ] ダイアログボックスで、 [ 関係タイプ * （ Relationship Type * ） ] ドロップダウンリストから [ * ミラーとバックアップ * （ * Mirror and Vault * ） ] を選択する。</block>
   <block id="e20f7cec374a24f730d51dc91ff05cce" category="list-text">ボリューム名サフィックスを入力します。</block>
-  <block id="dde7710f3c3f6f0a72c8ee98bbc7724e" category="list-text">参照（ * Browse ）をクリックし、ミラーとバックアップポリシーを変更します。</block>
   <block id="429fe5679087dfa7570d094e7dad1146" category="paragraph">ソースボリュームに関連付けられた Snapshot ポリシーと最も多くのラベルが一致するポリシーを選択できます。</block>
-  <block id="08b4fd0a0d0064c3f871451b252b401c" category="list-text">関係を初期化するには、「関係の初期化」を選択してください。</block>
   <block id="ad0f56940f57f0507c4d36e619b88369" category="list-text">選択したボリュームでラベルが一致するかどうかを確認するには、 * Validate * をクリックします。</block>
   <block id="1f35c1832e53af8d662a65b2601180b0" category="summary">System Manager を使用して、クラウド階層の設定情報を変更できます。編集可能な設定には、名前、完全修飾ドメイン名（ FQDN ）、ポート、アクセスキー ID 、シークレットキー、およびオブジェクトストアの証明書が含まれます。</block>
   <block id="b32548e79afb5b62a0d1e0dfa6f7e975" category="list-text">編集するクラウド階層を選択し、 * 編集 * をクリックします。</block>
@@ -5104,7 +4998,6 @@
   <block id="9cec6f3479185182d510faeb5c88e095" category="paragraph">共有名には、次の動的な名前を使用できます。</block>
   <block id="cf46804cd7f94ff0f06229165a1e08bc" category="list-text">`%w ( ユーザーの Windows ユーザー名 )</block>
   <block id="c7d7c222f5eb544bb7a6e17489d16fb1" category="list-text">`%d( ユーザーの Windows ドメイン名 )</block>
-  <block id="ba3bb595a46580f2acb4519449963208" category="list-text">`%u ( ユーザのマッピングされた UNIX ユーザ名 ) すべてのホームディレクトリで一意になるように ' 共有名には '%w または %u 変数を含める必要があります共有名には '%d' 変数と '%w 変数の両方を使用することも ( 例 : %d'`%w ) ' 固定部分と変数部分で構成することもできます ( 例 : home_`%w ')</block>
   <block id="0521b4a71a02a28d9873367a66e9d83a" category="list-text">* 共有パス *</block>
   <block id="7f794a8325e108e30caf0916da9858f8" category="paragraph">共有によって定義される、つまり、共有名の 1 つに関連付けられる相対パスです。各検索パスに付加されて、 SVM のルートからのユーザのホームディレクトリの完全パスを生成します。静的 ( 例 : 'home) ' 動的 ( 例 : '%w') ' またはその 2 つの組み合わせ ( 例 : 'eng/%w`) を使用できます</block>
   <block id="6fcc718fd1fe6c61104b90deb1cf42a2" category="list-text">* 検索パス *</block>
@@ -5149,7 +5042,6 @@
   <block id="db2e79d9693289d91bba2ab9ff15eb2c" category="list-text">iSCSI または FC の LIF は移行できません。</block>
   <block id="b3ebfcd0c8d698ba3ea46b1e109e3950" category="list-text">移行するインターフェイスを選択し、 * Migrate * をクリックします。</block>
   <block id="16d27311fa2fc81679d4bd2279fb5950" category="list-text">* Migrate Interface * ダイアログボックスで、 LIF を移行するデスティネーションポートを選択します。</block>
-  <block id="f6744fd5f178d6e9ad466d5f733a7cc8" category="list-text">デスティネーションポートを LIF の新しいホームポートに設定する場合は、「 * Migrate permanently * 」チェックボックスを選択します。</block>
   <block id="3448a1d5e7a8aad36abd21809538176a" category="list-text">[* Migrate （移行） ] をクリックします</block>
   <block id="24332faf18b65e5a477a432f04f682d2" category="summary">System Manager の LUN の管理タブでは、名前、ステータス、サイズ、タイプなど、 LUN に関する詳細を確認できます。</block>
   <block id="280690e8861d2893809514f9fb956595" category="list-text">LUN 管理 * タブで、表示された LUN のリストから、情報を表示する LUN を選択します。</block>
@@ -5192,7 +5084,6 @@
   <block id="7849e92346678a0ffd88e8ea34d75d14" category="list-text">SAML 認証を使用するように System Manager を設定します。</block>
   <block id="48f177c959a948928286a4f2231655a1" category="list-text">IdP の URI を入力します。</block>
   <block id="a7cde5e2240f9a9807d70025a4b68214" category="list-text">ホストシステムの IP アドレスを入力します。</block>
-  <block id="5be29a37ad1df31fff6e5005ffac856f" category="list-text">必要に応じて、ホストシステムの証明書を変更します。</block>
   <block id="1be7617a5f94efcf7eeb22fcd4bf5044" category="list-text">[* Retrieve Host Metadata* （ホストメタデータの取得） ] をクリックして、ホスト URI とホストメタデータの情報を取得します。</block>
   <block id="d644761f0f0162734528b561d095019b" category="list-text">ホスト URI またはホストメタデータの詳細をコピーし、 IdP にアクセスして、ホスト URI またはホストメタデータの詳細と信頼ルールを IdP ウィンドウで指定します。</block>
   <block id="5a913a273be71ff2bc01c087f3846ffe" category="paragraph">IdP のログインウィンドウが表示されます。</block>
@@ -5629,10 +5520,8 @@
   <block id="3c49bdc7a841bdb9a361ed4ec5ec6231" category="list-text">CIFS サーバに関連付ける Active Directory ドメイン内の組織単位（ OU ）を指定します</block>
   <block id="d8551e55ad411ee792be9c30c55e551f" category="paragraph">デフォルトでは、このパラメータは CN=Computers に設定されます。</block>
   <block id="efd8926b9791ca4786ec6d8ca84de02c" category="list-text">OU に CIFS サーバを追加するための十分な権限がある管理用アカウントのクレデンシャル</block>
-  <block id="14cd98b1e31b12468f50ff1044ce7771" category="list-text">SVM のすべての共有で SMB 3.0 暗号化を有効にするには、この SVM のすべての共有へのアクセス時に * データを暗号化 * を選択します。</block>
   <block id="6a917f469b034fe921be132f38c4ecee" category="list-text">プロトコルを設定する際に、共有名とそのサイズ、およびアクセス権を指定して CIFS ストレージ用のボリュームをプロビジョニングします。</block>
   <block id="1ac762f9756a125c716fc437cf780684" category="list-text">特定の共有で SMB 3.0 暗号化を有効にするには、この共有にアクセスしているときに * データを暗号化 * を選択します。</block>
-  <block id="96094c77d755542682200e4fab31498a" category="list-text">NIS サービスを設定します。</block>
   <block id="1adfe80c31727cb8a9d6dd0f4f0c743d" category="list-text">SVM の NIS サービスを設定する場合は、 NIS サーバの IP アドレスと NIS ドメイン名を指定します。</block>
   <block id="7502af53be0dbe1ec21fda5086581d96" category="list-text">「 nis 」ネームサービスソースを追加するデータベースタイプを選択します。</block>
   <block id="7113d722943a79c0363f52082d9e2772" category="list-text">エクスポート名、サイズ、およびアクセス権を指定して NFS ストレージ用のボリュームをプロビジョニングします。</block>
@@ -5798,7 +5687,6 @@
   <block id="65390ed7c13ceab65590ad7e07edc049" category="paragraph">次のいずれかのダイアログボックスを開きます。</block>
   <block id="3ce7edefd58224b5593f3a16d933da6b" category="list-text">Edit Ethernet Port ダイアログボックス：イーサネットポートの設定を変更できます。</block>
   <block id="114cc554b32ff6c1058cace2bc7da73e" category="list-text">Edit VLAN ダイアログボックス： VLAN の設定を変更できます。</block>
-  <block id="e8b4f64ab694c5890404182563fbbc4e" category="list-text">Edit Interface Group ダイアログボックス：インターフェイスグループを変更できます。VLAN は、ブロードキャストドメインと関連付けられていない VLAN のみが編集できます。</block>
   <block id="ce90cc0416b65d9d77e87a968bae40c1" category="list-text">VLAN の削除ダイアログボックス： VLAN を削除できます。</block>
   <block id="34662a2b713346ad99cd8fc68d9eb05a" category="list-text">インターフェイスグループの削除ダイアログボックス：インターフェイスグループを削除できます。</block>
   <block id="47fbf5a9837384d1a7ee6c26288cb500" category="section-title">ポートのリスト</block>
@@ -5903,10 +5791,7 @@
   <block id="7c819b9f21c005937f1501486a3292fe" category="list-text">FabricPool 以外の FlexGroup ボリュームは FabricPool 以外のアグリゲートでのみ拡張できます。</block>
   <block id="b653e7114b898a50197c4bd6458c0c92" category="list-text">FlexGroup ボリュームに FabricPool ボリュームと FabricPool 以外のボリュームが混在している場合、 FlexGroup ボリュームは FabricPool アグリゲートと FabricPool 以外のアグリゲートの両方で拡張できます。</block>
   <block id="02ff0d646ef82f2e76743b3d40aa0a52" category="list-text">変更する FlexGroup ボリュームを選択し、 * 編集 * をクリックします。</block>
-  <block id="0c4cd619b3025dc6a47c947c8cd66127" category="list-text">FlexGroup ボリュームの名前を変更する場合は、新しい名前を「 * 名前 * 」フィールドに入力します。</block>
-  <block id="d7bff6878e1771ba1b7d511bedd4b348" category="list-text">ボリュームの暗号化を有効にするには、 * encrypted * オプションを有効にします。</block>
   <block id="82420e9f127f5641742dbb7e880fabbe" category="inline-link-macro">FlexGroup ボリュームのアドバンストオプションの指定</block>
-  <block id="6d82da7f723201a695eae1cf37e8fe85" category="list-text">をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexGroup ボリュームの設定を変更します。を参照してください <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>。</block>
   <block id="4e5dab7015140f89b3c6813a37296dca" category="list-text">FlexGroup ボリュームのサイズを変更するサイズを指定します。</block>
   <block id="dc9d37a202e296240d704411fe802886" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexGroup ボリュームのサイズが変更されます。ボリュームに対して許容される最小サイズがサイズのフィールドの横に表示されます。</block>
   <block id="624ba68c42fd00942764f808571c9670" category="paragraph">新しいリソースを追加して FlexGroup ボリュームを拡張する場合は、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （アドバンストオプション）。を参照してください <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>。</block>
@@ -5974,7 +5859,6 @@
   <block id="b7302b760aefe119788230b5d7251f67" category="list-text">データ LIF の場合、ポートの詳細領域には、 SVM の IPspace に関連付けられたブロードキャストドメインにあるすべてのポートが表示されます。</block>
   <block id="6bf0e64afded1cfca673aefbdd7e1927" category="list-text">クラスタ間 LIF の場合、ポートの詳細領域には、要求された IPspace に関連付けられたブロードキャストドメインにあるすべてのポートが表示されます。</block>
   <block id="320162c6b834fe049ad1a5fddc0d73fb" category="list-text">NVMe プロトコルが選択されている場合、ポートの詳細領域には NVMe 対応アダプタのみが表示されます。</block>
-  <block id="e08185a2d6b5b77183f6e7821c1d0e26" category="list-text">DDNS を有効にするには、 * Dynamic DNS （ DDNS ） * チェックボックスを選択します。</block>
   <block id="02e652ccb91653e7e15334f78cf5ee36" category="summary">System Manager では、 AFF クラスタで FC SAN 向けに最適化された LUN を作成する際、 Oracle や SQL などのアプリケーションがサポートされます。LUN サイズなどの LUN 設定は、各アプリケーションに固有なルールに従って決まります。SQL および Oracle の場合、 LUN 設定は自動的に作成されます。</block>
   <block id="3c876e3422d725f5f5d0581fe10bce38" category="doc">アプリケーション固有の LUN 設定</block>
   <block id="c25eafe331908b8271d2bd1f2317962a" category="paragraph">クラスタに複数のノードがある場合、 System Manager は API で選択された最初の 2 つのノードだけを使用して LUN を作成します。2 つのノードにはそれぞれデータアグリゲートがすでに作成されています。アグリゲートの使用可能容量と同じサイズのボリュームがそれぞれ作成されます。ボリュームはシンプロビジョニングされ、 LUN のスペースリザベーションは無効になっています。</block>
@@ -6269,9 +6153,7 @@
   <block id="57ca8b193989008021d78acb26f543b2" category="list-text">[* Cluster*] ページで、クラスタの名前を入力します。</block>
   <block id="5117ee94329d8d0d9999048aabbd0b1e" category="paragraph">すべてのノードが検出されない場合は、 * 更新 * をクリックします。</block>
   <block id="fbe877eb880bb20b576da2e8c03f56b1" category="paragraph">そのクラスタネットワーク内のノードが Nodes フィールドに表示されます。</block>
-  <block id="4e79e7af5c900b5c1dec50d7e7d354f5" category="list-text">必要に応じて、 * Nodes * フィールドでノード名を更新します。</block>
   <block id="393bef9fec32255f2d27c10f1199fb3c" category="list-text">クラスタのパスワードを入力します。</block>
-  <block id="120678e5a211dc88a9bfa7736b5009a4" category="list-text">機能ライセンスキーを入力します。</block>
   <block id="5bf73928262e645254f50ad5c68abff4" category="paragraph">ネットワークページにネットワークの詳細を入力して、クラスタセットアップを続行します。</block>
   <block id="1a27d7477db5f161a28992d68960e4ba" category="paragraph">System Manager を使用すると、不要になった効率化ポリシーを削除できます。</block>
   <block id="d2433fea5579207d85c18bcbd7c4147e" category="paragraph">効率化ポリシーは無効にする必要があります。</block>
@@ -6327,7 +6209,6 @@
   <block id="0d33c1ff7c087069da33d00057d1c5a0" category="paragraph">ミラー関係は SnapMirror 済みの状態である必要があります。</block>
   <block id="d83ad2ba9c189be7b44eec5c2a2d78c3" category="list-text">データを更新するミラー関係を選択し、 * Operations * &gt; * Update * をクリックします。</block>
   <block id="bb6c6c47b08b6be1c49c31535ecc92d0" category="list-text">ソースボリュームとデスティネーションボリュームの間の最新の共通の Snapshot コピーに基づく差分転送を実行するには、「 * on demand * 」を選択します。</block>
-  <block id="d3f90018b80c297c2b8605b6eb2800eb" category="list-text">転送に使用するネットワーク帯域幅を制限するには、「 * 転送帯域幅を * に制限」を選択し、最大転送速度を指定します。</block>
   <block id="5daea0ec5f781429b31b224baef4c3c6" category="summary">アグリゲートを作成してデータディスクを追加する際には、ディスクタイプとディスク rpm の表示に関するルールを理解しておく必要があります。</block>
   <block id="156fbe21c8653712f692673deeb3158c" category="doc">ディスクタイプおよびディスク rpm の表示ルール</block>
   <block id="feb667095d24ce28ec812a7b96feea23" category="paragraph">ディスクタイプの混在オプションとディスク rpm の混在オプションが有効でない場合は、実際のディスクタイプとディスク rpm が表示されます。</block>
@@ -6351,8 +6232,6 @@
   <block id="0a567a9da3aace0fdb39175c46a2194d" category="list-text">バックアップ関係は、 SnapLock 以外のボリューム（プライマリ）と SnapLock のデスティネーションボリューム（セカンダリ）の間でのみ作成できます。</block>
   <block id="c18e8adbb0bfff89c0c57a746072a51c" category="list-text">SnapLock ボリュームを作成する場合は、デフォルトの保持期間を指定します。</block>
   <block id="d163c7a27d66dcf048cd9306d213b252" category="paragraph">デフォルトの保持期間は、 1~70 年、または Infinite Volume の任意の値に設定できます。</block>
-  <block id="c8dc73afec524284126d20bcfc71bf2c" category="list-text">* 参照 * をクリックし、バックアップポリシーを変更します。</block>
-  <block id="e288671b07babc0e4aac1725e9ea68e9" category="list-text">バックアップ関係を初期化するには、 * Initialize Relationship * を選択します。</block>
   <block id="bc36030e4ce3c19ae34c6f6fa581b297" category="list-text">SnapLock アグリゲートを有効にし、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを選択します。</block>
   <block id="c8e8a54ae010dcc82173b513bed570cf" category="paragraph">デスティネーションボリュームを作成するように選択した場合は、タイプが _dp_is のボリュームが次のデフォルト設定で作成されます。</block>
   <block id="931159e88e309b10d06b6f7609cb855d" category="list-text">重複排除はユーザの設定に応じて有効または無効になります。設定しない場合は、ソースボリュームの設定と同じになります。</block>
@@ -6361,7 +6240,6 @@
   <block id="5991568aba1e63f0a1bd9c678aa22deb" category="list-text">[ イニシエータセキュリティ *] タブの [ デフォルトセキュリティ *] 領域で、 [ 編集 *] をクリックします。</block>
   <block id="13c3537295c581d767cbacac191a5cc4" category="list-text">[ デフォルトセキュリティの編集 *] ダイアログボックスで、セキュリティタイプを変更します。</block>
   <block id="1d226977e25ff0748c81b0ef9156e807" category="summary">FlexGroup ボリュームを作成するときに、 FlexGroup ボリュームに関連付けるオプションを指定できます。</block>
-  <block id="7e5cfbf86d9c5cd07fe2d4727aa84591" category="list-text">[ FlexGroup の作成 *] ウィンドウで、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> をクリックして、アドバンストオプションを指定します。</block>
   <block id="771c51fdfe14e209bbf3372e85216fc9" category="list-text">「 * 一般的な詳細」セクションで、スペースリザベーションとセキュリティ形式を選択し、ボリュームの UNIX 権限を設定します。</block>
   <block id="e722561c54240493896eff618531d51d" category="paragraph">次の制限事項に注意してください。</block>
   <block id="6a02b35da34c235f387235cad63d8572" category="list-text">スペースリザベーションオプションは、 FabricPool アグリゲートに対しては使用できません。</block>
@@ -6571,12 +6449,10 @@
   <block id="ddf3c43b8ebc516f8db3819c92cf33bb" category="list-text">MetroCluster 構成では、プライマリクラスタと外部クラスタの間にピア関係を作成する場合、セカンダリサイトのクラスタと外部クラスタの間にもピア関係を作成することを推奨します。</block>
   <block id="955295e5dabf6183ad6484e09d5dfda1" category="list-text">クラスタピア関係の認証には、カスタムのパスフレーズかシステム生成のパスフレーズを使用できます。ただし、両方のクラスタのパスフレーズが一致している必要があります。</block>
   <block id="e8ecd2f04d15f84f0731c1958cc0700d" category="list-text">「 * ターゲットクラスタのクラスタ間 LIF IP アドレス」フィールドに、リモートクラスタのクラスタ間 LIF の IP アドレスを入力します。</block>
-  <block id="a9eefa30f0ae5650cff0f75853dabc58" category="list-text">ONTAP 9.5 を実行しているクラスタと ONTAP 9.6 を実行しているクラスタの間にピア関係を作成する場合はチェックボックスを選択します。</block>
   <block id="25eed832462f2d841a1626f4f5cc36be" category="paragraph">ピア関係は暗号化されません。チェックボックスを選択しないとピア関係は確立されません。</block>
   <block id="1a4560d0fd0e3d83e70dfb6109d9db20" category="list-text">パスフレーズ * フィールドで、クラスタピア関係のパスフレーズを指定します。</block>
   <block id="fca1fa143f89c76aadd72bb0bde80911" category="paragraph">カスタムのパスフレーズを作成すると、認証されたクラスタピア関係を確立するために、指定したパスフレーズがピアクラスタのパスフレーズに照らして検証されます。</block>
   <block id="cc243f7502338ef99c61566f17eb36b8" category="paragraph">ローカルクラスタとリモートクラスタの名前が同じ場合にカスタムのパスフレーズを使用すると、リモートクラスタのエイリアスが作成されます。</block>
-  <block id="33d5bae310283d8bc6bc309a1b6ef166" category="list-text">リモートクラスタからパスフレーズを生成するには、リモートクラスタの管理 IP アドレスを入力します。</block>
   <block id="d6c95742d084829b068c0c204bc81eb5" category="list-text">クラスタピアリングを開始します。</block>
   <block id="f28ef0af80ea6470653e5eb453f2be35" category="paragraph">イニシエータクラスタからクラスタピアリングを開始します</block>
   <block id="35f2cd730c7ceb817f7ec66c302c7c86" category="paragraph">リモートクラスタからクラスタピアリングを開始する（カスタムのパスフレーズを作成している場合に適用）</block>
@@ -6710,7 +6586,6 @@
   <block id="97496d83c26eea3da3dfb6963fe5367c" category="list-text">ボリューム移動操作を開始したボリュームを展開します。</block>
   <block id="ee328403697dc41cb9d399be9e948ac5" category="list-text">概要 * タブで、 * カットオーバー * をクリックします。</block>
   <block id="f1f7238ba7ed154f9b34469a9756274a" category="list-text">カットオーバー * （ * Cutover * ）ダイアログボックスで、 * 詳細オプション * （ * Advanced Options * ）をクリックします。</block>
-  <block id="4330ad75398ca5fc4b8a556deadc2744" category="list-text">カットオーバー操作とカットオーバー期間を指定します。</block>
   <block id="f56b6bbb3e17b48f3f4158a3e6003371" category="list-text">セキュリティタイプを変更します。</block>
   <block id="c8e9033e5faaaadf3419887a2963fcd3" category="summary">System Manager を使用して、 CIFS サーバを有効にして、 CIFS クライアントがクラスタ内のファイルにアクセスできるようにすることができます。</block>
   <block id="4216ad1e709a7634134e14c2170d7512" category="doc">CIFS プロトコル</block>
@@ -6721,10 +6596,8 @@
   <block id="77595f78f9133961a7457297f795cd07" category="list-text">[ * 保護 * &gt; * SVM 関係 * &gt; * 作成 * ] をクリックします。</block>
   <block id="bcb1d33ec176a891e9e3ae86e2c199d8" category="list-text">SVM 関係のタイプを * SVM 関係タイプ * リストから選択します。</block>
   <block id="41fe1b889a1b3e1fedeb7e2bb7ac3707" category="list-text">ソース Storage Virtual Machine * ペインで、クラスタと SVM を選択します。</block>
-  <block id="881dd8777cece3528f698c72778c1a5e" category="list-text">必要な権限がない SVM を表示するには、 * をクリックしてソースクラスタに移動し * 、必要な権限を指定します。</block>
   <block id="93fa90e331f56c82caa2a1f3c8f4a75d" category="list-text">デスティネーション Storage Virtual Machine * ペインで、デスティネーションクラスタに作成する SVM の名前を指定します。</block>
   <block id="d88db3fffac974aac217e7a7d3aa5dd2" category="list-text">ソース SVM の設定をコピーするオプションを選択します。</block>
-  <block id="56d4d5ff6a5a3b2d919663370afdf105" category="list-text">* をクリックします<block ref="3fd4b2c218dcec4c2eb9e85f1d283321" category="inline-image-macro-rx" type="image"></block>* 、保護ポリシーと保護スケジュールを更新し、アグリゲートを選択して、保護関係を初期化します。</block>
   <block id="62e2eefd7aed0ec0b8bc7303f45a45b5" category="list-text">Save * をクリックして、 SVM 関係を作成します。</block>
   <block id="05f7eaa2c3f4d229c4485c4628f22a2e" category="paragraph">SVM Relationships ： Summary ウィンドウが表示されます。</block>
   <block id="53f1e0aba7693bcbdfdad5ec51dacfe5" category="list-text">[* 完了 * （ Done * ） ] をクリックしてプロセスを完了します。</block>
@@ -6767,7 +6640,6 @@
   <block id="3c6b636b52f4ee0b5d619d487135638c" category="list-text">SVM * フィールドのドロップダウンメニューから、 CIFS 共有を作成する SVM を選択します。</block>
   <block id="a5b98ff7955f554a6ab08c3a07b3fb83" category="list-text">[ 共有の作成 * ] ウィンドウで、 [ * 参照 ] をクリックし、共有するフォルダ、 qtree 、またはボリュームを選択します。</block>
   <block id="b4f2a0dfcf3a06588721c3cf46426f55" category="list-text">新しい CIFS 共有の名前を指定します。</block>
-  <block id="cf63fad81a6c52194715c588fc201e02" category="list-text">SMB 3.0 以降をサポートするクライアントがノンストップオペレーション時にファイルを継続して開いておけるようにするには、 Hyper-V および SQL * の継続的可用性を有効にするチェックボックスを選択します。</block>
   <block id="81c3a43e87c04aa4f2867930228320dd" category="paragraph">このオプションを使用して開いたファイルは、フェイルオーバー、ギブバック、 LIF の移行など、システムを停止させるイベントから保護されます。</block>
   <block id="44ec628d221f20d3a532dfdc1a49b9cc" category="list-text">SMB 3.0 暗号化を有効にするには、 * この共有へのアクセス時にデータを暗号化 * チェックボックスをオンにします。</block>
   <block id="c11f0d9c886f553934dce4b687e69569" category="list-text">共有の概要またはコメントを入力し、 * Create * をクリックします。</block>
@@ -6809,7 +6681,6 @@
   <block id="f44e33058ab308fe094825631d337412" category="list-text">ポリシー名と転送の優先順位を指定します。</block>
   <block id="ed8c91c377584639ceeeada5aa99e08b" category="paragraph">転送の優先順位を「低」にすると優先順位が最も低くなり、優先順位が「中」の転送よりもあとに実行されます。デフォルトでは、転送の優先順位は「中」に設定されます。</block>
   <block id="40add6431c8623fe3b392fe887767942" category="list-text">[ ネットワーク圧縮を有効にする *] チェックボックスをオンにして、データ転送中に転送されるデータを圧縮します。</block>
-  <block id="8817f13a1342998578162a98e8e9c920" category="list-text">非同期ミラー・ポリシーの場合は '[* すべてのソース Snapshot コピーを転送する *] チェック・ボックスを選択して 'all_source_snapshots ルールをミラー・ポリシーに含めますこれにより ' ソース・ボリュームのすべての Snapshot コピーがバックアップされます</block>
   <block id="11633eb84d1995cfa5bc65cc29e7c23a" category="list-text">[ コメントの追加 ] をクリックして、ポリシーのコメントを追加します。</block>
   <block id="65939eec0391a6bf3b74934cf8016557" category="list-text">バックアップポリシーまたはミラーバックアップポリシーの場合は、 SnapMirror ラベルとデスティネーションの保持数を指定します。</block>
   <block id="f12fb5538a93a99c64c1f1f4ba028e43" category="summary">System Manager を使用して、作成時に初期化していないバックアップ関係を初期化することができます。ソース FlexVol ボリュームからデスティネーション FlexVol ボリュームへのベースライン転送が開始されます。</block>
@@ -6931,7 +6802,6 @@
   <block id="e3e6c88757749af4ba1cb19f7c59aaa6" category="list-text">FlexVol ボリュームのワークロードパフォーマンスを管理する場合は、サービス品質の詳細 * ダイアログボックスで、サービス品質の管理 * チェックボックスを選択します。</block>
   <block id="be6d25d3f12bfa2a2ac95915fe20976a" category="paragraph">選択したボリュームの一部がすでにポリシーグループに割り当てられている場合、変更内容によってはそれらのボリュームのパフォーマンスに影響する可能性があります。</block>
   <block id="73232ca87d8d4dca8f69e25ae8f825e5" category="list-text">最大スループット制限を指定します。ポリシーグループに含まれるオブジェクトのワークロードがこのスループット制限を超えないように制限されます。</block>
-  <block id="e64f3c649915f45fe738260ac4ca6e2c" category="list-text">選択したボリュームのリストを確認する場合は、ボリューム数を指定するリンクをクリックし、リストからボリュームを削除する場合は「 * 破棄」をクリックします。</block>
   <block id="d1c07200e6182da56445b8e08b0a0723" category="paragraph">このリンクは、複数のボリュームを選択した場合にのみ表示されます。</block>
   <block id="6f344358255f23b64f7c702603825c6f" category="summary">System Manager を使用して、選択したクラスタのピアリングの暗号化ステータスを変更できます。</block>
   <block id="cd9b20ea0c84c2c34ff7e3bb8cc64b83" category="paragraph">暗号化ステータスは有効または無効にできます。[ 有効 ] から [ 無効 ] または [ 無効 ] から [ 有効 ] にステータスを変更するには、 [ * 暗号化の変更 * ] を選択します。</block>
@@ -6950,7 +6820,6 @@
   <block id="9756d0263ee60cba558387cda796377b" category="list-text">[*Generate a passphrase* （パスフレーズの生成） ] を選択した場合は、必要なフィールドに入力します</block>
   <block id="4d032c51a90ef9700bb8597126f4159e" category="list-text">* IPspace * ：ドロップダウンメニューから IPspace を選択します。</block>
   <block id="3dbea1724e43e2a86cc176b59bf96f66" category="list-text">* すべての SVM * 。すべての SVM にクラスタへのアクセスを許可します。</block>
-  <block id="497f47d507abd624e9c32de8870f239e" category="list-text">リモートクラスタの有効なクラスタバージョンが ONTAP 9.6 より前の場合はチェックボックスを選択します。選択しないとパスフレーズの生成が失敗します。</block>
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">[ 適用（ Apply ） ] をクリックします。</block>
   <block id="b8c0f7870e836538e7c07dd029d9c4b3" category="paragraph">関係のパスフレーズが生成されて表示されます。パスフレーズはコピーするか E メールで送信することができます。</block>
   <block id="e93e26ba7d240df308692f1c63609e01" category="paragraph">リモートクラスタでパスフレーズを指定するまで、ローカルクラスタの認証ステータスは、選択したパスフレーズの有効期間に「 ok_and_offer 」と表示されます。</block>
@@ -7003,18 +6872,12 @@
   <block id="dcbd710cd0220877b615693f91d5d2cf" category="list-text">許可されているプロトコル</block>
   <block id="869053a5eb18a82e28cf52d4d4b9a391" category="list-text">SVM の言語</block>
   <block id="1da2d639a0b6f7666e02b7f4646cab3e" category="list-text">ルートボリュームのセキュリティ形式</block>
-  <block id="863d7a0d3d62032ea72cf86d796bdee7" category="list-text">ルートアグリゲート： SVM のデフォルトの言語設定は C.UTF-8 です。</block>
   <block id="711ccaefab37afb367d7f3664856ef82" category="paragraph">デフォルトでは、空きスペースが最も多いアグリゲートが SVM のルートボリュームのコンテナとして選択されます。デフォルトのセキュリティ形式とルートアグリゲートは、選択したプロトコルに基づいて選択されます。</block>
-  <block id="c520cdb543189ba91909a578ca62c1c9" category="paragraph">+ CIFS プロトコル、または CIFS プロトコルと他のプロトコルの組み合わせを選択した場合は、セキュリティ形式は NTFS に設定されます。NFS 、 iSCSI 、 NVMe 、 FC / FCoE の各プロトコル、またはそれらのプロトコルの組み合わせを選択した場合は、セキュリティ形式は UNIX に設定されます。</block>
   <block id="564ca1323555f238357b9e7a7b3d5f25" category="paragraph">NVMe を使用する場合は、プロトコルを組み合わせることはできません。</block>
-  <block id="5ff2990c4355bba353efc6b0b7e8535b" category="paragraph">+ MetroCluster 構成では、クラスタに含まれるアグリゲートのみが表示されます。</block>
   <block id="9b64855335f8842b374bcfc082de290f" category="list-text">DNS ドメインの名前とネームサーバの IP アドレスを指定して DNS サービスを設定します。</block>
   <block id="e37329d799746ae89c33efd91c15410b" category="paragraph">デフォルトでは、既存の SVM 設定の値が選択されます。</block>
-  <block id="d921f15e8861de2abe3fd06d18314dc0" category="list-text">プロトコルを使用してデータにアクセスするようにデータ LIF を設定する場合は、ターゲットエイリアス、サブネット、およびノードあたりの LIF 数を指定します。</block>
   <block id="9b83a49d6bdb118b6aa8e5bdaae7f56a" category="paragraph">LIF のポートセットの数を変更するには、「 * Review or Modify LIFs configuration （ Advanced Settings ） * 」チェックボックスを選択します。</block>
   <block id="7cc563dac506409e01888d41805252b4" category="paragraph">特定のノードのポートセットの詳細を編集するには、詳細領域のノードリストからノードを選択します。</block>
-  <block id="1da8b81d788e1ca5e70e6a63e315a84b" category="list-text">SVM のクレデンシャルの詳細を指定して、 SnapManager や SnapDrive などのホスト側アプリケーションを SVM 管理者に対して有効にします。</block>
-  <block id="fd739e3d5f5d870b3ec2aa610f8c5ccb" category="list-text">NVMe 以外のプロトコルを使用する場合は、 * Create a new LIF for SVM management * をクリックして SVM 管理用の新しい LIF を作成し、ポートセットと IP アドレスを指定します。指定できるオプションは、新しい管理 LIF のサブネットはありません。</block>
   <block id="0f84243377475ccd108fb8723b797988" category="paragraph">CIFS プロトコルと NFS プロトコルのデータ LIF には、デフォルトで管理アクセスが付与されます。新しい管理 LIF は必要な場合にのみ作成する必要があります。iSCSI および FC の場合、データプロトコルと管理プロトコルで 1 つの LIF を共有できないため、 SVM 管理 LIF が必要になります。</block>
   <block id="40b69b1b198ff39d18008e5224c86c73" category="paragraph">HA ペアの各ノードに対して少なくとも 1 つの LIF を設定する必要があります。LIF はノードごとに 2 つ指定することもできます。設定アイコンをクリックすると、 LIF の設定が 1 つまたは 2 つに切り替わります。</block>
   <block id="3e2b01dd056074efa0e8b8d902a9ed51" category="paragraph">指定した設定で SVM が作成されます。</block>
@@ -7045,7 +6908,6 @@
   <block id="24adec8a11423f7f5f81e22e5222950f" category="list-text">リストア * ダイアログボックスで、ミラー関係のソースボリュームにデータをリストアするか、他のボリュームを選択します。</block>
   <block id="9a937b3bb3ba6ff155022c69722c1b2d" category="list-text">手順 7 に進みます。</block>
   <block id="27c4657e5f4396c522ec297970c5ae91" category="list-text">確認のチェックボックスをオンにし、 Snapshot コピーからボリュームをリストアします。</block>
-  <block id="7a543dec135c2b8ae5b0ae73e4f1cd07" category="list-text">リストア処理中に転送されるデータを圧縮するには、 [ ネットワーク圧縮を有効にする ] チェックボックスをオンにします。</block>
   <block id="7956c2ceb5d5ba89f5f5d324abc80b90" category="summary">ボリュームに含まれているデータが不要になった場合、またはボリュームに含まれているデータを別の場所にコピーした場合は、 System Manager を使用して FlexVol ボリュームを削除できます。ボリュームを削除すると、そのボリューム内のすべてのデータが破棄され、そのデータは回復できません。</block>
   <block id="f4b5a9d12794a232d0d4695dc98ea86a" category="paragraph">FlexVol ボリュームを削除するには、次の条件を満たしている必要があります。</block>
   <block id="4b0c0c37145405c08ea41ee4bba3aa65" category="list-text">ボリュームをアンマウントし、オフライン状態にする必要があります。</block>
@@ -7058,9 +6920,7 @@
   <block id="bf485d4d9a5f545fadccc002f618c875" category="list-text">元のボリュームに FlexCache ボリュームが関連付けられている場合は、元のボリュームを削除する前に FlexCache ボリュームを削除する必要があります。</block>
   <block id="9567f8b6362dcf68a3b7cb9e69eec7b9" category="list-text">SVM * フィールドのドロップダウンメニューから、削除するボリュームが配置されている Storage Virtual Machine （ SVM ）を選択します。</block>
   <block id="94921f519091f21387c9c8616fae327d" category="list-text">削除するボリュームを選択します。</block>
-  <block id="ffc4c51a24ebf1f8f5efd3f5e4a1c095" category="list-text">注</block>
   <block id="caddbe79dfe318b99e905b290f703f6e" category="paragraph">削除する正しいボリュームを選択したことを確認してください。ボリュームを削除すると、そのボリューム内のすべてのデータが破棄され、そのデータは回復できません。</block>
-  <block id="ae196d550cbc39345f70d51c10a14363" category="paragraph">+ [ 削除 ] をクリックします。</block>
   <block id="d37c49bf29431947edcaa4ead10f442e" category="summary">Flash Cache モジュールを使用すると、ストレージシステムのパフォーマンスが向上します。Flash Cache モジュールの使用による影響は、 Hardware Cache ウィンドウに表示されます。</block>
   <block id="e1056874ce129ebad4e4513450e73807" category="doc">Flash Cache モジュールの仕組み</block>
   <block id="bc087c5302109557750fe154cd284153" category="paragraph">Flash Cache モジュールとディスクは、ストレージシステムのワークロード要件に基づいて設定することができます。Flash Cache モジュールとディスクで処理する読み取りワークロード（読み取り操作の数）を特定することで、ストレージシステムのパフォーマンスを分析できます。</block>
@@ -7436,7 +7296,6 @@
   <block id="8184a070d930ef2d3b85618ead21737b" category="paragraph">4 ノードクラスタでは 'node1' node2 ' および node3 にはそれぞれ 'up' 状態の 6 つのポートがあり 'node4 には 'up' 状態の 7 つのポートがありますこの場合、クラスタに実際に設定可能な最大値は 6 です。</block>
   <block id="f1deb1eebd781987dc5928a29563008e" category="list-text">自動生成された LIF の設定を確認または変更するには、「 * Review 」または「 Edit the Interface Association * 」を選択します。</block>
   <block id="6ae5e4aff7b4baf185267f383f8e510e" category="paragraph">変更できるのは、 LIF 名とホームポートだけです。重複するエントリを指定しないようにしてください。</block>
-  <block id="ac208f4f587c57e7973c5ae4579a00d0" category="list-text">プロトコルを設定する際に、 LUN サイズ、 LUN の OS タイプ、およびホストイニシエータの詳細を指定して FC ストレージまたは FCoE ストレージ用の LUN をプロビジョニングします。</block>
   <block id="91f750dc1743f641bc63ffb38dc8456a" category="paragraph">LIF の作成に失敗した場合は、 FC / FCoE ウィンドウで LIF を作成して FCP サービスを開始できます。</block>
   <block id="9e455ea9ccca57eb62e712c552b33b5f" category="summary">System Manager を使用して、不要になったエクスポートポリシーを削除できます。</block>
   <block id="77713afc6e05ba58fb96d0f79b402e84" category="list-text">削除するエクスポートポリシーを選択し、 * ポリシーの削除 * をクリックします。</block>
@@ -7548,13 +7407,10 @@
   <block id="3918d06afb16b262f4d2da6510dee652" category="paragraph">このオプションを使用できるのは、ボリューム暗号化ライセンスを有効にした場合のみです。また、対応するプラットフォームで暗号化がサポートされている必要があります。</block>
   <block id="c4051b0b4635e747267cc458fe216f3e" category="paragraph">SnapMirror デスティネーションボリュームを作成する場合は、「 * データ保護 * 」を選択する必要があります。このボリュームへの読み取り専用アクセスが許可されます。</block>
   <block id="7278f951e9bc2ad830a2fc77df800997" category="paragraph">Snapshot コピー用にデフォルトで予約されているスペースは、 SAN ボリュームと VMware ボリュームについては 0% です。NAS ボリュームについては、デフォルトでは 5% です。</block>
-  <block id="db88b60dd0dbf25dd1b01eae5d55eb6c" category="list-text">ボリュームのシンプロビジョニングを有効にするには、「 * Thin Provisioned * 」を選択します。</block>
-  <block id="1eeb8271758bcc5ec9d7181b126f9e39" category="list-text">Storage Efficiency * タブで必要な変更を行って、ボリュームで重複排除を有効にします。</block>
   <block id="c81d5d5da42e464a073e94d900bc0c1e" category="paragraph">System Manager では、デフォルトの重複排除スケジュールが使用されます。指定したボリュームサイズが重複排除の実行が可能な最大サイズよりも大きい場合、ボリュームは作成されますが、重複排除は有効になりません。</block>
   <block id="fa4ba492d02b31e4feac0bad15470119" category="list-text">[*SnapLock *] タブを選択し、次の手順を実行します。</block>
   <block id="ce662950ae565b20328100ba60db2cd2" category="paragraph">ボリューム内のファイルに変更がなかった場合に WORM 状態にコミットされるまでの期間です。ファイルを手動で WORM 状態に設定するには、自動コミット設定として「 * not specified * 」を選択する必要があります。</block>
   <block id="0757d443c6ab509d785af85ad0306772" category="paragraph">値は 5 分から 10 年の範囲で指定する必要があります。</block>
-  <block id="79602c7727ba154fb3c3e584fd405e8d" category="list-text">ワークロードのパフォーマンスを管理するために FlexVol ボリュームのストレージ QoS を有効にするには、「サービス品質」タブで「サービス品質の管理」チェックボックスを選択します。</block>
   <block id="d0f7ce6706a5eabac5a3cbbcc4d1f2c6" category="list-text">ストレージ QoS ポリシーグループを作成するか、または既存のポリシーグループを選択して、 FlexVol の入出力（ I/O ）のパフォーマンスを制御します。</block>
   <block id="a4b248fe83ac6473cdd17bbf44d2e296" category="paragraph">ストレージ QoS ポリシーグループを作成する</block>
   <block id="b4f6c829b49d72208011654bdc5cacec" category="list-text">ボリュームを保護するには、 * 保護 * タブで * ボリューム保護 * を有効にします。</block>
@@ -7563,9 +7419,7 @@
   <block id="785e7abdebfba0c077f70ba137de92d3" category="list-text">[IP アドレス範囲 *] フィールドに IP アドレスの範囲を入力し、 [ 適用 *] をクリックします。</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">オプション</block>
   <block id="fda3d70d690cf239a0df47903d8ca82c" category="paragraph">同じネットマスクの IP アドレスの範囲を使用しています</block>
-  <block id="1d089814d7db8a07677eabca7975249e" category="paragraph">IP アドレスの範囲を入力し、 * 適用 * をクリックします。IP アドレスがクラスタ管理、ノード管理、およびサービスプロセッサ管理のネットワークに順番に適用されます。</block>
   <block id="06452fe7179e921ee6ae120684e8cc93" category="paragraph">異なるネットマスクの IP アドレスの範囲を使用する</block>
-  <block id="935ff60da33c8985fe3148e740b72186" category="paragraph">各 IP アドレス範囲を別々の行に入力し、 * 適用 * をクリックします。最初の IP アドレスがクラスタ管理に適用され、残りの IP アドレスがノード管理とサービスプロセッサ管理のネットワークに順番に適用されます。</block>
   <block id="7cc04bec7d4720b1418723a2aa6915df" category="paragraph">クラスタ管理、ノード管理、およびサービスプロセッサ管理の IP アドレス範囲を入力した場合、それらのフィールドの IP アドレスの値を手動で変更することはできません。すべての IP アドレスが IPv4 アドレスであることを確認してください。</block>
   <block id="2389c265c5a2b20d1eec9fa4207667b9" category="list-text">サービスプロセッサ管理のデフォルト値を上書きする場合は、必須のゲートウェイの詳細が入力されていることを確認します。</block>
   <block id="38f0eb0f612b86d404cbdaf0799a8395" category="summary">System Manager を使用して、ストレージシステムで iSCSI サービスを開始または停止できます。</block>
@@ -7655,7 +7509,6 @@
   <block id="15347fc420d5ec2dd87158039af443bc" category="paragraph">FlexCache ボリュームに関する基本情報、 FlexCache ボリュームに割り当てられているスペース、および FlexCache ボリュームに関するパフォーマンス情報。</block>
   <block id="da7f53d60e8f50d0ffd0216af224b25f" category="paragraph">FlexCache ボリュームの Storage Efficiency 設定。</block>
   <block id="796f6713efbcc344469d08848986457f" category="paragraph">レイテンシ、 IOPS 、およびスループットを基準に、 FlexCache ボリュームの平均パフォーマンス指標、読み取りパフォーマンス指標、書き込みパフォーマンス指標。また、キャッシュヒットまたはキャッシュミスの割合も表示されます。</block>
-  <block id="f9e864ad80bc160db6bb19fc780a3b5f" category="list-text">追加情報を表示し、ドロップダウンメニューで選択したアクションを実行するには、 * その他のアクション * をクリックします。</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">アクション</block>
   <block id="af5519d5b46da35f34c10fb4a6fb97b4" category="paragraph">ステータスを変更します</block>
   <block id="dba2cd66d8e793a4a6abf7628330d47f" category="paragraph">FlexCache ボリュームのステータスを変更できます。を参照してください <block ref="033a8135ffd4750ad647bce51e5cdc2f" category="inline-link-macro-rx"></block>。</block>
@@ -7849,7 +7702,6 @@
   <block id="07bc692e097c6e1d28b64623a00059fb" category="paragraph">NVMe プロトコルを有効にします</block>
   <block id="15c8b485ae1f0faa23da206983b2db28" category="list-text">[* NVMe* ] ボックスを選択します。</block>
   <block id="f78b05e36a26c2b760405a63dcc6f709" category="list-text">NVMe プロトコル用の NVMe ポートを選択します。</block>
-  <block id="01751c46a4623e5ca76c644f7df362e4" category="list-text">[ 詳細オプション * ] アイコンをクリックし、詳細を表示して、デフォルト言語、セキュリティ形式、 CIFS サーバの詳細、 NFS の詳細などの詳細オプションを設定します。</block>
   <block id="dec7a9cf637ab7e5ec703056266f4cf7" category="list-text">Submit and Continue * をクリックして SVM を作成します。</block>
   <block id="ec4be32f47fa69e0726361f9f7d93251" category="paragraph">Submit and Continue （送信して続行）をクリックした場合、 Summary （サマリ）ウィンドウで指定した詳細を確認し、 * Manage Your Cluster （クラスタの管理） * をクリックして System Manager を起動するか、 * Provision an Application （アプリケーションのプロビジョニング） * をクリックしてストレージアプリケーションをプロビジョニングするか、 * Export Configuration * をクリックして構成ファイルをダウンロードする必要があります。</block>
   <block id="14611ba17df1ed583ee17b0e0ef6066c" category="summary">LUN を含むボリュームを別の HA ペアに移動した場合は、すべてのリモートノードを選択的 LUN マップ（ SLM ）のレポートノードリストから削除する必要があります。これにより、 LUN マップには所有者ノードとその HA パートナーだけが含まれるようになり、最適化された LUN パスのみが使用されるようになります。</block>
@@ -7921,7 +7773,6 @@
   <block id="27ee9abe0b9b886fc49e960b296dcfdb" category="paragraph">自動カットオーバーと手動カットオーバーのどちらを選択した場合も、ボリューム移動は無停止で実行されます。</block>
   <block id="c391b8aa4f975e5e8366150d81905fdd" category="list-text">ボリュームに LUN が含まれており、クラスタが 4 ノード以上の場合は、ボリュームを別の HA ペアに移動するときに CLI を使用して LUN レポートノードを更新します。</block>
   <block id="67661110495ec940cd073a6350a8d163" category="paragraph">ボリュームに LUN が含まれていない場合や 2 ノードクラスタの場合は、この手順を省略できます。</block>
-  <block id="20d49e79378fcce26577680e36ef85cd" category="list-text">次の点を考慮して時間を計画します。</block>
   <block id="9c5a09f52fb4fd71b2b3b1d43854f73f" category="list-text">ボリューム移動処理は、クライアントアクセスとシステム全体のパフォーマンスを維持しながら、バックグラウンドで無停止で実行するように設計されているため、予想よりも時間がかかることがあります。</block>
   <block id="888c7a3d8100e00f9d1e0ea6d0d92a99" category="paragraph">たとえば、 ONTAP はボリューム移動処理に使用できるリソースを調整します。</block>
   <block id="5ae888cc909c3a2b911cb5803f6c1da3" category="list-text">移動をできるだけ短時間で実行するには、クラスタのアクティビティが少ない時間を選択する必要があります。特に次のアクティビティを選択する必要があります。</block>
@@ -7944,11 +7795,7 @@
   <block id="e173cc20c0c607ca4197a97b29d1903c" category="summary">Linux ホストには、ストレージクラスタ内の各ノード（ターゲット）との iSCSI 接続が必要です。セッションはホストから確立します。</block>
   <block id="895b73c29c43e90b535c2319b97b951d" category="doc">ターゲットとの iSCSI セッションを開始します</block>
   <block id="5ace5801aa1c982278b758b8410247a1" category="paragraph">ONTAP では、 iSCSI ホストからクラスタ内の各ノードへのパスを設定する必要があります。DM-Multipath で、使用する最適なパスが選択されます。パスに障害が発生した場合は、 DM-Multipath で代替パスが選択されます。</block>
-  <block id="cdd2d6097ab3946e09f85da274ed8036" category="list-text">Linux ホストのコマンドプロンプトから iSCSI サービスを開始します。「 service iscsid force-start</block>
-  <block id="399edecb543bb97501408288de7dd896" category="list-text">iSCSI ターゲットを検出します「 iscsiadm -- mode discovery -- op update -- type sendtargets -- portal TargetIP</block>
   <block id="70d7dce05abfe332cb56b62599873cb5" category="paragraph">検出された各ターゲットの IP アドレスが別々の行に表示されます。</block>
-  <block id="86681e7847c09f40209530209aba6c58" category="list-text">各ターゲットにログインして iSCSI セッションを確立します「 iscsiadm -- mode node -l all</block>
-  <block id="73344756ddc68d2a235cca27fc03a737" category="list-text">アクティブな iSCSI セッションのリストを表示できます「 iscsiadm -- mode session</block>
   <block id="3ba394a5fb3e0afaafb8b6971da69858" category="summary">ストレージシステムの設定時に使用できるように、 Linux ホストの iSCSI イニシエータノード名を記録しておく必要があります。</block>
   <block id="bf2270aac0420416e55895fea75b3161" category="doc">iSCSI ノード名を記録</block>
   <block id="d68a955d17dddae8d5b57c2e27e531ac" category="list-text">テキスト・エディタを使用して ' ノード名を含む '/etc/iscsi/initiatorname.iscsi' ファイルを開きます</block>
@@ -7962,8 +7809,6 @@
   <block id="2bf508726429c82fd84bbbab3d707db0" category="doc">Red Hat Enterprise Linux 向けの iSCSI の設定の概要</block>
   <block id="f6b61538a8daed22de52194e5df3fc3d" category="list-text">RHEL シリーズ 6.4 以降のサポート対象バージョンを実行している Red Hat Enterprise Linux ホストで iSCSI ソフトウェアイニシエータを使用している。</block>
   <block id="3eb492bfe5d69b4d147a52c2fffbd299" category="image-alt">この図には説明が付随しています。</block>
-  <block id="9364bc572eae572af197a8cd4f3ba9a1" category="paragraph">+ デバイスの WWID が表示されます。この WWID をコピーして「 multipath.conf 」ファイルに貼り付けることができます。</block>
-  <block id="2452336e08d8c3fbdb93c85bb26a1fdd" category="paragraph">+ 「 multipath.conf 」ファイルの blacklist セクションを示した次の例では、 WWID 「 3600508e000000000753250f933cc4606 」のネットアップ以外の SCSI デバイスを除外しています。</block>
   <block id="e3c0e450ed23f9a24d0aad328dda6cd6" category="summary">Linux Unified Host Utilities ソフトウェアに、 sanlun ユーティリティというネットアップの LUN レポートツールが含まれています。このユーティリティを使用してストレージクラスタノードに関する情報を表示できます。</block>
   <block id="175017a406212d92c7cb45223ba5dbf4" category="doc">Linux Unified Host Utilities をインストールし、 I/O パフォーマンスを最適化します</block>
   <block id="36274900bedd7b6237ea6c16b1b53b50" category="paragraph">Linux Unified Host Utilities ソフトウェアには、「 lun 」ユーティリティが含まれています。これは、ストレージクラスタノードに関する情報の表示に使用できるネットアップの LUN レポートツールです。ネットアップストレージのパフォーマンスを最適化するには、さらに、 Linux ホストで正しいサーバプロファイルを有効にする必要があります。</block>
@@ -8059,7 +7904,6 @@
   <block id="a9bfcd7e0844a29fc830ed2aab359573" category="paragraph">最新のプラグインのオンライン・バンドル（「 NetAppNasPlugIn.vib` 」）をダウンロードする必要があります</block>
   <block id="9e94d850f26fb50f4359dc1d71845f7c" category="list-text">各 ESXi ホストで VAAI が有効になっていることを確認します。</block>
   <block id="859fdcf37593d727a4f59d5b7abb03a4" category="paragraph">VMware vSphere 5.0 以降では、 VAAI はデフォルトで有効になっています。</block>
-  <block id="ef75e0228583e748464fa0f1b6cf02c7" category="list-text">で、 * Tools * &gt; * NFS VAAI Tools * を参照します。</block>
   <block id="92c144ce1cf5262a527c5772bba3a8e0" category="list-text">[ ファイルの選択 ] をクリックして 'NetAppNasPlugIn.vib' ファイルをアップロードします</block>
   <block id="1d644a2768f228d9cc9739e04fe54ca8" category="paragraph">「アップロードに成功しました」というメッセージが表示されます。</block>
   <block id="874804e5f7f5058429af8fe8ed0477c5" category="list-text">[ ホストにインストール ] をクリックします。</block>
@@ -8106,12 +7950,7 @@
   <block id="ecf940aaea2349e4982df80c0d68b1fb" category="cell">エクスポートサイズ</block>
   <block id="a158bb476e5e80bcf1e61f4b87d260e9" category="paragraph">エクスポート名（オプション）</block>
   <block id="af2e2a8528b3b09b31bbc9e601e4032e" category="paragraph">Export 概要（オプション）</block>
-  <block id="bb3ccd5881d651448ded1dac904054ac" category="section-title">情報</block>
   <block id="286212487451d619de0dafa658b897cd" category="paragraph">既存のを使用しない場合は、次の情報を入力して新しいを作成する必要があります。</block>
-  <block id="1d758b2fae9cae64cb2925dc64d7893c" category="paragraph">ルートボリューム用のアグリゲート</block>
-  <block id="9c3dcd8224f385bbc800e1f8c20c0f33" category="paragraph">ユーザ名（オプション）</block>
-  <block id="02ea3d488792da4e56fc332d912b123c" category="paragraph">パスワード（オプション）</block>
-  <block id="13d7c1ceaeeb790803f5bdfaddc2a045" category="paragraph">管理 LIF （オプション）</block>
   <block id="0240e7c0a9f788e20425fffb9aa66c43" category="list-text">Web ブラウザに「 + https://IP-address-of-cluster-management-LIF+` 」という URL を入力し、クラスタ管理者のクレデンシャルを使用してにログインします。</block>
   <block id="1b40e2854d3fc63497186601aa0aa079" category="summary">NFS を使用して ESXi ホストでストレージを使用できるようにするには、でボリュームをプロビジョニングし、 ESXi ホストから NFS エクスポートに接続します。</block>
   <block id="b6339b8db51f3442d4512cbc00301455" category="doc">ESXi ワークフロー向けの NFS クライアント構成</block>
@@ -8123,9 +7962,6 @@
   <block id="ba57eb39fed6c8030e4496610bee0e42" category="list-text">VMware VAAI を使用する場合、 NFS アクセスは NFSv3 および NFSv4 経由になります。</block>
   <block id="ea969559dd5cc111e771d23a7b91e7f0" category="summary">では、 ESXi ホストでストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化します。は、 vCenter Server のプラグインです。</block>
   <block id="349838fb1d851d3e2014b9fe39203275" category="doc">をインストールします</block>
-  <block id="3190d1888e4eb5b5e687fd07685f9c6d" category="list-text">Virtual Storage Console 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンスとしてインストールされます。</block>
-  <block id="1c60d58da22a509b5a61105e79b0eaa6" category="list-text">お使いの構成でサポートされているバージョンのをダウンロードします（ツールを参照）。</block>
-  <block id="00797114657572d8fc4561584fa8c83a" category="list-text">導入とセットアップの手順に従って、仮想アプライアンスを導入して設定します。</block>
   <block id="97446f85d622caa408c1900719e976fe" category="summary">既存のに NFS アクセスを追加するには、まずデータ論理インターフェイス（ LIF ）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
   <block id="2463feb7085c1de79b2a536a798cc5e6" category="doc">既存のに NFS アクセスを追加</block>
   <block id="b3cd292080da5468bda5b81ea6f6944e" category="list-text">で使用する次のネットワークコンポーネントを確認しておく必要があります。</block>
@@ -8147,8 +7983,6 @@
   <block id="c381116d8a752fc5d207bc6584a6d2ea" category="doc">ESXi ホストを設定</block>
   <block id="881b0a2ef802a1004b956954773e6574" category="summary">データストアには、 ESXi ホストの仮想マシンとその VMDK が格納されます。ESXi ホストのデータストアは、ストレージクラスタのボリュームにプロビジョニングします。</block>
   <block id="ae6008f02ca0b45c6a4cd4a393db0926" category="doc">データストアをプロビジョニングしてその格納先ボリュームを作成する</block>
-  <block id="0758dfa0b398419c875f8615656d7294" category="paragraph">for （ VSC ）をインストールし、 ESXi ホストを管理する vCenter Server に登録しておく必要があります。</block>
-  <block id="606f505cd8a5f562db000f27cd2ad1c0" category="paragraph">VSC に、ボリュームを作成するための十分なクラスタまたはクレデンシャルが必要です。</block>
   <block id="51793b9466d1621e417beec57432b48e" category="paragraph">VSC では、データストアを自動でプロビジョニングすることができ、指定した SVM にボリュームを作成することもできます。</block>
   <block id="9bd777b8df02f89f109bd507aebe44cd" category="summary">新しいをセットアップするには、新しいを作成し、 NFS を有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
   <block id="963ebd9778f5487b1a26decf3928acd7" category="doc">新しい NFS-enabled を作成</block>
@@ -8156,7 +7990,6 @@
   <block id="8335f43bb715b8b81168959acc5ed2a6" category="list-text">Storage Virtual Machine （ SVM ） Setup * ウィンドウで、次のファイルを作成します。</block>
   <block id="16d91ce3e54e199d42185d64282f16aa" category="list-text">データプロトコルとして「 * nfs * 」を選択します。</block>
   <block id="6cf4a7024cd8da06dfb2de07d0ab1de3" category="paragraph">同じで追加のプロトコルを使用する予定の場合は、すぐに設定しないであっても選択する必要があります。</block>
-  <block id="abdb06b3d2e4b91f1b360f6bca83f3e4" category="list-text">ルートボリュームを格納するルートアグリゲートを選択します。</block>
   <block id="73d7dbe8dde20a9df035458e497ebc27" category="paragraph">選択したルートボリュームのアグリゲートがデータボリュームの場所に対応していない。</block>
   <block id="17d37d4e5172456b53b44a4310af144b" category="image-alt">SVM セットアップ</block>
   <block id="d28037416dced6462706c78db21b49f2" category="paragraph">が作成されますが、プロトコルはまだ設定されていません。</block>
@@ -8552,7 +8385,6 @@
   <block id="32517c827bda6df6c1f17c26de37e248" category="paragraph">ONTAP 9.7 以前の ONTAP System Manager を使用して、ピア関係を設定できます。ピア関係を設定するには、各クラスタでピアリングの準備を行い、各クラスタの各ノードにクラスタ間論理インターフェイス（ LIF ）を作成し、クラスタピア関係を設定してから SVM ピア関係を設定します。</block>
   <block id="7c6e4274de02882bc86c248e616125ab" category="summary">ONTAP 9.7 以前の ONTAP System Manager の「クラシック」インターフェイスを使用して、ボリュームとデスティネーションアグリゲートを選択し、ボリューム移動処理を開始し、必要に応じてボリューム移動ジョブを監視することで、ボリュームを移動できます。System Manager を使用すると、ボリューム移動処理が自動的に完了します。</block>
   <block id="c23945ad1d09891b1018f7d6420b5614" category="paragraph">ONTAP 9.7 以前の場合に ONTAP の System Manager の _classic_ インターフェイスを使用すると、ボリュームとデスティネーションアグリゲートを選択してボリューム移動処理を開始し、必要に応じてボリューム移動ジョブを監視することにより、ボリュームを移動できます。System Manager を使用すると、ボリューム移動処理が自動的に完了します。</block>
-  <block id="8c6f3a8f6143dcec911e35cf031fd7e1" category="list-text">[[step4-monitor]] ボリューム移動ジョブを監視します。</block>
   <block id="4077a398426e6e6d8aa9ea33feedaa45" category="list-text">繰り返します <block ref="0f90b952a1c7c3d8225b70285217c20b" category="inline-xref-macro-rx"></block>。</block>
   <block id="bf1e5a0ccb5779f93165d1b3ca83650d" category="summary">LUN レポートノードを追加して、最適化された LUN パスを維持することができます。</block>
   <block id="83b2edcf6a3639d61126561d31217291" category="paragraph">LUN を含むボリュームを別のハイアベイラビリティ（ HA ）ペアのデスティネーションアグリゲートに移動する場合 ONTAP 、選択的 LUN マップのレポートノードリストに HA ペアが自動的に追加されます</block>
@@ -8688,7 +8520,6 @@
   <block id="68fd6fabd23e2ade4b52410c1f22651f" category="summary">System Manager 9.6 以降では、既存のリソースのサイズを変更するか、または新しいリソースを追加して、 FlexCache ボリュームのサイズを変更できます。</block>
   <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">デフォルトでは、既存のアグリゲートを使用して FlexCache ボリュームのサイズが変更されます。System Manager 9.6 以降では、ボリュームに対して許容される最大サイズがフィールドの横に表示されます。</block>
   <block id="cc818fa0afc7fc97a334ef53849dbe3b" category="list-text">System Manager 9.5 以降では、 2 パック MetroCluster 構成のシングルノードクラスタを更新できます。</block>
-  <block id="b00591630384bce2a76272b449186c53" category="list-text">NVMe プロトコルを使用する場合は、 ONTAP 9.5 以降で、 SVM セットアップウィザードの 2 ページ目で各ノードに少なくとも 1 つの LIF を設定してください。 * NVMe プロトコルを設定 *</block>
   <block id="9856546af72ee8cf33e0175f3d5162de" category="summary">System Manager 9.6 以降では、 MetroCluster スイッチオーバー / スイッチバックの処理を使用して別のクラスタサイトのタスクをテイクオーバーできます。メンテナンス時や災害からのリカバリ時に便利な機能です。</block>
   <block id="89722798ea50f9e4e27e12781d425918" category="summary">System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
   <block id="27c4af937793a36386cf10cdf2170f78" category="list-text">ONTAP 9.1 以降では、 AFF プラットフォーム上に SnapLock アグリゲートを作成できます。</block>
@@ -8796,13 +8627,11 @@
   <block id="dc7b0deb2f77cc84a07356028bc63ae9" category="section-title">SVM の管理の詳細を設定する</block>
   <block id="48fafd8d0267c2c4d065de7ed42c87e5" category="section-title">設定の更新ウィンドウ</block>
   <block id="2f63b3d68f0ba01bb94b14d7a3fd6177" category="section-title">ピアリングパスフレーズを生成</block>
-  <block id="b8cdd43d1b26cbe709647dba8c6a5a29" category="paragraph">System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。</block>
   <block id="ec01c33a64ca172bc18960b7f7f2cfb4" category="section-title">クラスタピアパスフレーズを変更します</block>
   <block id="d6c09719738f88117adae1f025f0bfa0" category="section-title">リモートクラスタ用に設定されている LIF を変更します</block>
   <block id="666f8d3c8c6cec4c3ead6d42123cf853" category="paragraph">System Manager 9.6 以降では、 2 つのクラスタ間にピア関係を確立する際、デフォルトでピア関係が暗号化されます</block>
   <block id="59141343290d3909b8aaa7db97777945" category="section-title">AutoSupport 設定をテストします</block>
   <block id="f8ac418fe34a9d032d82e1a5fe1cc538" category="section-title">AutoSupport データを生成します</block>
-  <block id="43beb39cf92dd66431f7a29555809971" category="list-text">選択した Snapshot ポリシーに対して行った変更を * Edit Snapshot Policy * （スナップショットポリシーの編集）ダイアログボックスで確認し、 * Save * （保存）をクリックします。= Snapshot ポリシーを削除します</block>
   <block id="3f1033677cd06da189e19ae000dd52d6" category="section-title">クラスタユーザアカウントをロックまたはロック解除します</block>
   <block id="bd95ba3afe20a3deb3b2d766f0f25bd4" category="section-title">LIF を移行</block>
   <block id="89839280933498e663c409c99a7f3ad3" category="paragraph">ONTAP 9.2 以降では、 FabricPool 対応アグリゲートでサードパーティのストレージ階層（ AWS など）を使用する場合に容量ライセンスが必要になります。FabricPool の容量ライセンスでは、クラウド階層ストレージに格納できるデータの量が定義されています。</block>
@@ -8825,7 +8654,6 @@
   <block id="b58f4629c05c62ab785a00da650796ac" category="section-title">FC サービスまたは FCoE サービスを開始または停止する</block>
   <block id="f0bb3a1069bc693d784499624c92773a" category="section-title">SVM ユーザアカウントをロックまたはロック解除します</block>
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">BranchCache 設定を変更します</block>
-  <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">インターフェイスが属しているサブネットを示します。Mx * 役割 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster のスイッチオーバーとスイッチバックについて</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe サブシステムとは</block>
   <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">System Manager - ONTAP 9.7 以前を使用してライセンスを管理します</block>
@@ -9331,4 +9159,164 @@
   <block id="e50dd294cf397303b2a00adc531519ff" category="summary">System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、FlexCloneボリュームを親ボリュームからスプリットできます。スプリットした FlexClone ボリュームは通常の FlexVol になります。親ボリュームのディスクスペースが使用され続け、ストレージ効率が維持されます。</block>
   <block id="3c8b9315b4e5007a245058e0cff68754" category="sidebar">ローカルWindowsグループ</block>
   <block id="77099e972ae7a7fe259036767d3fe853" category="sidebar">Windowsローカルグループを管理します</block>
+  <block id="2167b6cc78c73051aff2dd4c26573bca" category="list-text">[*LIFs per node*]フィールドに「*2*」と入力します。</block>
+  <block id="07ed465ff0a44a206760d324d1c08249" category="list-text">*オプション：*ターゲットエイリアス名を入力します。</block>
+  <block id="de0a8b1ad2499d809f45085d29cd222a" category="list-text">*オプション：LUNを含むストレージクラスタノードをフェイルオーバーし、LUNのファイルに引き続きアクセスできるかどうかを確認します。</block>
+  <block id="6b4bfed3c0051a636448f72f898e2da1" category="list-text">*オプション：*[[step4-monitor]]ボリューム移動ジョブを監視します。</block>
+  <block id="378b1b279719118ac9d5c8600e52fe26" category="list-text">*オプション：*次の考慮事項を使用して時間を計画します。</block>
+  <block id="74452ce5ccfe910db6ce7caf2d46580f" category="list-text">*オプション：LUNを含むクラスタノードをフェイルオーバーし、ファイルに対して引き続き書き込みおよび読み取り可能かどうかを確認します。</block>
+  <block id="ca7152560b0bf26bf8544c8c6feb5860" category="list-text">*オプション：クラスタノードをフェイルオーバーした場合は、ノードをギブバックし、すべてのLIFをホームポートに戻します。</block>
+  <block id="299577be2caaa1e65fcb550f0e44ce9a" category="list-text">指定したマルチパスデバイスでいくつかのI/Oを実行します。</block>
+  <block id="8959d60081b4cbcb44ae78554e237cb9" category="paragraph">'dd if=/dev/zero of=&lt; multipath_device_name \&gt;`</block>
+  <block id="8e1190bf83433577c047c00863b4c141" category="list-text">統計情報を更新する秒数を指定して、マルチパスデバイスでI/Oが実行されていることを確認します（この例では2秒に設定しています）。</block>
+  <block id="94380f622a8652ea69d3313b7839aaa1" category="paragraph">「iostat 2」</block>
+  <block id="21e9f4aad2104b53e21ccf83203ac22c" category="list-text">可能であれば'ストレージ・クラスタ・ノード上でtakeoverコマンドを実行します</block>
+  <block id="b8ff52d6a214140bcb3f0b3c26f0f100" category="paragraph">storage failover takeover -ofnode &lt;node_name \&gt;`</block>
+  <block id="e0873e1f361ec2a9bfeb629b685be386" category="list-text">iostatコマンドを再実行して'マルチパス・デバイスでI/Oがまだ実行されていることを確認します</block>
+  <block id="4946723a87e91c6b88ca469c375c16b1" category="list-text">ストレージ・クラスタ・ノードでgivebackコマンドを実行します</block>
+  <block id="c566ca0f9ffc96cd9f258bb828b352ac" category="paragraph">storage failover giveback -ofnode &lt;node_name \&gt;`</block>
+  <block id="1bf24c5310ab6ad0bdcdc68667bea756" category="list-text">新しいSCSIデバイス（LUN）を検出し、LUNに対応するマルチパスデバイスを作成します。</block>
+  <block id="3c68f1f0a040dd350f9b8572d43a655c" category="paragraph">/usr/bin/rescan -scsi-bus.sh</block>
+  <block id="dbabd8c8abf623dcd06199221179283c" category="list-text">DM-Multipathの設定を確認します。</block>
+  <block id="94275d66daee86bfac92037c631a7285" category="paragraph">「multipath -ll」と入力します</block>
+  <block id="40dfa14ed97c7216a735373e228eba5b" category="paragraph">たとえば'/dev/sdaが除外するネットアップ以外のSCSIデバイスである場合は'次のように入力します</block>
+  <block id="fb24bd69f54fea8ff4b0d557f7690765" category="paragraph">`/lib/udev/scsi_id -gud /dev/sda</block>
+  <block id="6667f4bb63a24254da1055c76031456f" category="list-text">DM-Multipathデーモンを開始します。</block>
+  <block id="ea20b6871b30a75c01f1ac0604ac6fd7" category="paragraph">/etc/init.d/multipathd start`</block>
+  <block id="5d7e8548aac7ed8ad8df79b28282a0f6" category="list-text">マルチパスサービスをブートシーケンスに追加して、マルチパスデーモンがシステムのブート時に常に開始されるようにします。</block>
+  <block id="7dcb81f0d20c3d34062020b8cea4e8b1" category="paragraph">'chkconfig multipathd on`</block>
+  <block id="f909f3d3b695dfd4fcb9d9c8b7e34d8a" category="list-text">tunedパッケージがインストールされていない場合は'次のコマンドを入力します</block>
+  <block id="75d8184ca11db91e2beae3063c17ab79" category="paragraph">yum 'install tuned</block>
+  <block id="2bbdd83dd3e681fd4b60973d886e9927" category="list-text">物理ホストの場合は'エンタープライズ・ストレージのプロファイルが設定されていることを確認します</block>
+  <block id="4dd7d22a6ae04ca5cd3d2948fea52535" category="paragraph">tuned-adm profile enterprise-storaged'</block>
+  <block id="1d5af455c21e5a12e3e8a2b2f6d9b985" category="list-text">仮想ホストの場合は、「virtual-guest」プロファイルが設定されていることを確認します。</block>
+  <block id="aaedb80c185a3408706a489e17bdcabb" category="paragraph">tuned-adm profile virtual-guest</block>
+  <block id="e216a06c67beed0b5dd76c9676ee361a" category="list-text">LinuxホストのコマンドプロンプトからiSCSIサービスを開始します。</block>
+  <block id="64f4117eb4bf3dac5f097edd110da80c" category="list-text">iSCSIターゲットを検出します。</block>
+  <block id="e91911d71ec4caa5e10629ad38ed4ebe" category="paragraph">iscsiadm -- mode discovery -- op update -- type sendtargets -- portal TargetIP</block>
+  <block id="bc945477b18634e7ffe118ecd6430ee4" category="list-text">各ターゲットにログインしてiSCSIセッションを確立します。</block>
+  <block id="bbc46b065a2a5e3fa3de3d515c5092f4" category="paragraph">iscsiadm -- mode node -l all</block>
+  <block id="f27b7a8891ea2d1400e59a9dc4b65c6b" category="list-text">アクティブなiSCSIセッションのリストを表示できます。</block>
+  <block id="e73d1aac1b7026c75466702304ad4f76" category="paragraph">'iscsiadm -- mode session</block>
+  <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">ステップ</block>
+  <block id="d17610cab8dbcd3dd625b0d8d3a450d4" category="list-text">*オプション*：SVMルートボリュームを格納するルートアグリゲートを選択します。</block>
+  <block id="93de04e4619fcc6641a7c9cea9d939b6" category="list-text">*オプション*：* DNS Configuration *領域で、このSVMに使用するデフォルトのDNS検索ドメインとネームサーバがあることを確認します。</block>
+  <block id="a194ac5984fa96309c2d12690a193b44" category="list-text">*オプション*：共有ACLを変更して、共有へのアクセスを制限します。</block>
+  <block id="d9f5020c898fa0bc33fe82af2df8c873" category="list-text">*オプション*：* Add *をクリックし、SVMを含むWindows Active Directoryドメインで定義されている管理者グループの名前を入力します。</block>
+  <block id="c9021f672b51a52fc6e747521ec888d2" category="list-text">*オプション*：共有名をボリューム名と異なる名前にする場合は、共有名を変更します。</block>
+  <block id="f5d700cf62ec87b85f98f691af328ae5" category="list-text">*オプション*：ボリュームをSVMのルート以外の場所に配置する場合は、既存のネームスペース内で新しいボリュームの場所を変更します。</block>
+  <block id="c66c2d5e3e3667ff3074429205e86509" category="list-text">*オプション：*ポートセットを設定します。</block>
+  <block id="02c5c87e366e2f769b5847913aee732c" category="list-text">[SVM** Details**]ペインで、プロトコルが有効になっているが設定が完了していないことを示す灰色の背景が[*iSCSI*]に表示されていることを確認します。</block>
+  <block id="026d103ec9353170dc1f0aa9b52d4d69" category="list-text">*オプション*：CIFSプロトコルを有効にした場合は、セキュリティ形式を* unix *に変更します。</block>
+  <block id="ba86c68ac4825da639c809691a74505a" category="list-text">*オプション：* Enable Network Compression *チェック・ボックスを選択して、リストア処理中に転送されるデータを圧縮します。</block>
+  <block id="68999859068a7cad770d216049833275" category="list-text">*オプション：*参照*をクリックし、ミラーとバックアップポリシーを変更します。</block>
+  <block id="f4cadc06670b1f076d32420cb5d39c9c" category="list-text">*オプション：* Initialize Relationship *を選択して、関係を初期化します。</block>
+  <block id="0f05bcdadeb2c7a8bfc6c2acf3c29256" category="list-text">IPv6を使用している場合：https://[cluster-mgmt-LIF]`</block>
+  <block id="74d14d007d0cc9201e5acb84b3b59f8d" category="paragraph">ONTAP System Manager のブラウザアクセスでサポートされるのは HTTPS のみです。</block>
+  <block id="538cff27ae018f806a95d1375f43e19c" category="list-text">* オプション： * CLI を使用してアクセスバナーを設定している場合は、 * 警告 * ダイアログボックスに表示されるメッセージを読み、必要なオプションを選択して続行します。</block>
+  <block id="4a91dd918c5543d102c898a609da2b12" category="list-text">*オプション：ONTAP 9.5を実行しているクラスタとONTAP 9.6を実行しているクラスタの間にピア関係を作成する場合はチェックボックスを選択します。</block>
+  <block id="1c0fc20abe98df60398c9c0d1a889c47" category="list-text">*オプション：リモートクラスタからパスフレーズを生成するには、リモートクラスタの管理IPアドレスを入力します。</block>
+  <block id="b573a96e4bf17ee0a6978424e76eab30" category="list-text">*オプション：新しいFlexCloneボリュームに対してシンプロビジョニングを有効にする場合は、「*シンプロビジョニング*」を選択します。</block>
+  <block id="3f737d00053f7c5c45d0637dfdb180e2" category="list-text">*オプション：カットオーバー操作とカットオーバー期間を指定します。</block>
+  <block id="d437837c1a7f1cef9d7e6471237f0d2b" category="list-text">*オプション：*アグリゲートのRAID構成を変更します。</block>
+  <block id="5d32e3bfc17842f890a9a46a0a6254be" category="list-text">RAID構成の変更*ダイアログボックスで、RAIDタイプとRAIDグループサイズを指定します。</block>
+  <block id="cf1156c444023ae39d1b0259f11b587b" category="list-text">*オプション：*アグリゲートをミラーリングする場合は、*このアグリゲートをミラーリング*チェックボックスを選択します。</block>
+  <block id="7287d0805774e49e1bca05e556ea16a7" category="list-text">*オプション：* Enable Network Compression *チェックボックスを選択して、リストア処理中に転送されるデータを圧縮します。</block>
+  <block id="5ee14f4082427cb7999477b69aa840f4" category="list-text">*オプション：*シンプロビジョニング*を選択して、ボリュームのシンプロビジョニングを有効にします。</block>
+  <block id="4774f8d0bfe79916a1748e9c45f5e02d" category="list-text">*オプション：* Storage Efficiency *タブで必要な変更を行い、ボリュームで重複排除を有効にします。</block>
+  <block id="89d2036f976af7e98d7df43f06b87aac" category="list-text">*オプション：*自動コミット期間を指定します。</block>
+  <block id="f670ceaeb8a85b69d0ab39446d4dec0e" category="list-text">*オプション：* Quality of Service *タブで* Manage Storage Quality of Service *チェックボックスを選択して、FlexVol ボリュームのストレージQoSを有効にし、ワークロードのパフォーマンスを管理します。</block>
+  <block id="89d3d03582a0eea6ebf98d99e189969e" category="list-text">*オプション：必要な権限がないSVMを表示するには、*ソースクラスタに移動*をクリックして、必要な権限を指定します。</block>
+  <block id="4a8fdf11116c613144728b9cdf4f0a40" category="list-text">*オプション：*クリック*<block ref="3fd4b2c218dcec4c2eb9e85f1d283321" category="inline-image-macro-rx" type="image"></block>* 、保護ポリシーと保護スケジュールを更新し、アグリゲートを選択して、保護関係を初期化します。</block>
+  <block id="033b2063dda0545cbfd4fa75d02943a7" category="list-text">*オプション：* Create FlexGroup *ウィンドウで、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> をクリックして、アドバンストオプションを指定します。</block>
+  <block id="9d5bf589fa9c00216983205c58ee4969" category="paragraph">クラスタレベルでシェルフを監視して、 2 つの HA クラスタノードへの適切なパスを維持します。</block>
+  <block id="7eb754848b80a1faf296b6573058f292" category="list-text">最大スループット値を指定しない場合は、値として自動的に「無制限」と表示され、大文字と小文字が区別されます。+指定した単位は無視されます。</block>
+  <block id="b36bf4c7c73c0faded947df9233e638c" category="list-text">*オプション：*選択したLUNのリストを確認するLUNの数を指定するリンクをクリックし、リストからLUNを削除する場合は「*破棄」をクリックします。</block>
+  <block id="63ab9c69ea88001b9267fc6c57ba3d72" category="list-text">*オプション：*転送済みのデータを保持*チェックボックスを選択すると、デスティネーションボリュームにすでに転送されているデータが保持されます。</block>
+  <block id="a8eeadfc90dd0683d64292441185919c" category="list-text">選択した Snapshot ポリシーに対して行った変更を * Edit Snapshot Policy * （スナップショットポリシーの編集）ダイアログボックスで確認し、 * Save * （保存）をクリックします。</block>
+  <block id="c4374218de35d2b4bc8b5b1304ff7e65" category="section-title">Snapshot ポリシーを削除する</block>
+  <block id="96ae139f53bf533fdb8ac29280302026" category="list-text">*オプション：* Origin Volume *領域の次のフィールドには、FlexCache ボリュームを作成する元のボリュームの値が表示されます。これらは変更できます。</block>
+  <block id="1b78797a93048844498b509de34439db" category="list-text">*オプション：転送に使用するネットワーク帯域幅を制限し、最大転送速度を指定するには、*転送帯域幅を*に制限するを選択します。</block>
+  <block id="41e125608bdf75adc6c1d8fb9f8d8449" category="list-text">*オプション：*必要に応じて、* Nodes *フィールドでノード名を更新します。</block>
+  <block id="1b1c4d2465a3abce589a57ce8f4c69ad" category="list-text">*オプション：*機能ライセンスキーを入力します。</block>
+  <block id="8026709c8fa8fb76cbf71a811f797fea" category="list-text">ルートアグリゲート</block>
+  <block id="b3a25cfa70bbb70a76ecca24a2dfabac" category="paragraph">SVMのデフォルトの言語設定はC.UTF-8です。</block>
+  <block id="bcabe521a38e157cbc37aa75b16fb275" category="paragraph">CIFSプロトコル、またはCIFSプロトコルと他のプロトコルの組み合わせを選択した場合は、セキュリティ形式はNTFSに設定されます。NFS 、 iSCSI 、 NVMe 、 FC / FCoE の各プロトコル、またはそれらのプロトコルの組み合わせを選択した場合は、セキュリティ形式は UNIX に設定されます。</block>
+  <block id="bfb25f34e1004b9ca94ef269d18a0ee5" category="paragraph">MetroCluster 構成では、クラスタに含まれるアグリゲートのみが表示されます。</block>
+  <block id="4f378bc564f46f944de7f6fc5dfd6fe6" category="list-text">*オプション：プロトコルを使用してデータにアクセスするようにデータLIFを設定する場合は、ターゲットエイリアス、サブネット、ノードあたりのLIF数を指定します。</block>
+  <block id="e5f281875322cc1179192cef386eb459" category="list-text">*オプション：SVMのクレデンシャルを指定して、SnapDrive やSnapManager などのホスト側アプリケーションをSVM管理者に対して有効にします。</block>
+  <block id="5e41a16b4f04ac3bbc98e73380634128" category="list-text">*オプション：* NVMe以外のプロトコルを使用する場合、* Create a new LIF for SVM management *をクリックしてSVM管理用の新しいLIFを作成し、ポートセットとIPアドレスに新しい管理LIFのサブネットの有無を指定します。</block>
+  <block id="fda82d94587e47d5e434a05a09267b33" category="list-text">*オプション：* ONTAP 9.5以降では、SVMセットアップウィザードの2ページ目で各ノードに少なくとも1つのLIFを設定します。* NVMeプロトコルを設定。*</block>
+  <block id="c4ddb7df099b2ba12dd578d45e2c25b0" category="list-text">*オプション：* FlexCache Volume *の下の* Volume *フィールドに、FlexCache ボリュームの新しい名前を入力します。</block>
+  <block id="32032cf60e20cb1e13004a35c19895f0" category="list-text">*オプション：* FlexCache Volume *の下の* Size *フィールドにFlexCache ボリュームの新しいサイズを入力し、ドロップダウンメニューから単位を選択します。</block>
+  <block id="390c84eadfb369c9bba59931c7fc2b02" category="list-text">*オプション：*暗号化を有効または無効にします。</block>
+  <block id="c39cc8afaab586b9dbba4dffaf5f57ea" category="list-text">* オプション： * クリック <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexCache ボリュームの詳細設定を変更します。を参照してください <block ref="4aa5b8ffba7fb44e3974191d1beac02c" category="inline-link-macro-rx"></block>。</block>
+  <block id="492b89534aff64b4ffa1731c967d9242" category="paragraph">IPv4アドレス「0.0.0.0 /0」を入力して、すべてのホストへのアクセスを提供できます。</block>
+  <block id="becaa185f5a030a515aadc0aeabbb6ea" category="list-text">*オプション：* LUNの移動*ダイアログ・ボックスの*移動オプション*領域で'デフォルトの名前を変更する場合は'新しいLUN名を指定します</block>
+  <block id="8be28ba82a6dd69c55a3f8793bd0d63c" category="paragraph">System Manager 9.6 以降では、ローカルクラスタの IPspace のパスフレーズを生成し、リモートクラスタでピア関係を作成するときに同じパスフレーズを使用できます。</block>
+  <block id="fc3dce60dca0d430a7ff12db0848d160" category="list-text">*オプション：リモートクラスタの有効なクラスタバージョンがONTAP 9.6より前の場合はチェックボックスを選択します。選択しないとクラスタピアリングが生成されません。</block>
+  <block id="0f996a40da153400a25aedfb769edcf9" category="list-text">*オプション：リモートクラスタの有効なクラスタバージョンがONTAP 9.6より前の場合はチェックボックスを選択します。選択しないとパスフレーズの生成が失敗します。</block>
+  <block id="243f1fd197bf7fa79315a076feaf79fa" category="list-text">* オプション： * クリック <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> 詳細を指定してトレースの範囲を限定します。</block>
+  <block id="873efe19b700a7a6649a9502456b6f5c" category="list-text">*オプション：*結果テーブルの*理由*列で、*権限の表示*をクリックして、ユーザーがアクセスしようとしているファイルの権限を表示します。</block>
+  <block id="97697f601707c40412d72c60bf8e0c25" category="list-text">*オプション：*結果テーブルに読み取り専用データが表示されます。トレース結果について、次の操作を実行できます。</block>
+  <block id="8a1a8dcd2161b242768c0af8da0f8cbf" category="list-text">*オプション：*クライアント処理へのパフォーマンスの影響を軽減するには、* QoSポリシーをバックグラウンドに設定*チェックボックスを選択します。</block>
+  <block id="01a7f44ccffdea6f78f82fcc0285b061" category="list-text">*オプション：* Enable Network Compression *チェックボックスを選択して、データ転送中に転送されるデータを圧縮します。</block>
+  <block id="b88b5577f1c595defbfec28b10fce6c5" category="list-text">*オプション：*非同期ミラー・ポリシーの場合、*すべてのソースSnapshotコピーを転送*チェック・ボックスを選択して、「all_source_snapshots」ルールをミラー・ポリシーに含めます。これにより、ソース・ボリュームのすべてのSnapshotコピーがバックアップされます。</block>
+  <block id="c61b97a568cdbe49a9f47e9778ce6903" category="list-text">*オプション：*[Add Comments*（コメントの追加）]をクリックして、ポリシーのコメントを追加します。</block>
+  <block id="c4b9c7fbc1913797a71584868922407d" category="paragraph">IP アドレスの範囲を入力し、 * 適用 * をクリックします。</block>
+  <block id="326a5f653e8c1e22eaa78c7c75ee1d9b" category="paragraph">IP アドレスがクラスタ管理、ノード管理、およびサービスプロセッサ管理のネットワークに順番に適用されます。</block>
+  <block id="84596681e9c27fc8373bb66888c8810d" category="paragraph">各 IP アドレス範囲を別々の行に入力し、 * 適用 * をクリックします。</block>
+  <block id="f0cda452bab533345b3b49acc511eec5" category="paragraph">最初の IP アドレスがクラスタ管理に適用され、残りの IP アドレスがノード管理とサービスプロセッサ管理のネットワークに順番に適用されます。</block>
+  <block id="18cb644c6e498a86db9f5b646aa4fe08" category="list-text">*オプション：クラスタ管理用のゲートウェイの詳細を入力します。</block>
+  <block id="ba5b0f302eba2e71386e902272546c81" category="list-text">*オプション：*その他のアクション*をクリックして追加情報 を表示し、ドロップダウンメニューで選択したアクションを実行します。</block>
+  <block id="3b3672594431d1681f1b12f5690c3a26" category="list-text">*オプション：*[Advanced]タブをクリックして、次の手順を実行します。</block>
+  <block id="ff0167481b8bdc3a1e0af03f1a713dfa" category="list-text">*オプション：* StorageGRID 用のクラウド階層を追加する場合や、IBM Cloud Object Storage環境（Cleversafeなど）をFabricPool で使用する場合は、CA証明書を指定する必要があります。「 * オブジェクトストア証明書 * 」トグルボタンを移動し、証明書の内容をコピーして、 CA 証明書を指定します。次に、署名済み証明書に証明書の内容を貼り付けます。</block>
+  <block id="9c3d152472d23afb696d89a45d92f323" category="list-text">*オプション：*必要に応じて、ホストシステムの証明書を変更します。</block>
+  <block id="d583afb528b356423c92e1dc596558d5" category="list-text">*オプション：* Network Access *セクションで、iSCSIターゲットのエイリアスを指定します。</block>
+  <block id="73fd2fe57f5849ad4ccbd582bf3f47ff" category="list-text">*オプション：LUNサイズ、LUNのOSタイプ、およびホストイニシエータの詳細を指定してiSCSIプロトコルを設定する際に、iSCSIストレージ用のLUNをプロビジョニングします。</block>
+  <block id="4f85fb4935aa6b55fea8f378f92ecdc8" category="list-text">最大スループット値を指定しない場合は ' 自動的に値として無制限が表示されます+この値は大文字と小文字が区別されます。指定した単位は無視されます。</block>
+  <block id="a8466bee7423e1acd071dec666780125" category="list-text">*オプション：*選択したボリュームのリストを確認する場合は、ボリューム数を指定するリンクをクリックし、リストからボリュームを削除する場合は* Discard *をクリックします。</block>
+  <block id="8f51b4e853f8f8190d9ce869e3f71555" category="list-text">*オプション：*[Edit FlexCache volume*（ボリュームの編集）]ウィンドウで、をクリックします <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> をクリックして、アドバンストオプションを指定します。</block>
+  <block id="1f272132f306cd712954818240769549" category="list-text">*オプション：* General Details *セクションで、ボリュームの権限を編集できます。</block>
+  <block id="c179c86478dc87a1e6ecba0d3cc586a9" category="list-text">*オプション：*クリック*<block ref="3fd4b2c218dcec4c2eb9e85f1d283321" category="inline-image-macro-rx" type="image"></block>* 。次に、保護ポリシーと保護スケジュールを更新し、 * FabricPool 対応アグリゲート * を選択して、保護関係を初期化します。</block>
+  <block id="fddd6898fa48dae6ad16b03c1647a8a9" category="paragraph">インターフェイスが属しているサブネットを示します。</block>
+  <block id="d6ed85989db71d5f1edd648ad3d10e92" category="list-text">* mx役割*</block>
+  <block id="7c47724762d471660f5d9482c6949496" category="list-text">Edit Interface Group ダイアログボックス：インターフェイスグループを変更できます。</block>
+  <block id="c6c83cb06fe89a1721ee27a84b498582" category="paragraph">VLAN は、ブロードキャストドメインと関連付けられていない VLAN のみが編集できます。</block>
+  <block id="85dbd98a69e8b488cb90b5c03e0a5a74" category="list-text">*オプション：プロトコルを設定する際に、FCストレージまたはFCoEストレージ用のLUNをプロビジョニングします。LUNサイズ、LUNのOSタイプ、およびホストイニシエータの詳細を指定します。</block>
+  <block id="02283b6dc3a8c9652631ce26518c2344" category="paragraph">ミラーされたアグリゲートの場合、*キャッシュの追加*ダイアログボックスに、選択した数の2倍のディスクが追加されることを示す情報が表示されます。</block>
+  <block id="89d54016c2a7c0f0da90f8a8496ff80e" category="list-text">*オプション：*このSVMのすべての共有へのアクセス時にデータを暗号化*を選択すると、SVMのすべての共有でSMB 3.0暗号化が有効になります。</block>
+  <block id="bac4af047128402bf29bcf5fcf9c5a89" category="list-text">*オプション：* NISサービスを設定します。</block>
+  <block id="ede7f1ea5f8033a3ddc8b303e6c3fe16" category="list-text">*オプション：* Hyper-VおよびSQL *で継続的可用性を有効にするチェックボックスをオンにすると、SMB 3.0以降をサポートするクライアントがノンストップオペレーション時にファイルを継続して開いておけるようになります。</block>
+  <block id="c3e0b780eb59c719da0f62c0418963e2" category="list-text">`%u (ユーザのマッピングされたUNIXユーザ名)</block>
+  <block id="053021b69a316a9b62283baaca04bdee" category="paragraph">すべてのホーム・ディレクトリ間で一意になるように'共有名には'%wまたは%u変数を使用する必要があります共有名には '%d' 変数と '%w 変数の両方を使用することも ( 例 : %d'`%w ) ' 固定部分と変数部分で構成することもできます ( 例 : home_`%w ')</block>
+  <block id="bd4839934b7388006bd94c08b17676e5" category="list-text">*オプション：*参照*をクリックして、ボルトポリシーを変更します。</block>
+  <block id="8abddecdd7334ed047185ca38dbb97e5" category="list-text">*オプション：*関係の初期化*を選択して、バックアップ関係を初期化します。</block>
+  <block id="923753aa37d448d3e3db5ef19c5f8671" category="list-text">*オプション：*転送に使用されるネットワーク帯域幅を制限し、最大転送速度を指定するには、転送帯域幅を*に制限するを選択します。</block>
+  <block id="57381e1840d0b4e657ac36c3c0b181a2" category="list-text">*オプション：* FlexGroup ボリュームの名前を変更する場合は、*名前*フィールドに新しい名前を入力します。</block>
+  <block id="a3bd68f70522585bc51163fa9590fa4e" category="list-text">*オプション：* encrypted *オプションを有効にして、ボリュームの暗号化を有効にします。</block>
+  <block id="69889796f685b453b0d37607822fd783" category="list-text">* オプション： * クリック <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexGroup ボリュームの設定を変更します。を参照してください <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>。</block>
+  <block id="f106df5b54232abe3518bdece076f160" category="paragraph">ミラーされたアグリゲートの場合、*容量の追加*ダイアログボックスに、選択した数の2倍のディスクが追加されることを示す情報が表示されます。</block>
+  <block id="a959af38fa02346964b4ebb831bb5006" category="list-text">*オプション：*デフォルトのジャンクション名を変更する場合は、新しい名前を指定します。</block>
+  <block id="c8602499dbb8aa9b67ce255298845de0" category="list-text">*オプション：*詳細オプション*アイコンをクリックし、デフォルト言語、セキュリティ形式、CIFSサーバの詳細、NFSの詳細などの詳細オプションを設定します。</block>
+  <block id="1408cfe6b3aef70c13f7a3fd0bbf2131" category="list-text">*オプション：* Dynamic DNS（DDNS）*チェックボックスを選択して、DDNSを有効にします。</block>
+  <block id="843bb66a446744bb6b787125c63e936a" category="list-text">*オプション：デスティネーションポートをLIFの新しいホームポートに設定する場合は、* Migrate permanently-*チェックボックスを選択します。</block>
+  <block id="fdf3e03c90c428c34fc188fed5920c48" category="paragraph">Virtual Storage Console forを使用すると、ESXiホストでストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。は、 vCenter Server のプラグインです。</block>
+  <block id="31f2f8524f9f2b027c119f6f40a06fdd" category="list-text">Interoperability Matrix Toolを参照し、現在の構成でサポートされているバージョンのをダウンロードします。</block>
+  <block id="952786b60dfd8f82ba763b2061ea9cd1" category="list-text">導入およびセットアップガイドの手順に従って、仮想アプライアンスを導入して設定します。</block>
+  <block id="954c4924ea7f8157bca0da29ed6ba9fe" category="list-text">*オプション*：ルートボリュームを格納するルートアグリゲートを選択します。</block>
+  <block id="4e79a9f59f029fd6d35aac150385e2e0" category="paragraph">Virtual Storage Console for VMware vSphere for（VSC）をインストールし、ESXiホストを管理するvCenter Serverに登録しておく必要があります。</block>
+  <block id="2229a1b23fe8d20acaf9965756382187" category="paragraph">VSCに、指定したSVMにボリュームを作成するための十分なクラスタまたはクレデンシャルが必要です。</block>
+  <block id="08266712a93300cea38857d891d782e6" category="list-text">Virtual Storage Consoleで、* Tools *&gt;* NFS VAAI Tools *の順に選択します。</block>
+  <block id="7d04c571205d212a4da0ec009e5159c9" category="list-text">*オプション：転送に使用するネットワーク帯域幅を制限するには、転送帯域幅を*に制限するを選択し、最大転送速度を指定します。</block>
+  <block id="53b72ae43018b17d722ea8e296efc826" category="paragraph">ネットアップ以外のSCSIデバイスのWWIDを表示するには、除外するデバイスで次のコマンドを入力します。「scsi_device_name」は、指定するデバイスです。</block>
+  <block id="b5ca334aab704d20e9066f8c9b1d84c7" category="paragraph">`/lib/udev/scsi_id -gud /dev/scsi_device_name</block>
+  <block id="5f3d1e418461cf271014ec024b2282e2" category="list-text">ブートローダーのカーネル行の末尾に次の文字列を追加して、ネットアップ推奨のDM-Multipath設定を有効にします。</block>
+  <block id="e731114d2b62e8ff93ae344a25284fbe" category="paragraph">「rdloaddriver=scsi_dh_alua」のように入力します</block>
+  <block id="e644bcb72de043bfd819b1f923bce274" category="list-text">*オプション*：セキュリティ形式が適切に設定されていることを確認します。</block>
+  <block id="4fead8b22ba9e31541b859c55e625eaa" category="paragraph"><block ref="4fead8b22ba9e31541b859c55e625eaa" category="inline-link-macro-rx"></block></block>
+  <block id="eff76f42c51e77889fac235bb1fe5bbf" category="list-text">*オプション*：UNIXユーザアカウントとWindowsユーザアカウントを双方向に変換するネームマッピングを作成します。</block>
+  <block id="37d7a482fff3cbc78535db1d381fbc9d" category="list-text">手順5bから5dを繰り返して、SVMのすべてのドメインと名前をマッピングします。</block>
+  <block id="57845f9417a55f7f873021142bcf4a81" category="list-text">*オプション*：デフォルトのWindowsユーザーを作成します。</block>
+  <block id="13a6d31e838d141b884cf7c5460be9a0" category="list-text">*任意*：デフォルト値である「pcuser」ユーザとは異なるユーザを使用する場合は、デフォルトのUNIXユーザを設定します。</block>
 </blocks>

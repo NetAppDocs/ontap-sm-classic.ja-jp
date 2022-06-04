@@ -257,12 +257,6 @@ xref:task_deleting_luns.adoc[LUN を削除しています]
 
 xref:task_creating_initiator_groups.adoc[igroup を作成しています]
 
-xref:task_deleting_initiator_groups.adoc[igroup を削除します]
-
-xref:task_adding_initiators.adoc[イニシエータを追加中]
-
-xref:task_deleting_initiators_from_initiator_group.adoc[イニシエータグループからのイニシエータの削除]
-
 xref:task_editing_luns.adoc[LUN を編集しています]
 
 xref:task_editing_initiator_groups.adoc[igroup を編集しています]

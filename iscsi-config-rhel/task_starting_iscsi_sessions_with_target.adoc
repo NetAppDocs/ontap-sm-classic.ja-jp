@@ -16,11 +16,23 @@ Linux ホストには、ストレージクラスタ内の各ノード（ター�
 ONTAP では、 iSCSI ホストからクラスタ内の各ノードへのパスを設定する必要があります。DM-Multipath で、使用する最適なパスが選択されます。パスに障害が発生した場合は、 DM-Multipath で代替パスが選択されます。
 
 .手順
-. Linux ホストのコマンドプロンプトから iSCSI サービスを開始します。「 service iscsid force-start
-. iSCSI ターゲットを検出します「 iscsiadm -- mode discovery -- op update -- type sendtargets -- portal TargetIP
+. LinuxホストのコマンドプロンプトからiSCSIサービスを開始します。
++
+「 service iscsid force-start
+
+. iSCSIターゲットを検出します。
++
+iscsiadm -- mode discovery -- op update -- type sendtargets -- portal TargetIP
+
 +
 検出された各ターゲットの IP アドレスが別々の行に表示されます。
 
-. 各ターゲットにログインして iSCSI セッションを確立します「 iscsiadm -- mode node -l all
-. アクティブな iSCSI セッションのリストを表示できます「 iscsiadm -- mode session
+. 各ターゲットにログインしてiSCSIセッションを確立します。
++
+iscsiadm -- mode node -l all
+
+. アクティブなiSCSIセッションのリストを表示できます。
++
+'iscsiadm -- mode session
+
 

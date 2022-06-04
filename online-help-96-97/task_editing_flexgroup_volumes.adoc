@@ -26,16 +26,16 @@ FabricPool FlexGroup ボリュームは、次の状況で拡張できます。
 . [* ストレージ *>* ボリューム *] をクリックします。
 . SVM * フィールドのドロップダウンメニューで、 * すべての SVM * を選択します。
 . 変更する FlexGroup ボリュームを選択し、 * 編集 * をクリックします。
-. FlexGroup ボリュームの名前を変更する場合は、新しい名前を「 * 名前 * 」フィールドに入力します。
+. *オプション：* FlexGroup ボリュームの名前を変更する場合は、*名前*フィールドに新しい名前を入力します。
 +
 System Manager 9.6 以降では、 FlexGroup DP ボリュームの名前も変更できます。
 
-. ボリュームの暗号化を有効にするには、 * encrypted * オプションを有効にします。
+. *オプション：* encrypted *オプションを有効にして、ボリュームの暗号化を有効にします。
 +
 このオプションを使用できるのは、ボリューム暗号化ライセンスを有効にした場合のみです。また、対応するプラットフォームで暗号化がサポートされている必要があります。
 
 . Snapshot コピーリザーブの割合を指定します。
-. をクリックします image:../media/advanced_options.gif[""] FlexGroup ボリュームの設定を変更します。を参照してください link:task_specifying_advanced_options_for_flexgroup_volume.md#GUID-021C533F-BBA1-41A9-A191-DE223A158B4B["FlexGroup ボリュームのアドバンストオプションの指定"]。
+. * オプション： * クリック image:../media/advanced_options.gif[""] FlexGroup ボリュームの設定を変更します。を参照してください link:task_specifying_advanced_options_for_flexgroup_volume.md#GUID-021C533F-BBA1-41A9-A191-DE223A158B4B["FlexGroup ボリュームのアドバンストオプションの指定"]。
 . FlexGroup ボリュームのサイズを変更するサイズを指定します。
 +
 デフォルトでは、既存のアグリゲートを使用して FlexGroup ボリュームのサイズが変更されます。ボリュームに対して許容される最小サイズがサイズのフィールドの横に表示されます。

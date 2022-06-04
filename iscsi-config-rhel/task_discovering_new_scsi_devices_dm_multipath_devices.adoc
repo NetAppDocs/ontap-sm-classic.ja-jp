@@ -16,8 +16,14 @@ summary: ストレージクラスタの LUN は、 Linux ホストでは SCSI �
 Linux OS ディストリビューションの一部である「 g3_utils 」パッケージに含まれる「 re scan 」スクリプトのコピーが必要です。
 
 .手順
-. 新しい SCSI デバイス（ LUN ）を検出し 'LUN に対応するマルチパス・デバイスを作成します
-. DM-Multipath の設定を確認してください : 「マルチパス」
+. 新しいSCSIデバイス（LUN）を検出し、LUNに対応するマルチパスデバイスを作成します。
++
+/usr/bin/rescan -scsi-bus.sh
+
+. DM-Multipathの設定を確認します。
++
+「multipath -ll」と入力します
+
 +
 次のような出力が表示され、各 NetApp LUN の推奨設定が示されます。
 

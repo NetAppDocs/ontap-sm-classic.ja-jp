@@ -34,21 +34,17 @@ https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確�
 +
 ネットアップ以外の SCSI デバイスの WWID を表示するには、除外するデバイスで次のコマンドを入力します。「 S csc_device_name 」は、「 /lib/udev/scsi_id-gud/dev/scsi_device_name 」と指定したデバイスです
 
-
-
-
++
+たとえば'/dev/sdaが除外するネットアップ以外のSCSIデバイスである場合は'次のように入力します
 
 +
-たとえば '/dev/sda が除外するネットアップ以外の SCSI デバイスである場合は '/lib/udev/scsi_id -gud /dev/sda と入力します
+`/lib/udev/scsi_id -gud /dev/sda
 
 +
-+ デバイスの WWID が表示されます。この WWID をコピーして「 multipath.conf 」ファイルに貼り付けることができます。
+デバイスの WWID が表示されます。この WWID をコピーして「 multipath.conf 」ファイルに貼り付けることができます。
 
 +
-+ 「 multipath.conf 」ファイルの blacklist セクションを示した次の例では、 WWID 「 3600508e000000000753250f933cc4606 」のネットアップ以外の SCSI デバイスを除外しています。
-
-+
-[+]
+「 multipath.conf 」ファイルの blacklist セクションを示した次の例では、 WWID 「 3600508e000000000753250f933cc4606 」のネットアップ以外の SCSI デバイスを除外しています。
 
 +
 [listing]
@@ -60,16 +56,20 @@ blacklist {
             devnode     "^cciss.*"
 }
 ----
+*** 除外するデバイスがない場合は、「 multipath.conf 」ファイルの _wwid 行を削除します。
+
+
+.. ブートローダーのカーネル行の末尾に「 rdloaddriver=scsi_dh_alua 」という文字列を追加して、ネットアップ推奨の DM-Multipath 設定を有効にします
+
+
+. DM-Multipathデーモンを開始します。
 +
-** 除外するデバイスがない場合は、「 multipath.conf 」ファイルの _wwid 行を削除します。
+/etc/init.d/multipathd start`
+
+. マルチパスサービスをブートシーケンスに追加して、マルチパスデーモンがシステムのブート時に常に開始されるようにします。
 +
-... ブートローダーのカーネル行の末尾に「 rdloaddriver=scsi_dh_alua 」という文字列を追加して、ネットアップ推奨の DM-Multipath 設定を有効にします
+'chkconfig multipathd on`
 
-
-
-
-. DM-Multipath デーモン /etc/init.d/multipathd start を起動します
-. マルチパスサービスをブートシーケンスに追加して、マルチパスデーモンが常にシステムブート中に開始されるようにします。「 chkconfig multipathd on 」
 . Linux ホストをリブートします。
 . 「 cat /proc/cmdline 」を実行したときに、出力に「 rdloaddriver 」設定が表示されることを確認します。
 +

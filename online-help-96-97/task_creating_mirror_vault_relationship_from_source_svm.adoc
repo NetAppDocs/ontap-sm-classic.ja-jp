@@ -89,6 +89,6 @@ Protect * オプションは、読み書き可能ボリュームに対しての�
 
 
 |===
-. * をクリックしますimage:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* 。次に、保護ポリシーと保護スケジュールを更新し、 * FabricPool 対応アグリゲート * を選択して、保護関係を初期化します。
+. *オプション：*クリック*image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* 。次に、保護ポリシーと保護スケジュールを更新し、 * FabricPool 対応アグリゲート * を選択して、保護関係を初期化します。
 . [ 保存（ Save ） ] をクリックします。
 

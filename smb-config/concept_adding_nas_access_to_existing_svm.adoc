@@ -74,11 +74,11 @@ image::../media/svm_setup_cifs_nfs_page_cifs_share_smb.gif[CIFS 共有の設定�
 +
 ボリュームのアグリゲートを指定する必要はありません。ボリュームは利用可能なスペースが最も多いアグリゲートに自動的に配置されます。
 
-. 共有 ACL を変更して、共有へのアクセスを制限します。
+. *オプション*：共有ACLを変更して、共有へのアクセスを制限します。
 +
 .. [*permission] フィールドで、 [*Change] をクリックします。
 .. Everyone グループを選択し、 * Remove * をクリックします。
-.. Add * をクリックし、 SVM を含む Windows Active Directory ドメインで定義されている管理者グループの名前を入力します。
+.. *オプション*：* Add *をクリックし、SVMを含むWindows Active Directoryドメインで定義されている管理者グループの名前を入力します。
 .. 新しい管理者グループを選択し、 * Full Control * を選択します。
 .. [ 保存して閉じる ] をクリックします。
 
