@@ -11,7 +11,7 @@ summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）�
 
 
 [role="lead"]
-Storage Virtual Machine（SVM）でNVMeプロトコルを設定するには、System Managerクラシック（ONTAP 9.7以前で使用可能）を使用します。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）にNVMeプロトコルを設定できます。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。
 
 NVMe を使用する SVM では、他のプロトコルは使用できません。NVMe を選択すると、残りのプロトコルは無効になります。NVMe は SVM の作成時にも設定できます。
 

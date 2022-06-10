@@ -8658,7 +8658,6 @@
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe サブシステムとは</block>
   <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">System Manager - ONTAP 9.7 以前を使用してライセンスを管理します</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に FC プロトコルと FCoE プロトコルを設定します</block>
-  <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">ONTAP 9.7 以前で利用可能な System Manager クラシックを使用して、 SAN ホスト用の Storage Virtual Machine （ SVM ）で FC プロトコルおよび FCoE プロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で利用可能）を使用して、 FabricPool 対応アグリゲートを手動で作成したり、既存の SSD アグリゲートにクラウド階層を接続して FabricPool 対応アグリゲートに変換したりできます。</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager クラシック 9.6 を使用してスイッチオーバー処理を実行する前に、該当するサイトで必要な手順が完了していることを確認する必要があります。</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager - ONTAP 9.7 以前を使用してハイアベイラビリティペアを作成します</block>
@@ -8690,7 +8689,6 @@
   <block id="ebb6e6a19f64f243f239c1bdaf692ad7" category="doc">System Manager - ONTAP 9.7 以前のブラウザベースのグラフィカルインターフェイスを使用してクラスタにアクセスします</block>
   <block id="2ba8881024494dad02ea0fcfabaf51a3" category="paragraph">コマンドラインインターフェイスの代わりにグラフィカルインターフェイスを使用してクラスタにアクセスして管理するには、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用します。ONTAP System Manager は Web サービスとして ONTAP に搭載されており、デフォルトで有効になっていて、ブラウザからアクセスできます。</block>
   <block id="70874cc3a4a9888ac212eaaf23b43c77" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に CIFS プロトコルと NFS プロトコルを設定します</block>
-  <block id="248f2ec6686f4fbce6771ddc5abc09d1" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）で CIFS プロトコルおよび NFS プロトコルを設定し、 NAS クライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。</block>
   <block id="6179ae55d1fadeff01dd8976b5bedda7" category="doc">System Manager - ONTAP 9.7 以前を使用して、 ONTAP ソフトウェアイメージを取得します</block>
   <block id="78916d18eac9a0b8102e2b7f6a492589" category="paragraph">ONTAP ソフトウェアイメージは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）で取得できます。ONTAP 9.4 以降では、 ONTAP ソフトウェアイメージをネットアップサポートサイトからローカルフォルダにコピーできます。ONTAP 9.3 以前からのアップグレードの場合は、 ONTAP ソフトウェアイメージをネットワーク上の HTTP サーバまたは FTP サーバにコピーする必要があります。</block>
   <block id="f5db4f9448aaa78931200f9e088d969e" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM に iSCSI プロトコルを設定します</block>
@@ -8699,7 +8697,6 @@
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）の事前定義されたアプリケーションテンプレートを使用して、既存のアプリケーションテンプレートを基にした新しい設定を作成できます。その後、 ONTAP でアプリケーションのインスタンスをプロビジョニングできます。</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6 以降では、災害によってソースクラスタ内のすべてのノードの電源がオフになって到達不能になった場合、 MetroCluster スイッチオーバー / スイッチバックの処理を使用できます。ディザスタリカバリのテストを実施する場合やメンテナンスのためにサイトをオフラインにする場合には、ネゴシエート（計画的）スイッチオーバーのワークフローを使用することもできます。</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager - ONTAP 9.7 以前を使用して SVM を作成します</block>
-  <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、すべての構成を設定して Storage Virtual Machine （ SVM ）を作成し、データをただちに提供することができます。クラスタには 1 つ以上の SVM を配置できます。</block>
   <block id="b1f5b741f97f88d2a27fe9554d96e5ae" category="doc">System Manager - ONTAP 9.7 以前のバージョンでテンプレートファイルを使用してクラスタをセットアップします</block>
   <block id="80c57d2dae86d5f969cedfa286a5d186" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に付属のテンプレートファイルを使用して、クラスタの作成、ノード管理ネットワークとクラスタ管理ネットワークのセットアップ、およびイベント通知のセットアップを行うことでクラスタをセットアップできます。（ ONTAP System Manager 9.6 以降では、 AutoSupport はサポートされません）。 テンプレートファイルは、「 .xlsx 」または「 .csv 」のいずれかの形式でダウンロードできます。</block>
   <block id="981ccff974ccd38feb11b98749f62f33" category="doc">System Manager - ONTAP 9.7 以前を使用して、 SVM 管理者に管理を委譲します</block>
@@ -8718,7 +8715,6 @@
   <block id="9d802381a15c252491a9d7ee663aff69" category="doc">ONTAP 9.7 以前の場合は、 System Manager で SNMP を設定します</block>
   <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、クラスタ内の SVM を監視するように SNMP を設定できます。</block>
   <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">ONTAP 9.7 以前の System Manager で LDAP サーバを設定します</block>
-  <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可能）を使用して、ユーザ情報を一元的に管理する LDAP サーバを設定できます。</block>
   <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Flash Pool アグリゲートを手動で作成したり、 SSD を追加して既存の HDD アグリゲートを Flash Pool アグリゲートに変換したりできます。新しい HDD アグリゲートを作成する場合、 SSD キャッシュをプロビジョニングして、 Flash Pool アグリゲートを作成できます。</block>
   <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">System Manager - ONTAP 9.7 以前を使用してネットワークをセットアップします</block>
   <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してネットワークをセットアップできます。ネットワークのセットアップでは、 IPspace 、ブロードキャストドメイン、およびサブネットを作成します。</block>
@@ -8729,13 +8725,11 @@
   <block id="e990537de20ec1517a4049efeae4c1b8" category="doc">System Manager のアプリケーションプロビジョニング設定 - ONTAP 9.7 以前</block>
   <block id="25d492d354ae334c48fa3dfc30fcdebc" category="paragraph">ONTAP System Manager classic （ ONTAP 9.7 以前で使用可能）のデータベース、サーバ、または仮想デスクトップの基本テンプレートまたは拡張テンプレートを設定する場合は、詳細を指定する必要があります。アプリケーションのプロビジョニングが完了したら、詳細を編集し、サイズ変更（拡張のみ）を指定できます。このセクションでは、各テンプレートのフィールドについて説明します。特定のアプリケーションのプロビジョニングまたは設定の編集に必要なフィールドのみが表示されます。</block>
   <block id="94a185593edb330f99889ac7b7a02ae2" category="doc">System Manager ONTAP 9.7 以前を使用して SnapLock ボリュームを作成します</block>
-  <block id="b330e978f60c29cf1c89b88d9bd0de4c" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance ボリュームまたは SnapLock Enterprise ボリュームを作成できます。ボリュームの作成時に、保持期間を設定したり、ボリュームのデータを自動的に WORM 状態に設定するかどうかを選択したりすることもできます。</block>
   <block id="e1bf307eb9a38952a201d90166512c49" category="doc">System Manager を使用して ONTAP 9.7 以前を管理します</block>
   <block id="97ab21a632bcc52bfa1ce4def08b85d7" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 IPspace を作成および管理できます。</block>
   <block id="b95a0a6b9ea9803f155567513ee220ee" category="doc">System Manager オプションを設定します（ ONTAP 9.7 以前）</block>
   <block id="700de8169ee006740e47e085de31314d" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）のロギングを有効にし、非アクティブ時のタイムアウト値を指定できます。</block>
   <block id="829111bc2f9e8438581c99c65c273ac5" category="doc">System Manager - ONTAP 9.7 以前を使用してピアリングをセットアップします</block>
-  <block id="1a73142d9e2244e70e8bbf958894302c" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ピアリングを設定できます。ピアリングのセットアップでは、各ノードでクラスタ間論理インターフェイス（ LIF ）を作成してから、クラスタピア関係を作成し、 SVM ピア関係を作成します。</block>
   <block id="2976c240f095f572c401489b5ac3e328" category="doc">System Manager とクラスタピア - ONTAP 9.7 以前</block>
   <block id="997772740a755ed8d7530b890bec9f7e" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 2 つのクラスタをピアリングし、ピアクラスタ間でリソースを調整および共有できるようにすることができます。SnapMirror テクノロジと SnapVault テクノロジを使用したデータレプリケーションや、 MetroCluster 構成で FlexCache ボリュームと SyncMirror テクノロジを使用したデータレプリケーションを行うには、クラスタ間にピア関係を設定することが必要になります。</block>
   <block id="9db847a02a4eaadfd02090106d319dcc" category="paragraph">System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SnapLock Compliance アグリゲートまたは SnapLock Enterprise アグリゲートを手動で作成できます。これらのアグリゲート上に SnapLock ボリュームを作成すると、「 Write Once Read Many 」（ WORM ）機能を利用できます。</block>
@@ -8754,7 +8748,6 @@
   <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">IPspace 、ブロードキャストドメイン、サブネット、ネットワークインターフェイス、イーサネットポートを作成および管理することで、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用してストレージシステムのネットワークを管理できます。 および FC / FCoE アダプタ</block>
   <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">HDD のみまたは SSD のみで構成されるアグリゲートは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して手動で作成できます。</block>
   <block id="489980c7967cf6ae840737bc9670c341" category="doc">System Manager ONTAP 9.7 以前を使用して FlexVol ボリュームを作成します</block>
-  <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">データ用の FlexVol ボリュームは、 System Manager クラシック（ ONTAP 9.7 以前で使用可能）のボリュームの作成ダイアログボックスを使用して作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。</block>
   <block id="f3c0856ca60c4724a7753f39aeb21072" category="doc">System Manager - ONTAP 9.7 以前を使用してアプリケーションを編集します</block>
   <block id="9de97ea20bea358cafe2c052eb4fe156" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、プロビジョニングされたアプリケーションを編集し、ストレージサイズを増やしたり、アプリケーションの Snapshot コピーを管理したりできます。</block>
   <block id="a30fa0b5cb2afd6f435aa35fc7ca5745" category="doc">System Manager - ONTAP 9.7 以前を使用して SAML 認証をセットアップします</block>
@@ -9109,14 +9102,10 @@
   <block id="f689d15a9acb85ee5a20447fbdc07cf4" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、エクスポートポリシーを作成、編集、管理できます。</block>
   <block id="c61b8028f650abffd119f84f09d17f74" category="doc">System Manager - ONTAP 9.7以前のバージョンでSVMを作成します</block>
   <block id="14d79d2eef1d80cd2470e785b15178f8" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを表示、管理、削除できます。</block>
-  <block id="071e9f0551cf1151fad07c37ea207e3b" category="paragraph">Storage Virtual Machine（SVM）でNVMeプロトコルを設定するには、System Managerクラシック（ONTAP 9.7以前で使用可能）を使用します。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。</block>
-  <block id="74a9c6f7d15b41facbe48a228851099c" category="paragraph">System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でiSCSIプロトコルを設定してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
   <block id="2b80954c6a85fe8e039a494c6c625853" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ミラー関係を管理できます。更新、作成、休止、初期化、再確立、 休止していたミラー関係の再開に加え、ミラー関係の削除と編集を行います。</block>
   <block id="f46cf6c1e84fb12f13b7c06207146a43" category="section-title">デスティネーションSVMからミラー関係を作成</block>
   <block id="42ba35aabcb38bd0b0a5d5bc89d84095" category="paragraph">System Managerを使用して、ミラー関係をデスティネーションStorage Virtual Machine（SVM）から作成し、ポリシーとスケジュールをそのミラー関係に割り当てることができます。ミラーコピーを作成しておけば、ソースボリュームのデータが破損した場合や失われた場合でも、データをすぐに使用できます。</block>
   <block id="25d48c749559d1d4de21242c0c742b97" category="paragraph">ONTAP システムマネージャクラシック（ONTAP 9.7以前で使用可能）を使用して、イーサネットポートを作成および管理できます。</block>
-  <block id="c0d6806b68a3d39f90734f6ab8a3f56a" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Security Assertion Markup Language（SAML）認証をセットアップできます。リモートユーザは、 System Manager にログインする前に、セキュアなアイデンティティプロバイダ（ IdP ）を通じて認証されます。</block>
-  <block id="f25e8077183eab2cecad23a8ec6c295a" category="paragraph">Storage Virtual Machine（SVM）を最終的な運用状態に、または基本的なネットワーク設定までセットアップしたら、System Manager Classic（ONTAP 9.7以前で利用可能）を使用して、必要に応じてSVMの管理をSVM管理者に委譲できます。</block>
   <block id="e92b960df6e994d41ee05b6df147afe7" category="doc">System ManagerでのONTAP ネームサービススイッチの設定について- ONTAP 9.7以前</block>
   <block id="1d29c318268409714ed0dd949adf99ad" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）では、UNIXシステムの/etc/nsswitch.confファイルに相当するテーブルにネームサービス設定情報が格納されます。このテーブルを環境に応じて適切に設定するためには、その機能と ONTAP でテーブルがどのように使用されるかを理解しておく必要があります。</block>
   <block id="ac92ac41cea62dfecd5b5dd772bfc78d" category="doc">System Manager - ONTAP 9.7以前を使用して、Windowsローカルグループを管理します</block>
@@ -9319,4 +9308,15 @@
   <block id="37d7a482fff3cbc78535db1d381fbc9d" category="list-text">手順5bから5dを繰り返して、SVMのすべてのドメインと名前をマッピングします。</block>
   <block id="57845f9417a55f7f873021142bcf4a81" category="list-text">*オプション*：デフォルトのWindowsユーザーを作成します。</block>
   <block id="13a6d31e838d141b884cf7c5460be9a0" category="list-text">*任意*：デフォルト値である「pcuser」ユーザとは異なるユーザを使用する場合は、デフォルトのUNIXユーザを設定します。</block>
+  <block id="7e1817ade72aa48bb92d7c2ab07e88a1" category="paragraph">ピアリングの設定には、ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用できます。ピアリングのセットアップでは、各ノードでクラスタ間論理インターフェイス（ LIF ）を作成してから、クラスタピア関係を作成し、 SVM ピア関係を作成します。</block>
+  <block id="f76cba510e0d09ec08269e30513d633c" category="paragraph">ONTAP システムマネージャクラシック（ONTAP 9.7以前で使用可能）を使用して、SnapLock ComplianceボリュームまたはSnapLock Enterpriseボリュームを作成できます。ボリュームの作成時に、保持期間を設定したり、ボリュームのデータを自動的に WORM 状態に設定するかどうかを選択したりすることもできます。</block>
+  <block id="70bc55ce2414a074451b65164da8a3a6" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）にNVMeプロトコルを設定できます。その後、ネームスペースを作成して NVMe サブシステムとホストに割り当てることができます。</block>
+  <block id="7c7a12cfc104ee779102d69cef857db6" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、完全に設定されたStorage Virtual Machine（SVM）を作成し、データをただちに提供することができます。クラスタには 1 つ以上の SVM を配置できます。</block>
+  <block id="4faac1209e2dd59059b4209f859ac88f" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）のボリュームの作成ダイアログボックスを使用して、データ用のFlexVol ボリュームを作成できます。ルートボリュームにデータを格納するのではなく、データ用のボリュームを必ず別に作成してください。</block>
+  <block id="bf6614668e8b55e90946e9509d4f0917" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、ユーザ情報を一元的に管理するLDAPサーバを設定できます。</block>
+  <block id="782f1156076101990b814a229110b078" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Security Assertion Markup Language（SAML）認証をセットアップできます。リモートユーザは、 System Manager にログインする前に、セキュアなアイデンティティプロバイダ（ IdP ）を通じて認証されます。</block>
+  <block id="ec2db670766e7c9e9f2e74dde2f934f4" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でiSCSIプロトコルを設定してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。</block>
+  <block id="d73a1bbe7bd0149cca8c9fa64d7f58bc" category="paragraph">Storage Virtual Machine（SVM）が機能するように設定したあと、または基本的なネットワーク設定があるSVMを使用して、ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用してSVMの管理をSVM管理者に委譲することもできます。</block>
+  <block id="1e7c18dca5baf689eb77365e4897ed8b" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、SANホスト用にStorage Virtual Machine（SVM）でFCプロトコルおよびFCoEプロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
+  <block id="b11a96e74a2cd810945103e98f648e14" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でCIFSプロトコルおよびNFSプロトコルを設定し、NASクライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。</block>
 </blocks>

@@ -11,7 +11,7 @@ summary: System Manager を使用して、 Storage Virtual Machine （ SVM ）�
 
 
 [role="lead"]
-System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でiSCSIプロトコルを設定してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でiSCSIプロトコルを設定してブロックレベルのデータアクセスを提供できます。iSCSI LIF とポートセットを作成し、 LIF をポートセットに追加できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。
 
 .作業を開始する前に
 * クラスタで iSCSI ライセンスが有効になっている必要があります。

@@ -11,7 +11,7 @@ summary: System Manager で Storage Virtual Machine （ SVM ）の CIFS プロ�
 
 
 [role="lead"]
-System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 Storage Virtual Machine （ SVM ）で CIFS プロトコルおよび NFS プロトコルを設定し、 NAS クライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。
+ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でCIFSプロトコルおよびNFSプロトコルを設定し、NASクライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。
 
 .作業を開始する前に
 * SVM で設定または有効にするプロトコルは、ライセンス取得済みである必要があります。
