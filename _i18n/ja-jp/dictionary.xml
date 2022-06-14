@@ -8392,7 +8392,6 @@
   <block id="9310ee1dd45d21e65c46aeb6ba0f9482" category="list-text">デスティネーションノードとそのパートナーノードがボリュームのレポートノードリストに含まれていることを確認します。ノードがレポートノードリストにない場合は、デスティネーションノードとそのパートナーノードをボリュームのレポートノードリストに追加します。</block>
   <block id="a86058b8867bcbe5998ef971bf67ed3e" category="paragraph">「 lun mapping add-reporting-nodes 」という</block>
   <block id="43ee995f485e80d5a5277609e963e025" category="list-text">レポートノードリストから、前の LUN 所有者とそのパートナーノードを削除します。</block>
-  <block id="a8e0ec82d23eef4ff77e89906b9a0adb" category="paragraph">lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name</block>
   <block id="264600d8c4bfddb483a5b1cff7dbe8e1" category="summary">ONTAP 9.7 以前では、 ONTAP System Manager の「クラシック」インターフェイスを使用してボリュームを移動し、手動カットオーバーを実施するかどうかを決定できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。</block>
   <block id="bb4e0664dce82d4f272a2c414f718ed6" category="paragraph">ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェイスを使用してボリュームを移動し、手動カットオーバーを実施するかどうかを決定できます。LUN レポートノードを更新する必要がある場合は、コマンドラインインターフェイス（ CLI ）の高度な手順を使用する必要があります。必要に応じて、ボリューム移動のタイミングを計画することもできます。</block>
   <block id="1726756354b3c567d2e6c0985de0b2b9" category="paragraph"><block ref="1726756354b3c567d2e6c0985de0b2b9" category="inline-link-macro-rx"></block></block>
@@ -9319,4 +9318,5 @@
   <block id="d73a1bbe7bd0149cca8c9fa64d7f58bc" category="paragraph">Storage Virtual Machine（SVM）が機能するように設定したあと、または基本的なネットワーク設定があるSVMを使用して、ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用してSVMの管理をSVM管理者に委譲することもできます。</block>
   <block id="1e7c18dca5baf689eb77365e4897ed8b" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、SANホスト用にStorage Virtual Machine（SVM）でFCプロトコルおよびFCoEプロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
   <block id="b11a96e74a2cd810945103e98f648e14" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でCIFSプロトコルおよびNFSプロトコルを設定し、NASクライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。</block>
+  <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name</block>
 </blocks>
