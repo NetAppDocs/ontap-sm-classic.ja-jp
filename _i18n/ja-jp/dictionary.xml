@@ -4575,7 +4575,6 @@
   <block id="801703e8376b656354575338d422c997" category="list-text">[* エクスポートポリシー * （ * Export Policies * ） ] ウィンドウで行った変更を確認します。</block>
   <block id="cd02a15c2ff4cd97d34b98752d8aed1e" category="summary">System Manager の Edit Date and Time ダイアログボックスを使用して、クラスタのタイムゾーンを手動で設定または変更できます。クラスタにタイムサーバを追加することもできます。</block>
   <block id="3feea9dff30a4cfc82f8e787c5207b99" category="doc">クラスタのタイムゾーンを設定します</block>
-  <block id="10c5d6ad0d54ae7c8ed07a934067e792" category="paragraph">クラスタでは Network Time Protocol （ NTP ；ネットワークタイムプロトコル）が常に有効になっています。NTP を無効にするには、テクニカルサポートに連絡してください。ただし、 NTP を無効にすることは推奨されません。</block>
   <block id="e8ac7958e6a329c33e95e74027d4c0b3" category="paragraph">NTP サーバの IP アドレスを追加できます。このサーバは、クラスタ全体で時間を同期するために使用されます。</block>
   <block id="aa98c5b60ca5704610d91cae957e1ddd" category="paragraph">タイムサーバには IPv4 アドレスまたは IPv6 アドレスを指定できます。</block>
   <block id="0916783674796b8751f8361a859412c1" category="list-text">[* セットアップ * ] パネルで、 [ * 日付と時刻 * ] をクリックします。</block>
@@ -8662,7 +8661,6 @@
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager - ONTAP 9.7 以前を使用してハイアベイラビリティペアを作成します</block>
   <block id="c25f011b08f295a29bbd500b17b738ed" category="doc">System Manager を使用した構成の更新 - ONTAP 9.7 以前</block>
   <block id="8e4cfdd5f2a44a82c383c0562730105b" category="doc">System Manager ログファイルの表示 - ONTAP 9.7 以前</block>
-  <block id="e32d35a30d776517222a8cb49dfde78b" category="paragraph">ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用しているときに問題が発生した場合は、テクニカルサポートにログファイルを送信して問題のトラブルシューティングを行うことができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</block>
   <block id="31d9626798b93e9040bd1a4d694bd56b" category="paragraph">システムロギングは、アプリケーションのトラブルシューティングに不可欠なツールです。システムロギングを有効にして、アプリケーションに問題があるときに、その問題を特定できるようにする必要があります。アプリケーションバイナリを変更することなく、 System Manager のロギングを実行時に有効化できます。</block>
   <block id="edf8087881b81cefc948ee9b5b855cdd" category="paragraph">ログ出力は膨大な量になることがあるため、管理が困難になる可能性があります。System Manager では、出力するログステートメントのタイプを選択することにより、ロギングの出力を絞り込むことができます。デフォルトでは、システムロギングは INFO に設定されます。次のいずれかのログレベルを選択できます。</block>
   <block id="acdd231374055517015b373ce4c02529" category="paragraph">これらのレベルは階層的に機能します。ログレベルを off に設定すると、メッセージがロギングされません。</block>
@@ -9319,4 +9317,6 @@
   <block id="1e7c18dca5baf689eb77365e4897ed8b" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、SANホスト用にStorage Virtual Machine（SVM）でFCプロトコルおよびFCoEプロトコルを設定できます。最適なアダプタで LIF が作成され、データパスの冗長性を確保するためにポートセットに割り当てられます。要件に応じて、 System Manager を使用して FC プロトコル、 FCoE プロトコル、またはその両方を設定できます。</block>
   <block id="b11a96e74a2cd810945103e98f648e14" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用して、Storage Virtual Machine（SVM）でCIFSプロトコルおよびNFSプロトコルを設定し、NASクライアントにファイルレベルのデータアクセスを提供できます。CIFS プロトコルを有効にする場合は、データ LIF と CIFS サーバを作成する必要があります。NFS プロトコルを有効にする場合は、データ LIF と NIS の詳細を指定できます。</block>
   <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name</block>
+  <block id="56ee085ee9b22a4b36ce3b7988853da3" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用しているときに問題が発生した場合は、ログファイルを送信して、ネットアップサポートから指示された場合の問題のトラブルシューティングに役立てることができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</block>
+  <block id="1124479f0b36cfdc0c874c70e2e87d7f" category="paragraph">クラスタでは Network Time Protocol （ NTP ；ネットワークタイムプロトコル）が常に有効になっています。NTPは無効にできますが、推奨されません。</block>
 </blocks>
