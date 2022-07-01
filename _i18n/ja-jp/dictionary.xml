@@ -56,12 +56,8 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">データ保護</block>
   <block id="b63bcbb90a3b6bba197d8dfc6da71a9d" category="list-text"><block ref="b63bcbb90a3b6bba197d8dfc6da71a9d" category="inline-link-rx"></block></block>
   <block id="a0d4c7db7dd69d763a26425db765a94e" category="paragraph">リモートシステムへの Snapshot コピーと SnapMirror レプリケーションを使用してデータ損失を防ぐ方法について説明します</block>
-  <block id="ae35a7645e117deffc1a921838461f46" category="inline-link">テープバックアップによるデータ保護</block>
-  <block id="0cad657c2feaf8364bde8cf73e51c6b4" category="list-text"><block ref="0cad657c2feaf8364bde8cf73e51c6b4" category="inline-link-rx"></block></block>
-  <block id="4540391cf89cc1aa1f36aa40e59182db" category="paragraph">NDMP テクノロジとダンプテクノロジを使用して、クラスタのテープバックアップ / リカバリ機能を使用してデータをバックアップおよびリカバリする方法について説明しています。</block>
   <block id="654b5ef83fa66dad8993f3654a8bebb5" category="inline-link">ONTAP の概念</block>
   <block id="019865899d8e6ff37eb3e563886dabc3" category="list-text"><block ref="019865899d8e6ff37eb3e563886dabc3" category="inline-link-rx"></block></block>
-  <block id="ac1a1da03e093afb2af0d0bd79ace5a7" category="paragraph">ディザスタリカバリに備えた ONTAP クラスタの設定の概念について説明しています。</block>
   <block id="44d084096c54a12a05f20784871ac9d2" category="summary">ソースボリュームを使用できない場合やデータが破損した場合は、 SnapVault バックアップからリストアできます。SnapVault バックアップからボリュームをリストアするときは、 SnapVault デスティネーションボリュームを選択し、新しいボリュームまたは既存のボリュームにリストアして、リストア処理を確認します。</block>
   <block id="3146bb680f4495ea91ff6b5cdf9f403d" category="doc">ボリュームリストアのワークフロー</block>
   <block id="e9f56eb126455869bdb213c6b8827217" category="summary">著作権、商標、機械翻訳</block>
@@ -203,22 +199,10 @@
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 関連情報 *</block>
   <block id="1e7af3d71c61db132b57b2c8e061b86d" category="inline-link">システム管理</block>
   <block id="2409ebce3fb1751633ef472560d1b796" category="paragraph"><block ref="2409ebce3fb1751633ef472560d1b796" category="inline-link-rx"></block></block>
-  <block id="f1f8463a64e93440a6b88aa7f10e9dbe" category="summary">iSCSI 構成について理解するのに役立つその他のドキュメントを紹介します。</block>
-  <block id="5dd1f51dddd66f8a65eadff5313aa5ae" category="paragraph">次のドキュメントを参照できます。</block>
   <block id="4f27a34799ad8580f67b93c57e242ad0" category="inline-link">SAN の設定</block>
   <block id="8df008702fa0e2bb8532580307170b2b" category="list-text"><block ref="8df008702fa0e2bb8532580307170b2b" category="inline-link-rx"></block></block>
-  <block id="4f7fa3b4a184c3cda5627e0078c044e4" category="paragraph">クラスタ内のストレージコントローラにホストコンピュータを接続するための、 FC 、 iSCSI 、および FCoE トポロジについて説明します。</block>
   <block id="587c9aa3c6003c9a9fa1fc9c2ceb2eaa" category="inline-link">SAN 管理</block>
   <block id="4d2af7f255e28e5bd38a76f9ba5554cb" category="list-text"><block ref="4d2af7f255e28e5bd38a76f9ba5554cb" category="inline-link-rx"></block></block>
-  <block id="c986aac4db67c6064107d038fe08c841" category="paragraph">LUN 、 igroup 、ターゲットの設定など、クラスタ SAN 環境の iSCSI 、 FCoE 、および FC プロトコルを設定および管理する方法について説明します。</block>
-  <block id="727d6ec7c143ece348a58c5723f2f025" category="section-title">Microsoft のドキュメント</block>
-  <block id="ffe732a76690d8495fdb0c0bbbde49d9" category="paragraph">Microsoft iSCSI ソフトウェアイニシエータに関するドキュメントは、 Microsoft から直接入手できます。</block>
-  <block id="dc6723f0157e6e51ae83777c3910ff17" category="list-text">Microsoft iSCSI Software Initiator Version 2.X Users Guide _</block>
-  <block id="246a34e59cb3ee20a527a09c3e77760f" category="paragraph">Windows Server 2008 用の Microsoft iSCSI ソフトウェアイニシエータについて説明します。iSCSI ソフトウェアイニシエータのダウンロードファイルに付属しています。</block>
-  <block id="cffcdf01933eb8672e4d2cfbaecbd778" category="list-text">Microsoft iSCSI イニシエータの概要 _</block>
-  <block id="606f6d36931ed61114983bf60933f6a8" category="paragraph">Windows Server 2012 iSCSI イニシエータのオンラインヘルプです（イニシエータ内から参照できます）。ソフトウェアイニシエータに関する情報のほか、詳細な情報が記載された Microsoft の Web サイトへのリンクが記載されています。</block>
-  <block id="140864078aeca1c7c35b4beb33c53c34" category="inline-link">Microsoft 社</block>
-  <block id="cac3b61a19ad01d79649c712ac882352" category="paragraph"><block ref="cac3b61a19ad01d79649c712ac882352" category="inline-link-rx"></block></block>
   <block id="3bfd8fcba76ba60506329617822d7cfb" category="summary">iSCSI を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="6355207468aa480a9ef27915132727a9" category="doc">iSCSI の構成とプロビジョニングのワークフロー</block>
   <block id="94b2b1682b5ee0dcb83093b29aacc0c2" category="paragraph">iSCSI を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine （ SVM ）でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
@@ -603,20 +587,8 @@
   <block id="a72cc47fad7d1846d19b085d2e77e5ba" category="list-text">[OK] をクリックします。</block>
   <block id="b38c6bea0b182345afcadaedf8160f0f" category="paragraph">SVM に作成したすべてのボリュームに NFSv3 クライアントからアクセスできるようになります。</block>
   <block id="10edbbba4e4c39fc161aeac9fbb88aef" category="section-title">NFS の設定</block>
-  <block id="21ae56f6aa9d52a6117102a2043a8ab3" category="paragraph">NFS アクセスについてさらに詳しく設定するには、以下のコンテンツおよびテクニカルレポートを参照してください。</block>
   <block id="2cc25a4f99449a7599c23ffac20f5f0a" category="inline-link">NFS の管理</block>
   <block id="6d4bb840dff989bc2ef19b73556a7a83" category="list-text"><block ref="6d4bb840dff989bc2ef19b73556a7a83" category="inline-link-rx"></block></block>
-  <block id="fdd906b3ec7fd28d857deaeaeec1ed3b" category="paragraph">NFS プロトコルを使用したファイルアクセスを設定および管理する方法について説明しています。</block>
-  <block id="5c7b39fa0ac319237594c811115fa7ef" category="inline-link">ネットアップテクニカルレポート 4067 ：『 NFS Best Practice and Implementation 』</block>
-  <block id="aa6535ba68f899261fb57fc7f4d6e6ee" category="list-text"><block ref="aa6535ba68f899261fb57fc7f4d6e6ee" category="inline-link-rx"></block></block>
-  <block id="554f8f91fd053df3641c049c7d347e51" category="paragraph">NFSv3 および NFSv4 の運用ガイドであり、 NFSv4 を中心に ONTAP オペレーティングシステムの概要を説明しています。</block>
-  <block id="e2d406f34dca3665308ea0fe5df39308" category="inline-link">ネットアップテクニカルレポート 4668 ：『 Name Services Best Practices 』</block>
-  <block id="66e72a73ea31081d558c3961ceb4caf0" category="list-text"><block ref="66e72a73ea31081d558c3961ceb4caf0" category="inline-link-rx"></block></block>
-  <block id="2670471c3693debcd84cafb18698692f" category="paragraph">LDAP 、 NIS 、 DNS 、およびローカルユーザ / グループファイルを認証用に設定する際の、ベストプラクティス、制限、推奨事項、および考慮事項をまとめています。</block>
-  <block id="e134f6887670f332c2b86db886021c0e" category="paragraph">ONTAP を実行するシステムに接続された AIX 、 Linux 、または Solaris クライアントに NFSv4 のコンポーネントを実装する際のベストプラクティスを紹介しています。</block>
-  <block id="faae9782a49940846862f2a32231e07f" category="section-title">ルートボリュームの保護</block>
-  <block id="51e02859c0b7c44b7441c12e6b68d54b" category="paragraph">SVM でプロトコルを設定したら、ルートボリュームを保護してください。</block>
-  <block id="3b4dfd331ed7ccbf7d283ce016bb62b7" category="paragraph">負荷共有ミラーを作成して SVM ルートボリュームを保護する方法について説明しています。これは、 NAS 対応の SVM に対するネットアップのベストプラクティスです。また、 SVM ルートボリュームを負荷共有ミラーから昇格させてボリュームの障害や消失からリカバリする簡単な方法についても説明しています</block>
   <block id="84a5342c7b17e8a2eb7dda42cf6c4ce1" category="doc">NFS クライアントアクセスを設定して確認（既存の SVM への NFS アクセスを設定）</block>
   <block id="3747746390a64afc220d03807158b493" category="summary">NFS を設定するには、必要に応じてアグリゲートを作成してから、目的に応じたワークフローに従います。 NFS 対応 SVM を新規に作成するか、既存の SVM への NFS アクセスを設定するか、すでに NFS アクセスの設定が完了している既存の SVM に NFS ボリュームを追加するかによってワークフローが異なります。</block>
   <block id="94686e570eafa26c33ff6a8c9c3c962c" category="doc">NFS の設定ワークフロー</block>
@@ -750,7 +722,6 @@
   <block id="94169667dd416a5297ed3b46a622fa62" category="list-text"><block ref="94169667dd416a5297ed3b46a622fa62" category="inline-xref-macro-rx"></block></block>
   <block id="580df0707800400af79839e20238fb6e" category="paragraph">ONTAP の SnapVault バックアップからボリュームをリストアする簡単な方法について説明しています</block>
   <block id="53cd3c8aed79ae721dfdef73f3531f3a" category="list-text"><block ref="53cd3c8aed79ae721dfdef73f3531f3a" category="inline-link-rx"></block></block>
-  <block id="02bd2eca2939d07c436bc3118e6f838f" category="paragraph">クラスタシステムのディザスタリカバリとディスクツーディスクバックアップの概念について説明しています</block>
   <block id="7b1a6834c9e6f565e0e67a08da561eb0" category="summary">SnapVault テクノロジを使用したデータ保護の設定を開始する前に、ソースクラスタとデスティネーションクラスタがピアとして設定され、ピア関係を通じて相互に通信していることを確認する必要があります。また、ソース SVM とデスティネーション SVM がピアとして設定され、ピア関係を通じて相互に通信していることも確認する必要があります。</block>
   <block id="1d2c5f3cf91a6ac4437d06b0d35f22aa" category="doc">クラスタピア関係と SVM ピア関係を確認</block>
   <block id="d3d98fa048d258c0324e828c27353505" category="list-text">ONTAP 9.3 以降を実行している場合は、次の手順に従ってクラスタピア関係と SVM ピア関係を確認します。</block>
@@ -986,7 +957,6 @@
   <block id="2ddad2e2d0d34e4a5404bf8e5d2d8c9c" category="summary">FC を使用してホストでストレージを利用できるようにするには、 Storage Virtual Machine でボリュームと LUN をプロビジョニングし、ホストから LUN に接続します。</block>
   <block id="84537406a801e386b5b242a76072a064" category="doc">FC 構成のワークフロー</block>
   <block id="000154771431032336a33cb220d8e1c9" category="paragraph">テストに失敗した場合は、 FC サービスが実行されていることを確認し、 LUN への FC パスをチェックしてください。</block>
-  <block id="f8fad6712cc74aaf58696fe5741fcf76" category="summary">FC 構成について理解するのに役立つその他のドキュメントを紹介します。</block>
   <block id="40a140333cbebfe1cffe1ccb0c2cace8" category="summary">Windows ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">Windows 向けの FC 構成の概要</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">Hyper-V ゲストまたは ESX ゲストで Virtual Fibre Channel （ VFC ；仮想ファイバチャネル）を使用していない。</block>
@@ -994,20 +964,6 @@
   <block id="a2ecc997978aedc00abb9eeb497e7eb9" category="paragraph">ケーブル接続と構成の詳細については、ネットアップサポートサイトの使用している ONTAP または E シリーズストレージシステムのハードウェアケーブル接続について、「 SAN 構成」を参照してください。</block>
   <block id="fb6b8b7c86f1cdc8c9f4a1e55f91d173" category="paragraph">インストールに関する詳細情報は、を参照してください <block ref="f912c8f6f2c88a486dae2dbc098d8846" category="inline-link-macro-rx"></block>。</block>
   <block id="b8af4cb8afe116de1a12bfab26b90519" category="list-text">CIFS * および * NFSv3 * を選択します。</block>
-  <block id="b0ac7418280972fa069bbc2a11514d3e" category="summary">CIFS および NFS のクライアントアクセスをテストしたあと、 CIFS と NFS の高度な設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、 SVM のルートボリュームを保護する必要があります。このような目標の達成に役立つ包括的なコンテンツやテクニカルレポートをご用意しています。</block>
-  <block id="23353013b42b6a98388dd2bce5be051a" category="paragraph">CIFS および NFS のクライアントアクセスをテストしたあと、 CIFS と NFS の高度な設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、 SVM のルートボリュームを保護する必要があります。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。</block>
-  <block id="dd72e8231c2ab0c2133630fe6bc76e20" category="section-title">CIFS / SMB の設定</block>
-  <block id="6730d4603d3f770e9758b0495c9a2a62" category="inline-link">CIFS の管理</block>
-  <block id="575124ad880ed28864d887a160002ff9" category="list-text"><block ref="575124ad880ed28864d887a160002ff9" category="inline-link-rx"></block></block>
-  <block id="67a933ca8c13b0371da20884d6ea7ebe" category="paragraph">CIFS / SMB プロトコルを使用したファイルアクセスを設定および管理する方法について説明しています。</block>
-  <block id="df7018e8b5dea8270e2b53ed45ca3664" category="inline-link">ネットアップテクニカルレポート 4191 ：『 Best Practices Guide for clustered Data ONTAP 8.2 Windows File Services 』</block>
-  <block id="d7c04e1dc685306d20b6ac98cbc8abcf" category="list-text"><block ref="d7c04e1dc685306d20b6ac98cbc8abcf" category="inline-link-rx"></block></block>
-  <block id="40261511a12711af686f66a0ba5aee3e" category="paragraph">SMB の導入やその他の Windows ファイルサービスの機能の概要に加え、 ONTAP に関する推奨事項や基本的なトラブルシューティング情報を紹介しています。</block>
-  <block id="f34506326aba5bd2e96ea949212bfb7f" category="inline-link">ネットアップテクニカルレポート 3740 ：『 SMB 2 Next-Generation CIFS Protocol in Data ONTAP 』</block>
-  <block id="31c2bf0ec91d71ed35f91e6ebf5a28c1" category="list-text"><block ref="31c2bf0ec91d71ed35f91e6ebf5a28c1" category="inline-link-rx"></block></block>
-  <block id="61e501f46c7150f878e0af89f471c9ef" category="paragraph">SMB 2 の機能について、設定に関する詳細や ONTAP での実装に関する情報を紹介しています。</block>
-  <block id="664ed7f89359986e03d8ad4c39f35a20" category="inline-link">ネットアップテクニカルレポート 3580 ：『 NFSv4 の拡張内容とベスト・プラクティス・ガイド - Data ONTAP での実装』</block>
-  <block id="bdce1016f77fd0c1a9aea40e262163d4" category="list-text"><block ref="bdce1016f77fd0c1a9aea40e262163d4" category="inline-link-rx"></block></block>
   <block id="44ea8eb2df89afa7b099aa23027cba85" category="summary">SMB / CIFS と NFS の両方を設定するには、必要に応じてアグリゲートの作成と新しい SVM の作成または既存の SVM の設定を行ってから、ボリューム、共有、およびエクスポートを作成し、 UNIX および Windows の管理ホストからアクセスできることを確認します。その後、 SMB / CIFS クライアントと NFS クライアントへのアクセスを開始できます。</block>
   <block id="e0cb8bdb942b5a5756750a9ad13f5278" category="doc">マルチプロトコルの設定ワークフロー</block>
   <block id="59709e0b502adf4dc8604fb58c5b4fa2" category="image-alt">ONTAP での NFS と CIFS のセットアップ手順の概要を示します。</block>
@@ -1202,11 +1158,8 @@
   <block id="738418b5a43818df535fcd3eacfae389" category="list-text">次のコマンドを使用して、システムの健全性を確認します。</block>
   <block id="00d15e1a09d79f0b991c675abca022d3" category="list-text">「 system health status show 」コマンドを使用し、クラスタが「 ok 」であることを確認して、クラスタが正常な状態であることを確認します。</block>
   <block id="f2f08364a27a75afd18b40ee29494b88" category="list-text">「 cluster show 」コマンドを使用し、各ノードの正常性が「 true 」であることを確認して、クラスタ内のすべてのノードが正常な状態であることを確認します。</block>
-  <block id="c1f4234043f24b65e6b04de33fad8001" category="summary">クラスタを拡張したら、新しいノードに新しいボリュームを作成するか、既存のデータを新しいノードに移動することで、新しいノードにデータを格納することができます。</block>
   <block id="da5ca6ae1de018f91fb173975dfb47fa" category="inline-link">論理ストレージ管理</block>
   <block id="eff7eb1c9caccc9b299bec266b80b0b6" category="list-text"><block ref="eff7eb1c9caccc9b299bec266b80b0b6" category="inline-link-rx"></block></block>
-  <block id="286658c24ca59ebf54d30a4ca466d9e1" category="paragraph">FlexVol 、 FlexClone ボリューム、ファイルと LUN 、 FlexCache ボリュームなど、クラスタ内の論理ストレージリソースを管理する方法について説明します。 重複排除、圧縮、 qtree 、およびクォータを使用する。</block>
-  <block id="5e142b2510ac017f0d0b460f84e482f0" category="paragraph">クラスタの論理ストレージリソースの概念について説明します。 FlexVol ボリューム、 FlexClone ボリューム、ファイルと LUN 、 FlexCache ボリュームなどが含まれます。 重複排除、圧縮、 qtree 、およびクォータを使用する。</block>
   <block id="b6cbda4df9b1341f230833d62ece86d2" category="summary">クラスタを拡張する前に、あとで両方のノードのノード管理 LIF およびサービスプロセッサの IP アドレスを設定する際に必要となるネットワーク情報を入手する必要があります。</block>
   <block id="2ee15dc81143429bd3083638f49f6321" category="doc">必要なネットワーク情報を収集</block>
   <block id="98a7baf7dc6f82560d1d8d1d8441a793" category="list-text">クラスタに追加するノードごとに 1 つ、計 2 つのノード管理 LIF を設定するために、次の詳細を取得します。</block>
@@ -1448,10 +1401,6 @@
   <block id="5af10cac5bb119e67eb656888383295c" category="summary">ボリュームのディザスタリカバリのワークフローには、デスティネーションボリュームのアクティブ化、データアクセスのためのデスティネーションボリュームの設定、および元のソースボリュームの再アクティブ化が含まれます。</block>
   <block id="5631a4a4a5cbe1126b6d5532597609b1" category="doc">ボリュームディザスタリカバリのワークフロー</block>
   <block id="b5a68721f84465afc63f9b2df2f905ae" category="summary">追加情報を使用すると、ボリュームレベルのディザスタリカバリ関係を管理したり、別のディザスタリカバリ方式でデータリソースの可用性を保護したりできます。</block>
-  <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">異なる ONTAP クラスタにあるボリューム間のバックアップヴォールト関係を設定する簡単な方法について説明しています。</block>
-  <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">ONTAP でバックアップヴォールトからボリュームをリストアする簡単な方法について説明しています。</block>
-  <block id="25b67dc5180ef638acf68abf19cd20ce" category="paragraph">ONTAP でのレプリケーションの設定に関する情報とベストプラクティスが記載されています。</block>
-  <block id="c13f09e860d57e9e946bb8c4833f9f54" category="paragraph">クラスタシステムのディザスタリカバリとディスクツーディスクバックアップの概念について説明しています。</block>
   <block id="00db325f634bdd1cb57a41be4d78a1ee" category="summary">再同期の完了後、ソースボリュームをアクティブ化する前に、ソースボリュームを更新して最新の変更内容をすべて反映することができます。</block>
   <block id="048302dc521956e742829bbbc308e667" category="doc">ソースボリュームを更新</block>
   <block id="f279e20e016955df9fcb499956193b6d" category="list-text">ソースボリュームとデスティネーションボリューム間の SnapMirror 関係を選択し、 * Operations * &gt; * Update * をクリックします。</block>
@@ -1546,11 +1495,6 @@
   <block id="74f1afbef663f32fc8d025982a526401" category="summary">ボリュームのディザスタリカバリの準備では、クラスタピア関係を確認し、ピア関係にある双方のクラスタのボリューム間で SnapMirror 関係を作成し、データアクセスのためのデスティネーション SVM を設定して、 SnapMirror 関係を定期的に監視します。</block>
   <block id="97214eb14a082986b89d0496654171d1" category="doc">ボリュームのディザスタリカバリの準備ワークフロー</block>
   <block id="e4f23fa5eebad806cea9c12d5857146a" category="summary">ディザスタリカバリの設定をテストする場合や災害の発生時にデスティネーションボリュームをアクティブ化する方法については、別のドキュメントで説明しています。災害発生後にソースボリュームを再アクティブ化する方法も、それらのドキュメントで確認できます。</block>
-  <block id="994b9e24558386119def2c5e542475ea" category="paragraph">ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明しています。</block>
-  <block id="37a4c5f171f9c477191bc02b862d6a32" category="inline-link">Active IQ Unified Manager 9.8 ワークフロー：クラスタ健全性管理</block>
-  <block id="4585324eb6aec1c92c62db522205c13c" category="list-text"><block ref="4585324eb6aec1c92c62db522205c13c" category="inline-link-rx"></block></block>
-  <block id="7c7f8994892d0b2a6ed2b9f10c24964a" category="paragraph">OnCommand （旧 Active IQ Unified Manager Unified Manager ）の詳細な概念情報に加え、 Web UI を使用したタスクの実行方法とトラブルシューティングに関する情報が記載されています。</block>
-  <block id="f1f9c2b0860a27aa32c1e0c059a0e7bc" category="paragraph">SnapMirror テクノロジを使用したディザスタリカバリの概念情報が記載されています。</block>
   <block id="3c660529447a12408baa2c4276074865" category="summary">ディザスタリカバリの設定を開始する前に、ソースクラスタとデスティネーションクラスタがピアとして設定され、ピア関係を通じて相互に通信していることを確認する必要があります。</block>
   <block id="53ab1f406894f8ee557eb9d33edf70fe" category="doc">クラスタピア関係と SVM ピア関係を確認</block>
   <block id="210fc08adc8ff148771c97038e36e4a2" category="image-alt">クラスタ・ディザスタ 930</block>
@@ -1659,11 +1603,6 @@
   <block id="d16beb3e38e5f4e691847db8bad37f6c" category="list-text">ゲストオペレーティングシステムのタイプとバージョン</block>
   <block id="a6e28e5668fbb01e316ed809169a8b65" category="list-text">Virtual Storage Console （ VSC ） for VMware vSphere ソフトウェア</block>
   <block id="cf91af212a07bdf82ec93316f80df4a1" category="list-text">VSC を実行する Windows Server のバージョン</block>
-  <block id="70cd8bfb8fd7a4082087201414ab2fe4" category="section-title">VMware のドキュメント</block>
-  <block id="ab912994b4aa16fba6be2c16896c3115" category="paragraph">ESXi サーバの iSCSI に関するドキュメントは、 VMware から直接入手できます。</block>
-  <block id="e012bb8bfed783fdc9ae512fc954250c" category="list-text">_ vSphere ストレージ _</block>
-  <block id="1e7a821c0fffd45e16b8e9fbdf58abd9" category="list-text">_ ポートバインドを使用したソフトウェア iSCSI のマルチパス設定 _</block>
-  <block id="eecf341f578c40b0088a2c825bcf9fae" category="paragraph">ESXi サーバ向けの MPIO のセットアップについてのテクニカルホワイトペーパーです。</block>
   <block id="64131a01034229c3ee0a665ec27911f8" category="summary">ストレージフェイルオーバーやデータ移動が適切に行われるようにするには、ホストからストレージクラスタ内のすべてのノードへのパスが 2 つあることを確認する必要があります。iSCSI ターゲットからアドバタイズされるパスの数は限られているため、ホストからストレージクラスタポートに ping を送信する必要があります。</block>
   <block id="867c76519a222fee80611a7a6c5b8898" category="doc">ホストからストレージクラスタへの iSCSI パスをテストします</block>
   <block id="9b4c32a0f8f3c587fd5ed4bf138ad6df" category="paragraph">iSCSI パスに使用するすべての論理インターフェイス（ LIF ）の IP アドレスまたはホスト名を確認しておく必要があります。</block>
@@ -1683,10 +1622,6 @@
   <block id="77940d0bcb4281501811de1ec05e0bda" category="list-text">クラスタ内の各ノードに高速イーサネットポート（ 1GbE 以上、 10GbE を推奨）が少なくとも 2 つある。</block>
   <block id="4dfc85f053bbce34b061f9f9e50054bd" category="inline-link-macro">ONTAP 9 ネットワーク管理</block>
   <block id="38e4c9c0dda5f39ef2476c68b3cdf4ed" category="paragraph">が表示されます <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> CLI を使用してイーサネットポートのフロー制御を設定するため。</block>
-  <block id="d6dd3e964a45af39f1a2d0d162a9c917" category="inline-link">ONTAP 9 SAN 管理</block>
-  <block id="19a784614020f03847308e98240415b6" category="list-text"><block ref="19a784614020f03847308e98240415b6" category="inline-link-rx"></block></block>
-  <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 構成</block>
-  <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
   <block id="27ebce0c0f9c269fad61d937501e68e0" category="summary">Virtual Storage Console for VMware vSphere を使用すると、 ESXi ホストでネットアップの iSCSI ストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。Virtual Storage Console は vCenter Server のプラグインです。</block>
   <block id="fa3313a389a81d17ecc59d6a9af3cd81" category="doc">Virtual Storage Console をインストールします</block>
   <block id="4dbd231a9a42eafe7a6612f3a2289388" category="paragraph">ESXi ホストの管理に使用する vCenter Server に対する管理者クレデンシャルが必要です。</block>
@@ -1788,7 +1723,6 @@
   <block id="ff9f8af3f836eed7a816fd381c0fe04c" category="inline-xref-macro">CIFS 対応 SVM への CIFS ボリュームの追加</block>
   <block id="c095667b485ebff52a4a4f5838e727cb" category="summary">ESXi ホストが FC パスの損失やストレージフェイルオーバーイベントを正しく管理できるように、ホストのマルチパスとベストプラクティスの設定が正しいことを確認する必要があります。</block>
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">すでに FC 用に設定されている SVM にボリュームをプロビジョニングする場合は、 FC サービスが実行されていることを確認する必要があります。</block>
-  <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">この VMware のコンテンツでは、 ESXi 5.x 向けの FC と iSCSI の設定について説明します</block>
   <block id="caeab82c4f9b5aa8223e7cf94f44d99d" category="doc">VSC を使用した ESXi 向けの FC の設定の概要</block>
   <block id="1fe0867d1be2bcaa05e5f8f160018fac" category="list-text">ESXi 5.x の従来の FC HBA と従来の FC スイッチを使用している。</block>
   <block id="dfccb684b063bbb06e8ec445a12648fa" category="list-text">ホストにデータストアを作成する。</block>
@@ -7929,14 +7863,6 @@
   <block id="7d57c3c7878101bb7dbe6fdd1c4f2a70" category="list-text">（ VSC ）ソフトウェア用</block>
   <block id="79b72b589ee6439937ed7ed2f5d525c1" category="list-text">NFS Plug-in for VAAI のこと</block>
   <block id="a70ae4444c0c909b1d561b204cf4e92f" category="paragraph">すべての NAS 構成に関する一般的なガイドラインが表示されます。</block>
-  <block id="f83d9513e5785c599b940874b81ce7c4" category="summary">NFS クライアントアクセスをテストしたあと、 NFS の追加設定を行ったり、 SAN アクセスを追加したりできます。プロトコルアクセスが完了したら、のルートボリュームを保護する必要があります。これらの目標の達成に役立つ包括的なコンテンツとテクニカルレポートをご用意しています。</block>
-  <block id="9731f349780de77af2ad9c6ef9bf326e" category="paragraph">CLI コマンドを使用して、新しいボリュームまたは qtree に格納されているファイルへの NFS クライアントアクセスを設定する高度な方法について説明します。</block>
-  <block id="aa50384f57470ecc3cd57c193fbe56b8" category="paragraph">認証、許可、セキュリティなど、 NFS プロトコルを使用したファイルアクセスを管理する方法について説明しています。</block>
-  <block id="4fa7027f5c486116a971b22d989ffdc3" category="inline-link">ネットアップテクニカルレポート 4597 ：『 VMware vSphere with ONTAP 』</block>
-  <block id="692a969ba2c3d4a614223404347adda8" category="list-text"><block ref="692a969ba2c3d4a614223404347adda8" category="inline-link-rx"></block></block>
-  <block id="38c10cd520dfe5c1f6f54f2a2b53e13b" category="paragraph">ONTAP および VMware vSphere のサーバ仮想化環境を使用する際のベストプラクティスを紹介しています。</block>
-  <block id="b9e873d1c81460d5ff87bb5366d578e1" category="paragraph">NFSv4 に焦点を当てて ONTAP の概要を説明しています。</block>
-  <block id="f6dad1a866b6daf167c2286f4aa1a5df" category="paragraph">負荷共有ミラーを作成してルートボリュームを保護する方法について説明しています。これは、 NAS 対応の SVM に対するネットアップのベストプラクティスです。また、 SVM ルートボリュームを負荷共有ミラーから昇格させてボリュームの障害や消失からリカバリする簡単な方法についても説明しています。</block>
   <block id="3aa139c51bdb6074c010296fec3186c5" category="summary">NFS クライアントの設定タスクを実行するには、ネットワークアドレスおよびストレージ構成情報が必要です。</block>
   <block id="1651af3b9ae79a42c0cd2400d098d40d" category="doc">NFS クライアント設定ワークシートに記入</block>
   <block id="cbd222fb5254a9ed2e5d31f711420a43" category="paragraph">クラスタ内の各ノードの NFS データ LIF 用に、 2 つの IP アドレスを含むサブネットが必要です。高可用性を実現するには、 2 つのネットワークが必要です。SVM の作成時に LIF を作成すると、 ONTAP によって固有の IP アドレスが割り当てられます。</block>
@@ -8484,8 +8410,6 @@
   <block id="12a6d8abfd6ea00add112b5495cfc3ac" category="paragraph">これは、手順のあとに SAN プロトコルを設定する SVM を作成していない場合に該当します。</block>
   <block id="221e45a1da90d562052e9339a40aa840" category="image-alt">次の図は SNMP 設定ワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに対応しています。</block>
   <block id="0e42715b0f3608f82b54eceb95451d07" category="summary">新規または既存の Storage Virtual Machine （ SVM ）の新しいボリュームに対する SMB / CIFS アクセスと NFS アクセスの両方を簡単に設定できます。</block>
-  <block id="5e65ed5040441519dbf697f9ba224c8e" category="paragraph">CIFS アクセスについてさらに詳しく設定するには、次の情報とテクニカルレポートを参照してください。</block>
-  <block id="789b5f0afd817cef21cddcb1e0bcec40" category="paragraph">NFS アクセスについてさらに詳しく設定するには、以下の情報とテクニカルレポートを参照してください。</block>
   <block id="2a2f5ad7f8e4a01c34616cc59fe94051" category="paragraph">これは、別のプロトコルを設定する際にこの手順に従って SVM を作成していない場合に該当します。</block>
   <block id="4deca5c9e89ed5a65084ecad9f22d328" category="paragraph">SVM ルートボリュームのエクスポートポリシーを開きます。</block>
   <block id="688b2339e3b3d8cfdcd364ef8ed87e41" category="image-alt">次の図は SnapVault ボリュームリストアワークフローのフローチャートを示したものです。ワークフローの各手順はトピックに一致しています</block>
@@ -8567,8 +8491,6 @@
   <block id="cf60e092711952c2c868d7d19e86f100" category="summary">HA ペアを追加すると、既存のクラスタを迅速かつ無停止で拡張できます。クラスタを拡張すると、クラスタのパフォーマンスが向上し、使用可能なストレージ容量が増えます。</block>
   <block id="e8fd990d5fe6a50d516b83641fb7fc4a" category="paragraph">この手順は、次の条件に該当する場合にのみ使用してください。</block>
   <block id="5924a921008cf1a2f38d2d7a41990138" category="paragraph">この手順の例では 2 ノードクラスタを使用していますが、 3 つ以上のノードで構成される環境クラスタも使用しています。</block>
-  <block id="77c61fd6aef6817840becd82172bd57c" category="paragraph">クラスタで SnapMirror 関係または SnapVault 関係を使用してデータを保護する場合は、を参照してください <block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block> ガイドを参照して、新しいノードに適したクラスタ間 LIF をセットアップします。</block>
-  <block id="05eac09172b61971be85d0a01b8162b9" category="paragraph">新しく追加したノードにデータを移動する場合は、次の情報を使用できます。</block>
   <block id="127ec903ab071b33b2b142ce19373815" category="summary">Storage Virtual Machine に FC サービスをセットアップし、 LUN をプロビジョニングし、 Red Hat Enterprise Linux サーバで FC ホストバスアダプタを使用して LUN を使用できるように設定することができます。</block>
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">クラスタの各ノードに使用可能な FC ターゲットポートが少なくとも 2 つある。オンボード FC および UTA2 （別名「 CNA 」）ポート、および一部のアダプタは設定が可能です。これらのポートは ONTAP コマンドラインインターフェイス（ CLI ）で設定しますが、この手順では説明しません。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">クラスタ間 LIF の作成（ ONTAP 9.3 以降）</block>
@@ -9319,4 +9241,5 @@
   <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name</block>
   <block id="56ee085ee9b22a4b36ce3b7988853da3" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用しているときに問題が発生した場合は、ログファイルを送信して、ネットアップサポートから指示された場合の問題のトラブルシューティングに役立てることができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</block>
   <block id="1124479f0b36cfdc0c874c70e2e87d7f" category="paragraph">クラスタでは Network Time Protocol （ NTP ；ネットワークタイムプロトコル）が常に有効になっています。NTPは無効にできますが、推奨されません。</block>
+  <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+では、ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明しています。</block>
 </blocks>

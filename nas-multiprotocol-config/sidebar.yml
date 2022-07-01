@@ -36,5 +36,3 @@ entries:
     url: "/nas-multiprotocol-config/task_verifying_nfs_access_from_unix_administration_host.html"
   - title: CIFS および NFS のクライアントアクセスを設定して確認
     url: "/nas-multiprotocol-config/task_configuring_verifying_client_access_new_svm.html"
-- title: 追加情報の参照先
-  url: "/nas-multiprotocol-config/reference_where_to_find_additional_information.html"

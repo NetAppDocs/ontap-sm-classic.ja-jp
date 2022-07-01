@@ -27,5 +27,3 @@ entries:
       url: "/volume-disaster-recovery/task_updating_source_volume.html"
     - title: ソースボリュームを再アクティブ化
       url: "/volume-disaster-recovery/task_returning_recovered_volume_to_source_role.html"
-- title: 追加情報の参照先
-  url: "/volume-disaster-recovery/reference_where_to_find_additional_information.html"

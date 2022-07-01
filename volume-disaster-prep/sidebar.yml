@@ -17,5 +17,3 @@ entries:
     url: "/volume-disaster-prep/task_setting_up_destination_svm_for_data_access.html"
   - title: SnapMirror データ転送のステータスを監視します
     url: "/volume-disaster-prep/task_monitoring_status_snapmirror_data_transfers.html"
-- title: 追加情報の参照先
-  url: "/volume-disaster-prep/reference_where_to_find_additional_information.html"
