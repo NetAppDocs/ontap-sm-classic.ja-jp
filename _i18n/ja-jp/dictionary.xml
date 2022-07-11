@@ -9242,4 +9242,6 @@
   <block id="56ee085ee9b22a4b36ce3b7988853da3" category="paragraph">ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用しているときに問題が発生した場合は、ログファイルを送信して、ネットアップサポートから指示された場合の問題のトラブルシューティングに役立てることができます。System Manager のログファイルは、 ONTAP のログファイルと「 log 」ディレクトリに保存されます。</block>
   <block id="1124479f0b36cfdc0c874c70e2e87d7f" category="paragraph">クラスタでは Network Time Protocol （ NTP ；ネットワークタイムプロトコル）が常に有効になっています。NTPは無効にできますが、推奨されません。</block>
   <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+では、ONTAP で災害の発生後にデスティネーションボリュームをアクティブ化し、リカバリ後にソースボリュームを再アクティブ化する簡単な方法について説明しています。</block>
+  <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">異なる ONTAP クラスタにあるボリューム間のバックアップヴォールト関係を設定する簡単な方法について説明しています。</block>
+  <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">ONTAP でバックアップヴォールトからボリュームをリストアする簡単な方法について説明しています。</block>
 </blocks>

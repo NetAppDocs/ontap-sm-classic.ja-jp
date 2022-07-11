@@ -17,4 +17,12 @@ image::../media/snapmirror_failover_resync_workflow_eg.gif[この図は SnapMirr
 
 追加情報を使用すると、ボリュームレベルのディザスタリカバリ関係を管理したり、別のディザスタリカバリ方式でデータリソースの可用性を保護したりできます。
 
-xref:../volume-backup-snapvault/index.html[SnapVault を使用したボリュームのバックアップ]
+* xref:../volume-backup-snapvault/index.html[SnapVault を使用したボリュームのバックアップ]
++
+異なる ONTAP クラスタにあるボリューム間のバックアップヴォールト関係を設定する簡単な方法について説明しています。
+
+* xref:../volume-restore-snapvault/index.html[SnapVault を使用したボリュームリストアの管理]
++
+ONTAP でバックアップヴォールトからボリュームをリストアする簡単な方法について説明しています。
+
+
