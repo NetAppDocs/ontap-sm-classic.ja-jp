@@ -18,6 +18,13 @@ summary: ストレージシステムソフトウェアが工場出荷時にイ�
 特定の ONTAP サービスのソフトウェアライセンスコードを用意しておく必要があります。
 
 .このタスクについて
+* ONTAP 9.10.1以降では、System Managerを使用してネットアップライセンスファイル（NLF）をインストールし、複数のライセンス機能を一度に有効にすることができます。NetApp License File を使用すると、個別の機能ライセンスキーを追加する必要がなくなるため、ライセンスのインストールが簡単になります。ネットアップサポートサイトからネットアップライセンスファイルをダウンロードします。
++
+詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["ライセンスキーを追加して新しい機能を有効にします"]
+
++
+ライセンスの管理については、を参照してください link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["ライセンスの管理の概要（クラスタ管理者のみ）"^]
+
 * MetroCluster 構成で新しいライセンスを追加するときは、セカンダリサイトのクラスタにもライセンスを追加することを推奨します。
 * System Manager を使用して Cloud Volumes ONTAP ライセンスを追加することはできません。
 +

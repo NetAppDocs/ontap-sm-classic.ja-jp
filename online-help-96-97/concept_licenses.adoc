@@ -19,6 +19,12 @@ ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用
 
 System Manager の Licenses window を使用して、クラスタまたはノードにインストールされているソフトウェアライセンスを削除することができます。
 
+ONTAP 9.8以降を使用したライセンスの管理については、次の情報を参照してください。
+
+* link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["ライセンスの管理の概要（クラスタ管理者のみ）"^]
+* https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["ライセンスキーを追加して新しい機能を有効にします"^]
+
+
 削除するソフトウェアライセンスがどのサービスまたは機能でも使用されていないことを確認しておく必要があります。
 
 .手順
