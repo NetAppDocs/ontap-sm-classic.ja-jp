@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/ja-jp/ontap-sm-classic/search.html"
           data-type="widget" 
-          data-placeholder="ドキュメントを検索" 
-          data-no-results-found="{query}に該当する結果はありません" 
-          data-did-you-mean="{suggestion} を検索" 
-          data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?" 
-          data-results-found="{hitCount} 件見つかりました"  
+          data-placeholder="ドキュメントを検索"
+          data-no-results-found="{query}に該当する結果はありません"
+          data-did-you-mean="{suggestion} を検索"
+          data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?"
+          data-results-found="{hitCount} 件見つかりました"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -4467,7 +4469,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-20 21:51:23 +0000">04/20/2022</time>
+    <time datetime="2022-07-19 04:41:21 +0000">07/19/2022</time>
     
   
 
@@ -4486,6 +4488,15 @@
 <div class="ulist">
 <div class="title">このタスクについて</div>
 <ul>
+<li>
+<p>ONTAP 9.10.1以降では、System Managerを使用してネットアップライセンスファイル（NLF）をインストールし、複数のライセンス機能を一度に有効にすることができます。NetApp License File を使用すると、個別の機能ライセンスキーを追加する必要がなくなるため、ライセンスのインストールが簡単になります。ネットアップサポートサイトからネットアップライセンスファイルをダウンロードします。</p>
+<div class="paragraph">
+<p>詳細については、を参照してください <a href="https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html">"ライセンスキーを追加して新しい機能を有効にします"</a></p>
+</div>
+<div class="paragraph">
+<p>ライセンスの管理については、を参照してください <a href="https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html" target="_blank" rel="noopener">"ライセンスの管理の概要（クラスタ管理者のみ）"</a></p>
+</div>
+</li>
 <li>
 <p>MetroCluster 構成で新しいライセンスを追加するときは、セカンダリサイトのクラスタにもライセンスを追加することを推奨します。</p>
 </li>
