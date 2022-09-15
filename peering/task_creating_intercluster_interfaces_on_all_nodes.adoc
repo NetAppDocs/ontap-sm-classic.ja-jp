@@ -49,7 +49,7 @@ image::../media/lif_creation_intercluster.gif[ネットワークインターフ�
 .. [ 作成（ Create ） ] をクリックします。
 
 
-. 繰り返します <<step1-intercluster-lif,手順 1.>> クラスタ内のノードごとに割り当てます。
+. 繰り返します ,手順 1. クラスタ内のノードごとに割り当てます。
 +
 クラスタ内の各ノードにクラスタ間 LIF が作成されます。
 
