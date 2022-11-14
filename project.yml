@@ -7,7 +7,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   search: ontap
-  langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr
+  langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr,fr-fr,de-de
 sidebar:
   entries:
   - title: System Manager Classic のドキュメント
@@ -110,4 +110,4 @@ homepage:
 product-family:
   name: ONTAP
   repo: ontap-family
-  sidebar_label: All ONTAP product documentation
+  sidebar_label: すべてのONTAP 製品ドキュメント

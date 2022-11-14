@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html 
 sidebar: sidebar 
-keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled 
-summary: 新しいをセットアップするには、新しいを作成し、 NFS を有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。 
+keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled SVM 
+summary: 新しいSVMをセットアップするには、を作成し、NFSを有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。 
 ---
-= 新しい NFS-enabled を作成
+= NFS 対応 SVM を新規に作成
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-新しいをセットアップするには、新しいを作成し、 NFS を有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。
+新しいSVMをセットアップするには、を作成し、NFSを有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。
 
 .作業を開始する前に
 * ネットワークを設定し、関連する物理ポートをネットワークに接続しておく必要があります。
@@ -29,7 +29,7 @@ summary: 新しいをセットアップするには、新しいを作成し、 N
 .手順
 . SVMs ウィンドウに移動します。
 . [ 作成（ Create ） ] をクリックします。
-. Storage Virtual Machine （ SVM ） Setup * ウィンドウで、次のファイルを作成します。
+. Storage Virtual Machine （ SVM ）のセットアップ * ウィンドウで、 SVM を作成します。
 +
 .. SVM に一意の名前を指定します。
 +
@@ -37,7 +37,7 @@ summary: 新しいをセットアップするには、新しいを作成し、 N
 
 .. データプロトコルとして「 * nfs * 」を選択します。
 +
-同じで追加のプロトコルを使用する予定の場合は、すぐに設定しないであっても選択する必要があります。
+同じSVM上で追加のプロトコルを使用する予定の場合は、すぐに設定しないであっても選択する必要があります。
 
 .. 言語設定はデフォルトの C.UTF-8 のままにします。
 +
@@ -98,4 +98,4 @@ NFS クライアントでは、データ LIF の IP アドレスが必要にな�
 
 
 
-NFS を有効にして新しいが作成されます。
+新しいSVMが、NFS対応で作成されます。

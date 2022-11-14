@@ -7887,16 +7887,11 @@
   <block id="ba57eb39fed6c8030e4496610bee0e42" category="list-text">VMware VAAI を使用する場合、 NFS アクセスは NFSv3 および NFSv4 経由になります。</block>
   <block id="ea969559dd5cc111e771d23a7b91e7f0" category="summary">では、 ESXi ホストでストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化します。は、 vCenter Server のプラグインです。</block>
   <block id="349838fb1d851d3e2014b9fe39203275" category="doc">をインストールします</block>
-  <block id="97446f85d622caa408c1900719e976fe" category="summary">既存のに NFS アクセスを追加するには、まずデータ論理インターフェイス（ LIF ）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
-  <block id="2463feb7085c1de79b2a536a798cc5e6" category="doc">既存のに NFS アクセスを追加</block>
   <block id="b3cd292080da5468bda5b81ea6f6944e" category="list-text">で使用する次のネットワークコンポーネントを確認しておく必要があります。</block>
   <block id="e38f4915c562ac0524f64ba1d2309e50" category="list-text">データ LIF を作成するノードとそのノード上の特定のポート</block>
-  <block id="99ffc0c2d2de5a9c707e0cc9f57ee896" category="list-text">のプロトコルを設定できる * Details * ペインに移動します。</block>
-  <block id="0e54ed6c5d54f8809e3fac442e018cb8" category="list-text">設定するを選択します。</block>
   <block id="b211141019007f2b9c919f45f464be6e" category="list-text">Configure NFS protocol * （ NFS プロトコルの設定 * ）ダイアログボックスで、データ LIF を作成します。</block>
   <block id="34047da9f91a8187fda235b588989bf0" category="paragraph">ボリュームをプロビジョニングする情報は入力しないでください。データストアのプロビジョニングは、あとから Virtual Storage Console を使用して実行できます。</block>
   <block id="b1cb83cd4c72191e2c33f80d32661e9e" category="summary">既存の SVM を使用する場合は、まずその SVM で NFS が有効になっていることを確認する必要があります。その後、 Virtual Storage Console を使用して NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
-  <block id="c55e4b00195074bed992d5e9f2637458" category="doc">既存ので NFS が有効になっていることを確認する</block>
   <block id="4634424eddac4e5139eed002d9f57e0e" category="list-text">NFS が有効と表示されていることを確認します。</block>
   <block id="66b55e440f72539f4895f89ea8a145a8" category="paragraph">NFS が有効になっていない場合は、有効にするか、新しい SVM を作成する必要があります。</block>
   <block id="e5bd14ce4c306a79c0e8d3e50a90a52b" category="summary">イーサネットネットワークによってパフォーマンスは大きく変わります。特定の設定値を選択することで、ネットワークのパフォーマンスを最大限に高めることができます。</block>
@@ -7909,12 +7904,8 @@
   <block id="881b0a2ef802a1004b956954773e6574" category="summary">データストアには、 ESXi ホストの仮想マシンとその VMDK が格納されます。ESXi ホストのデータストアは、ストレージクラスタのボリュームにプロビジョニングします。</block>
   <block id="ae6008f02ca0b45c6a4cd4a393db0926" category="doc">データストアをプロビジョニングしてその格納先ボリュームを作成する</block>
   <block id="51793b9466d1621e417beec57432b48e" category="paragraph">VSC では、データストアを自動でプロビジョニングすることができ、指定した SVM にボリュームを作成することもできます。</block>
-  <block id="9bd777b8df02f89f109bd507aebe44cd" category="summary">新しいをセットアップするには、新しいを作成し、 NFS を有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
-  <block id="963ebd9778f5487b1a26decf3928acd7" category="doc">新しい NFS-enabled を作成</block>
   <block id="45b68e6b7d95b623f79bcb6bb2f31176" category="paragraph">ウィザードを使用して、 SVM の作成から、 DNS の設定、データ LIF の作成、および NFS の有効化までの一連の処理を実行することができます。</block>
-  <block id="8335f43bb715b8b81168959acc5ed2a6" category="list-text">Storage Virtual Machine （ SVM ） Setup * ウィンドウで、次のファイルを作成します。</block>
   <block id="16d91ce3e54e199d42185d64282f16aa" category="list-text">データプロトコルとして「 * nfs * 」を選択します。</block>
-  <block id="6cf4a7024cd8da06dfb2de07d0ab1de3" category="paragraph">同じで追加のプロトコルを使用する予定の場合は、すぐに設定しないであっても選択する必要があります。</block>
   <block id="73d7dbe8dde20a9df035458e497ebc27" category="paragraph">選択したルートボリュームのアグリゲートがデータボリュームの場所に対応していない。</block>
   <block id="17d37d4e5172456b53b44a4310af144b" category="image-alt">SVM セットアップ</block>
   <block id="d28037416dced6462706c78db21b49f2" category="paragraph">が作成されますが、プロトコルはまだ設定されていません。</block>
@@ -7924,7 +7915,6 @@
   <block id="a5575c94511939f9d8cf19ce5b41b7c2" category="list-text">表示されている他のすべてのプロトコル設定ページについては、 * Skip * をクリックしてから、後でプロトコルを設定します。</block>
   <block id="caf9dbd96074307c13aa33081a8d3d21" category="list-text">[* Skip] をクリックし、必要に応じて後で管理者を設定します。</block>
   <block id="ad2676b3a3f03b8fbe67f24aa2ca8cc8" category="list-text">「 * 概要 * 」ページを確認し、後で必要となる情報を記録して、「 * OK 」をクリックします。</block>
-  <block id="e4fc8a8fc79c60838d6b6ee645b01c52" category="paragraph">NFS を有効にして新しいが作成されます。</block>
   <block id="7d1eb1565cddc0f48bdf0663892f533b" category="summary">NFS ボリュームを作成する前に、そのボリュームを既存のボリュームに配置するかどうかを決め、既存のボリュームに配置する場合はどのような設定が必要になるかについても確認しておく必要があります。これにより、ワークフローが決まります。</block>
   <block id="aa8da2189cdd9c6ee2326f1fde69b15f" category="list-text">を新規に作成する場合は、既存の SVM で NFS 対応のを作成する手順に従います。</block>
   <block id="95f6f6823a96faf6c739a7e022f0467a" category="list-text">NFS が有効になっているが設定はまだ完了していない既存の SVM にボリュームをプロビジョニングする場合は、既存の SVM に対する NFS アクセスの設定手順に従います。</block>
@@ -9252,4 +9242,11 @@
   <block id="9eb2f679e34f007fb487deb886aea701" category="list-text">ONTAP 9.10.1以降では、System Managerを使用してネットアップライセンスファイル（NLF）をインストールし、複数のライセンス機能を一度に有効にすることができます。NetApp License File を使用すると、個別の機能ライセンスキーを追加する必要がなくなるため、ライセンスのインストールが簡単になります。ネットアップサポートサイトからネットアップライセンスファイルをダウンロードします。</block>
   <block id="08cb1da33bf826c64dbcece5a06b7881" category="paragraph">詳細については、を参照してください <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block></block>
   <block id="8aa8ad9857fa98f48cbbef9e553f013e" category="paragraph">ライセンスの管理については、を参照してください <block ref="ce1ae1f692dcc386afa95c6f51ac8788" category="inline-link-macro-rx"></block></block>
+  <block id="d027bd811a2a1f3a54f02f5f6a138ec5" category="summary">既存のSVMにNFSアクセスを追加するには、まずデータ論理インターフェイス（LIF）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
+  <block id="42229a2e75e26c066264f05943b5cd4b" category="list-text">SVMのプロトコルを設定できる* Details *ペインに移動します。</block>
+  <block id="6b772ada3bd4d8de498db46061f4af88" category="doc">既存のSVMでNFSが有効になっていることを確認</block>
+  <block id="b2c6f5e7b85eccc355666a7ce9b42837" category="summary">新しいSVMをセットアップするには、を作成し、NFSを有効にします。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。</block>
+  <block id="8a7baa903a5556eb48abcebc91df47d2" category="paragraph">同じSVM上で追加のプロトコルを使用する予定の場合は、すぐに設定しないであっても選択する必要があります。</block>
+  <block id="2569b2d1e3dcd3875b983af8427bd364" category="paragraph">新しいSVMが、NFS対応で作成されます。</block>
+  <block id="d1b92a4930d50c6ed1038655db0d2684" category="sidebar">すべてのONTAP 製品ドキュメント</block>
 </blocks>

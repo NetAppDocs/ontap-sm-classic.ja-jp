@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html 
 sidebar: sidebar 
-keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing 
-summary: 既存のに NFS アクセスを追加するには、まずデータ論理インターフェイス（ LIF ）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。 
+keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing SVM 
+summary: 既存のSVMにNFSアクセスを追加するには、まずデータ論理インターフェイス（LIF）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。 
 ---
-= 既存のに NFS アクセスを追加
+= 既存の SVM に NFS アクセスを追加
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-既存のに NFS アクセスを追加するには、まずデータ論理インターフェイス（ LIF ）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。
+既存のSVMにNFSアクセスを追加するには、まずデータ論理インターフェイス（LIF）を作成する必要があります。その後、 Virtual Storage Console を使用して ESXi ホストに NFS アクセスを設定し、 ESXi で NFS が有効になっていることを確認できます。
 
 .作業を開始する前に
 * で使用する次のネットワークコンポーネントを確認しておく必要があります。
@@ -28,9 +28,9 @@ summary: 既存のに NFS アクセスを追加するには、まずデータ論
 
 
 .手順
-. のプロトコルを設定できる * Details * ペインに移動します。
+. SVMのプロトコルを設定できる* Details *ペインに移動します。
 +
-.. 設定するを選択します。
+.. 設定する SVM を選択します。
 .. [* 詳細 * （ * Details * ） ] パネルの [ * プロトコル * （ * Protocols ） ] の横にある [* NFS* （ * NFS * ） ] をクリック
 +
 image::../media/svm_add_protocol_nfs_nfs_esxi.gif[この図には説明が付随しています。]

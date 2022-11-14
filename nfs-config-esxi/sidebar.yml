@@ -28,11 +28,11 @@ entries:
     url: "/nfs-config-esxi/task_creating_aggregate.html"
   - title: 新しいボリュームをプロビジョニングする場所を決定します
     url: "/nfs-config-esxi/task_deciding_where_to_provision_new_volume.html"
-  - title: 新しい NFS-enabled を作成
+  - title: NFS 対応 SVM を新規に作成
     url: "/nfs-config-esxi/task_creating_new_nfs_enabled_svm.html"
-  - title: 既存のに NFS アクセスを追加
+  - title: 既存の SVM に NFS アクセスを追加
     url: "/nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html"
-  - title: 既存ので NFS が有効になっていることを確認する
+  - title: 既存のSVMでNFSが有効になっていることを確認
     url: "/nfs-config-esxi/task_verifying_that_nfs_is_enabled_on_existing_svm.html"
   - title: データストアをプロビジョニングしてその格納先ボリュームを作成する
     url: "/nfs-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
