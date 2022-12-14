@@ -13,10 +13,12 @@ summary: データストアには、 ESXi ホストの仮想マシンとその V
 [role="lead"]
 データストアには、 ESXi ホストの仮想マシンとその VMDK が格納されます。ESXi ホストのデータストアは、ストレージクラスタの LUN にプロビジョニングします。
 
+.作業を開始する前に
 Virtual Storage Console for VMware vSphere （ VSC ）をインストールし、 ESXi ホストを管理する vCenter Server に登録しておく必要があります。
 
 VSC に、クラスタまたは Storage Virtual Machine （ SVM ）に LUN およびボリュームを作成するための十分な権限が必要です。
 
+.このタスクについて
 VSC では、データストアを自動でプロビジョニングすることができ、 LUN とボリュームも指定した SVM に自動的に作成されます。
 
 .手順

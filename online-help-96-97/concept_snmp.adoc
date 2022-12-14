@@ -31,6 +31,7 @@ System Manager を使用して、クラスタで SNMP を有効または無効�
 
 System Manager の Edit SNMP Settings ダイアログボックスを使用して、ストレージシステムの場所と担当者に関する情報を更新したり、システムの SNMP コミュニティを指定したりできます。
 
+.このタスクについて
 System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP コミュニティを使用して、ストレージシステムを検出します。
 
 .手順
@@ -60,6 +61,7 @@ System Manager は、 SNMP プロトコル SNMPv1 と SNMPv2c 、および SNMP 
 
 SNMP トラップを使用すると、ストレージシステムのさまざまなコンポーネントのヘルスと状態を監視できます。System Manager の Edit SNMP Settings ダイアログボックスを使用して、ストレージシステム上の SNMP トラップを有効または無効にすることができます。
 
+.このタスクについて
 SNMP はデフォルトで有効になっていますが、 SNMP トラップはデフォルトでは無効になっています。
 
 .手順

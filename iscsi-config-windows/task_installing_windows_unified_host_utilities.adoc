@@ -13,6 +13,7 @@ summary: Windows Unified Host Utilities には、ネットアップの ONTAP お
 [role="lead"]
 Windows Unified Host Utilities には、ネットアップの ONTAP および E シリーズのプラットフォームにおけるストレージシステムの動作を Windows ホストが正しく処理できるように、必要な Windows のレジストリパラメータと HBA パラメータを設定するインストールプログラムが含まれています。
 
+.作業を開始する前に
 次の作業を完了しておきます。
 
 * Interoperability Matrix でサポートされている構成を確認します
@@ -30,6 +31,7 @@ https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確�
 
 
 
+.このタスクについて
 Windows Unified Host Utilities ソフトウェアパッケージのインストール時に、マルチパスのサポートを含めるかどうかを指定する必要があります。Windows ホストまたは仮想マシンからストレージシステムへのパスが複数ある場合は、 MPIO を選択します。ストレージシステムへのパスが 1 つしかない場合にのみ、 MPIO を使用しないようにします。
 
 [NOTE]

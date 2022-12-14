@@ -13,10 +13,12 @@ summary: Windows ホストの FC ホストバスアダプタ（ HBA ）でサポ
 [role="lead"]
 Windows ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。
 
+.作業を開始する前に
 構成に対してサポートされているドライバ、ファームウェア、 BIOS のバージョンを Interoperability Matrix ツールで確認しておく必要があります。
 
 https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
 
+.このタスクについて
 ドライバ、ファームウェア、 BIOS 、 HBA ユーティリティは HBA ベンダーから提供されます。
 
 .手順

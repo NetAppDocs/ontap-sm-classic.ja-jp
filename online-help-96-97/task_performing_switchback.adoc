@@ -13,6 +13,7 @@ summary: System Manager 9.6 以降では、スイッチオーバー処理の完�
 [role="lead"]
 System Manager 9.6 以降では、スイッチオーバー処理の完了後にスイッチバック処理を実行して、元の MetroCluster サイト（サイト B ）に制御を戻すことができます。
 
+.作業を開始する前に
 スイッチバック処理を実行する前に、次の作業を完了しておく必要があります。
 
 * で MetroCluster サイトを準備する必要があります xref:task_performing_negotiated_planned_switchover.adoc[ネゴシエート（計画的）スイッチオーバーの実行] または xref:task_performing_unplanned_switchover.adoc[計画外スイッチオーバーの実行]。
@@ -20,6 +21,7 @@ System Manager 9.6 以降では、スイッチオーバー処理の完了後に�
 * リモートサイトの状態が「 Getting ready for switchback 」と表示されている場合、アグリゲートはまだ再同期中です。スイッチバックの準備が完了したことを示すステータスがリモートサイトに表示されるまで待ちます。
 
 
+.このタスクについて
 スイッチオーバー処理が成功すると、 MetroCluster のスイッチオーバーとスイッチバックの処理のウィンドウが表示されます。このウィンドウには、両方のサイトのステータスと、処理が成功したことを示すメッセージが表示されます。
 
 .手順

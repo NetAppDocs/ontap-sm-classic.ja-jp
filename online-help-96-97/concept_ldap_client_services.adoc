@@ -19,6 +19,7 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 
 LDAP サービスを使用する場合は、 System Manager を使用して LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで追加できます。LDAP サービスを使用するには、最初に LDAP クライアントを設定する必要があります。
 
+.このタスクについて
 SVM レベルでは、選択した SVM に対してのみ LDAP クライアントを追加できます。
 
 .手順
@@ -44,6 +45,7 @@ SVM レベルでは、選択した SVM に対してのみ LDAP クライアン�
 
 System Manager を使用して、 LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで削除できます。
 
+.このタスクについて
 SVM レベルでは、選択した SVM に対してのみ LDAP クライアントを削除できます。
 
 .手順
@@ -64,6 +66,7 @@ SVM レベルでは、選択した SVM に対してのみ LDAP クライアン�
 
 System Manager を使用して、 LDAP クライアント設定をクラスタレベルまたは Storage Virtual Machine （ SVM ）レベルで編集できます。
 
+.このタスクについて
 SVM レベルでは、選択した SVM に対してのみ LDAP クライアントを編集できます。
 
 .手順

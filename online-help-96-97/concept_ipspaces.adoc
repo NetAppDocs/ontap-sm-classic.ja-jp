@@ -37,8 +37,10 @@ System Manager を使用して、既存の IPspace の名前を変更できま�
 
 System Manager を使用して、不要になった IPspace を削除できます。
 
+.作業を開始する前に
 削除する IPspace に関連付けられているブロードキャストドメイン、ネットワークインターフェイス、ピア関係、または Storage Virtual Machine （ SVM ）がないようにします。
 
+.このタスクについて
 システム定義の「デフォルト」の IPspace と「クラスタ」の IPspace は削除できません。
 
 .手順

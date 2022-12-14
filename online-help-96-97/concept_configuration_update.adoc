@@ -19,6 +19,7 @@ ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用
 
 System Manager を使用して、 Storage Virtual Machine （ SVM ）管理の詳細を簡単に設定することができます。必要に応じて、 SVM の管理を SVM 管理者に委譲することもできます。
 
+.このタスクについて
 SVM 管理者は、委譲された SVM の管理に System Manager を使用できません。SVMs を管理するには、コマンドラインインターフェイス（ CLI ）を使用する必要があります。
 
 .手順

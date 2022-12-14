@@ -32,6 +32,7 @@ System Manager では、セキュアなアイデンティティプロバイダ�
 * IdP の URI が必要です。
 
 
+.このタスクについて
 System Manager で検証済みの IdP は、 Shibboleth および Active Directory フェデレーションサービスです。
 
 [NOTE]
@@ -73,6 +74,7 @@ IdP の設定後にユーザが完全修飾ドメイン名（ FQDN ）、 IPv6 �
 
 System Manager へのリモートアクセスを無効にしたり、 Security Assertion Markup Language （ SAML ）の設定を編集したりするときは、 SAML 認証を無効にできます。
 
+.このタスクについて
 SAML 認証を無効にしても SAML の設定は削除されません。
 
 .手順

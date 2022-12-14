@@ -13,6 +13,7 @@ summary: System Manager の VMware 用 NFS データストアの作成ウィザ�
 [role="lead"]
 VMware 用 NFS データストアの作成ウィザードは、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）で使用して、 VMware 用の NFS データストアを作成できます。NFS データストアのボリュームを作成し、 NFS データストアにアクセスする ESX サーバを指定できます。
 
+.作業を開始する前に
 NFS サービスのライセンスが有効になっている必要があります。
 
 .手順

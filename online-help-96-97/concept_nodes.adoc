@@ -17,8 +17,10 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 
 System Manager を使用して、 ComplianceClock 時間を現在のクラスタ時間に初期化できます。SnapLock アグリゲートを作成するには、 ComplianceClock 時間を初期化しておく必要があります。
 
+.作業を開始する前に
 SnapLock ライセンスがインストールされている必要があります。
 
+.このタスクについて
 初期化した ComplianceClock 時間は、変更または停止することはできません。
 
 .手順

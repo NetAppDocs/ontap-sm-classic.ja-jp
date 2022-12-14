@@ -13,8 +13,10 @@ summary: System Manager を使用して、ボリューム内の Snapshot コピ�
 [role="lead"]
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ボリューム内の Snapshot コピーの有効期限を延長できます。
 
+.作業を開始する前に
 システムに SnapLock ライセンスがインストールされている必要があります。
 
+.このタスクについて
 有効期限を延長できるのは、 SnapLock for SnapVault 関係のデスティネーションとして設定されているデータ保護（ DP ）ボリューム内の Snapshot コピーだけです。
 
 .手順

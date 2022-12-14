@@ -13,6 +13,7 @@ summary: Linux Unified Host Utilities ソフトウェアに、 sanlun ユーテ�
 [role="lead"]
 Linux Unified Host Utilities ソフトウェアには、「 anlun 」ユーティリティが含まれています。これは、 Linux ホスト上のストレージクラスタノードと Host Bus Adapter （ HBA ；ホストバスアダプタ）に関する情報を表示するための NetApp LUN レポート作成ツールです。ネットアップストレージのパフォーマンスを最適化するには、さらに、 Linux ホストで正しいサーバプロファイルを有効にする必要があります。
 
+.作業を開始する前に
 Interoperability Matrix を使用して、構成に対してサポートされている Linux Unified Host Utilities のバージョンを確認しておく必要があります。また、 Linux OS ディストリビューションの一部である「 tuned 」パッケージも必要です。このパッケージには「 tuned-adm 」コマンドが含まれており、これを使用してホスト上のサーバプロファイルを設定します。
 
 .手順

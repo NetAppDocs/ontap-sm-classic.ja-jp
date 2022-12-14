@@ -13,6 +13,7 @@ summary: System Manager 9.6 以降では、 Storage Virtual Machine （ SVM ）�
 [role="lead"]
 System Manager 9.6 以降では、 Storage Virtual Machine （ SVM ）の CIFS / NFS ファイルアクセスエラーを診断できます。
 
+.このタスクについて
 「 access denied 」エラーなどのファイル・アクセスの問題は ' 共有の構成 ' 権限 ' またはユーザ・マッピングに問題がある場合に発生する可能性がありますファイルアクセスの問題を解決するには、 System Manager を使用して、ユーザがアクセスを希望するファイルまたは共有のアクセストレース結果を表示すると役立ちます。System Manager には、ファイルまたは共有に対する読み取り、書き込み、または実行の有効な権限があるかどうかと、アクセスが有効または無効な理由が表示されます。
 
 .手順

@@ -96,7 +96,7 @@ cluster1-2            true    true
 cluster1-3            true    true
 3 entries were displayed.
 ----
-. 手順を繰り返します ,#step_3D8223C5AC7145EE8C9A9397270D0610 から ,#step_F6678CB6B1A94AF08F86F83BA8BA8E35 をクリックします。
+. 手順を繰り返します <<STEP_3D8223C5AC7145EE8C9A9397270D0610,#step_3D8223C5AC7145EE8C9A9397270D0610>> から <<STEP_F6678CB6B1A94AF08F86F83BA8BA8E35,#step_F6678CB6B1A94AF08F86F83BA8BA8E35>> をクリックします。
 +
 2 つ目のノードでは、クラスタセットアップウィザードの次の点が異なります。
 

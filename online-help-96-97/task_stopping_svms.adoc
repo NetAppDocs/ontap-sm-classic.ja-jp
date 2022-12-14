@@ -13,6 +13,7 @@ summary: Storage Virtual Machine （ SVM ）を含む問題のトラブルシュ
 [role="lead"]
 Storage Virtual Machine （ SVM ）を含む問題 のトラブルシューティングを行う場合、 SVM を削除する場合、または SVM からのデータアクセスを停止する場合は、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して SVM を停止できます。
 
+.作業を開始する前に
 SVM に接続されているすべてのクライアントを切断する必要があります。
 
 [NOTE]
@@ -30,4 +31,5 @@ SVM の停止時に SVM にクライアントが接続されていると、デ�
 . 停止する SVM を選択し、 * 停止 * をクリックします。
 
 
+.結果
 SVM によるクライアントへのデータの提供が停止します。

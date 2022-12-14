@@ -13,6 +13,7 @@ summary: Virtual Storage Console for VMware vSphere を使用すると、 ESXi �
 [role="lead"]
 Virtual Storage Console for VMware vSphere を使用すると、 ESXi ホストでネットアップの iSCSI ストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。Virtual Storage Console は vCenter Server のプラグインです。
 
+.作業を開始する前に
 ESXi ホストの管理に使用する vCenter Server に対する管理者クレデンシャルが必要です。
 
 .このタスクについて

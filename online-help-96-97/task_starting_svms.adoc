@@ -18,4 +18,5 @@ Storage Virtual Machine （ SVM ）を起動すると、 ONTAP System Manager �
 . 開始する SVM を選択し、 * Start * をクリックします。
 
 
+.結果
 SVM によるクライアントへのデータの提供が開始されます。

@@ -13,6 +13,7 @@ summary: DM-Multipath は、 Linux ホストとストレージクラスタの間
 [role="lead"]
 DM-Multipath は、 Linux ホストとストレージクラスタの間の複数のパスを管理します。Linux ホストから SCSI デバイスとして認識される LUN で DM-Multipath を設定すると、パスやコンポーネントで障害が発生した場合でも Linux ホストからストレージクラスタの LUN にアクセスできるようになります。
 
+.作業を開始する前に
 必要な DM-Multipath のバージョンを Interoperability Matrix Tool で確認しておく必要があります。
 
 https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]

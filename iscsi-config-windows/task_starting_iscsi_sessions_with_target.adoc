@@ -13,8 +13,10 @@ summary: Windows ホストには、クラスタ内の各ノードへの iSCSI �
 [role="lead"]
 Windows ホストには、クラスタ内の各ノードへの iSCSI 接続が必要です。ホストからセッションを確立するには、ホストの iSCSI Initiator Properties （ iSCSI イニシエータのプロパティ）ダイアログボックスを使用します。
 
+.作業を開始する前に
 アクセスする LUN を含む Storage Virtual Machine （ SVM ）の iSCSI データ LIF の IP アドレスを確認しておく必要があります。
 
+.このタスクについて
 ONTAP では、 iSCSI ホストからクラスタ内の各ノードへのパスを設定する必要があります。ネイティブ DSM では、使用する最適なパスが選択されます。パスに障害が発生した場合は、ネイティブ DSM で代替パスが選択されます。
 
 iSCSI Initiator Properties （ iSCSI イニシエータのプロパティ）ダイアログボックスのボタンとラベルは、 Windows のバージョンによって異なります。タスクの手順には、複数のボタンまたはラベル名が含まれているものもあります。使用している Windows のバージョンに一致する名前を選択してください。

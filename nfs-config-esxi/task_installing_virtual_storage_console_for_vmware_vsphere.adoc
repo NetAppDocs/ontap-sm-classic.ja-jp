@@ -13,6 +13,7 @@ summary: では、 ESXi ホストでストレージを使用するために必�
 [role="lead"]
 Virtual Storage Console forを使用すると、ESXiホストでストレージを使用するために必要な設定タスクやプロビジョニングタスクの多くを自動化できます。は、 vCenter Server のプラグインです。
 
+.作業を開始する前に
 ESXi ホストの管理に使用する vCenter Server に対する管理者クレデンシャルが必要です。
 
 .このタスクについて

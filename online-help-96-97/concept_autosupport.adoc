@@ -34,6 +34,7 @@ System Manager の Edit AutoSupport Settings dialog box を使用して、 E メ
 
 System Manager を使用して、ストレージシステムで AutoSupport 設定を有効または無効にすることができます。AutoSupport メッセージを使用すると、ストレージシステムのヘルスを監視したり、テクニカルサポートや社内のサポート部門に通知を送信したりできます。
 
+.このタスクについて
 AutoSupport オプションはデフォルトで有効になっています。
 
 .手順

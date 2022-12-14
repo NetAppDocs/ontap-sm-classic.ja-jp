@@ -13,6 +13,7 @@ summary: System Manager を使用して、不要になった Storage Virtual Mac
 [role="lead"]
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、ストレージシステム構成から不要になった Storage Virtual Machine （ SVM ）を削除できます。
 
+.作業を開始する前に
 次の作業を完了しておきます。
 
 . すべてのボリュームの Snapshot コピー、データ保護（ DP ）ミラー、および負荷共有（ LS ）ミラーを無効にします
@@ -32,6 +33,7 @@ LS ミラーを無効にするには、コマンドラインインターフェ�
 . SVM を停止します
 
 
+.このタスクについて
 SVM を削除すると、 SVM に関連付けられている次のオブジェクトも削除されます。
 
 * LIF 、 LIF フェイルオーバーグループ、および LIF ルーティンググループ

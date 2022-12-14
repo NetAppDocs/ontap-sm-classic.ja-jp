@@ -13,6 +13,7 @@ summary: System Manager 9.6 以降では、 FlexCache ボリュームを作成�
 [role="lead"]
 System Manager 9.6 以降では、 FlexCache ボリュームを作成できます。
 
+.このタスクについて
 FlexCache を作成するには、 FlexCache 容量ライセンスが必要です。
 
 .手順

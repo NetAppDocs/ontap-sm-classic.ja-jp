@@ -23,4 +23,5 @@ image::../media/aggregate_creation_fc_esxi.gif[System Manager のアグリゲー
 
 
 
+.結果
 指定した構成でアグリゲートが作成され、アグリゲートウィンドウのアグリゲートのリストに追加されます。

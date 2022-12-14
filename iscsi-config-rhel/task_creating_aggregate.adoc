@@ -23,4 +23,5 @@ image::../media/aggregate_creation_iscsi_rhel.gif[System Manager のアグリゲ
 
 
 
+.結果
 指定した構成でアグリゲートが作成され、アグリゲートウィンドウのアグリゲートのリストに追加されます。

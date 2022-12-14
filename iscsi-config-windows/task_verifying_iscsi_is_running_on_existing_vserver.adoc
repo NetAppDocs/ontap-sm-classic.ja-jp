@@ -13,6 +13,7 @@ summary: 既存の Storage Virtual Machine （ SVM ）を使用する場合、 S
 [role="lead"]
 既存の Storage Virtual Machine （ SVM ）を使用する場合、 SVM で iSCSI サービスが実行されていることを確認する必要があります。
 
+.作業を開始する前に
 新しい LUN を作成する既存の SVM を選択しておく必要があります。
 
 .手順

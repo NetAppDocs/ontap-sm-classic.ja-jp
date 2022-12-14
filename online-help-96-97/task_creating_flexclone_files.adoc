@@ -35,6 +35,7 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 . [* Clone* ] をクリックします。
 
 
+.結果
 FlexClone ファイルは、親ファイルと同じボリューム内に作成されます。
 
 * 関連情報 *

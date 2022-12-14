@@ -33,6 +33,7 @@ CIFS サーバは、基本の NFS Kerberos アクセスには必要ありませ�
 ====
 
 
+.このタスクについて
 Microsoft Active Directory Kerberos を使用する場合は、ドメインで使用する SPN の最初の 15 文字は一意である必要があります。Microsoft Active Directory では、 SPN に最大 15 文字の制限があり、重複する SPN は許可されません。
 
 .手順

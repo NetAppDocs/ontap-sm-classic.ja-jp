@@ -13,6 +13,7 @@ summary: System Manager を使用して、 SAP HANA の基本テンプレート�
 [role="lead"]
 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して、 SAP HANA の基本テンプレートを簡単にプロビジョニングできます。
 
+.このタスクについて
 クラスタ管理者は、基本テンプレートを設定してアプリケーションをプロビジョニングできます。ここでは、 * SAP HANA Server * を設定する例を示します。
 
 .手順
@@ -31,6 +32,7 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 . [Provision Storage] をクリックします
 
 
+.結果
 SAP HANA Server アプリケーションがプロビジョニングされます。
 
 * 関連情報 *

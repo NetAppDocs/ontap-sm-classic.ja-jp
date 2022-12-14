@@ -13,8 +13,10 @@ summary: World Wide Port Name （ WWPN ）は、 FC スイッチのゾーニン�
 [role="lead"]
 World Wide Port Name （ WWPN ）は、 FC スイッチのゾーニングと、ホストから LUN にアクセスできる igroup の作成に必要です。
 
+.作業を開始する前に
 ホストの HBA に対応するベンダーの HBA ユーティリティをインストールし、構成に対してサポートされているバージョンのドライバ、ファームウェア、 BIOS が HBA で実行されていることを確認しておく必要があります。
 
+.このタスクについて
 すべての設定で WWPN が使用されます。World Wide Node Name （ WWNN ）は記録する必要はありません。
 
 .手順

@@ -28,6 +28,7 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 
 
 
+.このタスクについて
 Kerberos Realm を作成するときは、 Kerberos Realm の作成ウィザードで次の属性を設定する必要があります。
 
 * Kerberos Realm を指定します
@@ -56,6 +57,7 @@ Kerberos Realm を作成するときは、 Kerberos Realm の作成ウィザー�
 
 System Manager を使用して、 Kerberos Realm の設定を Storage Virtual Machine （ SVM ）レベルで編集できます。
 
+.このタスクについて
 Kerberos Realm 編集ウィザードを使用して、次の属性を変更できます。
 
 * KDC の IP アドレスとポート番号を指定します

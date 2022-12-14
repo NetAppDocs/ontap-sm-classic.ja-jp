@@ -18,6 +18,7 @@ ONTAP FlexGroup ボリュームが不要になった場合は、 FlexGroup Syste
 * FlexGroup ボリュームがオフラインになっている必要があります。
 
 
+.このタスクについて
 System Manager では、 FlexGroup ボリュームのコンスティチュエントレベルの管理はサポートされません。
 
 .手順

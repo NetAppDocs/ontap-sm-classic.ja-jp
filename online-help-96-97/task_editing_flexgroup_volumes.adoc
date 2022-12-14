@@ -13,8 +13,10 @@ summary: System Manager 9.6 以降では、既存の FlexGroup ボリューム�
 [role="lead"]
 System Manager 9.6 以降では、既存の FlexGroup ボリュームのプロパティを編集できます。
 
+.作業を開始する前に
 FlexGroup はオンラインである必要があります。
 
+.このタスクについて
 FabricPool FlexGroup ボリュームは、次の状況で拡張できます。
 
 * FabricPool FlexGroup ボリュームは、 FabricPool アグリゲートでのみ拡張できます。

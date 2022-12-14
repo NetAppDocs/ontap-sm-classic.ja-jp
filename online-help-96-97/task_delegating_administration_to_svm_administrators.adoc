@@ -13,6 +13,7 @@ summary: Storage Virtual Machine （ SVM ）を最終的な運用状態に、ま
 [role="lead"]
 Storage Virtual Machine（SVM）が機能するように設定したあと、または基本的なネットワーク設定があるSVMを使用して、ONTAP System Managerクラシック（ONTAP 9.7以前で使用可能）を使用してSVMの管理をSVM管理者に委譲することもできます。
 
+.このタスクについて
 SVM 管理者は、 System Manager を使用して委譲された SVM を管理することはできませ委譲された SVM を管理するには CLI を使用する必要があります。
 
 .手順
@@ -74,6 +75,7 @@ SVM 管理者は、 System Manager を使用して委譲された SVM を管理�
 
 
 
+.結果
 「 vsadmin 」アカウントのロックが解除され、パスワードが設定されます。
 
 「 vsadmin 」アカウントのデフォルトのアクセス方法は、 ONTAP API`(ONTAPI) および SSH`(ssh') です。SVM 管理者は、管理 IP アドレスを使用してストレージシステムにログインできます。

@@ -13,6 +13,7 @@ summary: 整理や管理をしやすくするため、 System Manager を使用�
 [role="lead"]
 整理や管理をしやすくするため、 ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使用して Snapshot コピーの名前を変更できます。
 
+.このタスクについて
 SnapVault 関係にある SnapLock DP ボリュームの（ WORM 状態にコミットされている） Snapshot コピーの名前は変更できません。
 
 .手順
