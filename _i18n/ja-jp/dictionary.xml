@@ -8290,7 +8290,6 @@
   <block id="ba406d20b59511a789bd10fb1be98278" category="summary">ONTAP 9.3 以降では、 ONTAP 9.7 まで ONTAP System Manager の「クラシック」インターフェイスを使用して SVM ピア関係を作成できます。Storage Virtual Machine （ SVM ）ピアリングでは、データ保護のために 2 つの SVM 間のピア関係を確立できます。</block>
   <block id="961651a3152e7876bc4ad1526fe7e4d3" category="doc">SVM ピア関係を作成</block>
   <block id="8ffc06d28e87576dd9ff2da3caa069e3" category="paragraph">ONTAP 9.3 以降では、 ONTAP 9.7 までの間、 ONTAP の System Manager の _classic_interface を使用して SVM ピア関係を作成できます。Storage Virtual Machine （ SVM ）ピアリングでは、データ保護のために 2 つの SVM 間のピア関係を確立できます。</block>
-  <block id="16514528850809da669879bf9c0def51" category="paragraph">クラスタピア関係の作成が完了すると、データの可用性を保護することができます。次の情報を使用してデータを保護できます。</block>
   <block id="a97f5cda69815f1e77668550fdaeedca" category="list-text"><block ref="a97f5cda69815f1e77668550fdaeedca" category="inline-link-macro-rx"></block></block>
   <block id="02cf3800215c23ec21668bd5841a318c" category="paragraph">詳細については、以下を参照してください。</block>
   <block id="54bc6840f75a7dff97f8a16136b3b7e5" category="summary">ONTAP 9.2 以前の ONTAP 9 リリースでの ONTAP System Manager の「クラシック」インターフェイスを使用すると、 SVM ピア関係を作成できます。</block>
@@ -9254,4 +9253,8 @@
   <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">NFSプロトコルのトレース結果リスト</block>
   <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[prerequisites- peering、Prerequisites]クラスタピアリングの前提条件]</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">関連情報</block>
+  <block id="0832a9959e45466f30fb7d8ac340284b" category="list-text">SVMを選択し、*[編集]*をクリックします。</block>
+  <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">重複排除がバックグラウンドで継続的に実行されるように指定します。このポリシーは、新規に作成するすべてのボリューム、およびアップグレードしたボリュームのうち、バックグラウンド重複排除が手動で設定されていないボリュームに対して設定されます。ポリシーをデフォルトまたはその他のポリシーに変更すると' autoポリシーは無効になります</block>
+  <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">ボリュームがAFF以外のシステムからAFF システムに移動した場合、デスティネーションノードで「auto」ポリシーがデフォルトで有効になります。ボリュームがAFF ノードからAFF以外のノードに移動すると、デフォルトでデスティネーションノードの「auto」ポリシーが「inline-only」ポリシーに置き換えられます。</block>
+  <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">次の情報を使用してデータを保護できます。</block>
 </blocks>
