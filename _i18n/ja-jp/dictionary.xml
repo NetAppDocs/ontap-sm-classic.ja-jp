@@ -9257,4 +9257,7 @@
   <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">重複排除がバックグラウンドで継続的に実行されるように指定します。このポリシーは、新規に作成するすべてのボリューム、およびアップグレードしたボリュームのうち、バックグラウンド重複排除が手動で設定されていないボリュームに対して設定されます。ポリシーをデフォルトまたはその他のポリシーに変更すると' autoポリシーは無効になります</block>
   <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">ボリュームがAFF以外のシステムからAFF システムに移動した場合、デスティネーションノードで「auto」ポリシーがデフォルトで有効になります。ボリュームがAFF ノードからAFF以外のノードに移動すると、デフォルトでデスティネーションノードの「auto」ポリシーが「inline-only」ポリシーに置き換えられます。</block>
   <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">次の情報を使用してデータを保護できます。</block>
+  <block id="a8bab46b4ec9127ebe1ca2eb2c46a963" category="paragraph">ONTAP 9.7以前のリリースで_Classic_System Manager UIを使用している場合は、このタスクを実行します。ONTAP 9.7以降でSystem Manager UIを使用している場合は、を参照してください <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block>。</block>
+  <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">ライセンスの管理の概要</block>
+  <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">ライセンスの管理の詳細については、を参照してください <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>。</block>
 </blocks>
