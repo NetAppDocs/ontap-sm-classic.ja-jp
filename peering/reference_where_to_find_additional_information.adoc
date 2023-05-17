@@ -27,15 +27,15 @@ summary: クラスタピア関係の作成が完了すると、データの可�
 
 詳細については、以下を参照してください。
 
-* https://docs.netapp.com/us-en/ontap/data-protection/index.html["データ保護"^]
+* https://["データ保護"^]
 +
 リモートシステムへの Snapshot コピーと SnapMirror レプリケーションを使用してデータ損失を防ぐ方法について説明します
 
-* http://www.netapp.com/us/media/tr-4015.pdf["ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"^]
+* http://["ネットアップテクニカルレポート 4015 ：『 SnapMirror Configuration and Best Practices for ONTAP 9.1 、 9.2 』"^]
 +
 クラスタピアリングを含むレプリケーションの設定に関する情報とベストプラクティスが記載されています。
 
-* https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"^]
+* https://["ONTAP の概念"^]
 +
 クラスタピアリングの概念が記載されています。
 

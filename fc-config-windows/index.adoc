@@ -42,5 +42,5 @@ Storage Virtual Machine （ SVM ）に FC サービスをセットアップし�
 | ONTAP コマンドラインインターフェイス（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"^] 
 |===
 .その他のリソース
-* https://docs.netapp.com/us-en/ontap-sanhost/index.html["ネットアップのマニュアル： Host Utilities"^]
+* https://["ネットアップのマニュアル： Host Utilities"^]
 

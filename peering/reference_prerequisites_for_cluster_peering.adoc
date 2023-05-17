@@ -72,4 +72,4 @@ HTTPS は CLI を使用したクラスタピアリングのセットアップ時
 デフォルトの「 intercluster 」ファイアウォールポリシーは、 HTTPS プロトコル経由のアクセス、およびすべての IP アドレス（ 0.0.0.0/0 ）からのアクセスを許可します。ポリシーは必要に応じて変更または置き換えできます。
 
 .関連情報
-https://docs.netapp.com/us-en/ontap/data-protection/index.html["データ保護"]
+https://["データ保護"]

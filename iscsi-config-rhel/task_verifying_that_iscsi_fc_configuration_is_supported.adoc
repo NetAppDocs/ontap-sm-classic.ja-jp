@@ -14,7 +14,7 @@ summary: 安定した運用を実現するために、 iSCSI 構成全体がサ�
 安定した運用を実現するために、 iSCSI 構成全体がサポートされることを確認する必要があります。
 
 .手順
-. にアクセスします https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"] 次のコンポーネントについて、サポートされている組み合わせであることを確認します。
+. にアクセスします https://["NetApp Interoperability Matrix Tool で確認できます"] 次のコンポーネントについて、サポートされている組み合わせであることを確認します。
 +
 ** ONTAP ソフトウェア
 ** ホストコンピュータの CPU アーキテクチャ（標準のラックサーバの場合）

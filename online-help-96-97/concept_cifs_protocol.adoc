@@ -95,4 +95,4 @@ xref:task_editing_volume_properties.adoc[ボリュームプロパティを編集
 
 xref:task_modifying_export_policy_rules.adoc[エクスポートポリシールールの変更]
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"]
+https://["SMB / CIFS の管理"]

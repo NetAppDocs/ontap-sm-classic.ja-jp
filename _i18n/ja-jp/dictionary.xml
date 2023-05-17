@@ -8318,7 +8318,6 @@
   <block id="6c61c05b1d8e0ce824dd01e7039f9406" category="summary">ONTAP 9.7 以前の ONTAP System Manager のクラシックインターフェイスを使用すると、 ONTAP 9 クラスタの同じ Storage Virtual Machine （ SVM ）内のノード間で、データボリュームを無停止で移動できます。</block>
   <block id="74fc6416343947ecb03b99f6d1525ef3" category="paragraph">これらの手順を実行する前に、次の条件を満たしていることを確認してください。</block>
   <block id="79118e59ff8ba91fa097d70306cbb593" category="cell">実行するタスク</block>
-  <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
   <block id="21da5bdcfd1b855ee9de397cb8a78a1d" category="cell"><block ref="21da5bdcfd1b855ee9de397cb8a78a1d" category="inline-link-rx"></block></block>
   <block id="edac2410e6e0abc8a44fc79a7cd44017" category="inline-link-macro">NFS と SMB の両方を使用して Windows と Linux の両方に NAS ストレージをプロビジョニングする</block>
   <block id="4487b7ad6b82e7128f715f08580539cd" category="cell"><block ref="4487b7ad6b82e7128f715f08580539cd" category="inline-link-macro-rx"></block></block>
@@ -9260,4 +9259,5 @@
   <block id="a8bab46b4ec9127ebe1ca2eb2c46a963" category="paragraph">ONTAP 9.7以前のリリースで_Classic_System Manager UIを使用している場合は、このタスクを実行します。ONTAP 9.7以降でSystem Manager UIを使用している場合は、を参照してください <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block>。</block>
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">ライセンスの管理の概要</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">ライセンスの管理の詳細については、を参照してください <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
 </blocks>

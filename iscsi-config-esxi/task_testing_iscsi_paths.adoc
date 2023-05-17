@@ -37,4 +37,4 @@ ping コマンドは、 ESXi サービスコンソールから使用できます
 
 * 関連情報 *
 
-http://kb.vmware.com/kb/1003486["VMware の技術情報アーティクル 1003486 ：「 Testing network connectivity with the ping command"]
+http://["VMware の技術情報アーティクル 1003486 ：「 Testing network connectivity with the ping command"]

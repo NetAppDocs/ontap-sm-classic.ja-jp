@@ -51,4 +51,4 @@ System Manager を使用して、不要になった IPspace を削除できま�
 
 * 関連情報 *
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]
+https://["Network Management の略"]

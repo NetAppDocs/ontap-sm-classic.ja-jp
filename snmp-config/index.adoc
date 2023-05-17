@@ -40,13 +40,13 @@ ONTAP 9 のすべてのバージョンで、を使用したクラスタへの SN
  a| 
 再設計された System Manager （ ONTAP 9.7 以降で使用可能）
  a| 
-https://docs.netapp.com/us-en/ontap/networking/manage_snmp_on_the_cluster_@cluster_administrators_only@_overview.html["クラスタ上の SNMP の管理（クラスタ管理者のみ） > 概要"^]
+https://["クラスタ上の SNMP の管理（クラスタ管理者のみ） > 概要"^]
 
 
 
  a| 
 ONTAP コマンドラインインターフェイス（ CLI ）
  a| 
-https://docs.netapp.com/us-en/ontap/networking/commands_for_managing_snmp.html["SNMP を管理するためのコマンド"^]
+https://["SNMP を管理するためのコマンド"^]
 
 |===

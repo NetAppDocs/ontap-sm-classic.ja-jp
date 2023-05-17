@@ -27,9 +27,9 @@ ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）
 * iSCSI SAN ブートを設定しない。
 
 
-ONTAP で特定のホストを設定する方法の詳細については、を参照してください https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN ホスト構成"]。
+ONTAP で特定のホストを設定する方法の詳細については、を参照してください https://["ONTAP SAN ホスト構成"]。
 
-SAN の管理の詳細については、を参照してください https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN の管理の概要"]
+SAN の管理の詳細については、を参照してください https://["ONTAP 9 SAN の管理の概要"]
 
 
 
@@ -41,8 +41,8 @@ SAN の管理の詳細については、を参照してください https://docs
 | 実行するタスク | 参照先 
 
 
-| 再設計された System Manager （ 9.7 以降で使用可能） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["Linux サーバ用の SAN ストレージをプロビジョニング"^] 
+| 再設計された System Manager （ 9.7 以降で使用可能） | https://["SAN ストレージをプロビジョニング"^] 
 
 
-| ONTAP コマンドラインインターフェイス（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI での LUN セットアップのワークフロー"^] 
+| ONTAP コマンドラインインターフェイス（ CLI ） | https://["CLI での LUN セットアップのワークフロー"^] 
 |===

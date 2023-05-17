@@ -16,7 +16,7 @@ DM-Multipath は、 Linux ホストとストレージクラスタの間の複数
 .作業を開始する前に
 必要な DM-Multipath のバージョンを Interoperability Matrix Tool で確認しておく必要があります。
 
-https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
+https://["NetApp Interoperability Matrix Tool で確認できます"]
 
 [NOTE]
 ====

@@ -30,13 +30,13 @@ image::../media/volume_move_workflow.jpg[ボリューム移動ワークフロー
  a| 
 再設計された System Manager （ ONTAP 9.7 以降で使用可能）
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["ボリュームを管理します"^]
+https://["ボリュームを管理します"^]
 
 
 
  a| 
 ONTAP コマンドラインインターフェイス
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]
+https://["論理ストレージ管理"^]
 
 |===

@@ -103,4 +103,4 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）に付
 
 * 関連情報 *
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/System_Manager_Cluster_Guided_Setup_Templates["System Manager クラスタセットアップガイド用テンプレート"]
+https://["System Manager クラスタセットアップガイド用テンプレート"]

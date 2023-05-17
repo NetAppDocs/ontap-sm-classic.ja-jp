@@ -47,4 +47,4 @@ summary: ディスクスペースを節約したり解放したりする場合�
 
 xref:reference_volumes_window.adoc[Volumes （ボリューム）ウィンドウ]
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
+https://["ONTAP 9 ドキュメンテーション・センター"]

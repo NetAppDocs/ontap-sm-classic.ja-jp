@@ -18,11 +18,11 @@ Windows Unified Host Utilities には、ネットアップの ONTAP および E 
 
 * Interoperability Matrix でサポートされている構成を確認します
 +
-https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
+https://["NetApp Interoperability Matrix Tool で確認できます"]
 
 * 必要な Windows 修正プログラムを Interoperability Matrix で確認します
 +
-https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
+https://["NetApp Interoperability Matrix Tool で確認できます"]
 
 * FCP ライセンスを追加し、ターゲットサービスを開始します
 * ケーブル接続を確認します
@@ -43,12 +43,12 @@ Hyper-V ゲストでマルチパスのサポートを選択した場合、 raw �
 
 インストールに関する詳細情報は、を参照してください link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html#installing-the-host-utilities["Windows Unified Host のインストール"]。
 
-https://mysupport.netapp.com/site/global/dashboard["ネットアップサポート"]
+https://["ネットアップサポート"]
 
 .手順
 . ネットアップサポートサイトから該当するバージョンの Windows Unified Host Utilities をダウンロードします。
 +
-https://mysupport.netapp.com/site/global/dashboard["ネットアップサポート"]
+https://["ネットアップサポート"]
 
 . 実行ファイルを実行し、画面の指示に従います。
 . プロンプトが表示されたら、 Windows ホストをリブートします。

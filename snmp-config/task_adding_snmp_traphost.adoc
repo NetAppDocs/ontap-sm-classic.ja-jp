@@ -19,7 +19,7 @@ IPv6 アドレスを使用して SNMP トラップホストを設定するには
 .このタスクについて
 SNMP トラップと SNMP トラップはデフォルトで有効になっています。SNMP トラップでサポートされるデフォルトのイベントについては、 SNMP サポートに関するネットアップテクニカルレポート TR-4220 を参照してください。
 
-http://www.netapp.com/us/media/tr-4220.pdf["ネットアップテクニカルレポート 4220 ：『 SNMP Support in Data ONTAP 』"^]
+http://["ネットアップテクニカルレポート 4220 ：『 SNMP Support in Data ONTAP 』"^]
 
 .手順
 . SNMP ウィンドウで *edit* をクリックして、 * Edit SNMP Settings * ダイアログボックスを開きます。

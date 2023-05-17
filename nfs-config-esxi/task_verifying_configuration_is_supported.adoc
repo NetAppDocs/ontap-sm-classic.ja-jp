@@ -16,7 +16,7 @@ summary: 安定した運用を実現するために、構成全体がサポー�
 .手順
 . に移動して、次のコンポーネントについて、サポートされている組み合わせであることを確認します。
 +
-https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
+https://["NetApp Interoperability Matrix Tool で確認できます"]
 
 +
 ** ONTAP ソフトウェア

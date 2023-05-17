@@ -126,6 +126,6 @@ LUN
 |===
 * 関連情報 *
 
-https://hwu.netapp.com["NetApp Hardware Universe の略"^]
+https://["NetApp Hardware Universe の略"^]
 
-http://www.netapp.com/us/media/tr-3437.pdf["ネットアップテクニカルレポート 3437 ：『 Storage Subsystem Resiliency 』"^]
+http://["ネットアップテクニカルレポート 3437 ：『 Storage Subsystem Resiliency 』"^]

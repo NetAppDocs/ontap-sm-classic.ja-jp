@@ -225,10 +225,10 @@ qtree が割り当てられているエクスポートポリシーの名前が�
 
 * 関連情報 *
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"^]
+https://["ONTAP の概念"^]
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]
+https://["論理ストレージ管理"^]
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]
+https://["NFS の管理"^]
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"^]
+https://["SMB / CIFS の管理"^]

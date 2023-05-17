@@ -16,7 +16,7 @@ ONTAP で FabricPool 対応アグリゲート用のオブジェクトストア�
 .手順
 . StorageGRID システムのドキュメントに従って、グリッド管理インターフェイスを使用して StorageGRID システムの CA 証明書をコピーします。
 +
-https://docs.netapp.com/sgws-113/topic/com.netapp.doc.sg-admin/home.html["StorageGRID 11.3 管理者ガイド"]
+https://["StorageGRID 11.3 管理者ガイド"]
 
 +
 StorageGRID をクラウド階層として追加する場合に CA 証明書がインストールされていないと、メッセージが表示されます。

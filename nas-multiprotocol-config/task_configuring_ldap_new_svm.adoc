@@ -19,13 +19,13 @@ Storage Virtual Machine （ SVM ）が Active Directory ベースの Lightweight
 別の種類の LDAP を使用する場合は、他のドキュメントに従って、コマンドラインインターフェイス（ CLI ）を使用して LDAP を設定する必要があります。
 
 +
-https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["ネットアップテクニカルレポート 4067 ：『 NFS in NetApp ONTAP 』"^]
+https://["ネットアップテクニカルレポート 4067 ：『 NFS in NetApp ONTAP 』"^]
 
 +
-https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["ネットアップテクニカルレポート 4616 ：『 NFS Kerberos in ONTAP with Microsoft Active Directory 』"^]
+https://["ネットアップテクニカルレポート 4616 ：『 NFS Kerberos in ONTAP with Microsoft Active Directory 』"^]
 
 +
-https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["ネットアップテクニカルレポート 4835 ：『 How to Configure LDAP in ONTAP 』"^]
+https://["ネットアップテクニカルレポート 4835 ：『 How to Configure LDAP in ONTAP 』"^]
 
 * AD ドメインと AD サーバ、およびバインドに使用する認証レベル、バインドユーザとパスワード、ベース DN 、 LDAP ポートの情報を確認しておく必要があります。
 

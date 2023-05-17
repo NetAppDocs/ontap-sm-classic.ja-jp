@@ -129,4 +129,4 @@ Swap Group Mapping Entries ダイアログボックスを開きます。この�
 
 * 関連情報 *
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"]
+https://["SMB / CIFS の管理"]

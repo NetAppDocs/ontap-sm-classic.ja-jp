@@ -29,8 +29,8 @@ HBA ユーティリティを使用して、各 FC ポートの World Wide Port N
 
 * 関連情報 *
 
-https://www.broadcom.com/support/download-search?tab=search["Broadcom （ Emulex ）サポートドキュメントおよびダウンロード"]
+https://["Broadcom （ Emulex ）サポートドキュメントおよびダウンロード"]
 
-https://www.broadcom.com/products/storage/fibre-channel-host-bus-adapters/emulex-hba-manager["Emulex HBA Manager の略"]
+https://["Emulex HBA Manager の略"]
 
-http://driverdownloads.qlogic.com/QLogicDriverDownloads_UI/OEM_Product_List.aspx?oemid=372["QLogic ：ネットアップのダウンロード"]
+http://["QLogic ：ネットアップのダウンロード"]

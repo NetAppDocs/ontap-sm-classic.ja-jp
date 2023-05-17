@@ -22,4 +22,4 @@ summary: データストアをマウントすると、ホストからストレ�
 
 * 関連情報 *
 
-https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["Virtual Storage Console 、 VASA Provider 、 Storage Replication Adapter for VMware vSphere 9.6 リリース"]
+https://["Virtual Storage Console 、 VASA Provider 、 Storage Replication Adapter for VMware vSphere 9.6 リリース"]

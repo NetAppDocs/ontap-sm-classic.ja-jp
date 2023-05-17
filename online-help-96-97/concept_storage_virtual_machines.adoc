@@ -15,6 +15,6 @@ ONTAP System Manager クラシック（ ONTAP 9.7 以前で使用可能）を使
 
 * 関連情報 *
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
+https://["SAN 管理"^]
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"^]
+https://["ONTAP の概念"^]

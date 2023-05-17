@@ -22,4 +22,4 @@ LUN タブは、 FC / FCoE および iSCSI のライセンスが有効になっ�
 ====
 * 関連情報 *
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
+https://["SAN 管理"^]

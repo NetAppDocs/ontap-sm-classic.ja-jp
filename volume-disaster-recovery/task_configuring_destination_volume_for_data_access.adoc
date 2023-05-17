@@ -47,4 +47,4 @@ summary: デスティネーションボリュームをアクティブ化した�
 
 * 関連情報 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
+https://["ONTAP 9 ドキュメンテーション・センター"]

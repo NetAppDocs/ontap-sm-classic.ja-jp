@@ -138,10 +138,10 @@ raw LUN の場合、 LUN マルチプロトコルタイプで使用するゲス�
 
 xref:task_creating_luns.adoc[LUN を作成しています]
 
-https://mysupport.netapp.com/NOW/products/interoperability["ネットアップの相互運用性"]
+https://["ネットアップの相互運用性"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148981["『 Solaris Host Utilities 6.1 Installation and Setup Guide 』"]
+https://["『 Solaris Host Utilities 6.1 Installation and Setup Guide 』"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148983["『 Solaris Host Utilities 6.1 Quick Command Reference 』"]
+https://["『 Solaris Host Utilities 6.1 Quick Command Reference 』"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148982["『 Solaris Host Utilities 6.1 Release Notes 』"]
+https://["『 Solaris Host Utilities 6.1 Release Notes 』"]

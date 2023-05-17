@@ -285,4 +285,4 @@ xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[Fl
 
 xref:task_provisioning_cache_by_adding_disks.adoc[SSD の追加によるキャッシュのプロビジョニング]
 
-https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["ディスクおよびアグリゲートの管理"]
+https://["ディスクおよびアグリゲートの管理"]
