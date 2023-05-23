@@ -19,13 +19,13 @@ summary: クラスタを拡張する前に、拡張後の構成がクラスタ�
 
 * 現在のクラスタが 2 ノードのスイッチレスクラスタである場合は、希望するタイプのスイッチを使用する 2 ノードのスイッチクラスタに移行します。
 +
-https://["Cisco クラスタスイッチを使用した 2 ノードスイッチクラスタへの移行"]
+https://library.netapp.com/ecm/ecm_download_file/ECMP1140536["Cisco クラスタスイッチを使用した 2 ノードスイッチクラスタへの移行"]
 
 +
-https://["NetApp CN1610 クラスタスイッチを使用した 2 ノードスイッチクラスタへの移行"]
+https://library.netapp.com/ecm/ecm_download_file/ECMP1140535["NetApp CN1610 クラスタスイッチを使用した 2 ノードスイッチクラスタへの移行"]
 
 * 既存のスイッチに今後の構成をサポートするための十分なポートがない場合は、適切な交換用手順を使用してスイッチを交換します。
 +
-https://["ネットアップのマニュアル：クラスタ、管理、およびストレージスイッチ"]
+https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["ネットアップのマニュアル：クラスタ、管理、およびストレージスイッチ"]
 
 

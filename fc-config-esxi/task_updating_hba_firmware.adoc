@@ -14,7 +14,7 @@ summary: ESX ホストの FC ホストバスアダプタでサポート対象外
 ESX ホストの FC ホストバスアダプタ（ HBA ）でサポート対象外のバージョンのドライバ、ファームウェア、 BIOS が実行されている場合は、更新する必要があります。
 
 .作業を開始する前に
-構成に対してサポートされているドライバ、ファームウェア、 BIOS のバージョンをで確認しておく必要があります https://["NetApp Interoperability Matrix Tool で確認できます"]。
+構成に対してサポートされているドライバ、ファームウェア、 BIOS のバージョンをで確認しておく必要があります https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]。
 
 .このタスクについて
 ドライバ、ファームウェア、 BIOS 、 HBA ユーティリティは HBA ベンダーから提供されます。
@@ -29,4 +29,4 @@ ESX ホストの FC ホストバスアダプタ（ HBA ）でサポート対象�
 
 * 関連情報 *
 
-http://["VMware の技術情報アーティクル 1002413 ：「 Identifying the firmware of a Qlogic or Emulex FC HBA"]
+http://kb.vmware.com/kb/1002413["VMware の技術情報アーティクル 1002413 ：「 Identifying the firmware of a Qlogic or Emulex FC HBA"]

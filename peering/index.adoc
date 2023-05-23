@@ -36,7 +36,7 @@ ONTAP 9.3 の ONTAP System Manager では、クラスタ間および SVM 間の�
  a| 
 再設計された System Manager （ ONTAP 9.7 以降で使用可能）
  a| 
-* https://["System Manager を使用したクラスタ管理"^]
+* https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["System Manager を使用したクラスタ管理"^]
 
 
 
@@ -44,11 +44,11 @@ ONTAP 9.3 の ONTAP System Manager では、クラスタ間および SVM 間の�
  a| 
 ONTAP コマンドラインインターフェイス（ CLI ）
  a| 
-* https://["CLI を使用したクラスタと SVM のピアリングの概要"^]
+* https://docs.netapp.com/us-en/ontap/peering/index.html["CLI を使用したクラスタと SVM のピアリングの概要"^]
 +
 コマンドラインインターフェイスを使用して、クラスタピア関係と SVM ピア関係を設定してください。
 
-* https://["Network Management の略"^]
+* https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"^]
 +
 サブネット、クラスタ間 LIF 、ルート、ファイアウォールポリシーなど、ネットワークコンポーネントを設定するには、コマンドラインインターフェイスを使用してください
 

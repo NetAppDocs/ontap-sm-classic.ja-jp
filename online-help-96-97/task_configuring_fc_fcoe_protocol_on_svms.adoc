@@ -57,4 +57,4 @@ LIF の作成に失敗した場合は、 FC / FCoE ウィンドウで LIF を作
 
 * 関連情報 *
 
-https://["ONTAP 9 ドキュメンテーション・センター"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]

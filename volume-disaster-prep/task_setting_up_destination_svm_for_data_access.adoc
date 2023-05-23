@@ -46,4 +46,4 @@ summary: デスティネーションボリュームが格納された SVM で必
 
 * 関連情報 *
 
-https://["ONTAP 9 ドキュメンテーション・センター"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]

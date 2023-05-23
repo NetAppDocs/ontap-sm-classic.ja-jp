@@ -15,4 +15,4 @@ System Manager を使用して、 Windows のグループやユーザアカウ�
 
 * 関連情報 *
 
-https://["SMB / CIFS の管理"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"]

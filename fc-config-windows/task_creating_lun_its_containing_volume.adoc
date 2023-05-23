@@ -46,4 +46,4 @@ image::../media/lun_creation_thin_provisioned_windows_fc_windows.gif[[ シンプ
 
 * 関連情報 *
 
-https://["システム管理"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["システム管理"]

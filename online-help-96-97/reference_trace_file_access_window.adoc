@@ -108,6 +108,6 @@ NFS プロトコルを指定した場合、指定したパラメータに基づ�
 
 * 関連情報 *
 
-https://["SMB / CIFS の管理"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB / CIFS の管理"]
 
 xref:../nas-multiprotocol-config/index.html[SMB / CIFS および NFS のマルチプロトコル構成]

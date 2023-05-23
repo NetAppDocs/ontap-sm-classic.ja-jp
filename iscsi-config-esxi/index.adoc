@@ -19,8 +19,8 @@ ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）
 * iSCSI に CHAP 認証を使用しない。
 * サポートされているバージョンの Virtual Storage Console for VMware vSphere （ VSC ）を使用して ESX ホストのストレージを設定している。
 +
-** VSC 7.0 以降、 VSC はの一部です https://["VMware vSphere 向け ONTAP ツール"^] VSC 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンス。
-** 必ずを確認してください https://["NetApp Interoperability Matrix Tool で確認できます"^] 現在の ONTAP リリースと VSC リリースの互換性を確認するため。
+** VSC 7.0 以降、 VSC はの一部です https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere 向け ONTAP ツール"^] VSC 、 vStorage APIs for Storage Awareness （ VASA ） Provider 、および Storage Replication Adapter （ SRA ） for VMware vSphere の機能を搭載した仮想アプライアンス。
+** 必ずを確認してください https://imt.netapp.com/matrix/["NetApp Interoperability Matrix Tool で確認できます"^] 現在の ONTAP リリースと VSC リリースの互換性を確認するため。
 
 
 * ネットワークで IPv4 アドレスを使用している。
@@ -42,4 +42,4 @@ ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）
 * VM のストレージを ESXi ハイパーバイザーから提供しており、 VM で iSCSI イニシエータを実行していない。
 
 
-詳細については、を参照してください https://["TR-4597 ：『 VMware vSphere for ONTAP 』"^] および VSC リリースのドキュメントを参照してください。
+詳細については、を参照してください https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["TR-4597 ：『 VMware vSphere for ONTAP 』"^] および VSC リリースのドキュメントを参照してください。

@@ -23,7 +23,7 @@ iSCSI ポートは vSphere Client を使用してバインドできます。
 
 詳細な手順については、使用している ESXi 5 のバージョンに対応する VMware vSphere Storage_ を参照してください。
 
-http://["VMware"]
+http://www.vmware.com["VMware"]
 
 .手順
 . vSphere Client の iSCSI ソフトウェアアダプタ * アダプタの詳細 * ダイアログボックスの * ネットワークポートバインド * タブを使用して、最初の iSCSI ポートを iSCSI ソフトウェアアダプタにバインドします。

@@ -43,4 +43,4 @@ System Manager では、次のアプリケーションを設定できます。
 
 * 関連情報 *
 
-https://["ONTAP の概念"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"]

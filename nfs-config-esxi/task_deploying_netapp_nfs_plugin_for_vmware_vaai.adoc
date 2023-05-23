@@ -19,7 +19,7 @@ NFS プラグインをインストールする ESXi ホスト上の仮想マシ�
 .手順
 . NFS Plug-in for VMware VAAI をダウンロードします。
 +
-https://["ネットアップサポート"]
+https://mysupport.netapp.com/site/global/dashboard["ネットアップサポート"]
 
 +
 最新のプラグインのオンライン・バンドル（「 NetAppNasPlugIn.vib` 」）をダウンロードする必要があります

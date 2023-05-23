@@ -42,4 +42,4 @@ SVM 管理者は、ジョブ、ネットワーク接続、ネットワークイ�
 
 * 関連情報 *
 
-https://["ONTAP 9 ドキュメンテーション・センター"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]

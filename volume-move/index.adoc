@@ -53,14 +53,14 @@ ONTAP 9.5 を実行する NVMe 構成では、ボリューム移動はサポー�
  a| 
 再設計された System Manager （ ONTAP 9.7 以降で使用可能）
  a| 
-https://["ボリュームを管理します"^]
+https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["ボリュームを管理します"^]
 
 
 
  a| 
 ONTAP コマンドラインインターフェイス
  a| 
-https://["論理ストレージ管理"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]
 
 |===
 
@@ -71,10 +71,10 @@ https://["論理ストレージ管理"^]
 
 * コントローラを無停止でインプレースアップグレードする場合は、アグリゲートの再配置（ ARL ）を使用できないかどうかを検討してください。 ARL は物理的なデータ移動を必要としません。
 +
-https://["高可用性"^]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html["高可用性"^]
 
 * 移動するのが LUN のみで、ボリュームは移動しない場合は、 LUN の移動プロセスを使用できます。
 +
-https://["SAN 管理"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
 
 

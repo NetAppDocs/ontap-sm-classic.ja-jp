@@ -14,4 +14,4 @@ summary: ONTAP の管理の詳細については、 ONTAP 9 製品ライブラ�
 ONTAP の管理の詳細については、 ONTAP 9 製品ライブラリを参照してください。
 
 .関連情報
-https://["ONTAP 9 ドキュメンテーション・センター"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]

@@ -22,6 +22,6 @@ ONTAP System Manager クラシック（ 9.7 以前のバージョンで使用可
 ====
 * 関連情報 *
 
-https://["ONTAP の概念"^]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP の概念"^]
 
-https://["論理ストレージ管理"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["論理ストレージ管理"^]

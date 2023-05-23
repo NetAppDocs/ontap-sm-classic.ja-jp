@@ -46,4 +46,4 @@ image::../media/lun_creation_thin_provisioned_linux_fc_rhel.gif[[ シンプロ�
 
 * 関連情報 *
 
-https://["システム管理"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["システム管理"]

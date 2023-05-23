@@ -152,4 +152,4 @@ SNMP サーバのセキュリティ形式が表示されます。
 
 * 関連情報 *
 
-https://["Network Management の略"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]

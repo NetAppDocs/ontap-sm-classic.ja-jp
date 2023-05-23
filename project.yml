@@ -7,7 +7,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   search: ontap
-  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: System Manager Classic のドキュメント

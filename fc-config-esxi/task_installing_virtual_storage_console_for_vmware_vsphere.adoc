@@ -23,7 +23,7 @@ ESXi ホストの管理に使用する vCenter Server に対する管理者ク�
 .手順
 . Interoperability Matrix Tool を参照し、現在の構成でサポートされているバージョンの Virtual Storage Console をダウンロードします。
 +
-https://["ネットアップサポート"]
+https://mysupport.netapp.com/site/global/dashboard["ネットアップサポート"]
 
 . 導入およびセットアップガイドの手順に従って、仮想アプライアンスを導入して設定します。
 

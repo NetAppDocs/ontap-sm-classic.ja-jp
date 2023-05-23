@@ -19,13 +19,13 @@ Interoperability Matrix を使用して、構成に対してサポートされ�
 .手順
 . ネットアップサポートサイトからサポートされているバージョンの Linux Unified Host Utilities をダウンロードします。
 +
-http://["ネットアップのダウンロード：ソフトウェア"]
+http://mysupport.netapp.com/NOW/cgi-bin/software["ネットアップのダウンロード：ソフトウェア"]
 
 . インストールマニュアルの手順に従って、 Linux Unified Host Utilities ソフトウェアをインストールします。
 . tuned パッケージがインストールされていない場合は、「 yum install tuned 」コマンドを入力します
 . 物理ホストの場合は 'enterprise-storaged' プロファイル： tuned-adm profile enterprise-storaged' が設定されていることを確認します
 . 仮想ホストの場合は 'virtual-guest' プロファイル :tuned-adm profile virtual-guest' が設定されていることを確認します
 +
-https://["Linux Unified Host Utilities 7.1 のインストール"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936["Linux Unified Host Utilities 7.1 のインストール"]
 
 

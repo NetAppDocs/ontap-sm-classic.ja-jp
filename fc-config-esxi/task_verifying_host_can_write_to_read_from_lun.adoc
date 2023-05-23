@@ -39,4 +39,4 @@ LUN の作成先のクラスタノードがパートナーノードにフェイ�
 
 * 関連情報 *
 
-https://["ONTAP 9 ハイアベイラビリティ構成"]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html["ONTAP 9 ハイアベイラビリティ構成"]

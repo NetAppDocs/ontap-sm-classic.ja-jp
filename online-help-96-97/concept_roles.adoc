@@ -96,4 +96,4 @@ Add Role ダイアログボックスを開きます。このダイアログボ�
 
 * 関連情報 *
 
-https://["管理者認証と RBAC"^]
+https://docs.netapp.com/us-en/ontap/authentication/index.html["管理者認証と RBAC"^]

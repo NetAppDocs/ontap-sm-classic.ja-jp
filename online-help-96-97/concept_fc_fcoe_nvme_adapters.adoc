@@ -29,4 +29,4 @@ System Manager の FC / FCoE および NVMe アダプタの設定の編集ダイ
 
 xref:reference_network_window.adoc[[ ネットワーク ] ウィンドウ]
 
-https://["Network Management の略"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"]

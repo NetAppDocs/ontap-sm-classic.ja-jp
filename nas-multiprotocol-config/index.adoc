@@ -26,8 +26,8 @@ ONTAP System Manager の従来のインターフェイス（ ONTAP 9.7 以前）
 
 ONTAP NFS および SMB プロトコルの機能の範囲に関する詳細については、次のドキュメントを参照してください。
 
-* https://["NFS の管理"^]
-* https://["SMB の管理"^]
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS の管理"^]
+* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB の管理"^]
 
 
 

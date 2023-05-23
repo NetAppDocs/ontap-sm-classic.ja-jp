@@ -16,7 +16,7 @@ ONTAP 9.7 以前では、 ONTAP System Manager の _classic_ インターフェ�
 .このタスクについて
 ONTAP のすべてのバージョンで、 SNMPv3 はクラスタレベルでデフォルトで有効になっており、 SNMPv1 と SNMPv2c はデフォルトで無効になっています。SNMPv1 と SNMPv2c は、 SNMP コミュニティを作成すると有効になります。
 
-データ LIF では、 SNMP はデフォルトで無効になっています。データ LIF で SNMP を有効にする方法については、を参照してください https://["Network Management の略"^]。
+データ LIF では、 SNMP はデフォルトで無効になっています。データ LIF で SNMP を有効にする方法については、を参照してください https://docs.netapp.com/us-en/ontap/networking/index.html["Network Management の略"^]。
 
 .手順
 . 溝アイコンをクリックします。

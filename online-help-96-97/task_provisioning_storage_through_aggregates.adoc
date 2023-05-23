@@ -315,4 +315,4 @@ FabricPool 対応アグリゲートは、オールフラッシュ（オール SS
 
 * 関連情報 *
 
-http://["ネットアップテクニカルレポート 4070 ：『 Flash Pool Design and Implementation 』"^]
+http://www.netapp.com/us/media/tr-4070.pdf["ネットアップテクニカルレポート 4070 ：『 Flash Pool Design and Implementation 』"^]

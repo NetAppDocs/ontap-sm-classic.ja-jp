@@ -20,7 +20,7 @@ NFS に使用するホストポートとストレージクラスタポートに�
 
 このタスクでは、 ESXi ホストを設定するための手順の概要を示します。詳細な手順については、使用している ESXi のバージョンに対応した VMware の出版物 _Storage_ を参照してください。
 
-http://["VMware"]
+http://www.vmware.com["VMware"]
 
 .手順
 . vSphere Client にログインし、インベントリペインから ESXi ホストを選択します。

@@ -17,4 +17,4 @@ image::../media/updating_cluster.gif[クラスタを更新しています]
 
 * 関連情報 *
 
-https://["ONTAP をアップグレードします"]
+https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html["ONTAP をアップグレードします"]
