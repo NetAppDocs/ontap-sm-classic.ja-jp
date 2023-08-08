@@ -1520,18 +1520,15 @@
   <block id="b1d6c3bc5dbf7b37cbdbe937bcacaae1" category="list-text">関係タイプとして * ミラー * を選択します。</block>
   <block id="db9f6468d4481688fa9033abc1963271" category="list-text">デスティネーションクラスタ、デスティネーション SVM 、およびデスティネーションボリュームの名前に付けるサフィックスを選択します。</block>
   <block id="00eb0c752078cdbcec9dd22b17ea3c76" category="paragraph">デスティネーション SVM のリストには、ピア関係が設定された SVM と許可されている SVM のみが表示</block>
-  <block id="1ec1faf69d8ee6e200c521f39fba978d" category="list-text">をクリックします <block ref="a1671da25382ecdf2e7c60b53cc3fc3d" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="b690261847676d1036c0d37c3ab9e7cd" category="list-text">[ 詳細オプション *] ダイアログボックスで、「すべてのスナップショット」が保護ポリシーとして設定されていることを確認します。</block>
   <block id="cc4e6ab08b9e6aa23e33393c70c86c2c" category="paragraph">「デフォルト」および「最新」は、 SnapMirror 関係で使用できるその他のデフォルトの保護ポリシーです。</block>
   <block id="63aac8665b835b82daf050f515b927ed" category="list-text">保護スケジュールを選択します。</block>
   <block id="75ab9bcce7f0d478affeb55e4cd67a60" category="paragraph">デフォルトでは ' 時間単位のスケジュールが選択されています</block>
   <block id="0531876d83d0e6dd65845a4e72053423" category="paragraph">デフォルトでは、すべてのデータ保護関係が初期化されます。SnapMirror 関係を初期化すると、デスティネーションボリュームのベースラインでソースボリュームの保護が開始されるようになります。</block>
-  <block id="b0d23a57325c3084c24baecf58667326" category="image-alt">SnapMirror の詳細オプション 93</block>
   <block id="acb8bdf1358d7537887f6dc69f5224e6" category="list-text">保存 * をクリックして、 SnapMirror 関係を作成します。</block>
   <block id="ec658862dd1e10953fce5b7f177f02f1" category="list-text">SnapMirror 関係のステータスが「 SnapMirro 済み」であることを確認します。</block>
   <block id="376cacbb467173386e24f40a767d478b" category="list-text">* Volumes * ウィンドウに移動し、 SnapMirror 関係を作成したボリュームを選択します。</block>
   <block id="e01451bc5d1145df607e72e46d03d5d2" category="list-text">ボリュームをダブルクリックしてボリュームの詳細を表示し、 * protection * をクリックしてボリュームのデータ保護ステータスを表示します。</block>
-  <block id="67dfc6258a4d7b0eef457b3eeb43e734" category="image-alt">SnapMirror 9 3.</block>
   <block id="028fafb74e3b83afc82a43a425f93cb9" category="paragraph">ソースボリュームのシンプロビジョニング、重複排除、圧縮、および自動拡張の設定を書き留めておく必要があります。この情報は、 SnapMirror 関係を解除するときにデスティネーションボリュームの設定を確認するために使用します。</block>
   <block id="c3ac504be8df36e9eac8ddbefb0af128" category="doc">ボリュームのディザスタリカバリの準備の概要</block>
   <block id="fab2eed20be80651a7c2f147ec027380" category="paragraph">SnapMirror を使用すると、ブロックレベルの非同期データ保護をスケジュールに従って実行できます。Snapshot コピーがレプリケートされるだけでなく、 qtree や LUN を含むボリュームなど、重複排除やデータ圧縮を実行している NAS または SAN のボリュームもレプリケートできます。SnapMirror の設定情報はデータベースに格納され、 ONTAP がクラスタ内のすべてのノードにレプリケートします。</block>
@@ -1550,19 +1547,15 @@
   <block id="b9e731d70942ebb8ed00f2fa9bec2b26" category="list-text">ミラー関係を作成するボリュームを選択し、 * Protect * をクリックします。</block>
   <block id="c6f72273f7a337fe5b7d4335bbc864cc" category="paragraph">Create Protection Relationship ウィンドウが表示されます。</block>
   <block id="bf3c24cccf670b34d6776b8942e7a929" category="list-text">デフォルトのボリューム名を使用するか、新しいボリューム名を指定します。</block>
-  <block id="25889688d2dab599f422759da9889d11" category="image-alt">デスティネーションボリュームの設定</block>
   <block id="9f010bb70a3cf9f282ab15c52a375d90" category="list-text">「 * Configuration Details * 」セクションで、ミラーポリシーとして「 * MirrorAllSnapshots * 」を選択します。</block>
   <block id="daf602eff6257ccc1585152cfa264dff" category="paragraph">「デフォルト」および「最新」は、 SnapMirror 関係で使用できるその他のデフォルトミラーポリシーです。</block>
   <block id="962acae637b5a6d13230ba6c3c1db5e2" category="list-text">[Initialize Relationship *] チェックボックスがオンになっていることを確認し、 [*Create] をクリックします。</block>
   <block id="9006c9f92be4bea3381f69a4a4f9506b" category="paragraph">SnapMirror 関係を初期化すると、デスティネーションボリュームのベースラインでソースボリュームの保護が開始されるようになります。</block>
-  <block id="3dd7b013b73a1c6f7e075f0af837ac53" category="image-alt">SnapMirror 関係の作成ウィンドウ</block>
   <block id="6b30a92bd990fd6bdf7ef4a3b009417a" category="paragraph">関係が初期化されて、ソースボリュームからデスティネーションボリュームへのデータのベースライン転送が開始されます。</block>
   <block id="71f4dfe0a538ccc961465fbef08d3f18" category="paragraph">初期化処理には時間がかかることがあります。[ ステータス ] セクションには、各ジョブのステータスが表示されます。</block>
-  <block id="ca5b32513c7bc82739ecbb42c0816f5a" category="image-alt">SnapMirror の作成 3 が完了しました</block>
   <block id="1e09209118660dffb580a75afff21cd6" category="list-text">SnapMirror 関係のステータスを確認します。</block>
   <block id="72ec6eb58743e16b28503a78409f276c" category="list-text">SnapMirror 関係を作成したボリュームを * Volumes * リストから選択し、 * Data Protection * をクリックします。</block>
   <block id="ed8df297d64d8ea7830711d96a0f8774" category="list-text">[*Data Protection*] タブで、作成した SnapMirror 関係が一覧表示され、関係の状態が「 SnapMirro 済み」であることを確認します。</block>
-  <block id="5e8ac563a17019f0db410450d785301b" category="image-alt">SnapMirror で 4 つの検証を作成します</block>
   <block id="68a72c4f0d10ac6839e0375d3928fa57" category="summary">ESX ホストでの iSCSI 接続の作成には、 iSCSI ソフトウェアアダプタを使用します。オペレーティングシステムに組み込まれていますが、使用する前に有効にする必要があります。</block>
   <block id="6cdd97434cbf9318bb1de2b48aa3ae42" category="doc">iSCSI ソフトウェアアダプタを有効にします</block>
   <block id="3e8a0479e6236311161f3bbf8c57540c" category="paragraph">VMware vSphere Client がワークステーションにインストールされているか、 vSphere Web Client にアクセスできる必要があります。</block>
@@ -5159,7 +5152,6 @@
   <block id="c842c22df9a9299adc48cc2c940a56e3" category="list-text">[ * 休止 ] ウィンドウで、 [ * 休止 ] をクリックします。</block>
   <block id="d48c8b246d92a7c78407fc86df071671" category="summary">System Manager は、グラフィカルな管理インターフェイスで、ストレージシステムおよびストレージオブジェクト（ディスク、ボリューム、アグリゲートなど）の管理やストレージシステムに関連する一般的な管理作業を Web ブラウザから実行できます。クラスタ管理者は、クラスタとそのリソースを System Manager ですべて管理できます。</block>
   <block id="3ce055103da31ce1df71764f20016d59" category="doc">OnCommand ® System Manager を使用したクラスタ管理</block>
-  <block id="0c8ff84025de62a7a5aeea1fe6d60ebf" category="paragraph">System Manager は実行ファイルとしては提供されなくなりました。 Web サービスとして ONTAP ソフトウェアに搭載されており、デフォルトで有効になっていて、ブラウザからアクセスできます。</block>
   <block id="08528f0f39e6782683d545afe6b1f198" category="paragraph">System Manager は、以前のバージョンから名称が変更されています。バージョン 9.5 以前は OnCommand System Manager でしたが、バージョン 9.6 以降は ONTAP System Manager になります。</block>
   <block id="9270ee495bc464b61000cccd332db6a6" category="paragraph">System Manager では、次のような多くの一般的な作業を実行できます。</block>
   <block id="160e6c815686e81a07d0da8d6912bd7d" category="list-text">クラスタを作成し、ネットワークを設定し、クラスタのサポートの詳細を設定する。</block>
@@ -9260,4 +9252,13 @@
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">ライセンスの管理の概要</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">ライセンスの管理の詳細については、を参照してください <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>。</block>
   <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
+  <block id="5c210c9c66a924b033442506eda7fd06" category="paragraph">System Managerは、HTML5ベースのグラフィカルな管理インターフェイスで、ストレージシステムとストレージオブジェクト（ディスク、ボリューム、アグリゲートなど）の管理やストレージシステムに関連する一般的な管理タスクをWebブラウザから実行できます。System ManagerはWebサービスとしてONTAPソフトウェアに搭載されており、デフォルトで有効になっていて、ブラウザからアクセスできます。クラスタ管理者は、クラスタとそのリソースを System Manager ですべて管理できます。</block>
+  <block id="f45292349272c0e8d698e0559d3516b8" category="image-alt">デスティネーションボリュームの設定</block>
+  <block id="66329551f2e91e48bc40cabcda0d761b" category="image-alt">[Create SnapMirror]ウィンドウ</block>
+  <block id="1338eec46c9b0932a879be3427d074eb" category="image-alt">SnapMirrorが作成されました</block>
+  <block id="f7d9fc01c37002a8f4bfc1d0c51eebee" category="image-alt">関係が作成されたことを確認</block>
+  <block id="dd69bf72e13ac23bfd95e008374ecb5d" category="inline-image-macro">[詳細オプション]アイコン</block>
+  <block id="ef801f1f815e00496ec892cdfa53d06d" category="list-text">をクリックします <block ref="215361fd1fc3c1e3c1287fe809a1790a" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="52d4c2f2276b49422642781ce12ded0c" category="image-alt">[詳細オプション]ウィンドウ</block>
+  <block id="f730116d3cb429cf0e30f40c1db51df9" category="image-alt">SnapMirrorステータスのスクリーンショット</block>
 </blocks>

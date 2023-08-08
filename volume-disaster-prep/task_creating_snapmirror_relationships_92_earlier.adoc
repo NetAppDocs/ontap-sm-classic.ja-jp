@@ -74,7 +74,7 @@ image::../media/destination_volume_settings.gif[デスティネーションボ�
 SnapMirror 関係を初期化すると、デスティネーションボリュームのベースラインでソースボリュームの保護が開始されるようになります。
 
 +
-image::../media/create_snapmirror_relationship_window.gif[SnapMirror 関係の作成ウィンドウ]
+image::../media/create_snapmirror_relationship_window.gif[[Create SnapMirror]ウィンドウ]
 
 +
 関係が初期化されて、ソースボリュームからデスティネーションボリュームへのデータのベースライン転送が開始されます。
@@ -83,14 +83,14 @@ image::../media/create_snapmirror_relationship_window.gif[SnapMirror 関係の�
 初期化処理には時間がかかることがあります。[ ステータス ] セクションには、各ジョブのステータスが表示されます。
 
 +
-image::../media/snapmirror_create_3_successful.gif[SnapMirror の作成 3 が完了しました]
+image::../media/snapmirror_create_3_successful.gif[SnapMirrorが作成されました]
 
 . SnapMirror 関係のステータスを確認します。
 +
 .. SnapMirror 関係を作成したボリュームを * Volumes * リストから選択し、 * Data Protection * をクリックします。
 .. [*Data Protection*] タブで、作成した SnapMirror 関係が一覧表示され、関係の状態が「 SnapMirro 済み」であることを確認します。
 +
-image::../media/snapmirror_create_4_verify.gif[SnapMirror で 4 つの検証を作成します]
+image::../media/snapmirror_create_4_verify.gif[関係が作成されたことを確認]
 
 
 

@@ -32,7 +32,7 @@ summary: ディザスタリカバリ用にデータをレプリケートする�
 +
 デスティネーション SVM のリストには、ピア関係が設定された SVM と許可されている SVM のみが表示
 
-.. をクリックします image:../media/advanced_options_icon_disaster.gif[""]。
+.. をクリックします image:../media/advanced_options_icon_disaster.gif["[詳細オプション]アイコン"]。
 .. [ 詳細オプション *] ダイアログボックスで、「すべてのスナップショット」が保護ポリシーとして設定されていることを確認します。
 +
 「デフォルト」および「最新」は、 SnapMirror 関係で使用できるその他のデフォルトの保護ポリシーです。
@@ -47,7 +47,7 @@ summary: ディザスタリカバリ用にデータをレプリケートする�
 
 .. [ 適用（ Apply ） ] をクリックして、変更を保存する。
 +
-image::../media/snapmirror_advanced_options_93.gif[SnapMirror の詳細オプション 93]
+image::../media/snapmirror_advanced_options_93.gif[[詳細オプション]ウィンドウ]
 
 
 
@@ -59,7 +59,7 @@ image::../media/snapmirror_advanced_options_93.gif[SnapMirror の詳細オプシ
 
 
 +
-image::../media/snapmirror_9_3.gif[SnapMirror 9 3.]
+image::../media/snapmirror_9_3.gif[SnapMirrorステータスのスクリーンショット]
 
 
 
