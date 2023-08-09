@@ -35,6 +35,11 @@ MetroCluster 構成用にディスクを再割り当てする場合は、コマ�
 
 
 
+[NOTE]
+====
+以降のONTAPリリースでは、ONTAP CLIを使用してディスク所有権を削除し、新しい所有者を割り当てます。
+
+====
 .手順
 . Storage * > * Aggregates & Disks * > * Disks * をクリックします。
 . [* Disks （ディスク） ] ウィンドウで、 [* Inventory （インベントリ） ] タブを選択します。
@@ -42,4 +47,10 @@ MetroCluster 構成用にディスクを再割り当てする場合は、コマ�
 . 警告 * （ * Warning * ）ダイアログボックスで、 * 続行 * （ * Continue * ）をクリックします。
 . ディスクの割り当て * ダイアログボックスで、ディスクを再割り当てするノードを選択します。
 . [*Assign*] をクリックします。
+
+
+.関連情報
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/remove-ownership-disk-task.html["ONTAP CLIを使用したディスク所有権の削除（ONTAP 9.3以降）"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/disk-autoassignment-policy-concept.html["ONTAP CLIを使用したディスクの自動割り当て（ONTAP 9.3以降）"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/manual-assign-disks-ownership-manage-task.html["ONTAP CLIを使用したディスクの手動割り当て（ONTAP 9.3以降）"]
 
