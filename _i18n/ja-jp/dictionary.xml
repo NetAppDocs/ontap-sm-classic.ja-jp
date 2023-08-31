@@ -5003,7 +5003,6 @@
   <block id="a1036b59d73505365ef378243a1e483a" category="list-text">リモート認証に使用する IdP を設定する必要があります。</block>
   <block id="72577700d76e5482df206852d16b3918" category="paragraph">設定済みの IdP から提供されたドキュメントを参照してください。</block>
   <block id="3a9e3f68d0c667f8a7b447e51b0c8cba" category="list-text">IdP の URI が必要です。</block>
-  <block id="de421c081fd7f349421dae3208f4659f" category="paragraph">System Manager で検証済みの IdP は、 Shibboleth および Active Directory フェデレーションサービスです。</block>
   <block id="fa8cd930b8e2dc9dc9fd65817b5ce669" category="paragraph">SAML 認証を有効にした場合、 System Manager の GUI にアクセスできるのはリモートユーザだけです。ローカルユーザは、 SAML 認証を有効にしたあとで System Manager GUI にアクセスできません。</block>
   <block id="384442b2283e770fe0861c6ff52fe9ca" category="list-text">[ * Configuration * ] &gt; [* Cluster *] &gt; [* Authentication *] をクリックします。</block>
   <block id="a7d79b434e817cf2263ffd64d11515ad" category="list-text">Enable SAML authentication * チェックボックスをオンにします。</block>
@@ -9268,4 +9267,14 @@
   <block id="fdfcc2567d3a9cc9343a1e14e2a5778e" category="list-text"><block ref="fdfcc2567d3a9cc9343a1e14e2a5778e" category="inline-link-macro-rx"></block></block>
   <block id="a3f857c78c1b112becd5a124491290c0" category="inline-link-macro">ONTAP CLIを使用したディスクの手動割り当て（ONTAP 9.3以降）</block>
   <block id="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="list-text"><block ref="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="inline-link-macro-rx"></block></block>
+  <block id="d3804326967b3c4d0d1fe456e58f9e3c" category="paragraph">次のIdPがSystem Managerで検証されました。</block>
+  <block id="3a6d511a9d218e11dc64c9d43b7d1d73" category="list-text">Active Directoryフェデレーションサービス</block>
+  <block id="76d715baa02451f676fce832bea3cab0" category="list-text">Cisco Duo（次のONTAPバージョンで検証済み）</block>
+  <block id="99ee2d51ff9d719a2f4ed99cdd7e8201" category="list-text">9.7P21以降の9.7リリース</block>
+  <block id="7dec5294fcbec488e754eddbe6ba09b4" category="list-text">9.8P17以降の9.8リリース</block>
+  <block id="0802d2f599d23393bab9380c14849ce2" category="list-text">9.9.1P13以降の9.9リリース</block>
+  <block id="761c4970281fb273f713e924e77278ad" category="list-text">9.10.1P9以降の9.10リリース</block>
+  <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4以降の9.11リリース</block>
+  <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1以降のリリース</block>
+  <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Shibboleth</block>
 </blocks>

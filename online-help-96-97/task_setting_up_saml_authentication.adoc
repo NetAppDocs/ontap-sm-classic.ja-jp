@@ -33,7 +33,21 @@ System Manager では、セキュアなアイデンティティプロバイダ�
 
 
 .このタスクについて
-System Manager で検証済みの IdP は、 Shibboleth および Active Directory フェデレーションサービスです。
+次のIdPがSystem Managerで検証されました。
+
+* Active Directoryフェデレーションサービス
+* Cisco Duo（次のONTAPバージョンで検証済み）
++
+** 9.7P21以降の9.7リリース
+** 9.8P17以降の9.8リリース
+** 9.9.1P13以降の9.9リリース
+** 9.10.1P9以降の9.10リリース
+** 9.11.1P4以降の9.11リリース
+** 9.12.1以降のリリース
+
+
+* Shibboleth
+
 
 [NOTE]
 ====
