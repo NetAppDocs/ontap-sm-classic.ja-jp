@@ -33,7 +33,7 @@ entries:
     url: "/smb-config/task_verifying_smb_client_access.html"
   - title: CIFS クライアントアクセスを設定して確認
     url: "/smb-config/task_configuring_verifying_client_access.html"
-- title: CIFS 対応 SVM に CIFS ボリュームを AD する
+- title: CIFS 対応 SVM に CIFS ボリュームを追加
   url: "/smb-config/concept_adding_protocol_volume_to_protocol_enabled_svm.html"
   entries:
   - title: ボリュームを作成して設定
