@@ -6,7 +6,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  search: ontap
+  search: ontap-sm-classic, ontap
   langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
@@ -45,68 +45,6 @@ sidebar:
     url: https://docs.netapp.com/us-en/ontap/
   - title: 法的通知
     url: "/reference_legal_notices.html"
-homepage:
-  tiles:
-  - title: はじめに
-    links:
-    - title: Understanding System Manager Classic 』を参照してください
-      url: "/online-help-96-97/index.html"
-    - title: ONTAP 9.7 以降では、次世代の System Manager を使用して ONTAP を管理できます
-      url: https://docs.netapp.com/us-en/ontap/concept_administration_overview.html
-    - title: CLI を使用して ONTAP を管理します
-      url: https://docs.netapp.com/us-en/ontap/system-admin/index.html
-  - title: NAS ストレージをプロビジョニングする
-    links:
-    - title: NFS の設定
-      url: "/nfs-config/index.html"
-    - title: VSC を使用した ESXi 向けの NFS 設定
-      url: "/nfs-config-esxi/index.html"
-    - title: SMB および NFS マルチプロトコルの設定
-      url: "/nas-multiprotocol-config/index.html"
-    - title: SMB の設定
-      url: "/smb-config/index.html"
-  - title: SAN ストレージをプロビジョニング
-    links:
-    - title: VSC を使用した ESXi の FC 構成
-      url: "/fc-config-esxi/index.html"
-    - title: Red Hat Enterprise Linux 向けの FC の設定
-      url: "/fc-config-rhel/index.html"
-    - title: Windows 向けの FC 構成
-      url: "/fc-config-windows/index.html"
-    - title: VSC を使用した ESXi 向けの iSCSI 設定
-      url: "/iscsi-config-esxi/index.html"
-    - title: Red Hat Enterprise Linux 向けの iSCSI の設定
-      url: "/iscsi-config-rhel/index.html"
-    - title: Windows 向けの iSCSI 構成
-      url: "/iscsi-config-windows/index.html"
-  - title: データ保護とディザスタリカバリ
-    links:
-    - title: クラスタと SVM のピア関係設定
-      url: "/peering/index.html"
-    - title: ボリュームディザスタリカバリ
-      url: "/volume-disaster-recovery/index.html"
-    - title: ボリュームのディザスタリカバリの準備
-      url: "/volume-disaster-prep/index.html"
-    - title: Volume Backup SnapVault の略
-      url: "/volume-backup-snapvault/index.html"
-    - title: SnapVault を使用したボリュームリストアの管理
-      url: "/volume-restore-snapvault/index.html"
-  - title: クラスタ管理
-    links:
-    - title: クラスタ拡張構成
-      url: "/expansion/index.html"
-    - title: ボリューム移動の管理
-      url: "/volume-move/index.html"
-    - title: SNMP の設定
-      url: "/snmp-config/index.html"
-    - title: System Manger 9.6 および 9.7 を使用してクラスタを管理する
-      url: "/online-help-96-97/index.html"
-  - title: リソースの追加
-    links:
-    - title: ONTAP 9 のドキュメント
-      url: https://docs.netapp.com/us-en/ontap/
-    - title: 自動化および REST API のドキュメント
-      url: https://docs.netapp.com/us-en/ontap-automation/index.html
 product-family:
   name: ONTAP
   repo: ontap-family
